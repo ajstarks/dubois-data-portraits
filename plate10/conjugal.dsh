@@ -1,0 +1,32 @@
+// Plate 10: Conjugal Condition, W.E.B Du Bois's Data Portraits
+opts="-fulldeck=f -pmap -val=f -textsize 1.4"
+titlecolor="rgb(100,100,100)"
+deck
+	slide
+		dchart opts -top 80 conjugal1.d	
+		dchart opts -top 70 conjugal2.d	
+		dchart opts -top 50 conjugal3.d	
+		dchart opts -top 40 conjugal4.d	
+		dchart opts -top 20 conjugal5.d
+		dchart opts -top 10 conjugal6.d
+		ctext "CONJUGAL CONDITION" 50 95 2.5 "serif"
+		ctext "GERMANY" 		10 80 1.5 "sans" titlecolor
+		ctext "Age 15-40"		10 75 2   "sans" titlecolor
+		ctext "NEGROES" 		10 70 1.5 "sans" titlecolor
+
+		ctext "GERMANY" 		10 50 1.5 "sans" titlecolor
+		ctext "Age 40-60"		10 45 2   "sans" titlecolor
+		ctext "NEGROES" 		10 40 1.5 "sans" titlecolor
+
+		ctext "GERMANY" 		10 20 1.5 "sans" titlecolor
+		ctext "Age 60 and over"	10 15 2   "sans" titlecolor
+		ctext "NEGROES" 		10 10 1.5 "sans" titlecolor
+
+		circle 20 90 1.5 "red" 50
+		text   "SINGLE" 22 89.4 1.2 "sans" titlecolor
+		circle 50 90 1.5 "darkorange" 50
+		text   "MARRIED" 52 89.4 1.2 "sans" titlecolor
+		circle 80 90 1.5 "green" 50
+		text   "WIDOWED AND DIVORCED" 82 89.4 1.2 "sans" titlecolor
+	eslide
+edeck

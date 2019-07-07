@@ -1,0 +1,39 @@
+deck
+	slide
+		spacing=20
+		labelsize=2
+		labelcolor="rgb(100,100,100)"
+		t1=vmap 2512 2500 3500 10 18
+		t2=vmap 2500 2500 3500 10 18
+		t3=vmap 3206 2500 3500 10 18
+		t4=vmap 3316 2500 3500 10 18
+
+		ctext "NEGRO TEACHERS IN GEORGIA PUBLIC SCHOOLS" 50 95 2.5
+		y=85
+		circle 50 y t1 "moccasin"
+		y-=18
+		circle 50 y t2 "orange"
+		y-=20
+		circle 50 y t3 "red"
+		y-=25
+		circle 50 y t4 "black"
+
+		y=84
+		ctext "2512" 50 y labelsize "sans" "maroon"
+		y-=18
+		ctext "2500" 50 y labelsize "sans" "rgb(50,50,50)"
+		y-=20
+		ctext "3206" 50 y labelsize "sans" "white"
+		y-=25
+		ctext "3316" 50 y labelsize "sans" "white"
+
+		y=76
+		ctext "1886" 50 y labelsize "serif" labelcolor
+		y-=18
+		ctext "1889" 50 y labelsize "serif" labelcolor
+		y-=24
+		ctext "1893" 50 y labelsize "serif" labelcolor
+		y-=25.5
+		ctext "1897" 50 y labelsize "serif" labelcolor
+	eslide
+edeck

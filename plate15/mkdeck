@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh children.dsh | pdf -sans PublicSans-Regular -serif PublicSans-Bold $*

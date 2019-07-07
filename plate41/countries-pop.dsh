@@ -1,0 +1,59 @@
+deck
+	slide
+		imw=160
+		imh=160
+
+		col1=20
+		col2=col1+30
+		col3=col2+30
+
+		row1y=70
+		row2y=row1y-25
+		row3y=row2y-25
+		labelsize=1.2
+		skip=labelsize*1.8
+
+		ctext "NEGRO POPULATION OF THE UNITED STATES COMPARED WITH THE TOTAL POPULATION OF OTHER COUNTRIES." 50 95 1.5
+		ctext "POPULATION NÈGRE DES ETATS UNIS COMPAREÉ À LA POPULATION TOTALE DES AUTRES PAYS." 50 90 1.5
+
+		// row 1
+		image "esp.png" col1 row1y 200 200
+		image "aus.png" col2 row1y 130 130
+		image "nor.png" col3 row1y imw imh
+		image "swe.png" 82 row1y imw imh
+		textblock "ESPAÑA 17,500,000"     16 71 3 labelsize
+		textblock "AUSTRALIA 3,036,570"   47 71 3 labelsize
+		textblock "NORVÈGE 2,000,917"     70 71 3 labelsize
+		textblock "SUÈDE 4,774,409"       85 71 3 labelsize
+		// row 2
+		image "ned.png" col1 50 100 100
+		image "bel.png" col1 42 100 100
+		image "usa.png" col2 48 imw imh
+		image "sui.png" col3 row2y 120 120
+
+
+		textblock "NEDERLANDEN 4,500,000" 14 52 3 labelsize
+		textblock "LA BELGIQUE 6,000,000"  14 42 3 labelsize
+
+		ulabel=40
+		ctext "U.S.A." col2 ulabel labelsize
+		ulabel-=skip
+		ctext "NEGRO POPULATION" col2 ulabel labelsize
+		ulabel-=skip
+		ctext "POPULATION NOIRE" col2 ulabel labelsize
+		ulabel-=skip
+		ctext "7,500,000" col2 ulabel labelsize
+		textblock "SUISSE 2,900,000" 78 row2y 3 labelsize
+
+		// row 3
+		image "hun.png" col1 row3y 250 250
+		image "bay.png" col2 row3y imw imh
+		image "eng.png" col3 row3y 300 300
+
+		r3l=20
+		textblock "HONGRIE 17,500,000"    16 r3l 3 labelsize
+		textblock "BAYERN 5,800,000"      48 row3y 3 labelsize
+		textblock "ENGLAND 27,500,000"    78 r3l 3 labelsize
+	eslide
+
+edeck

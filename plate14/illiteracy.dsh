@@ -1,0 +1,66 @@
+deck
+	left=33
+	top=85
+	bot=10
+	linewidth=1.5
+	color1="black"
+	color2="rgb(190,190,190)"
+	labelcolor="rgb(50,50,50)"
+	y1p=0.990
+	y2p=0.921
+	y3p=0.816
+	y4p=0.672
+	y5p=0.500
+	spacing=10
+	labely=bot-5
+	labelsize=linewidth
+	l2=left-5
+	lx=left-6
+	slide
+		ctext "ILLITERACY." 50 92 3 "serif"
+		etext "PERCENT OF ILLITERACY" lx bot labelsize "sans" labelcolor
+		y1top=top*y1p
+		ly=y1top-0.8
+		line left bot left y1top linewidth color1
+		line l2 y1top left y1top linewidth color2
+		circle left y1top linewidth color1
+		ctext "99%" left labely labelsize "sans" labelcolor
+		etext "1880" lx ly labelsize "sans" labelcolor
+
+		left+=spacing
+		y2top=top*y2p
+		ly=y2top-0.8
+		line left bot left y2top linewidth color1
+		line l2 y2top left y2top linewidth color2
+		circle left y2top linewidth color1
+		ctext "92.1%" left labely labelsize "sans" labelcolor
+		etext "1870" lx ly labelsize "sans" labelcolor
+
+		left+=spacing
+		y3top=top*y3p
+		ly=y3top-0.8
+		line left bot left y3top linewidth color1
+		line l2 y3top left y3top linewidth color2
+		circle left y3top linewidth color1
+		ctext "81.6%" left labely labelsize "sans" labelcolor
+		etext "1880" lx ly labelsize "sans" labelcolor
+
+		left+=spacing
+		y4top=top*y4p
+		ly=y4top-0.8
+		line left bot left y4top linewidth color1
+		line l2 y4top left y4top linewidth color2
+		circle left y4top linewidth color1
+		ctext "67.2%" left labely labelsize "sans" labelcolor
+		etext "1890" lx ly labelsize "sans" labelcolor
+
+		left+=spacing
+		y5top=top*y5p
+		ly=y5top-0.8
+		line left bot left y5top linewidth color1
+		line l2 y5top left y5top linewidth color2
+		circle left y5top linewidth color1
+		ctext "(50%?)" left labely labelsize "sans" labelcolor
+		etext "(1900?)" lx ly labelsize "sans" labelcolor
+	eslide
+edeck

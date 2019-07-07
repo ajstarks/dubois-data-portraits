@@ -1,0 +1,9 @@
+// Plate  39
+deck
+	opts="-fulldeck=f -hbar -color red -val=f -ls 3.5"
+	slide
+		ctext "Increase of the Negro population in the United States of America"	50 95 2.5 "serif" "rgb(100,100,100)"
+		ctext "Accroissement de la population Negre aux États-Unis d'Amérique"		50 90 1.5 "serif" "gray"
+		dchart opts pop.d
+	eslide
+edeck

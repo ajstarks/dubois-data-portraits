@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh population.dsh | pdf  -sans PublicSans-Bold

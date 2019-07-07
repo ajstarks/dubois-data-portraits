@@ -1,0 +1,87 @@
+deck
+	slide
+		top=82
+		tt=top+12
+		linewidth=3
+		ls=1.5
+		ts=2.5
+		lspace=3
+		spacing=10
+		linecolor="rgb(100,100,100)"
+		labelcolor="gray"
+
+		min1=5
+		max1=190000
+		min2=0.25
+		max2=80
+		l1=vmap 7      min1 max1 min2 max2
+		l2=vmap 10351  min1 max1 min2 max2
+		l3=vmap 72855  min1 max1 min2 max2
+		l4=vmap 110150 min1 max1 min2 max2
+		l5=vmap 120533 min1 max1 min2 max2
+		l6=vmap 158936 min1 max1 min2 max2
+		l7=vmap 180656 min1 max1 min2 max2
+
+		ctext "NEGRO CHILDREN ENROLLED"  50 tt ts "serif"
+		tt-=3.5
+		ctext "IN THE PUBLIC SCHOOLS."   50 tt ts "serif"
+
+		x=20
+		y=top-l1
+		yl=y-lspace
+		yt=top+lspace
+		line x top x y linewidth linecolor
+		ctext "7"     x yl ls "sans" labelcolor
+		ctext "1860"  x yt ls "sans" labelcolor
+		x+=spacing
+
+		y=top-l2
+		yl=y-lspace
+		yt=top+lspace
+		line x top x y linewidth linecolor
+		ctext "10,351" x yl ls "sans" labelcolor
+		ctext "1878"   x yt ls "sans" labelcolor
+		x+=spacing
+
+		y=top-l3
+		yl=y-lspace
+		yt=top+lspace
+		line x top x y linewidth linecolor
+		ctext "72,855" x yl ls "sans" labelcolor
+		ctext "1884"   x yt ls "sans" labelcolor
+		x+=spacing
+
+		y=top-l4
+		yl=y-lspace
+		yt=top+lspace
+		line x top x y linewidth linecolor
+		ctext "110,150" x yl ls "sans" labelcolor
+		ctext "1888"    x yt ls "sans" labelcolor
+		x+=spacing
+
+		y=top-l5
+		yl=y-lspace
+		yt=top+lspace
+		line x top x y linewidth linecolor
+		ctext "120,533" x yl ls "sans" labelcolor
+		ctext "1891"    x yt ls "sans" labelcolor
+		x+=spacing
+
+		y=top-l6
+		yl=y-lspace
+		yt=top+lspace
+		line x top x y linewidth linecolor
+		ctext "158,936" x yl ls "sans" labelcolor
+		ctext "1897"    x yt ls "sans" labelcolor
+		x+=spacing
+
+		y=top-l7
+		yl=y-lspace
+		yt=top+lspace
+		line x top x y linewidth linecolor
+		ctext "180,656" x yl ls "sans" labelcolor
+		ctext "1885"    x yt ls "sans" labelcolor
+		x+=spacing
+		
+	eslide
+edeck

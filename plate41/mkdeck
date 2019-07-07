@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh countries-pop.dsh | pdf -sans PublicSans-Bold $*

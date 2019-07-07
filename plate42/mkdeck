@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh population-proportion.dsh | pdf -sans PublicSans-Bold
