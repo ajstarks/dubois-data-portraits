@@ -1,0 +1,47 @@
+deck
+	slide
+		ctext "INCOME AND EXPENDITURE OF 150 NEGRO FAMILIES IN ATLANTA, GA.,U.S.A." 50 97 2.2
+		image "gold-dollar.jpg" 12 85 1200 750 15
+		opts="-val=f -fulldeck=f -pmap -left 20 -right=95 -pwidth=3"
+		dchart opts -top=70 income1.d
+		dchart opts -top=60 income2.d
+		dchart opts -top=50 income3.d
+		dchart opts -top=40 income4.d
+		dchart opts -top=30 income5.d
+		dchart opts -top=20 income6.d
+		dchart opts -top=10 income7.d
+		hline 20 75 15 1 "black" 50
+		hline 35 75 15 1 "purple" 50
+		hline 50 75 15 1 "pink" 50
+		hline 65 75 15 1 "steelblue" 50
+		hline 80 75 15 1 "lightgray" 50
+
+		ctext "RENT"    27.5 90 1 "serif"
+		ctext "FOOD"    42.5 90 1 "serif"
+		ctext "CLOTHES" 57.5 90 1 "serif"
+		ctext "DIRECT TAXES" 72.5 90 1 "serif"
+		ctext "OTHER EXPENSES AND SAVINGS" 87.5 90 1 "serif"
+
+		image "rent.jpg"    27.5 83 719 579 12
+		image "clothes.jpg" 57.5 83 665 637 12
+
+		lm=4
+		text "$100-200"   lm 70 1.5 "serif"
+		text "$200-300"   lm 60 1.5 "serif"
+		text "$300-400"   lm 50 1.5 "serif"
+		text "$400-500"   lm 40 1.5 "serif"
+		text "$500-750"   lm 30 1.5 "serif"
+		text "$750-1000"  lm 20 1.5 "serif"
+		textblock "1,000 AND OVER" lm 13 3 1.5 "serif"
+
+		lm+=10
+		text "$139.10"    lm 70 1.5 "serif"
+		text "$249.45"    lm 60 1.5 "serif"
+		text "$335.86"    lm 50 1.5 "serif"
+		text "$433.82"    lm 40 1.5 "serif"
+		text "$547"       lm 30 1.5 "serif"
+		text "$880"       lm 20 1.5 "serif"
+		text "$1125"      lm 10 1.5 "serif"
+
+	eslide
+edeck
