@@ -97,7 +97,7 @@ deck
 		vline 20   5 70 0.1
 		hline 3   75 17 0.1
 		for ay=5 65 10
-			arrow 3 ay 20 ay 0.1 1 1
+			arrow 3 ay 23 ay 0.1 1 1
 		efor
 	eslide
 edeck
