@@ -2,11 +2,11 @@ deck
 	slide
 		// top row
 		ctext "INCOME AND EXPENDITURE OF 150 NEGRO FAMILIES IN ATLANTA, GA.,U.S.A." 50 96 2.2
-		image "dollar.jpg" 12 83 2000 2000 4
+		image "gold-dollar.jpg" 12 83 2000 2000 4
 	
-		hline 20 75 15 1 "black" 50
-		hline 35 75 15 1 "purple" 50
-		hline 50 75 15 1 "pink" 50
+		hline 20 75 15 1 "black"     50
+		hline 35 75 15 1 "purple"    50
+		hline 50 75 15 1 "pink"      50
 		hline 65 75 15 1 "steelblue" 50
 		hline 80 75 15 1 "lightgray" 50
 
@@ -19,10 +19,10 @@ deck
 		ctext "OTHER EXPENSES AND SAVINGS" 87.5 90 1 
 
 		image     "rent.jpg"    27.5 83 719 579 12
-		textfile  "food.txt"    37 88 0.8 "serif"
+		textfile  "food.txt"    37   88 0.8 "serif"
 		image     "clothes.jpg" 57.5 83 665 637 12
-		textfile  "tax.txt"     67 88 0.65 "serif"
-		textfile  "other.txt"   81 88 0.8 "serif"
+		textfile  "tax.txt"     67   88 0.65 "serif"
+		textfile  "other.txt"   81   88 0.8 "serif"
 
 
 		// proportional bar charts
@@ -68,15 +68,16 @@ deck
 
 		// Class table
 		lm=4
+		ts=1.5
 		ctext "CLASS"        7 73 1.2 "serif"
 		ctext "ACTUAL AVG." 16 73 1.2 "serif"
-		text "$100-200"   lm 70 1.5 "serif"
-		text "$200-300"   lm 60 1.5 "serif"
-		text "$300-400"   lm 50 1.5 "serif"
-		text "$400-500"   lm 40 1.5 "serif"
-		text "$500-750"   lm 30 1.5 "serif"
-		text "$750-1000"  lm 20 1.5 "serif"
-		textblock "1,000 AND OVER" 5 12 3 1.5 "serif"
+		text "$100-200"   lm 70 ts "serif"
+		text "$200-300"   lm 60 ts "serif"
+		text "$300-400"   lm 50 ts "serif"
+		text "$400-500"   lm 40 ts "serif"
+		text "$500-750"   lm 30 ts "serif"
+		text "$750-1000"  lm 20 ts "serif"
+		textblock "1,000 AND OVER" 5 12 3 ts "serif"
 
 		text "POOR"        95 70 0.6 "serif"
 		text "FAIR"        95 50 0.6 "serif"
@@ -84,13 +85,13 @@ deck
 		text "WELL-TO-DO"  95 10 0.6 "serif"
 
 		lm+=8
-		text "$139.10"    lm 70 1.5 "serif"
-		text "$249.45"    lm 60 1.5 "serif"
-		text "$335.86"    lm 50 1.5 "serif"
-		text "$433.82"    lm 40 1.5 "serif"
-		text "$547"       lm 30 1.5 "serif"
-		text "$880"       lm 20 1.5 "serif"
-		text "$1125"      lm 10 1.5 "serif"
+		text "$139.10"    lm 70 ts "serif"
+		text "$249.45"    lm 60 ts "serif"
+		text "$335.86"    lm 50 ts "serif"
+		text "$433.82"    lm 40 ts "serif"
+		text "$547"       lm 30 ts "serif"
+		text "$880"       lm 20 ts "serif"
+		text "$1125"      lm 10 ts "serif"
 
 		vline 11.5 5 70 0.1
 		vline 3    5 70 0.1
