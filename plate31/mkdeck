@@ -1,2 +1,2 @@
 #!/bin/sh
-decksh income.dsh | pdfshow -sans PublicSans-Bold $*
+decksh income.dsh | pdfshow -sans PublicSans-Bold -serif PublicSans-Thin  $*
