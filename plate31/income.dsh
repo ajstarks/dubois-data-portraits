@@ -1,3 +1,4 @@
+// Plate 31: Income and Expenditure, W.E.B Du Bois's Data Portraits
 deck
 	slide
 		// top row
@@ -10,13 +11,15 @@ deck
 		hline 65 75 15 1 "steelblue" 50
 		hline 80 75 15 1 "lightgray" 50
 
-		ctext "ANNUAL EXPENDITURE FOR"     50   93 1.1
-		ctext "ANNUAL INCOME"              12   90 1 
-		ctext "RENT"                       27.5 90 1 
-		ctext "FOOD"                       42.5 90 1 
-		ctext "CLOTHES"                    57.5 90 1 
-		ctext "DIRECT TAXES"               72.5 90 1 
-		ctext "OTHER EXPENSES AND SAVINGS" 87.5 90 1 
+		tabtop=90
+		subtop=tabtop+3
+		ctext "ANNUAL EXPENDITURE FOR"     50   subtop 1.1
+		ctext "ANNUAL INCOME"              12   tabtop 1 
+		ctext "RENT"                       27.5 tabtop 1 
+		ctext "FOOD"                       42.5 tabtop 1 
+		ctext "CLOTHES"                    57.5 tabtop 1 
+		ctext "DIRECT TAXES"               72.5 tabtop 1 
+		ctext "OTHER EXPENSES AND SAVINGS" 87.5 tabtop 1 
 
 		image     "rent.jpg"    27.5 83 719 579 12
 		textfile  "food.txt"    37   88 0.8 "serif"
