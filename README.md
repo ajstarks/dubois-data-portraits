@@ -9,4 +9,5 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 31: Income and Expenditure
 * Plate 41: Population Comparison
 * Plate 42: Population Proportions
+* Plate 51: Proportion of Freemen and Slaves
 
