@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh free-slave.dsh | pdf -pagesize 612,792 -sans PublicSans-Bold $*

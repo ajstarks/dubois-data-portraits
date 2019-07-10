@@ -1,0 +1,52 @@
+deck
+	slide
+		fs=2.5
+		top=95
+		ctext "PROPORTION OF FREEMEN AND SLAVES AMONG AMERICAN NEGROES."  50 top fs
+		top-=4
+		ctext "PROPORTION DES NÈGRES LIBRES ET DES ESCLAVES EN AMÉRIQUE." 50 top fs
+		top-=10
+		ctext "1790" 10 top fs
+		ctext "1800" 20 top fs
+		ctext "1810" 30 top fs
+		ctext "1820" 40 top fs
+		ctext "1830" 50 top fs
+		ctext "1840" 60 top fs
+		ctext "1850" 70 top fs
+		ctext "1860" 80 top fs
+		ctext "1870" 90 top fs
+		rect 50 45 80 70 "green" 60
+
+		y1=vmap 92    0 100 10 top
+		y2=vmap 89    0 100 10 top
+		y3=vmap 86.5  0 100 10 top
+		y4=vmap 87    0 100 10 top
+		y5=vmap 86    0 100 10 top
+		y6=vmap 87    0 100 10 top
+		y7=vmap 88    0 100 10 top
+		y8=vmap 89    0 100 10 top
+		y9=vmap 0     0 100 10 top
+
+		ctext "8%"    10 y1 2
+		ctext "11%"   20 y2 2
+		ctext "13.5%" 30 y3 2
+
+		ctext "13%"   40 y4 2
+		ctext "14%"   50 y5 2
+		ctext "13%"   60 y6 2
+
+		ctext "12%"   70 y7 2
+		ctext "11%"   80 y8 2
+		ctext "100%"  90 73 2
+
+		ctext "FREE - LIBRE"    50 76.5 3
+		ctext "SLAVES"          50 50 5 "sans" "white"
+		ctext "ESCLAVES"        50 45 5 "sans" "white"
+	
+		polygon "10.00 10.00 20.00 30.00 40.00 50.00 60.00 70.00 80.00 90.00 90.00" "10.00 74.40 72.30 70.55 70.90 70.20 70.90 71.60 72.30 10.00 10.00" "black"
+	
+		for x=10 90 10
+			vline x 10 70 0.05 "black"
+		efor
+	eslide
+edeck
