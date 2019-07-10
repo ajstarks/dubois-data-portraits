@@ -1,2 +1,2 @@
 #!/bin/sh
-decksh color.dsh | pdf -sans PublicSans-Bold -serif PublicSans-Thin -pagesize 612,792 $*
+decksh color.dsh | pdf -sans PublicSans-Bold -serif PublicSans-Medium -pagesize 612,792 $*

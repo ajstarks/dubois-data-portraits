@@ -5,6 +5,7 @@ deck
 		width=35
 		headsize=4
 		subsize=headsize/2
+		subcolor="rgb(100,100,100)"
 		top=85
 		bottom=5
 		mid=60
@@ -12,7 +13,7 @@ deck
 	
 		// head, subhead
 		ctext "RACE AMALGAMATION IN GEORGIA." 50 95 headsize
-		ctext "BASED ON A STUDY OF 40,000 INDIVIDUALS OF NEGRO DESCENT" 50 92 subsize "serif"
+		ctext "BASED ON A STUDY OF 40,000 INDIVIDUALS OF NEGRO DESCENT" 50 92 subsize "serif" subcolor
 
 		// bars
 		b=bottom
@@ -21,7 +22,7 @@ deck
 		l3=0.44 * h
 		vline left b l1 width "yellow"
 		b+=l1
-		vline left b l2 width "sienna"
+		vline left b l2 width "rgb(40,26,13)" 90
 		b+=l2
 		vline left b l3 width "black"
 
@@ -32,9 +33,9 @@ deck
 		text "YELLOW." ll 15 3
 		text "BROWN."  ll 45 3
 		text "BLACK."  ll 80 3
-		textblock "I.E. PERSONS WITH MORE WHITE THAN NEGRO BLOOD"                               sl 12 bw subsize "serif"
-		textblock "I.E. PERSONS WITH SOME WHITE BLOOD OR DESCENDANTS OF LIGHT COLORED AFRICANS" sl 42 bw subsize "serif"
-		textblock "I.E. FULL-BLOODED NEGROES."                                                  sl 78 bw subsize "serif"
+		textblock "I.E. PERSONS WITH MORE WHITE THAN NEGRO BLOOD"                               sl 12 bw subsize "serif" subcolor
+		textblock "I.E. PERSONS WITH SOME WHITE BLOOD OR DESCENDANTS OF LIGHT COLORED AFRICANS" sl 42 bw subsize "serif" subcolor
+		textblock "I.E. FULL-BLOODED NEGROES."                                                  sl 77 bw subsize "serif" subcolor
 		ctext "16%" mid 10 headsize
 		ctext "40%" mid 35 headsize "sans" "red"
 		ctext "44%" mid 68 headsize "sans" "white"
