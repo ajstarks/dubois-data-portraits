@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh business.dsh | pdf -pagesize 1500,1800 -sans PublicSans-Regular $*

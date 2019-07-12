@@ -42,7 +42,7 @@ deck
 		ts=3
 
 		ctext "Negro landowners in various States of the United States." 50 95 3
-		ctext "Proprietaires foncier Negres dans plusieurs Etats." 50 90 ls
+		ctext "Proprietaires foncier Nègres dans plusieurs Etats." 50 90 ls
 
 		text "OWNERS"  ll suby ls
 		text "TENANTS" tx suby ls
@@ -71,8 +71,6 @@ deck
 		text "12%" ll ly ls
 		ly-=incr
 		text "Arkansas" lp ly ls
-		text "21%" ll ly ls
-
-		
+		text "21%" ll ly ls		
 	eslide
 edeck

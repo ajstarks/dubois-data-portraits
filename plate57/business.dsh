@@ -1,0 +1,64 @@
+deck
+	slide "papayawhip"
+		left=2.5
+		ly=82
+		subsize=1.5
+		linex=23
+		linesize=0.15
+		druggistcolor="rgb(40,26,13)"
+		grocercolor="rgb(255,174,66)"
+
+		ctext "Negro business men in the United States" 50 95 3
+		ctext "Nègres Americains dans les affairs"      50 92 2
+		text "Estimated capital"                        left ly subsize
+		text "$ 8,784,637"                              30 ly 2
+		ly-=2.5
+		text "45,516,254 FRANCS"                        30 ly 2
+
+		ly-=10
+		text "General merchandise stores"               left ly subsize
+		hline linex ly 30 linesize "green"
+		ly-=10
+		text "Grocers"                                  left ly subsize
+		hline linex ly 30 linesize grocercolor
+		ly-=7
+		text "Bankers"                                  left ly subsize
+		hline linex ly 8 linesize "red"
+		ly-=10
+		text "Undertakers"                              left ly subsize
+		hline linex ly 10 linesize "blue"
+		ly-=12
+		text "Building contractors"                     left ly subsize
+		hline linex ly 10 linesize "black"
+		ly-=7
+		text "Druggists"                                left ly subsize
+		hline linex ly 30 linesize druggistcolor 80
+		hline    53 17 12 linesize druggistcolor 80
+		vline    53 17 6.5 linesize druggistcolor 80
+		ly-=10
+		text "Publishers"                               left ly subsize
+		hline linex ly 10 linesize "green"
+		ly-=6
+		text "Building and loan associations"           left ly subsize
+		ly-=4
+		hline linex ly 30 linesize "red"
+		vline linex ly 3  linesize "red"
+
+		
+		col1=37
+		col1w=22
+		col2=75
+
+		// first column of boxes
+		square   33 55 6        "red"
+		square col1 42 col1w    "blue"
+		square col1 13.5 col1w    "green"
+		hline    26 28    26  8 "black"
+
+		// second column of boxes
+		rect   col2 75 45 20 "green"
+		square col2 44 45    grocercolor
+		square col2 12 20    druggistcolor 80
+		rect   58 6 10 5     "red"
+	eslide
+edeck
