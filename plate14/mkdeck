@@ -1,1 +1,2 @@
-decksh illiteracy.dsh | pdf -sans PublicSans-Regular -serif PublicSans-Bold
+#!/bin/sh
+decksh illiteracy.dsh | pdf -pagesize 1500,1800 -sans PublicSans-Regular -serif PublicSans-Bold

@@ -1,0 +1,78 @@
+deck
+	slide
+		tenantcolor="black"
+		ownercolor="rgb(240,240,240)"
+		top=72
+		bot=8
+		left=20
+		linesize=75
+		incr=8
+		
+		for y=bot top incr
+			hline left y 75 5 tenantcolor
+		efor
+
+		l1=0.27 * linesize // Virginia
+		l2=0.18 * linesize // South Carolina
+		l3=0.22 * linesize // Texas
+		l4=0.19 * linesize // North Carolina
+		l5=0.12 * linesize // Georgia
+		l6=0.13 * linesize // Mississippi
+		l7=0.20 * linesize // Tennesse
+		l8=0.12 * linesize // Louisiana
+		l9=0.21 * linesize // Arkansas
+
+		hline left 72 l1 5 ownercolor
+		hline left 64 l2 5 ownercolor
+		hline left 56 l3 5 ownercolor
+		hline left 48 l4 5 ownercolor
+		hline left 40 l5 5 ownercolor
+		hline left 32 l6 5 ownercolor
+		hline left 24 l7 5 ownercolor
+		hline left 16 l8 5 ownercolor
+		hline left  8 l9 5 ownercolor
+
+	
+		lp=5
+		tx=55
+		ll=left+2
+		ly=top-0.5
+		suby=top+incr
+		ls=2
+		ts=3
+
+		ctext "Negro landowners in various States of the United States." 50 95 3
+		ctext "Proprietaires foncier Negres dans plusieurs Etats." 50 90 ls
+
+		text "OWNERS"  ll suby ls
+		text "TENANTS" tx suby ls
+		text "Virginia" lp ly ls
+		text "27%" ll ly ls
+		ly-=incr
+		text "South Carolina" lp ly ls
+		text "18%" ll ly ls
+		ly-=incr
+		text "Texas" lp ly ls
+		text "22%" ll ly ls
+		ly-=incr
+		text "North Carolina" lp ly ls
+		text "19%" ll ly ls
+		ly-=incr
+		text "Georgia" lp ly ls
+		text "12%" ll ly ls
+		ly-=incr
+		text "Mississippi" lp ly ls
+		text "13%" ll ly ls
+		ly-=incr
+		text "Tennesse" lp ly ls
+		text "20%" ll ly ls
+		ly-=incr
+		text "Louisiana" lp ly ls
+		text "12%" ll ly ls
+		ly-=incr
+		text "Arkansas" lp ly ls
+		text "21%" ll ly ls
+
+		
+	eslide
+edeck

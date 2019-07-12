@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh land.dsh | pdf -pagesize 1500,1800 -sans PublicSans-Regular $*

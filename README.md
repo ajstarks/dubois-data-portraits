@@ -3,6 +3,7 @@
 decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualizing Black America"
 
 * Plate 10: Conjugal Condition
+* Plate 13: Race Amalgamation in Georgia
 * Plate 14: Illiteracy
 * Plate 15: Children in the Public Schools
 * Plate 16: Teachers in Georgia Public Schools

@@ -4,10 +4,10 @@ deck
 		spacing=20
 		labelsize=2
 		labelcolor="rgb(100,100,100)"
-		t1=vmap 2512 2500 3500 10 18
-		t2=vmap 2500 2500 3500 10 18
-		t3=vmap 3206 2500 3500 10 18
-		t4=vmap 3316 2500 3500 10 18
+		t1=vmap 2512 2500 3400 15 20
+		t2=vmap 2500 2500 3400 15 20
+		t3=vmap 3206 2500 3400 15 20
+		t4=vmap 3316 2500 3400 15 20
 
 		ctext "NEGRO TEACHERS IN GEORGIA PUBLIC SCHOOLS" 50 95 2.5
 		y=85
@@ -32,7 +32,7 @@ deck
 		ctext "1886" 50 y labelsize "serif" labelcolor
 		y-=18
 		ctext "1889" 50 y labelsize "serif" labelcolor
-		y-=24
+		y-=22
 		ctext "1893" 50 y labelsize "serif" labelcolor
 		y-=25.5
 		ctext "1897" 50 y labelsize "serif" labelcolor

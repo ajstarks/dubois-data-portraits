@@ -1,2 +1,2 @@
 #!/bin/sh
-decksh population.dsh | pdf  -sans PublicSans-Bold
+decksh population.dsh | pdf -pagesize 900,1200 -sans PublicSans-Bold
