@@ -1,0 +1,8 @@
+#!/bin/sh
+for i in plate*
+do
+	cd $i
+	./mkdeck
+	cd ..
+done
+pdfunite plate*/f.pdf all.pdf
