@@ -15,24 +15,24 @@ deck
 		ctext "PROPORTION OF NEGROES IN THE TOTAL POPULATION OF THE UNITED STATES." 50 92 2
 		ctext "RAPPORT DES NÈGRE À LA POPULATION TOTALE DES ETATS UNIS."            50 86 1.8
 
-		ctext "1800"             col1 ly1t 1.6
-		ctext "ONE-FIFTH"        col1 ly1b 1.6
-		image "usa-outline.png"  col1 row1 150 150
-		image "usa-black.png"    col1 row1 50 50
+		ctext "1800"             col1 ly1t 2 
+		ctext "ONE-FIFTH"        col1 ly1b 2 
+		image "usa-outline.png"  col1 row1 300 300 
+		image "usa-black.png"    col1 row1 100 100 
 
-		ctext "1830"             col2 ly1t 2
-		ctext "ONE-SIXTH"        col2 ly1b 2
-		image "usa-outline.png"  col2 row1 200 200
-		image "usa-black.png"    col2 row1 60 60
+		ctext "1830"             col2 ly1t 2.4
+		ctext "ONE-SIXTH"        col2 ly1b 2.4
+		image "usa-outline.png"  col2 row1 400 400
+		image "usa-black.png"    col2 row1 120 120 
 
-		ctext "1860"             col1 ly2t 2.5
-		ctext "ONE-SEVENTH"      col1 ly2b 2.5
-		image "usa-outline.png"  col1 row2 400 400
-		image "usa-black.png"    col1 row2 120 120
+		ctext "1860"             col1 ly2t 3 
+		ctext "ONE-SEVENTH"      col1 ly2b 3 
+		image "usa-outline.png"  col1 row2 600 600
+		image "usa-black.png"    col1 row2 240 240
 
-		ctext "1890"        col2 ly2t 3
-		ctext "ONE-EIGHTH"  col2 ly2b 3
-		image "usa-outline.png" col2 row2 500 500
-		image "usa-black.png"   col2 row2 180 180
+		ctext "1890"        col2 ly2t 4
+		ctext "ONE-EIGHTH"  col2 ly2b 4
+		image "usa-outline.png" col2 row2 600 600 
+		image "usa-black.png"   col2 row2 260 260 
 	eslide
 edeck

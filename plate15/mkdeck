@@ -1,2 +1,2 @@
 #!/bin/sh
-decksh children.dsh | pdf -pagesize 1500,1800 -sans PublicSans-Regular -serif PublicSans-Bold $*
+decksh children.dsh | pdf -pagesize 1100,1400 -sans PublicSans-Regular -serif PublicSans-Bold $*

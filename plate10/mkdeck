@@ -1,2 +1,2 @@
 #!/bin/sh
-decksh conjugal.dsh | pdf -pagesize 900,1200 -sans PublicSans-Regular -serif PublicSans-Bold
+decksh conjugal.dsh | pdf -pagesize 1100,1400 -sans PublicSans-Regular -serif PublicSans-Bold

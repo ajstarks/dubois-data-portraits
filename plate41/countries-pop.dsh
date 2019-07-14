@@ -1,8 +1,8 @@
 // Plate 41: Population comparison, W.E.B Du Bois's Data Portraits
 deck
 	slide
-		imw=160
-		imh=160
+		imw=300
+		imh=300
 
 		col1=20
 		col2=col1+30
@@ -12,14 +12,14 @@ deck
 		row2y=row1y-25
 		row3y=row2y-25
 		labelsize=1.2
-		skip=labelsize*1.8
+		skip=labelsize*1.2
 
 		ctext "NEGRO POPULATION OF THE UNITED STATES COMPARED WITH THE TOTAL POPULATION OF OTHER COUNTRIES." 50 95 1.5
 		ctext "POPULATION NÈGRE DES ETATS UNIS COMPAREÉ À LA POPULATION TOTALE DES AUTRES PAYS." 50 90 1.5
 
 		// row 1
-		image "esp.png" col1 row1y 200 200
-		image "aus.png" col2 row1y 130 130
+		image "esp.png" col1 row1y 250 250
+		image "aus.png" col2 row1y 150 150
 		image "nor.png" col3 row1y imw imh
 		image "swe.png" 82 row1y imw imh
 		textblock "ESPAÑA 17,500,000"     16 71 3 labelsize
@@ -27,10 +27,10 @@ deck
 		textblock "NORVÈGE 2,000,917"     70 71 3 labelsize
 		textblock "SUÈDE 4,774,409"       85 71 3 labelsize
 		// row 2
-		image "ned.png" col1 50 100 100
-		image "bel.png" col1 42 100 100
+		image "ned.png" col1 50 200 200
+		image "bel.png" col1 42 200 200
 		image "usa.png" col2 48 imw imh
-		image "sui.png" col3 row2y 120 120
+		image "sui.png" col3 row2y 200 200 
 
 
 		textblock "NEDERLANDEN 4,500,000" 14 52 3 labelsize
@@ -47,9 +47,9 @@ deck
 		textblock "SUISSE 2,900,000" 78 row2y 3 labelsize
 
 		// row 3
-		image "hun.png" col1 row3y 250 250
+		image "hun.png" col1 row3y 400 400 
 		image "bay.png" col2 row3y imw imh
-		image "eng.png" col3 row3y 300 300
+		image "eng.png" col3 row3y 400 400
 
 		r3l=20
 		textblock "HONGRIE 17,500,000"    16 r3l 3 labelsize

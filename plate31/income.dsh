@@ -3,7 +3,7 @@ deck
 	slide
 		// top row
 		ctext "INCOME AND EXPENDITURE OF 150 NEGRO FAMILIES IN ATLANTA, GA.,U.S.A." 50 96 2.2
-		image "gold-dollar.jpg" 12 83 2000 2000 4
+		image "gold-dollar.jpg" 12 83 2000 2000 6
 	
 		hline 20 75 15 1 "black"     50
 		hline 35 75 15 1 "purple"    50
@@ -21,9 +21,9 @@ deck
 		ctext "DIRECT TAXES"               72.5 tabtop 1 
 		ctext "OTHER EXPENSES AND SAVINGS" 87.5 tabtop 1 
 
-		image     "rent.jpg"    27.5 83 719 579 12
+		image     "rent.jpg"    27.5 83 719 579 20
 		textfile  "food.txt"    37   88 0.8 "serif"
-		image     "clothes.jpg" 57.5 83 665 637 12
+		image     "clothes.jpg" 57.5 83 665 637 20
 		textfile  "tax.txt"     67   88 0.65 "serif"
 		textfile  "other.txt"   81   88 0.8 "serif"
 

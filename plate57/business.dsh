@@ -1,5 +1,5 @@
 deck
-	slide "papayawhip"
+	slide
 		left=2.5
 		ly=82
 		subsize=1.5
@@ -50,15 +50,15 @@ deck
 		col2=75
 
 		// first column of boxes
-		square   33 55 6        "red"
+		square   33 54.7 6      "red"
 		square col1 42 col1w    "blue"
-		square col1 13.5 col1w    "green"
+		square col1 13.5 col1w  "green"
 		hline    26 28    26  8 "black"
 
 		// second column of boxes
 		rect   col2 75 45 20 "green"
 		square col2 44 45    grocercolor
 		square col2 12 20    druggistcolor 80
-		rect   58 6 10 5     "red"
+		rect   58 6 10 5.1   "red"
 	eslide
 edeck
