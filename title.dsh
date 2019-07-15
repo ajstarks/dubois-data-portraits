@@ -1,0 +1,9 @@
+deck
+	slide
+		ctext "Recreations of the W.E.B Du Bois's Data Portraits" 50 80 4 "sans" "maroon"
+		ctext "made with decksh" 50 75 2 "sans" "gray"
+		image "slave-free.jpg"      25 50 821 1043 50
+		image "slave-free-dsh.png"  75 50 834 1058 53
+		ctext "Anthony J. Starks"      50 10 2
+	eslide
+edeck
