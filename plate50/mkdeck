@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh generation.dsh | pdf -pagesize 1100,1400 -sans PublicSans-Bold -serif PublicSans-Regular $*

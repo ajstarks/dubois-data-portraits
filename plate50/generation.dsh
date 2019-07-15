@@ -1,0 +1,67 @@
+// Plate 50: The rise of Negroes from Slavery to Freedom
+deck
+	slide
+		barwidth=30
+		freecolor="darkgreen"
+		slavecolor="black"
+		peasantcolor="maroon"
+		tenantcolor=freecolor
+
+		// left-hand bar
+		left1=25
+		bot1=5
+		h1=30
+		top1=bot1+h1
+		len1=top1-bot1
+		slave1=len1*0.89
+		free=len1*0.11
+		f1=bot1+slave1
+
+		// right-hand bar
+		left2=80
+		bot2=20
+		h2=60
+		top2=bot2+h2
+		len2=top2-bot2
+		prop=len2*0.19
+		p1=top2-prop
+
+		ctext "THE RISE OF THE NEGROES FROM SLAVERY TO FREEDOM IN ONE GENERATION" 50 95 2
+		ctext "PROGRÈS GRADUEL DES NEGROES DE L'ESCLAVAGE À LA LIBERTÉ EN UNE GÉNÉRATION" 50 90 2
+
+		vline left1 bot1 len1  barwidth slavecolor
+		vline left1 f1   free barwidth  freecolor
+
+		vline left2 bot2 len2  barwidth freecolor
+		vline left2 p1   prop  barwidth peasantcolor
+
+		ctext "1860"                   25 37   3
+		ctext "89%"                    25 20   3 "sans" peasantcolor
+		ctext "SLAVES"                 25 18   2 "sans" peasantcolor
+		ctext "ESCLAVES"               25 16   2 "sans" peasantcolor
+		text "11%"                     12 32.5 3
+		ctext "FREE LABORERS"          28 33.5 1.5
+		ctext "OUVRIERS LIBRES"        28 32.0 1.5
+
+		ctext "1890"                   80 82   3
+		ctext "19%"                    80 75   3
+		ctext "PEASANT PROPRIETORS"    80 72   2
+		ctext "PAYSANS PROPRIÉTAIRES"  80 70   2
+		ctext "81%"                    80 45   3
+		ctext "TENANTS"                80 43   2
+		ctext "METAYERS"               80 41   2
+
+		line 40 35 65 68 0.2     "lightgray"
+		line 40 35 65 50 0.2     "lightgray"
+		line 40 33 65 40 0.2     "lightgray"
+		line 40 33 65 30 0.2     "lightgray"
+		line 40 31.5 65 20 0.2   "lightgray"
+
+		textblock "IN 1890 NEARLY ONE FIFTH OF THEM OWNED THEIR OWN HOMES AND FARMS. THIS ADVANCE WAS ACCOMPLISHED ENTIRELY WITHOUT STATE AID, AND IN THE FACE OF PROSCRIPTIVE LAWS."                     5 79 40 1.5 "serif" "gray"
+		textblock "EN 1890, ENVIRON UN CINQUIÈME ÉTAIENT PROPRIÉTAIRES DE LEURS HABITATIONS ET DE LEURS FERMES. CE PROGRÈS C'EST ACCOMPLI SANS SECOURS AUCUN DE D'ÉTAT ET FN PRÉSENCE LOIS DÉFAVORABLES." 5 70 40 1.5 "serif" "gray"
+
+		text "IN 1860 NEARLY 90% OF THE BLACKS WERE SLAVES."    8 56 1.5 "serif" "gray"
+		text "EN 1860 ENVIRON 90% DES NÈGRES ÉTAIENT ESCLAVES." 8 53 1.5 "serif" "gray"
+
+	eslide
+edeck

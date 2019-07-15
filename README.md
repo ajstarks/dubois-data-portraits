@@ -10,6 +10,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 31: Income and Expenditure
 * Plate 41: Population Comparison
 * Plate 42: Population Proportions
+* Plate 50: The Rise of Negroes from Slavery to Freedom in One Generation"
 * Plate 51: Proportion of Freemen and Slaves
 * Plate 52: City and Rural Population
 * Plate 56: Negro landowners
