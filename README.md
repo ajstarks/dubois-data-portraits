@@ -15,3 +15,4 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 56: Negro landowners
 * Plate 57: Negro business men in the United States
 * Plate 59: Mortality of American Negroes
+* Plate 61: American Negro newspapers and periodicals

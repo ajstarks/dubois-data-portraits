@@ -5,4 +5,4 @@ do
 	./mkdeck
 	cd ..
 done
-pdfunite plate*/f.pdf all.pdf
+pdfunite plate*/f.pdf data-portraits.pdf
