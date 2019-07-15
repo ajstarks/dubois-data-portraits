@@ -12,4 +12,5 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 42: Population Proportions
 * Plate 51: Proportion of Freemen and Slaves
 * Plate 52: City and Rural Population
+* Plate 56: Negro landowners
 * Plate 57: Negro business men in the United States
