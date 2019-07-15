@@ -1,21 +1,22 @@
 // Plate 61: American Negro newspapers and periodicals
 deck
 	slide
-		ctext "American Negro newspapers and periodicals" 50 95 4 "serif"
-		ctext "Journaux et publications périodiques Nègres aux Etats Unis." 50 90 3 "serif"
+		ctext "American Negro newspapers and periodicals" 50 95 3 "serif"
+		ctext "Journaux et publications périodiques Nègres aux Etats Unis." 50 90 2 "serif"
 		polygon "5 15 85 95"  "5 20 20 5"     "rgb(40,26,13)"
 		polygon "15 38 62 85" "20 60 60 20"    "darkblue"
-		polygon "38 43 57 62" "60 68 68 60"    "rgb(255,174,66)"
-		polygon "43 45 55 57" "68 72 72 68"    "maroon"
+		polygon "38 42 58 62" "60 67 67 60"    "rgb(255,174,66)"
+		polygon "42 45 55 58" "67 72 72 67"    "maroon"
 		polygon "45 50 55" "72 80 72"          "darkblue"
 
 
 		ls=2.5
-		ctext "MAGAZINES"       50 81   ls
-		etext "DAILY"           43 70   ls
-		etext "SCHOOL"          39 63   ls
-		text  "PAPERS"           57 70   ls
-		text  "PAPERS"           61 63   ls
+		ls2=2
+		ctext "MAGAZINES"       50 81   ls2
+		etext "DAILY"           43 70   ls2
+		etext "SCHOOL"          39 63   ls2
+		text  "PAPERS"           57 70   ls2
+		text  "PAPERS"           61 63   ls2
 		ctext "GRAND TOTAL"     50 15   ls "sans" "white"
 		ctext "153"             50 12.5 ls "sans" "white"
 		ctext "WEEKLY PAPERS"   50 45   ls "sans" "white"
