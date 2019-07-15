@@ -1,0 +1,71 @@
+deck
+	slide
+		ts=1.7
+		left=15
+		labelx=3
+		ls=2.5
+		subsize=ls/2
+		top=55
+		right=90
+		ll=right-left
+		skip=15
+		urbancolor="red"
+		ruralcolor="black"
+
+		ctext "CITY AND RURAL POPULATION AMONG AMERICAN NEGROES IN THE FORMER SLAVE STATES"                   50 94 ts
+		text "POPULATION DES NÈGRES HABITANT LES VILLES ET DE CEUX HABITANT LES COMPAGNES DANS LES ANCIENS"    5 90 ts
+		text "ETATS ESCLAVES" 5 86 ts
+		
+
+		urban1=0.042*ll
+		urban2=0.085*ll
+		urban3=0.084*ll
+		urban4=0.120*ll
+
+
+		labely=top-1
+		urbx=left
+		for y=10 top 15
+			hline left y ll 7 ruralcolor
+		efor
+
+		square left 80 4 urbancolor
+		etext "PROPORTION"                                            13 79 subsize "sans" "gray"
+		text "LIVING IN CITIES OF 8,000 INHABITANTS OR MORE"          17.5 79 subsize "sans" "gray"
+		text "PROPORTION DANS LES VILLES DE 8,000 HABITANTS DU PLUS"  labelx 77.5 subsize "sans" "gray"
+		square left 70 4 ruralcolor
+
+		etext "PROPORTION"                                           13 69 subsize "sans" "gray"
+		text "LIVING IN VILLAGES OR COUNTRY DISTRICTS"               17.5 69 subsize "sans" "gray"
+		text "PROPORTION DANS LES VILLAGES ET LES COMPAGES"          labelx 67.5 subsize "sans" "gray"
+
+		hline left top urban1 7 urbancolor
+		text "1860"   labelx labely ls 
+		ctext "4.2%"  urbx   labely ls
+		ctext "95.8%" 50     labely ls "sans" "white"
+		top-=skip
+		labely-=skip
+
+		urbx+=0.2
+		hline left top urban2 7 urbancolor
+		text "1870"   labelx labely ls 
+		text "8.5%"   urbx   labely ls
+		ctext "91.5%" 50     labely ls "sans" "white"
+		top-=skip
+		labely-=skip
+
+		hline left top urban3 7 urbancolor
+		text "1880"   labelx labely ls 
+		text "8.4%"   urbx   labely ls
+		ctext "91.6%" 50     labely ls "sans" "white"
+		top-=skip
+		labely-=skip
+
+		urbx+=1.2
+		hline left top urban4 7 urbancolor
+		text "1890"   labelx labely ls 
+		text "12%"    urbx   labely ls
+		ctext "88%"   50     labely ls "sans" "white"
+		top-=skip
+	eslide
+edeck

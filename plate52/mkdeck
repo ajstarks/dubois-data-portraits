@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh ur.dsh | pdf -pagesize 1100,1400 -sans PublicSans-Bold $*
