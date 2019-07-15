@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh mortality.dsh | pdf -pagesize 1100,1400 $*
