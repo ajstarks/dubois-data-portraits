@@ -7,6 +7,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 14: Illiteracy
 * Plate 15: Children in the Public Schools
 * Plate 16: Teachers in Georgia Public Schools
+* Plate 30: Condition of 300 Negro Farm Tenants After 1 Year's Toil, 1898
 * Plate 31: Income and Expenditure
 * Plate 41: Population Comparison
 * Plate 42: Population Proportions

@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh tenant.dsh | pdf -pagesize 1400,1100 -sans PublicSans-Regular $*

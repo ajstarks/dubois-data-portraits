@@ -1,0 +1,97 @@
+// Condition of 300 Negro farm tenants after 1 year's toil, 1898.
+deck
+	slide
+		min1=0
+		max1=170
+		min2=0
+		max2=65
+		left=25
+		linesize=4
+		skip=linesize*2
+		bankrupt = vmap  3   min1 max1 min2 max2
+		debt     = vmap  168 min1 max1 min2 max2
+		nothing  = vmap  53  min1 max1 min2 max2
+		less10   = vmap  27  min1 max1 min2 max2
+		less25   = vmap  15  min1 max1 min2 max2
+		less50   = vmap  13  min1 max1 min2 max2
+		cl50     = vmap  13  min1 max1 min2 max2
+		total    = vmap 121  min1 max1 min2 max2
+
+		mbank=bankrupt/2
+		mdebt=debt/2
+		mnothing=nothing/2
+		mless10=less10/2
+		mless25=less25/2
+		mless50=less50/2
+		mcl50=cl50/2
+		mtotal=total/2
+		labelcolor="white"
+		bcolor="black"
+		gcolor="red"
+
+		lx=left-2
+		ls=1.8
+		top=85
+		ctext "CONDITION OF 300 NEGRO FARM TENANTS AFTER 1 YEAR'S TOIL, 1898." 50 top 2.5
+		top-=15
+		ly=top-0.5
+
+		hline left top bankrupt linesize bcolor
+		etext "BANKRUPT" lx ly ls
+		nx=left+mbank
+		ctext "3" nx ly ls "sans" labelcolor 
+		top-=skip
+		ly=top-0.5
+
+		hline left top debt linesize bcolor
+		etext "IN DEBT"  lx ly ls
+		nx=left+mdebt
+		ctext "168" nx ly ls "sans" labelcolor
+		top-=skip
+		ly=top-0.5
+
+		hline left top nothing linesize gcolor
+		etext "CLEARED NOTHING" lx ly ls
+		nx=left+mnothing
+		ctext "53" nx ly ls "sans" labelcolor
+		top-=skip
+		ly=top-0.5
+
+		hline left top less10 linesize gcolor
+		etext "CLEARED LESS THAN $10" lx top ls
+		nx=left+mless10
+		ctext "27" nx ly ls "sans" labelcolor
+		top-=skip
+		ly=top-0.5
+		
+		hline left top less25 linesize gcolor
+		etext "CLEARED $10-25" lx top ls
+		nx=left+mless25
+		ctext "15" nx ly ls "sans" labelcolor
+		top-=skip
+		ly=top-0.5
+
+		hline left top less50 linesize gcolor
+		etext "CLEARED $25-50" lx top ls
+		nx=left+mless50
+		ctext "13" nx ly ls "sans" labelcolor
+		top-=skip
+		ly=top-0.5
+
+		hline left top cl50 linesize gcolor
+		etext "CLEARED $50 OR MORE" lx top ls
+		nx=left+mcl50
+		ctext "13" nx ly ls "sans" labelcolor
+
+		tleft=50
+		ly=39.5
+		nx=tleft+mtotal
+		hline tleft 40 total linesize gcolor
+		ctext "121" nx ly ls  "sans" labelcolor
+
+		hline 46 54 2  0.1
+		vline 48 22 32 0.1
+		hline 46 22 2  0.1
+		hline 48 40 2  0.1
+	eslide
+edeck
