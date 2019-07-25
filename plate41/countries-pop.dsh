@@ -12,18 +12,27 @@ deck
 		row2y=row1y-25
 		row3y=row2y-25
 		labelsize=1.2
-		skip=labelsize*1.2
+		listspacing=1.2
 
 		ctext "NEGRO POPULATION OF THE UNITED STATES COMPARED WITH THE TOTAL POPULATION OF OTHER COUNTRIES." 50 95 1.5
 		ctext "POPULATION NÈGRE DES ETATS UNIS COMPAREÉ À LA POPULATION TOTALE DES AUTRES PAYS." 50 90 1.5
 
 		// row 1
-		image "esp.png" col1 row1y 250 250
+		image "esp.png" col1 row1y 260 260
 		image "aus.png" col2 row1y 150 150
 		image "nor.png" col3 row1y imw imh
 		image "swe.png" 82 row1y imw imh
-		textblock "ESPAÑA 17,500,000"     16 71 3 labelsize
-		textblock "AUSTRALIA 3,036,570"   47 71 3 labelsize
+
+		clist col1 row1y labelsize "sans" "" 100 listspacing
+			li "ESPAÑA"
+			li "17,500,000"
+		elist
+
+		clist col2 row1y labelsize "sans" "" 100 listspacing
+			li "AUSTRALIA"
+			li "3,036,570"
+		elist
+
 		textblock "NORVÈGE 2,000,917"     70 71 3 labelsize
 		textblock "SUÈDE 4,774,409"       85 71 3 labelsize
 		// row 2
@@ -33,28 +42,48 @@ deck
 		image "sui.png" col3 row2y 200 200 
 
 
-		textblock "NEDERLANDEN 4,500,000" 14 52 3 labelsize
-		textblock "LA BELGIQUE 6,000,000"  14 42 3 labelsize
+		clist 16 52 labelsize "sans" "black" 100 listspacing
+			li "NEDERLANDEN"
+			li "4,500,000"
+		elist
+
+		clist 16 42 labelsize "sans" "black" 100 listspacing
+			li "LA BELGIQUE"
+			li "6,000,000"
+		elist
 
 		ulabel=40
-		ctext "U.S.A." col2 ulabel labelsize
-		ulabel-=skip
-		ctext "NEGRO POPULATION" col2 ulabel labelsize
-		ulabel-=skip
-		ctext "POPULATION NOIRE" col2 ulabel labelsize
-		ulabel-=skip
-		ctext "7,500,000" col2 ulabel labelsize
-		textblock "SUISSE 2,900,000" 78 row2y 3 labelsize
+		clist col3 row2y labelsize "sans" "" 100 listspacing
+			li "SUISSE"
+			li "2,900,000"
+		elist
+
+		clist col2 ulabel labelsize "sans" "black" 100 1.4
+			li "NEGRO POPULATION"
+			li "POPULATION NOIRE"
+			li "7,500,000"
+		elist
 
 		// row 3
 		image "hun.png" col1 row3y 400 400 
 		image "bay.png" col2 row3y imw imh
-		image "eng.png" col3 row3y 400 400
+		image "eng.png" col3 row3y 450 450
 
 		r3l=20
-		textblock "HONGRIE 17,500,000"    16 r3l 3 labelsize
-		textblock "BAYERN 5,800,000"      48 row3y 3 labelsize
-		textblock "ENGLAND 27,500,000"    78 r3l 3 labelsize
+		clist col1 r3l labelsize "sans" "" 100 listspacing
+			li "HONGRIE"
+			li "17,500,000"
+		elist
+
+		clist col2 row3y labelsize "sans" "" 100 listspacing
+			li "BAYERN"
+			li "5,800,000"
+		elist
+
+		clist col3 r3l labelsize "sans" "" 100 listspacing
+			li "ENGLAND"
+			li "27,500,000"
+		elist 
 	eslide
 
 edeck
