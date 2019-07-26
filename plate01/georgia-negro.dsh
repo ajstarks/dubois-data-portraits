@@ -1,19 +1,20 @@
 // Plate 1: The Georgia Negro
 deck
 	slide
-		ctext "THE GEORGIA NEGRO."                  50 92 4
-		ctext "A SOCIAL STUDY"                     50 87 2
-		ctext "BY"                                 50 85 2
-		ctext "W.E.BURGHARDT DU BOIS."             50 83 2
+		ctext "THE GEORGIA NEGRO." 50 92 4
+		clist 50 87 2 "sans" "black" 100 1.3
+			li "A SOCIAL STUDY"
+			li "BY"
+			li "W.E.BURGHARDT DU BOIS."
+		elist
 		image "west-brown.png" 30 55 1200 1200 55
 		image "east-brown.png" 70 55 1200 1200 55
 
-		line 65 45 40 48 0.1 "black"
-		circle   40 48 5 "red" 20
-
-		circle   68 43 5 "red" 20
-		circle   68 50 10 "red" 20
-		ellipse  65 55 15 5 "red" 20
+//		line 65 45 40 48 0.1 "black"
+//		circle   40 48 5 "red" 20
+//		circle   68 43 5 "red" 20
+//		circle   68 50 10 "red" 20
+//		ellipse  65 55 15 5 "red" 20
 		textblock "THIS CASE IS DEVOTED TO THE SERIES OF CHARTS,MAPS, AND OTHER DEVICES DESIGNED TO ILLUSTRATE THE DEVELOPMENT OF THE AMERICAN NEGRO IN A SINGLE TYPICAL STATE OF THE UNITED STATES" 15 20 70 2 "serif" "rgb(80,80,80)"
 		ctext     "THE PROBLEM OF THE 20TH CENTURY IS THE PROBLEM OF THE COLOR LINE" 50 10 2 "serif" "rgb(80,80,80)"
 	eslide
