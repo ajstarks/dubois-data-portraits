@@ -1,0 +1,13 @@
+deck
+	slide
+		rect 50 95    100 10   "gray"
+		rect 50 82.5 100 15    "steelblue" 50
+		rect 10 37.5  20 75    "blue" 50
+		rect 60 37.5  80 75    "purple" 50
+
+		ctext "Title"       50   95 3
+		ctext "Categories"  50 82.5 3
+		ctext "Income"      10 37.5 3
+		ctext "Charts"      60 37.5 3
+	eslide
+edeck

@@ -41,12 +41,14 @@ deck
 		// trend lines
 		// rent
 		trendw=0.05
+		line 35    74.4  34  72 trendw
 		line 34    68  36.3  62 trendw
 		line 36.3  58  37.1  52 trendw
 		line 37.1  48  33.5  42 trendw
 		line 33.5  38  29.9  32 trendw
 		line 29.9  28  20    22 trendw
 		// food
+		line 50   74.4  66   72 trendw
 		line 66.1  68  71.8  62 trendw
 		line 71.8  58  69.2  52 trendw
 		line 69.2  48  61    42 trendw
@@ -54,6 +56,7 @@ deck
 		line 52.9  28  47.8  22 trendw
 		line 47.9  18  41.8  12 trendw
 		// tax
+		line 65   74.4 87    72 trendw
 		line 87.2  68  88.7  62 trendw
 		line 88.7  58  82.5  52 trendw
 		line 82.5  48  71.95 42 trendw
@@ -61,6 +64,7 @@ deck
 		line 65.5  28  62    22 trendw
 		line 62    18  53.8  12 trendw
 		// other
+		line 80    74.4 87   72 trendw
 		line 87.2  68  91.8  62 trendw
 		line 91.8  58  86    52 trendw
 		line 86    48  76.1  42 trendw
