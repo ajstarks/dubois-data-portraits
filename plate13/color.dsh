@@ -1,4 +1,4 @@
-// Plate 15: Race Amalgamation in Georgia, W.E.B Du Bois's Data Portraits
+// Plate 13: Race Amalgamation in Georgia
 deck
 	slide
 		left=60
@@ -10,21 +10,26 @@ deck
 		bottom=5
 		mid=60
 		h=top-bottom
+		title="RACE AMALGAMATION IN GEORGIA."
+		subtitle="BASED ON A STUDY OF 40,000 INDIVIDUALS OF NEGRO DESCENT"
+		label1="I.E. PERSONS WITH MORE WHITE THAN NEGRO BLOOD"
+		label2="I.E. PERSONS WITH SOME WHITE BLOOD OR DESCENDANTS OF LIGHT COLORED AFRICANS"
+		label3="I.E. FULL-BLOODED NEGROES."  
 	
 		// head, subhead
-		ctext "RACE AMALGAMATION IN GEORGIA." 50 95 headsize
-		ctext "BASED ON A STUDY OF 40,000 INDIVIDUALS OF NEGRO DESCENT" 50 92 subsize "serif" subcolor
+		ctext title    50 95 headsize
+		ctext subtitle 50 92 subsize "serif" subcolor
 
 		// bars
 		b=bottom
-		l1=0.16 * h
-		l2=0.40 * h
-		l3=0.44 * h
-		vline left b l1 width "yellow"
-		b+=l1
-		vline left b l2 width "rgb(40,26,13)" 90
-		b+=l2
-		vline left b l3 width "black"
+		len1=0.16 * h
+		len2=0.40 * h
+		len3=0.44 * h
+		vline left b len1 width "yellow"
+		b+=len1
+		vline left b len2 width "rgb(40,26,13)" 90
+		b+=len2
+		vline left b len3 width "black"
 
 		// labels
 		ll=10
@@ -33,11 +38,12 @@ deck
 		text "YELLOW." ll 15 3
 		text "BROWN."  ll 45 3
 		text "BLACK."  ll 80 3
-		textblock "I.E. PERSONS WITH MORE WHITE THAN NEGRO BLOOD"                               sl 12 bw subsize "serif" subcolor
-		textblock "I.E. PERSONS WITH SOME WHITE BLOOD OR DESCENDANTS OF LIGHT COLORED AFRICANS" sl 42 bw subsize "serif" subcolor
-		textblock "I.E. FULL-BLOODED NEGROES."                                                  sl 77 bw subsize "serif" subcolor
+		textblock label1 sl 12 bw subsize "serif" subcolor
+		textblock label2 sl 42 bw subsize "serif" subcolor
+		textblock label3 sl 77 bw subsize "serif" subcolor
 		ctext "16%" mid 10 headsize
 		ctext "40%" mid 35 headsize "sans" "red"
 		ctext "44%" mid 68 headsize "sans" "white"
 	eslide
 edeck
+
