@@ -1,0 +1,37 @@
+deck
+	slide
+		listsize=2.5
+		ls=1.2
+		ctext "Proprietes contribuables des Nègres dans trois Etats des Etats Unis" 50 95 3 "serif"
+		ctext "Done by Atlanta University"                                          50 90 2 "serif"
+		polygon "50 15 85" "40 70 70" "rgb(101,67,33)"
+		polygon "50 15 85" "40 10 10" "black"
+		polygon "50 15 15" "40 70 10" "red"
+		polygon "50 85 85" "40 70 10" "blue"
+
+		clist 50 65 listsize "sans" "white" 100 ls 
+			li "VIRGINIA"
+			li "1895"
+			li "$ 13,933,998"
+		elist
+
+		clist 50 30 listsize "sans" "white" 100 ls
+			li "TOTAL"
+			li "$ 34,893,684"
+			li "OR"
+			li "180,796,290 FRANCS."
+		elist
+
+		clist 30 45 listsize "sans" "white" 100 ls
+			li "NORTH CAROLINA"
+			li "1891"
+			li "$ 8,018,446"
+		elist
+
+		clist 70 45 listsize "sans" "white" 100 ls 
+			li "GEORGIA" 
+			li "1895"
+			li "$ 12,941,230"
+		elist
+	eslide
+edeck
