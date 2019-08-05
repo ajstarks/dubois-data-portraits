@@ -1,0 +1,186 @@
+deck
+	linesize=9
+	spacing=linesize*0.785
+	mid=50
+	
+	slide
+		ctext "Conjugal condition of American Negroes according to age periods."    mid 95 3 "serif"
+		ctext "Condition conjugale des Nègres Americains au point del vue le l'age" mid 90 2 "serif"
+		hline 40 92.5 20 0.04  "black"
+		hline 40 87.5 20 0.04  "black"
+		rect  50 43.3 80 63.4 "maroon"
+		op=80
+
+
+		// Data bars
+		y=15
+		hline 10 y 40  linesize "blue" op
+		hline 50 y 40  linesize "blue" op
+		y+=spacing
+
+		hline 11 y 39  linesize "blue" op
+		hline 50 y 35  linesize "blue" op
+		y+=spacing
+
+		hline 30 y 20  linesize "blue" op
+		hline 50 y 17  linesize "blue" op
+		hline 10 y 0.4 linesize "green"
+		hline 88 y 2   linesize "green"
+		y+=spacing
+
+		hline 39 y 11  linesize "blue" op
+		hline 50 y 9   linesize "blue" op
+		hline 10 y 0.5 linesize "green"
+		hline 87 y 3   linesize "green"
+		y+=spacing
+
+		hline 43 y 7   linesize "blue" op
+		hline 50 y 6   linesize "blue" op	
+		hline 10 y 1   linesize "green"
+		hline 86 y 4   linesize "green"
+		y+=spacing
+
+		hline 46 y 4   linesize "blue" op
+		hline 50 y 4.5 linesize "blue" op
+		hline 10 y 2   linesize "green"
+		hline 83 y 7   linesize "green"
+		y+=spacing
+
+		hline 47 y 3 linesize "blue" op
+		hline 50 y 3 linesize "blue" op
+		hline 10 y 4 linesize "green"
+		hline 80 y 10 linesize "green"
+		y+=spacing
+
+		hline 48 y 2 linesize "blue" op
+		hline 50 y 2 linesize "blue" op
+		hline 10 y 5 linesize "green"		
+		hline 75 y 15 linesize "green"
+		y+=spacing
+
+		hline 49 y 1 linesize "blue" op
+		hline 50 y 1 linesize "blue" op
+		hline 10 y 10 linesize "green"
+		hline 65 y 25 linesize "green"
+
+		
+		// Labels
+		labelsize=1.4
+
+		text  "AGES"        3 75.5  labelsize
+		text  "OVER 65"     3 74    labelsize
+		text  "AGES"       92 75.5  labelsize
+		text  "OVER 65"    92 74    labelsize 
+		ctext "MALES."     25 75.5  labelsize
+		ctext "FEMALES."   75 75.5  labelsize
+
+		labelsize*=1.2
+		ctext "SINGLE"    30 20 labelsize
+		ctext "SINGLE"    70 20 labelsize
+		ctext "MARRIED"   25 50 labelsize
+		ctext "MARRIED"   70 50 labelsize
+		ctext "WIDOWED"   15 72 labelsize
+		ctext "WIDOWED"   80 72 labelsize
+
+		// Y-Axes
+		x1=8
+		x2=92
+		yax=15
+		labelsize=1.5
+
+		etext "0 - 15" x1 yax labelsize
+		text  "0 - 15" x2 yax labelsize
+		yax+=spacing
+
+		etext "15 - 20" x1 yax labelsize
+		text  "15 - 20" x2 yax labelsize
+		yax+=spacing
+
+		etext "20 - 25" x1 yax labelsize
+		text  "20 - 25" x2 yax labelsize
+		yax+=spacing
+
+		etext "25 - 30" x1 yax labelsize
+		text  "25 - 30" x2 yax labelsize
+		yax+=spacing
+
+		etext "30 - 35" x1 yax labelsize
+		text  "30 - 35" x2 yax labelsize
+		yax+=spacing
+
+		etext "35 - 40" x1 yax labelsize
+		text  "35 - 40" x2 yax labelsize
+		yax+=spacing
+
+		etext "45 - 50" x1 yax labelsize
+		text  "45 - 50" x2 yax labelsize
+		yax+=spacing
+
+		etext "50 - 55" x1 yax labelsize
+		text  "50 - 55" x2 yax labelsize
+		yax+=spacing
+
+		etext "55 - 60" x1 yax labelsize
+		text  "55 - 60" x2 yax labelsize
+		yax+=spacing
+		ctext "PER CENTS." 50 7.5 labelsize
+
+
+		// X-Axis
+		bottom=10
+		x1=10
+		x2=90
+		xspacing=4
+
+		ctext "100" x1 bottom labelsize
+		ctext "100" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "90" x1 bottom labelsize
+		ctext "90" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "80" x1 bottom labelsize
+		ctext "80" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "70" x1 bottom labelsize
+		ctext "70" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "60" x1 bottom labelsize
+		ctext "60" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "50" x1 bottom labelsize
+		ctext "50" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "40" x1 bottom labelsize
+		ctext "40" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "30" x1 bottom labelsize
+		ctext "30" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "20" x1 bottom labelsize
+		ctext "20" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+		ctext "10" x1 bottom labelsize
+		ctext "10" x2 bottom labelsize
+		x1+=xspacing
+		x2-=xspacing
+
+	eslide
+edeck
