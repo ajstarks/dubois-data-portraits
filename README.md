@@ -3,6 +3,7 @@
 decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualizing Black America"
 
 * Plate 10: Conjugal Condition
+* Plate 12: Slave and Free Negroes
 * Plate 13: Race Amalgamation in Georgia
 * Plate 14: Illiteracy
 * Plate 15: Children in the Public Schools
@@ -14,6 +15,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 50: The Rise of Negroes from Slavery to Freedom in One Generation"
 * Plate 51: Proportion of Freemen and Slaves
 * Plate 52: City and Rural Population
+* Plate 53: Conjugal condition of American Negroes according to age periods
 * Plate 56: Negro landowners
 * Plate 57: Negro business men in the United States
 * Plate 59: Mortality of American Negroes
