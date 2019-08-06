@@ -1,2 +1,2 @@
 #!/bin/sh
-go run slavefree.go | pdf -pagesize 1100,1400 -sans PublicSans-Bold
+go run slavefree.go | pdf -pagesize $portrait -sans PublicSans-Bold

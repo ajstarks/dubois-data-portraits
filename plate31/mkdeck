@@ -1,2 +1,2 @@
 #!/bin/sh
-decksh income.dsh | pdf -pagesize 1400,1100 -sans PublicSans-Bold -serif PublicSans-Thin  $*
+decksh income.dsh | pdf -pagesize 2016,1584 -sans PublicSans-Bold -serif PublicSans-Thin  $*

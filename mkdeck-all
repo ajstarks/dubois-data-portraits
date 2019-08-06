@@ -1,5 +1,7 @@
 #!/bin/sh
-decksh title.dsh | pdfdeck -stdout -pagesize 1100,1400 -sans PublicSans-Regular - > title.pdf
+export portrait=1584,2016
+export landscape=2016,1584
+decksh title.dsh | pdfdeck -stdout -pagesize $portrait -sans PublicSans-Regular - > title.pdf
 for i in plate*
 do
 	cd $i

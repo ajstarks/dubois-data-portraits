@@ -1,2 +1,2 @@
 #!/bin/sh
-decksh population-proportion.dsh | pdf -pagesize 1100,1400 -sans PublicSans-Bold
+decksh population-proportion.dsh | pdf -pagesize $portrait -sans PublicSans-Bold
