@@ -1,8 +1,8 @@
 // Plate 41: Population comparison, W.E.B Du Bois's Data Portraits
 deck
 	slide
-		imw=300
-		imh=300
+		imw=400
+		imh=400
 
 		col1=20
 		col2=col1+30
