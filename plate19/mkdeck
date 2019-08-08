@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh land.dsh | pdf -pagesize $portrait -sans PublicSans-Bold $*

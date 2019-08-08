@@ -1,0 +1,13 @@
+// Acres of Land Owned by Negroes in Georgia
+deck
+	opts="-fulldeck=f -ls 2.2 -val=f -left 7 -right 95 -top 87 -hbar -color=red"
+	slide
+		clist 50 95 3 "sans" "" 100 1.2
+			li "ACRES OF LAND OWNED BY NEGROES"
+			li "IN GEORGIA."
+		elist
+		dchart opts land.d
+		text "338,769"   17 87.4 1.2
+		text "1,062,223" 45 8    1.2
+	eslide
+edeck
