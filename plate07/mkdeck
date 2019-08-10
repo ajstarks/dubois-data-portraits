@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh wc.dsh | pdf -pagesize $portrait -sans PublicSans-Bold  -serif PublicSans-Regular $*

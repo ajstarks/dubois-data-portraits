@@ -1,0 +1,209 @@
+deck
+	left=22
+	right=left+60
+
+	ledge=left+3
+	redge=right-3
+	width=right-left
+	top=88
+	bottom=19
+	height=top-bottom
+	hairline=0.1
+	lineop=30
+	h0=height+1
+	ncolor="black"
+	wcolor="gray"
+	slide
+		clist 50 95 3 "sans" "black" 100 1.2
+			li "COMPARATIVE INCREASE OF WHITE AND COLORED"
+			li "POPULATION OF GEORGIA."
+		elist
+		vline left  bottom h0 hairline "black"	// left edge
+		vline right bottom h0 hairline "black"	// right edge
+
+		// vertical gridlines
+		hinterval=3
+		for x=ledge redge hinterval
+			vline x bottom h0 hairline "red" lineop
+		efor
+
+		// horizontal gridlines
+		vinterval=7
+		by=bottom+vinterval
+		for y=by top vinterval
+			hline left y width hairline "red" lineop
+		efor
+
+		// bottom labels
+		lx=left
+		labelsize=1.2
+		ly=bottom-labelsize
+		labelcolor="gray"
+		ctext "100"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "95"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "90"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "85"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "80"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "75"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "70"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "65"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "60"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "55"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "50"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "45"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "40"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "35"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "30"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "25"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "20"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "15"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "10"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "5"  lx ly labelsize "serif" labelcolor
+		lx+=hinterval
+		ctext "0"  lx ly labelsize "serif" labelcolor
+		ly-=2.5
+		ctext "PERCENTS" 50 ly labelsize "serif" labelcolor
+
+		// date labels
+		lx=left-2
+		ly=bottom-0.5
+		datesize=labelsize*1.5
+		etext "1790" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1800" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1810" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1820" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1830" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1840" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1850" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1860" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1870" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1880" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+		etext "1890" lx ly datesize "serif" labelcolor
+		ly+=vinterval
+
+		// data
+		w1=vmap 0 100 0 left right
+		w2=vmap 90 100 0 left right
+		w3=vmap 46 100 0 left right
+		w4=vmap 30 100 0 left right
+		w5=vmap 55 100 0 left right
+		w6=vmap 34 100 0 left right
+		w7=vmap 31 100 0 left right
+		w8=vmap 16 100 0 left right
+		w9=vmap 11 100 0 left right
+		w10=vmap 34 100 0 left right
+		w11=vmap 20 100 0 left right
+
+		n1=vmap 0 100 0 left right
+		n2=vmap 100 100 0 left right
+		n3=vmap 78 100 0 left right
+		n4=vmap 42 100 0 left right
+		n5=vmap 45 100 0 left right
+		n6=vmap 30 100 0 left right
+		n7=vmap 35 100 0 left right
+		n8=vmap 20 100 0 left right
+		n9=vmap 22 100 0 left right
+		n10=vmap 36 100 0 left right
+		n11=vmap 21 100 0 left right
+		dataline=hairline+0.05
+
+		yd=bottom
+		y2 = yd + vinterval
+		line n1 yd n2 y2 dataline ncolor
+		line w1 yd w2 y2 dataline wcolor
+		
+		yi = y2
+		y3 = yi + vinterval
+		line n2 yi 	n3 y3 dataline ncolor
+		line w2 y2  w3 y3 dataline wcolor
+
+		yi = y3
+		y4 = yi + vinterval
+		line n3 y3 n4 y4 dataline ncolor
+		line w3 y3 w4 y4 dataline wcolor
+
+		yi = y4
+		y5 = yi + vinterval
+		line n4 y4 n5 y5 dataline ncolor
+		line w4 y4 w5 y5 dataline wcolor
+
+		yi = y5
+		y6 = yi + vinterval
+		line n5 y5 n6 y6 dataline ncolor
+		line w5 y5 w6 y6 dataline wcolor
+
+		yi = y6
+		y7 = yi + vinterval
+		line n6 y6 n7 y7 dataline ncolor
+		line w6 y6 w7 y7 dataline wcolor
+
+		yi = y7
+		y8 = yi + vinterval
+		line n7 y7 n8 y8 dataline ncolor
+		line w7 y7 w8 y8 dataline wcolor
+
+		yi = y8
+		y9 = yi + vinterval
+		line n8 y8 n9 y9 dataline ncolor
+		line w8 y8 w9 y9 dataline wcolor
+
+		yi = y9
+		y10 = yi + vinterval
+		line n9 y9 n10 y10 dataline ncolor
+		line w9 y9 w10 y10 dataline wcolor
+
+		yi = y10
+		y11 = yi + vinterval
+		line n10 y10 n11 y11 dataline ncolor
+		line w10 y10 w11 y11 dataline wcolor
+
+		t1=top+1
+		hline left bottom width dataline "black"	// bottom edge
+		hline left t1     width dataline "black"	// top edge
+
+		// legend
+		legy=bottom-5
+		tly=legy-0.3
+		legsize=9
+		legx=left+10
+		hline left legy legsize dataline ncolor
+		text  "= COLORED" legx tly labelsize "serif"
+
+		legx=right-9
+		hline legx legy legsize dataline wcolor
+		legx-=1
+		etext "= WHITE" legx tly labelsize "serif"
+
+
+	eslide
+
+edeck
