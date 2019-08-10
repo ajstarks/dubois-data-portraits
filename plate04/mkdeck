@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh georgia-pop.dsh | pdf -pagesize $portrait -sans PublicSans-Bold $*

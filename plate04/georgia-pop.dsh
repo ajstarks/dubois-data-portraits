@@ -1,0 +1,7 @@
+deck
+	opts="-fulldeck=f -hbar -top=85 -left=20 -right=95 -color=gray -val=f -ls=5"
+	slide
+		ctext "NEGRO POPULATION OF GEORGIA." 50 95 3
+		dchart opts georgia-pop.d
+	eslide
+edeck

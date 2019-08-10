@@ -2,6 +2,7 @@
 
 decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualizing Black America"
 
+* Plate  4: Negro Population of Georgia
 * Plate  9: Age Distribution of Georgia Negroes Compared with France
 * Plate 10: Conjugal Condition
 * Plate 12: Slave and Free Negroes
