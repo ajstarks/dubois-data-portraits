@@ -1,0 +1,93 @@
+deck
+	lx=8
+	labelsize=2
+	labelcolor="gray"
+	color="red"
+	left=10
+	minlen=0.5
+	maxlen=85
+	linesize=2.5
+	slide
+		clist 50 95 3 "sans" "" 100 1.2
+			li "ACRES OF LAND OWNED BY NEGROES"
+			li "IN GEORGIA."
+		elist
+		ctext "338,769" 22 89.375 2
+		ctext "1,062,223" 50 5.3 2
+		v1=vmap 40 0 134 minlen maxlen
+		v2=vmap 47 0 134 minlen maxlen
+		v3=vmap 55 0 134 minlen maxlen
+		v4=vmap 56 0 134 minlen maxlen
+		v5=vmap 61.5 0 134 minlen maxlen
+		v6=vmap 66 0 134 minlen maxlen
+		v7=vmap 72 0 134 minlen maxlen
+		v8=vmap 84 0 134 minlen maxlen
+		v9=vmap 81 0 134 minlen maxlen
+		v10=vmap 93 0 134 minlen maxlen
+		v11=vmap 95.5 0 134 minlen maxlen
+		v12=vmap 98 0 134 minlen maxlen
+		v13=vmap 99 0 134 minlen maxlen
+		v14=vmap 106 0 134 minlen maxlen
+		v15=vmap 108 0 134 minlen maxlen
+		v16=vmap 117 0 134 minlen maxlen
+		v17=vmap 123 0 134 minlen maxlen
+		v18=vmap 130 0 134 minlen maxlen
+		v19=vmap 127 0 134 minlen maxlen
+		v20=vmap 130 0 134 minlen maxlen
+		v21=vmap 126 0 134 minlen maxlen
+		v22=vmap 126 0 134 minlen maxlen
+		v23=vmap 129 0 134 minlen maxlen
+		v24=vmap 134 0 134 minlen maxlen
+		v25=vmap 129 0 134 minlen maxlen
+		etext "1874" lx 89.5 labelsize "serif" labelcolor
+		hline left 90 v1 linesize color
+		etext "1875" lx 86 labelsize "serif" labelcolor
+		hline left 86.5 v2 linesize color
+		etext "1876" lx 82.5 labelsize "serif" labelcolor
+		hline left 83 v3 linesize color
+		etext "1877" lx 79 labelsize "serif" labelcolor
+		hline left 79.5 v4 linesize color
+		etext "1878" lx 75.5 labelsize "serif" labelcolor
+		hline left 76 v5 linesize color
+		etext "1879" lx 72 labelsize "serif" labelcolor
+		hline left 72.5 v6 linesize color
+		etext "1880" lx 68.5 labelsize "serif" labelcolor
+		hline left 69 v7 linesize color
+		etext "1882" lx 65 labelsize "serif" labelcolor
+		hline left 65.5 v8 linesize color
+		etext "1883" lx 61.5 labelsize "serif" labelcolor
+		hline left 62 v9 linesize color
+		etext "1884" lx 58 labelsize "serif" labelcolor
+		hline left 58.5 v10 linesize color
+		etext "1885" lx 54.5 labelsize "serif" labelcolor
+		hline left 55 v11 linesize color
+		etext "1888" lx 51 labelsize "serif" labelcolor
+		hline left 51.5 v12 linesize color
+		etext "1887" lx 47.5 labelsize "serif" labelcolor
+		hline left 48 v13 linesize color
+		etext "1888" lx 44 labelsize "serif" labelcolor
+		hline left 44.5 v14 linesize color
+		etext "1889" lx 40.5 labelsize "serif" labelcolor
+		hline left 41 v15 linesize color
+		etext "1890" lx 37 labelsize "serif" labelcolor
+		hline left 37.5 v16 linesize color
+		etext "1891" lx 33.5 labelsize "serif" labelcolor
+		hline left 34 v17 linesize color
+		etext "1892" lx 30 labelsize "serif" labelcolor
+		hline left 30.5 v18 linesize color
+		etext "1893" lx 26.5 labelsize "serif" labelcolor
+		hline left 27 v19 linesize color
+		etext "1894" lx 23 labelsize "serif" labelcolor
+		hline left 23.5 v20 linesize color
+		etext "1895" lx 19.5 labelsize "serif" labelcolor
+		hline left 20 v21 linesize color
+		etext "1896" lx 16 labelsize "serif" labelcolor
+		hline left 16.5 v22 linesize color
+		etext "1897" lx 12.5 labelsize "serif" labelcolor
+		hline left 13 v23 linesize color
+		etext "1898" lx 9 labelsize "serif" labelcolor
+		hline left 9.5 v24 linesize color
+		etext "1899" lx 5.5 labelsize "serif" labelcolor
+		hline left 6 v25 linesize color
+	eslide
+edeck

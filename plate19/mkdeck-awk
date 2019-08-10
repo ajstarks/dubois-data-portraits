@@ -1,0 +1,3 @@
+#!/bin/sh
+awk -F$'\t' -f hbar.awk -v top=90 -v color=red -v linesize=2.5 -v right=95 -v left=10 -v labelsize=2 -v step=3.5 land.d > land0.dsh
+decksh land0.dsh |pdf -sans PublicSans-Bold -serif PublicSans-Regular -pagesize=$portrait $*
