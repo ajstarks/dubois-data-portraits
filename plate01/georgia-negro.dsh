@@ -7,8 +7,8 @@ deck
 			li "BY"
 			li "W.E.BURGHARDT DU BOIS."
 		elist
-		image "west-brown.png" 30 55 1200 1200 55
-		image "east-brown.png" 70 55 1200 1200 55
+		image "west-brown.png" 30 55 1200 1200 75
+		image "east-brown.png" 70 55 1200 1200 75
 
 //		line 65 45 40 48 0.1 "black"
 //		circle   40 48 5 "red" 20

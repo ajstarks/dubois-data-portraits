@@ -27,12 +27,12 @@ deck
 
 		ctext "1860"             col1 ly2t 3 
 		ctext "ONE-SEVENTH"      col1 ly2b 3 
-		image "usa-outline.png"  col1 row2 600 600
+		image "usa-outline.png"  col1 row2 700 700
 		image "usa-black.png"    col1 row2 240 240
 
 		ctext "1890"        col2 ly2t 4
 		ctext "ONE-EIGHTH"  col2 ly2b 4
-		image "usa-outline.png" col2 row2 600 600 
-		image "usa-black.png"   col2 row2 260 260 
+		image "usa-outline.png" col2 row2 900 900 
+		image "usa-black.png"   col2 row2 300 300
 	eslide
 edeck
