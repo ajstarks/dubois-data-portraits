@@ -1,0 +1,4 @@
+#!/bin/sh
+csvread -headskip 2 3 4 1 < gaxy.csv | ./dms2dec > gacoord.csv
+awk -F, '{printf "%s,%s\n", $1, $2 >> $3 "-coord.csv"}' gacoord.csv
+
