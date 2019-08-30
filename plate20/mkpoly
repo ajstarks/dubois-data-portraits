@@ -1,0 +1,7 @@
+#!/bin/sh
+if test $# -ne 7
+then
+	echo "mkpoly minx maxx miny maxy file" 1>&2
+	exit 1
+fi
+awk -F, -f poly.awk -v vminx=$1 -v vmaxx=$2 -v vminy=$3 -v vmaxy=$4 -v landvalue=$5 -v color=$6 $7
