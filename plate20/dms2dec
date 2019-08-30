@@ -1,0 +1,13 @@
+#!/bin/sh
+# convert degree minute second records to decimal
+# record format dd°mm′ss″
+awk -F$'\t'  '
+{
+	xd=substr($1,1,2)
+	xm=substr($1,4,2)
+	xs=substr($1,7,2)
+	yd=substr($2,1,2)
+	ym=substr($2,4,2)
+	ys=substr($2,7,2)
+	printf "%.5f,%.5f,%s%02d\n", xd+(xm/60)+(xs/3600), yd+(ym/60)+(ys/3600), $3, $4
+}' $* 

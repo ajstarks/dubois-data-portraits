@@ -1,0 +1,8 @@
+
+deck
+	slide
+		ctext "LAND OWNED BY NEGROES IN GEORGIA, U.S.A  1870-1900." 50 95 3 "serif"
+		clist 75 75 1.2 "sans" "rgb(70,70,70)" 100 1.6
+			li "THE FIGURES INDICATE THE NUMBER OF"
+			li "ACRES OWNED IN EACH COUNTY IN 1899"
+		elist

@@ -92,10 +92,10 @@ function poly(left, right, bottom, top) {
 		}
 		printf "%g ", py
 	}
-	printf "%g\" \"%s\" 80\n", vmap(y[1], miny, maxy, bottom, top), color
+	printf "%g\" \"%s\"\n", vmap(y[1], miny, maxy, bottom, top), color
 	printf "ctext \"%s\" %g %g 1\n", landvalue, pminx+((pmaxx-pminx)/2), pminy+((pmaxy-pminy)/2)
 }
 
 END {
-	poly(5, 80, 15, 80)
+	poly(10, 85, 15, 80)
 }
