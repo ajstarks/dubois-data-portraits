@@ -1,0 +1,3 @@
+#!/bin/sh
+# (cat annotations.dsh; ./mkall; cat close.dsh) | decksh | pngdeck -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait /dev/stdin
+decksh galand.dsh | pngdeck -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait /dev/stdin
