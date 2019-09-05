@@ -1,0 +1,5 @@
+#!/bin/sh
+# ./mkfiles
+# ./mkplate05 > plate05poly.dsh
+# (cat annotations.dsh plate05poly.dsh close.dsh ) | decksh | pdf -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait
+decksh gapop.dsh | pdf -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait
