@@ -1,0 +1,17 @@
+#!/bin/sh
+if test $# -lt 7
+then
+	echo "mkpoly left right bottom top label color file" 1>&2
+	exit 1
+fi
+# bounds on the deck canvas
+dleft=$1
+dright=$2
+dbottom=$3
+dtop=$4
+# geographic bounds for Georgia
+vminx=80.85139
+vmaxx=85.60528
+vminy=30.35556
+vmaxy=35.00083
+awk -F, -f poly.awk -v dleft=$dleft -v dright=$dright -v dbottom=$dbottom -v dtop=$dtop -v vminx=$vminx -v vmaxx=$vmaxx -v vminy=$vminy -v vmaxy=$vmaxy -v landvalue=$5 -v color="$6" $7

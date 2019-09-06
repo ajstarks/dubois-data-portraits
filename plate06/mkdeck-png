@@ -1,0 +1,6 @@
+#!/bin/sh
+#awk -F, '{printf "./mkpoly  5 50 50 90 \"\" %s %s-coord.csv\n", $2, $1}' ga1870pop.csv > mkplate06
+#awk -F, '{printf "./mkpoly 50 95  5 45 \"\" %s %s-coord.csv\n", $2, $1}' ga1880pop.csv >> mkplate06
+#./mkplate06 > gapoly.dsh
+decksh gapop2.dsh | pngdeck -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait $* /dev/stdin
+
