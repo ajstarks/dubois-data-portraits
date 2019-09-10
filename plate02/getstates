@@ -1,0 +1,67 @@
+#!/bin/sh
+# extract geo coordinates from a shape file dump
+awk '
+/^Shape:0/,/^Shape:1 .*\(Polygon/ {printf "%s\n", $0 > "00.d"  }
+/^Shape:1/,/^Shape:2 \(Polygon/ { printf "%s\n", $0 > "01.d"  }
+/^Shape:2/,/^Shape:3 \(Polygon/ { printf "%s\n", $0 > "02.d"  }
+/^Shape:3/,/^Shape:4 \(Polygon/ { printf "%s\n", $0 > "03.d"  }
+/^Shape:4/,/^Shape:5 \(Polygon/ { printf "%s\n", $0 > "04.d"  }
+/^Shape:5/,/^Shape:6 \(Polygon/ { printf "%s\n", $0 > "05.d"  }
+/^Shape:6/,/^Shape:7 \(Polygon/ { printf "%s\n", $0 > "06.d"  }
+/^Shape:7/,/^Shape:8 \(Polygon/ { printf "%s\n", $0 > "07.d"  }
+/^Shape:8/,/^Shape:9 \(Polygon/ { printf "%s\n", $0 > "08.d"  }
+/^Shape:9/,/^Shape:10 \(Polygon/ { printf "%s\n", $0 > "09.d"  }
+/^Shape:10/,/^Shape:11 \(Polygon/ { printf "%s\n", $0 > "10.d"  }
+/^Shape:11/,/^Shape:12 \(Polygon/ { printf "%s\n", $0 > "11.d"  }
+/^Shape:12/,/^Shape:13 \(Polygon/ { printf "%s\n", $0 > "12.d"  }
+/^Shape:13/,/^Shape:14 \(Polygon/ { printf "%s\n", $0 > "13.d"  }
+/^Shape:14/,/^Shape:15 \(Polygon/ { printf "%s\n", $0 > "14.d"  }
+/^Shape:15/,/^Shape:16 \(Polygon/ { printf "%s\n", $0 > "15.d"  }
+/^Shape:16/,/^Shape:17 \(Polygon/ { printf "%s\n", $0 > "16.d"  }
+/^Shape:17/,/^Shape:18 \(Polygon/ { printf "%s\n", $0 > "17.d"  }
+/^Shape:18/,/^Shape:19 \(Polygon/ { printf "%s\n", $0 > "18.d"  }
+/^Shape:19/,/^Shape:20 \(Polygon/ { printf "%s\n", $0 > "19.d"  }
+/^Shape:20/,/^Shape:21 \(Polygon/ { printf "%s\n", $0 > "20.d"  }
+/^Shape:21/,/^Shape:22 \(Polygon/ { printf "%s\n", $0 > "21.d"  }
+/^Shape:22/,/^Shape:23 \(Polygon/ { printf "%s\n", $0 > "22.d"  }
+/^Shape:23/,/^Shape:24 \(Polygon/ { printf "%s\n", $0 > "23.d"  }
+/^Shape:24/,/^Shape:25 \(Polygon/ { printf "%s\n", $0 > "24.d"  }
+/^Shape:25/,/^Shape:26 \(Polygon/ { printf "%s\n", $0 > "25.d"  }
+/^Shape:26/,/^Shape:27 \(Polygon/ { printf "%s\n", $0 > "26.d"  }
+/^Shape:27/,/^Shape:28 \(Polygon/ { printf "%s\n", $0 > "27.d"  }
+/^Shape:28/,/^Shape:29 \(Polygon/ { printf "%s\n", $0 > "28.d"  }
+/^Shape:29/,/^Shape:30 \(Polygon/ { printf "%s\n", $0 > "29.d"  }
+/^Shape:30/,/^Shape:31 \(Polygon/ { printf "%s\n", $0 > "30.d"  }
+/^Shape:31/,/^Shape:32 \(Polygon/ { printf "%s\n", $0 > "31.d"  }
+/^Shape:32/,/^Shape:33 \(Polygon/ { printf "%s\n", $0 > "32.d"  }
+/^Shape:33/,/^Shape:34 \(Polygon/ { printf "%s\n", $0 > "33.d"  }
+/^Shape:34/,/^Shape:35 \(Polygon/ { printf "%s\n", $0 > "34.d"  }
+/^Shape:35/,/^Shape:36 \(Polygon/ { printf "%s\n", $0 > "35.d"  }
+/^Shape:36/,/^Shape:37 \(Polygon/ { printf "%s\n", $0 > "36.d"  }
+/^Shape:37/,/^Shape:38 \(Polygon/ { printf "%s\n", $0 > "37.d"  }
+/^Shape:38/,/^Shape:39 \(Polygon/ { printf "%s\n", $0 > "38.d"  }
+/^Shape:39/,/^Shape:40 \(Polygon/ { printf "%s\n", $0 > "39.d"  }
+/^Shape:40/,/^Shape:41 \(Polygon/ { printf "%s\n", $0 > "40.d"  }
+/^Shape:41/,/^Shape:42 \(Polygon/ { printf "%s\n", $0 > "41.d"  }
+/^Shape:42/,/^Shape:43 \(Polygon/ { printf "%s\n", $0 > "42.d"  }
+/^Shape:43/,/^Shape:44 \(Polygon/ { printf "%s\n", $0 > "43.d"  }
+/^Shape:44/,/^Shape:45 \(Polygon/ { printf "%s\n", $0 > "44.d"  }
+/^Shape:45/,/^Shape:46 \(Polygon/ { printf "%s\n", $0 > "45.d"  }
+/^Shape:46/,/^Shape:47 \(Polygon/ { printf "%s\n", $0 > "46.d"  }
+/^Shape:47/,/^Shape:48 \(Polygon/ { printf "%s\n", $0 > "47.d"  }
+/^Shape:48/,/^Shape:49 \(Polygon/ { printf "%s\n", $0 > "48.d"  }
+/^Shape:49/,/^Shape:50 \(Polygon/ { printf "%s\n", $0 > "49.d"  }
+/^Shape:50/,/^Shape:51 \(Polygon/ { printf "%s\n", $0 > "50.d"  }
+/^Shape:51/,/^Shape:52 \(Polygon/ { printf "%s\n", $0 > "51.d"  }
+/^Shape:52/,/^Shape:53 \(Polygon/ { printf "%s\n", $0 > "52.d"  }
+/^Shape:53/,/^Shape:54 \(Polygon/ { printf "%s\n", $0 > "53.d"  }
+/^Shape:54/,/^Shape:55 \(Polygon/ { printf "%s\n", $0 > "54.d"  }
+/^Shape:55/,/^Shape:56 \(Polygon/ { printf "%s\n", $0 > "55.d"  }
+/^Shape:56/,/^Shape:57 \(Polygon/ { printf "%s\n", $0 > "56.d"  }
+' $*
+
+# clean up extra stuff on the top and bottom
+for i in [0-9][0-9].d
+do
+	ed $i < fix.ed
+done
