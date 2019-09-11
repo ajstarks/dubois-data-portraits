@@ -2,7 +2,7 @@ deck
 	slide
 		ctext "RELATIVE NEGRO POPULATION OF THE STATES OF THE" 50 95 3.2 "serif"
 		ctext "UNITED STATES." 50 92 3.2 "serif"
-		include "allstates.dsh"
+		include "a-allstates.dsh"
 		lx=28
 		ly=25
 		bskip=4.75

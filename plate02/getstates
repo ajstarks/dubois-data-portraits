@@ -2,15 +2,15 @@
 # extract geo coordinates from a shape file dump
 awk '
 /^Shape:0/,/^Shape:1 .*\(Polygon/ {printf "%s\n", $0 > "00.d"  }
-/^Shape:1/,/^Shape:2 \(Polygon/ { printf "%s\n", $0 > "01.d"  }
-/^Shape:2/,/^Shape:3 \(Polygon/ { printf "%s\n", $0 > "02.d"  }
-/^Shape:3/,/^Shape:4 \(Polygon/ { printf "%s\n", $0 > "03.d"  }
-/^Shape:4/,/^Shape:5 \(Polygon/ { printf "%s\n", $0 > "04.d"  }
-/^Shape:5/,/^Shape:6 \(Polygon/ { printf "%s\n", $0 > "05.d"  }
-/^Shape:6/,/^Shape:7 \(Polygon/ { printf "%s\n", $0 > "06.d"  }
-/^Shape:7/,/^Shape:8 \(Polygon/ { printf "%s\n", $0 > "07.d"  }
-/^Shape:8/,/^Shape:9 \(Polygon/ { printf "%s\n", $0 > "08.d"  }
-/^Shape:9/,/^Shape:10 \(Polygon/ { printf "%s\n", $0 > "09.d"  }
+/^Shape:1/,/^Shape:2.* \(Polygon/ { printf "%s\n", $0 > "01.d"  }
+/^Shape:2/,/^Shape:3.* \(Polygon/ { printf "%s\n", $0 > "02.d"  }
+/^Shape:3/,/^Shape:4.* \(Polygon/ { printf "%s\n", $0 > "03.d"  }
+/^Shape:4/,/^Shape:5.* \(Polygon/ { printf "%s\n", $0 > "04.d"  }
+/^Shape:5/,/^Shape:6.* \(Polygon/ { printf "%s\n", $0 > "05.d"  }
+/^Shape:6/,/^Shape:7.* \(Polygon/ { printf "%s\n", $0 > "06.d"  }
+/^Shape:7/,/^Shape:8.* \(Polygon/ { printf "%s\n", $0 > "07.d"  }
+/^Shape:8/,/^Shape:9.* \(Polygon/ { printf "%s\n", $0 > "08.d"  }
+/^Shape:9/,/^Shape:10.* \(Polygon/ { printf "%s\n", $0 > "09.d"  }
 /^Shape:10/,/^Shape:11 \(Polygon/ { printf "%s\n", $0 > "10.d"  }
 /^Shape:11/,/^Shape:12 \(Polygon/ { printf "%s\n", $0 > "11.d"  }
 /^Shape:12/,/^Shape:13 \(Polygon/ { printf "%s\n", $0 > "12.d"  }
