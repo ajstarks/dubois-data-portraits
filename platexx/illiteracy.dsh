@@ -1,0 +1,31 @@
+deck
+	slide
+		ts=2.5
+		ts1=ts*1.2
+		ctext "THE DECREASE OF ILLITERACY AMONG THE BLACK FREEDMEN OF THE UNITED STATES" 50 95 2.1
+		ctext "DECROISSEMENT DES ILLETTRES PARMI LES NEGRES AFFRANCHIS DANS LES ETATS UNIS" 50 90 2.1
+		ctext "DONE BY ATLANTA UNIVERSITY" 50 85 1.6
+		# Data
+		rect 52.5 45 65 60 "green" 60
+		polygon "20.00 20.00 41.67 63.33 85.00 85.00" "15.00 69.00 63.60 57.00 48.60 15.00"  "black"
+		# Axis labels
+		ctext "1860" 20.00 76.00 ts
+		ctext "1870" 41.67 76.00 ts
+		ctext "1880" 63.33 76.00 ts
+		ctext "1890" 85.00 76.00 ts
+		# Data labels
+		etext "90"    20.00 65.50 ts
+		text "%"      20.00 65.50 ts "sans" "white"
+		ctext "81%"   41.67 60.10 ts "sans" "white"
+		ctext "70%"   63.33 53.50 ts "sans" "white"
+		etext "56"    85.00 45.10 ts "sans" "white"
+		text  "%"     85.00 45.10 ts
+		ctext "ILLITERATE" 50 40 ts1 "sans" "white"
+		ctext "READ  AND  WRITE" 50 70 ts1
+		ctext "SACHANT    LIRE     ET     ECRIRE" 50 68 2
+
+		# dchart -bar=f -vol -color=black -frame -framecolor=green -top=75 -bottom=15 -left=20 -right=85 -max=100 -fulldeck=f il.d		
+
+	eslide
+
+edeck

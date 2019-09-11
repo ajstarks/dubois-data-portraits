@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh illiteracy.dsh | pdf -pagesize $portrait -sans PublicSans-Bold $*
