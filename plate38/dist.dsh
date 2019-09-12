@@ -1,0 +1,28 @@
+deck
+	slide "white" "rgb(100,100,100)"
+		cy=80
+		cr=4
+		ctext "DISTRIBUTION OF NEGROES IN THE UNITED STATES." 50 96 3 "serif" "black"
+		ctext "DISTRIBUTION DES NÈGRES DAN LES ETATS UNIS." 50 93 2
+
+		circle 22 cy cr "gold"
+		circle 36 cy cr "darkblue"
+		circle 50 cy cr "crimson"
+		circle 64 cy cr "rgb(101,67,33)"
+		circle 78 cy cr "black"
+
+		ls=1.5
+		lskip=cr*0.75
+		cy-=lskip
+		ctext "LESS THAN 1" 22 cy ls
+		ctext "1-4"       36 cy ls
+		ctext "4-8"       50 cy ls
+		ctext "8-15"      64 cy ls
+		ctext "15-20"     78 cy ls
+
+		cy-=cr
+		ctext "NEGROES TO THE SQUARE MILE" 50 cy 2
+
+		include "allstates.dsh"
+	eslide
+edeck
