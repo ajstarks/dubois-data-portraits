@@ -1,0 +1,9 @@
+#!/bin/sh
+case $0 in
+*mkdeck)
+	decksh crime.dsh | pdfdeck -stdout -pagesize $portrait -serif NotoSerif-Regular -sans PublicSans-Regular $* /dev/stdin > f.pdf
+	;;
+*mkdeck-png)
+	decksh crime.dsh | pngdeck -pagesize $portrait -serif NotoSerif-Regular -sans PublicSans-Regular $* /dev/stdin
+	;;
+esac

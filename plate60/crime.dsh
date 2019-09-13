@@ -1,0 +1,48 @@
+deck
+	slide "white" "rgb(75,75,75)"
+		ctext "Crime among American Negroes." 50 93 2.5 "serif"
+		ctext "Criminalite parmi les Negres Americains" 50 88 1.6 "serif"
+		ctext "Done by Atlanta University" 50 83 1.5 "serif"
+		hline 42 91 18
+		hline 42 86 18
+		ctext "3250" 30 75 3 "sans" "black"
+		textblock "PRISONERS PER MILLION OF NEGRO POPULATION; CRIMES DIVIDED AS FOLLOWS:" 20 73 19 1.5 
+		line 20 20 25 25 20 "green"
+		line 25 25 50 50 20 "black"
+		line 50 50 65 65 20 "rgb(101,67,33)"
+		line 65 65 72 72 20 "gold"
+		line 72 72 72.5 72.5 20 "crimson"
+
+
+		ttop=40
+		cx=90
+		cy=ttop
+		cskip=6
+		cr=4
+		circle cx cy cr "crimson"
+		cy-=cskip
+		circle cx cy cr "gold"
+		cy-=cskip
+		circle cx cy cr "rgb(101,67,33)"
+		cy-=cskip
+		circle cx cy cr "black"
+		cy-=cskip
+		circle cx cy cr "green"
+
+		tx=cx-5
+		ty=ttop-0.5
+		ty1=ttop+1.2
+		ts=2
+		etext "CRIMES AGAINST" tx ty1 1.5
+		etext "GOVERNMENT" tx ty ts
+		ty-=cskip
+		etext "SOCIETY" tx ty ts
+		ty-=cskip
+		etext "PERSONS" tx ty ts
+		ty-=cskip
+		etext "PROPERTY" tx ty ts
+		ty-=cskip
+		etext "MISCELLANEOUS" tx ty ts
+		ty-=cskip
+	eslide
+edeck
