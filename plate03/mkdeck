@@ -1,0 +1,9 @@
+#!/bin/sh
+case $0 in
+	*mkdeck)
+	decksh statepop.dsh | pdf -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $*
+	;;
+	*mkdeck-png)
+	decksh statepop.dsh | pngdeck -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* /dev/stdin
+	;;
+esac

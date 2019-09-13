@@ -1,0 +1,95 @@
+// Plate 3 States of the United States According to their Negro Population
+deck
+	slide
+		ll=25
+		ts=2
+		lw=ts
+		ctext "STATES OF THE UNITED STATES ACCORDING"	50 95 3 "serif"
+		ctext "TO THEIR NEGRO POPULATION."				50 92 3 "serif"
+
+		listop=87
+		listcolor="rgb(50,50,50)"
+		list 5 listop ts "sans" listcolor 100 3.5
+			li "GEORGIA"
+			li "MISSISSIPPI"
+			li "SOUTH CAROLINA"
+			li "ALABAMA"
+			li "VIRGINIA"
+			li "NORTH CAROLINA"
+			li "LOUISIANA"
+			li "TEXAS"
+			li "TENNESEE"
+			li "ARKANSAS"
+			li "KENTUCKY"
+			li "MARYLAND"
+			li "FLORIDA"
+			li "MISSOURI"
+			li "PENNSYLVANIA"
+			li "ALL OTHER STATES"
+		elist
+		
+		dmin=0
+		dmax=11.3
+		cmin=25
+		cmax=95
+		// population data (measured in mm because no data is given in the original)
+		ga=vmap 11.3 dmin dmax cmin cmax
+		ms=vmap 9.7  dmin dmax cmin cmax
+		sc=vmap 9.0  dmin dmax cmin cmax
+		al=vmap 8.8  dmin dmax cmin cmax
+		va=vmap 8.0  dmin dmax cmin cmax
+		nc=vmap 7.4  dmin dmax cmin cmax
+		la=vmap 7.3  dmin dmax cmin cmax
+		tx=vmap 6.7  dmin dmax cmin cmax
+		tn=vmap 5.7  dmin dmax cmin cmax
+		ak=vmap 4.0  dmin dmax cmin cmax
+		ky=vmap 3.3  dmin dmax cmin cmax
+		md=vmap 2.9  dmin dmax cmin cmax
+		fl=vmap 2.2  dmin dmax cmin cmax
+		mo=vmap 1.9  dmin dmax cmin cmax
+		pa=vmap 1.5  dmin dmax cmin cmax
+		ao=vmap 7.8  dmin dmax cmin cmax
+
+		ly=87.5
+		lskip=5.5
+		linecolor="crimson"
+
+		// draw data lines
+		line ll ly ga ly lw linecolor
+		ly-=lskip
+		line ll ly ms ly lw linecolor
+		ly-=lskip
+		line ll ly sc ly lw linecolor
+		ly-=lskip
+		line ll ly al ly lw linecolor
+		ly-=lskip
+		line ll ly va ly lw linecolor
+		ly-=lskip
+		line ll ly nc ly lw linecolor
+		ly-=lskip
+		line ll ly la ly lw linecolor
+		ly-=lskip
+		line ll ly tx ly lw linecolor
+		ly-=lskip
+		line ll ly tn ly lw linecolor
+		ly-=lskip
+		line ll ly ak ly lw linecolor
+		ly-=lskip
+		line ll ly ky ly lw linecolor
+		ly-=lskip
+		line ll ly md ly lw linecolor
+		ly-=lskip
+		line ll ly fl ly lw linecolor
+		ly-=lskip
+		line ll ly mo ly lw linecolor
+		ly-=lskip
+		line ll ly pa ly lw linecolor
+		ly-=lskip
+		line ll ly ao ly lw linecolor
+
+		text "858,815" 50 87 2 "serif"
+		text "107,596" 27 10 1.5 "serif"
+		text "608,340" 45  4.5 2 "serif"
+
+	eslide
+edeck
