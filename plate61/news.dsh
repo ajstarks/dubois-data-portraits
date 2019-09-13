@@ -5,7 +5,7 @@ deck
 		ctext "Journaux et publications périodiques Nègres aux Etats Unis." 50 90 2 "serif"
 		polygon "5 15 85 95"  "5 20 20 5"     "rgb(40,26,13)"
 		polygon "15 38 62 85" "20 60 60 20"    "darkblue"
-		polygon "38 42 58 62" "60 67 67 60"    "rgb(255,174,66)"
+		polygon "38 42 58 62" "60 67 67 60"    "gold"
 		polygon "42 45 55 58" "67 72 72 67"    "maroon"
 		polygon "45 50 55" "72 80 72"          "darkblue"
 

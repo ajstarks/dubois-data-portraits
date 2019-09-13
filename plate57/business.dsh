@@ -6,7 +6,7 @@ deck
 		linex=23
 		linesize=0.15
 		druggistcolor="rgb(40,26,13)"
-		grocercolor="rgb(255,174,66)"
+		grocercolor="gold"
 
 		ctext "Negro business men in the United States" 50 95 3
 		ctext "Nègres Americains dans les affairs"      50 92 2
@@ -41,8 +41,8 @@ deck
 		ly-=6
 		text "Building and loan associations"           left ly subsize
 		ly-=4
-		hline linex ly 30 linesize "red"
-		vline linex ly 3  linesize "red"
+		hline linex ly 30 linesize "crimson"
+		vline linex ly 3  linesize "crimson"
 
 		
 		col1=37
