@@ -1,7 +1,7 @@
 deck
 	slide "white" "rgb(75,75,75)"
 		ctext "Crime among American Negroes." 50 93 2.5 "serif"
-		ctext "Criminalite parmi les Negres Americains" 50 88 1.6 "serif"
+		ctext "Criminalitè parmi les Nègres Americains" 50 88 1.6 "serif"
 		ctext "Done by Atlanta University" 50 83 1.5 "serif"
 		hline 42 91 18
 		hline 42 86 18
