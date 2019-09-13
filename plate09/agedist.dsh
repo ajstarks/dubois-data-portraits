@@ -3,7 +3,7 @@ deck
 
 		legendcolor="gray"
 		ncolor="black"
-		frcolor="yellow"
+		frcolor="gold"
 		linesize=3
 		labelsize=2
 		legendsize=linesize/2

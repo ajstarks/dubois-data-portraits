@@ -3,11 +3,11 @@ deck
 	slide
 		top=82
 		tt=top+12
-		linewidth=3
+		linewidth=4.5
 		ls=1.5
 		ts=2.5
 		lspace=3
-		spacing=10
+		spacing=13
 		linecolor="rgb(100,100,100)"
 		labelcolor="gray"
 
@@ -24,10 +24,10 @@ deck
 		l7=vmap 180656 min1 max1 min2 max2
 
 		ctext "NEGRO CHILDREN ENROLLED"  50 tt ts "serif"
-		tt-=3.5
+		tt-=3.0
 		ctext "IN THE PUBLIC SCHOOLS."   50 tt ts "serif"
 
-		x=20
+		x=10
 		y=top-l1
 		yl=y-lspace
 		yt=top+lspace
