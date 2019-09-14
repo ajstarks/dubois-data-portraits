@@ -5,6 +5,7 @@ decksh title.dsh | pdfdeck -stdout -pagesize $portrait -sans PublicSans-Bold -se
 for i in plate*
 do
 	cd $i
+	echo $i
 	./mkdeck
 	cd ..
 done
