@@ -2,4 +2,9 @@
 # ./mkfiles
 # ./mkplate05 > plate05poly.dsh
 # (cat annotations.dsh plate05poly.dsh close.dsh ) | decksh | pdf -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait
-decksh gapop.dsh | pngdeck -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait /dev/stdin
+case $0 in
+	*mkdeck)
+		decksh gapop.dsh | pdf -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait ;;
+	*mkdeck-png)
+		decksh gapop.dsh | pngdeck -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait $* /dev/stdin ;;
+esac

@@ -1,3 +1,8 @@
 #!/bin/sh
-# awk '{printf "mkpoly 5 70 15 55 -2361.58 881.14 -1347.71 1323.91 \"\" \"%s\" ../plate02/a-%s.d\n", $2, $1}' dist.d | sh > allstates.dsh
-decksh dist.dsh | pngdeck -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* /dev/stdin
+# awk '{printf "mkpoly 5 70 20 60 -2361.58 881.14 -1347.71 1323.91 \"\" \"%s\" ../plate02/a-%s.d\n", $2, $1}' dist.d | sh > allstates.dsh
+case $0 in
+	*mkdeck)
+		decksh dist.dsh | pdf -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* ;;
+	*mkdeck-png)
+		decksh dist.dsh | pngdeck -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* /dev/stdin ;;
+esac

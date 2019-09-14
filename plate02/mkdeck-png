@@ -1,2 +1,8 @@
 #!/bin/sh
-decksh uspop.dsh | pngdeck -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* /dev/stdin
+#awk '{printf "mkpoly 15 70 30 65 -2361.58 881.14 -1347.71 1323.91 \"\" \"%s\" a-%s.d\n", $2, $1}' popcolor.d | sh > a-allstates.dsh
+case $0 in
+	*mkdeck)
+		decksh uspop.dsh | pdf -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* ;;
+	*mkdeck-png)
+		decksh uspop.dsh | pngdeck -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* /dev/stdin ;;
+esac
