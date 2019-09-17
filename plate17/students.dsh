@@ -1,0 +1,47 @@
+deck
+	slide
+		listcolor="rgb(20,20,20)"
+		linewidth=1.4
+		listsize=1.8
+		linecolor="tan"
+		clist 50 96 2.5 "serif" "black" 100 1.2
+			li "NUMBER OF NEGRO STUDENTS TAKING"
+			li "THE VARIOUS COURSES OF STUDY"
+			li "OFFERED IN GEORGIA SCHOOLS."
+		elist
+
+
+		hline 18 83.5 1 	linewidth linecolor
+		text "BUSINESS"		4 83.2 listsize
+		text "12"			15 83.2 listsize
+
+		hline 20 72.25 9	linewidth linecolor
+		text "CLASSICAL"	4 72 listsize
+		text "98"			16 72 listsize
+
+		// PROFESSIONAL
+		hline 23 61.25 14.1	linewidth linecolor
+		text "PROFESSIONAL"	4 61 listsize
+		text "152" 19 61 listsize
+
+		// SCIENTIFIC
+		hline 19 50 14.8	linewidth linecolor
+		text "SCIENTIFIC"	4  49.5 listsize
+		text "161"			15 49.5 listsize
+
+		// NORMAL
+		hline 19 39 35.5 	linewidth linecolor
+		text "NORMAL"		4 38.5 listsize
+		text "383" 			14 38.5 listsize
+
+		// INDUSTRIAL
+		text "INDUSTRIAL"	4  27.5 listsize
+		text "2252" 		16 27.5 listsize
+		hline 22 28 68 				linewidth linecolor
+		arc   90 24 10 10 90 0		linewidth linecolor
+		arc   90 24 10 10 270 360	linewidth linecolor
+		hline 10 20 80				linewidth linecolor
+		arc   10 16 10 10 90 270	linewidth linecolor
+		hline  10 12 30				linewidth linecolor
+	eslide
+edeck
