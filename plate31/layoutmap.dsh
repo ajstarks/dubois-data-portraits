@@ -5,9 +5,9 @@ deck
 		rect 10 37.5  20 75    "blue" 50
 		rect 60 37.5  80 75    "purple" 50
 
-		ctext "Title"       50   95 3
-		ctext "Categories"  50 82.5 3
-		ctext "Income"      10 37.5 3
-		ctext "Charts"      60 37.5 3
+		ctext "Title"       50   95 4
+		ctext "Categories"  50 82.5 4
+		ctext "Income"      10 37.5 4
+		ctext "Charts"      60 37.5 4
 	eslide
 edeck

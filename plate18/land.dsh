@@ -1,0 +1,33 @@
+deck
+	slide
+		mid=50
+		tts=3
+		ts=tts*0.60
+		tcolor="rgb(50,50,50)"
+		ctext "VALUE OF LAND OWNED BY GEORGIA NEGROES." 50 95 3 "serif"
+		image "mb.png"  mid 83 260 160
+		image "mb.png"  mid 69 265 160
+		image "mb.png"  mid 55 300 183
+		image "mb.png"  mid 41 350 213
+		image "mb.png"  mid 26 380 231
+		image "mb.png"  mid 13 400 244
+
+		ctext "1899"       mid  6.5   ts "sans" tcolor
+		ctext "$4,220,120" mid 11.5   ts "sans" tcolor
+
+		ctext "1895"       mid 20     ts "sans" tcolor
+		ctext "$4,158,960" mid 24.5   ts "sans" tcolor
+
+		ctext "1890"       mid 35.5   ts "sans" tcolor
+		ctext "$3,485,176" mid 39.5   ts "sans" tcolor
+
+		ctext "1885"       mid 49.7    ts "sans" tcolor
+		ctext "$2,362,889" mid 54     ts "sans" tcolor
+
+		ctext "1880"       mid 64.5   ts "sans" tcolor
+		ctext "$1,522,173" mid 67.5     ts "sans" tcolor
+
+		ctext "1875"       mid 78.5   ts "sans" tcolor
+		ctext "$1,263,802" mid 81.5    ts "sans" tcolor
+	eslide
+edeck
