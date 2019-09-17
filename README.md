@@ -10,14 +10,14 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate  6: Negro Population of Georgia by Counties, 1870, 1880
 * Plate  7: Comparative Increase of White and Colored Population of Georgia
 * Plate  9: Age Distribution of Georgia Negroes Compared with France
-Plate 10: Conjugal Condition
+* Plate 10: Conjugal Condition
 * Plate 12: Slave and Free Negroes
 * Plate 13: Race Amalgamation in Georgia
 * Plate 14: Illiteracy
 * Plate 15: Children in the Public Schools
 * Plate 16: Teachers in Georgia Public Schools
-* Plate 17: NUMBER OF NEGRO STUDENTS TAKING THE VARIOUS COURSES OF STUDY OFFERED IN GEORGIA SCHOOLS
-* Plate 18: Value of labd Owned by Georgia Negroes
+* Plate 17: Number Of Negro Students Taking The Various Courses Of Study Offered In Georgia Schools
+* Plate 18: Value of Land Owned by Georgia Negroes
 * Plate 19: Acres of Land Owned by Negroes in Georgia
 * Plate 20: Land Owned by Negroes in Georgia, USA, 1870-1900
 * Plate 30: Condition of 300 Negro Farm Tenants After 1 Year's Toil, 1898
