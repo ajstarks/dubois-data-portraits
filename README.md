@@ -25,7 +25,8 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 39: Increase in the Negro Population in the United States
 * Plate 41: Population Comparison
 * Plate 42: Population Proportions
-* Plate 50: The Rise of Negroes from Slavery to Freedom in One Generation"
+* Plate 47: Illiteracy of the American Negro compared with other nations
+* Plate 50: The Rise of Negroes from Slavery to Freedom in One Generation
 * Plate 51: Proportion of Freemen and Slaves
 * Plate 52: City and Rural Population
 * Plate 53: Conjugal condition of American Negroes according to age periods

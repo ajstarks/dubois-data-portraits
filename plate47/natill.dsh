@@ -1,0 +1,70 @@
+deck
+	slide
+		tleft=3
+		barleft=14
+		linewidth=4
+		linecolor="green"
+		hicolor="crimson"
+		tts=2.5
+		ctext "Illiteracy of the American Negroes compared with that of other nations." 50 95 tts "serif"
+		ctext "Proportion d' illettrés les Nègres Americains comparée à celle des autres nations." 50 91 2 "serif"
+		ctext "Done by Atlanta University." 50 87 1.5 "serif"
+		hline 42 93 15
+		hline 42 89 15
+
+
+		ly=70
+		ty=ly-0.4
+		lskip=linewidth*1.5
+		tsize=1.5
+
+		hline barleft ly 72.9 linewidth linecolor
+		text  "Romanie" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 72.25 linewidth linecolor
+		text "Servie" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 72.25 linewidth linecolor
+		text "Russie" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 56.77 linewidth hicolor
+		text "Negroes, U.S.A" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 55.43 linewidth linecolor
+		text "Hongrie" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 43.87 linewidth linecolor
+		text "Italie" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 34.83 linewidth linecolor
+		text "Autriche" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 25.16 linewidth linecolor
+		text "Ireland" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 12.9 linewidth linecolor
+		text "France" tleft ty tsize "serif"
+		ty-=lskip
+		ly-=lskip
+
+		hline barleft ly 0.6 linewidth linecolor
+		text "Suéde" tleft ty tsize "serif"
+		ty-=lskip
+	eslide
+edeck
