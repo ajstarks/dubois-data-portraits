@@ -23,6 +23,7 @@ deck
 		cy-=cr
 		ctext "NEGROES TO THE SQUARE MILE" 50 cy 2
 
-		include "allstates.dsh"
+		image "usmap.png" 50 35 1918 1186 75
+		// include "allstates.dsh"
 	eslide
 edeck
