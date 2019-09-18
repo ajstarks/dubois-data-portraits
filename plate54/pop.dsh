@@ -1,0 +1,45 @@
+deck
+	slide
+		ctext "Amalgamation of the White and Black elements of the population"				50 97 2.5 "serif"
+		ctext "in the United States"														50 94.5 2.5 "serif"
+		ctext "Amalgamation des elements blancs et noirs parmi la population Americaine"	50 89.5 1.6 "serif"
+		ctext "Done by Atlanta University"													50 85 1.6 "serif"
+		line 40 92 60 92 0.075
+		line 40 88 60 88 0.075
+		ctext "1890" 		2.14 3 2
+		etext "1860"		27 27 2
+		etext "1840"		41 54 2
+		etext "1800"		58 79 2
+		ctext "85%"  		32   3 2
+		ctext "15%"  		70.7  3 2
+
+		ctext "6,337,980"	32   5.5 2 "sans" "white"
+		ctext "1,113,063"	70.7 5.5 2
+
+		ctext "NEGROES"		45 15 2 "sans" "white"
+		ctext "MULATTOES"	69 15 1.5
+		ctext "MULÂTRES" 	69 13 1
+		ctext "WHITES"		90 15 2
+
+		ctext "90%"			45   26 1.5 "sans" "white"
+		ctext "10%"			70.7 26 1.5
+		ctext "3,542,147"	45 	 28 2 "sans" "white"
+		ctext "411,613"     70.7 28 1.5
+
+		// data derived from hand measuring as original plate
+		polygon "2.14 62.9 69.3 60 42.9 28.6 2.14"  "5 5 80.9 79.8 53.9 27.5 5"		"black"
+		polygon "62.9 69.3 70.7 62.9"  				"5 80.9 5 5"					"rgb(101,67,33)"
+		polygon "70.7 69.3 75 70.7"  				"5 80.9 5 5"					"gold"
+		polygon "75 69.3 82.1 75"  					"5 80.9 5 5"					"yellow"
+
+		// tricky: polygons instead of lines because the drawing order
+		polygon "28.6 100 100 28.6"					"27.5 27.5 27.6 27.6"	"gray"
+		polygon "42.9 100 100 42.9"					"53.9 53.9 54 54"		"gray"
+		polygon "60 100 100 60"						"78.9 78.9 79 79"		"gray"
+		polygon "69.3 69.5 75.2 75" 				"80.9 80.9 5 5"			"gray"
+
+		line 2.14 5 100 5d
+		// deckle -x 69.3 -y 80.9 -w 28 -h 1 -n 80 -color "rgb(220,220,220)" | edpoly > deckle.dsh
+		include "deckle.dsh"
+	eslide
+edeck

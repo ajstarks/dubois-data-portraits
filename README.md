@@ -29,6 +29,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 51: Proportion of Freemen and Slaves
 * Plate 52: City and Rural Population
 * Plate 53: Conjugal condition of American Negroes according to age periods
+* Plate 54: Amalgamation of the White and Black elements of the population in the United States
 * Plate 55: Proprietes contribuables des Nègres dans trois Etats des Etats Unis
 * Plate 56: Negro landowners
 * Plate 57: Negro business men in the United States
