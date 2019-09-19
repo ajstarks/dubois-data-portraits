@@ -1,0 +1,92 @@
+deck
+	opts="-fulldeck=f -textsize=2 -linewidth=0.5 -val=f -left=15 -top=80 -bottom=30 -bar=f -line=t -min=0 -max=60 -yrange=0,50,5"
+	slide
+		tts=2.5
+		sts=tts*0.75
+		nts=tts*0.45
+		ctext "Comparative rate of increase of the White and Negro elements"			50 96 tts "serif"
+		ctext "population of the United States"											50 93.5 tts "serif"
+		ctext "Accroissement proportionnel des elements blancs et noirs aus Etats Unis" 50 89 sts "serif"
+		ctext "Done by Atlanta University"												50 85 sts "serif"
+		hline 40 91.5 20 0.075 "lightgray"
+		hline 40 87.5 20 0.075 "lightgray"
+		dchart opts -yaxis -grid -color=crimson b.d
+		dchart opts -xlabel=0    -color=green   w.d
+		etext "MILLIONS" 9 75 1.6
+
+		// vertical lines not provided by dchart
+		for x=15 90 7.5
+			vline x 30 45
+		efor
+		hline 15 75 75
+
+		ctext "EMANCIPATION" 71 66 nts "serif" "gray"
+		vline 71.3 60 15 7 "rgb(255,255,255)"
+		ctext "EUROPEAN" 56 70 nts "serif" "gray"
+		ctext "IMMIGRATION" 56 69 nts "serif" "gray"
+		vline 56.3 60 15 7 "rgb(255,255,255)"
+		ctext "SUPPRESSION OF SLAVE TRADE" 30 22 nts "serif" "gray"
+		line 30 23 30 26
+
+		// White block for annotations
+		hline 23 59 25 20 "white"
+		text "WHITE — BLANCHE —" 30 65 nts "serif"
+		text "BLACK — NOIRE —"   28 63 nts "serif"
+		hline 42.5 65.25 2 0.75 "green"
+		hline 38.5 63.25 2 0.75 "crimson"
+		textblock "SMALL FIGURES = PERCENTAGE OF INCREASE PER DECADE" 25 58 18 nts "serif"
+		nts*=0.75
+		textblock "LES PETITE CHIFFRES INDIQUENT L'ACCROISSEMENT PROPORTIONAL PAR DIX ANS" 25 55 18 nts "serif"
+
+
+
+		
+		
+		// Blacks % change
+		nx=19
+		nskip=7.5
+
+		ctext "32.3" nx 31.2 nts "serif" "gray"
+		nx+=nskip
+		ctext "37.5" nx 31.5 nts "serif" "gray"
+		nx+=nskip
+		ctext "28.6" nx 32 nts "serif" "gray"
+		nx+=nskip
+		ctext "31.4" nx 32.5 nts "serif" "gray"
+		nx+=nskip
+		ctext "23.4" nx 33 nts "serif" "gray"
+		nx+=nskip
+		ctext "26.6" nx 33.4 nts "serif" "gray"
+		nx+=nskip
+		ctext "22.0" nx 34 nts "serif" "gray"
+		nx+=nskip
+		ctext "10.0" nx 34.5 nts "serif" "gray"
+		nx+=nskip
+		ctext "35.0" nx 35 nts "serif" "gray"
+		nx+=nskip
+		ctext "27.0" nx 36.7 nts "serif" "gray"
+
+		// Whites % change
+		nx=19
+		ctext "35.8" nx 33.5 nts "serif" "gray"
+		nx+=nskip
+		ctext "36.1" nx 34.7 nts "serif" "gray"
+		nx+=nskip
+		ctext "34.1" nx 36.5 nts "serif" "gray"
+		nx+=nskip
+		ctext "34.0" nx 38.5 nts "serif" "gray"
+		nx+=nskip
+		ctext "34.7" nx 41 nts "serif" "gray"
+		nx+=nskip
+		ctext "37.7" nx 45 nts "serif" "gray"
+		nx+=nskip
+		ctext "37.7" nx 51 nts "serif" "gray"
+		nx+=nskip
+		ctext "24.7" nx 57 nts "serif" "gray"
+		nx+=nskip
+		ctext "29.2" nx 63.5 nts "serif" "gray"
+		nx+=nskip
+		ctext "26.7" nx 72.5 nts "serif" "gray"
+		
+	eslide
+edeck

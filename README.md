@@ -23,6 +23,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 30: Condition of 300 Negro Farm Tenants After 1 Year's Toil, 1898
 * Plate 31: Income and Expenditure
 * Plate 39: Increase in the Negro Population in the United States
+* Plate 40: Comparative rate of increase of the White and Negro elements population of the United States
 * Plate 41: Population Comparison
 * Plate 42: Population Proportions
 * Plate 47: Illiteracy of the American Negro compared with other nations
