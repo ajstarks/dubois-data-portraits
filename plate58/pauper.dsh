@@ -1,0 +1,35 @@
+deck
+	slide
+		h1=3
+		h2=h1*0.70
+		h3=h1*0.5
+		ctext "Pauperism among American Negroes."		50 97 h1 "serif"
+		ctext "Pauperisme parmi les Nègres Americains"	50 92 h2 "serif"
+		ctext "Done by Atlanta University"				50 87 h3 "serif"
+		ctext "PROPORTION OF ALMSHOUSE PAUPERS IN EVERY 100,000 NEGROES." 50 75 h2
+		hline 40 90 20 0.075
+		hline 40 85 20 0.075
+		ctext "100,000" 50 70 h2
+		ctext "86"      50 28 h2
+
+		arc 50 30 50 50 0 180 50 "rgb(101,67,33)"
+		arc 50 30 1.5 1.5 0 180 2 "crimson"
+		
+		ctext "PAUPERS" 50 26 h2
+
+		bracketcolor="gray"
+		// Left (Male)
+		ctext "MALE"    27 19 h2
+		arc 45 25 10 6.35 270 360 0.1 bracketcolor
+		hline 30 22.5 15 0.1 bracketcolor
+		arc 30 20 6.5 6.35 90 150 0.1 bracketcolor
+		hline 0  15 55 8 "green"
+
+		// Right (Female)
+		ctext "FEMALE"  77 19 h2
+		hline 55 22.5 17 0.1 bracketcolor
+		arc 55 25 10 6.35 180 270 0.1 bracketcolor
+		arc 72 20 10 6.35 30 90 0.1 bracketcolor
+		hline 55 15 45 8 "gold"
+	eslide
+edeck

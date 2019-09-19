@@ -35,6 +35,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 55: Proprietes contribuables des Nègres dans trois Etats des Etats Unis
 * Plate 56: Negro landowners
 * Plate 57: Negro business men in the United States
+* Plate 58: Pauperism among American Negroes
 * Plate 59: Mortality of American Negroes
 * Plate 60: Crime among American Negroes
 * Plate 61: American Negro newspapers and periodicals
