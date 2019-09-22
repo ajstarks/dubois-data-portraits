@@ -1,0 +1,113 @@
+deck
+	slide
+		h1=2.5
+		h2=h1*0.75
+		h3=h1*0.50
+		h4=h1*0.30
+		labelcolor="rgb(100,100,100)"
+		ctext "Occupations in which American Negroes are engaged." 50 96 h1 "serif"
+		ctext "Occupations et industries des Nègres Americains."    50 92 h2 "serif"
+		ctext "Done by Atlanta University."                        50 88 h3 "serif"
+
+		hline 40 96 20 0.1
+		hline 40 90 20 0.1
+
+		// Derived data (% length of bar)
+
+		// both sexes
+		manboth=3.6
+		commboth=2.5
+		domboth=20
+		profboth=0.5
+		agboth=38
+
+		// males
+		manmale=4.1
+		commmale=4.1
+		dommale=14.85
+		profmale=0.5
+		agmale=41.0
+
+		// females
+		manfemale=2.05
+		commfemale=0.25
+		domfemale=33.8
+		profemale=0.25
+		agfemale=28.2
+
+		colsize=25
+		bottom=12
+
+		bx=27
+		by=bottom
+		barwidth=10
+
+		labely=81
+		labelsuby=labely-2
+
+		ctext "BOTH SEXES." bx labely  h1
+		ctext "HOMMES ET FEMMES." bx labelsuby h3 "sans" labelcolor
+		vline bx by manboth barwidth "green"
+		by+=manboth
+		vline bx by commboth barwidth "rgb(101,67,33)"
+		by+=commboth
+		vline bx by domboth barwidth "gold"
+		by+=domboth
+		vline bx by profboth barwidth "darkblue"
+		by+=profboth
+		vline bx by agboth barwidth "crimson"
+
+		bx+=colsize
+		by=bottom
+
+		ctext "MALES." bx labely  h1
+		ctext "HOMMES." bx labelsuby h3 "sans" labelcolor
+
+		vline bx by manmale barwidth "green"
+		by+=manmale
+		vline bx by commmale barwidth "rgb(101,67,33)"
+		by+=commmale
+		vline bx by dommale barwidth "gold"
+		by+=dommale
+		vline bx by profmale barwidth "darkblue"
+		by+=profmale
+		vline bx by agmale barwidth "crimson"
+
+		bx+=colsize
+		ctext "FEMALES." bx labely  h1
+		ctext "FEMMES." bx labelsuby h3 "sans" labelcolor
+
+		by=bottom
+		vline bx by manfemale barwidth "green"
+		by+=manfemale
+		vline bx by commfemale barwidth "rgb(101,67,33)"
+		by+=commfemale
+		vline bx by domfemale barwidth "gold"
+		by+=domfemale
+		vline bx by profemale barwidth "darkblue"
+		by+=profemale
+		vline bx by agfemale barwidth "crimson"
+
+		text  "AGRICULTURE"				4   58 h3 "sans" labelcolor
+		ctext "MINING AND"				10  56 h3 "sans" labelcolor
+		text  "FISHING."				12  54 h3 "sans" labelcolor
+		ctext "PROFESSIONS"				10  38 h3 "sans" labelcolor
+		etext "DOMESTIC AND PERSONAL"	20  28 h3 "sans" labelcolor
+		ctext "SERVICE"					10  26 h3 "sans" labelcolor
+		text  "COMMERCE  AND"			4   17.5 h3 "sans" labelcolor
+		etext "TRANSPORTATION"          20  16 h3 "sans" labelcolor
+		etext "MANUFACTURING   AND"     20  14 h3 "sans" labelcolor
+		etext "MECHANICAL INDUSTRIES"   20  12.5 h3 "sans" labelcolor
+
+		ctext "AGRICULTURE,"			90  58 h3 "sans" labelcolor
+		ctext "PÊCHE ET MINES"			90  56 h3 "sans" labelcolor
+		text  "SERVICE DOMESTIQUE"      85  36 h3 "sans" labelcolor
+		text  "ET PERSONNEL"            85  34 h3 "sans" labelcolor
+		text  "COMMERCE ET TRANSPORT"   85  14 h4 "sans" labelcolor
+		text  "INDUSTRIES MANUFACTURIÈRES ET" 85 13 h4 "sans" labelcolor
+		text  "MÉCANIQUES"                    90 12 h4 "sans" labelcolor
+
+
+
+	eslide
+edeck
