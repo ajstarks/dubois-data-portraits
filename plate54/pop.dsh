@@ -38,8 +38,10 @@ deck
 		polygon "60 100 100 60"						"78.9 78.9 79 79"		"gray"
 		polygon "69.3 69.5 75.2 75" 				"80.9 80.9 5 5"			"gray"
 
-		line 2.14 5 100 5d
-		// deckle -x 69.3 -y 80.9 -w 28 -h 1 -n 80 -color "rgb(220,220,220)" | edpoly > deckle.dsh
-		include "deckle.dsh"
+		line 2.14 5 100 5
+		// deckle -type fh -x 69.3 -y 80.9 -w 28 -h 1 -n 80 -color "rgb(220,220,220)" | edpoly > deckle.dsh
+		// deckle -type lh -x 69.3 -y 80.9 -w 28 -h 0.5 -n 50 | edline > dline.dsh
+		//include "deckle.dsh"
+		include "dline.dsh"
 	eslide
 edeck
