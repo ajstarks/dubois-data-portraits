@@ -22,6 +22,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 20: Land Owned by Negroes in Georgia, USA, 1870-1900
 * Plate 30: Condition of 300 Negro Farm Tenants After 1 Year's Toil, 1898
 * Plate 31: Income and Expenditure
+* Plate 37: A Series Of Statistical Chart Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States
 * Plate 39: Increase in the Negro Population in the United States
 * Plate 40: Comparative rate of increase of the White and Negro elements population of the United States
 * Plate 41: Population Comparison

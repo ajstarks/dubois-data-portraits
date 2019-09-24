@@ -1,0 +1,115 @@
+deck
+	slide
+		h1=3
+		h2=h1*0.55
+		h3=h2*0.75
+		subsize=h1*0.85
+		psize=20
+		notesize=1.8
+		legsize=1.4
+		frcolor="crimson"
+		notecolor="rgb(50,50,50)"
+
+		textfile "title.txt"   4 96 h1 "serif" "" 100 1.1
+		textfile "frtitle.txt" 4 85 subsize "sans" frcolor  100 1.2
+
+		listx=19
+		listy=76
+		clist listx listy h2 "sans" notecolor 100 1.4
+			li "PREPARED AND EXECUTED BY"
+			li "NEGRO STUDENTS UNDER THE"
+			li "DIRECTION OF"
+			li "ATLANTA UNIVERSITY"
+			li "ATLANTA, GA."
+			li "UNITED STATES OF AMERICA"
+		elist
+		listx+=60
+		clist listx listy h2 "sans" frcolor 100 1.4
+			li "PREPARE ET EXECUTE PAR"
+			li "NÈGRES ÉTUDIANTS SOUS"
+			li "LA DIRECTION DE L’UNIVERSITÉ ATLANTA"
+			li "D'ATLANTA"
+			li "ETAT DE GEORGIA"
+			li "ETATS UNIS D'AMERIQUE"
+		elist
+
+		image "usmap.png" 50 70 1918 1186 20
+
+		listx=50
+		listy=62
+		clist listx listy h2 "sans" notecolor 100 1.4
+			li "THE UNIVERSITY WAS FOUNDED IN 1867. IT HAS INSTRUCTED 6000 NEGRO STUDENTS"
+			li "L'UNIVERSITÉ A ÉTÉ FONDÉE EN 1867. LA DONNÉ l'INSTRUCTION A'6000 ÉTUDIANTS NÈGRES" "sans" frcolor
+			li "IT HAS GRADUATED 330 NEGROES AMONG WHOM ARE:"
+			li "ELLE A D'ÉLIVRE DES DIPLOMES A 330 NÈGRES DONT :" "sans" frcolor
+		elist
+
+		// dchart -fulldeck=f -top 50 -val=f -donut -psize psize -pwidth psize  prof.d
+		include "pie.dsh"
+
+		// Pie Chart Legends (left and right)
+		cx=6
+		lx=cx+2
+
+		cx2=100-cx
+		lx2=cx2-2
+
+		cr=3
+		cy=50
+		ly=cy-0.5
+		cskip=cr
+
+		text "TEACHERS" lx ly legsize "sans" notecolor
+		etext "PROFESSEURS ET INSTITUTEURS" lx2 ly legsize "sans" frcolor
+		circle cx cy cr "crimson"
+		circle cx2 cy cr "crimson"
+		cy-=cskip
+		ly-=cskip
+
+		text "MINISTERS" lx ly legsize  "sans" notecolor
+		etext "MINISTRES DE L'EVANGLE" lx2 ly legsize "sans" frcolor
+		circle cx cy cr "lightblue"
+		circle cx2 cy cr "lightblue"
+		cy-=cskip
+		ly-=cskip
+
+		text "GOVERNMENT SERVICE" lx ly legsize  "sans" notecolor
+		etext "EMPLOYÉS DU GOUVERNEMENT" lx2 ly legsize "sans" frcolor
+		circle cx cy cr "pink"
+		circle cx2 cy cr "pink"
+		cy-=cskip
+		ly-=cskip
+
+		text "BUSINESS" lx ly legsize  "sans" notecolor
+		etext "MARCHANDS" lx2 ly legsize "sans" frcolor
+		circle cx cy cr "tan"
+		circle cx2 cy cr "tan"
+		cy-=cskip
+		ly-=cskip
+
+		text "OTHER PROFESSIONS" lx ly legsize  "sans" notecolor
+		etext "MEDICINS, ADVOCATS, ÉTUDIANTS" lx2 ly legsize "sans" frcolor
+		circle cx cy cr "green"
+		circle cx2 cy cr "green"
+		cy-=cskip
+		ly-=cskip
+
+		text "HOUSE WIVES" lx ly legsize  "sans" notecolor
+		etext "MÈRES DE FAMILLE" lx2 ly legsize "sans" frcolor
+		circle cx cy cr "gold"
+		circle cx2 cy cr "gold"
+
+		// Pie Chart Data Labels
+		ctext "58.5%" 50 45 legsize "serif"
+		ctext "28.1%" 46 33 legsize "serif"
+		ctext "3.8%"  62 32 legsize "serif"
+		ctext "3.2%"  63 34 legsize "serif"
+		ctext "2.1%"  64 36 legsize "serif"
+		ctext "4.3%"  65 38 legsize "serif"
+
+
+		// Bottom Commentary
+		textfile "bottom.txt"   4 23 notesize "sans" notecolor 100 1.3
+		textfile "frbottom.txt" 4 13 notesize "sans" notecolor 100 1.3
+	eslide
+edeck
