@@ -4,7 +4,7 @@ deck
 		ctext "W.E.B Du Bois's Data Portraits"	50 84 6 "sans" "maroon"
 		# ctext "made with decksh"           	50 75 2 "sans" "gray"
 		image "images/slave-free.jpg"      		25 47 821 1043 70
-		image "images/slave-free-dsh.png"  		75 45 834 1058 73
+		image "plate51/stdin-00001.png"  		75 45 1584 2016 42 
 		ctext "Anthony J. Starks"          		50 10 2 "serif"
 	eslide
 edeck
