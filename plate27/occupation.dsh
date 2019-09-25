@@ -45,7 +45,7 @@ deck
 		etext " DOMESTIC AND"           cx2  59.5 legsize
 		etext "PERSONAL SERVICE."        cx2  58   legsize
 
-		etext "PROFESSIONS"             cx2  48.5 legsize
+		etext "PROFESSIONS."             cx2  48.5 legsize
 
 		etext "  TRADE AND"             cx2  41.5 legsize
 		etext "TRANSPORTATION."          cx2  40   legsize
