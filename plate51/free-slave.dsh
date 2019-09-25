@@ -5,7 +5,9 @@ deck
 		ctext "PROPORTION OF FREEMEN AND SLAVES AMONG AMERICAN NEGROES."  50 top fs
 		top-=4
 		ctext "PROPORTION DES NÈGRES LIBRES ET DES ESCLAVES EN AMÉRIQUE." 50 top fs
-		top-=10
+		top-=4
+		ctext "DONE BY ATLANTA UNIVERSITY."                                50 top 1.5
+		top-=6
 		ctext "1790" 10 top fs
 		ctext "1800" 20 top fs
 		ctext "1810" 30 top fs
