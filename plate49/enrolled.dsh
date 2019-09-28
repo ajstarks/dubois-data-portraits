@@ -1,0 +1,89 @@
+deck
+	slide
+		labelsize=2.4
+		ts=labelsize*0.75
+		ss=labelsize*0.6
+		enrolledColor="crimson"
+		notenrolledColor="black"
+
+		ty=95
+		ctext "PROPORTION OF TOTAL NEGRO CHILDREN OF SCHOOL AGE WHO ARE ENROLLED IN THE PUBLIC SCHOOLS."	50 ty ts
+		ty-=4
+		ctext "PROPORTION DE ENFANTS NÈGRES D'ÂGE ÉCOLES ENREGISTRÉS DANS LES ÉCOLES PUBLIQUES." 			50 ty ts
+		ty-=4
+		ctext "DONE BY ALTANTA UNIVERSITY." 																50 ty ss
+
+		colsize=30
+		top=75
+		linewidth=13
+
+		lx=20
+		cx=lx+colsize
+		rx=cx+colsize
+
+		lblack=24.1
+		lred=15.8
+		llabel=66
+
+		cblack=21.5
+		cred=26.1
+		clabel=61
+
+		rblack=25.1
+		rred=39.4
+		rlabel=56
+		
+		y=top
+		labely=top+0.5
+		
+		// 1876
+		ctext "1876" lx labely labelsize
+		y2=top-lred
+		line lx y lx y2 linewidth enrolledColor
+		y3=y2-lblack
+		line lx y2 lx y3 linewidth notenrolledColor
+		ctext "37.59%" lx llabel labelsize
+
+		// 1886
+		ctext "1886" cx labely labelsize
+		y2=top-cred
+		line cx y cx  y2 linewidth enrolledColor
+		y3=y2-cblack
+		line cx y2 cx y3 linewidth notenrolledColor
+		ctext "56.66%" cx clabel labelsize
+
+		// 1896
+		ctext "1896" rx labely labelsize
+		y2=top-rred
+		line rx y rx y2 linewidth enrolledColor
+		y3=y2-rblack
+		line rx y2 rx y3 linewidth notenrolledColor
+		ctext "57.29%" rx rlabel labelsize
+
+		nx1=lx-2
+		nx2=nx1+4
+		ly=25
+		ly2=ly-8
+		ny=ly+0.4
+		ls=3
+		ns=1.2
+
+		square lx ly  ls enrolledColor
+		square lx ly2 ls notenrolledColor
+
+		etext "PROPORTION" nx1 ny ns "serif"
+		text "OF CHILDREN ENROLLED" nx2 ny ns "serif"
+		ny-=1.6
+		etext "PROPORTION" nx1 ny ns "serif"
+		text "D'ENFANTS ENREGISTRÉS" nx2 ny ns "serif"
+
+		ny-=6.4
+		etext "PROPORTION" nx1 ny ns "serif"
+		text "OF CHILDREN NOT ENROLLED" nx2 ny ns "serif"
+		ny-=1.6
+		etext "PROPORTION" nx1 ny ns "serif"
+		text "D'ENFANTS NON ENREGISTRÉS" nx2 ny ns "serif"
+
+	eslide
+edeck
+

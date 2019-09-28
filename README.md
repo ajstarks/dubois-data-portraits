@@ -30,6 +30,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 42: Population Proportions
 * Plate 43: Occupations in which American Negroes are engaged.
 * Plate 47: Illiteracy of the American Negro compared with other nations
+* Plate 49: Proportion Of Total Negro Children Of School Age Who Are Enrolled In The Public Schools
 * Plate 50: The Rise of Negroes from Slavery to Freedom in One Generation
 * Plate 51: Proportion of Freemen and Slaves
 * Plate 52: City and Rural Population
