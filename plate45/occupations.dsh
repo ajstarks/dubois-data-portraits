@@ -1,0 +1,153 @@
+deck
+	slide
+			ts=2.5
+			ss=ts*0.75
+			ty=95
+			mx=50
+			ctext "Occupations in which 10,000 or more American Negroes are engaged."	mx ty ts "serif"
+			ty-=2
+			hline 40 ty 20 0.1
+			ty-=3
+			ctext "Emplois occupant au mois 10,000 Nègres Americains"					mx ty ts "serif"
+			ty-=2
+			hline 40 ty 20 0.1
+			ty-=3
+			ctext "Done by Atlanta University"											mx ty ss "serif"
+
+			ctext "1,106,728" 50 75.5 2
+			text "10,500"     22 9 1.5
+
+			// dchart -fulldeck=f -left=20 -right=95 -val=f -top=74 -hbar -color maroon occupation.d 
+
+			linewidth=2
+			linespacing=linewidth*1.8
+			linecolor="crimson"
+
+			// % of lines
+			agricultural=76.13
+			farmers=41.29
+			servants=27.74
+			laborers=23.87
+			launders=10.32
+			railroad=2.58
+			draymen=2.58
+			carpenters=1.94
+			barbers=1.29
+			sawmill=1.29
+			porters=1.29
+			teachers=1.29
+			tobacco=1.29
+			clergymen=0.65
+			otherag=0.65
+			seamstresses=0.65
+			blacksmiths=0.65
+			brickmakers=0.65
+			hostlers=0.65
+			total=16
+
+			x=20
+			top=74
+
+			// Data
+			y=top
+			hline x y agricultural  linewidth linecolor
+			y-=linespacing
+			hline x y farmers linewidth linecolor
+			y-=linespacing
+			hline x y servants linewidth linecolor
+			y-=linespacing
+			hline x y laborers linewidth linecolor
+			y-=linespacing
+			hline x y launders  linewidth linecolor
+			y-=linespacing
+			hline x y railroad  linewidth linecolor
+			y-=linespacing
+			hline x y draymen linewidth linecolor
+			y-=linespacing
+			hline x y carpenters linewidth linecolor
+			y-=linespacing
+			hline x y barbers linewidth linecolor
+			y-=linespacing
+			hline x y sawmill  linewidth linecolor
+			y-=linespacing
+			hline x y porters linewidth linecolor
+			y-=linespacing
+			hline x y teachers linewidth linecolor
+			y-=linespacing
+			hline x y tobacco   linewidth linecolor
+			y-=linespacing
+			hline x y clergymen linewidth linecolor
+			y-=linespacing
+			hline x y otherag   linewidth linecolor
+			y-=linespacing
+			hline x y seamstresses linewidth linecolor
+			y-=linespacing
+			hline x y blacksmiths linewidth linecolor
+			y-=linespacing
+			hline x y brickmakers linewidth linecolor
+			y-=linespacing
+			hline x y hostlers linewidth linecolor
+			y-=linespacing
+
+
+			// Labels
+			tx=2
+			ty=top-0.3
+			ts=1.4
+			text "Agricultural laborers" tx ty ts "serif"
+			ty-=linespacing
+			text "Farmers" tx ty ts "serif"
+			ty-=linespacing
+			text "Servants" tx ty ts "serif"
+			ty-=linespacing
+			text "Laborers" tx ty ts "serif"
+			ty-=linespacing
+			text "Launders and landresses" tx ty ts "serif"
+			ty-=linespacing
+			text "Railroad employees" tx ty ts "serif"
+			ty-=linespacing
+			text "Draymen, etc." tx ty ts "serif"
+			ty-=linespacing
+			text "Carpenters" tx ty ts "serif"
+			ty-=linespacing
+			text "Barbers" tx ty ts "serif"
+			ty-=linespacing
+			text "Sawmill employees" tx ty ts "serif"
+			ty-=linespacing
+			text "Porters" tx ty ts "serif"
+			ty-=linespacing
+			text "Teachers" tx ty ts "serif"
+			ty-=linespacing
+			text "Tobacco factory operatives" tx ty ts "serif"
+			ty-=linespacing
+			text "Clergymen" tx ty ts "serif"
+			ty-=linespacing
+			text "Other agricultural pursuits" tx ty ts "serif"
+			ty-=linespacing
+			text "Seamstresses" tx ty ts "serif"
+			ty-=linespacing
+			text "Blacksmiths" tx ty ts "serif"
+			ty-=linespacing
+			text "Brickmakers, etc." tx ty ts "serif"
+			ty-=linespacing
+			text "Hostlers" tx ty ts "serif"
+			ty-=linespacing
+
+			// Bracket and total line
+			ex=26
+			aw=5
+			ah=aw
+			aw2=aw/2
+			ex2=ex+aw
+			ex3=ex+aw2
+			lh=22
+			arc ex   8 aw ah 270 360
+			arc ex2 30 aw ah  90 180
+			arc ex2 34 aw ah 180 270
+			arc ex  56 aw ah   0  90
+			vline ex3 34 lh
+			vline ex3  8 lh
+
+			hline 31 32 total linewidth linecolor
+	eslide
+edeck

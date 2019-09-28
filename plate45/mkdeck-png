@@ -1,0 +1,8 @@
+#!/bin/sh
+case $0 in
+	*mkdeck)
+		decksh occupations.dsh | pdf     -pagesize $portrait -sans PublicSans-Regular -serif Charter-Regular $* ;;
+	*mkdeck-png)
+		decksh occupations.dsh | pngdeck -pagesize $portrait -sans PublicSans-Regular -serif Charter-Regular $* /dev/stdin ;;
+esac
+
