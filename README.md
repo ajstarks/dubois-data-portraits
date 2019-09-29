@@ -31,6 +31,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 43: Occupations in which American Negroes are engaged
 * Plate 45: Occupations in which 10,000 or more American Negroes are engaged
 * Plate 47: Illiteracy of the American Negro compared with other nations
+* Plate 48: Enrollment in the Negro common school of the former slave States
 * Plate 49: Proportion Of Total Negro Children Of School Age Who Are Enrolled In The Public Schools
 * Plate 50: The Rise of Negroes from Slavery to Freedom in One Generation
 * Plate 51: Proportion of Freemen and Slaves

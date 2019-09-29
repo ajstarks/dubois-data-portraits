@@ -1,7 +1,7 @@
 #!/bin/sh
 export portrait=1584,2016
 export landscape=2016,1584
-decksh title.dsh | pdfdeck -stdout -pagesize $portrait -sans PublicSans-Bold -serif NotoSerif-Regular - > title.pdf
+decksh title.dsh | pdfdeck -author "Anthony Starks" -title "Recreations of DuBois Data Stories" -stdout -pagesize $portrait -sans PublicSans-Bold -serif Charter-Regular - > title.pdf
 for i in plate*
 do
 	cd $i

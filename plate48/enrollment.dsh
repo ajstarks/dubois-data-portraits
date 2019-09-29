@@ -1,0 +1,23 @@
+deck
+	slide
+		ts=2.5
+		ty=96
+		mx=50
+		ctext "Enrollment in the Negro common school of the former slave States."					mx ty ts "serif"
+		ty-=2.5
+		ctext "of the United States"																mx ty ts "serif"
+		ty-=2
+		hline 40 ty 20 0.1
+		ty-=2
+		ts*=0.6
+		ctext "Inscriptions dans les écoles primaires des anciens états esclaves des Etats Unis."	mx ty ts "serif"
+		ty-=2
+		hline 40 ty 20 0.1
+		ty-=2
+		ctext "Done by Atlanta Universty."															mx ty ts "serif"
+
+		color="rgb(101,67,33)"
+		opts="-fulldeck=f -barwidth=7 -top=75 -left=22 -right=98 -val=f -hbar -textsize 2 -ls 6"
+		dchart opts -color color enrollment.d
+	eslide
+edeck
