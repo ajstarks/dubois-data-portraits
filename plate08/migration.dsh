@@ -1,0 +1,232 @@
+deck
+	slide
+		mx=50
+		ts=3
+		ns=ts*0.6
+		ds=3*0.27
+		ty=96
+
+		ctext "MIGRATION OF NEGROES."							mx ty ts "serif"
+		ty-=2.5
+		ctext "1890."											mx ty ts "serif"
+
+
+		ty=57
+		imy=75
+		ctext "PRESENT DWELLING PLACE OF NEGROES IN GEORGIA."	mx ty ns
+		image "present.png" mx imy 1918 1186 60
+
+		ty-=50
+		imy-=50
+		ctext "BIRTH PLACE OF NEGROES NOW PRESENT IN GEORGIA."	mx ty ns
+		image "birth.png"   mx imy 1918 1186 60
+		
+		aw=0.5
+		ah=0.3
+		asize=0.05
+		acolor="rgb(50,50,50)"
+
+		// migration data: PRESENT
+		// CA
+		arrow 23 74 20 74 asize aw ah acolor
+		etext "254" 20 73.75 ds
+
+		// AZ
+		arrow 32 72 28 72 asize aw ah acolor
+		etext "48"  28 71.75 ds
+
+		// NM
+		arrow 39 71 35 71 asize aw ah acolor
+		etext "38" 35 70.8 ds
+
+		// OK
+		arrow 50 72 47 72.25 asize aw ah acolor
+		etext "68" 47 72 ds
+
+		// AK
+		ctext "12,016" 55 71 ds
+		arrow 57 70 55 71 asize aw ah acolor
+
+		// LA
+		arrow 58 65.5 56.5 64.5 asize aw ah acolor
+		ctext "6,025" 56.6 64 ds
+
+		// TX
+		arrow 52 67 46 66 asize aw ah acolor
+		ctext "12,142" 46 65 ds
+
+		// MS
+		arrow 60.75 69 59 69.25 asize aw ah acolor  
+		etext "589" 59 69 ds
+
+		// AL
+		arrow 66 68 63 67 asize aw ah acolor
+		ctext "24,556" 63 66.5 ds
+		
+		// GA
+		ctext "798,747" 68 68 ds "sans" "white"
+
+		// FL
+		arrow 69.5 65.5 71 63.5 asize aw ah acolor
+		ctext "3,981" 71 63 ds
+
+		// SC
+		arrow 68 70 69 71 asize aw ah acolor
+		ctext "347" 69 71 ds
+
+		// NC
+		ctext "462" 73 73.5 ds
+		arrow 72 72 73 73.5 asize aw ah acolor
+
+		// VA
+		arrow 72 74.5 73 76 asize aw ah acolor
+		ctext "223" 73 76.5 ds
+
+		// WV
+		arrow 69 75 70 77 asize aw ah acolor
+		ctext "40" 70 77 ds
+
+		// PA
+		ctext "321" 73 80.5 ds
+		arrow 71.5 79 73 80.5 asize aw ah acolor
+
+		// NY
+		ctext "866" 75 83 ds
+		arrow 74 82 75 83 asize aw ah acolor
+
+		// MA
+		arrow 78.25 82.75 79 83.5 asize aw ah acolor
+		text "293" 79 83.2 ds
+
+		// CT
+		arrow 78 80.5 79 82 asize aw ah acolor
+		ctext "97" 79 82 ds
+
+		// NJ
+		arrow 76.5 79 77 80 asize aw ah acolor
+		ctext "229" 77 80 ds
+
+		// DE
+		arrow 77 77 78 78 asize aw ah acolor
+		ctext "12" 78 78 ds
+
+		// DC
+		ctext "320" 80 77 ds
+		arrow 78 76 80 77 asize aw ah acolor
+		curve  74.25 77.75   77 76   79 77.25 asize acolor
+
+		// MD
+		ctext "148" 74 78.1 ds
+
+		// RI
+		arrow 80 80 81 81 asize aw ah acolor
+		line 80.5 82 81 81.5 asize acolor
+		ctext "44" 81 81 ds
+
+		// VT
+		arrow 77.5 85 78 85.75 asize aw ah acolor
+		ctext "11" 78 85.75 ds
+
+		// NH
+		arrow 78.5 84 79 85 asize aw ah acolor
+		ctext "14" 79 85 ds
+
+		// ME
+		arrow 80 87 81 89 asize aw ah acolor
+		ctext "7" 81 89 ds
+
+		// OH 
+		ctext "474" 67 79 ds
+		arrow 67 77 67 79 asize aw ah acolor
+
+		// IN
+		arrow 63.5 76.5 62 79 asize aw ah acolor
+		ctext "193" 62 79 ds
+
+		// KY
+		arrow 66 74 65 75 asize aw ah acolor
+		ctext "424" 65 75 ds
+
+		// TN
+		arrow 65 71  63 72 asize aw ah acolor
+		ctext "9,998" 63 72.25 ds
+
+		// MI
+		arrow 64 82 63.5 84 asize aw ah acolor
+		ctext "51" 63.5 84 ds
+
+		// IL
+		ctext "556" 58.5 80 ds
+		arrow 60 77.5 58.5 80 asize aw ah acolor
+
+		// IA
+		ctext "120" 53 81 ds
+		arrow 56 79 53 81 asize aw ah acolor
+
+		// WI
+		arrow 58 82 56 85 asize aw ah acolor
+		ctext "27" 56 85 ds
+
+		// MN
+		arrow 53.5 85 52 87 asize aw ah acolor
+		ctext "62" 52 87 ds
+
+		// ND
+		arrow 48 86 45 88 asize aw ah acolor
+		ctext "5" 45 88 ds
+
+		// WY
+		arrow 39 81 35 83 asize aw ah acolor
+		ctext "21" 34 83 ds
+
+		// NE
+		arrow 48 78 44 79.75 asize aw ah acolor
+		ctext "121" 44 80 ds
+
+		// ID
+		ctext "7" 27 85 ds
+		arrow 30 83 27 85 asize aw ah acolor
+
+		// WA
+		ctext "44" 23 89 ds
+		arrow 25 88 23 89 asize aw ah acolor
+
+		// OR
+		arrow 23 84.5 20 85 asize aw ah acolor
+		ctext "32" 19 85 ds
+
+		// NV
+		arrow 25 78.5  22.5 79.25 asize aw ah acolor
+		ctext "1" 22 79 ds
+
+		// UT
+		arrow 32 77.5  30 78 asize aw ah acolor
+		ctext "9" 29 78 ds
+
+		// CO
+		arrow 42 76 38 76.75 asize aw ah acolor
+		ctext "285" 38 77 ds
+
+		// KS
+		ctext "480" 47 76 ds
+		arrow 51 74.5 48 76 asize aw ah acolor
+
+		// MO
+		arrow 57 74 54 76 asize aw ah acolor
+		ctext "480" 54 76 ds
+
+		// MN
+		arrow 39 85 34 87.75 asize aw ah acolor
+		ctext "38" 34 88 ds
+		
+		// SD
+		arrow 48 82 45 83.75 asize aw ah acolor
+		ctext "18" 45 84 ds
+
+
+
+// Birthplace 
+
+	include "l.dsh"
+	eslide
+edeck

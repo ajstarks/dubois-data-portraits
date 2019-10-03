@@ -1,0 +1,8 @@
+#!/bin/sh
+case $0 in
+	*mkdeck)
+		decksh migration.dsh | pdf -pagesize $portrait -serif PublicSans-Bold  -sans PublicSans-Regular $* ;;
+	*mkdeck-png)
+		decksh migration.dsh | pngdeck -pagesize $portrait -serif PublicSans-Bold  -sans PublicSans-Regular $* /dev/stdin ;;
+esac
+

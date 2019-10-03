@@ -1,0 +1,118 @@
+		// migration data: BIRTHPLACE
+			
+		// NM
+		arrow 35 21.00 39 21.00 asize aw ah acolor
+		etext "1" 35 20.80 ds
+		// OK
+		arrow 47 22.25 50 22.00 asize aw ah acolor
+		etext "9" 47 22.00 ds
+		// AK
+		ctext "37" 55 21.00 ds
+		arrow 55 21.00 57 20.00 asize aw ah acolor
+		// LA
+		arrow 56.5 14.50 58 15.50 asize aw ah acolor
+		ctext "144" 56.6 14.00 ds
+		// TX
+		arrow 46 16.00 52 17.00 asize aw ah acolor
+		ctext "99" 46 15.00 ds
+		// MS
+		arrow 59 19.25 60.75 19.00 asize aw ah acolor
+		etext "625" 59 19.00 ds
+		// AL
+		arrow 63 17.00 66 18.00 asize aw ah acolor
+		ctext "6,720" 63 16.50 ds
+		// GA
+		ctext "798,747" 68 18.00 ds "sans" "white"
+		// FL
+		arrow 71 13.50 69.5 15.50 asize aw ah acolor
+		ctext "3,198" 71 13.00 ds
+		// SC
+		arrow 69 21.00 68 20.00 asize aw ah acolor
+		ctext "20,777" 69 21.00 ds
+		// NC
+		ctext "1530" 73 23.50 ds
+		arrow 73 23.50 72 22.00 asize aw ah acolor
+		// VA
+		arrow 73 26.00 72 24.50 asize aw ah acolor
+		ctext "7,303" 73 26.50 ds
+		// WV
+		arrow 70 27.00 69 25.00 asize aw ah acolor
+		ctext "31" 70 27.00 ds
+		// PA
+		ctext "50" 73 30.50 ds
+		arrow 73 30.50 71.5 29.00 asize aw ah acolor
+		// NY
+		ctext "38" 75 33.00 ds
+		arrow 75 33.00 74 32.00 asize aw ah acolor
+		// MA
+		arrow 79 33.50 78.25 32.75 asize aw ah acolor
+		text "42" 79 33.20 ds
+		// CT
+		arrow 79 32.00 78 30.50 asize aw ah acolor
+		ctext "13" 79 32.00 ds
+		// NJ
+		arrow 77 30.00 76.5 29.00 asize aw ah acolor
+		ctext "14" 77 30.00 ds
+		// DE
+		arrow 78 28.00 77 27.00 asize aw ah acolor
+		line 80.5 32 81 31.5 asize acolor
+		ctext "12" 78 28.00 ds
+		// DC
+		ctext "74" 80 27.00 ds
+		arrow 80 27.00 78 26.00 asize aw ah acolor
+		curve  74.25 27.75   77 26   79 27.25 asize acolor
+		// MD
+		ctext "592" 74 28.10 ds
+		// RI
+		arrow 81 31.00 80 30.00 asize aw ah acolor
+		ctext "2" 81 31.00 ds
+	
+		// ME
+		arrow 81 39.00 80 37.00 asize aw ah acolor
+		ctext "10" 81 39.00 ds
+		// OH 
+		ctext "42" 67 29.00 ds
+		arrow 67 29.00 67 27.00 asize aw ah acolor
+		// IN
+		arrow 62 29.00 63.5 26.50 asize aw ah acolor
+		ctext "21" 62 29.00 ds
+		// KY
+		arrow 65 25.00 66 24.00 asize aw ah acolor
+		ctext "238" 65 25.00 ds
+		// TN
+		arrow 63 22.00 65 21.00 asize aw ah acolor
+		ctext "1,058" 63 22.25 ds
+		// MI
+		arrow 63.5 34.00 64 32.00 asize aw ah acolor
+		ctext "8" 63.5 34.00 ds
+		// IL
+		ctext "12" 58.5 30.00 ds
+		arrow 58.5 30.00 60 27.50 asize aw ah acolor
+		
+		
+		// MN
+		arrow 52 37.00 53.5 35.00 asize aw ah acolor
+		ctext "4" 52 37.00 ds
+		
+		
+		// NE
+		arrow 44 29.75 48 28.00 asize aw ah acolor
+		ctext "1" 44 30.00 ds
+		// ID
+		ctext "1" 27 35.00 ds
+		arrow 27 35.00 30 33.00 asize aw ah acolor
+		
+		// OR
+		arrow 20 35.00 23 34.50 asize aw ah acolor
+		ctext "1" 19 35.00 ds
+		
+		// UT
+		arrow 30 28.00 32 27.50 asize aw ah acolor
+		ctext "1" 29 28.00 ds
+	
+		// KS
+		ctext "6" 47 26.00 ds
+		arrow 48 26.00 51 24.50 asize aw ah acolor
+		// MO
+		arrow 54 26.00 57 24.00 asize aw ah acolor
+		ctext "46" 54 26.00 ds
