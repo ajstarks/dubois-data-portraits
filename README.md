@@ -47,3 +47,4 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 60: Crime among American Negroes
 * Plate 61: American Negro newspapers and periodicals
 * Plate 62: Religion of American Negroes
+* Plate 63: Statistics of Negro Church Organizations
