@@ -1,0 +1,66 @@
+deck
+	slide
+		mx=50
+		ty=98
+		ts=2
+		ss=ts*0.75
+		ctext "Statistics of Negro Church Organizations" mx ty ts "serif"
+		ty-=2
+		hline 45 ty 10 0.1
+		ty-=2
+		ctext "Statistiques des oranisations religieuses les Nègres" mx ty ss "serif"
+		ty-=2
+		hline 45 ty 10 0.1
+		ty-=2
+		ctext "Done by Atlanta University" mx ty ss "serif"
+
+
+		// Text Columns
+		ty=75
+		tx=5
+		fx=35
+		fs=2.5
+		fy=ty-0.5
+		barskip=17
+
+		text "Number of Organizations"					tx ty ss "serif"
+		text "23,462"									fx fy fs
+		ty-=barskip
+		fy-=barskip
+		
+		text "Number of Church Offices"					tx ty ss "serif"
+		text "23,770"									fx fy fs
+		ty-=barskip
+		fy-=barskip
+
+		text "Value of Church property"					tx ty ss "serif"
+		text "$ 26,626,448   OR   137,960,860 FRANCS."	fx fy fs
+		ty-=barskip
+		fy-=barskip
+
+		text "Number of Commuicants"					tx ty ss "serif"
+		text "2,673,977"								fx fy fs
+
+
+		// Bars
+		bx=fx+15
+		by=75.3
+
+		// Measured barwidth (%)
+		b1=38
+		b2=41
+		b3=43
+		b4=32
+		barsize=1.5
+		hline bx by b1 barsize "black"
+		by-=barskip
+		hline bx by b2 barsize "black"
+		by-=barskip
+		by-=barskip
+		hline bx by b3 barsize "black"
+		by-=5
+		hline bx by b4 barsize "black"
+
+		
+	eslide
+edeck
