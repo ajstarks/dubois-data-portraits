@@ -1,0 +1,85 @@
+deck
+	slide
+		mx=50
+		ty=98
+		ts=2
+		ss=ts*0.75
+		ctext "Religion of American Negroes" mx ty ts "serif"
+		ty-=2
+		hline 45 ty 10 0.1
+		ty-=2
+		ctext "Religion des Nègres Americains" mx ty ss "serif"
+		ty-=2
+		hline 45 ty 10 0.1
+		ty-=2
+		ctext "Done by Atlanta University" mx ty ss "serif"
+
+
+		tleft=5
+		// measured bar percentages
+		pro1=62
+		pro2=57
+		pro3=77
+
+		baptists=77.4
+		methodist=6.4
+		catholics=1
+		presby=2.5
+		cong=0.64
+		misc=3.22
+
+		// Spiral for Protestants
+		by=80
+		bleft=20
+		bleft1=35
+		spleft=bleft1+1.5
+		barsize=4
+		spiralskip=4.5
+
+		hline bleft1 by pro1 barsize "green"
+		vline spleft 74 7 3 "green"
+		by-=spiralskip
+		hline bleft1 by pro2 barsize "green"
+		by-=spiralskip
+		hline bleft  by pro3 barsize "green"
+		spleft+=59
+		vline spleft by 8 3 "green"
+
+		text "Catholics"			tleft 75 ss "serif"
+		text "Protestants"			tleft 71 ss "serif"
+
+		barsize=3
+		by=75
+		hline bleft by catholics barsize "crimson"
+
+		barcolor="gold"
+		bskip=8
+		by=45
+		ty=by-0.3
+		
+
+		text "Protestant Sects:"	tleft 55 ss "serif"
+
+		hline bleft by baptists		barsize barcolor
+		by-=bskip
+		hline bleft by methodist	barsize barcolor
+		by-=bskip
+		hline bleft by presby		barsize barcolor
+		by-=bskip
+		hline bleft by cong			barsize barcolor
+		by-=bskip
+		hline bleft by misc 		barsize barcolor
+
+		
+		text "Baptists"				tleft ty ss "serif"
+		ty-=bskip
+		text "Methodists"			tleft ty ss "serif"
+		ty-=bskip
+		text "Presbyterians"		tleft ty ss "serif"
+		ty-=bskip
+		text "Congregationalists"	tleft ty ss "serif"
+		ty-=bskip
+		text "Miscellaneous"		tleft ty ss "serif"
+		
+	eslide
+edeck

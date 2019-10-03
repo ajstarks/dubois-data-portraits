@@ -9,6 +9,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate  5: Negro Population of Georgia by Counties, 1890
 * Plate  6: Negro Population of Georgia by Counties, 1870, 1880
 * Plate  7: Comparative Increase of White and Colored Population of Georgia
+* Plate  8: Migration of Negroes 1890
 * Plate  9: Age Distribution of Georgia Negroes Compared with France
 * Plate 10: Conjugal Condition
 * Plate 12: Slave and Free Negroes
@@ -45,3 +46,4 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 59: Mortality of American Negroes
 * Plate 60: Crime among American Negroes
 * Plate 61: American Negro newspapers and periodicals
+* Plate 62: Religion of American Negroes
