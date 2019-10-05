@@ -9,7 +9,7 @@ deck
 		polygon "50 15 15" "40 70 10" "red"
 		polygon "50 85 85" "40 70 10" "blue"
 
-		clist 50 65 listsize "sans" "white" 100 ls 
+		clist 50 65 listsize "sans" "white" 100 ls
 			li "VIRGINIA"
 			li "1895"
 			li "$ 13,933,998"
@@ -22,13 +22,13 @@ deck
 			li "180,796,290 FRANCS."
 		elist
 
-		clist 30 45 listsize "sans" "white" 100 ls
+		clist 20 40 listsize "sans" "white" 100 ls "" 90
 			li "NORTH CAROLINA"
 			li "1891"
 			li "$ 8,018,446"
 		elist
 
-		clist 70 45 listsize "sans" "white" 100 ls 
+		clist 80 40 listsize "sans" "white" 100 ls "" 270
 			li "GEORGIA" 
 			li "1895"
 			li "$ 12,941,230"
