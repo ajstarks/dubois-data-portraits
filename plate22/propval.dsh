@@ -1,0 +1,67 @@
+// Assessed valuation of all taxable property owned by Georgia Negroes
+deck
+	slide
+		// Title
+		tx=50
+		ty=96
+		ts=3
+		ctext "ASSESSED VALUATION OF ALL TAXABLE PROPERTY"	tx ty ts "serif"
+		ty-=3
+		ctext "OWNED BY GEORGIA NEGROES."					tx ty ts "serif"
+		cx=50
+		cy=50
+
+		// Concentric circles (red, white, blue, white, black)
+		cr=81
+		circle cx cy cr "crimson"
+		cr=77
+		circle cx cy cr "white"
+		cr=74
+		circle cx cy cr "gold"
+		cr=50
+		circle cx cy cr "blue"
+		cr=34
+		circle cx cy cr "white"
+		cr=31
+		circle cx cy cr "black"
+
+		// Note sizes
+		ns=1.8
+		ns2=ns*0.75
+		ns3=ns2*0.75
+
+		// Centered labels
+		ctext "$ 5,393,885" 50 50 ns "sans" "white"
+		ctext "1875"		50 38 ns "sans" "white"
+		ctext "1880"		50 37 ns3
+		ctext "1885"		50 31 ns "sans" "white"
+		ctext "1890"		50 21 ns
+		ctext "1895"		50 20 ns3
+		ctext "1899"		50 18.75 ns3
+
+		// Arc labels
+		rtext "$12,941,230" 67 67 48  ns
+		rtext "$13,447,423" 25 74 306 ns
+		rtext "$5,764,293"  37 42 42  ns3
+		rtext "$8,153,390"  58 42 310 ns2 "sans" "white"
+		text  "$12,322,003" 70 50 ns
+
+		// arcs penetrating the black center (counter-clockwise)
+		a1=350-360
+		a12=a1-3
+		arc 58 50 17 17  a12 13 17 "blue" 
+		arc 58 50 29 29  a1  10 29 "gold"
+
+		arc 54 56 16 16  41  61 16 "blue"
+		arc 54 56 29 29  43  58 29 "white"
+
+		arc 44 56 28 28 118 142 28 "white"
+		arc 44 56 29 29 120 140 29 "crimson"
+
+		arc 56 44  7  7 288 342  7 "white"
+		arc 56 44 15 15 292 338 15 "blue"
+
+		arc 42 46  7  7 200 240  7 "white"
+
+	eslide
+edeck
