@@ -1,0 +1,47 @@
+//
+deck
+	slide
+		bcolor="rgb(101,67,33)"
+		ctext "VALUE OF FARMING TOOLS." 50 96 3 "serif"
+		// measured values
+		d1=17
+		d2=29
+		d3=40
+		d4=69
+		d5=59
+
+		// layout parameters
+		bx=27
+		by=87
+		bw=3
+		lx=bx-2
+		ly=by-0.5
+		ls=2
+		spacing=17
+
+		etext "1878" lx ly ls
+		hline bx by d1 bw bcolor
+		by-=spacing
+		ly-=spacing
+
+		etext "1883" lx ly ls
+		hline bx by d2 bw bcolor
+		by-=spacing
+		ly-=spacing
+
+		etext "1888" lx ly ls
+		hline bx by d3 bw bcolor
+		by-=spacing
+		ly-=spacing
+
+		etext "1893" lx ly ls
+		hline bx by d4 bw bcolor
+		by-=spacing
+		ly-=spacing
+
+		etext "1899" lx ly ls
+		hline bx by d5 bw bcolor
+
+
+	eslide
+edeck
