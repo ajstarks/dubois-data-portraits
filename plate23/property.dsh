@@ -1,0 +1,164 @@
+// Negro population in two cities of Georgia
+deck
+	slide
+		tx=50
+		ty=96
+		ts=3
+		ns=2
+		ns2=ns*0.75
+		ctext "NEGRO PROPERTY IN TWO CITIES"	tx ty ts "serif"
+		ty-=3
+		ctext "OF GEORGIA"						tx ty ts "serif"
+
+		// bar colors
+		scolor="gold"
+		acolor="steelblue"
+		op=75
+
+
+		// Horizontal bars ----------------------------------------------------------------
+		smin=0
+		smax=75
+		dmin=0
+		dmax=2200
+
+		bx=17
+		by1=80
+		barspacing=25
+		by2=by1-barspacing
+		by3=by2-barspacing
+
+		bw=3
+		spacing=bw*0.75
+
+		// Data mapping and label placement
+		h1s=vmap 699 dmin dmax smin smax
+		h1a=vmap 639 dmin dmax smin smax
+		h1slx=h1s/ns
+		h1alx=h1a/ns
+		h1slx+=bx
+		h1alx+=bx
+
+		h2s=vmap 1387 dmin dmax smin smax
+		h2a=vmap 1120 dmin dmax smin smax
+		h2slx=h2s/ns
+		h2alx=h2a/ns
+		h2slx+=bx
+		h2alx+=bx
+
+		h3s=vmap 2157 dmin dmax smin smax
+		h3a=vmap 1112 dmin dmax smin smax
+		h3slx=h3s/ns
+		h3alx=h3a/ns
+		h3slx+=bx
+		h3alx+=bx
+
+
+		hline bx by1 h1s bw scolor op
+		hly1=by1-0.5
+		ctext "699" h1slx hly1 ns
+		by1-=spacing
+		hline bx by1 h1a bw acolor op
+		hly1=by1-0.5
+		ctext "639" h1alx hly1 ns
+
+		hline bx by2 h2s bw scolor op
+		hly2=by2-0.5
+		ctext "1387" h2slx hly2 ns
+		by2-=spacing
+		hline bx by2 h2a bw acolor op
+		hly2=by2-0.5
+		ctext "1120" h2alx hly2 ns
+
+		hline bx by3 h3s bw scolor op
+		hly3=by3-0.5
+		ctext "2157" 47 hly3 ns
+		by3-=spacing
+		hline bx by3 h3a bw acolor op
+		hly3=by3-0.5
+		ctext "1112" h2alx hly3 ns
+
+
+		// Vertical bars --------------------------------
+		dmin=0
+		dmax=1350000
+		smin=0
+		smax=70
+
+		vx=20
+		vy=15
+		vspacing=25
+
+		// data mapping
+		v1s=vmap 194392 dmin dmax smin smax
+		v1a=vmap 227955 dmin dmax smin smax
+		
+
+		v2s=vmap 550145 dmin dmax smin smax
+		v2a=vmap 768258 dmin dmax smin smax
+
+		v3s=vmap 872737 dmin dmax smin smax
+		v3a=vmap 1308995 dmin dmax smin smax
+
+		
+		lx=vx+1.5
+		ly=vy-ns
+		
+		vline vx vy v1s bw scolor op
+		vx+=bw
+		vline vx vy v1a bw acolor op
+
+		vx+=vspacing
+		vline vx vy v2s bw scolor op
+		vx+=bw
+		vline vx vy v2a bw acolor op
+		
+		vx+=vspacing
+		vline vx vy v3s bw scolor op
+		vx+=bw
+		vline vx vy v3a bw acolor op
+
+		lspacing=vspacing+bw
+		ctext "1880" lx ly ns2
+		lx+=lspacing
+		ctext "1890" lx ly ns2
+		lx+=lspacing
+		ctext "1899" lx ly ns2
+
+		// Vertical Labels
+		rtext "$ 194,392"	20.5  16 90 ns
+		rtext "$ 227,955"	23.5  18 90 ns
+		rtext "$ 550,145"	48.5  33 90 ns
+		rtext "$ 768,258"	51.75 38 90 ns
+		rtext "$ 872,737"	76.75 35 90 ns
+		rtext "$ 1,308,995"	79.75 47 90 ns
+
+		ly-=5
+		ctext "PROPERTY" 50 ly ns
+		ly-=2
+
+
+		// Legend
+		lbar=18
+		hline lbar ly 4 2 "gold" op
+		lbar+=5
+		ty=ly-0.5
+		text "= SAVANNAH" lbar ty ns
+		lbar+=40
+		text "ATLANTA ="  lbar ty ns
+		lbar+=12
+		hline lbar ly 4 2 "steelblue" op
+
+		// braces
+		etext "OWNERS" 8 53.5 ns2
+		etext "1880" 15 79 ns2
+		etext "1890" 15 53.5 ns2
+		etext "1899" 15 28.5 ns2
+		include "lb1.dsh"
+		include "lb2.dsh"
+		include "lb3.dsh"
+		include "lb4.dsh"
+		include "db1.dsh"
+
+	eslide
+edeck
