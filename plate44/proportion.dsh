@@ -29,7 +29,7 @@ deck
 		circle cx cy ocr "crimson"
 		circle cx cy cr wcolor
 
-		// Dark Arcs
+		// Inner Arcs
 		arc cx cy as as   45 48 as ncolor
 		arc cx cy as as 120 128 as ncolor
 		arc cx cy as as 175 185 as ncolor
@@ -37,7 +37,7 @@ deck
 		arc cx cy as as 300 310 as ncolor
 		arc cx cy as as 356 360 as ncolor
 
-		// Border Arcs
+		// Dark Arcs
 		arc cx cy as as  45.25  47.75 as bcolor
 		arc cx cy as as 120.25 128.75 as bcolor
 		arc cx cy as as 175.25 186.75 as bcolor
@@ -49,7 +49,7 @@ deck
 		// (these follow the boundaries of the black wedges with a 4 degree gap between them)
 		oas=cr+8
 		arc cx cy oas oas  50 125 0.1 ocolor
-		arc cx cy oas oas 129 183 0.1 ocolor
+		arc cx cy oas oas 130 183 0.1 ocolor
 		arc cx cy oas oas 187 228 0.1 ocolor
 		arc cx cy oas oas 232 307 0.1 ocolor
 		arc cx cy oas oas 311 353 0.1 ocolor
@@ -59,13 +59,13 @@ deck
 		line 82 66 78 65
 		line 80 68 78 65
 
-		line 24 70 24 66.75
-		line 21 68.5 24 66.75
+		line 23.50 70    23.75 66.25
+		line 20.00 68.00    23.75 66.25
 
-		line 4 38 8 37
-		line 4 36 8 37
+		line 3.50 38 8 37
+		line 3.50 35.50 8 37
 
-		line 20.75 11.3 22.5 14.5
+		line 21.25 11.3 22.5 14.5
 		line 19 13 22.5 14.5
 
 		line 78 11 77 14

@@ -1,0 +1,51 @@
+<deck>
+<slide>
+<text align="c" xp="50" yp="97" sp="2.5" font="serif">Proportion of Whites and Negroes in the different classes</text>
+<text align="c" xp="50" yp="94.5" sp="2.5" font="serif">occupation in the United States</text>
+<line xp1="40" yp1="92.5" xp2="60" yp2="92.5" sp="0.1"/>
+<text align="c" xp="50" yp="89.5" sp="1.75" font="serif">Proportion des blancs et des Nègres dans les diverses especes d' occupations en Amerique</text>
+<line xp1="40" yp1="87.5" xp2="60" yp2="87.5" sp="0.1"/>
+<text align="c" xp="50" yp="84.5" sp="1.75" font="serif">Done by Atlanta University</text>
+<ellipse xp="50" yp="40" wp="85.25" hr="100" color="crimson"/>
+<ellipse xp="50" yp="40" wp="85" hr="100" color="rgb(240,240,240)"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="45" a2="48" sp="42.5" color="crimson"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="120" a2="128" sp="42.5" color="crimson"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="175" a2="185" sp="42.5" color="crimson"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="225" a2="230" sp="42.5" color="crimson"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="300" a2="310" sp="42.5" color="crimson"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="356" a2="360" sp="42.5" color="crimson"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="45.25" a2="47.75" sp="42.5" color="black"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="120.25" a2="128.75" sp="42.5" color="black"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="175.25" a2="186.75" sp="42.5" color="black"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="225.25" a2="229.75" sp="42.5" color="black"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="300.25" a2="309.75" sp="42.5" color="black"/>
+<arc xp="50" yp="40" wp="42.5" hp="42.5" a1="356.25" a2="359.75" sp="42.5" color="black"/>
+<arc xp="50" yp="40" wp="93" hp="93" a1="50" a2="125" sp="0.1" color="gray"/>
+<arc xp="50" yp="40" wp="93" hp="93" a1="129" a2="183" sp="0.1" color="gray"/>
+<arc xp="50" yp="40" wp="93" hp="93" a1="187" a2="228" sp="0.1" color="gray"/>
+<arc xp="50" yp="40" wp="93" hp="93" a1="232" a2="307" sp="0.1" color="gray"/>
+<arc xp="50" yp="40" wp="93" hp="93" a1="311" a2="353" sp="0.1" color="gray"/>
+<arc xp="50" yp="40" wp="93" hp="93" a1="0" a2="45" sp="0.1" color="gray"/>
+<line xp1="82" yp1="66" xp2="78" yp2="65"/>
+<line xp1="80" yp1="68" xp2="78" yp2="65"/>
+<line xp1="24" yp1="70" xp2="24" yp2="66.75"/>
+<line xp1="21" yp1="68.5" xp2="24" yp2="66.75"/>
+<line xp1="4" yp1="38" xp2="8" yp2="37"/>
+<line xp1="4" yp1="36" xp2="8" yp2="37"/>
+<line xp1="20.75" yp1="11.3" xp2="22.5" yp2="14.5"/>
+<line xp1="19" yp1="13" xp2="22.5" yp2="14.5"/>
+<line xp1="78" yp1="11" xp2="77" yp2="14"/>
+<line xp1="80" yp1="12" xp2="77" yp2="14"/>
+<line xp1="96" yp1="36" xp2="92.5" yp2="38"/>
+<line xp1="96.2" yp1="40" xp2="92.5" yp2="38"/>
+<text align="c" xp="50" yp="74" sp="1.25" >ALL OCCUPATIONS</text>
+<text align="c" xp="50" yp="5" sp="1.25" >DOMESTIC AND PERSONAL SERVICE</text>
+<text xp="85.5" yp="18" rotation="62" sp="1.25" >TRADE AND TRANSPORTATION</text>
+<text xp="8" yp="50" rotation="65" sp="1.25" >AGRICULTURE</text>
+<text xp="82" yp="64" rotation="305" sp="1.25" >MANUFACTURING</text>
+<text xp="88.75" yp="56.5" rotation="299" sp="1.25" >AND</text>
+<text xp="90.60" yp="53.75" rotation="287" sp="1.25" >MECHANICAL</text>
+<text xp="93.25" yp="46.75" rotation="278" sp="1.25" >INDUSTRIES</text>
+<text xp="10" yp="25" rotation="300" sp="1.25" >PROFESSIONS</text>
+</slide>
+</deck>
