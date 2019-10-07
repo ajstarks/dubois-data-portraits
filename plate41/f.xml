@@ -1,0 +1,31 @@
+<deck>
+<slide>
+<text align="c" xp="50" yp="95" sp="1.5" >NEGRO POPULATION OF THE UNITED STATES COMPARED WITH THE TOTAL POPULATION OF OTHER COUNTRIES.</text>
+<text align="c" xp="50" yp="90" sp="1.5" >POPULATION NÈGRE DES ETATS UNIS COMPAREÉ À LA POPULATION TOTALE DES AUTRES PAYS.</text>
+<image name="esp.png" xp="20" yp="70" width="250" height="250"/>
+<image name="aus.png" xp="50" yp="70" width="150" height="150"/>
+<image name="nor.png" xp="80" yp="70" width="300" height="300"/>
+<image name="swe.png" xp="82" yp="70" width="300" height="300"/>
+<text type="block" xp="16" yp="71" wp="3" sp="1.2" >ESPAÑA 17,500,000</text>
+<text type="block" xp="47" yp="71" wp="3" sp="1.2" >AUSTRALIA 3,036,570</text>
+<text type="block" xp="70" yp="71" wp="3" sp="1.2" >NORVÈGE 2,000,917</text>
+<text type="block" xp="85" yp="71" wp="3" sp="1.2" >SUÈDE 4,774,409</text>
+<image name="ned.png" xp="20" yp="50" width="200" height="200"/>
+<image name="bel.png" xp="20" yp="42" width="200" height="200"/>
+<image name="usa.png" xp="50" yp="48" width="300" height="300"/>
+<image name="sui.png" xp="80" yp="45" width="200" height="200"/>
+<text type="block" xp="14" yp="52" wp="3" sp="1.2" >NEDERLANDEN 4,500,000</text>
+<text type="block" xp="14" yp="42" wp="3" sp="1.2" >LA BELGIQUE 6,000,000</text>
+<text align="c" xp="50" yp="40" sp="1.2" >U.S.A.</text>
+<text align="c" xp="50" yp="38.56" sp="1.2" >NEGRO POPULATION</text>
+<text align="c" xp="50" yp="37.120000000000005" sp="1.2" >POPULATION NOIRE</text>
+<text align="c" xp="50" yp="35.68000000000001" sp="1.2" >7,500,000</text>
+<text type="block" xp="78" yp="45" wp="3" sp="1.2" >SUISSE 2,900,000</text>
+<image name="hun.png" xp="20" yp="20" width="400" height="400"/>
+<image name="bay.png" xp="50" yp="20" width="300" height="300"/>
+<image name="eng.png" xp="80" yp="20" width="400" height="400"/>
+<text type="block" xp="16" yp="20" wp="3" sp="1.2" >HONGRIE 17,500,000</text>
+<text type="block" xp="48" yp="20" wp="3" sp="1.2" >BAYERN 5,800,000</text>
+<text type="block" xp="78" yp="20" wp="3" sp="1.2" >ENGLAND 27,500,000</text>
+</slide>
+</deck>

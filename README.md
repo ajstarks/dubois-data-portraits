@@ -33,6 +33,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 41: Population Comparison
 * Plate 42: Population Proportions
 * Plate 43: Occupations in which American Negroes are engaged
+* Plate 44: Proportion of Whites and Negroes in the different classes
 * Plate 45: Occupations in which 10,000 or more American Negroes are engaged
 * Plate 47: Illiteracy of the American Negro compared with other nations
 * Plate 48: Enrollment in the Negro common school of the former slave States

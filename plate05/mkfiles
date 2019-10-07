@@ -1,0 +1,3 @@
+#!/bin/sh
+awk -F, '{printf "./mkpoly 28 75 33 75 \"\" %s %s-coord.csv\n", $2, $1}' ga1890pop.csv > mkplate05
+chmod +x mkplate05

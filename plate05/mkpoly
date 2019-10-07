@@ -1,0 +1,120 @@
+#!/bin/sh
+if test $# -lt 11 
+then
+	echo "mkpoly left right bottom top mapminx mapmaxx mapminy mapmaxy label color file" 1>&2
+	exit 1
+fi
+# bounds on the deck canvas
+dleft=$1
+dright=$2
+dbottom=$3
+dtop=$4
+# geographic bounds for Georgia
+vminx=$5 # 80.85139
+vmaxx=$6 # 85.60528
+vminy=$7 # 30.35556
+vmaxy=$8 # 35.00083
+label=$9
+color=${10}
+awk -F,  -v dleft=$dleft -v dright=$dright -v dbottom=$dbottom -v dtop=$dtop -v vminx=$vminx -v vmaxx=$vmaxx -v vminy=$vminy -v vmaxy=$vmaxy -v label=$label -v color="$color" ' 
+
+BEGIN {
+	aspect=612.0/792.0
+}
+NR == 1 {
+	minx=$1
+	maxx=$1
+
+	miny=$2
+	maxy=$2
+}
+NF >= 2 {
+	x[NR]=$1
+	y[NR]=$2
+
+	if ($1 < minx) {
+		minx = $1
+	}
+	if ($1 > maxx) {
+		maxx = $1
+	}
+	if ($2 < miny) {
+		miny = $2
+	}
+	if ($2 > maxy) {
+		maxy = $2
+	}
+}
+
+# Map one range to another
+function vmap(value, low1, high1, low2, high2) {
+	return low2 + (high2-low2)*(value-low1)/(high1-low1)
+}
+
+function poly(left, right, bottom, top) {
+	if (vminx != 0) {
+		minx = vminx
+	}
+	if (vmaxx != 0) {
+		maxx = vmaxx
+	}
+	if (vminy != 0) {
+		miny = vminy
+	}
+	if (vmaxy != 0) {
+		maxy = vmaxy
+	}
+	print "#", minx, maxx, miny, maxy, left, right, bottom, top
+	printf "polygon \""
+	pminx=10000
+	pmaxx=-10000
+	for (i=1; i <= NR; i++) {
+		px=vmap(x[i], minx, maxx, left, right)
+		if (px > pmaxx) {
+			pmaxx=px
+		}
+		if (px < pminx) {
+			pminx=px
+		}
+		printf "%.3g ", px
+	}
+	printf "%.3g\"", vmap(x[1], minx, maxx, left, right)
+	printf "  \""
+
+	pminy=10000
+	pmaxy=-10000
+	for (i=1; i <= NR; i++) {
+		py=vmap(y[i], miny, maxy, bottom, top)
+		if (py > pmaxy) {
+			pmaxy=py
+		}
+		if (py < pminy) {
+			pminy=py
+		}
+		printf "%.3g ", py
+	}
+	printf "%.3g\" \"%s\"\n", vmap(y[1], miny, maxy, bottom, top), color
+	if (label > 0) {
+		printf "ctext \"%s\" %g %g 1\n", label, pminx+((pmaxx-pminx)/2), pminy+((pmaxy-pminy)/2)
+		# printf "# ctext \"%s\" %s 1\n", label, centroid(x, y, minx, maxx, miny, maxy, top, bottom, left, right)
+		# printf "# ctext \"%s\" %g %g 0.75 \"sans\" \"black\"\n", substr(FILENAME, 1, index(FILENAME, "-")-3), pminx+((pmaxx-pminx)/2), pminy+((pmaxy-pminy)/2)
+	}
+	
+}
+
+END {
+	if (dleft == 0) {
+		dleft = 10
+	}
+	if (dright == 0) {
+		dright = 85
+	}
+	if (dbottom == 0) {
+		dbottom = 15
+	}
+	if (dtop == 0) {
+		dtop = 80
+	}
+	poly(dleft, dright, dbottom, dtop)
+}
+' ${11}

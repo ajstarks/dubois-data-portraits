@@ -1,0 +1,12 @@
+<deck>
+<slide>
+<rect xp="50" yp="95" wp="100" hp="10" color="gray"/>
+<rect xp="50" yp="82.5" wp="100" hp="15" color="steelblue" opacity="50"/>
+<rect xp="10" yp="37.5" wp="20" hp="75" color="blue" opacity="50"/>
+<rect xp="60" yp="37.5" wp="80" hp="75" color="purple" opacity="50"/>
+<text align="c" xp="50" yp="95" sp="3" >Title</text>
+<text align="c" xp="50" yp="82.5" sp="3" >Categories</text>
+<text align="c" xp="10" yp="37.5" sp="3" >Income</text>
+<text align="c" xp="60" yp="37.5" sp="3" >Charts</text>
+</slide>
+</deck>

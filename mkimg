@@ -1,0 +1,8 @@
+#!/bin/sh
+for i in plate*
+do
+	cd $i
+	echo "making image for $i"
+	./mkdeck-png
+	cd ..
+done

@@ -4,7 +4,7 @@ deck
 		ctext "Mortalité parmi les Nègres Américains."  50 90 2 "serif"
 		opts="-textsize=1.8 -val=f -fulldeck=f -bottom=15 -top=75 -min=0 -max=50"
 		dchart opts -left 15 -right 35 -color=black  -barwidth=7    us-mortality.d
-		dchart opts -left 60 -right 90 -color=yellow -barwidth=6   phila-mortality.d
+		dchart opts -left 60 -right 90 -color=gold -barwidth=6   phila-mortality.d
 		ctext "UNITED STATES" 25 5 2 "sans" "gray"
 		ctext "PHILADELPHIA"  75 5 2 "sans" "gray"
 	eslide

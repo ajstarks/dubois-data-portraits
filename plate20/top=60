@@ -1,0 +1,66 @@
+ARGC: 2
+ARGIND: 1
+ARGV: array, 2 elements
+BINMODE: 0
+CONVFMT: "%.6g"
+ENVIRON: array, 69 elements
+ERRNO: ""
+FIELDWIDTHS: ""
+FILENAME: "WORTH02-coord.csv"
+FNR: 127
+FPAT: "[^[:space:]]+"
+FS: ","
+FUNCTAB: array, 46 elements
+IGNORECASE: 0
+LINT: 0
+NF: 2
+NR: 127
+OFMT: "%.6g"
+OFS: " "
+ORS: "\n"
+PREC: 53
+PROCINFO: array, 21 elements
+RLENGTH: 0
+ROUNDMODE: "N"
+RS: "\n"
+RSTART: 0
+RT: "\n"
+SUBSEP: "\034"
+SYMTAB: array, 64 elements
+TEXTDOMAIN: "messages"
+a: untyped variable
+aspect: 0.77272727272727271
+color: "pink"
+cx: untyped variable
+cy: untyped variable
+dbottom: 15
+dleft: 33
+dright: 77
+dtop: 80
+i: 128
+landvalue: ""
+maximum: untyped variable
+maxx: 85.605279999999993
+maxy: 35.000830000000001
+minimum: untyped variable
+minx: 80.851389999999995
+miny: 30.355560000000001
+n: untyped variable
+pmaxx: 52.367297097745102
+pmaxy: 35.907374598247259
+pminx: 47.554396504757079
+pminy: 28.471778820176208
+px: 48.402855345832563
+py: 35.884146669623078
+ret: untyped variable
+sa: untyped variable
+vmaxx: 85.605279999999993
+vmaxy: 35.000830000000001
+vminx: 80.851389999999995
+vminy: 30.355560000000001
+x: array, 127 elements
+x0: untyped variable
+x1: untyped variable
+y: array, 127 elements
+y0: untyped variable
+y1: untyped variable

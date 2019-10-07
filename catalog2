@@ -1,0 +1,19 @@
+#!/bin/sh
+# ls plate*/stdin*.png | ./catalog2 | decksh | pdf -pagesize 1920,1080
+awk '
+BEGIN {
+	print "deck"
+}
+{
+	pic[NR] = $1
+}
+END {
+	for (i=1; i <=NR; i++) {	
+		if (i%2 == 0) {
+			printf "slide \"rgb(230,230,230)\"\nimage \"%s\" 27 50 1584 2016 50\n", pic[i-1]
+			printf "image \"%s\"  73 50 1584 2016 50\neslide\n", pic[i]
+		}
+	}
+	print "edeck"
+}' $*
+

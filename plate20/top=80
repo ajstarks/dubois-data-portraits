@@ -1,0 +1,66 @@
+ARGC: 2
+ARGIND: 1
+ARGV: array, 2 elements
+BINMODE: 0
+CONVFMT: "%.6g"
+ENVIRON: array, 69 elements
+ERRNO: ""
+FIELDWIDTHS: ""
+FILENAME: "ECHOLS01-coord.csv"
+FNR: 57
+FPAT: "[^[:space:]]+"
+FS: ","
+FUNCTAB: array, 46 elements
+IGNORECASE: 0
+LINT: 0
+NF: 2
+NR: 57
+OFMT: "%.6g"
+OFS: " "
+ORS: "\n"
+PREC: 53
+PROCINFO: array, 21 elements
+RLENGTH: 0
+ROUNDMODE: "N"
+RS: "\n"
+RSTART: 0
+RT: "\n"
+SUBSEP: "\034"
+SYMTAB: array, 64 elements
+TEXTDOMAIN: "messages"
+a: untyped variable
+aspect: 0.77272727272727271
+color: "gold"
+cx: untyped variable
+cy: untyped variable
+dbottom: 15
+dleft: 5
+dright: 50
+dtop: 80
+i: 58
+landvalue: ""
+maximum: untyped variable
+maxx: 85.605279999999993
+maxy: 35.000830000000001
+minimum: untyped variable
+minx: 80.851389999999995
+miny: 30.355560000000001
+n: untyped variable
+pmaxx: 33.650252740387316
+pmaxy: 22.233400857216026
+pminx: 28.36769466689384
+pminy: 18.307601065169521
+px: 29.932223926089954
+py: 22.186805072686838
+ret: untyped variable
+sa: untyped variable
+vmaxx: 85.605279999999993
+vmaxy: 35.000830000000001
+vminx: 80.851389999999995
+vminy: 30.355560000000001
+x: array, 57 elements
+x0: untyped variable
+x1: untyped variable
+y: array, 57 elements
+y0: untyped variable
+y1: untyped variable

@@ -50,24 +50,24 @@ function maxvalue(a) {
 	return maximum
 }
 
-function centroid(x, y, maxx, minx, miny, maxy, top, bottom, left, right) {
-	n = length(x)
-	for (i=1; i <= length(x)-1; i++) {
-		x0 = vmap(x[i], maxx, minx, left, right)
-		y0 = vmap(y[i], miny, maxy, bottom, top)
-		x1 = vmap(x[(i+1)], maxx, minx, left, right)
-		y1 = vmap(y[(i+1)], miny, maxy, bottom, top)
-		a = x0*y1 - x1*y0
-		sa += a
-		cx += (x0 + x1)*a  
-		cy += (y0 + y1)*a
-	}
-	sa *= 0.5
-	cx /= (6.0*sa)
-	cy /= (6.0*sa)
-	ret = sprintf("%g %g", cx, cy)
-	return ret
-}
+#function centroid(x, y, minx, maxx, miny, maxy, top, bottom, left, right) {
+#	n = length(x)
+#	for (i=1; i <= length(x)-1; i++) {
+#		x0 = vmap(x[i], maxx, minx, left, right)
+#		y0 = vmap(y[i], miny, maxy, bottom, top)
+#		x1 = vmap(x[(i+1)], maxx, minx, left, right)
+#		y1 = vmap(y[(i+1)], miny, maxy, bottom, top)
+#		a = x0*y1 - x1*y0
+#		sa += a
+#		cx += (x0 + x1)*a  
+#		cy += (y0 + y1)*a
+#	}
+#	sa *= 0.5
+#	cx /= (6.0*sa)
+#	cy /= (6.0*sa)
+#	ret = sprintf("%g %g", cx, cy)
+#	return ret
+#}
 
 function poly(left, right, bottom, top) {
 	if (vminx != 0) {
@@ -82,7 +82,7 @@ function poly(left, right, bottom, top) {
 	if (vmaxy != 0) {
 		maxy = vmaxy
 	}
-	print "#", minx, maxx, miny, maxy
+	print "#", minx, maxx, miny, maxy, left, right, bottom, top
 	printf "polygon \""
 	pminx=10000
 	pmaxx=-10000
@@ -114,11 +114,24 @@ function poly(left, right, bottom, top) {
 	printf "%g\" \"%s\"\n", vmap(y[1], miny, maxy, bottom, top), color
 	if (landvalue > 0) {
 		printf "ctext \"%s\" %g %g 1\n", landvalue, pminx+((pmaxx-pminx)/2), pminy+((pmaxy-pminy)/2)
-		#printf "ctext \"%s\" %s 1\n", landvalue, centroid(x, y, minx, maxx, miny, maxy, top, bottom, left, right)
+		# printf "# ctext \"%s\" %s 1\n", landvalue, centroid(x, y, minx, maxx, miny, maxy, top, bottom, left, right)
+		# printf "# ctext \"%s\" %g %g 0.75 \"sans\" \"black\"\n", substr(FILENAME, 1, index(FILENAME, "-")-3), pminx+((pmaxx-pminx)/2), pminy+((pmaxy-pminy)/2)
 	}
 	
 }
 
 END {
-	poly(10, 85, 15, 80)
+	if (dleft == 0) {
+		dleft = 10
+	}
+	if (dright == 0) {
+		dright = 85
+	}
+	if (dbottom == 0) {
+		dbottom = 15
+	}
+	if (dtop == 0) {
+		dtop = 80
+	}
+	poly(dleft, dright, dbottom, dtop)
 }

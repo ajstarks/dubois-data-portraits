@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh income.dsh | pngdeck -pagesize $landscape -sans PublicSans-Bold -serif PublicSans-Thin  $* /dev/stdin

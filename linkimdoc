@@ -1,0 +1,3 @@
+#!/bin/sh
+imdest=/home/ajstarks/gowork/src/github.com/ajstarks/deck/cmd/decksh/doc/images
+for i in plate*; do ln $i/stdin-00001.png $imdest/$i.png; done

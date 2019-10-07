@@ -1,4 +1,4 @@
-// Acres of Land Owned by Negroes in Georgia
+// Plate 19: Acres of Land Owned by Negroes in Georgia
 deck
 	opts="-fulldeck=f -ls 2.2 -val=f -left 7 -right 95 -top 87 -hbar -color=red"
 	slide

@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh dubois.dsh | pdf -pagesize 1920,1080 -symbol stateface  -sans PublicSans-Regular -serif Charter-Regular $*

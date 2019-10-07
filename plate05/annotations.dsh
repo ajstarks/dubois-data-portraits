@@ -1,0 +1,48 @@
+deck
+	tabcolor="rgb(127,127,127)"
+	ls=3.5
+	ts=2.2
+	tx=20
+	cx=tx-5
+	ty=27
+	hskip=42
+	
+	slide
+		ctext "NEGRO POPULATION OF GEORGIA BY COUNTIES." 50 95 3 "serif"
+		ctext "1890." 50 92 3 "serif"
+		list tx ty ts "sans" tabcolor 100 ls
+			li "OVER 30,000 NEGROES"
+			li "BETWEEN 20,000 AND 30,000"
+			li "15,000 TO 20,000"
+			li "10,000 TO 15,000"
+		elist
+
+		tx+=hskip
+		list tx ty ts "sans" tabcolor 100 ls
+			li "5,000 TO 10,000"
+			li "2,500 TO 5,000"
+			li "1,000 TO 2,500"
+			li "UNDER 1,000"
+		elist
+
+		cy=ty+0.8
+		cstep=ls*1.75
+		cr=ts*1.5
+		circle cx cy cr "black"
+		cy-=cstep
+		circle cx cy cr "blue"
+		cy-=cstep
+		circle cx cy cr "chocolate"
+		cy-=cstep
+		circle cx cy cr "tan"
+
+		cy=ty+0.8
+		cx+=hskip
+		circle cx cy cr "crimson"
+		cy-=cstep
+		circle cx cy cr "pink"
+		cy-=cstep
+		circle cx cy cr "gold"
+		cy-=cstep
+		circle cx cy cr "green"
+	

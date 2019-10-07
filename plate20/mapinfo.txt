@@ -1,0 +1,30 @@
+Author	Rand McNally and Company
+Date	1897
+Short Title	Georgia.
+Publisher	Rand McNally
+Publisher Location	Chicago
+Type	Atlas Map
+Obj Height cm	67
+Obj Width cm	49
+Scale 1	960,000
+Note	Col. map. Relief shown by hachures. Title in margin: Rand, McNally & Company's Indexed atlas of the world. Georgia.
+State/Province	Georgia
+Full Title	Rand, McNally & Co.'s New business atlas map of Georgia. Copyright, 1892, by Rand, McNally & Co. (Chicago, 1897)
+List No	3565.094
+Page No	306-307
+Series No	104
+Publication Author	Rand McNally and Company
+Pub Date	1897
+Pub Title	Rand, McNally & Co.'s indexed atlas of the world containing large scale maps of every country and civil division upon the face of the globe, together with historical, descriptive, and statistical matter relative to each ... Accompanied by a new and original compilation forming a ready reference index ... Engraved, printed and published by Rand, McNally & Company, Chicago and New York, U.S.A., 1897. (on verso) Copyright, 1894, by Rand, McNally & Co., Chicago ... (complete in two volumes)
+Pub Reference	cf Phillips, 1026 (1898 ed.)
+Pub Note	This was Rand McNally's highwater mark for its 19th century atlases. No obvious changes from the 1896 edition. Similar to the 1897 Standard Atlas of the World. Vol 1 - Foreign Countries, Vol 2 - United States. Map in full printed color. Atlas is bound in green cloth covers with "The Rand-McNally indexed atlas of the world . Foreign countries" and " ... United States" stamped in gilt on Volumes 1 and 2, respectively.
+Pub List No	3565.000
+Pub Type	World Atlas
+Pub Maps	125
+Pub Height cm	57
+Pub Width cm	41
+Image No	3565094
+Download 1	<a href=http://www.davidrumsey.com/rumsey/download.pl?image=/D0056/3565094.sid target=_blank>Full Image Download in MrSID Format</a>
+Download 2	<a href="https://www.extensis.com/support/geoviewer-9" target="_blank">GeoViewer for JP2 and SID files</a>
+Authors	Rand McNally and Company
+Collection	Rumsey Collection

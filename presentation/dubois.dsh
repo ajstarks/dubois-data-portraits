@@ -1,0 +1,175 @@
+deck
+	slide "black" "white"
+		image "images/grid01.jpg" 50 50 4032 3024 33
+	eslide
+
+	slide "black" "white"
+		image "images/m01.jpg" 50 50  3024 4032 25
+	eslide
+
+	slide "black" "white"
+		image "images/cover01.jpg" 50 50 4032 3024 33
+	eslide
+
+	slide "black" "white"
+		image "images/cover02.jpg" 50 50 4032 3024 33
+	eslide
+
+	slide "black" "white"
+		image "images/measure01.jpg" 50 50 4032 3024 33
+	eslide
+
+	slide "black" "white"
+		image "images/measure02.jpg" 50 50 4032 3024 33
+	eslide
+
+
+	slide "black" "white"
+		image "images/measure04.jpg" 50 50 4032 3024 33
+	eslide
+
+	slide "black" "white"
+		image "images/measure05.jpg" 50 50 4032 3024 33
+	eslide
+	
+	slide "black" "white"
+		image "images/P1220878.JPG" 50 50 4224 2376 50
+	eslide
+
+	slide "black" "white"
+		image "images/P1220879.JPG" 50 50 4224 2376 50
+	eslide
+
+	slide "black" "white"
+		image "images/P1220880.JPG" 50 50 4224 2376 50
+	eslide
+
+	slide
+		text "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 5 50 2  "symbol"
+		text "abcdefghijklmnopqrstuvwxyz" 5 40 2  "symbol"
+		text "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 5 55 4 "sans" "red" 20
+		text "abcdefghijklmnopqrstuvwxyz" 5 45 4 "sans" "red" 20
+	eslide
+
+	slide
+	left=5
+	skip=5
+	ts=2
+	text "A" left 90.0  ts  "symbol"
+		text "B" left 86.5  ts  "symbol"
+		text "C" left 83.0  ts  "symbol"
+		text "D" left 79.5  ts  "symbol"
+		text "E" left 76.0  ts  "symbol"
+		text "F" left 72.5  ts  "symbol"
+		text "G" left 69.0  ts  "symbol"
+		text "H" left 65.5  ts  "symbol"
+		text "I" left 62.0  ts  "symbol"
+		text "J" left 58.5  ts  "symbol"
+		text "K" left 55.0  ts  "symbol"
+		text "L" left 51.5  ts  "symbol"
+		text "M" left 48.0  ts  "symbol"
+		text "N" left 44.5  ts  "symbol"
+		text "O" left 41.0  ts  "symbol"
+		text "P" left 37.5  ts  "symbol"
+		text "Q" left 34.0  ts  "symbol"
+		text "R" left 30.5  ts  "symbol"
+		text "S" left 27.0  ts  "symbol"
+		text "T" left 23.5  ts  "symbol"
+		text "U" left 20.0  ts  "symbol"
+		text "V" left 16.5  ts  "symbol"
+		text "W" left 13.0  ts  "symbol"
+		text "X" left 9.5  ts  "symbol"
+		text "Y" left 6.0  ts  "symbol"
+		text "Z" left 2.5  ts  "symbol"
+
+		left += skip
+		text "A" left 90.0  ts   "sans"
+		text "B" left 86.5  ts   "sans"
+		text "C" left 83.0  ts   "sans"
+		text "D" left 79.5  ts   "sans"
+		text "E" left 76.0  ts   "sans"
+		text "F" left 72.5  ts   "sans"
+		text "G" left 69.0  ts   "sans"
+		text "H" left 65.5  ts   "sans"
+		text "I" left 62.0  ts   "sans"
+		text "J" left 58.5  ts   "sans"
+		text "K" left 55.0  ts   "sans"
+		text "L" left 51.5  ts   "sans"
+		text "M" left 48.0  ts   "sans"
+		text "N" left 44.5  ts   "sans"
+		text "O" left 41.0  ts   "sans"
+		text "P" left 37.5  ts   "sans"
+		text "Q" left 34.0  ts   "sans"
+		text "R" left 30.5  ts   "sans"
+		text "S" left 27.0  ts   "sans"
+		text "T" left 23.5  ts   "sans"
+		text "U" left 20.0  ts   "sans"
+		text "V" left 16.5  ts   "sans"
+		text "W" left 13.0  ts   "sans"
+		text "X" left 9.5  ts   "sans"
+		text "Y" left 6.0  ts   "sans"
+		text "Z" left 2.5  ts   "sans"
+
+		left += skip
+		text "a" left 90.0  ts "symbol"
+		text "b" left 86.5  ts "symbol"
+		text "c" left 83.0  ts "symbol"
+		text "d" left 79.5  ts "symbol"
+		text "e" left 76.0  ts "symbol"
+		text "f" left 72.5  ts "symbol"
+		text "g" left 69.0  ts "symbol"
+		text "h" left 65.5  ts "symbol"
+		text "i" left 62.0  ts "symbol"
+		text "j" left 58.5  ts "symbol"
+		text "k" left 55.0  ts "symbol"
+		text "l" left 51.5  ts "symbol"
+		text "m" left 48.0  ts "symbol"
+		text "n" left 44.5  ts "symbol"
+		text "o" left 41.0  ts "symbol"
+		text "p" left 37.5  ts "symbol"
+		text "q" left 34.0  ts "symbol"
+		text "r" left 30.5  ts "symbol"
+		text "s" left 27.0  ts "symbol"
+		text "t" left 23.5  ts "symbol"
+		text "u" left 20.0  ts "symbol"
+		text "v" left 16.5  ts "symbol"
+		text "w" left 13.0  ts "symbol"
+		text "x" left 9.5  ts "symbol"
+		text "y" left 6.0  ts "symbol"
+		text "z" left 2.5  ts "symbol"
+
+		left += skip
+
+		text "a" left 90.0  ts  "sans"
+		text "b" left 86.5  ts  "sans"
+		text "c" left 83.0  ts  "sans"
+		text "d" left 79.5  ts  "sans"
+		text "e" left 76.0  ts  "sans"
+		text "f" left 72.5  ts  "sans"
+		text "g" left 69.0  ts  "sans"
+		text "h" left 65.5  ts  "sans"
+		text "i" left 62.0  ts  "sans"
+		text "j" left 58.5  ts  "sans"
+		text "k" left 55.0  ts  "sans"
+		text "l" left 51.5  ts  "sans"
+		text "m" left 48.0  ts  "sans"
+		text "n" left 44.5  ts  "sans"
+		text "o" left 41.0  ts  "sans"
+		text "p" left 37.5  ts  "sans"
+		text "q" left 34.0  ts  "sans"
+		text "r" left 30.5  ts  "sans"
+		text "s" left 27.0  ts  "sans"
+		text "t" left 23.5  ts  "sans"
+		text "u" left 20.0  ts  "sans"
+		text "v" left 16.5  ts  "sans"
+		text "w" left 13.0  ts  "sans"
+		text "x" left 9.5  ts  "sans"
+		text "y" left 6.0  ts  "sans"
+		text "z" left 2.5  ts  "sans"
+
+		text "O" 40 50 20 "symbol" "black"
+		text "e" 70 50 20 "symbol" "maroon"
+		arrow 55 65 70 65 1.5 3 7 
+	eslide
+edeck
+
