@@ -1,0 +1,276 @@
+
+bs2=bskip/2
+bs4=bs2*0.5
+curldiff=98400-63012
+arcsize=3
+
+clist labelx labely ls "sans" labelcolor 100 1.2
+	li "AGRICULTURAL"
+	li "LABORERS"
+elist
+
+Agr=vmap 63012 dmin dmax smin smax
+Agr2=Agr-arcsize
+hline bx by Agr2 bw bcolor
+
+// compute the section for the curl
+curlsize=vmap curldiff dmin dmax smin smax
+Far=vmap 63012 dmin dmax smin smax
+cx=bx+Far
+// compute arc
+arcx=cx-arcsize
+arcy=by-1.0
+ang1=90-180
+arc arcx arcy 5 2.5 90 0 bw bcolor
+arc arcx arcy 5 2.8   365 270 bw bcolor
+
+curlx=cx-curlsize
+curlx-=arcsize
+curly=by-bs2
+hline curlx curly curlsize bw bcolor
+etext "98,400" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+
+// FARMERS AND PLANTERS
+FAR=vmap 63012 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "FARMERS AND"
+  li "PLANTERS"
+elist
+hline bx by FAR bw bcolor
+etext "63,012" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// LABORERS
+LAB=vmap 29723 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "LABORERS"
+elist
+hline bx by LAB bw bcolor
+etext "29,723" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// STEAM RAILWAY EMMPLOYEES
+STE=vmap 7440 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "STEAM RAILWAY"
+  li "EMMPLOYEES"
+elist
+hline bx by STE bw bcolor
+etext "7,440" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// SERVANTS
+SER=vmap 7000 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "SERVANTS"
+elist
+hline bx by SER bw bcolor
+etext "7,000" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// DRAYMEN,HACKMEN
+DRA=vmap 4390 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "DRAYMEN,HACKMEN"
+elist
+hline bx by DRA bw bcolor
+etext "4,390" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// CARPENTERS AND JOINERS
+CAR=vmap 3781 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "CARPENTERS AND"
+  li "JOINERS"
+elist
+hline bx by CAR bw bcolor
+etext "3,781" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// SAW AND PLANING MILL EMMPLOYEES
+SAW=vmap 2471 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "SAW AND PLANING"
+  li "MILL EMMPLOYEES"
+elist
+hline bx by SAW bw bcolor
+etext "2,471" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// MESSENGERS
+MES=vmap 1970 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "MESSENGERS"
+elist
+hline bx by MES bw bcolor
+etext "1,970" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// WOOD CHOPPERS
+WOO=vmap 1399 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "WOOD"
+  li "CHOPPERS"
+elist
+hline bx by WOO bw bcolor
+etext "1,399" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// BLACKSMITHS AND WHEELWRIGHTS
+BLA=vmap 1328 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "BLACKSMITHS AND"
+  li "WHEELWRIGHTS"
+elist
+hline bx by BLA bw bcolor
+etext "1,328" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// CLERGYMEN
+CLE=vmap 1277 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "CLERGYMEN"
+elist
+hline bx by CLE bw bcolor
+etext "1,277" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// MASONS
+MAS=vmap 1243 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "MASONS"
+elist
+hline bx by MAS bw bcolor
+etext "1,243" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// BRICK-MAKERS AND MASONS
+BRI=vmap 1243 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "BRICK-MAKERS AND"
+  li "MASONS"
+elist
+hline bx by BRI bw bcolor
+etext "1,243" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// BARBERS
+BAR=vmap 899 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "BARBERS"
+elist
+hline bx by BAR bw bcolor
+etext "899" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// MERCHANTS
+MER=vmap 837 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "MERCHANTS"
+elist
+hline bx by MER bw bcolor
+etext "837" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// PAINTERS, GLAZERS, AND VARNISHERS
+PAI=vmap 676 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "PAINTERS,GLAZERS"
+  li "AND VARNISHERS"
+elist
+hline bx by PAI bw bcolor
+etext "676" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// BOOT AND SHOE MAKERS
+BOO=vmap 632 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "BOOT AND"
+  li "SHOE MAKERS"
+elist
+hline bx by BOO bw bcolor
+etext "632" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// PROFESSORS AND TEACHERS
+PRO=vmap 620 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "PROFESSORS AND"
+  li "TEACHERS"
+elist
+hline bx by PRO bw bcolor
+etext "620" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// LIVERY STABLE KEEPERS
+LIV=vmap 620 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "LIVERY STABLE"
+  li "KEEPERS"
+elist
+hline bx by LIV bw bcolor
+etext "620" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// ENGINEERS
+ENG=vmap 520 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "ENGINEERS"
+elist
+hline bx by ENG bw bcolor
+etext "520" lx ly ls
+by-=bskip
+ly-=bskip
+labely-=bskip
+
+// GARDNERS AND FLORISTS
+GAR=vmap 519 dmin dmax smin smax
+clist labelx labely ls "sans" labelcolor 100 1.2
+  li "GARDNERS AND"
+  li "FLORISTS"
+elist
+hline bx by GAR bw bcolor
+etext "519" lx ly ls
+

@@ -1,0 +1,154 @@
+
+bs2=bskip/2
+bs4=bs2*0.5
+curldiff=98400-63012
+arcsize=3
+
+Agr=vmap 63012 dmin dmax smin smax
+Agr2=Agr-arcsize
+hline bx by Agr2 bw bcolor
+
+// compute the section for the curl
+curlsize=vmap curldiff dmin dmax smin smax
+Far=vmap 63012 dmin dmax smin smax
+cx=bx+Far
+// compute arc
+arcx=cx-arcsize
+arcy=by-1.0
+ang1=90-180
+arc arcx arcy 5 2.5 90 0 bw bcolor
+arc arcx arcy 5 2.8   365 270 bw bcolor
+
+curlx=cx-curlsize
+curlx-=arcsize
+curly=by-bs2
+hline curlx curly curlsize bw bcolor
+etext "98,400" lx ly ls
+by-=bskip
+ly-=bskip
+
+Far=vmap 63012 dmin dmax smin smax
+hline bx by Far bw bcolor
+etext "63,012" lx ly ls
+by-=bskip
+ly-=bskip
+
+Lab=vmap 29723 dmin dmax smin smax
+hline bx by Lab bw bcolor
+etext "29,723" lx ly ls
+by-=bskip
+ly-=bskip
+
+Ste=vmap 7440 dmin dmax smin smax
+hline bx by Ste bw bcolor
+etext "7,440" lx ly ls
+by-=bskip
+ly-=bskip
+
+Ser=vmap 7000 dmin dmax smin smax
+hline bx by Ser bw bcolor
+etext "7,000" lx ly ls
+by-=bskip
+ly-=bskip
+
+Dra=vmap 4390 dmin dmax smin smax
+hline bx by Dra bw bcolor
+etext "4,390" lx ly ls
+by-=bskip
+ly-=bskip
+
+Car=vmap 3781 dmin dmax smin smax
+hline bx by Car bw bcolor
+etext "3,781" lx ly ls
+by-=bskip
+ly-=bskip
+
+Saw=vmap 2471 dmin dmax smin smax
+hline bx by Saw bw bcolor
+etext "2,471" lx ly ls
+by-=bskip
+ly-=bskip
+
+Mes=vmap 1970 dmin dmax smin smax
+hline bx by Mes bw bcolor
+etext "1,970" lx ly ls
+by-=bskip
+ly-=bskip
+
+Woo=vmap 1399 dmin dmax smin smax
+hline bx by Woo bw bcolor
+etext "1,399" lx ly ls
+by-=bskip
+ly-=bskip
+
+Bla=vmap 1328 dmin dmax smin smax
+hline bx by Bla bw bcolor
+etext "1,328" lx ly ls
+by-=bskip
+ly-=bskip
+
+Cle=vmap 1277 dmin dmax smin smax
+hline bx by Cle bw bcolor
+etext "1,277" lx ly ls
+by-=bskip
+ly-=bskip
+
+Mas=vmap 1243 dmin dmax smin smax
+hline bx by Mas bw bcolor
+etext "1,243" lx ly ls
+by-=bskip
+ly-=bskip
+
+Bri=vmap 1243 dmin dmax smin smax
+hline bx by Bri bw bcolor
+etext "1,243" lx ly ls
+by-=bskip
+ly-=bskip
+
+Bar=vmap 899 dmin dmax smin smax
+hline bx by Bar bw bcolor
+etext "899" lx ly ls
+by-=bskip
+ly-=bskip
+
+Mer=vmap 837 dmin dmax smin smax
+hline bx by Mer bw bcolor
+etext "837" lx ly ls
+by-=bskip
+ly-=bskip
+
+Pai=vmap 676 dmin dmax smin smax
+hline bx by Pai bw bcolor
+etext "676" lx ly ls
+by-=bskip
+ly-=bskip
+
+Boo=vmap 632 dmin dmax smin smax
+hline bx by Boo bw bcolor
+etext "632" lx ly ls
+by-=bskip
+ly-=bskip
+
+Pro=vmap 620 dmin dmax smin smax
+hline bx by Pro bw bcolor
+etext "620" lx ly ls
+by-=bskip
+ly-=bskip
+
+Liv=vmap 620 dmin dmax smin smax
+hline bx by Liv bw bcolor
+etext "620" lx ly ls
+by-=bskip
+ly-=bskip
+
+Eng=vmap 520 dmin dmax smin smax
+hline bx by Eng bw bcolor
+etext "520" lx ly ls
+by-=bskip
+ly-=bskip
+
+Gar=vmap 519 dmin dmax smin smax
+hline bx by Gar bw bcolor
+etext "519" lx ly ls
+by-=bskip
+ly-=bskip

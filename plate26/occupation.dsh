@@ -1,0 +1,39 @@
+// Occupations of Georgia Negroes
+deck
+	slide
+		ty=96
+		tx=50
+		ts=3
+		ss=ts/2
+		ctext "OCCUPATIONS OF GEORGIA NEGROES." tx ty ts "serif"
+		ty-=1.5
+		ctext "MALES OVER 10"					tx ty ss "sans" "gray"
+		ctext "1890."						    tx 50 ts "serif"
+		// dchart -hbar -left=30 jobs.d
+
+		dmin=0
+		dmax=64000
+		smin=0
+		smax=70
+		bskip=4.2
+
+		bx=28
+		
+		lx=bx-2
+		labelx=lx-15
+		by=92
+		ly=by-0.5
+		labely=ly
+		bcolor="crimson"
+		labelcolor="rgb(100,100,100)"
+		bw=1.2
+		ls=1.5
+		sumbar=vmap 16254 dmin dmax smin smax
+		sumx=bx+10
+		sumy=33
+		hline sumx sumy sumbar bw bcolor
+		rbrace sumx sumy 62 5 5 
+
+		include "bardata.dsh"
+	eslide
+edeck

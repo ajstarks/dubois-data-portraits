@@ -12,6 +12,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate  8: Migration of Negroes 1890
 * Plate  9: Age Distribution of Georgia Negroes Compared with France
 * Plate 10: Conjugal Condition
+* Plate 11: City and Rural Population 1890
 * Plate 12: Slave and Free Negroes
 * Plate 13: Race Amalgamation in Georgia
 * Plate 14: Illiteracy
@@ -24,6 +25,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 22: Assessed Valuation of all Taxable Property Owned by Georgia Negroes
 * Plate 23: Negro population in two cities of Georgia
 * Plate 24: Value of Farming Tools
+* Plate 26: Occupations Of Georgia Negroes
 * Plate 27: Occupations Of Negroes And Whites In Georgia
 * Plate 30: Condition of 300 Negro Farm Tenants After 1 Year's Toil, 1898
 * Plate 31: Income and Expenditure
