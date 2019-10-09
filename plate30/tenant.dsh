@@ -84,14 +84,11 @@ deck
 		ctext "13" nx ly ls "sans" labelcolor
 
 		tleft=50
-		ly=39.5
+		ly=38
 		nx=tleft+mtotal
-		hline tleft 40 total linesize gcolor
-		ctext "121" nx ly ls  "sans" labelcolor
+		hline tleft ly total linesize gcolor
+		ctext "121" nx 37.5 ls  "sans" labelcolor
 
-		hline 46 54 2  0.1
-		vline 48 22 32 0.1
-		hline 46 22 2  0.1
-		hline 48 40 2  0.1
+		rbrace tleft ly 40 5 5
 	eslide
 edeck
