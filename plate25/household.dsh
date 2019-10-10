@@ -18,26 +18,43 @@ deck
 		elist
 
 		listy=cy+yfact
+		listx=cx-2
+		ls=1.8
+		nx=listx-16
+		linex=nx+1
+		liney=listy+0.5
 
-//		list 25 listy 1.8 "mono" "" 100 1.2
-//			li "1875"
-//			li "1880"
-//			li "1885"
-//			li "1890"
-//			li "1895"
-//			li "1899"
-//		elist
+		etext `$ 21,186`    listx	listy ls "mono"
+		etext  "1875"		nx		listy ls "mono"
+		hline linex liney 5
+		listy-=1.6
+		liney-=1.6
+		etext `$   498,532` listx 	listy ls "mono"
+		etext  "1880"		nx		listy ls "mono"
+		hline linex liney 2
+		listy-=1.6
+		liney-=1.6
+		etext `"   736,170` listx 	listy ls "mono"
+		etext  "1885"		nx		listy ls "mono"
+		hline linex liney 2
+		listy-=1.6
+		liney-=1.6
+		etext `" 1,173,624` listx	listy ls "mono"
+		etext  "1890"		nx		listy ls "mono"
+		hline linex liney 2
+		listy-=1.6
+		liney-=1.6
+		etext `" 1,322,694` listx 	listy ls "mono"
+		etext  "1895"		nx		listy ls "mono"
+		hline linex liney 2
+		listy-=1.6
+		liney-=1.6
+		etext `" 1,434,975` listx 	listy ls "mono"
+		etext  "1899"		nx		listy ls "mono"
+		hline linex liney 2
+	
 
-		list 30 listy 1.8 "mono" "" 100 1.2
-			li `1875      $ 21,186`
-			li `1880   $   498,532`
-			li `1885   "   736,170`
-			li `1890   " 1,173,624`
-			li `1895   " 1,322,694`
-			li `1899   " 1,434,975`
-		elist
-
-		circle cx cy 2 "red"
+		// circle cx cy 2 "red"
 		arc cx cy size size 80 90 lw "pink"
 		
 		size-=skip
