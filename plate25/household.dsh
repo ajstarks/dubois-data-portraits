@@ -1,0 +1,93 @@
+deck
+	slide
+		tx=50
+		ty=96
+		ts=2.5
+		cx=50
+		cy=55
+		size=75
+		yfact=size*0.39
+		lw=2
+		skip=lw*2.0
+		skip2=2*skip
+		skip3=2.5*skip
+
+		clist tx ty ts "sans" "" 100 1.4
+			li"ASSESSED VALUE OF HOUSEHOLD AND KITCHEN FURNITURE"
+			li "OWNED BY GEORGIA NEGROES."
+		elist
+
+		listy=cy+yfact
+
+//		list 25 listy 1.8 "mono" "" 100 1.2
+//			li "1875"
+//			li "1880"
+//			li "1885"
+//			li "1890"
+//			li "1895"
+//			li "1899"
+//		elist
+
+		list 30 listy 1.8 "mono" "" 100 1.2
+			li `1875      $ 21,186`
+			li `1880   $   498,532`
+			li `1885   "   736,170`
+			li `1890   " 1,173,624`
+			li `1895   " 1,322,694`
+			li `1899   " 1,434,975`
+		elist
+
+		circle cx cy 2 "red"
+		arc cx cy size size 80 90 lw "pink"
+		
+		size-=skip
+		arc cx cy size size 290 450 lw "lightsteelblue"
+
+		size-=skip
+		arc cx cy size size 270 450 lw "tan"
+		ss=size-9
+		yy=cy-3.55
+		arc cx yy ss ss 200 270 lw "tan"
+
+		size-=skip
+		arc cx cy size size 270 450 lw "gold"
+		ss=size-9
+		yy=cy-3.55
+		arc cx yy ss ss 90 270 lw "gold"
+
+		size-=skip
+		arc cx cy size size 270 450	lw "lightgray"
+		ss=size-9
+		yy=cy-3.55
+		arc cx yy ss ss 90 270 lw "lightgray"
+
+		size-=skip
+		arc cx cy size size 270 450	lw "crimson"
+		ss=size-9
+		yy=cy-3.55
+		arc cx yy ss ss 90 270 lw "crimson"
+		
+		s1=size-skip3
+		arc cx cy s1 s1 0 90 lw "gold"		
+
+		
+		s1-=skip
+		arc cx cy s1 s1 270 450 lw "lightgray"
+		gx=cx+0.75
+		gy=cy-0.37
+		gs=s1-1
+		arc gx gy gs gs 250 270 lw "lightgray"
+		
+
+		// extra ending curl
+		s1-=skip
+		arc cx cy s1 s1 270 450 lw "crimson"
+		s1-=skip3
+		yy=cy-3.9
+		arc cx yy s1 s1 120 270 lw "crimson"
+
+	
+
+		
+	eslide
+edeck
