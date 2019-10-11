@@ -25,6 +25,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 22: Assessed Valuation of all Taxable Property Owned by Georgia Negroes
 * Plate 23: Negro population in two cities of Georgia
 * Plate 24: Value of Farming Tools
+* Plate 25: Assessed Value of Household and Kitchen Furniture Owned by Georgia Negroes
 * Plate 26: Occupations Of Georgia Negroes
 * Plate 27: Occupations Of Negroes And Whites In Georgia
 * Plate 30: Condition of 300 Negro Farm Tenants After 1 Year's Toil, 1898
