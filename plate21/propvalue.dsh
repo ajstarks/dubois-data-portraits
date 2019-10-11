@@ -12,10 +12,16 @@ deck
 		bottom=5
 		left=30
 		right=95
-		lineop=30
+		lineop=10
+		ocolor="rgb(200,200,200)"
+		//data "last.d"
+		//1899	4300000.000
+		//1900	4350000.000
+		//edata
 		opts="-fulldeck=f -min=0 -max=4800000 -yrange 0,4800000,1000000 -color=black -xlabel=5 -line -bar=f -linewidth=0.35 -val=f"
 		dchart opts -left left -right right -top top -bottom bottom propvalue.d
-		
+		dchart opts -left left -right 39 -top top -bottom bottom -color ocolor -xlabel=0 w.d
+		// dchart opts -left 92 -right 95 -top top -bottom bottom -color ocolor -xlabel=0 last.d
 
 		// Draw the grid lines of the yaxis
 		gridlen=8
