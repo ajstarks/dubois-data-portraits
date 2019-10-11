@@ -1,6 +1,7 @@
 # Recreations of W.E.B Dubois's Data Portraits
 
-decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualizing Black America"
+decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualizing Black America" 
+edited by Whitney Battle-Baptiste and Britt Rusert (ISBN 978-1-61689-706-2)
 
 * Plate  1: The Georgia Negro
 * Plate  2: Relative Negro Population of the States of the United States
@@ -22,6 +23,7 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 18: Value of Land Owned by Georgia Negroes
 * Plate 19: Acres of Land Owned by Negroes in Georgia
 * Plate 20: Land Owned by Negroes in Georgia, USA, 1870-1900
+* Plate 21: Valuation of Town and City Property Owned by Georgia Negroes
 * Plate 22: Assessed Valuation of all Taxable Property Owned by Georgia Negroes
 * Plate 23: Negro population in two cities of Georgia
 * Plate 24: Value of Farming Tools
@@ -56,3 +58,4 @@ decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualiz
 * Plate 61: American Negro newspapers and periodicals
 * Plate 62: Religion of American Negroes
 * Plate 63: Statistics of Negro Church Organizations
+* Plate XX: Decrease of Illiteracy Among Black Freedmen of the United States

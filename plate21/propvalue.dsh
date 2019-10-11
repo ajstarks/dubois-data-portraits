@@ -1,0 +1,100 @@
+// Valuation of Town and City Property Owned by Georgia Negroes
+deck
+	slide
+		tx=50
+		ty=97
+		ts=2.5
+		ctext "VALUATION OF TOWN AND CITY PROPERTY OWNED"	tx ty ts "serif"
+		ty-=2.5
+		ctext "BY GEORGIA NEGROES"							tx ty ts "serif"
+
+		top=90
+		bottom=5
+		left=30
+		right=95
+		lineop=30
+		opts="-fulldeck=f -min=0 -max=4800000 -yrange 0,4800000,1000000 -color=black -xlabel=5 -line -bar=f -linewidth=0.35 -val=f"
+		dchart opts -left left -right right -top top -bottom bottom propvalue.d
+		
+
+		// Draw the grid lines of the yaxis
+		gridlen=8
+		gx=10
+		interval=1.77
+		for y=5 90 interval
+			hline gx y gridlen 0.05 "crimson" lineop
+		efor
+		
+		
+		gy=22.5
+		gskip=interval*10
+		gw=gx+gridlen
+		gl2=gridlen/2
+		cx=gx+gl2
+		gs=1.5
+
+		// draw yaxis grid scale and labels
+		hline gx gy gridlen 2 "white"
+		ctext "1,000,000" cx gy gs
+		gy+=gskip
+		hline gx gy gridlen 2 "white"
+		ctext "2,000,000" cx gy gs
+		gy+=gskip
+		hline gx gy gridlen 2 "white"
+		ctext "3,000,000" cx gy gs
+		gy+=gskip
+		hline gx gy gridlen 2 "white"
+		ctext "4,000,000" cx gy gs
+
+		// draw the boundaries of the yaxis scale
+		height=top-bottom
+		width=right-left
+
+		vline gx bottom height
+		vline gw bottom height
+		hline gx bottom gridlen
+		hline gx top    gridlen
+
+		// draw main graph gridlines
+
+		// horizontal
+		for y=bottom top interval
+			hline left y width 0.05 "crimson" lineop
+		efor
+
+		// vertical
+		for x=left right 2.1
+			vline x bottom height 0.05 "crimson" lineop
+		efor
+
+		// Chart boundaries
+		vline left  bottom height 
+		vline right bottom height
+		hline left  bottom width
+		hline left  top    width
+
+		// Chart annotations
+		rtext "KU-KLUX-KLANISM"	36 12 90 gs
+		rtext "FINANCIAL PANIC"	84 10 90 gs
+		etext "LYNCHING"		84 33 gs
+		clist 84 50 gs "sans" "" 100 1.2
+			li "DISFRANCHISMENT"
+			li "AND"
+			li "PROSCRIPTIVE"
+			li "LAWS"
+		elist
+
+		nskip=1.5
+		ny=45
+		text  "POLITICAL"		40 ny gs
+		ny-=nskip
+		etext "UNREST"			50 ny gs
+		ny=77
+		text "RISE OF"			50 ny gs
+		ny-=nskip
+		text "THE NEW"			52 ny gs
+		ny-=nskip
+		text "“INDUSTRIALISM”"	54 ny gs
+
+	eslide
+edeck

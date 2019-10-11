@@ -1,0 +1,9 @@
+#!/bin/sh
+case $0 in
+	*mkdeck)
+		decksh propvalue.dsh | pdf     -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait $* ;;
+	*mkdeck-png)
+		decksh propvalue.dsh | pngdeck -sans PublicSans-Regular -serif PublicSans-Bold -pagesize $portrait $* /dev/stdin ;;
+esac
+
+
