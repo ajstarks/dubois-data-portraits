@@ -58,4 +58,4 @@ edited by Whitney Battle-Baptiste and Britt Rusert (ISBN 978-1-61689-706-2)
 * Plate 61: American Negro newspapers and periodicals
 * Plate 62: Religion of American Negroes
 * Plate 63: Statistics of Negro Church Organizations
-* Plate XX: Decrease of Illiteracy Among Black Freedmen of the United States
+* Plate XX: Decrease of Illiteracy Among Black Freedmen of the United States (not in the book discovered by Jason Forrest)
