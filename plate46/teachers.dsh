@@ -1,0 +1,54 @@
+// Number of Negro teachers in the Public Schools of the United States
+deck
+	slide
+		tx=50
+		ty=95
+		ts=2.5
+		ns=ts*0.75
+
+		ctext "Number of Negro teachers in the Public Schools of the United States" tx ty ts "serif"
+		ty-=3
+		hline 40 ty 20
+		ty-=3
+		ctext "Nombre d' institueurs et de professuers Nègres dans les écoles publiques des Etats Unis" tx ty ns "serif"
+		ty-=3
+		hline 40 ty 20
+		ty-=3
+		ns*=0.75
+		ctext "Done by Atlanta University" tx ty ns "serif"
+		
+		
+		// Measures data (percentages)
+		b1=36
+		b2=54
+		b3=58
+		b4=61
+
+		bskip=10
+		bx=20
+		by=70
+		bw=5
+		lx=bx-2
+		ly=by-0.5
+		ns=2
+
+		// bars and labels
+		etext "1886" lx ly ns
+		hline bx by b1 bw "gold"
+
+		ly-=bskip
+		by-=bskip
+		etext "1889" lx ly ns
+		hline bx by b2 bw "gold"
+
+		ly-=bskip
+		by-=bskip
+		etext "1892" lx ly ns
+		hline bx by b3 bw "gold"
+
+		ly-=bskip
+		by-=bskip
+		etext "1895" lx ly ns
+		hline bx by b4 bw "gold"
+	eslide
+edeck

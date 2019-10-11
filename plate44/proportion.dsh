@@ -56,10 +56,10 @@ deck
 		arc cx cy oas oas   0  45 0.1 ocolor
 
 		// "Tab" lines
-		line 82 66 78 65
+		line 83 66 78 65
 		line 80 68 78 65
 
-		line 23.50 70    23.75 66.25
+		line 23.50 70       23.75 66.25
 		line 20.00 68.00    23.75 66.25
 
 		line 3.50 38 8 37

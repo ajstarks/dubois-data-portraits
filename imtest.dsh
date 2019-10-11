@@ -1,0 +1,8 @@
+deck
+	slide "rgb(0,0,0)"
+		image "plate13/stdin-00001.png" 18 50 1584 2016 37
+		image "plate14/stdin-00001.png" 50 50 1584 2016 37
+		image "plate15/stdin-00001.png" 82 50 1584 2016 37
+
+	eslide
+edeck
