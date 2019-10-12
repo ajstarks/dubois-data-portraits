@@ -21,17 +21,13 @@ deck
 
 		bracketcolor="gray"
 		// Left (Male)
-		ctext "MALE"    27 19 h2
-		arc 45 25 10 6.35 270 360 0.1 bracketcolor
-		hline 30 22.5 15 0.1 bracketcolor
-		arc 30 20 6.5 6.35 90 150 0.1 bracketcolor
+		ctext "MALE"    25 19 h2
 		hline 0  15 55 8 "green"
 
 		// Right (Female)
-		ctext "FEMALE"  77 19 h2
-		hline 55 22.5 17 0.1 bracketcolor
-		arc 55 25 10 6.35 180 270 0.1 bracketcolor
-		arc 72 20 10 6.35 30 90 0.1 bracketcolor
+		ctext "FEMALE"  75 19 h2
 		hline 55 15 45 8 "gold"
+
+		ubrace 50 25 50 2 2
 	eslide
 edeck
