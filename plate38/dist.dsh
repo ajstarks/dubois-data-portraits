@@ -2,6 +2,7 @@ deck
 	slide "white" "rgb(100,100,100)"
 		cy=80
 		cr=4
+		cr2=cr/2
 		ctext "DISTRIBUTION OF NEGROES IN THE UNITED STATES." 50 96 3 "serif" "black"
 		ctext "DISTRIBUTION DES NÈGRES DAN LES ETATS UNIS." 50 93 2
 
@@ -10,6 +11,7 @@ deck
 		circle 50 cy cr "crimson"
 		circle 64 cy cr "rgb(101,67,33)"
 		circle 78 cy cr "black"
+		
 
 		ls=1.5
 		lskip=cr*0.75
@@ -21,6 +23,8 @@ deck
 		ctext "15-20"     78 cy ls
 
 		cy-=cr
+		dbrace 50 cy 70 2 2
+		cy-=cr2
 		ctext "NEGROES TO THE SQUARE MILE" 50 cy 2
 
 		image "usmap.png" 50 35 1918 1186 75
