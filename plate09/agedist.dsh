@@ -48,7 +48,7 @@ deck
 		y=top
 		left=25
 		cleft=left-5
-		braceleft=22.5
+		braceleft=22
 	
 		labelshift=labelsize*.30
 		step=linesize*3
@@ -56,9 +56,8 @@ deck
 		barcolor=ncolor
 		labelcolor="white"
 
-
-		for by=14.5 80 step
-			ctext "{" braceleft by 7 "serif" legendcolor 50
+		for by=16 80 step
+			lbrace braceleft by 6.2 2 2 0.1
 		efor
 		
 		// Negro Bars
