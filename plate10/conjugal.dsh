@@ -1,32 +1,256 @@
 // Plate 10: Conjugal Condition, W.E.B Du Bois's Data Portraits
-opts="-fulldeck=f -pmap -val=f -textsize 1.4"
-titlecolor="rgb(100,100,100)"
+
+titlecolor="rgb(50,50,50)"
 deck
+//	slide
+//		opts="-fulldeck=f -pmap -val=f -textsize 1.4"
+//		dchart opts -top 80 conjugal1.d	
+//		dchart opts -top 70 conjugal2.d	
+//		dchart opts -top 50 conjugal3.d	
+//		dchart opts -top 40 conjugal4.d	
+//		dchart opts -top 20 conjugal5.d
+//		dchart opts -top 10 conjugal6.d
+//		ctext "CONJUGAL CONDITION" 50 95 2.5 "serif"
+//		ctext "GERMANY" 		10 80 1.5 "sans" titlecolor
+//		ctext "Age 15-40"		10 75 2   "sans" titlecolor
+//		ctext "NEGROES" 		10 70 1.5 "sans" titlecolor
+//
+//		ctext "GERMANY" 		10 50 1.5 "sans" titlecolor
+//		ctext "Age 40-60"		10 45 2   "sans" titlecolor
+//		ctext "NEGROES" 		10 40 1.5 "sans" titlecolor
+//
+//		ctext "GERMANY" 		10 20 1.5 "sans" titlecolor
+//		ctext "Age 60 and over"	10 15 2   "sans" titlecolor
+//		ctext "NEGROES" 		10 10 1.5 "sans" titlecolor
+//
+//		circle 20 90 1.5 "red" 50
+//		text   "SINGLE" 22 89.4 1.2 "sans" titlecolor
+//		circle 50 90 1.5 "darkorange" 50
+//		text   "MARRIED" 52 89.4 1.2 "sans" titlecolor
+//		circle 80 90 1.5 "green" 50
+//		text   "WIDOWED AND DIVORCED" 82 89.4 1.2 "sans" titlecolor
+//	eslide
+
 	slide
-		dchart opts -top 80 conjugal1.d	
-		dchart opts -top 70 conjugal2.d	
-		dchart opts -top 50 conjugal3.d	
-		dchart opts -top 40 conjugal4.d	
-		dchart opts -top 20 conjugal5.d
-		dchart opts -top 10 conjugal6.d
+		lx=22
+		brx=lx-10
+		brh=15
+		brw=4
+		cr=3
+		ns=2
+		ns2=ns*0.5
+
 		ctext "CONJUGAL CONDITION" 50 95 2.5 "serif"
-		ctext "GERMANY" 		10 80 1.5 "sans" titlecolor
-		ctext "Age 15-40"		10 75 2   "sans" titlecolor
-		ctext "NEGROES" 		10 70 1.5 "sans" titlecolor
 
-		ctext "GERMANY" 		10 50 1.5 "sans" titlecolor
-		ctext "Age 40-60"		10 45 2   "sans" titlecolor
-		ctext "NEGROES" 		10 40 1.5 "sans" titlecolor
+		circle 30 92 cr "crimson"
+		text   "SINGLE" 33 91.4 ns "sans" titlecolor
 
-		ctext "GERMANY" 		10 20 1.5 "sans" titlecolor
-		ctext "Age 60 and over"	10 15 2   "sans" titlecolor
-		ctext "NEGROES" 		10 10 1.5 "sans" titlecolor
+		circle 30 87 cr "gold"
+		text   "MARRIED" 33 86.4 ns "sans" titlecolor
 
-		circle 20 90 1.5 "red" 50
-		text   "SINGLE" 22 89.4 1.2 "sans" titlecolor
-		circle 50 90 1.5 "darkorange" 50
-		text   "MARRIED" 52 89.4 1.2 "sans" titlecolor
-		circle 80 90 1.5 "green" 50
-		text   "WIDOWED AND DIVORCED" 82 89.4 1.2 "sans" titlecolor
+		circle 60 90 cr "green"
+		text   "WIDOWED AND DIVORCED" 63 89.4 ns "sans" titlecolor
+
+		ctext "GERMANY" 		lx  80 ns	"sans" titlecolor
+		ctext "NEGROES" 		lx  70 ns	"sans" titlecolor
+		lbrace brx 75 brh brw brw
+		clist 7 76 ns "sans" titlecolor
+			li "AGE"
+			li "15-40"
+		elist
+
+		ctext "GERMANY" 		lx  50 ns	"sans" titlecolor
+		ctext "NEGROES" 		lx  40 ns	"sans" titlecolor
+		lbrace brx 45 brh brw brw
+		clist 7 45 ns "sans" titlecolor
+			li "40-60"
+		elist
+
+		ctext "GERMANY" 		lx  20 ns	"sans" titlecolor
+		ctext "NEGROES" 		lx  10 ns	"sans" titlecolor
+		lbrace brx 15 brh brw brw
+		clist 7 16 ns "sans" titlecolor 100 1.2
+			li "60"
+			li "AND"
+			li "OVER"
+		elist
+
+		// Bars
+		// bleft: bar left, bright: bar right, btop: bar top,
+		// bw: size of the bar, blskip: space between bars, bgskip, space between groups
+		bleft=30
+		bright=90
+		btop=80
+
+		bw=5
+		blskip=bw*2
+		bgskip=blskip
+
+		dmin=0
+		dmax=100
+		smin=0
+		smax=bright-bleft
+
+		// Age 15-40
+		g1s=vmap 62.1 dmin dmax smin smax
+		g1m=vmap 37.3 dmin dmax smin smax
+		g1w=vmap  0.6 dmin dmax smin smax
+
+		bx=bleft
+		by=btop
+		hline bx by g1s bw "crimson"
+		mid=g1s/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "62.1%" blx bly ns
+
+		bx+=g1s
+		hline bx by g1m bw "gold"
+		mid=g1m/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "37.3%" blx bly ns
+
+		bx+=g1m
+		hline bx by g1w bw "green"
+		mid=g1w/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "0.6%" blx bly ns2
+		by-=blskip
+
+		n1s=vmap 41 dmin dmax smin smax
+		n1m=vmap 54 dmin dmax smin smax
+		n1w=vmap  5 dmin dmax smin smax
+
+		bx=bleft
+		hline bx by n1s bw "crimson"
+		mid=n1s/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "41%" blx bly ns
+		
+		bx+=n1s
+		hline bx by n1m bw "gold"
+		mid=n1m/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "54%" blx bly ns
+
+		bx+=n1m
+		hline bx by n1w bw "green"
+		mid=n1w/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "5%" blx bly ns
+		by-=blskip
+		by-=bgskip
+
+		// Ages 40-80
+		g2s=vmap  9.6 dmin dmax smin smax
+		g2m=vmap 84.8 dmin dmax smin smax
+		g2w=vmap  5.6 dmin dmax smin smax
+
+		bx=bleft
+		hline bx by g2s bw "crimson"
+		mid=g2s/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "9.6%" blx bly ns
+
+		bx+=g2s
+		hline bx by g2m bw "gold"
+		mid=g2m/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "84.8%" blx bly ns
+
+		bx+=g2m
+		hline bx by g2w bw "green"
+		mid=g2w/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "5.6%" blx bly ns2
+		by-=blskip
+
+		n2s=vmap  4.5 dmin dmax smin smax
+		n2m=vmap 73.5 dmin dmax smin smax
+		n2w=vmap 22.0 dmin dmax smin smax
+
+		bx=bleft
+		hline bx by n2s bw "crimson"
+		mid=n2s/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "4.5%" blx bly ns2
+
+		bx+=n2s
+		hline bx by n2m bw "gold"
+		mid=n2m/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "73.5%" blx bly ns
+
+		bx+=n2m
+		hline bx by n2w bw "green"
+		mid=n2w/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "22%" blx bly ns
+		by-=blskip
+		by-=bgskip
+
+		// Ages 60 and Over
+		g3s=vmap  8.2 dmin dmax smin smax
+		g3m=vmap 62.2 dmin dmax smin smax
+		g3w=vmap 29.6 dmin dmax smin smax
+
+		bx=bleft
+		hline bx by g3s bw "crimson"
+		mid=g3s/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "8.2%" blx bly ns
+
+		bx+=g3s
+		hline bx by g3m bw "gold"
+		mid=g3m/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "62.2%" blx bly ns
+		bx+=g3m
+
+		hline bx by g3w bw "green"
+		mid=g3w/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "29.6%" blx bly ns
+		by-=blskip
+
+		n3s=vmap  4.5 dmin dmax smin smax
+		n3m=vmap 54.5 dmin dmax smin smax
+		n3w=vmap 41.0 dmin dmax smin smax
+
+		bx=bleft
+		hline bx by n3s bw "crimson"
+		mid=n3s/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "4.5%" blx bly ns2
+
+		bx+=n3s
+		hline bx by n3m bw "gold"
+		mid=n3m/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "54.5%" blx bly ns
+
+		bx+=n3m
+		hline bx by n3w bw "green"
+		mid=n3w/2
+		blx=bx+mid
+		bly=by-0.5
+		ctext "41%" blx bly ns
+		
 	eslide
 edeck
