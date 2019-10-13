@@ -1,0 +1,38 @@
+#!/bin/sh
+# ls plate*/f1.png | ./catalog9 | decksh | pdf -pagesize 1920,1080
+awk '
+BEGIN {
+	print "deck"
+	width=2112
+	height=2688
+	scale=15
+}
+{
+	pic[NR] = $1
+}
+END {
+	printf "// leftover=%d\n", (NR%9)-1
+	for (i=1; i <=NR; i++) {
+		platenum[i]=substr(pic[i],6)	
+		if (i%9 == 0) {
+			printf "slide \"rgb(230,230,230)\"\n"
+			printf "cimage \"%s\" \"plate %d\" 20 80 %d %d %g\n", 			pic[i-8], platenum[i-8], width, height, scale
+			printf "cimage \"%s\" \"plate %d\" 50 80 %d %d %g\n", 			pic[i-7], platenum[i-7], width, height, scale
+			printf "cimage \"%s\" \"plate %d\" 80 80 %d %d %g\n", 			pic[i-6], platenum[i-6], width, height, scale
+			printf "cimage \"%s\" \"plate %d\" 20 50 %d %d %g\n", 			pic[i-5], platenum[i-5], width, height, scale
+			printf "cimage \"%s\" \"plate %d\" 50 50 %d %d %g\n", 			pic[i-4], platenum[i-4], width, height, scale
+			printf "cimage \"%s\" \"plate %d\" 80 50 %d %d %g\n", 			pic[i-3], platenum[i-3], width, height, scale
+			printf "cimage \"%s\" \"plate %d\" 20 20 %d %d %g\n", 			pic[i-2], platenum[i-2], width, height, scale
+			printf "cimage \"%s\" \"plate %d\" 50 20 %d %d %g\n", 			pic[i-1], platenum[i-1], width, height, scale
+			printf "cimage \"%s\" \"plate %d\" 80 20 %d %d %g\neslide\n",	pic[i],   platenum[i],   width, height, scale
+		}
+	}
+	for (l=NR-leftover; l <= NR; l++) {
+		printf "slide \"rgb(230,230,230)\"\n"
+		printf "cimage \"%s\" \"plate %d\" 20 80 %d %d %g\n", 			pic[l-1], platenum[l-1], width, height, scale
+		printf "cimage \"%s\" \"plate %d\" 50 80 %d %d %g\n", 			pic[l], platenum[l], width, height, scale
+		printf "eslide\n"
+	}
+	print "edeck"
+}' $*
+
