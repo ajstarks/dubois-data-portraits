@@ -1,5 +1,5 @@
 #!/bin/sh
-# ls plate*/f1.png | ./catalog9 | decksh | pdf -pagesize 1920,1080
+# ls plate*/f1.png | ./catalog9 | decksh | pdf -pagesize $portrait
 awk '
 BEGIN {
 	print "deck"
