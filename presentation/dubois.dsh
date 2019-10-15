@@ -1,175 +1,132 @@
 deck
-	slide "black" "white"
-		image "images/grid01.jpg" 50 50 4032 3024 33
+	ts=4
+	ns=ts*0.75
+	ns2=ns*0.50
+	tx=50
+	ty=90
+	mx=50
+	my=50
+	slide "black"
+		image "images/dubois-1900.png" 30 50 650 891
+		image "images/IMG_1499.jpg"    70 50 2980 3972 23
 	eslide
 
 	slide "black" "white"
-		image "images/m01.jpg" 50 50  3024 4032 25
+		image "images/students.jpg" mx my 936 706
 	eslide
 
 	slide "black" "white"
-		image "images/cover01.jpg" 50 50 4032 3024 33
+		image "images/expo0.png" mx my 739 1024 65
 	eslide
 
 	slide "black" "white"
-		image "images/cover02.jpg" 50 50 4032 3024 33
-	eslide
-
-	slide "black" "white"
-		image "images/measure01.jpg" 50 50 4032 3024 33
-	eslide
-
-	slide "black" "white"
-		image "images/measure02.jpg" 50 50 4032 3024 33
+		image "images/expo.jpg" mx my 1200 1564 
 	eslide
 
 
 	slide "black" "white"
-		image "images/measure04.jpg" 50 50 4032 3024 33
+		image "images/33899v.jpg" mx my 818 1024 80
+		ctext "22”" 50 90 3
+		ctext "29”" 30 50 3
 	eslide
 
 	slide "black" "white"
-		image "images/measure05.jpg" 50 50 4032 3024 33
+		image "images/cover01.jpg" mx my 4032 3024 33
+	eslide
+
+	slide "black" "white"
+		image "images/grid02.jpg" mx my 4032 3024 33
+	eslide
+
+	slide "black" "white"
+		image "images/m01.jpg" 30 50 3024 4032 25
+		image "images/m02.jpg" 70 50 3024 4032 25
+	eslide
+
+	slide "black" "white"
+		image "images/m04.jpg" 30 50 3024 4032 25
+		image "images/m05.jpg" 70 50 3024 4032 25
+	eslide
+
+	slide "black" "white"
+		ny=5
+		lh=ny+2
+		ly=ny+1.5
+		image "images/working-screenshot.png" mx my 1920 1080
+		ctext "Code"				15 ny ns
+		ctext "Output"				50 ny ns
+		ctext "Reference"			83 ny ns
+		hline 0 ly 100 lh "black" 80
+	eslide
+
+	slide "black" "white"
+		row1=ty-30
+		row2=row1-40
+		cr=7
+		border=cr+0.5
+		scr=cr+ns
+
+		ly1=row1+cr
+		lly1=row1-scr
+		ly2=row2+cr
+		lly2=row2-scr
+
+		col1=mx-30
+		col2=mx-20
+		col3=mx-10
+		col4=mx
+		col5=mx+10
+		col6=mx+20
+		col7=mx+30
+		ctext "Colors" tx ty ts
+
+		circle col1 row1 border  "white"
+		circle col1 row1 cr "black"
+		circle col3 row1 cr "rgb(101,66,33)"
+		circle col5 row1 cr "tan"
+		circle col7 row1 cr "gold"
+
+		circle col2 row2 cr "crimson"
+		circle col4 row2 cr "green"
+		circle col6 row2 cr "steelblue"
+
+		ctext "black"				col1 ly1  ns
+		ctext "rgb(0,0,0)"			col1 lly1 ns2
+		ctext "brown"				col3 ly1  ns
+		ctext "rgb(101,67,33)"		col3 lly1 ns2
+		ctext "tan"					col5 ly1  ns
+		ctext "rgb(210,180,140)"	col5 lly1 ns2
+		ctext "yellow"				col7 ly1  ns
+		ctext "rgb(255,215,0)"		col7 lly1 ns2
+		ctext "red"					col2 ly2  ns
+		ctext "rgb(220,20,60)"		col2 lly2 ns2
+		ctext "green"				col4 ly2  ns
+		ctext "rgb(0,128,0)"		col4 lly2 ns2
+		ctext "blue"				col6 ly2  ns
+		ctext "rgb(70,130,180)"		col6 lly2 ns2
+	eslide
+
+	slide
+		// sort -k2 -nr dshfiles.d > sorted-dshfiles.d
+		dchart -bgcolor=black -ls=2.5 -title=f -fulldeck=f -hbar -left=15 -right=60 -textsize=0.65 -top=95 sorted-dshfiles.d
+	eslide
+
+	// Layout example
+	slide "linen"
+		image "images/p31.png" 50 50 2016 1584 65
+	eslide
+
+	// DuBois layout process
+	slide "linen"
+		image "images/p31.png" 25 50   2016 1584 45
+		image "images/layoutmap.png"     75 50  2016  1584 45
 	eslide
 	
-	slide "black" "white"
-		image "images/P1220878.JPG" 50 50 4224 2376 50
-	eslide
-
-	slide "black" "white"
-		image "images/P1220879.JPG" 50 50 4224 2376 50
-	eslide
-
-	slide "black" "white"
-		image "images/P1220880.JPG" 50 50 4224 2376 50
-	eslide
-
-	slide
-		text "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 5 50 2  "symbol"
-		text "abcdefghijklmnopqrstuvwxyz" 5 40 2  "symbol"
-		text "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 5 55 4 "sans" "red" 20
-		text "abcdefghijklmnopqrstuvwxyz" 5 45 4 "sans" "red" 20
-	eslide
-
-	slide
-	left=5
-	skip=5
-	ts=2
-	text "A" left 90.0  ts  "symbol"
-		text "B" left 86.5  ts  "symbol"
-		text "C" left 83.0  ts  "symbol"
-		text "D" left 79.5  ts  "symbol"
-		text "E" left 76.0  ts  "symbol"
-		text "F" left 72.5  ts  "symbol"
-		text "G" left 69.0  ts  "symbol"
-		text "H" left 65.5  ts  "symbol"
-		text "I" left 62.0  ts  "symbol"
-		text "J" left 58.5  ts  "symbol"
-		text "K" left 55.0  ts  "symbol"
-		text "L" left 51.5  ts  "symbol"
-		text "M" left 48.0  ts  "symbol"
-		text "N" left 44.5  ts  "symbol"
-		text "O" left 41.0  ts  "symbol"
-		text "P" left 37.5  ts  "symbol"
-		text "Q" left 34.0  ts  "symbol"
-		text "R" left 30.5  ts  "symbol"
-		text "S" left 27.0  ts  "symbol"
-		text "T" left 23.5  ts  "symbol"
-		text "U" left 20.0  ts  "symbol"
-		text "V" left 16.5  ts  "symbol"
-		text "W" left 13.0  ts  "symbol"
-		text "X" left 9.5  ts  "symbol"
-		text "Y" left 6.0  ts  "symbol"
-		text "Z" left 2.5  ts  "symbol"
-
-		left += skip
-		text "A" left 90.0  ts   "sans"
-		text "B" left 86.5  ts   "sans"
-		text "C" left 83.0  ts   "sans"
-		text "D" left 79.5  ts   "sans"
-		text "E" left 76.0  ts   "sans"
-		text "F" left 72.5  ts   "sans"
-		text "G" left 69.0  ts   "sans"
-		text "H" left 65.5  ts   "sans"
-		text "I" left 62.0  ts   "sans"
-		text "J" left 58.5  ts   "sans"
-		text "K" left 55.0  ts   "sans"
-		text "L" left 51.5  ts   "sans"
-		text "M" left 48.0  ts   "sans"
-		text "N" left 44.5  ts   "sans"
-		text "O" left 41.0  ts   "sans"
-		text "P" left 37.5  ts   "sans"
-		text "Q" left 34.0  ts   "sans"
-		text "R" left 30.5  ts   "sans"
-		text "S" left 27.0  ts   "sans"
-		text "T" left 23.5  ts   "sans"
-		text "U" left 20.0  ts   "sans"
-		text "V" left 16.5  ts   "sans"
-		text "W" left 13.0  ts   "sans"
-		text "X" left 9.5  ts   "sans"
-		text "Y" left 6.0  ts   "sans"
-		text "Z" left 2.5  ts   "sans"
-
-		left += skip
-		text "a" left 90.0  ts "symbol"
-		text "b" left 86.5  ts "symbol"
-		text "c" left 83.0  ts "symbol"
-		text "d" left 79.5  ts "symbol"
-		text "e" left 76.0  ts "symbol"
-		text "f" left 72.5  ts "symbol"
-		text "g" left 69.0  ts "symbol"
-		text "h" left 65.5  ts "symbol"
-		text "i" left 62.0  ts "symbol"
-		text "j" left 58.5  ts "symbol"
-		text "k" left 55.0  ts "symbol"
-		text "l" left 51.5  ts "symbol"
-		text "m" left 48.0  ts "symbol"
-		text "n" left 44.5  ts "symbol"
-		text "o" left 41.0  ts "symbol"
-		text "p" left 37.5  ts "symbol"
-		text "q" left 34.0  ts "symbol"
-		text "r" left 30.5  ts "symbol"
-		text "s" left 27.0  ts "symbol"
-		text "t" left 23.5  ts "symbol"
-		text "u" left 20.0  ts "symbol"
-		text "v" left 16.5  ts "symbol"
-		text "w" left 13.0  ts "symbol"
-		text "x" left 9.5  ts "symbol"
-		text "y" left 6.0  ts "symbol"
-		text "z" left 2.5  ts "symbol"
-
-		left += skip
-
-		text "a" left 90.0  ts  "sans"
-		text "b" left 86.5  ts  "sans"
-		text "c" left 83.0  ts  "sans"
-		text "d" left 79.5  ts  "sans"
-		text "e" left 76.0  ts  "sans"
-		text "f" left 72.5  ts  "sans"
-		text "g" left 69.0  ts  "sans"
-		text "h" left 65.5  ts  "sans"
-		text "i" left 62.0  ts  "sans"
-		text "j" left 58.5  ts  "sans"
-		text "k" left 55.0  ts  "sans"
-		text "l" left 51.5  ts  "sans"
-		text "m" left 48.0  ts  "sans"
-		text "n" left 44.5  ts  "sans"
-		text "o" left 41.0  ts  "sans"
-		text "p" left 37.5  ts  "sans"
-		text "q" left 34.0  ts  "sans"
-		text "r" left 30.5  ts  "sans"
-		text "s" left 27.0  ts  "sans"
-		text "t" left 23.5  ts  "sans"
-		text "u" left 20.0  ts  "sans"
-		text "v" left 16.5  ts  "sans"
-		text "w" left 13.0  ts  "sans"
-		text "x" left 9.5  ts  "sans"
-		text "y" left 6.0  ts  "sans"
-		text "z" left 2.5  ts  "sans"
-
-		text "O" 40 50 20 "symbol" "black"
-		text "e" 70 50 20 "symbol" "maroon"
-		arrow 55 65 70 65 1.5 3 7 
-	eslide
+	// Catalog
+	catbgcolor="linen"
+	catimw=2116
+	catimh=2688
+	catimscale=35
+	include "cat.dsh"
 edeck
 
