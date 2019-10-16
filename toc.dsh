@@ -1,0 +1,104 @@
+deck
+pct=15
+bw=30
+lw=0.2
+top=95
+col=40
+slide
+cimage "plate01/f1.png" "Plate 1" 30 80 2112 2688 pct
+cimage "plate02/f1.png" "Plate 2" 70 80 2112 2688 pct
+cimage "plate03/f1.png" "Plate 3" 30 50 2112 2688 pct
+cimage "plate04/f1.png" "Plate 4" 70 50 2112 2688 pct
+cimage "plate05/f1.png" "Plate 5" 30 20 2112 2688 pct
+cimage "plate06/f1.png" "Plate 6" 70 20 2112 2688 pct
+
+bx1=bw/2
+bx2=bx1+bw
+by1=top
+by2=by1-bw
+hline bx1 by1 bw lw
+hline bx1 by2 bw lw
+vline bx1 by2 bw lw
+vline bx2 by2 bw lw
+
+bx1+=col
+bx2=bx1+bw
+by1=top
+by2=by1-bw
+hline bx1 by1 bw lw
+hline bx1 by2 bw lw
+vline bx1 by2 bw lw
+vline bx2 by2 bw lw
+
+
+eslide
+// slide
+// image "plate07/f1.png" 50 50 2112 2688 pct
+// image "plate08/f1.png" 50 50 2112 2688 pct
+// image "plate09/f1.png" 50 50 2112 2688 pct
+// image "plate10/f1.png" 50 50 2112 2688 pct
+// image "plate11/f1.png" 50 50 2112 2688 pct
+// image "plate12/f1.png" 50 50 2112 2688 pct
+// eslide
+// slide
+// image "plate13/f1.png" 50 50 2112 2688 pct
+// image "plate14/f1.png" 50 50 2112 2688 pct
+// image "plate15/f1.png" 50 50 2112 2688 pct
+// image "plate16/f1.png" 50 50 2112 2688 pct
+// image "plate17/f1.png" 50 50 2112 2688 pct
+// image "plate18/f1.png" 50 50 2112 2688 pct
+// eslide
+// slide
+// image "plate19/f1.png" 50 50 2112 2688 pct
+// image "plate20/f1.png" 50 50 2112 2688 pct
+// image "plate21/f1.png" 50 50 2112 2688 pct
+// image "plate22/f1.png" 50 50 2112 2688 pct
+// image "plate23/f1.png" 50 50 2112 2688 pct
+// image "plate24/f1.png" 50 50 2112 2688 pct
+// eslide
+// slide
+// image "plate25/f1.png" 50 50 2112 2688 pct
+// image "plate26/f1.png" 50 50 2112 2688 pct
+// image "plate27/f1.png" 50 50 2112 2688 pct
+// image "plate30/f1.png" 50 50 2688 pct 2112
+// image "plate31/f1.png" 50 50 2688 pct 2112
+// image "plate37/f1.png" 50 50 2112 2688 pct
+// eslide
+// slide
+// image "plate38/f1.png" 50 50 2112 2688 pct
+// image "plate39/f1.png" 50 50 2112 2688 pct
+// image "plate40/f1.png" 50 50 2112 2688 pct
+// image "plate41/f1.png" 50 50 2112 2688 pct
+// image "plate42/f1.png" 50 50 2112 2688 pct
+// image "plate43/f1.png" 50 50 2112 2688 pct
+// eslide
+// slide
+// image "plate44/f1.png" 50 50 2112 2688 pct
+// image "plate45/f1.png" 50 50 2112 2688 pct
+// image "plate46/f1.png" 50 50 2112 2688 pct
+// image "plate47/f1.png" 50 50 2112 2688 pct
+// image "plate48/f1.png" 50 50 2112 2688 pct
+// image "plate49/f1.png" 50 50 2112 2688 pct
+// eslide
+// slide
+// image "plate50/f1.png" 50 50 2112 2688 pct
+// image "plate51/f1.png" 50 50 2112 2688 pct
+// image "plate52/f1.png" 50 50 2112 2688 pct
+// image "plate53/f1.png" 50 50 2112 2688 pct
+// image "plate54/f1.png" 50 50 2112 2688 pct
+// image "plate55/f1.png" 50 50 2112 2688 pct
+// eslide
+// slide
+// image "plate56/f1.png" 50 50 2112 2688 pct
+// image "plate57/f1.png" 50 50 2112 2688 pct
+// image "plate58/f1.png" 50 50 2112 2688 pct
+// image "plate59/f1.png" 50 50 2112 2688 pct
+// image "plate60/f1.png" 50 50 2112 2688 pct
+// image "plate61/f1.png" 50 50 2112 2688 pct
+// eslide
+// slide
+// image "plate62/f1.png" 50 50 2112 2688 pct
+// image "plate63/f1.png" 50 50 2112 2688 pct
+// image "platexx/f1.png" 50 50 2112 2688 pct
+// eslide
+edeck

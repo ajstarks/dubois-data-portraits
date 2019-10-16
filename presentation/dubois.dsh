@@ -1,11 +1,20 @@
 deck
-	ts=4
+	ts=4.5
 	ns=ts*0.75
 	ns2=ns*0.50
 	tx=50
 	ty=90
 	mx=50
 	my=50
+
+	slide "linen" "black"
+		ctext "Recreating DuBois’ Data Portraits"	tx 85 ts
+		image "images/slave-free.jpg"		35 45 799 1024 60
+		image "images/slave-free-dsh.png"	65 45 834 1058 60
+		ctext "Anthony Starks   |   @ajstarks"			tx 5 ns2 "sans" "maroon"
+	eslide
+
+
 	slide "black"
 		image "images/dubois-1900.png" 30 50 650 891
 		image "images/IMG_1499.jpg"    70 50 2980 3972 23
@@ -22,7 +31,6 @@ deck
 	slide "black" "white"
 		image "images/expo.jpg" mx my 1200 1564 
 	eslide
-
 
 	slide "black" "white"
 		image "images/33899v.jpg" mx my 818 1024 80
@@ -59,17 +67,18 @@ deck
 		hline 0 ly 100 lh "black" 80
 	eslide
 
-	slide "black" "white"
+	slide "linen" "black" // "black" "white"
 		row1=ty-30
 		row2=row1-40
-		cr=7
-		border=cr+0.5
-		scr=cr+ns
+		cr=5
+		border=cr+0.25
+		scr=cr+2
+		scr2=scr+ns2
 
-		ly1=row1+cr
-		lly1=row1-scr
-		ly2=row2+cr
-		lly2=row2-scr
+		ly1=row1+scr
+		lly1=row1-scr2
+		ly2=row2+scr
+		lly2=row2-scr2
 
 		col1=mx-30
 		col2=mx-20
@@ -91,24 +100,42 @@ deck
 		circle col6 row2 cr "steelblue"
 
 		ctext "black"				col1 ly1  ns
-		ctext "rgb(0,0,0)"			col1 lly1 ns2
+		ctext "rgb(0,0,0)"			col1 lly1 ns2 "sans" "gray"
 		ctext "brown"				col3 ly1  ns
-		ctext "rgb(101,67,33)"		col3 lly1 ns2
+		ctext "rgb(101,67,33)"		col3 lly1 ns2 "sans" "gray"
 		ctext "tan"					col5 ly1  ns
-		ctext "rgb(210,180,140)"	col5 lly1 ns2
+		ctext "rgb(210,180,140)"	col5 lly1 ns2 "sans" "gray"
 		ctext "yellow"				col7 ly1  ns
-		ctext "rgb(255,215,0)"		col7 lly1 ns2
+		ctext "rgb(255,215,0)"		col7 lly1 ns2 "sans" "gray"
 		ctext "red"					col2 ly2  ns
-		ctext "rgb(220,20,60)"		col2 lly2 ns2
+		ctext "rgb(220,20,60)"		col2 lly2 ns2 "sans" "gray"
 		ctext "green"				col4 ly2  ns
-		ctext "rgb(0,128,0)"		col4 lly2 ns2
+		ctext "rgb(0,128,0)"		col4 lly2 ns2 "sans" "gray"
 		ctext "blue"				col6 ly2  ns
-		ctext "rgb(70,130,180)"		col6 lly2 ns2
+		ctext "rgb(70,130,180)"		col6 lly2 ns2 "sans" "gray"
 	eslide
 
-	slide
+	slide "linen" "black"
 		// sort -k2 -nr dshfiles.d > sorted-dshfiles.d
 		dchart -bgcolor=black -ls=2.5 -title=f -fulldeck=f -hbar -left=15 -right=60 -textsize=0.65 -top=95 sorted-dshfiles.d
+		text "Lines of decksh code" 15 97 ns2
+		rbrace 65 87.5 15 2 2
+		text "Machine-Generated" 66 87 ns2
+		rbrace 35 40 75 2 2
+		text "Hand-Coded" 36 39.5 ns2
+
+		list 70 20 ns2 "sans"
+			li "Plates:"
+			li "Total Lines of Code:"
+			li "Average LoC:"
+		elist
+
+		list 90 20 ns2 "sans" "steelblue"
+			li "58"
+			li "4,216"
+			li "76.7"
+		elist
+
 	eslide
 
 	// Layout example
@@ -128,5 +155,35 @@ deck
 	catimh=2688
 	catimscale=35
 	include "cat.dsh"
-edeck
 
+
+	// Business Card
+    mx=25         // midpoint
+    tx=62         // text left
+    ix=57         // image left
+    ts=6          // base text size
+    ss=ts*0.85    // sub-head text size
+    cs=ts*0.50    // contact info text size
+    lx=50         // line x
+	imscale=8
+	ims2=imscale*10
+	ims3=ims2/4
+    slide "white" "rgb(100,100,100)"
+        image "images/starx.png"               mx 75 512 512 60
+        ctext "Anthony J. Starks"       mx 35 ts "sans" "black"
+        ctext "Art + Code"              mx 22 ss "sans" "maroon"
+        line  lx 90 lx 10 0.3 "maroon"
+
+        image "images/phone.png"        ix 80 1200 1200 imscale
+        image "images/email.png"        ix 65 1200 1200 imscale
+        image "images/twitter.png"      ix 50 1200 1200 imscale
+        image "images/github.png"       ix 35 120 120   ims2 
+        image "images/sd.png"           ix 20 512 512   ims3 
+
+        text "+1 908.548.3403"          tx 79 cs
+        text "ajstarks@gmail.com"       tx 64 cs
+        text "@ajstarks"                tx 49 cs
+        text "github.com/ajstarks"      tx 34 cs
+        text "speakerdeck.com/ajstarks" tx 19 cs
+    eslide
+edeck

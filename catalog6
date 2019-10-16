@@ -1,0 +1,27 @@
+#!/bin/sh
+# ls plate*/f1.png | ./catalog2 | decksh | pdf -pagesize 1920,1080
+awk '
+BEGIN {
+	print "deck"
+	width=2112
+	height=2688
+	scale=20
+}
+{
+	pic[NR] = $1
+}
+END {
+	for (i=1; i <=NR; i++) {	
+		if (i%6 == 0) {
+			printf "slide \"rgb(230,230,230)\"\n"
+			printf "image \"%s\" 30 80 %d %d %g\n", pic[i-5], width, height, scale
+			printf "image \"%s\" 70 80 %d %d %g\n", pic[i-4], width, height, scale
+			printf "image \"%s\" 30 50 %d %d %g\n", pic[i-3], width, height, scale
+			printf "image \"%s\" 70 50 %d %d %g\n", pic[i-2], width, height, scale
+			printf "image \"%s\" 30 20 %d %d %g\n", pic[i-1], width, height, scale
+			printf "image \"%s\" 70 20 %d %d %g\neslide\n", pic[i], width, height, scale
+		}
+	}
+	print "edeck"
+}' $*
+
