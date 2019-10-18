@@ -1,0 +1,30 @@
+barwidth=30
+freecolor="darkgreen"
+slavecolor="black"
+peasantcolor="maroon"
+tenantcolor=freecolor
+
+// left-hand bar
+left1=25
+bot1=5
+h1=30
+top1=bot1+h1
+len1=top1-bot1
+slave1=len1*0.89
+free=len1*0.11
+f1=bot1+slave1
+
+// right-hand bar
+left2=80
+bot2=20
+h2=60
+top2=bot2+h2
+len2=top2-bot2
+prop=len2*0.19
+p1=top2-prop
+
+vline left1 bot1 len1 barwidth slavecolor
+vline left1 f1   free barwidth freecolor
+
+vline left2 bot2 len2 barwidth freecolor
+vline left2 p1   prop barwidth peasantcolor

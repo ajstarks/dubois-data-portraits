@@ -6,14 +6,14 @@ deck
 	ty=90
 	mx=50
 	my=50
+	bgcolor="linen"
 
-	slide "linen" "black"
+	slide bgcolor "black"
 		ctext "Recreating DuBois’ Data Portraits"	tx 85 ts
 		image "images/slave-free.jpg"		35 45 799 1024 60
 		image "images/slave-free-dsh.png"	65 45 834 1058 60
-		ctext "Anthony Starks   |   @ajstarks"			tx 5 ns2 "sans" "maroon"
+		ctext "Anthony Starks | @ajstarks"			tx 5 ns2 "sans" "maroon"
 	eslide
-
 
 	slide "black"
 		image "images/dubois-1900.png" 30 50 650 891
@@ -21,7 +21,7 @@ deck
 	eslide
 
 	slide "black" "white"
-		image "images/students.jpg" mx my 936 706
+		image "images/au-debating-team-1900.jpg" mx my 700 563
 	eslide
 
 	slide "black" "white"
@@ -32,10 +32,18 @@ deck
 		image "images/expo.jpg" mx my 1200 1564 
 	eslide
 
-	slide "black" "white"
+	slide "linen" // "black" "white"
 		image "images/33899v.jpg" mx my 818 1024 80
 		ctext "22”" 50 90 3
 		ctext "29”" 30 50 3
+	eslide
+
+	slide "linen"
+		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
+		ctext "VizE Lab at Princeton"               tx 85 ns2
+		image "images/pv01.jpg" 20 40 1760 2278 35
+		image "images/pv04.jpg" 50 40 1760 2278 35
+		image "images/pv07.jpg" 80 40 1760 2290 35
 	eslide
 
 	slide "black" "white"
@@ -67,7 +75,7 @@ deck
 		hline 0 ly 100 lh "black" 80
 	eslide
 
-	slide "linen" "black" // "black" "white"
+	slide bgcolor "black" // "black" "white"
 		row1=ty-30
 		row2=row1-40
 		cr=5
@@ -95,9 +103,10 @@ deck
 		circle col5 row1 cr "tan"
 		circle col7 row1 cr "gold"
 
-		circle col2 row2 cr "crimson"
-		circle col4 row2 cr "green"
-		circle col6 row2 cr "steelblue"
+		circle col1 row2 cr "pink"
+		circle col3 row2 cr "crimson"
+		circle col5 row2 cr "green"
+		circle col7 row2 cr "steelblue"
 
 		ctext "black"				col1 ly1  ns
 		ctext "rgb(0,0,0)"			col1 lly1 ns2 "sans" "gray"
@@ -107,53 +116,101 @@ deck
 		ctext "rgb(210,180,140)"	col5 lly1 ns2 "sans" "gray"
 		ctext "yellow"				col7 ly1  ns
 		ctext "rgb(255,215,0)"		col7 lly1 ns2 "sans" "gray"
-		ctext "red"					col2 ly2  ns
-		ctext "rgb(220,20,60)"		col2 lly2 ns2 "sans" "gray"
-		ctext "green"				col4 ly2  ns
-		ctext "rgb(0,128,0)"		col4 lly2 ns2 "sans" "gray"
-		ctext "blue"				col6 ly2  ns
-		ctext "rgb(70,130,180)"		col6 lly2 ns2 "sans" "gray"
+		ctext "pink"				col1 ly2  ns "sans"
+		ctext "rgb(255,192,203)"	col1 lly2 ns2 "sans" "gray"
+		ctext "red"					col3 ly2  ns
+		ctext "rgb(220,20,60)"		col3 lly2 ns2 "sans" "gray"
+		ctext "green"				col5 ly2  ns
+		ctext "rgb(0,128,0)"		col5 lly2 ns2 "sans" "gray"
+		ctext "blue"				col7 ly2  ns
+		ctext "rgb(70,130,180)"		col7 lly2 ns2 "sans" "gray"
 	eslide
 
-	slide "linen" "black"
+	// Layout example
+	slide bgcolor
+		image "images/p31.png" 50 50 2016 1584 65
+	eslide
+
+	// DuBois layout process
+	slide bgcolor
+		image "images/p31.png" 25 50   2016 1584 45
+		image "images/layoutmap.png"     75 50  2016  1584 45
+	eslide
+
+	slide bgcolor "black"
 		// sort -k2 -nr dshfiles.d > sorted-dshfiles.d
 		dchart -bgcolor=black -ls=2.5 -title=f -fulldeck=f -hbar -left=15 -right=60 -textsize=0.65 -top=95 sorted-dshfiles.d
 		text "Lines of decksh code" 15 97 ns2
 		rbrace 65 87.5 15 2 2
 		text "Machine-Generated" 66 87 ns2
-		rbrace 35 40 75 2 2
-		text "Hand-Coded" 36 39.5 ns2
+		rbrace 25 40 75 2 2
+		text "Hand-Coded" 26 39.5 ns2
 
-		list 70 20 ns2 "sans"
-			li "Plates:"
-			li "Total Lines of Code:"
-			li "Average LoC:"
-		elist
 
-		list 90 20 ns2 "sans" "steelblue"
-			li "58"
-			li "4,216"
-			li "76.7"
-		elist
+		text "Plates:" 40 50 ns
+		text "Total LoC:" 40 40 ns
+		text "Average LoC:" 40 30 ns
+		etext "58" 70 50 ns "sans" "steelblue"
+		etext "4,216" 70 40 ns "sans" "steelblue"
+		etext "76.7" 70 30 ns "sans" "steelblue"
+
+//		list 40 50 ns "sans"
+//			li "Plates:"
+//			li "Total Lines of Code:"
+//			li "Average LoC:"
+//		elist
+
+//		list 80 50 ns "sans" "steelblue"
+//			li "58"
+//			li "4,216"
+//			li "76.7"
+//		elist
+	eslide
+
+	slide bgcolor
+		ctext "Code Management and Automation" tx ty ts
+		y=ty-15
+		text "Directory"       5 y ns "sans" "maroon"
+		text "Scripting"      35 y ns "sans" "maroon"
+		text "Source Control" 70 y ns "sans" "maroon"
+		y-=10
+		textfile "tree.txt"       5 y 1.8 "mono"
+		textfile "scripting.txt" 35 y 1.8 "mono"
+		textfile "git.txt"       70 y 1.8 "mono"
 
 	eslide
 
-	// Layout example
-	slide "linen"
-		image "images/p31.png" 50 50 2016 1584 65
-	eslide
 
-	// DuBois layout process
-	slide "linen"
-		image "images/p31.png" 25 50   2016 1584 45
-		image "images/layoutmap.png"     75 50  2016  1584 45
-	eslide
-	
 	// Catalog
-	catbgcolor="linen"
+	catbgcolor=bgcolor
 	catimw=2116
 	catimh=2688
-	catimscale=35
+	catimscale=36
+
+	slide bgcolor
+		textfile "../plate58/pauper.dsh" 2 90 1.35 "mono"  "" 100 1.2
+		image "images/plate58.png" 78 50 catimw catimh catimscale
+	eslide
+
+	slide bgcolor
+		textfile "../plate39/population.dsh" 5 90 1.35 "mono" "" 100 1.2
+		textfile "../plate39/pop.d"          5 60 1.35 "mono" "" 100 1.2 
+		image "images/plate39.png" 50 40 catimw catimh 27
+	eslide
+
+	slide bgcolor
+		textfile "relationships.dsh"  10 90 1.35 "mono" "" 100 1.2
+		image    "images/plate50.png" 65 50 catimw catimh catimscale
+	eslide
+
+//	slide "black"
+//		image "images/code-screen.png" 30 50 1261 973 90
+//		image "images/plate58.png" 78 50 catimw catimh 32
+//	eslide
+		
+	slide bgcolor
+		ctext "Catalog" 50 50 8
+	eslide
 	include "cat.dsh"
 
 
@@ -161,7 +218,7 @@ deck
     mx=25         // midpoint
     tx=62         // text left
     ix=57         // image left
-    ts=6          // base text size
+    ts=5.5        // base text size
     ss=ts*0.85    // sub-head text size
     cs=ts*0.50    // contact info text size
     lx=50         // line x
