@@ -2,6 +2,7 @@ deck
 	ts=4.5
 	ns=ts*0.75
 	ns2=ns*0.50
+	ns3=ns2*0.75
 	tx=50
 	ty=90
 	mx=50
@@ -12,38 +13,36 @@ deck
 		ctext "Recreating DuBois’ Data Portraits"	tx 85 ts
 		image "images/slave-free.jpg"		35 45 799 1024 60
 		image "images/slave-free-dsh.png"	65 45 834 1058 60
-		ctext "Anthony Starks | @ajstarks"			tx 5 ns2 "sans" "maroon"
+		clist tx 7 ns3 "sans" "maroon" 100 1.2
+			li "Anthony Starks"
+			li "@ajstarks"
+		elist
 	eslide
 
-	slide "black"
+	slide bgcolor "black"
 		image "images/dubois-1900.png" 30 50 650 891
 		image "images/IMG_1499.jpg"    70 50 2980 3972 23
 	eslide
 
-	slide "black" "white"
-		image "images/au-debating-team-1900.jpg" mx my 700 563
+	slide bgcolor
+		image "images/au-debating-team-1900.jpg"  25 my 700 563
+		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3
+		image "images/au-women.jpg"  70 50 916 594 94
+		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3
 	eslide
 
-	slide "black" "white"
+	slide bgcolor // "black" "white"
 		image "images/expo0.png" mx my 739 1024 65
 	eslide
 
-	slide "black" "white"
+	slide bgcolor // "black" "white"
 		image "images/expo.jpg" mx my 1200 1564 
 	eslide
 
-	slide "linen" // "black" "white"
+	slide bgcolor // "black" "white"
 		image "images/33899v.jpg" mx my 818 1024 80
 		ctext "22”" 50 90 3
-		ctext "29”" 30 50 3
-	eslide
-
-	slide "linen"
-		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
-		ctext "VizE Lab at Princeton"               tx 85 ns2
-		image "images/pv01.jpg" 20 40 1760 2278 35
-		image "images/pv04.jpg" 50 40 1760 2278 35
-		image "images/pv07.jpg" 80 40 1760 2290 35
+		ctext "28”" 30 50 3
 	eslide
 
 	slide "black" "white"
@@ -74,6 +73,8 @@ deck
 		ctext "Reference"			83 ny ns
 		hline 0 ly 100 lh "black" 80
 	eslide
+
+	include "grid.dsh"
 
 	slide bgcolor "black" // "black" "white"
 		row1=ty-30
@@ -138,8 +139,9 @@ deck
 	eslide
 
 	slide bgcolor "black"
+		chcolor="maroon"
 		// sort -k2 -nr dshfiles.d > sorted-dshfiles.d
-		dchart -bgcolor=black -ls=2.5 -title=f -fulldeck=f -hbar -left=15 -right=60 -textsize=0.65 -top=95 sorted-dshfiles.d
+		dchart -bgcolor=black -ls=2.5 -title=f -fulldeck=f -hbar -left=15 -right=60 -textsize=0.65 -top=95 -color chcolor sorted-dshfiles.d
 		text "Lines of decksh code" 15 97 ns2
 		rbrace 65 87.5 15 2 2
 		text "Machine-Generated" 66 87 ns2
@@ -150,21 +152,9 @@ deck
 		text "Plates:" 40 50 ns
 		text "Total LoC:" 40 40 ns
 		text "Average LoC:" 40 30 ns
-		etext "58" 70 50 ns "sans" "steelblue"
-		etext "4,216" 70 40 ns "sans" "steelblue"
-		etext "76.7" 70 30 ns "sans" "steelblue"
-
-//		list 40 50 ns "sans"
-//			li "Plates:"
-//			li "Total Lines of Code:"
-//			li "Average LoC:"
-//		elist
-
-//		list 80 50 ns "sans" "steelblue"
-//			li "58"
-//			li "4,216"
-//			li "76.7"
-//		elist
+		etext "58" 70 50 ns "sans" chcolor
+		etext "4,216" 70 40 ns "sans" chcolor
+		etext "76.7" 70 30 ns "sans" chcolor
 	eslide
 
 	slide bgcolor
@@ -179,7 +169,6 @@ deck
 		textfile "git.txt"       70 y 1.8 "mono"
 
 	eslide
-
 
 	// Catalog
 	catbgcolor=bgcolor
@@ -203,11 +192,15 @@ deck
 		image    "images/plate50.png" 65 50 catimw catimh catimscale
 	eslide
 
-//	slide "black"
-//		image "images/code-screen.png" 30 50 1261 973 90
-//		image "images/plate58.png" 78 50 catimw catimh 32
-//	eslide
-		
+// Related work
+	slide "linen"
+		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
+		ctext "VizE Lab at Princeton"               tx 85 ns2
+		image "images/pv01.jpg" 20 40 1760 2278 35
+		image "images/pv04.jpg" 50 40 1760 2278 35
+		image "images/pv07.jpg" 80 40 1760 2290 35
+	eslide
+
 	slide bgcolor
 		ctext "Catalog" 50 50 8
 	eslide
