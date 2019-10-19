@@ -2,7 +2,7 @@
 export portrait=1584,2016
 export landscape=2016,1584
 
-decksh title.dsh | pdfdeck -author "Anthony Starks" -title "Recreations of DuBois Data Stories" -stdout -pagesize $portrait -sans PublicSans-Bold -serif Charter-Regular - > title.pdf
+decksh title.dsh | pdfdeck -stdout -pagesize $portrait -sans PublicSans-Bold -serif Charter-Regular - > title.pdf
 ls plate*/f1.png | ./catalog9 | decksh | pdfdeck -stdout -pagesize $portrait - > toc.pdf
 
 for i in plate*
@@ -12,4 +12,4 @@ do
 	./mkdeck
 	cd ..
 done
-pdfunite title.pdf toc.pdf plate*/f.pdf data-portraits.pdf
+mutool merge  -o data-portraits.pdf title.pdf toc.pdf plate*/f.pdf 
