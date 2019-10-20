@@ -1,0 +1,24 @@
+deck
+	slide
+		ctext "Recreations of" 					50 90 6 "sans" "black"
+		ctext "W.E.B Du Bois's Data Portraits"	50 84 6 "sans" "maroon"
+		image "images/slave-free.jpg"      		25 47 821 1043 70
+		image "plate51/stdin-00001.png"  		75 45 1584 2016 42 
+		ctext "Anthony J. Starks"          		50 10 2 "serif"
+	eslide
+	slide
+		lx=3
+		ly=92
+		ls=1.35
+		lspacing=1.5
+		lskip=ls*5
+		text "Table of Contents"				lx 95 3
+		list lx ly ls "serif" "maroon" 100 lspacing
+			include "plist.dsh"
+		elist
+		lx+=lskip
+		list lx ly ls "sans" "black" 100 lspacing
+			include "tlist.dsh"
+		elist
+	eslide
+edeck

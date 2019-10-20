@@ -32,7 +32,7 @@ edited by Whitney Battle-Baptiste and Britt Rusert (ISBN 978-1-61689-706-2)
 * Plate 27: Occupations Of Negroes And Whites In Georgia
 * Plate 30: Condition of 300 Negro Farm Tenants After 1 Year's Toil, 1898
 * Plate 31: Income and Expenditure
-* Plate 37: A Series Of Statistical Chart Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States
+* Plate 37: A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States
 * Plate 38: Distribution of Negroes in the United States
 * Plate 39: Increase in the Negro Population in the United States
 * Plate 40: Comparative rate of increase of the White and Negro elements population of the United States

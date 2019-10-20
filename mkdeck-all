@@ -2,7 +2,7 @@
 export portrait=1584,2016
 export landscape=2016,1584
 
-decksh title.dsh | pdfdeck -stdout -pagesize $portrait -sans PublicSans-Bold -serif Charter-Regular - > title.pdf &&
+decksh front-matter.dsh | pdfdeck -stdout -pagesize $portrait -sans PublicSans-Bold -serif Charter-Regular - > front-matter.pdf &&
 ls plate*/f1.png | ./catalog9 | decksh | pdfdeck -stdout -pagesize $portrait - > toc.pdf
 
 echo "Building"
@@ -15,5 +15,5 @@ do
 done
 echo
 echo "Merging"
-mutool merge  -o data-portraits.pdf title.pdf toc.pdf plate*/f.pdf
+mutool merge  -o data-portraits.pdf front-matter.pdf toc.pdf plate*/f.pdf
 echo "Done"
