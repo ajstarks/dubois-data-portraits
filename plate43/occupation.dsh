@@ -6,11 +6,11 @@ deck
 		h4=h1*0.30
 		labelcolor="rgb(100,100,100)"
 		ctext "Occupations in which American Negroes are engaged." 50 96 h1 "serif"
-		ctext "Occupations et industries des Nègres Americains."    50 92 h2 "serif"
+		ctext "Occupations et industries des Nègres Americains."   50 92 h2 "serif"
 		ctext "Done by Atlanta University."                        50 88 h3 "serif"
 
-		hline 40 96 20 0.1
-		hline 40 90 20 0.1
+		hline 40 94 20 0.075
+		hline 40 90 20 0.075
 
 		// Derived data (% length of bar)
 
