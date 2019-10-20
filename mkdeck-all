@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 export portrait=1584,2016
 export landscape=2016,1584
 

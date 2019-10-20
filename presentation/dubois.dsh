@@ -2,41 +2,95 @@ deck
 	ts=4.5
 	ns=ts*0.75
 	ns2=ns*0.50
-	ns3=ns2*0.75
+	ns3=ns2*0.50
 	tx=50
 	ty=90
 	mx=50
 	my=50
 	bgcolor="linen"
 
-	slide bgcolor "black"
-		ctext "Recreating DuBois’ Data Portraits"	tx 85 ts
-		image "images/slave-free.jpg"		35 45 799 1024 60
-		image "images/slave-free-dsh.png"	65 45 834 1058 60
-		clist tx 7 ns3 "sans" "maroon" 100 1.2
-			li "Anthony Starks"
-			li "@ajstarks"
-		elist
+	slide
+		ims=7
+		row1=75
+		rowsize=20
+		row2=row1-rowsize
+		row3=row2-rowsize
+		row4=row3-rowsize
+		imw=2112
+		imh=2688
+		text "Recreating the DuBois Data Portraits"  6 ty 3 "sans" "maroon"
+		etext "Anthony Starks (@ajstarks)"          94 ty 1
+
+		image "images/plate01.png" 10 row1 imw imh ims		
+		image "images/plate02.png" 20 row1 imw imh ims		
+		image "images/plate03.png" 30 row1 imw imh ims		
+		image "images/plate04.png" 40 row1 imw imh ims
+		image "images/plate05.png" 50 row1 imw imh ims		
+		image "images/plate06.png" 60 row1 imw imh ims	
+		image "images/plate07.png" 70 row1 imw imh ims
+		image "images/plate08.png" 80 row1 imw imh ims		
+		image "images/plate09.png" 90 row1 imw imh ims	
+
+		image "images/plate10.png" 10 row2 imw imh ims		
+		image "images/plate11.png" 20 row2 imw imh ims		
+		image "images/plate12.png" 30 row2 imw imh ims		
+		image "images/plate13.png" 40 row2 imw imh ims
+		image "images/plate14.png" 50 row2 imw imh ims		
+		image "images/plate15.png" 60 row2 imw imh ims	
+		image "images/plate16.png" 70 row2 imw imh ims
+		image "images/plate17.png" 80 row2 imw imh ims		
+		image "images/plate18.png" 90 row2 imw imh ims
+
+		image "images/plate19.png" 10 row3 imw imh ims		
+		image "images/plate20.png" 20 row3 imw imh ims		
+		image "images/plate21.png" 30 row3 imw imh ims		
+		image "images/plate22.png" 40 row3 imw imh ims
+		image "images/plate23.png" 50 row3 imw imh ims		
+		image "images/plate24.png" 60 row3 imw imh ims	
+		image "images/plate25.png" 70 row3 imw imh ims
+		image "images/plate26.png" 80 row3 imw imh ims		
+		image "images/plate27.png" 90 row3 imw imh ims
+
+		image "images/plate30.png" 10 row4 imw imh ims		
+		image "images/plate31.png" 20 row4 imw imh ims		
+		image "images/plate37.png" 30 row4 imw imh ims		
+		image "images/plate38.png" 40 row4 imw imh ims
+		image "images/plate39.png" 50 row4 imw imh ims		
+		image "images/plate40.png" 60 row4 imw imh ims	
+		image "images/plate41.png" 70 row4 imw imh ims
+		image "images/plate42.png" 80 row4 imw imh ims		
+		image "images/plate43.png" 90 row4 imw imh ims
 	eslide
 
-	slide bgcolor "black"
-		image "images/dubois-1900.png" 30 50 650 891
-		image "images/IMG_1499.jpg"    70 50 2980 3972 23
-	eslide
 
-	slide bgcolor
+//	slide bgcolor "black"
+//		ctext "Recreating DuBois’ Data Portraits"	tx 85 ts
+//		image "images/slave-free.jpg"		35 45 799 1024 60
+//		image "images/slave-free-dsh.png"	65 45 834 1058 60
+//		clist tx 7 ns3 "sans" "maroon" 100 1.2
+//			li "Anthony Starks"
+//			li "@ajstarks"
+//		elist
+//	eslide
+
+//	slide bgcolor "black"
+//		image "images/dubois-1900.png" 30 50 650 891
+//		image "images/IMG_1499.jpg"    70 50 2980 3972 23
+//	eslide
+
+	slide "black" "rgb(100,100,100)"
 		image "images/au-debating-team-1900.jpg"  25 my 700 563
-		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3
+		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
 		image "images/au-women.jpg"  70 50 916 594 94
-		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3
+		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3 "serif"
 	eslide
 
-	slide bgcolor // "black" "white"
-		image "images/expo0.png" mx my 739 1024 65
-	eslide
+	slide "black" "rgb(100,100,100)"
+		image "images/dubois-1900.png" 30 my 650 891
+		ctext "DuBois in Paris 1900"   30 4 ns3 "serif"
 
-	slide bgcolor // "black" "white"
-		image "images/expo.jpg" mx my 1200 1564 
+		image "images/expo0.png" 	   70 my 1157 1525 59
+		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
 
 	slide bgcolor // "black" "white"
@@ -74,7 +128,7 @@ deck
 		hline 0 ly 100 lh "black" 80
 	eslide
 
-	include "grid.dsh"
+	
 
 	slide bgcolor "black" // "black" "white"
 		row1=ty-30
@@ -127,6 +181,8 @@ deck
 		ctext "rgb(70,130,180)"		col7 lly2 ns2 "sans" "gray"
 	eslide
 
+	include "grid.dsh"
+
 	// Layout example
 	slide bgcolor
 		image "images/p31.png" 50 50 2016 1584 65
@@ -167,7 +223,6 @@ deck
 		textfile "tree.txt"       5 y 1.8 "mono"
 		textfile "scripting.txt" 35 y 1.8 "mono"
 		textfile "git.txt"       70 y 1.8 "mono"
-
 	eslide
 
 	// Catalog
@@ -192,7 +247,7 @@ deck
 		image    "images/plate50.png" 65 50 catimw catimh catimscale
 	eslide
 
-// Related work
+	// Related work
 	slide "linen"
 		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
 		ctext "VizE Lab at Princeton"               tx 85 ns2
@@ -204,6 +259,7 @@ deck
 	slide bgcolor
 		ctext "Catalog" 50 50 8
 	eslide
+
 	include "cat.dsh"
 
 
