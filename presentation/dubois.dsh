@@ -7,13 +7,16 @@ deck
 	ty=90
 	mx=50
 	my=50
+	bannersize=8
 	bgcolor="linen"
 
+	// title slide
 	slide
 		image "images/full-catalog.png" 50 50 1920 1080
 		textblock "Recreating the DuBois Data Portraits" 72 12 20 2 "sans" "maroon"
 	eslide
 
+	// Atlanta University
 	slide "black" "rgb(100,100,100)"
 		image "images/au-debating-team-1900.jpg"  25 my 700 563
 		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
@@ -21,6 +24,7 @@ deck
 		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3 "serif"
 	eslide
 
+	// DuBois in Paris
 	slide "black" "rgb(100,100,100)"
 		image "images/dubois-1900.png" 30 my 650 891
 		ctext "W.E.B. DuBois in Paris 1900"   30 4 ns3 "serif"
@@ -29,42 +33,13 @@ deck
 		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
 
+	// Dimensions
 	slide bgcolor // "black" "white"
 		image "images/33899v.jpg" mx my 818 1024 80
 		ctext "22”" 50 90 3
 		ctext "28”" 30 50 3
 	eslide
 
-	slide "black" "white"
-		image "images/cover01.jpg" mx my 4032 3024 33
-	eslide
-
-	slide "black" "white"
-		image "images/grid02.jpg" mx my 4032 3024 33
-	eslide
-
-	slide "black" "white"
-		image "images/m01.jpg" 30 50 3024 4032 25
-		image "images/m02.jpg" 70 50 3024 4032 25
-	eslide
-
-	slide "black" "white"
-		image "images/m04.jpg" 30 50 3024 4032 25
-		image "images/m05.jpg" 70 50 3024 4032 25
-	eslide
-
-	slide "black" "white"
-		ny=5
-		lh=ny+2
-		ly=ny+1.5
-		image "images/working-screenshot.png" mx my 1920 1080
-		ctext "Code"				15 ny ns
-		ctext "Output"				48 ny ns
-		ctext "Reference"			83 ny ns
-		hline 0 ly 100 lh "black" 80
-	eslide
-
-	
 	// Taxonomy
 	imw=2116
 	imh=2688
@@ -73,7 +48,7 @@ deck
 	imtop=65
 
 	// Maps
-	slide bgcolor
+	slide //  bgcolor
 		imy=imtop
 		ctext "Maps" 50 90 ts
 		image "images/plate01.png" 10 imy imw imh ims
@@ -89,7 +64,7 @@ deck
 	eslide
 
 	// Circles
-	slide bgcolor
+	slide // bgcolor
 		imy=imtop
 		ctext "Circles" 50 90 ts
 		image "images/plate11.png" 20 imy imw imh ims
@@ -103,7 +78,7 @@ deck
 	eslide
 
 	// Graphs
-	slide bgcolor
+	slide // bgcolor
 		imy=50
 		ctext "Graphs" 50 90 ts
 		image "images/plate07.png" 20 imy imw imh ims
@@ -112,7 +87,7 @@ deck
 	eslide
 
 	// Blocks
-	slide bgcolor
+	slide // bgcolor
 		imy=imtop
 		ctext "Blocks" 50 90 ts
 		image "images/plate51.png" 20 imy imw imh ims
@@ -127,7 +102,7 @@ deck
 	eslide
 
 	// Bars
-	slide bgcolor
+	slide // bgcolor
 		imy=75
 		rs=20
 		ims/=2
@@ -162,7 +137,6 @@ deck
 		image "images/plate49.png" 75 imy imw imh ims
 		image "images/plate50.png" 85 imy imw imh ims
 
-
 		imy-=rs
 		image "images/plate52.png" 15 imy imw imh ims
 		image "images/plate56.png" 25 imy imw imh ims
@@ -173,7 +147,7 @@ deck
 		image "images/plate63.png" 75 imy imw imh ims
 	eslide
 			
-
+	// Colors
 	slide bgcolor "black" // "black" "white"
 		row1=ty-30
 		row2=row1-40
@@ -225,6 +199,47 @@ deck
 		ctext "rgb(70,130,180)"		col7 lly2 ns2 "sans" "gray"
 	eslide
 
+	// Book Cover
+	slide "black" "white"
+		image "images/cover01.jpg" mx my 4032 3024 33
+	eslide
+
+	// Book Grid
+	slide "black" "white"
+		image "images/grid02.jpg" mx my 4032 3024 33
+	eslide
+
+	// rules, protractor
+	slide "black" "white"
+		image "images/m01.jpg" 30 50 3024 4032 25
+		image "images/m02.jpg" 70 50 3024 4032 25
+	eslide
+
+	// rulers
+	slide "black" "white"
+		image "images/m04.jpg" 30 50 3024 4032 25
+		image "images/m05.jpg" 70 50 3024 4032 25
+	eslide
+
+	// decksh banner
+	slide bgcolor
+		ctext "Made with" tx ty ts
+		ctext "decksh" 50 50 bannersize "mono" "maroon"
+	eslide
+
+	// Development flow
+	slide "black" "white"
+		ny=5
+		lh=ny+2
+		ly=ny+1.5
+		image "images/working-screenshot.png" mx my 1920 1080
+		ctext "Code"				15 ny ns
+		ctext "Output"				48 ny ns
+		ctext "Reference"			83 ny ns
+		hline 0 ly 100 lh "black" 80
+	eslide
+
+	// Percent grid
 	include "grid.dsh"
 
 	// Layout example
@@ -303,11 +318,15 @@ deck
 	eslide
 
 	slide bgcolor
-		ctext "Catalog" 50 50 8
+		ctext "Catalog" 50 50 bannersize
 	eslide
 
 	include "cat.dsh"
 
+	slide bgcolor
+		ctext "Repository" tx ty ts
+		ctext "github.com/ajstarks/dubois-data-portraits" 50 50 4 "mono" "maroon" 100 "https://ithub.com/ajstarks/dubois-data-portraits"
+	eslide
 
 	// Business Card
     mx=25         // midpoint
@@ -321,7 +340,7 @@ deck
 	ims2=imscale*10
 	ims3=ims2/4
     slide "white" "rgb(100,100,100)"
-        image "images/starx.png"               mx 75 512 512 60
+        image "images/starx.png"        mx 75 512 512 60
         ctext "Anthony J. Starks"       mx 35 ts "sans" "black"
         ctext "Art + Code"              mx 22 ss "sans" "maroon"
         line  lx 90 lx 10 0.3 "maroon"
