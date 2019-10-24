@@ -40,6 +40,15 @@ deck
 		ctext "28”" 30 50 3
 	eslide
 
+	// Purpose and messages
+	slide 
+		clist 50 70 5 "sans" "maroon"
+			li "We are here"
+			li "This is who we are"
+			li "This is how far we have come"
+		elist
+	eslide
+
 	// Taxonomy
 	imw=2116
 	imh=2688
@@ -207,6 +216,21 @@ deck
 	// Book Grid
 	slide "black" "white"
 		image "images/grid02.jpg" mx my 4032 3024 33
+	eslide
+
+	// Materials comparison
+	slide bgcolor
+		cleft=25
+		cright=cleft+50
+		cbottom=5
+		cs=2.5
+		ctext "Pen, Ink, Watercolor, Paper, Expos"		cleft ty cs
+		ctext "1900"									cleft cbottom cs
+		image "images/33889v.jpg"						cleft my 811 1024 80
+
+		ctext "Scripting, Digital Fonts, PDF, Internet"	cright ty cs
+		ctext "2019"									cright cbottom cs
+		image "images/plate27.png"						cright my imw imh 30
 	eslide
 
 	// rules, protractor
