@@ -390,11 +390,7 @@ deck
 		image "images/pv07.jpg" 80 40 1760 2290 35
 	eslide
 
-	slide bgcolor
-		ctext "Catalog" 50 50 bannersize
-	eslide
-
-	include "cat.dsh"
+	
 
 	slide bgcolor
 		ctext "Repository" tx ty ts
@@ -430,4 +426,9 @@ deck
         text "github.com/ajstarks"      tx 34 cs
         text "speakerdeck.com/ajstarks" tx 19 cs
     eslide
+
+	slide bgcolor
+		ctext "Catalog" 50 50 bannersize
+	eslide
+	include "cat.dsh"
 edeck
