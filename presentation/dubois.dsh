@@ -57,8 +57,8 @@ deck
 	// Dimensions
 	slide bgcolor // "black" "white"
 		image "images/33899v.jpg" mx my 818 1024 80
-		ctext "22”" 50 90 3
-		ctext "28”" 30 50 3
+		ctext "22”" 50 90 3 "sans" "maroon"
+		ctext "28”" 30 50 3 "sans" "maroon"
 	eslide
 
 	// Purpose and messages
@@ -110,9 +110,9 @@ deck
 	slide // bgcolor
 		imy=50
 		ctext "Graphs" 50 90 ts
-		image "images/plate07.png" 20 imy imw imh ims
-		image "images/plate21.png" 50 imy imw imh ims
-		image "images/plate40.png" 80 imy imw imh ims
+		image "images/plate07.png" 20 imy imw imh 20 // ims
+		image "images/plate21.png" 50 imy imw imh 20 // ims
+		image "images/plate40.png" 80 imy imw imh 20 // ims
 	eslide
 
 	// Blocks
