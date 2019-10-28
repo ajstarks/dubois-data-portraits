@@ -7,6 +7,8 @@ deck
 	ty=90
 	mx=50
 	my=50
+	imw=2116
+	imh=2688
 	bannersize=8
 	bgcolor="linen"
 
@@ -33,6 +35,27 @@ deck
 		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
 
+	slide bgcolor
+		ims=12
+		image "images/expo0.png" 50 50 1157 1525 60
+		//image "images/plate01.png" 20 20 imw imh ims
+		//image "images/plate37.png" 80 20 imw imh ims
+		//image "images/platexx.png" 80 80 imw imh ims
+		//image "images/plate55.png" 20 80 imw imh ims
+	eslide
+
+	ims=4
+	slide bgcolor
+		image "images/expo0.png" 50 50 1157 1525 60
+		image "images/plate01.png" 46 40 imw imh ims
+		image "images/plate37.png" 59.5 40 imw imh ims
+		image "images/platexx.png" 61.5 65 imw imh ims
+		image "images/plate55.png" 39.5 65 imw imh ims
+	eslide
+
+
+
+
 	// Dimensions
 	slide bgcolor // "black" "white"
 		image "images/33899v.jpg" mx my 818 1024 80
@@ -50,8 +73,7 @@ deck
 	eslide
 
 	// Taxonomy
-	imw=2116
-	imh=2688
+	
 	ims=14
 	rs=40
 	imtop=65
@@ -224,13 +246,13 @@ deck
 		cright=cleft+50
 		cbottom=5
 		cs=2.5
-		ctext "Pen, Ink, Watercolor, Paper, Expos"		cleft ty cs
-		ctext "1900"									cleft cbottom cs
-		image "images/33889v.jpg"						cleft my 811 1024 80
+		ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft ty cs
+		ctext "1900"                                    cleft cbottom cs
+		image "images/33889v.jpg"                       cleft my 811 1024 80
 
-		ctext "Scripting, Digital Fonts, PDF, Internet"	cright ty cs
-		ctext "2019"									cright cbottom cs
-		image "images/plate27.png"						cright my imw imh 30
+		ctext "Scripting, Digital Fonts, PDF, Internet" cright ty cs
+		ctext "2019"                                    cright cbottom cs
+		image "images/plate27.png"                      cright my imw imh 30
 	eslide
 
 	// rules, protractor
