@@ -1,10 +1,10 @@
 deck
-	ts=4.5
+	ts=5
 	ns=ts*0.75
 	ns2=ns*0.50
 	ns3=ns2*0.75
 	tx=50
-	ty=90
+	ty=85
 	mx=50
 	my=50
 	imw=2116
@@ -44,17 +44,15 @@ deck
 		//image "images/plate55.png" 20 80 imw imh ims
 	eslide
 
-	ims=4
+	// Show viz IRL
 	slide bgcolor
+		ims=4
 		image "images/expo0.png" 50 50 1157 1525 60
 		image "images/plate01.png" 46 40 imw imh ims
 		image "images/plate37.png" 59.5 40 imw imh ims
 		image "images/platexx.png" 61.5 65 imw imh ims
 		image "images/plate55.png" 39.5 65 imw imh ims
 	eslide
-
-
-
 
 	// Dimensions
 	slide bgcolor // "black" "white"
@@ -64,8 +62,8 @@ deck
 	eslide
 
 	// Purpose and messages
-	slide 
-		clist 50 70 5 "sans" "maroon"
+	slide bgcolor 
+		clist 50 70 6 "serif" "maroon"
 			li "We are here"
 			li "This is who we are"
 			li "This is how far we have come"
@@ -177,58 +175,84 @@ deck
 		image "images/plate62.png" 65 imy imw imh ims
 		image "images/plate63.png" 75 imy imw imh ims
 	eslide
-			
-	// Colors
-	slide bgcolor "black" // "black" "white"
-		row1=ty-30
-		row2=row1-40
-		cr=5
-		border=cr+0.25
-		scr=cr+2
-		scr2=scr+ns2
 
-		ly1=row1+scr
-		lly1=row1-scr2
-		ly2=row2+scr
-		lly2=row2-scr2
-
-		col1=mx-30
-		col2=mx-20
-		col3=mx-10
-		col4=mx
-		col5=mx+10
-		col6=mx+20
-		col7=mx+30
+	// Colors	
+	slide bgcolor // "black" "white"
+		laby=50
+		colorh=15
+		colorw=9.6
+		ch=colorh*0.6
 		ctext "Colors" tx ty ts
-
-		circle col1 row1 border  "white"
-		circle col1 row1 cr "black"
-		circle col3 row1 cr "rgb(101,66,33)"
-		circle col5 row1 cr "tan"
-		circle col7 row1 cr "gold"
-
-		circle col1 row2 cr "pink"
-		circle col3 row2 cr "crimson"
-		circle col5 row2 cr "green"
-		circle col7 row2 cr "steelblue"
-
-		ctext "black"				col1 ly1  ns
-		ctext "rgb(0,0,0)"			col1 lly1 ns2 "sans" "gray"
-		ctext "brown"				col3 ly1  ns
-		ctext "rgb(101,67,33)"		col3 lly1 ns2 "sans" "gray"
-		ctext "tan"					col5 ly1  ns
-		ctext "rgb(210,180,140)"	col5 lly1 ns2 "sans" "gray"
-		ctext "yellow"				col7 ly1  ns
-		ctext "rgb(255,215,0)"		col7 lly1 ns2 "sans" "gray"
-		ctext "pink"				col1 ly2  ns "sans"
-		ctext "rgb(255,192,203)"	col1 lly2 ns2 "sans" "gray"
-		ctext "red"					col3 ly2  ns
-		ctext "rgb(220,20,60)"		col3 lly2 ns2 "sans" "gray"
-		ctext "green"				col5 ly2  ns
-		ctext "rgb(0,128,0)"		col5 lly2 ns2 "sans" "gray"
-		ctext "blue"				col7 ly2  ns
-		ctext "rgb(70,130,180)"		col7 lly2 ns2 "sans" "gray"
+		rect 15 laby colorw colorh "black"
+		rect 25 laby colorw colorh "rgb(101,67,33)"
+		rect 35 laby colorw colorh "tan"
+		rect 45 laby colorw colorh "gold"
+		rect 55 laby colorw colorh "pink"
+		rect 65 laby colorw colorh "crimson"
+		rect 75 laby colorw colorh "green"
+		rect 85 laby colorw colorh "rgb(70,130,180)"
+		laby+=ch
+		ctext "black" 	15 laby 2 "sans" "black"
+		ctext "brown" 	25 laby 2 "sans" "black"
+		ctext "tan" 	35 laby 2 "sans" "black"
+		ctext "yellow" 	45 laby 2 "sans" "black"
+		ctext "pink" 	55 laby 2 "sans" "black"
+		ctext "red" 	65 laby 2 "sans" "black"
+		ctext "green" 	75 laby 2 "sans" "black"
+		ctext "blue" 	85 laby 2 "sans" "black"
 	eslide
+
+	// Colors
+//	slide bgcolor "black" // "black" "white"
+//		row1=ty-30
+//		row2=row1-40
+//		cr=5
+//		border=cr+0.25
+//		scr=cr+2
+//		scr2=scr+ns2
+//
+//		ly1=row1+scr
+//		lly1=row1-scr2
+//		ly2=row2+scr
+//		lly2=row2-scr2
+//
+//		col1=mx-30
+//		col2=mx-20
+//		col3=mx-10
+//		col4=mx
+//		col5=mx+10
+//		col6=mx+20
+//		col7=mx+30
+//		ctext "Colors" tx ty ts
+//
+//		circle col1 row1 border  "white"
+//		circle col1 row1 cr "black"
+//		circle col3 row1 cr "rgb(101,66,33)"
+//		circle col5 row1 cr "tan"
+//		circle col7 row1 cr "gold"
+//
+//		circle col1 row2 cr "pink"
+//		circle col3 row2 cr "crimson"
+//		circle col5 row2 cr "green"
+//		circle col7 row2 cr "steelblue"
+//
+//		ctext "black"				col1 ly1  ns
+//		ctext "rgb(0,0,0)"			col1 lly1 ns2 "sans" "gray"
+//		ctext "brown"				col3 ly1  ns
+//		ctext "rgb(101,67,33)"		col3 lly1 ns2 "sans" "gray"
+//		ctext "tan"					col5 ly1  ns
+//		ctext "rgb(210,180,140)"	col5 lly1 ns2 "sans" "gray"
+//		ctext "yellow"				col7 ly1  ns
+//		ctext "rgb(255,215,0)"		col7 lly1 ns2 "sans" "gray"
+//		ctext "pink"				col1 ly2  ns "sans"
+//		ctext "rgb(255,192,203)"	col1 lly2 ns2 "sans" "gray"
+//		ctext "red"					col3 ly2  ns
+//		ctext "rgb(220,20,60)"		col3 lly2 ns2 "sans" "gray"
+//		ctext "green"				col5 ly2  ns
+//		ctext "rgb(0,128,0)"		col5 lly2 ns2 "sans" "gray"
+//		ctext "blue"				col7 ly2  ns
+//		ctext "rgb(70,130,180)"		col7 lly2 ns2 "sans" "gray"
+//	eslide
 
 	// Book Cover
 	slide "black" "white"
@@ -246,11 +270,12 @@ deck
 		cright=cleft+50
 		cbottom=5
 		cs=2.5
-		ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft ty cs
+		cy=90
+		ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs
 		ctext "1900"                                    cleft cbottom cs
 		image "images/33889v.jpg"                       cleft my 811 1024 80
 
-		ctext "Scripting, Digital Fonts, PDF, Internet" cright ty cs
+		ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
 		ctext "2019"                                    cright cbottom cs
 		image "images/plate27.png"                      cright my imw imh 30
 	eslide
@@ -326,10 +351,12 @@ deck
 		text "Directory"       5 y ns "sans" "maroon"
 		text "Scripting"      35 y ns "sans" "maroon"
 		text "Source Control" 70 y ns "sans" "maroon"
-		y-=10
+		y-=7
 		textfile "tree.txt"       5 y 1.8 "mono"
 		textfile "scripting.txt" 35 y 1.8 "mono"
 		textfile "git.txt"       70 y 1.8 "mono"
+		vline 30 5 70
+		vline 65 5 70 
 	eslide
 
 	// Catalog
@@ -357,7 +384,7 @@ deck
 	// Related work
 	slide "linen"
 		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
-		ctext "VizE Lab at Princeton"               tx 85 ns2
+		ctext "VizE Lab at Princeton"               tx 81 ns2
 		image "images/pv01.jpg" 20 40 1760 2278 35
 		image "images/pv04.jpg" 50 40 1760 2278 35
 		image "images/pv07.jpg" 80 40 1760 2290 35
