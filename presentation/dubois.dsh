@@ -19,7 +19,7 @@ deck
 	eslide
 
 	// Atlanta University
-	slide "black" "rgb(100,100,100)"
+	slide bgcolor // "black" "rgb(100,100,100)"
 		image "images/au-debating-team-1900.jpg"  25 my 700 563
 		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
 		image "images/au-women.jpg"  70 50 916 594 94
@@ -27,7 +27,7 @@ deck
 	eslide
 
 	// DuBois in Paris
-	slide "black" "rgb(100,100,100)"
+	slide bgcolor // "black" "rgb(100,100,100)"
 		image "images/dubois-1900.png" 30 my 650 891
 		ctext "W.E.B. DuBois in Paris 1900"   30 4 ns3 "serif"
 
