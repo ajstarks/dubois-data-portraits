@@ -63,7 +63,7 @@ deck
 
 	// Purpose and messages
 	slide bgcolor 
-		clist 50 70 6 "serif" "maroon"
+		list 10 70 6 "serif" "maroon"
 			li "We are here"
 			li "This is who we are"
 			li "This is how far we have come"
@@ -79,7 +79,7 @@ deck
 	// Maps
 	slide //  bgcolor
 		imy=imtop
-		ctext "Maps" 50 90 ts
+		ctext "Maps (15%)" 50 90 ts
 		image "images/plate01.png" 10 imy imw imh ims
 		image "images/plate02.png" 30 imy imw imh ims
 		image "images/plate05.png" 50 imy imw imh ims
@@ -95,7 +95,7 @@ deck
 	// Circles
 	slide // bgcolor
 		imy=imtop
-		ctext "Circles" 50 90 ts
+		ctext "Circles (12%)" 50 90 ts
 		image "images/plate11.png" 20 imy imw imh ims
 		image "images/plate16.png" 40 imy imw imh ims
 		image "images/plate22.png" 60 imy imw imh ims
@@ -109,7 +109,7 @@ deck
 	// Graphs
 	slide // bgcolor
 		imy=50
-		ctext "Graphs" 50 90 ts
+		ctext "Graphs (5%)" 50 90 ts
 		image "images/plate07.png" 20 imy imw imh 20 // ims
 		image "images/plate21.png" 50 imy imw imh 20 // ims
 		image "images/plate40.png" 80 imy imw imh 20 // ims
@@ -118,7 +118,7 @@ deck
 	// Blocks
 	slide // bgcolor
 		imy=imtop
-		ctext "Blocks" 50 90 ts
+		ctext "Blocks (12%)" 50 90 ts
 		image "images/plate51.png" 20 imy imw imh ims
 		image "images/plate53.png" 40 imy imw imh ims
 		image "images/plate54.png" 60 imy imw imh ims
@@ -136,7 +136,7 @@ deck
 		rs=20
 		ims/=2
 
-		ctext "Bars" 50 90 ts
+		ctext "Bars (54%)" 50 90 ts
 		image "images/plate03.png" 15 imy imw imh ims
 		image "images/plate04.png" 25 imy imw imh ims
 		image "images/plate09.png" 35 imy imw imh ims
@@ -182,7 +182,7 @@ deck
 		colorh=15
 		colorw=9.6
 		ch=colorh*0.6
-		ctext "Colors" tx ty ts
+		ctext "Color Palette" tx ty ts
 		rect 15 laby colorw colorh "black"
 		rect 25 laby colorw colorh "rgb(101,67,33)"
 		rect 35 laby colorw colorh "tan"
@@ -304,8 +304,8 @@ deck
 		lh=ny+2
 		ly=ny+1.5
 		image "images/working-screenshot.png" mx my 1920 1080
-		ctext "Code"				15 ny ns
-		ctext "Output"				48 ny ns
+		ctext "Code"				12 ny ns
+		ctext "Output"				40 ny ns
 		ctext "Reference"			83 ny ns
 		hline 0 ly 100 lh "black" 80
 	eslide
