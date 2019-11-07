@@ -28,20 +28,14 @@ deck
 
 	// DuBois in Paris
 	slide bgcolor // "black" "rgb(100,100,100)"
-		image "images/dubois-1900.png" 30 my 650 891
-		ctext "W.E.B. DuBois in Paris 1900"   30 4 ns3 "serif"
-
-		image "images/expo0.png" 	   70 my 1157 1525 59
+		image "images/dubois-1900.png" 			30 my 650 891
+		ctext "W.E.B. DuBois in Paris 1900"		30 4 ns3 "serif"
+		image "images/expo0.png"				70 my 1157 1525 59
 		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
 
 	slide bgcolor
-		ims=12
 		image "images/expo0.png" 50 50 1157 1525 60
-		//image "images/plate01.png" 20 20 imw imh ims
-		//image "images/plate37.png" 80 20 imw imh ims
-		//image "images/platexx.png" 80 80 imw imh ims
-		//image "images/plate55.png" 20 80 imw imh ims
 	eslide
 
 	// Show viz IRL
@@ -62,8 +56,11 @@ deck
 	eslide
 
 	// Purpose and messages
-	slide bgcolor 
-		list 10 70 6 "serif" "maroon"
+	slide bgcolor
+		image "images/plate38.png" 10 73 imw imh 5
+		image "images/plate27.png" 10 52 imw imh 5
+		image "images/plate22.png" 10 30 imw imh 5
+		list 15 70 6 "serif" "maroon"
 			li "We are here"
 			li "This is who we are"
 			li "This is how far we have come"
@@ -201,58 +198,6 @@ deck
 		ctext "green" 	75 laby 2 "sans" "black"
 		ctext "blue" 	85 laby 2 "sans" "black"
 	eslide
-
-	// Colors
-//	slide bgcolor "black" // "black" "white"
-//		row1=ty-30
-//		row2=row1-40
-//		cr=5
-//		border=cr+0.25
-//		scr=cr+2
-//		scr2=scr+ns2
-//
-//		ly1=row1+scr
-//		lly1=row1-scr2
-//		ly2=row2+scr
-//		lly2=row2-scr2
-//
-//		col1=mx-30
-//		col2=mx-20
-//		col3=mx-10
-//		col4=mx
-//		col5=mx+10
-//		col6=mx+20
-//		col7=mx+30
-//		ctext "Colors" tx ty ts
-//
-//		circle col1 row1 border  "white"
-//		circle col1 row1 cr "black"
-//		circle col3 row1 cr "rgb(101,66,33)"
-//		circle col5 row1 cr "tan"
-//		circle col7 row1 cr "gold"
-//
-//		circle col1 row2 cr "pink"
-//		circle col3 row2 cr "crimson"
-//		circle col5 row2 cr "green"
-//		circle col7 row2 cr "steelblue"
-//
-//		ctext "black"				col1 ly1  ns
-//		ctext "rgb(0,0,0)"			col1 lly1 ns2 "sans" "gray"
-//		ctext "brown"				col3 ly1  ns
-//		ctext "rgb(101,67,33)"		col3 lly1 ns2 "sans" "gray"
-//		ctext "tan"					col5 ly1  ns
-//		ctext "rgb(210,180,140)"	col5 lly1 ns2 "sans" "gray"
-//		ctext "yellow"				col7 ly1  ns
-//		ctext "rgb(255,215,0)"		col7 lly1 ns2 "sans" "gray"
-//		ctext "pink"				col1 ly2  ns "sans"
-//		ctext "rgb(255,192,203)"	col1 lly2 ns2 "sans" "gray"
-//		ctext "red"					col3 ly2  ns
-//		ctext "rgb(220,20,60)"		col3 lly2 ns2 "sans" "gray"
-//		ctext "green"				col5 ly2  ns
-//		ctext "rgb(0,128,0)"		col5 lly2 ns2 "sans" "gray"
-//		ctext "blue"				col7 ly2  ns
-//		ctext "rgb(70,130,180)"		col7 lly2 ns2 "sans" "gray"
-//	eslide
 
 	// Book Cover
 	slide "black" "white"
