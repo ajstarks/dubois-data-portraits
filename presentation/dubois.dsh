@@ -11,6 +11,7 @@ deck
 	imh=2688
 	bannersize=8
 	bgcolor="linen"
+	fgcolor="black"
 
 	// title slide
 	slide
@@ -19,7 +20,7 @@ deck
 	eslide
 
 	// Atlanta University
-	slide bgcolor // "black" "rgb(100,100,100)"
+	slide bgcolor fgcolor
 		image "images/au-debating-team-1900.jpg"  25 my 700 563
 		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
 		image "images/au-women.jpg"  70 50 916 594 94
@@ -27,7 +28,7 @@ deck
 	eslide
 
 	// DuBois in Paris
-	slide bgcolor // "black" "rgb(100,100,100)"
+	slide bgcolor fgcolor
 		image "images/dubois-1900.png" 			30 my 650 891
 		ctext "W.E.B. DuBois in Paris 1900"		30 4 ns3 "serif"
 		image "images/expo0.png"				70 my 1157 1525 59
@@ -39,7 +40,7 @@ deck
 	eslide
 
 	// Show viz IRL
-	slide bgcolor
+	slide bgcolor fgcolor
 		ims=4
 		image "images/expo0.png" 50 50 1157 1525 60
 		image "images/plate01.png" 46 40 imw imh ims
@@ -49,14 +50,14 @@ deck
 	eslide
 
 	// Dimensions
-	slide bgcolor // "black" "white"
+	slide bgcolor fgcolor
 		image "images/33899v.jpg" mx my 818 1024 80
 		ctext "22”" 50 90 3 "sans" "maroon"
 		ctext "28”" 30 50 3 "sans" "maroon"
 	eslide
 
 	// Purpose and messages
-	slide bgcolor
+	slide bgcolor fgcolor
 		image "images/plate38.png" 10 73 imw imh 5
 		image "images/plate27.png" 10 52 imw imh 5
 		image "images/plate22.png" 10 30 imw imh 5
@@ -74,7 +75,7 @@ deck
 	imtop=65
 
 	// Maps
-	slide //  bgcolor
+	slide
 		imy=imtop
 		ctext "Maps (15%)" 50 90 ts
 		image "images/plate01.png" 10 imy imw imh ims
@@ -90,7 +91,7 @@ deck
 	eslide
 
 	// Circles
-	slide // bgcolor
+	slide
 		imy=imtop
 		ctext "Circles (12%)" 50 90 ts
 		image "images/plate11.png" 20 imy imw imh ims
@@ -104,7 +105,7 @@ deck
 	eslide
 
 	// Graphs
-	slide // bgcolor
+	slide
 		imy=50
 		ctext "Graphs (5%)" 50 90 ts
 		image "images/plate07.png" 20 imy imw imh 20 // ims
@@ -113,7 +114,7 @@ deck
 	eslide
 
 	// Blocks
-	slide // bgcolor
+	slide
 		imy=imtop
 		ctext "Blocks (12%)" 50 90 ts
 		image "images/plate51.png" 20 imy imw imh ims
@@ -128,7 +129,7 @@ deck
 	eslide
 
 	// Bars
-	slide // bgcolor
+	slide
 		imy=75
 		rs=20
 		ims/=2
@@ -174,7 +175,7 @@ deck
 	eslide
 
 	// Colors	
-	slide bgcolor // "black" "white"
+	slide bgcolor fgcolor
 		laby=50
 		colorh=15
 		colorw=9.6
@@ -210,7 +211,7 @@ deck
 	eslide
 
 	// Materials comparison
-	slide bgcolor
+	slide bgcolor fgcolor
 		cleft=25
 		cright=cleft+50
 		cbottom=5
@@ -238,7 +239,7 @@ deck
 	eslide
 
 	// decksh banner
-	slide bgcolor
+	slide bgcolor fgcolor
 		ctext "Made with" tx ty ts
 		ctext "decksh" 50 50 bannersize "mono" "maroon"
 	eslide
@@ -259,17 +260,17 @@ deck
 	include "grid.dsh"
 
 	// Layout example
-	slide bgcolor
+	slide bgcolor fgcolor
 		image "images/p31.png" 50 50 2016 1584 65
 	eslide
 
 	// DuBois layout process
-	slide bgcolor
+	slide bgcolor fgcolor
 		image "images/p31.png" 25 50   2016 1584 45
 		image "images/layoutmap.png"     75 50  2016  1584 45
 	eslide
 
-	slide bgcolor "black"
+	slide bgcolor fgcolor
 		chcolor="rgb(101,67,33)"
 		// sort -k2 -nr dshfiles.d > sorted-dshfiles.d
 		dchart -bgcolor=black -ls=2.2 -title=f -fulldeck=f -hbar -left=15 -right=60 -textsize=0.65 -top=95 -color chcolor sorted-dshfiles.d
@@ -290,7 +291,7 @@ deck
 		etext "98.37"		nx 30 ns "sans" chcolor
 	eslide
 
-	slide bgcolor
+	slide bgcolor fgcolor
 		ctext "Code Management and Automation" tx ty ts
 		y=ty-15
 		text "Directory"       5 y ns "sans" "maroon"
@@ -310,24 +311,24 @@ deck
 	catimh=2688
 	catimscale=36
 
-	slide bgcolor
+	slide bgcolor fgcolor
 		textfile "../plate58/pauper.dsh" 2 90 1.35 "mono"  "" 100 1.2
 		image "images/plate58.png" 78 50 catimw catimh catimscale
 	eslide
 
-	slide bgcolor
+	slide bgcolor fgcolor
 		textfile "../plate39/population.dsh" 5 90 1.35 "mono" "" 100 1.2
 		textfile "../plate39/pop.d"          5 60 1.35 "mono" "" 100 1.2 
 		image "images/plate39.png" 50 40 catimw catimh 27
 	eslide
 
-	slide bgcolor
+	slide bgcolor fgcolor
 		textfile "relationships.dsh"  10 90 1.35 "mono" "" 100 1.2
 		image    "images/plate50.png" 65 50 catimw catimh catimscale
 	eslide
 
 	// Related work
-	slide "linen"
+	slide bgcolor fgcolor
 		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
 		ctext "VizE Lab at Princeton"               tx 81 ns2
 		image "images/pv01.jpg" 20 40 1760 2278 35
@@ -335,9 +336,7 @@ deck
 		image "images/pv07.jpg" 80 40 1760 2290 35
 	eslide
 
-	
-
-	slide bgcolor
+	slide bgcolor fgcolor
 		ctext "Repository" tx ty ts
 		ctext "github.com/ajstarks/dubois-data-portraits" 50 50 4 "mono" "maroon" 100 "https://ithub.com/ajstarks/dubois-data-portraits"
 	eslide
@@ -372,7 +371,7 @@ deck
         text "speakerdeck.com/ajstarks" tx 19 cs
     eslide
 
-	slide bgcolor
+	slide bgcolor fgcolor
 		ctext "Catalog" 50 50 bannersize
 	eslide
 	include "cat.dsh"

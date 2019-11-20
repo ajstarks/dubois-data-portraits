@@ -1,2 +1,2 @@
 #!/bin/sh
-decksh dubois.dsh | pdf -pagesize 1920,1080 -sans PublicSans-Regular -serif Charter-Regular -mono Inconsolata-Regular $*
+decksh dubois.dsh | pdfdeck -stdout -pagesize 1920,1080 -sans PublicSans-Medium -serif Charter-Regular -mono Inconsolata-Regular - > dubois.pdf
