@@ -71,18 +71,27 @@ deck
 	// Taxonomy
 
 	slide bgcolor fgcolor
+		bary=40
+		barty=bary+5
+		barimy=bary+15		
+		pmts=2.0
+		x1=29.47
+		x2=60.95
+		x3=73.48
+		x4=84.44
+		x5=92.23
 		ctext "Taxonomy" tx ty ts
-		dchart -fulldeck=f -left=5 -right=95 -val=f -pmap -textsize 1.6 -top 45 -datafmt=%.2f taxonomy.d
-		image "images/plate47.png" 30 60 imw imh 5
-		image "images/plate06.png" 60 60 imw imh 5
-		image "images/plate54.png" 75 60 imw imh 5
-		image "images/plate27.png" 85 60 imw imh 5
-		image "images/plate21.png" 93 60 imw imh 5
-		ctext "Bars"    30 30 2.5
-		ctext "Maps"    60 30 2.5
-		ctext "Blocks"  75 30 2.5
-		ctext "Circles" 85 30 2.5
-		ctext "Graphs"  93 25 2.5
+		dchart -fulldeck=f -left=5 -right=95 -val=f -pmap -solidpmap -textsize 1.6 -top bary -datafmt=%.2f taxonomy.d
+		image "images/plate47.png" x1 barimy imw imh 5
+		image "images/plate06.png" x2 barimy imw imh 5
+		image "images/plate54.png" x3 barimy imw imh 5
+		image "images/plate27.png" x4 barimy imw imh 5
+		image "images/plate21.png" x5 barimy imw imh 5
+		ctext "Bars"    x1 barty pmts
+		ctext "Maps"    x2 barty pmts
+		ctext "Blocks"  x3 barty pmts
+		ctext "Circles" x4 barty pmts
+		ctext "Graphs"  x5 barty pmts
 	eslide
 
 
@@ -92,7 +101,7 @@ deck
 		rs=20
 		ims=7 ///=2
 
-		ctext "Bars (54.39%)" 50 90 ts
+		ctext "Bars" 50 90 ts
 		image "images/plate03.png" 15 imy imw imh ims
 		image "images/plate04.png" 25 imy imw imh ims
 		image "images/plate09.png" 35 imy imw imh ims
@@ -139,7 +148,7 @@ deck
 	// Maps
 	slide
 		imy=imtop
-		ctext "Maps (15.79%)" 50 90 ts
+		ctext "Maps" 50 90 ts
 		image "images/plate01.png" 10 imy imw imh ims
 		image "images/plate02.png" 30 imy imw imh ims
 		image "images/plate05.png" 50 imy imw imh ims
@@ -155,7 +164,7 @@ deck
 	// Circles
 	slide
 		imy=imtop
-		ctext "Circles (12.28%)" 50 90 ts
+		ctext "Circles" 50 90 ts
 		image "images/plate11.png" 20 imy imw imh ims
 		image "images/plate16.png" 40 imy imw imh ims
 		image "images/plate22.png" 60 imy imw imh ims
@@ -169,7 +178,7 @@ deck
 	// Blocks
 	slide
 		imy=imtop
-		ctext "Blocks (12.28%)" 50 90 ts
+		ctext "Blocks" 50 90 ts
 		image "images/plate51.png" 20 imy imw imh ims
 		image "images/plate53.png" 40 imy imw imh ims
 		image "images/plate54.png" 60 imy imw imh ims
@@ -184,7 +193,7 @@ deck
 	// Graphs
 	slide
 		imy=50
-		ctext "Graphs (5.26%)" 50 90 ts
+		ctext "Graphs" 50 90 ts
 		image "images/plate07.png" 20 imy imw imh 20 // ims
 		image "images/plate21.png" 50 imy imw imh 20 // ims
 		image "images/plate40.png" 80 imy imw imh 20 // ims
