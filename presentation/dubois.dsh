@@ -69,72 +69,30 @@ deck
 	eslide
 
 	// Taxonomy
-	
-	ims=14
-	rs=40
-	imtop=65
 
-	// Maps
-	slide
-		imy=imtop
-		ctext "Maps (15%)" 50 90 ts
-		image "images/plate01.png" 10 imy imw imh ims
-		image "images/plate02.png" 30 imy imw imh ims
-		image "images/plate05.png" 50 imy imw imh ims
-		image "images/plate06.png" 70 imy imw imh ims
-		image "images/plate08.png" 90 imy imw imh ims
-		imy-=rs
-		image "images/plate20.png" 20 imy imw imh ims
-		image "images/plate38.png" 40 imy imw imh ims
-		image "images/plate41.png" 60 imy imw imh ims
-		image "images/plate42.png" 80 imy imw imh ims
+	slide bgcolor fgcolor
+		ctext "Taxonomy" tx ty ts
+		dchart -fulldeck=f -left=5 -right=95 -val=f -pmap -textsize 1.6 -top 45 -datafmt=%.2f taxonomy.d
+		image "images/plate47.png" 30 60 imw imh 5
+		image "images/plate06.png" 60 60 imw imh 5
+		image "images/plate54.png" 75 60 imw imh 5
+		image "images/plate27.png" 85 60 imw imh 5
+		image "images/plate21.png" 93 60 imw imh 5
+		ctext "Bars"    30 30 2.5
+		ctext "Maps"    60 30 2.5
+		ctext "Blocks"  75 30 2.5
+		ctext "Circles" 85 30 2.5
+		ctext "Graphs"  93 25 2.5
 	eslide
 
-	// Circles
-	slide
-		imy=imtop
-		ctext "Circles (12%)" 50 90 ts
-		image "images/plate11.png" 20 imy imw imh ims
-		image "images/plate16.png" 40 imy imw imh ims
-		image "images/plate22.png" 60 imy imw imh ims
-		image "images/plate25.png" 80 imy imw imh ims
-		imy-=rs
-		image "images/plate27.png" 30 imy imw imh ims
-		image "images/plate37.png" 50 imy imw imh ims
-		image "images/plate44.png" 70 imy imw imh ims
-	eslide
-
-	// Graphs
-	slide
-		imy=50
-		ctext "Graphs (5%)" 50 90 ts
-		image "images/plate07.png" 20 imy imw imh 20 // ims
-		image "images/plate21.png" 50 imy imw imh 20 // ims
-		image "images/plate40.png" 80 imy imw imh 20 // ims
-	eslide
-
-	// Blocks
-	slide
-		imy=imtop
-		ctext "Blocks (12%)" 50 90 ts
-		image "images/plate51.png" 20 imy imw imh ims
-		image "images/plate53.png" 40 imy imw imh ims
-		image "images/plate54.png" 60 imy imw imh ims
-		image "images/plate57.png" 80 imy imw imh ims
-		imy-=rs
-		image "images/plate61.png" 30 imy imw imh ims
-		image "images/platexx.png" 50 imy imw imh ims
-		image "images/plate55.png" 70 imy imw imh ims
-
-	eslide
 
 	// Bars
 	slide
 		imy=75
 		rs=20
-		ims/=2
+		ims=7 ///=2
 
-		ctext "Bars (54%)" 50 90 ts
+		ctext "Bars (54.39%)" 50 90 ts
 		image "images/plate03.png" 15 imy imw imh ims
 		image "images/plate04.png" 25 imy imw imh ims
 		image "images/plate09.png" 35 imy imw imh ims
@@ -172,6 +130,64 @@ deck
 		image "images/plate60.png" 55 imy imw imh ims
 		image "images/plate62.png" 65 imy imw imh ims
 		image "images/plate63.png" 75 imy imw imh ims
+	eslide
+	
+	ims=14
+	rs=40
+	imtop=65
+
+	// Maps
+	slide
+		imy=imtop
+		ctext "Maps (15.79%)" 50 90 ts
+		image "images/plate01.png" 10 imy imw imh ims
+		image "images/plate02.png" 30 imy imw imh ims
+		image "images/plate05.png" 50 imy imw imh ims
+		image "images/plate06.png" 70 imy imw imh ims
+		image "images/plate08.png" 90 imy imw imh ims
+		imy-=rs
+		image "images/plate20.png" 20 imy imw imh ims
+		image "images/plate38.png" 40 imy imw imh ims
+		image "images/plate41.png" 60 imy imw imh ims
+		image "images/plate42.png" 80 imy imw imh ims
+	eslide
+
+	// Circles
+	slide
+		imy=imtop
+		ctext "Circles (12.28%)" 50 90 ts
+		image "images/plate11.png" 20 imy imw imh ims
+		image "images/plate16.png" 40 imy imw imh ims
+		image "images/plate22.png" 60 imy imw imh ims
+		image "images/plate25.png" 80 imy imw imh ims
+		imy-=rs
+		image "images/plate27.png" 30 imy imw imh ims
+		image "images/plate37.png" 50 imy imw imh ims
+		image "images/plate44.png" 70 imy imw imh ims
+	eslide
+
+	// Blocks
+	slide
+		imy=imtop
+		ctext "Blocks (12.28%)" 50 90 ts
+		image "images/plate51.png" 20 imy imw imh ims
+		image "images/plate53.png" 40 imy imw imh ims
+		image "images/plate54.png" 60 imy imw imh ims
+		image "images/plate57.png" 80 imy imw imh ims
+		imy-=rs
+		image "images/plate61.png" 30 imy imw imh ims
+		image "images/platexx.png" 50 imy imw imh ims
+		image "images/plate55.png" 70 imy imw imh ims
+
+	eslide
+
+	// Graphs
+	slide
+		imy=50
+		ctext "Graphs (5.26%)" 50 90 ts
+		image "images/plate07.png" 20 imy imw imh 20 // ims
+		image "images/plate21.png" 50 imy imw imh 20 // ims
+		image "images/plate40.png" 80 imy imw imh 20 // ims
 	eslide
 
 	// Colors	
