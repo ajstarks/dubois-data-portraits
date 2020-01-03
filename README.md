@@ -3,6 +3,8 @@
 decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualizing Black America" 
 edited by Whitney Battle-Baptiste and Britt Rusert (ISBN 978-1-61689-706-2)
 
+The original plates (also include in this repo), may be accessed at the [Library of Congress](https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?c=200&sp=3&st=grid)
+
 * Plate  1: The Georgia Negro
 * Plate  2: Relative Negro Population of the States of the United States
 * Plate  3: States of the United States According to Their Negro Population
