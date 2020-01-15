@@ -94,59 +94,17 @@ deck
 		ctext "Graphs"  x5 barty pmts
 	eslide
 
-
 	// Bars
 	slide
-		imy=75
-		rs=20
-		ims=7 ///=2
-
 		ctext "Bars" 50 90 ts
-		image "images/plate03.png" 15 imy imw imh ims
-		image "images/plate04.png" 25 imy imw imh ims
-		image "images/plate09.png" 35 imy imw imh ims
-		image "images/plate10.png" 45 imy imw imh ims
-		image "images/plate12.png" 55 imy imw imh ims
-		image "images/plate13.png" 65 imy imw imh ims
-		image "images/plate14.png" 75 imy imw imh ims
-		image "images/plate15.png" 85 imy imw imh ims
-
-		imy-=rs
-		image "images/plate17.png" 15 imy imw imh ims
-		image "images/plate18.png" 25 imy imw imh ims
-		image "images/plate19.png" 35 imy imw imh ims
-		image "images/plate23.png" 45 imy imw imh ims
-		image "images/plate24.png" 55 imy imw imh ims
-		image "images/plate26.png" 65 imy imw imh ims
-		image "images/plate30.png" 75 imy imw imh ims
-		image "images/plate31.png" 85 imy imw imh ims
-
-		imy-=rs
-		image "images/plate39.png" 15 imy imw imh ims
-		image "images/plate43.png" 25 imy imw imh ims
-		image "images/plate45.png" 35 imy imw imh ims
-		image "images/plate46.png" 45 imy imw imh ims
-		image "images/plate47.png" 55 imy imw imh ims
-		image "images/plate48.png" 65 imy imw imh ims
-		image "images/plate49.png" 75 imy imw imh ims
-		image "images/plate50.png" 85 imy imw imh ims
-
-		imy-=rs
-		image "images/plate52.png" 15 imy imw imh ims
-		image "images/plate56.png" 25 imy imw imh ims
-		image "images/plate58.png" 35 imy imw imh ims
-		image "images/plate59.png" 45 imy imw imh ims
-		image "images/plate60.png" 55 imy imw imh ims
-		image "images/plate62.png" 65 imy imw imh ims
-		image "images/plate63.png" 75 imy imw imh ims
+		grid "bargrid.dsh" 7 79 12 22 95
 	eslide
-	
-	ims=14
-	rs=40
-	imtop=65
 
 	// Maps
 	slide
+		ims=14
+		rs=40
+		imtop=65
 		imy=imtop
 		ctext "Maps" 50 90 ts
 		image "images/plate01.png" 10 imy imw imh ims
