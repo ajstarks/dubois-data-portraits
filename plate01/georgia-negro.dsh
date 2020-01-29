@@ -1,8 +1,8 @@
 // Plate 1: The Georgia Negro
 deck
 	slide
-		ctext "THE GEORGIA NEGRO." 50 92 4
-		clist 50 87 2 "sans" "black" 100 1.3
+		ctext "THE GEORGIA NEGRO." 50 92 4 "serif"
+		clist 50 87 2 "serif" "black" 100 1.3
 			li "A SOCIAL STUDY"
 			li "BY"
 			li "W.E.BURGHARDT DU BOIS."
@@ -35,9 +35,9 @@ deck
 		hline 26 34.50 2 0.1 "black"
 		hline 26 33.75 2 0.1 "black"
 
-		ctext		"ROUTES OF THE AFRICAN SLAVE TRADE." 50 34 2 "serif" tcolor
-		textfile	"blurb.txt" 10 20 2 "serif" tcolor
-		ctext		"*  THE PROBLEM OF THE 20TH CENTURY IS THE PROBLEM OF THE" 50 10 2 "serif" tcolor
-		ctext		"COLOR-LINE" 50 8 2 "serif" tcolor
+		ctext		"ROUTES OF THE AFRICAN SLAVE TRADE." 50 34 2 "sans" tcolor
+		textfile	"blurb.txt" 10 20 2 "sans" tcolor
+		ctext		"*  THE PROBLEM OF THE 20TH CENTURY IS THE PROBLEM OF THE" 50 10 2 "sans" tcolor
+		ctext		"COLOR-LINE" 50 8 2 "sans" tcolor
 	eslide
 edeck
