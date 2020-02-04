@@ -32,10 +32,10 @@ deck
 		circle cx1 44 cr "blue" 50
 		cx1+=3
 		text "AGRICULTURE, FISHERIES"    cx1 54   legsize
-		text "         AND MINING."       cx1 52.5 legsize
+		text "         AND MINING."      cx1 52.5 legsize
 
 		text "MANUFACTURING AND"         cx1 44.5  legsize
-		text "MECHANICAL INSTRUSTRIES."   cx1 43    legsize
+		text "MECHANICAL INSTRUSTRIES."  cx1 43    legsize
 
 		circle cx2 59 cr "gold"
 		circle cx2 49 cr "rgb(101,67,33)" 80
@@ -43,12 +43,12 @@ deck
 
 		cx2-=3
 		etext " DOMESTIC AND"           cx2  59.5 legsize
-		etext "PERSONAL SERVICE."        cx2  58   legsize
+		etext "PERSONAL SERVICE."       cx2  58   legsize
 
-		etext "PROFESSIONS."             cx2  48.5 legsize
+		etext "PROFESSIONS."            cx2  48.5 legsize
 
 		etext "  TRADE AND"             cx2  41.5 legsize
-		etext "TRANSPORTATION."          cx2  40   legsize
+		etext "TRANSPORTATION."         cx2  40   legsize
 
 		ctext "69%"   36 78 subsize
 		ctext "28%"   69 78 subsize

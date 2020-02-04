@@ -243,11 +243,11 @@ deck
 	slide "black" "white"
 		ny=5
 		lh=ny+2
-		ly=ny+1.5
-		image "images/working-screenshot.png" mx my 1920 1080
-		ctext "Code"				12 ny ns
-		ctext "Output"				40 ny ns
-		ctext "Reference"			83 ny ns
+		ly=ny+1.2
+		image "images/cpo.png" mx my 1920 1080
+		ctext "Code"				7 ny ns
+		ctext "Output"				33 ny ns
+		ctext "Reference"			80 ny ns
 		hline 0 ly 100 lh "black" 80
 	eslide
 
