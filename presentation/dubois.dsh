@@ -107,13 +107,13 @@ deck
 	eslide
 
 	// Bars
-	slide
+	slide bgcolor fgcolor
 		ctext "Bars" 50 90 ts
 		grid "bargrid.dsh" 7 79 12 22 95
 	eslide
 
 	// Maps
-	slide
+	slide bgcolor fgcolor
 		ims=14
 		rs=40
 		imtop=65
@@ -132,7 +132,7 @@ deck
 	eslide
 
 	// Circles
-	slide
+	slide bgcolor fgcolor
 		imy=imtop
 		ctext "Circles" 50 90 ts
 		image "images/plate11.png" 20 imy imw imh ims
@@ -146,7 +146,7 @@ deck
 	eslide
 
 	// Blocks
-	slide
+	slide bgcolor fgcolor
 		imy=imtop
 		ctext "Blocks" 50 90 ts
 		image "images/plate51.png" 20 imy imw imh ims
@@ -161,7 +161,7 @@ deck
 	eslide
 
 	// Graphs
-	slide
+	slide bgcolor fgcolor
 		imy=45
 		ctext "Graphs" 50 90 ts
 		image "images/plate07.png" 20 imy imw imh 25 // ims
