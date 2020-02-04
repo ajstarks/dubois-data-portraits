@@ -162,11 +162,11 @@ deck
 
 	// Graphs
 	slide
-		imy=50
+		imy=45
 		ctext "Graphs" 50 90 ts
-		image "images/plate07.png" 20 imy imw imh 20 // ims
-		image "images/plate21.png" 50 imy imw imh 20 // ims
-		image "images/plate40.png" 80 imy imw imh 20 // ims
+		image "images/plate07.png" 20 imy imw imh 25 // ims
+		image "images/plate21.png" 50 imy imw imh 25 // ims
+		image "images/plate40.png" 80 imy imw imh 25 // ims
 	eslide
 
 	// Colors	
