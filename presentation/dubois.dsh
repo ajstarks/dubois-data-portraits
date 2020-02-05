@@ -65,10 +65,10 @@ deck
 	// In 1898 the duly elected people in Wilmington NC was violently overthrown by whites.
 	// The coup occurred after the state's white Southern Democrats conspired and led a mob of 
 	// 2,000 white men to overthrow the legitimately-elected local Fusionist government. 
-	// They expelled opposition black and white political leaders from the city, destroyed the property 
-	// and businesses of black citizens built up since the Civil War, 
-	// including the only black newspaper in the city, and killed an 
-	// estimated 60 to more than 300 people
+	// They expelled opposition black and white political leaders from the city, destroyed 
+	// the property and businesses of black citizens built up since the Civil War,  
+	// including the only black newspaper in the city, and killed an estimated 60 to 
+	// more than 300 people
 	slide bgcolor fgcolor
 		image "images/plate38.png" 10 73 imw imh 5
 		image "images/plate27.png" 10 52 imw imh 5
@@ -265,6 +265,7 @@ deck
 		image "images/layoutmap.png"     75 50  2016  1584 45
 	eslide
 
+	// Code distribution
 	slide bgcolor fgcolor
 		chcolor="rgb(101,67,33)"
 		// sort -k2 -nr dshfiles.d > sorted-dshfiles.d
@@ -286,6 +287,7 @@ deck
 		etext "98.37"		nx 30 ns "sans" chcolor
 	eslide
 
+	// Code management
 	slide bgcolor fgcolor
 		ctext "Code Management and Automation" tx ty ts
 		y=ty-15
@@ -300,23 +302,32 @@ deck
 		vline 65 5 70 
 	eslide
 
-	// Catalog
+	// Examples
 	catbgcolor=bgcolor
 	catimw=2116
 	catimh=2688
 	catimscale=36
 
+	// Example section
+	slide bgcolor fgcolor
+		ctext "Examples" 50 50 bannersize
+ 	eslide
+
+	// Simple example
+	slide bgcolor fgcolor
+		textfile "../plate39/population.dsh" 5 27 1.35 "mono" "" 100 1.2
+		textfile "../plate39/pop.d"          5 90 1.35 "mono" "" 100 1.2
+		vline 14 45 50 20 "white"
+		image "images/plate39.png" 55 62 catimw catimh 27
+	eslide
+
+	// Intermediate
 	slide bgcolor fgcolor
 		textfile "../plate58/pauper.dsh" 2 90 1.35 "mono"  "" 100 1.2
 		image "images/plate58.png" 78 50 catimw catimh catimscale
 	eslide
 
-	slide bgcolor fgcolor
-		textfile "../plate39/population.dsh" 5 90 1.35 "mono" "" 100 1.2
-		textfile "../plate39/pop.d"          5 60 1.35 "mono" "" 100 1.2 
-		image "images/plate39.png" 50 40 catimw catimh 27
-	eslide
-
+	// Relationships
 	slide bgcolor fgcolor
 		textfile "relationships.dsh"  10 90 1.35 "mono" "" 100 1.2
 		image    "images/plate50.png" 65 50 catimw catimh catimscale
@@ -347,7 +358,7 @@ deck
 	imscale=8
 	ims2=imscale*10
 	ims3=ims2/4
-    slide "white" "rgb(100,100,100)"
+    slide bgcolor fgcolor // "white" "rgb(100,100,100)"
         image "images/starx.png"        mx 75 512 512 60
         ctext "Anthony J. Starks"       mx 35 ts "sans" "black"
         ctext "Art + Code"              mx 22 ss "sans" "maroon"
