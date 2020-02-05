@@ -35,27 +35,6 @@ deck
 		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
 
-	slide bgcolor
-		image "images/expo0.png" 50 50 1157 1525 60
-	eslide
-
-	// Show viz IRL
-	slide bgcolor fgcolor
-		ims=4
-		image "images/expo0.png" 50 50 1157 1525 60
-		image "images/plate01.png" 46 40 imw imh ims
-		image "images/plate37.png" 59.5 40 imw imh ims
-		image "images/platexx.png" 61.5 65 imw imh ims
-		image "images/plate55.png" 39.5 65 imw imh ims
-	eslide
-
-	// Dimensions
-	slide bgcolor fgcolor
-		image "images/33899v.jpg" mx my 818 1024 80
-		ctext "22”" 50 90 3 "sans" "maroon"
-		ctext "28”" 30 50 3 "sans" "maroon"
-	eslide
-
 	// Purpose and messages
 	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
 	// During the 1880s and 1890s, instances of lethal mob violence increased steadily, 
@@ -79,6 +58,29 @@ deck
 			li "This is how far we have come"
 		elist
 	eslide
+
+	slide bgcolor
+		image "images/expo0.png" 50 50 1157 1525 60
+	eslide
+
+	// Show viz IRL
+	slide bgcolor fgcolor
+		ims=4
+		image "images/expo0.png" 50 50 1157 1525 60
+		image "images/plate01.png" 46 40 imw imh ims
+		image "images/plate37.png" 59.5 40 imw imh ims
+		image "images/platexx.png" 61.5 65 imw imh ims
+		image "images/plate55.png" 39.5 65 imw imh ims
+	eslide
+
+	// Dimensions
+	slide bgcolor fgcolor
+		image "images/33899v.jpg" mx my 818 1024 80
+		ctext "22”" 50 90 3 "sans" "maroon"
+		ctext "28”" 30 50 3 "sans" "maroon"
+	eslide
+
+	
 
 	// Taxonomy
 
@@ -202,7 +204,7 @@ deck
 
 	// Book Grid
 	slide "black" "white"
-		image "images/grid02.jpg" mx my 4032 3024 33
+		image "images/book-grid.jpg" mx my 4032 3024 33
 	eslide
 
 	// Materials comparison
@@ -282,9 +284,9 @@ deck
 		text "Total LoC:"	nx 40 ns
 		text "Average LoC:"	nx 30 ns
 		nx+=35
-		etext "57"			nx 50 ns "sans" chcolor
-		etext "6,492"		nx 40 ns "sans" chcolor
-		etext "98.37"		nx 30 ns "sans" chcolor
+		etext "57"			nx 50 ns "sans" "maroon"
+		etext "6,492"		nx 40 ns "sans" "maroon"
+		etext "98.37"		nx 30 ns "sans" "maroon"
 	eslide
 
 	// Code management
