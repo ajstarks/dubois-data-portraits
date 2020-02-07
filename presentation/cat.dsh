@@ -1,115 +1,176 @@
+	caty=2
+	catc1=27
+	catc2=73
+	catls=1.2
 	slide catbgcolor
-		image "images/plate01.png" 27 50 catimw catimh catimscale
-		image "images/plate02.png" 73 50 catimw catimh catimscale
+		image "images/plate01.png" catc1 50 catimw catimh catimscale
+		image "images/plate02.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 1" catc1 caty catls
+		ctext "Plate 2" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate03.png" 27 50 catimw catimh catimscale
-		image "images/plate04.png" 73 50 catimw catimh catimscale
+		image "images/plate03.png" catc1 50 catimw catimh catimscale
+		image "images/plate04.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 3" catc1 caty catls
+		ctext "Plate 4" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate05.png" 27 50 catimw catimh catimscale
-		image "images/plate06.png" 73 50 catimw catimh catimscale
+		image "images/plate05.png" catc1 50 catimw catimh catimscale
+		image "images/plate06.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 5" catc1 caty catls
+		ctext "Plate 6" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate07.png" 27 50 catimw catimh catimscale
-		image "images/plate08.png" 73 50 catimw catimh catimscale
+		image "images/plate07.png" catc1 50 catimw catimh catimscale
+		image "images/plate08.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 7" catc1 caty catls
+		ctext "Plate 8" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate09.png" 27 50 catimw catimh catimscale
-		image "images/plate10.png" 73 50 catimw catimh catimscale
+		image "images/plate09.png" catc1 50 catimw catimh catimscale
+		image "images/plate10.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 9" catc1 caty catls
+		ctext "Plate 10" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate11.png" 27 50 catimw catimh catimscale
-		image "images/plate12.png" 73 50 catimw catimh catimscale
+		image "images/plate11.png" catc1 50 catimw catimh catimscale
+		image "images/plate12.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 11" catc1 caty catls
+		ctext "Plate 12" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate13.png" 27 50 catimw catimh catimscale
-		image "images/plate14.png" 73 50 catimw catimh catimscale
+		image "images/plate13.png" catc1 50 catimw catimh catimscale
+		image "images/plate14.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 13" catc1 caty catls
+		ctext "Plate 14" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate15.png" 27 50 catimw catimh catimscale
-		image "images/plate16.png" 73 50 catimw catimh catimscale
+		image "images/plate15.png" catc1 50 catimw catimh catimscale
+		image "images/plate16.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 15" catc1 caty catls
+		ctext "Plate 16" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate17.png" 27 50 catimw catimh catimscale
-		image "images/plate18.png" 73 50 catimw catimh catimscale
+		image "images/plate17.png" catc1 50 catimw catimh catimscale
+		image "images/plate18.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 17" catc1 caty catls
+		ctext "Plate 18" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate19.png" 27 50 catimw catimh catimscale
-		image "images/plate20.png" 73 50 catimw catimh catimscale
+		image "images/plate19.png" catc1 50 catimw catimh catimscale
+		image "images/plate20.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 19" catc1 caty catls
+		ctext "Plate 20" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate21.png" 27 50 catimw catimh catimscale
-		image "images/plate22.png" 73 50 catimw catimh catimscale
+		image "images/plate21.png" catc1 50 catimw catimh catimscale
+		image "images/plate22.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 21" catc1 caty catls
+		ctext "Plate 22" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate23.png" 27 50 catimw catimh catimscale
-		image "images/plate24.png" 73 50 catimw catimh catimscale
+		image "images/plate23.png" catc1 50 catimw catimh catimscale
+		image "images/plate24.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 23" catc1 caty catls
+		ctext "Plate 24" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate25.png" 27 50 catimw catimh catimscale
-		image "images/plate26.png" 73 50 catimw catimh catimscale
+		image "images/plate25.png" catc1 50 catimw catimh catimscale
+		image "images/plate26.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 25" catc1 caty catls
+		ctext "Plate 26" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate27.png" 27 50 catimw catimh catimscale
-		image "images/plate30.png" 73 50 catimw catimh catimscale
+		image "images/plate27.png" catc1 50 catimw catimh catimscale
+		image "images/plate30.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 27" catc1 caty catls
+		ctext "Plate 30" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate31.png" 27 50 catimw catimh catimscale
-		image "images/plate37.png" 73 50 catimw catimh catimscale
+		image "images/plate31.png" catc1 50 catimw catimh catimscale
+		image "images/plate37.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 31" catc1 caty catls
+		ctext "Plate 37" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate38.png" 27 50 catimw catimh catimscale
-		image "images/plate39.png" 73 50 catimw catimh catimscale
+		image "images/plate38.png" catc1 50 catimw catimh catimscale
+		image "images/plate39.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 38" catc1 caty catls
+		ctext "Plate 39" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate40.png" 27 50 catimw catimh catimscale
-		image "images/plate41.png" 73 50 catimw catimh catimscale
+		image "images/plate40.png" catc1 50 catimw catimh catimscale
+		image "images/plate41.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 40" catc1 caty catls
+		ctext "Plate 41" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate42.png" 27 50 catimw catimh catimscale
-		image "images/plate43.png" 73 50 catimw catimh catimscale
+		image "images/plate42.png" catc1 50 catimw catimh catimscale
+		image "images/plate43.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 42" catc1 caty catls
+		ctext "Plate 43" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate44.png" 27 50 catimw catimh catimscale
-		image "images/plate45.png" 73 50 catimw catimh catimscale
+		image "images/plate44.png" catc1 50 catimw catimh catimscale
+		image "images/plate45.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 44" catc1 caty catls
+		ctext "Plate 45" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate46.png" 27 50 catimw catimh catimscale
-		image "images/plate47.png" 73 50 catimw catimh catimscale
+		image "images/plate46.png" catc1 50 catimw catimh catimscale
+		image "images/plate47.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 46" catc1 caty catls
+		ctext "Plate 47" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate48.png" 27 50 catimw catimh catimscale
-		image "images/plate49.png" 73 50 catimw catimh catimscale
+		image "images/plate48.png" catc1 50 catimw catimh catimscale
+		image "images/plate49.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 48" catc1 caty catls
+		ctext "Plate 49" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate50.png" 27 50 catimw catimh catimscale
-		image "images/plate51.png" 73 50 catimw catimh catimscale
+		image "images/plate50.png" catc1 50 catimw catimh catimscale
+		image "images/plate51.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 50" catc1 caty catls
+		ctext "Plate 51" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate52.png" 27 50 catimw catimh catimscale
-		image "images/plate53.png" 73 50 catimw catimh catimscale
+		image "images/plate52.png" catc1 50 catimw catimh catimscale
+		image "images/plate53.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 52" catc1 caty catls
+		ctext "Plate 53" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate54.png" 27 50 catimw catimh catimscale
-		image "images/plate55.png" 73 50 catimw catimh catimscale
+		image "images/plate54.png" catc1 50 catimw catimh catimscale
+		image "images/plate55.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 54" catc1 caty catls
+		ctext "Plate 55" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate56.png" 27 50 catimw catimh catimscale
-		image "images/plate57.png" 73 50 catimw catimh catimscale
+		image "images/plate56.png" catc1 50 catimw catimh catimscale
+		image "images/plate57.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 56" catc1 caty catls
+		ctext "Plate 57" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate58.png" 27 50 catimw catimh catimscale
-		image "images/plate59.png" 73 50 catimw catimh catimscale
+		image "images/plate58.png" catc1 50 catimw catimh catimscale
+		image "images/plate59.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 58" catc1 caty catls
+		ctext "Plate 59" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate60.png" 27 50 catimw catimh catimscale
-		image "images/plate61.png" 73 50 catimw catimh catimscale
+		image "images/plate60.png" catc1 50 catimw catimh catimscale
+		image "images/plate61.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 60" catc1 caty catls
+		ctext "Plate 61" catc2 caty catls
 	eslide
 	slide catbgcolor
-		image "images/plate62.png" 27 50 catimw catimh catimscale
-		image "images/plate63.png" 73 50 catimw catimh catimscale
+		image "images/plate62.png" catc1 50 catimw catimh catimscale
+		image "images/plate63.png" catc2 50 catimw catimh catimscale
+		ctext "Plate 62" catc1 caty catls
+		ctext "Plate 63" catc2 caty catls
 	eslide
 	slide catbgcolor
 		image "images/platexx.png" 50 50 catimw catimh catimscale
+		ctext "Plate XX" 50 caty catls
 	eslide

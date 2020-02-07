@@ -52,7 +52,7 @@ deck
 		image "images/plate38.png" 10 73 imw imh 5
 		image "images/plate27.png" 10 52 imw imh 5
 		image "images/plate22.png" 10 30 imw imh 5
-		list 15 70 6 "serif" "maroon"
+		list 15 70 6 "sans" "maroon"
 			li "We are here"
 			li "This is who we are"
 			li "This is how far we have come"
