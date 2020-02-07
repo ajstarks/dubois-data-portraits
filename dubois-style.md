@@ -10,7 +10,7 @@ The sources above use plate numbers to indicate the visuals, this document users
 
 ## Taxonomy
 
-The approximately 60 visuals produced for the 1990 Exposition fall into these categories: bar charts (31), maps (9), visuals with circular features (7), visuals using large blocks of color (7), and line graphs (3). The visuals also use bold primary colors and abstract forms prior to modernist movements developed later in the twentieth century.
+The approximately 60 visuals produced for the 1900 Exposition fall into these categories: bar charts (31), maps (9), visuals with circular features (7), visuals using large blocks of color (7), and line graphs (3). The visuals also use bold primary colors and abstract forms prior to modernist movements developed later in the twentieth century.
 
 ## Bars
 
