@@ -1,26 +1,26 @@
 # What is a Dubois-style visualization?
 
-# Introduction
+## Introduction
 
-To help designers, artists, developers, and scholars seeking to implement or study the "Dubois Style", this document describes aspects of the visualizations created by the W. E. B Dubois' team for the 1900 Paris exposition.
+To help designers, artists, developers, and scholars seeking to implement or study the "Dubois Style", this document describes aspects of the visualizations created by  W. E. B Dubois' team for the 1900 Paris exposition.
 
-To learn more see "W.E.B Dubois's Data Portraits Visualizing Black America" by Whitney Battle-Baptise and Britt Rusert (ISBN-978-1-61689-706-2) and the Library of Congress collection["African American Photographs Assembled for 1900 Paris Exposition"](https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/about-this-collection/)
+To learn more see "W.E.B Dubois's Data Portraits Visualizing Black America" by Whitney Battle-Baptise and Britt Rusert (ISBN-978-1-61689-706-2) and the Library of Congress collection ["African American Photographs Assembled for 1900 Paris Exposition"](https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/about-this-collection/)
 
 The sources above use plate numbers to indicate the visuals, this document users the same convention.
 
-# Taxonomy
+## Taxonomy
 
-The approximately 60 visuals produced for the 1990 Exposition, fall into these categories: bar charts (31), maps (9), visuals with circular features (7), visuals using large blocks of color (7), and line graphs (3).
+The approximately 60 visuals produced for the 1990 Exposition fall into these categories: bar charts (31), maps (9), visuals with circular features (7), visuals using large blocks of color (7), and line graphs (3). The visuals also use bold primary colors and abstract forms prior to modernist movements developed later in the twentieth century.
 
 ## Bars
 
-In the original set, 31 visuals are some type of bar chart. These range from conventional bar charts (mostly horizontal bars) with medium to long descriptions on the left, using a single color, with the values sorted. Red tends to be the dominate color in this case.  In one case the bars are used to echo the shape of its subject -- the state of Georgia (plate 19)
+The most prevalent type of visualization are bar charts. Some are conventional bar charts (mostly horizontal bars) with labels on the left, using a single color, with the values sorted. Red tends to be the dominate color for this type, although other colors like gray, yellow and green are also used. In one case the bars echo the shape of its subject -- the state of Georgia (plate 19)
 
 <img src="plate03/original-plate-03.jpg" width="220" height="280">
 <img src="plate39/original-plate-39.jpg" width="220" height="280">
 <img src="plate19/original-plate-19.jpg" width="220" height="280">
 
-There is three cases (plates 17, 26 and 62) where a bar is wrapped spanning 2-3 vertical lines. 
+There is three cases (plates 17, 26 and 62) where a bar is wrapped spanning 2-3 vertical lines. This use of wrapping is echoed in spirals described below.
 
 <img src="plate17/original-plate-17.jpg" width="220" height="280">
 <img src="plate26/original-plate-26.jpg" width="220" height="280">
@@ -62,7 +62,7 @@ Another use of circles include conventional pie charts (plate 37), and the not q
 
 ## Blocks
 
-Bold blocks of color are used in several charts. Area graphs (plates 51, 53, 54):
+Bold blocks of color are used in several charts, for example, area graphs in plates 51, 53, 54:
 
 <img src="plate51/original-plate-51.jpg" width="220" height="280">
 <img src="plate53/original-plate-53.jpg" width="220" height="280">
