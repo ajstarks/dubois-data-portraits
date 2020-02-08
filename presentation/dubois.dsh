@@ -156,9 +156,10 @@ deck
 		image "images/plate54.png" 60 imy imw imh ims
 		image "images/plate57.png" 80 imy imw imh ims
 		imy-=rs
-		image "images/plate61.png" 30 imy imw imh ims
-		image "images/platexx.png" 50 imy imw imh ims
-		image "images/plate55.png" 70 imy imw imh ims
+		image "images/plate61.png" 20 imy imw imh ims
+		image "images/platexx.png" 40 imy imw imh ims
+		image "images/plate55.png" 60 imy imw imh ims
+		image "images/plate58.png" 80 imy imw imh ims
 
 	eslide
 
@@ -235,11 +236,90 @@ deck
 		image "images/m05.jpg" 70 50 3024 4032 25
 	eslide
 
-	// decksh banner
+
+
+	// decksh Elements
 	slide bgcolor fgcolor
-		ctext "Made with" tx ty ts
-		ctext "decksh" 50 50 bannersize "mono" "maroon"
+		left=5
+		top=85
+		//titlesize=bannersize
+		rowleft=left+3
+		kx=rowleft
+		ky=top-15
+		ktx=kx+5
+		kty=ky-1.5
+		kcolsp=30
+		krowsp=20
+		kimw=120
+		kimh=120
+		kts=bannersize/2
+		kcolor="maroon"
+
+		ctext "decksh elements" 50 top 6
+
+		// Row 1
+		image "images/structure.png" kx ky kimw kimh
+		text "Structure" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/text.png" kx ky kimw kimh
+		text "Text" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/list.png" kx ky kimw kimh
+		text "Lists" ktx kty kts "sans" kcolor
+
+		kx=rowleft
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+
+		// Row 2
+		image "images/arrow.png" kx ky kimw kimh
+		text "Arrows" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/img.png" kx ky kimw kimh
+		text "Images" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/shapes.png" kx ky kimw kimh
+		text "Graphics" ktx kty kts "sans" kcolor
+
+		kx=rowleft
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+		
+		// Row 3
+		image "images/chart.png" kx ky kimw kimh
+		text "Charts" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/loop.png" kx ky kimw kimh
+		text "Loops" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/data.png" kx ky kimw kimh
+		text "Data" ktx kty kts "sans" kcolor
+
+		kx=rowleft+kcolsp
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+
+		image "images/utility.png" kx ky kimw kimh
+		text "Utility" ktx kty kts "sans" kcolor
 	eslide
+
+	// Percent grid
+	include "grid.dsh"
 
 	// Development flow
 	slide "black" "white"
@@ -253,8 +333,7 @@ deck
 		hline 0 ly 100 lh "black" 80
 	eslide
 
-	// Percent grid
-	include "grid.dsh"
+	
 
 	// Layout example
 	slide bgcolor fgcolor
