@@ -6,7 +6,7 @@ decksh front-matter.dsh | pdfdeck -stdout -pagesize $portrait -sans PublicSans-B
 ls plate*/f1.png | ./catalog9 | decksh | pdfdeck -stdout -pagesize $portrait - > toc.pdf
 
 echo "Building"
-for i in plate*
+for i in plate??
 do
 	cd $i
 	echo -n "$i "
