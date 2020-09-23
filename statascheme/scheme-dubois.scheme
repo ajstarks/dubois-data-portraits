@@ -2,7 +2,10 @@
 
 
 
-*!  version 1.0   10june2020
+*!  version 1.1   22september2020
+
+*by Charlie Eaton, University of California, Merced
+*Note: This scheme was written using the 538 scheme as a template.
 
 sequence 1210
 label "duboise"
@@ -236,14 +239,14 @@ color axisline     none
 color tick         "155 155 155"
 color minortick    "155 155 155"
 
-color ci_line        538b
-color ci_arealine    538bs6
-color ci_area        538bs6
-color ci_symbol      538bs6
-color ci2_line       538r
-color ci2_arealine   538rs6
-color ci2_area       538rs6
-color ci2_symbol     538rs6
+*color ci_line        
+*color ci_arealine    
+*color ci_area        
+*color ci_symbol      
+*color ci2_line       
+*color ci2_arealine   
+*color ci2_area       
+*color ci2_symbol     
 
 color pieline        none
 
@@ -274,8 +277,8 @@ color clegend_outer      none
 color clegend_inner      none
 color clegend_line       none
 
-*color contour_begin      538bs1
-*color contour_end        538rs11
+*color contour_begin      
+*color contour_end        
 
 color p 	"220 20 60" // crimson
 color p1 	"220 20 60" // crimson 
@@ -1002,7 +1005,7 @@ intensity dendrogram 50
 intensity dot_area   50
 intensity sunflower  50
 
-intensity bar        50
+intensity bar        100
 intensity bar_line   full
 intensity box        inten50
 intensity box_line   full
