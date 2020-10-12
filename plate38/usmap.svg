@@ -26,7 +26,7 @@ Place this code in the empty space below.
 #CT {fill:darkblue;}
 #DE {fill:darkblue;}
 #FL {fill:darkblue;}
-#GA {fill:gold;}
+#GA {fill:rgb(101,67,33);}
 #IA {fill:gold;}
 #ID {fill:gold;}
 #IL {fill:darkblue;}

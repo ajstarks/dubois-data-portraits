@@ -6,7 +6,7 @@ CO gold
 CT darkblue
 DE darkblue
 FL darkblue
-GA gold
+GA rgb(101,67,33)
 IA gold
 ID gold
 IL darkblue
