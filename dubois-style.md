@@ -1,5 +1,7 @@
 # What is a Dubois-style visualization?
 
+Anthony Starks (ajstarks@gmail.com)
+
 ## Introduction
 
 To help designers, artists, developers, and scholars seeking to implement or study the "Dubois Style", this document describes aspects of the visualizations created by  W. E. B Dubois' team for the 1900 Paris exposition.
