@@ -198,6 +198,15 @@ deck
 		ctext "blue" 	85 laby 2 "sans" "black"
 	eslide
 
+	// Typography
+	slide bgcolor fgcolor
+		ctext "Typography" tx ty ts
+		clist 50 50 9
+			li "Public Sans"
+			li "Charter"     "serif"
+ 		elist
+ 	eslide
+
 	// Book Cover
 	slide "black" "white"
 		image "images/cover01.jpg" mx my 4032 3024 33
@@ -255,7 +264,7 @@ deck
 		kts=bannersize/2
 		kcolor="maroon"
 
-		ctext "decksh elements" 50 top 6
+		ctext "decksh" 50 top 6
 
 		// Row 1
 		image "images/structure.png" kx ky kimw kimh
@@ -423,9 +432,19 @@ deck
 		image "images/pv07.jpg" 80 40 1760 2290 35
 	eslide
 
+	// Modern Dubois Style
+	slide bgcolor fgcolor
+		image "images/plate27.png" 25 50 2112 2688 40
+		image "images/modern-plate27.png" 75 50 2112 2688 40
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/predator.png" 50 50 2112 2688 45
+	eslide
+
 	slide bgcolor fgcolor
 		ctext "Repository" tx ty ts
-		ctext "github.com/ajstarks/dubois-data-portraits" 50 50 4 "mono" "maroon" 100 "https://ithub.com/ajstarks/dubois-data-portraits"
+		ctext "github.com/ajstarks/dubois-data-portraits" 50 50 4 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/blob/master/README.md"
 	eslide
 
 	// Business Card
@@ -445,17 +464,19 @@ deck
         ctext "Art + Code"              mx 22 ss "sans" "maroon"
         line  lx 90 lx 10 0.3 "maroon"
 
-        image "images/phone.png"        ix 80 1200 1200 imscale
-        image "images/email.png"        ix 65 1200 1200 imscale
-        image "images/twitter.png"      ix 50 1200 1200 imscale
-        image "images/github.png"       ix 35 120 120   ims2 
-        image "images/sd.png"           ix 20 512 512   ims3 
+        //image "images/phone.png"        ix 80 1200 1200 imscale
+        image "images/email.png"        ix 80 1200 1200 imscale
+        image "images/twitter.png"      ix 65 1200 1200 imscale
+        image "images/github.png"       ix 50 120 120   ims2 
+        image "images/sd.png"           ix 35 512 512   ims3 
+		image "images/ig-black.png"           ix 20 1200 1200 imscale
 
-        text "+1 908.548.3403"          tx 79 cs
-        text "ajstarks@gmail.com"       tx 64 cs
-        text "@ajstarks"                tx 49 cs
-        text "github.com/ajstarks"      tx 34 cs
-        text "speakerdeck.com/ajstarks" tx 19 cs
+        //text "+1 908.548.3403"          tx 79 cs
+        text "ajstarks@gmail.com"       tx 79 cs
+        text "@ajstarks"                tx 64 cs
+        text "github.com/ajstarks"      tx 49 cs
+        text "speakerdeck.com/ajstarks" tx 34 cs
+		text "@duboisviz"               tx 19 cs
     eslide
 
 	slide bgcolor fgcolor
