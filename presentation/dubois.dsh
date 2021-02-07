@@ -423,6 +423,10 @@ deck
 		image    "images/plate50.png" 65 50 catimw catimh catimscale
 	eslide
 
+	slide bgcolor fgcolor
+		ctext "Modern Data" 50 50 bannersize
+	eslide
+
 	// Related work
 	slide bgcolor fgcolor
 		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
@@ -431,6 +435,8 @@ deck
 		image "images/pv04.jpg" 50 40 1760 2278 35
 		image "images/pv07.jpg" 80 40 1760 2290 35
 	eslide
+
+	
 
 	// Modern Dubois Style
 	slide bgcolor fgcolor
