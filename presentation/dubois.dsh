@@ -385,9 +385,9 @@ deck
 		text "Scripting"      35 y ns "sans" "maroon"
 		text "Source Control" 70 y ns "sans" "maroon"
 		y-=7
-		textfile "tree.txt"       5 y 1.8 "mono"
-		textfile "scripting.txt" 35 y 1.8 "mono"
-		textfile "git.txt"       70 y 1.8 "mono"
+		textfile "tree.txt"       5 y 1.7 "mono"
+		textfile "scripting.txt" 35 y 1.7 "mono"
+		textfile "git.txt"       70 y 1.7 "mono"
 		vline 30 5 70
 		vline 65 5 70 
 	eslide
@@ -439,12 +439,20 @@ deck
 	eslide
 
 	slide bgcolor fgcolor
-		image "images/predator.png" 50 50 2112 2688 45
+		ctext "Original and Modern: Expenditures"  tx ty ts
+		image "images/original-plate-31.jpg" 25 40 1024 812  90
+		image "images/modern-plate-31.png"   75 40 2688 2112 35
 	eslide
 
 	slide bgcolor fgcolor
-		ctext "Repository" tx ty ts
-		ctext "github.com/ajstarks/dubois-data-portraits" 50 50 4 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/blob/master/README.md"
+		textblock "Data from the Social Sciences" 5 50 20 4
+		image "images/predator.png" 70 50 2112 2688 45
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Repos" tx ty ts
+		text "github.com/ajstarks/dubois-data-portraits" 10 50 4 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/blob/master/README.md"
+		text "github.com/ajstarks/modern-dubois-viz"     10 40 4 "mono" "maroon" 100 "https://github.com/ajstarks/modern-dubois-viz/README.md"
 	eslide
 
 	// Business Card
@@ -469,7 +477,7 @@ deck
         image "images/twitter.png"      ix 65 1200 1200 imscale
         image "images/github.png"       ix 50 120 120   ims2 
         image "images/sd.png"           ix 35 512 512   ims3 
-		image "images/ig-black.png"           ix 20 1200 1200 imscale
+		image "images/ig-black.png"     ix 20 1200 1200 imscale
 
         //text "+1 908.548.3403"          tx 79 cs
         text "ajstarks@gmail.com"       tx 79 cs
