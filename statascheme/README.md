@@ -14,10 +14,10 @@ Once you’ve added the **scheme-dubois.scheme** file to your folder, you can us
 * adding the specification **scheme(dubois)** to any graph command will render the graph using the Du Bois scheme
 
 Many elements of the Du Bois style cannot be automated with a Stata scheme file. For example, graph fonts cannot be controlled via a Stata scheme. To illustrate how to implement other elements of Du Bois style, this repository includes use cases for recreating original Du Bois data portraits and for creating visualizations of contemporary social data and relations in the Du Boisian style. The use cases are provided as Jupiter Notebooks containing both Stata code and graphs. For those who do not use Jupiter Notebooks, Notebooks can easily be viewed by copying and pasting the GitHub url for any Jupityr Notebook into the NBviewer: https://nbviewer.jupyter.org. The two initial use cases with notebooks are:
-* For-profit college enrollment by race **duboisforprofitenrollments.ipynb**, viewable at:  https://nbviewer.jupyter.org/github/charlieeatonphd/dubois-data-portraits/blob/master/statascheme/duboisforprofitenrollments.ipynb
-* Student debt and the hidden racial wealth gap **studentdebthiddenracialwealthgap.ipynb**, viewable at: nbviewer.jupyter.org/github/charlieeatonphd/dubois-data-portraits/blob/master/statascheme/studentdebthiddenracialwealthgap.ipynb
+* For-profit college enrollment by race **duboisforprofitenrollments.ipynb**, viewable at: https://nbviewer.jupyter.org/github/charlieeatonphd/dubois-data-portraits/blob/master/statascheme/duboisforprofitenrollments.ipynb
+* Student debt and the hidden racial wealth gap **studentdebthiddenracialwealthgap.ipynb**, viewable at: https://nbviewer.jupyter.org/github/charlieeatonphd/dubois-data-portraits/blob/master/statascheme/studentdebthiddenracialwealthgap.ipynb
 
-The **duboisforprofitenrollments.ipynb** Notebook plots for-profit college enrollments by race (left) based on the design of Plate 40's plot of the U.S. population by race from 1790 to 1890:
+The **duboisforprofitenrollments.ipynb** Notebook plots for-profit college enrollments by race (left) based on the Du Bois' design of Plate 40's plot of the U.S. population by race from 1790 to 1890:
 
 ![forprofitsvsplate40](duboisforprofitsvspopulation19701890.png)
 
