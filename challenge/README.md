@@ -5,7 +5,7 @@
 The goal of the challenge is to celebrate the data visualization legacy of W.E.B DuBois by recreating the visualizations from the 1900 Paris Exposition using modern tools.
 
 This directory contains the data and original plates from the exposition; your goal is to re-create
-the visualizations using modern tools of your choice (Tableau, PowerBi, decksh, etc)
+the visualizations using modern tools of your choice (Tableau, R, ggplot, Stata, PowerBI, decksh, etc)
 
 In this repo, there is a folder for each challenge, which includes the images of the 1900 original plates along with the corresponding data. You may submit your re-creations to twitter using the hash tag ```#DuBoisChallenge```
 
