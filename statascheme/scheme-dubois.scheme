@@ -1,14 +1,15 @@
 *                                    duboise.scheme
 
 
-
 *!  version 1.1   22september2020
 
-*by Charlie Eaton, University of California, Merced
+*by Charlie Eaton, Jay Colond, Ruben Gonzalez, and Waleed Rajabally
+*University of California, Merced
+*Correspondence to ceaton2@ucmerced.edu
 *Note: This scheme was written using the 538 scheme as a template.
 
 sequence 1210
-label "duboise"
+label "dubois"
 
 #include s2color
 
