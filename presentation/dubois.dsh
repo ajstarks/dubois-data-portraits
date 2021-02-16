@@ -185,17 +185,29 @@ deck
 		rect 45 laby colorw colorh "gold"
 		rect 55 laby colorw colorh "pink"
 		rect 65 laby colorw colorh "crimson"
-		rect 75 laby colorw colorh "green"
+		rect 75 laby colorw colorh "rgb(0,128,0)"
 		rect 85 laby colorw colorh "rgb(70,130,180)"
 		laby+=ch
-		ctext "black" 	15 laby 2 "sans" "black"
-		ctext "brown" 	25 laby 2 "sans" "black"
-		ctext "tan" 	35 laby 2 "sans" "black"
-		ctext "yellow" 	45 laby 2 "sans" "black"
-		ctext "pink" 	55 laby 2 "sans" "black"
-		ctext "red" 	65 laby 2 "sans" "black"
-		ctext "green" 	75 laby 2 "sans" "black"
-		ctext "blue" 	85 laby 2 "sans" "black"
+		labts=2.5
+		ctext "black" 	15 laby labts "sans" "black"
+		ctext "brown" 	25 laby labts "sans" "black"
+		ctext "tan" 	35 laby labts "sans" "black"
+		ctext "gold" 	45 laby labts "sans" "black"
+		ctext "pink" 	55 laby labts "sans" "black"
+		ctext "red" 	65 laby labts "sans" "black"
+		ctext "green" 	75 laby labts "sans" "black"
+		ctext "blue" 	85 laby labts "sans" "black"
+
+		laby-=20
+		labts*=0.75
+		ctext "#000000" 15 laby labts "mono" "black"
+		ctext "#654321" 25 laby labts "mono" "black"
+		ctext "#d2b48c" 35 laby labts "mono" "black"
+		ctext "#ffd700" 45 laby labts "mono" "black"
+		ctext "#ffc0cb" 55 laby labts "mono" "black"
+		ctext "#dc143c" 65 laby labts "mono" "black"
+		ctext "#00aa00" 75 laby labts "mono" "black"
+		ctext "#4682b4" 85 laby labts "mono" "black"
 	eslide
 
 	// Typography
