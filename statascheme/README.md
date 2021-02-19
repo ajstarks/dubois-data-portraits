@@ -22,9 +22,9 @@ The **duboisforprofitenrollments.ipynb** Notebook plots for-profit college enrol
 ![forprofitsvsplate40](duboisforprofitsvspopulation19701890.png)
 
 One of the most important style elements that cannot be controlled by a Stata scheme is fonts. Anthony Starks and others have noted that Public Sans closely resembles the original Du Bois font. Adding less common fonts like this to Mac OS Font Book can be challenging for novices. Among the factory installed Mac fonts, Tahoma is closest to that used by Du Bois, especially when key elements like main titles are written with all caps. To set your graphing font to Tahoma in Stata, use the following lines of code which are also found in the Jupyter Notebook use cases:
-* **graph set svg fontface Tahoma
-* **graph set eps fontface Tahoma
-* **graph set ps fontface Tahoma
+* graph set svg fontface Tahoma
+* graph set eps fontface Tahoma
+* graph set ps fontface Tahoma
 
 If you discover ways to improve or expand on the Stata scheme or other Stata graphing specifications, please submit an issue or contact us in the Discussions tab of our repository here: https://github.com/charlieeatonphd/dubois-data-portraits/discussions
 
