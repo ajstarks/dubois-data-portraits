@@ -213,9 +213,10 @@ deck
 	// Typography
 	slide bgcolor fgcolor
 		ctext "Typography" tx ty ts
-		clist 50 50 9
+		clist 50 60 8 "sans" "" 100 1.4
 			li "Public Sans"
-			li "Charter"     "serif"
+			li "Charter" "serif"
+			li "WILLIAM" "symbol"
  		elist
  	eslide
 
