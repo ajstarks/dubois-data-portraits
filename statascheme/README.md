@@ -33,7 +33,7 @@ One of the most important style elements that cannot be controlled by a Stata sc
 
 If you discover ways to improve or expand on the Stata scheme or other Stata graphing specifications, please submit an issue or contact us in the Discussions tab of our repository here: https://github.com/charlieeatonphd/dubois-data-portraits/discussions
 
-Thanks!
+Thanks!!!
 
 **Citations**
 * Library of Congress collection "African American Photographs Assembled for 1900 Paris Exposition": https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/about-this-collection/ 
