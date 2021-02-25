@@ -402,7 +402,7 @@ deck
 		textfile "scripting.txt" 35 y 1.7 "mono"
 		textfile "git.txt"       70 y 1.7 "mono"
 		vline 30 5 70
-		vline 65 5 70 
+		vline 63 5 70 
 	eslide
 
 	// Examples
