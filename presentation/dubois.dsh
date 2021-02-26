@@ -515,6 +515,49 @@ deck
 		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge" 50 10 2 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
 	eslide
 
+	slide bgcolor fgcolor
+		ctext "Links and Resources" tx ty ts
+		list 5 80 1.6 "sans" "" 100 1.6
+			li "Presentation"
+			li "Catalog"
+			li "Repo"
+			li "Dubois Style/Modern Data"
+			li ""
+			li `"The" Book`
+			li "Library of Congress Collection"
+			li "Style Guide"
+			li ""
+			li "decksh Code"
+			li "decksh Presentation"
+			li ""
+			li "Dignity and Debt"
+			li "Black America, 1895"
+			li "Nightingale Article"
+			li "#DuboisChallenge"
+			
+		elist
+
+		list 30 80 1.6 "mono" "maroon" 100 1.6
+			li "https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits" "" "" 100 "https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits"
+			li "https://speakerdeck.com/ajstarks/recreations-of-w-dot-e-b-du-bois-data-portraits" "" "" 100 "https://speakerdeck.com/ajstarks/recreations-of-w-dot-e-b-du-bois-data-portraits"
+			li "https://github.com/ajstarks/dubois-data-portraits" "" "" 100 "https://github.com/ajstarks/dubois-data-portraits"
+			li "https://github.com/ajstarks/modern-dubois-viz" "" "" 100 "https://github.com/ajstarks/modern-dubois-viz"
+			li ""
+			li "https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066" "" "" 100 "https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066"
+			li "https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/" "" "" 100 "https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/"
+			li "https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf" "" "" 100 "https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
+			li ""
+			li "https://github.com/ajstarks/decksh" "" "" 100 "https://github.com/ajstarks/decksh"
+			li "https://speakerdeck.com/ajstarks/decksh-a-little-language-for-decks" "" "" 100 "https://speakerdeck.com/ajstarks/decksh-a-little-language-for-decks"
+			li ""
+			li "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/" "" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
+			li "https://publicdomainreview.org/essay/black-america-1895" "" "" 100 "https://publicdomainreview.org/essay/black-america-1895"
+			li "https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34" "" "" 100 "https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34"
+			li "https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md" "" "" 100 "https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md"
+
+		elist
+	eslide
+
 
 
 	// Business Card
