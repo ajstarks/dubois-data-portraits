@@ -348,7 +348,7 @@ deck
 		ny=5
 		lh=ny+2
 		ly=ny+1.2
-		image "images/cpo-h.png" mx my 3807 2134 50
+		image "images/workflow.png" mx my 3840 2160 50
 		ctext "Code"				15 ny ns
 		ctext "Output"				48 ny ns
 		ctext "Reference"			82 ny ns
