@@ -50,14 +50,14 @@ deck
 		etext "  TRADE AND"             cx2  41.5 legsize
 		etext "TRANSPORTATION."         cx2  40   legsize
 
-		ctext "69%"   36 78 subsize
+		ctext "62%"   36 78 subsize
 		ctext "28%"   69 78 subsize
 		ctext "5%"    84 73 subsize
 		ctext "4.5%"  88 72 subsize
 		ctext "0.8%"  89.5 71 0.75
 		ctext "64%"   56 22 subsize
 		ctext "5.5%"  35 13 1.4
-		ctext "12.5%" 27 17 subsize
+		ctext "13.5%" 27 17 subsize
 		ctext "13%"   18 24 subsize
 		ctext "4%"    12 27 subsize
 	eslide
