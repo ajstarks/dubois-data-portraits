@@ -115,6 +115,8 @@ The use of bold solid colors is a characteristic of the DuBois style. Here are t
 |green		|rgb(0,128,0)		|#00aa00|
 |blue		|rgb(70,130,180)	|#4682b4|
 
+<image src="images/colors.png">
+
 
 Note the use the Pan-African colors red (crimson), yellow, green, and black in this set.
 
