@@ -1,7 +1,8 @@
 #!/bin/sh
+go run toc.go -ts 1.5 -cy=40  -beg 200 -end 340 -cw=1584 -ch=2016 -radius=24 -font mono "NEGROES LIVING IN THE COUNTRY AND VILLAGES" > rotext.dsh
 case $0 in
 	*mkdeck)
-		decksh population.dsh | pdf -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* ;;
+		decksh population.dsh | pdf -pagesize $portrait -sans $duboisans -serif $duboiserif -mono Inconsolata-Regular $* ;;
 	*mkdeck-png)
-		decksh population.dsh | pngdeck -pagesize $portrait -sans PublicSans-Regular -serif PublicSans-Bold $* /dev/stdin ;;
+		decksh population.dsh | pngdeck -pagesize $portrait -sans $duboisans -serif $duboiserif $* /dev/stdin ;;
 esac

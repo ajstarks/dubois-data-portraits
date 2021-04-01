@@ -1,4 +1,5 @@
 deck
+	canvas 1584 2016
 	slide
 		ts=3
 		clist 50 96 ts "serif" "" 100 1.2
@@ -53,14 +54,8 @@ deck
 		
 		ns2=2
 		etext "734,952" 55 40.5 ns2
-		ctext "NEGROES LIVING IN THE COUNTRY AND VILLAGES" 50 22 ns
+		//ctext "NEGROES LIVING IN THE COUNTRY AND VILLAGES" 50 22 ns
 
-//		rtext "NEGROES" 28 28 315 ns
-//		rtext "LIVING"	35 23 320 ns
-//		rtext "IN"		40 20 330 ns
-//		rtext "THE"		43 19 340 ns
-//		rtext "COUNTRY"	48 18 0 ns
-//		rtext "AND"		57 18 30 ns
-//		rtext "VILLAGES"	61 20 30 ns
+		include "rotext.dsh"
 	eslide
 edeck
