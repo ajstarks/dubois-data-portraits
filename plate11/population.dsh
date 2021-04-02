@@ -55,7 +55,7 @@ deck
 		ns2=2
 		etext "734,952" 55 40.5 ns2
 		//ctext "NEGROES LIVING IN THE COUNTRY AND VILLAGES" 50 22 ns
-
-		include "rotext.dsh"
+		// include "rotext.dsh"
+		arctext "NEGROES LIVING IN THE COUNTRY AND VILLAGES" 50 40 24 200 340 ns "mono"
 	eslide
 edeck
