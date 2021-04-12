@@ -75,12 +75,12 @@ deck
 		ctext "FEMALES."   75 75.5  labelsize
 
 		labelsize*=1.2
-		ctext "SINGLE"    30 20 labelsize
-		ctext "SINGLE"    70 20 labelsize
-		ctext "MARRIED"   25 50 labelsize
-		ctext "MARRIED"   70 50 labelsize
-		ctext "WIDOWED"   15 72 labelsize
-		ctext "WIDOWED"   80 72 labelsize
+		rtext "SINGLE"    30 20 45  labelsize
+		rtext "SINGLE"    70 23 315 labelsize
+		rtext "MARRIED"   25 50 45  labelsize
+		rtext "MARRIED"   70 54 315 labelsize
+		rtext "WIDOWED"   13 65 70  labelsize
+		rtext "WIDOWED"   82 65 300 labelsize
 
 		// Y-Axes
 		x1=8
