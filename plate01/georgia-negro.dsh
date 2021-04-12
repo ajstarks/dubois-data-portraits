@@ -1,5 +1,6 @@
 // Plate 1: The Georgia Negro
 deck
+	canvas 1584 2016
 	slide
 		ctext "THE GEORGIA NEGRO." 50 92 4 "serif"
 		clist 50 87 2 "serif" "black" 100 1.3
@@ -39,5 +40,8 @@ deck
 		textfile	"blurb.txt" 10 20 2 "sans" tcolor
 		ctext		"*  THE PROBLEM OF THE 20TH CENTURY IS THE PROBLEM OF THE" 50 10 2 "sans" tcolor
 		ctext		"COLOR-LINE" 50 8 2 "sans" tcolor
+
+		arctext "DISTRIBUTION OF" 30 55 20  80 40 1.5 "mono"
+		arctext "THE NEGRO RACE"  70 55 20 140 90 1.5 "mono"
 	eslide
 edeck
