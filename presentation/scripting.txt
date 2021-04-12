@@ -1,3 +1,3 @@
-./mkdeck     # make individual page
+./mkdeck     # make the page
 ./mkdeck-png # make image
 ./mkdeck-all # make all pages

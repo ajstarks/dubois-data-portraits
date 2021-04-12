@@ -1,4 +1,5 @@
 deck
+	canvas 1584 2016
 	slide
 		tx=50
 		ty=97
@@ -76,15 +77,23 @@ deck
 
 		// Text labels
 		ns=ts*0.5
-		ctext "ALL OCCUPATIONS"					cx 74 ns
-		ctext "DOMESTIC AND PERSONAL SERVICE"	cx 5 ns
-		rtext "TRADE AND TRANSPORTATION"		85.5 18 62 ns
-		rtext "AGRICULTURE"						8 50 65 ns
-		rtext "MANUFACTURING"					82 64 305 ns
-		rtext "AND"								88.75 56.5 299 ns
-		rtext "MECHANICAL"						90.60 53.75 287 ns
-		rtext "INDUSTRIES"						93.25 46.75 278 ns
-		rtext "PROFESSIONS"						10 25 300 ns		
+// 		ctext "ALL OCCUPATIONS"					cx 74 ns
+// 		ctext "DOMESTIC AND PERSONAL SERVICE"	cx 5 ns
+// 		rtext "TRADE AND TRANSPORTATION"		85.5 18 62 ns
+// 		rtext "AGRICULTURE"						8 50 65 ns
+// 		rtext "MANUFACTURING"					82 64 305 ns
+// 		rtext "AND"								88.75 56.5 299 ns
+// 		rtext "MECHANICAL"						90.60 53.75 287 ns
+// 		rtext "INDUSTRIES"						93.25 46.75 278 ns
+// 		rtext "PROFESSIONS"						10 25 300 ns		
 
+		lrad=as+2.5
+		lrad2=as+1.5
+		arctext "ALL OCCUPATIONS"                         cx cy lrad2 100  80 ns "mono"
+		arctext "MANUFACTURING AND MECHANICAL INDUSTRIES" cx cy lrad2  45  10 ns "mono" 
+		arctext "TRADE AND TRANSPORTATION"                cx cy lrad  320 350 ns "mono"
+		arctext "DOMESTIC AND PERSONAL SERVICE."          cx cy lrad 250 290 ns "mono"
+		arctext "PROFESSIONS."                            cx cy lrad 200 210 ns "mono"
+		arctext "AGRICULTURE."                            cx cy lrad2 155 145 ns "mono"
 	eslide
 edeck

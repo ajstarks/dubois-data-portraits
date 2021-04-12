@@ -1,0 +1,14 @@
+Presentation:	https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits
+Catalog:	https://speakerdeck.com/ajstarks/recreations-of-w-dot-e-b-du-bois-data-portraits
+Repo:	https://github.com/ajstarks/dubois-data-portraits
+Modern Viz:	https://github.com/ajstarks/modern-dubois-viz
+Challenge:	https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md
+decksh code:	https://github.com/ajstarks/decksh
+decksh preso:	https://speakerdeck.com/ajstarks/decksh-a-little-language-for-decks
+Book Amazon link	https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066
+Style Guide:	https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf
+Dignity and Debt	https://www.dignityanddebt.org/projects/student-debt-racial-disparities/
+Black America, 1895	https://publicdomainreview.org/essay/black-america-1895
+Medium Articl	https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34
+LoC Collection	https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?c=200&sp=3&st=grid
+

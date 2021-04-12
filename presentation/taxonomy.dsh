@@ -1,0 +1,68 @@
+// Maps
+image "images/plate01.png" imx imy imw imh ims
+image "images/plate02.png" imx imy imw imh ims
+image "images/plate05.png" imx imy imw imh ims
+image "images/plate06.png" imx imy imw imh ims
+image "images/plate08.png" imx imy imw imh ims
+image "images/plate20.png" imx imy imw imh ims
+image "images/plate38.png" imx imy imw imh ims
+image "images/plate41.png" imx imy imw imh ims
+
+
+// Circles
+image "images/plate22.png" imx imy imw imh ims
+image "images/plate25.png" imx imy imw imh ims
+image "images/plate27.png" imx imy imw imh ims
+image "images/plate37.png" imx imy imw imh ims
+image "images/plate44.png" imx imy imw imh ims
+
+
+// Graphs
+image "images/plate07.png" imx imy imw imh ims
+image "images/plate21.png" imx imy imw imh ims
+image "images/plate40.png" imx imy imw imh ims
+
+// Blocks
+image "images/plate53.png" imx imy imw imh ims
+image "images/plate54.png" imx imy imw imh ims
+image "images/plate57.png" imx imy imw imh ims
+image "images/plate61.png" imx imy imw imh ims
+image "images/platexx.png" imx imy imw imh ims
+
+// Bars
+image "images/plate03.png" imx imy imw imh ims
+image "images/plate04.png" imx imy imw imh ims
+image "images/plate09.png" imx imy imw imh ims
+image "images/plate10.png" imx imy imw imh ims
+image "images/plate11.png" imx imy imw imh ims
+image "images/plate12.png" imx imy imw imh ims
+image "images/plate13.png" imx imy imw imh ims
+image "images/plate14.png" imx imy imw imh ims
+image "images/plate15.png" imx imy imw imh ims
+image "images/plate16.png" imx imy imw imh ims
+image "images/plate17.png" imx imy imw imh ims
+image "images/plate18.png" imx imy imw imh ims
+image "images/plate19.png" imx imy imw imh ims
+image "images/plate23.png" imx imy imw imh ims
+image "images/plate24.png" imx imy imw imh ims
+image "images/plate26.png" imx imy imw imh ims
+image "images/plate30.png" imx imy imw imh ims
+image "images/plate31.png" imx imy imw imh ims
+image "images/plate39.png" imx imy imw imh ims
+image "images/plate42.png" imx imy imw imh ims
+image "images/plate43.png" imx imy imw imh ims
+image "images/plate45.png" imx imy imw imh ims
+image "images/plate46.png" imx imy imw imh ims
+image "images/plate47.png" imx imy imw imh ims
+image "images/plate48.png" imx imy imw imh ims
+image "images/plate49.png" imx imy imw imh ims
+image "images/plate50.png" imx imy imw imh ims
+image "images/plate51.png" imx imy imw imh ims
+image "images/plate52.png" imx imy imw imh ims
+image "images/plate55.png" imx imy imw imh ims
+image "images/plate56.png" imx imy imw imh ims
+image "images/plate58.png" imx imy imw imh ims
+image "images/plate59.png" imx imy imw imh ims
+image "images/plate60.png" imx imy imw imh ims
+image "images/plate62.png" imx imy imw imh ims
+image "images/plate63.png" imx imy imw imh ims

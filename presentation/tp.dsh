@@ -1,0 +1,6 @@
+deck
+	slide
+        image "images/full-catalog.png" 50 50 1920 1080 
+		rect 50 50 100 100 "black" 50
+    eslide 
+edeck

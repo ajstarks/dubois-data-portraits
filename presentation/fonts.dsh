@@ -1,0 +1,10 @@
+deck
+	slide
+		clist 50 60 8
+			li "WILLIAM" "sans"
+			li "B52-ULC" "serif"
+			li "Vasarely-Light" "mono"
+		elist
+	
+	eslide
+edeck

@@ -1,8 +1,8 @@
 #!/bin/sh
 case $0 in
 	*mkdeck)
-		decksh proportion.dsh | pdf     -pagesize $portrait -sans PublicSans-Regular -serif Charter-Regular $* ;;
+		decksh proportion.dsh | pdf     -pagesize $portrait -mono Inconsolata-Medium -sans PublicSans-Regular -serif Charter-Regular $* ;;
 	*mkdeck-png)
-		decksh proportion.dsh | pngdeck -pagesize $portrait -sans PublicSans-Regular -serif Charter-Regular $* /dev/stdin ;;
+		decksh proportion.dsh | pngdeck -pagesize $portrait -mono Inconsolata-Medium -sans PublicSans-Regular -serif Charter-Regular $* /dev/stdin ;;
 esac
 

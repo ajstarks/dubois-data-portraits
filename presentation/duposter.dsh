@@ -1,0 +1,135 @@
+deck
+	ts=5
+	ns=ts*0.75
+	ns2=ns*0.50
+	ns3=ns2*0.75
+	tx=50
+	ty=85
+	mx=50
+	my=50
+	imw=2116
+	imh=2688
+	bannersize=8
+	bgcolor="linen"
+
+	// title slide
+	slide
+		image "images/full-catalog.png" 50 50 1920 1080
+		textblock "Recreating the DuBois Data Portraits" 72 12 20 2 "sans" "maroon"
+	eslide
+edeck
+	slide catbgcolor
+		image "images/plate01.png" 27 50 catimw catimh catimscale
+		image "images/plate02.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate03.png" 27 50 catimw catimh catimscale
+		image "images/plate04.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate05.png" 27 50 catimw catimh catimscale
+		image "images/plate06.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate07.png" 27 50 catimw catimh catimscale
+		image "images/plate08.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate09.png" 27 50 catimw catimh catimscale
+		image "images/plate10.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate11.png" 27 50 catimw catimh catimscale
+		image "images/plate12.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate13.png" 27 50 catimw catimh catimscale
+		image "images/plate14.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate15.png" 27 50 catimw catimh catimscale
+		image "images/plate16.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate17.png" 27 50 catimw catimh catimscale
+		image "images/plate18.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate19.png" 27 50 catimw catimh catimscale
+		image "images/plate20.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate21.png" 27 50 catimw catimh catimscale
+		image "images/plate22.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate23.png" 27 50 catimw catimh catimscale
+		image "images/plate24.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate25.png" 27 50 catimw catimh catimscale
+		image "images/plate26.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate27.png" 27 50 catimw catimh catimscale
+		image "images/plate30.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate31.png" 27 50 catimw catimh catimscale
+		image "images/plate37.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate38.png" 27 50 catimw catimh catimscale
+		image "images/plate39.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate40.png" 27 50 catimw catimh catimscale
+		image "images/plate41.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate42.png" 27 50 catimw catimh catimscale
+		image "images/plate43.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate44.png" 27 50 catimw catimh catimscale
+		image "images/plate45.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate46.png" 27 50 catimw catimh catimscale
+		image "images/plate47.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate48.png" 27 50 catimw catimh catimscale
+		image "images/plate49.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate50.png" 27 50 catimw catimh catimscale
+		image "images/plate51.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate52.png" 27 50 catimw catimh catimscale
+		image "images/plate53.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate54.png" 27 50 catimw catimh catimscale
+		image "images/plate55.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate56.png" 27 50 catimw catimh catimscale
+		image "images/plate57.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate58.png" 27 50 catimw catimh catimscale
+		image "images/plate59.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate60.png" 27 50 catimw catimh catimscale
+		image "images/plate61.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/plate62.png" 27 50 catimw catimh catimscale
+		image "images/plate63.png" 73 50 catimw catimh catimscale
+	eslide
+	slide catbgcolor
+		image "images/platexx.png" 50 50 catimw catimh catimscale
+	eslide
