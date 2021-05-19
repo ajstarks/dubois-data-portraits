@@ -19,9 +19,16 @@ deck
 	philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
 
 	// Title
+	
+
+	slide bgcolor fgcolor
+		image "images/catalog-blur.png" 50 50 1920 1080
+		text "Legacy of DuBois Data Portraits" 10 50 5 "sans" "maroon"
+	eslide
+
 	slide bgcolor fgcolor
 		image "images/full-catalog.png" 50 50 1920 1080
-		textblock "Legacy of DuBois Data Portraits" 72 12 20 2 "sans" "maroon"
+		// textblock "Legacy of DuBois Data Portraits" 72 12 20 2 "sans" "maroon"
 	eslide
 
    // Atlanta University
@@ -32,18 +39,17 @@ deck
         ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3 "serif"
     eslide
 
-
 	// Philadelphia Negro
 	// This inquiry extended over a period of fifteen months, and sought to
 	// ascertain something of the geographical distribution of this race,
 	// their organizations, and above all their relation to their million white fellow-citizens
 	slide bgcolor fgcolor
 		imid=55
-		text       "The Philadelphia Negro, 1897" left top ts
-		image       "images/philly09.png" 15 imid  880 909 65
-		image       "images/philly12.png" 50 imid 1112 930 65
-		image       "images/philly13.png" 85 imid  996 778 60
-		textblock   philly 5 17 70 2 "serif"
+		ctext       "The Philadelphia Negro, 1897" tx ty ts
+		image       "images/philly09.png" 16 imid  880 909 65
+		image       "images/philly12.png" 51 imid 1112 930 65
+		image       "images/philly03.png" 85 imid 809 903  65
+		textblock   philly 12 17 70 2 "serif"
 	eslide
 
 
@@ -62,7 +68,7 @@ deck
 		ny=dy+5
 		dimy=dy+20
 		dly=dy-5
-		dls=1.5
+		
 		dminx=10
 		dmaxx=100-dminx
 		datemin=1895
@@ -73,32 +79,34 @@ deck
 		p4=vmap 1899 datemin datemax dminx dmaxx
 		p5=vmap 1900 datemin datemax dminx dmaxx
 
-		ctext "1895" p1 dly dls
+		dls=2
+		ctext "Historical Context" tx ty ts
+		ctext "1895" p1 dly dls 
 		ctext "1897" p2 dly dls
 		ctext "1898" p3 dly dls
 		ctext "1899" p4 dly dls
-		ctext "1900" p5 dly dls
+		ctext "1900" p5 dly dls "sans" "maroon"
 
-		ctext "“Black America” Fair" p1 ny dls
-		ctext "Phila. Negro begins"    p2 ny dls
-		ctext "Wilmington Overthrow"   p3 ny dls
-		ctext "Lynchings Peak"         p4 ny dls
-		ctext "Paris Exposition"       p5 ny dls
+		dls=1.5
+		ctext "“Black America” Fair" p1 ny dls    "serif"
+		ctext "Phila. Negro begins"    p2 ny dls "serif"
+		ctext "Wilmington Overthrow"   p3 ny dls "serif"
+		ctext "Lynchings Peak"         p4 ny dls "serif"
+		ctext "Paris Exposition"       p5 ny dls "serif"
 
 		image "images/BA-happy-days.jpg" p1 dimy 1200 743 25
 		image "images/philly12.png"      p2 dimy 1112 930 25
 		image "images/expo.jpg"          p5 dimy 739 1024 25
 		image "images/mob.jpg"                   p4 dimy 640 512 40
 		image "images/white-mans-day.jpg"        p3 dimy 654 658 40
-		//image "images/sam-hose-postcard.jpg"     p4 75   740 494 40
 
 		// timeline
 		line dminx dy dmaxx dy 0.5 "gray" 50
-		circle p1 dy 1
-		circle p2 dy 1
-		circle p3 dy 1
-		circle p4 dy 1
-		circle p5 dy 1
+		circle p1 dy 1 "maroon"
+		circle p2 dy 1 "maroon"
+		circle p3 dy 1 "maroon"
+		circle p4 dy 1 "maroon"
+		circle p5 dy 1 "maroon"
 	eslide
 
 	// Historical Context
@@ -150,9 +158,7 @@ deck
 		ctext "28”" 30 50 3 "sans" "maroon"
 	eslide
 
-
 	// Taxonomy
-
 	slide bgcolor fgcolor
 		bary=40
 		barty=bary+5
@@ -164,7 +170,7 @@ deck
 		x4=84.44
 		x5=92.23
 		ctext "Taxonomy" tx ty ts
-		dchart -fulldeck=f -left=5 -right=95 -val=f -pmap -solidpmap -textsize 1.6 -top bary -datafmt=%.2f taxonomy.d
+		dchart -left=5 -right=95 -val=f -pmap -solidpmap -textsize 1.6 -top bary -datafmt=%.2f taxonomy.d
 		image "images/plate47.png" x1 barimy imw imh 5
 		image "images/plate06.png" x2 barimy imw imh 5
 		image "images/plate54.png" x3 barimy imw imh 5
@@ -327,8 +333,6 @@ deck
 		image "images/m05.jpg" 70 50 3024 4032 25
 	eslide
 
-
-
 	// decksh Elements
 	slide bgcolor fgcolor
 		left=5
@@ -423,16 +427,6 @@ deck
 		ctext "Reference"			82 ny ns
 		hline 0 ly 100 lh "black" 80
 	eslide
-
-	// Context
-	slide bgcolor fgcolor
-	eslide
-
-	// DuBois Style
-	slide bgcolor fgcolor
-	eslide
-
-
 
 	// Dubois challenge
 	slide bgcolor fgcolor
