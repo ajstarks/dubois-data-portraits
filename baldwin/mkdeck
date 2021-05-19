@@ -1,0 +1,3 @@
+#!/bin/sh
+decksh baldwin.dsh | 
+pdfdeck $* -stdout -pagesize 1920,1080 -sans PublicSans-Medium -serif Charter-Regular -mono Inconsolata-Bold -symbol VTCWilliam-Regular - > baldwin.pdf

@@ -1,0 +1,502 @@
+// Dubois Style for the Baldwin School June 2021
+deck
+	ts=4.5
+	ns=ts*0.75
+	ns2=ns*0.50
+	ns3=ns2*0.75
+	tx=50
+	ty=90
+	mx=50
+	my=50
+	imw=2116
+	imh=2688
+	bannersize=8
+
+	fgcolor="black"
+	bgcolor="linen"
+	top=90
+	left=5
+	philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
+
+	// Title
+	slide bgcolor fgcolor
+		image "images/full-catalog.png" 50 50 1920 1080
+		textblock "Legacy of DuBois Data Portraits" 72 12 20 2 "sans" "maroon"
+	eslide
+
+   // Atlanta University
+    slide bgcolor fgcolor
+        image "images/au-debating-team-1900.jpg"  25 my 700 563
+        ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
+        image "images/au-women.jpg"  70 50 916 594 94
+        ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3 "serif"
+    eslide
+
+
+	// Philadelphia Negro
+	// This inquiry extended over a period of fifteen months, and sought to
+	// ascertain something of the geographical distribution of this race,
+	// their organizations, and above all their relation to their million white fellow-citizens
+	slide bgcolor fgcolor
+		imid=55
+		text       "The Philadelphia Negro, 1897" left top ts
+		image       "images/philly09.png" 15 imid  880 909 65
+		image       "images/philly12.png" 50 imid 1112 930 65
+		image       "images/philly13.png" 85 imid  996 778 60
+		textblock   philly 5 17 70 2 "serif"
+	eslide
+
+
+	// DuBois in Paris
+	slide bgcolor fgcolor
+		image "images/dubois-1900.png" 			30 my 650 891
+		ctext "W.E.B. DuBois in Paris 1900"		30 4 ns3 "serif"
+		image "images/expo0.png"				70 my 1157 1525 59
+		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
+	eslide
+
+	// Timeline
+	slide bgcolor fgcolor
+		
+		dy=30
+		ny=dy+5
+		dimy=dy+20
+		dly=dy-5
+		dls=1.5
+		dminx=10
+		dmaxx=100-dminx
+		datemin=1895
+		datemax=1900
+		p1=vmap 1895 datemin datemax dminx dmaxx
+		p2=vmap 1897 datemin datemax dminx dmaxx
+		p3=vmap 1898 datemin datemax dminx dmaxx
+		p4=vmap 1899 datemin datemax dminx dmaxx
+		p5=vmap 1900 datemin datemax dminx dmaxx
+
+		ctext "1895" p1 dly dls
+		ctext "1897" p2 dly dls
+		ctext "1898" p3 dly dls
+		ctext "1899" p4 dly dls
+		ctext "1900" p5 dly dls
+
+		ctext "“Black America” Fair" p1 ny dls
+		ctext "Phila. Negro begins"    p2 ny dls
+		ctext "Wilmington Overthrow"   p3 ny dls
+		ctext "Lynchings Peak"         p4 ny dls
+		ctext "Paris Exposition"       p5 ny dls
+
+		image "images/BA-happy-days.jpg" p1 dimy 1200 743 25
+		image "images/philly12.png"      p2 dimy 1112 930 25
+		image "images/expo.jpg"          p5 dimy 739 1024 25
+		image "images/mob.jpg"                   p4 dimy 640 512 40
+		image "images/white-mans-day.jpg"        p3 dimy 654 658 40
+		//image "images/sam-hose-postcard.jpg"     p4 75   740 494 40
+
+		// timeline
+		line dminx dy dmaxx dy 0.5 "gray" 50
+		circle p1 dy 1
+		circle p2 dy 1
+		circle p3 dy 1
+		circle p4 dy 1
+		circle p5 dy 1
+	eslide
+
+	// Historical Context
+	//
+	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
+	// During the 1880s and 1890s, instances of lethal mob violence increased steadily, 
+	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. 
+	// Between 1890 and 1900 Georgia averaged more than one mob killing per month.
+
+	// In 1898 the duly elected people in Wilmington NC was violently overthrown by whites.
+	// The coup occurred after the state's white Southern Democrats conspired and led a mob of 
+	// 2,000 white men to overthrow the legitimately-elected local Fusionist government. 
+	// They expelled opposition black and white political leaders from the city, destroyed 
+	// the property and businesses of black citizens built up since the Civil War,  
+	// including the only black newspaper in the city, and killed an estimated 60 to 
+	// more than 300 people   https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898
+
+	// During the summer of 1895, in a Brooklyn park, there was a cotton plantation 
+	// complete with five hundred Black workers reenacting slavery. https://publicdomainreview.org/essay/black-america-1895
+	slide bgcolor fgcolor
+		image "images/plate38.png" 10 73 imw imh 5
+		image "images/plate27.png" 10 52 imw imh 5
+		image "images/plate22.png" 10 30 imw imh 5
+		list 15 70 6 "sans" "maroon"
+			li "We are here"
+			li "This is who we are"
+			li "This is how far we have come"
+		elist
+	eslide
+
+	slide bgcolor
+		image "images/expo0.png" 50 50 1157 1525 60
+	eslide
+
+	// Show viz IRL
+	slide bgcolor fgcolor
+		ims=4
+		image "images/expo0.png" 50 50 1157 1525 60
+		image "images/plate01.png" 46 40 imw imh ims
+		image "images/plate37.png" 59.5 40 imw imh ims
+		image "images/platexx.png" 61.5 65 imw imh ims
+		image "images/plate55.png" 39.5 65 imw imh ims
+	eslide
+
+	// Dimensions
+	slide bgcolor fgcolor
+		image "images/33899v.jpg" mx my 818 1024 80
+		ctext "22”" 50 90 3 "sans" "maroon"
+		ctext "28”" 30 50 3 "sans" "maroon"
+	eslide
+
+
+	// Taxonomy
+
+	slide bgcolor fgcolor
+		bary=40
+		barty=bary+5
+		barimy=bary+15		
+		pmts=2.0
+		x1=29.47
+		x2=60.95
+		x3=73.48
+		x4=84.44
+		x5=92.23
+		ctext "Taxonomy" tx ty ts
+		dchart -fulldeck=f -left=5 -right=95 -val=f -pmap -solidpmap -textsize 1.6 -top bary -datafmt=%.2f taxonomy.d
+		image "images/plate47.png" x1 barimy imw imh 5
+		image "images/plate06.png" x2 barimy imw imh 5
+		image "images/plate54.png" x3 barimy imw imh 5
+		image "images/plate27.png" x4 barimy imw imh 5
+		image "images/plate21.png" x5 barimy imw imh 5
+		ctext "Bars"    x1 barty pmts
+		ctext "Maps"    x2 barty pmts
+		ctext "Blocks"  x3 barty pmts
+		ctext "Circles" x4 barty pmts
+		ctext "Graphs"  x5 barty pmts
+	eslide
+
+	// Bars
+	slide bgcolor fgcolor
+		ctext "Bars" 50 90 ts
+		grid "bargrid.dsh" 7 79 12 22 95
+	eslide
+
+	// Maps
+	slide bgcolor fgcolor
+		ims=14
+		rs=40
+		imtop=65
+		imy=imtop
+		ctext "Maps" 50 90 ts
+		image "images/plate01.png" 10 imy imw imh ims
+		image "images/plate02.png" 30 imy imw imh ims
+		image "images/plate05.png" 50 imy imw imh ims
+		image "images/plate06.png" 70 imy imw imh ims
+		image "images/plate08.png" 90 imy imw imh ims
+		imy-=rs
+		image "images/plate20.png" 20 imy imw imh ims
+		image "images/plate38.png" 40 imy imw imh ims
+		image "images/plate41.png" 60 imy imw imh ims
+		image "images/plate42.png" 80 imy imw imh ims
+	eslide
+
+	// Circles
+	slide bgcolor fgcolor
+		imy=imtop
+		ctext "Circles" 50 90 ts
+		image "images/plate11.png" 20 imy imw imh ims
+		image "images/plate16.png" 40 imy imw imh ims
+		image "images/plate22.png" 60 imy imw imh ims
+		image "images/plate25.png" 80 imy imw imh ims
+		imy-=rs
+		image "images/plate27.png" 30 imy imw imh ims
+		image "images/plate37.png" 50 imy imw imh ims
+		image "images/plate44.png" 70 imy imw imh ims
+	eslide
+
+	// Blocks
+	slide bgcolor fgcolor
+		imy=imtop
+		ctext "Blocks" 50 90 ts
+		image "images/plate51.png" 20 imy imw imh ims
+		image "images/plate53.png" 40 imy imw imh ims
+		image "images/plate54.png" 60 imy imw imh ims
+		image "images/plate57.png" 80 imy imw imh ims
+		imy-=rs
+		image "images/plate61.png" 20 imy imw imh ims
+		image "images/platexx.png" 40 imy imw imh ims
+		image "images/plate55.png" 60 imy imw imh ims
+		image "images/plate58.png" 80 imy imw imh ims
+
+	eslide
+
+	// Graphs
+	slide bgcolor fgcolor
+		imy=45
+		ctext "Graphs" 50 90 ts
+		image "images/plate07.png" 20 imy imw imh 25 // ims
+		image "images/plate21.png" 50 imy imw imh 25 // ims
+		image "images/plate40.png" 80 imy imw imh 25 // ims
+	eslide
+
+	// Colors	
+	slide bgcolor fgcolor
+		laby=50
+		colorh=15
+		colorw=9.6
+		ch=colorh*0.6
+		ctext "Color Palette" tx ty ts
+		rect 15 laby colorw colorh "black"
+		rect 25 laby colorw colorh "rgb(101,67,33)"
+		rect 35 laby colorw colorh "tan"
+		rect 45 laby colorw colorh "gold"
+		rect 55 laby colorw colorh "pink"
+		rect 65 laby colorw colorh "crimson"
+		rect 75 laby colorw colorh "rgb(0,128,0)"
+		rect 85 laby colorw colorh "rgb(70,130,180)"
+		laby+=ch
+		labts=2.5
+		ctext "black" 	15 laby labts "sans" "black"
+		ctext "brown" 	25 laby labts "sans" "black"
+		ctext "tan" 	35 laby labts "sans" "black"
+		ctext "gold" 	45 laby labts "sans" "black"
+		ctext "pink" 	55 laby labts "sans" "black"
+		ctext "red" 	65 laby labts "sans" "black"
+		ctext "green" 	75 laby labts "sans" "black"
+		ctext "blue" 	85 laby labts "sans" "black"
+
+		laby-=20
+		labts*=0.75
+		ctext "#000000" 15 laby labts "mono" "black"
+		ctext "#654321" 25 laby labts "mono" "black"
+		ctext "#d2b48c" 35 laby labts "mono" "black"
+		ctext "#ffd700" 45 laby labts "mono" "black"
+		ctext "#ffc0cb" 55 laby labts "mono" "black"
+		ctext "#dc143c" 65 laby labts "mono" "black"
+		ctext "#00aa00" 75 laby labts "mono" "black"
+		ctext "#4682b4" 85 laby labts "mono" "black"
+	eslide
+
+	// Typography
+	slide bgcolor fgcolor
+		ctext "Typography" tx ty ts
+		clist 50 60 8 "sans" "" 100 1.4
+			li "Public Sans"
+			li "Charter" "serif"
+			li "WILLIAM" "symbol"
+ 		elist
+ 	eslide
+
+	// Book Cover
+	slide "black" "white"
+		image "images/cover01.jpg" mx my 4032 3024 33
+	eslide
+
+	// Book Grid
+	slide "black" "white"
+		image "images/book-grid.jpg" mx my 4032 3024 33
+	eslide
+
+	// Materials comparison
+	slide bgcolor fgcolor
+		cleft=25
+		cright=cleft+50
+		cbottom=5
+		cs=2.5
+		cy=90
+		ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs
+		ctext "1900"                                    cleft cbottom cs
+		image "images/33889v.jpg"                       cleft my 811 1024 80
+
+		ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
+		ctext "2019"                                    cright cbottom cs
+		image "images/plate27.png"                      cright my imw imh 30
+	eslide
+
+	// rules, protractor
+	slide "black" "white"
+		image "images/m01.jpg" 30 50 3024 4032 25
+		image "images/m02.jpg" 70 50 3024 4032 25
+	eslide
+
+	// rulers
+	slide "black" "white"
+		image "images/m04.jpg" 30 50 3024 4032 25
+		image "images/m05.jpg" 70 50 3024 4032 25
+	eslide
+
+
+
+	// decksh Elements
+	slide bgcolor fgcolor
+		left=5
+		top=85
+		//titlesize=bannersize
+		rowleft=left+3
+		kx=rowleft
+		ky=top-15
+		ktx=kx+5
+		kty=ky-1.5
+		kcolsp=30
+		krowsp=20
+		kimw=120
+		kimh=120
+		kts=bannersize/2
+		kcolor="maroon"
+
+		ctext "decksh" 50 top 6
+
+		// Row 1
+		image "images/structure.png" kx ky kimw kimh
+		text "Structure" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/text.png" kx ky kimw kimh
+		text "Text" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/list.png" kx ky kimw kimh
+		text "Lists" ktx kty kts "sans" kcolor
+
+		kx=rowleft
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+
+		// Row 2
+		image "images/arrow.png" kx ky kimw kimh
+		text "Arrows" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/img.png" kx ky kimw kimh
+		text "Images" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/shapes.png" kx ky kimw kimh
+		text "Graphics" ktx kty kts "sans" kcolor
+
+		kx=rowleft
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+		
+		// Row 3
+		image "images/chart.png" kx ky kimw kimh
+		text "Charts" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/loop.png" kx ky kimw kimh
+		text "Loops" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/data.png" kx ky kimw kimh
+		text "Data" ktx kty kts "sans" kcolor
+
+		kx=rowleft+kcolsp
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+
+		image "images/utility.png" kx ky kimw kimh
+		text "Utility" ktx kty kts "sans" kcolor
+	eslide
+
+	// Percent grid
+	include "grid.dsh"
+
+	// Development flow
+	slide "black" "white"
+		ny=5
+		lh=ny+2
+		ly=ny+1.2
+		image "images/workflow.png" mx my 3840 2160 50
+		ctext "Code"				15 ny ns
+		ctext "Output"				48 ny ns
+		ctext "Reference"			82 ny ns
+		hline 0 ly 100 lh "black" 80
+	eslide
+
+	// Context
+	slide bgcolor fgcolor
+	eslide
+
+	// DuBois Style
+	slide bgcolor fgcolor
+	eslide
+
+
+
+	// Dubois challenge
+	slide bgcolor fgcolor
+		ctext "#DuboisChallenge" tx 92 ts
+		image "images/challenge-catalog01.png" 50 50 3840 2160 45
+		//ctext "01" 15 50 2
+		//ctext "02" 32 50 2
+		//ctext "03" 50 50 2
+		//ctext "04" 67 50 2
+		//ctext "05" 87 50 2
+
+		//ctext "06" 15 7 2
+		//ctext "07" 32 7 2
+		//ctext "08" 50 7 2
+		//ctext "09" 67 7 2
+		//ctext "10" 87 7 2
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "#DuboisChallenge" tx 92 ts
+		image "images/recreation-catalog01.png" 50 50 3840 2160 45
+		//ctext "01" 15 50 2
+		//ctext "02" 32 50 2
+		//ctext "03" 50 50 2
+		//ctext "04" 67 50 2
+		//ctext "05" 87 50 2
+
+		//ctext "06" 15 7 2
+		//ctext "07" 32 7 2
+		//ctext "08" 50 7 2
+		//ctext "09" 67 7 2
+		//ctext "10" 87 7 2
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "#DuboisChallenge" tx ty ts
+		image "images/challenge02.png" 18 50 750 753 75
+		image "images/challenge05.png" 82 50 788 728 75
+		image "images/challenge03.png" 50 50 759 767 75
+		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge" 50 10 2 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
+	eslide
+
+
+
+	// Contemporay Data
+	// Black Population by state: https://worldpopulationreview.com/state-rankings/black-population-by-state
+	// Police Shootings: https://github.com/washingtonpost/data-police-shootings
+	// Climate data: 39.9526° N, 75.1652° W (Philadelphia) https://www.ncdc.noaa.gov/cag/
+	// Chart Chat on vaccine data: https://youtu.be/kXn3aqGIOXk
+	// Healthcare workers and vaccination https://context-cdn.washingtonpost.com/notes/prod/default/documents/4d8d1ddf-c192-40f9-9e3a-7a3fefa0d928/note/91e5f1ac-2cc5-41bb-b164-ecb4d77ed0b5.#page=1
+	slide bgcolor fgcolor
+		ctext "Contemporary Data" 50 50 5
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-02.jpg" 25 50 836 1024
+		image "images/bpop1.png"   75 50 2112 2688 38
+	eslide
+
+	slide
+		image "images/cole.jpg" 50 50 4657 3105 50
+		textblock "Authorship, after all, is not only what is created but also what is selected." 60 80 30 3
+		text "Teju Cole" 10 10 2 "sans" "white"
+	eslide
+
+
+edeck
