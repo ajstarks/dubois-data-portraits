@@ -564,6 +564,16 @@ deck
 	eslide
 
 	slide bgcolor fgcolor
+		image "images/pop-web.png" 50 50 1715 1121 90
+		arrow 80 60 80 70 1 3 3 "maroon"
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/csv.png"    30 50 493 816
+		image "images/sheets.png" 70 50 820 1008
+	eslide
+
+	slide bgcolor fgcolor
 		image "images/original-plate-02.jpg" 25 50 836 1024
 		image "images/bpop1.png"   75 50 2112 2688 38
 	eslide
