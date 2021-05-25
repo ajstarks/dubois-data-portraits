@@ -23,6 +23,11 @@ deck
 		image "images/full-catalog.png" 50 50 1920 1080
 		hline 0 50 100 20 "black" 80
 		textblock "Building on the Legacy of the Du Bois Data Portraits" 10 55 50 5 "sans" "white"
+		list 90 55 1 "sans" "white"
+			li "Anthony Starks"
+			li "Allen Hillery"
+			li "Sekou Tyler"
+		elist
 	eslide
 
    // Atlanta University
@@ -511,6 +516,113 @@ deck
 		hline 0 ly 100 lh "black" 80
 	eslide
 
+	slide bgcolor fgcolor
+		ctext "Storytelling" 50 60 5
+		image "images/story0.png" 50 40 1200 1200 30
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Storytelling is about balance" tx ty ts
+		image "images/balance.png" 50 55 1200 1200 60
+		ctext "Telling a Story" 35 35 3 
+		ctext "Presenting Data" 65 35 3
+		textblock "W.E.B. Du Bois sought to combine science, data, and methodology inyo sociology. His research into Black American culture told a story of resilience" 10 10 75 2 "serif"
+	eslide
+
+	ari="Aristotle thought that a speaker's ability to persuade an audience is based on how well the speaker appeals to them through"
+	dbsoc="Du Bois developed a socialological framework to show Black Americans are capable of functioning as social equals, social Darwinism has no data to back its theory."
+	slide bgcolor fgcolor
+		ctext "Aristotle's Rhetorical Triangle" tx ty ts
+		textblock ari 5 75 30 2
+		polygon "45 65 85" "30 80 30" "black" 30
+		ctext "ETHOS"   65 80 2.5 "sans" "rgb(70,130,180)"
+		etext "LOGOS"   45 30 2.5 "sans" "#dc143c"
+		text   "PATHOS" 85 30 2.5 "sans" "#00aa00"
+		blist 5 50 2
+			li "ETHOS: Ethics (Credibility)" "sans" "rgb(70,130,180)"
+			li "PATHOS: Emotion (Feeling)" "sans" "#00aa00" 
+			li "LOGOS: Logic (Data)" "sans" "#dc143c"
+		elist
+		textblock dbsoc 5 15 80 2 "serif"
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Tell Stories Like Pixar" tx ty ts
+		text "Once upon a time there was" 5 75 3 
+		text  "Every day" 5 65 3
+		text "One day" 5 55 3
+		text "Because of that" 5 45 3 
+		text  "Because of that" 5 35 3
+		text "Until finally" 5 25 3 
+		leadersize=10
+		hline 45 75 leadersize 0.5
+		hline 20 65 leadersize 0.5
+		hline 18 55 leadersize 0.5
+		hline 28 45 leadersize 0.5
+		hline 28 35 leadersize 0.5
+		hline 22 25 leadersize 0.5
+		image "images/woody.jpg" 75 50 804 1003 75
+	eslide
+
+
+	slide bgcolor fgcolor
+		ctext "Themes from Great Stories" tx ty ts
+		nlist 10 70 2
+			li "Coming of Age"
+			li "Constant Evolution"
+			li "Overcoming Obstacles"
+			li "Rebirth"
+			li "The Quest"
+			li "True as it Ever Was"
+		elist
+
+		list 35 70 2 "sans" "rgb(100,100,100)"
+			li "You have arrived"
+			li "You are always adapting"
+			li "You came out on top"
+			li "You have reinvented yourself"
+			li "It's been quite a Journey"
+			li "Remained true to yourself"
+		elist
+
+		list 65 70 2 "serif" "#dc143c"
+			li "Experience, Strength"
+			li "Adapability"
+			li "Relisience"
+			li "New Hope and Direction"
+			li "Committment, Dedication"
+			li "Reinforce Trust"
+		elist
+	eslide
+
+// \/\/ 	slide bgcolor fgcolor
+// \/\/ 		ctext "Tell Stories Like Pixar" tx ty ts
+// \/\/ 		nlist 5 65 2
+// \/\/ 			li "Pick an idea you want to work with"
+// \/\/ 			li "Identify your audience"
+// \/\/ 			li "What kind of stories would resonate?"
+// \/\/ 			li "What questions will they ask?"
+// \/\/ 			li "What action do you want them to take?"
+// \/\/ 		elist
+// \/\/ 		image "images/pixar.jpg" 65 50 638 479
+// \/\/ 	eslide
+		
+	slide bgcolor fgcolor
+		ctext "The Modern Megaphone" 50 60 5
+		image "images/megaphone01.png" 50 40 1200 1200 30
+	eslide
+
+	slide bgcolor fgcolor
+		megax=72
+		image "images/expo0.png"                  20 50 1157 1525 25
+		image "images/megaphone01.png"           45 50 1200 1200 50
+		image "images/twitter-logo.png"          megax 85 1294 1295 15
+		image "images/instagram-logo.jpg"        megax 60 889 890 20
+		image "images/youtube-logo.png"          megax 40 1200 504 20
+		image "images/zoom-logo.png"             megax 20 3840 2160 10
+		polygon "55 55 67 67" "40 65 90 15" "gray" 20
+	eslide
+
 	// Dubois challenge
 	slide bgcolor fgcolor
 		ctext "#DuboisChallenge" tx 92 ts
@@ -553,6 +665,46 @@ deck
 	eslide
 
 
+	slide bgcolor fgcolor
+		ctext "Modern Megaphone: Mona Chalabi" tx ty ts
+		image "images/mega03.jpg" 20 50 982 1238 60
+		image "images/mona.jpg" 65 50 1874 1202 60
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Modern Megaphone: Ijeamaka A" tx ty ts
+		image "images/mega02.jpg" 50 50 1200 982 80
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Modern Megaphone: Sekou Tyler" tx ty ts
+		image "images/mega01.jpg" 50 50 1820 1198 60
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Smit Patel and Rebecca Stevick" tx ty ts
+		image "images/mega05.jpg" 25 50 1198 924 75
+		image "images/mega04.jpg" 75 50 1200 1052 75
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Modern Megaphone: YouTube" tx ty ts
+		image "images/mega06.jpg" 50 50 1710 996 80
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Modern Megaphone: @duboisviz" tx ty ts
+		image "images/duboisviz-insta.jpg" 50 45 828 1792 50
+	eslide
+		
+
+	slide bgcolor fgcolor
+		ctext "Bringing DataViz and Social Science together" tx ty ts
+		image "images/tweet-analytics01.jpg" 70 50 798 866 80
+		image "images/tweet-analytics02.jpg" 30 45 800 1178 75
+	eslide
+
+
 	// Contemporay Data
 	// Black Population by state: https://worldpopulationreview.com/state-rankings/black-population-by-state
 	// Police Shootings: https://github.com/washingtonpost/data-police-shootings
@@ -560,7 +712,13 @@ deck
 	// Chart Chat on vaccine data: https://youtu.be/kXn3aqGIOXk
 	// Healthcare workers and vaccination https://context-cdn.washingtonpost.com/notes/prod/default/documents/4d8d1ddf-c192-40f9-9e3a-7a3fefa0d928/note/91e5f1ac-2cc5-41bb-b164-ecb4d77ed0b5.#page=1
 	slide bgcolor fgcolor
-		ctext "Contemporary Data" 50 50 5
+		ctext "Contemporary Data" 50 60 5
+		image "images/clock.png" 50 40 1200 1200 30
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Start with the Question" tx ty ts
+		image "images/google.png" 50 45 2173 1756 50
 	eslide
 
 	slide bgcolor fgcolor
