@@ -415,90 +415,90 @@ deck
 	eslide
 
 	// rulers
-	slide "black" "white"
-		image "images/m04.jpg" 30 50 3024 4032 25
-		image "images/m05.jpg" 70 50 3024 4032 25
-	eslide
+	//slide "black" "white"
+	//	image "images/m04.jpg" 30 50 3024 4032 25
+	//	image "images/m05.jpg" 70 50 3024 4032 25
+	//eslide
 
 	// decksh Elements
-	slide bgcolor fgcolor
-		left=5
-		top=85
-		//titlesize=bannersize
-		rowleft=left+3
-		kx=rowleft
-		ky=top-15
-		ktx=kx+5
-		kty=ky-1.5
-		kcolsp=30
-		krowsp=20
-		kimw=120
-		kimh=120
-		kts=bannersize/2
-		kcolor="maroon"
-
-		ctext "decksh" 50 top 6
-
-		// Row 1
-		image "images/structure.png" kx ky kimw kimh
-		text "Structure" ktx kty kts "sans" kcolor
-		kx+=kcolsp
-		ktx+=kcolsp
-
-		image "images/text.png" kx ky kimw kimh
-		text "Text" ktx kty kts "sans" kcolor
-		kx+=kcolsp
-		ktx+=kcolsp
-
-		image "images/list.png" kx ky kimw kimh
-		text "Lists" ktx kty kts "sans" kcolor
-
-		kx=rowleft
-		ky-=krowsp
-		ktx=kx+5
-		kty=ky-1.5
-
-		// Row 2
-		image "images/arrow.png" kx ky kimw kimh
-		text "Arrows" ktx kty kts "sans" kcolor
-		kx+=kcolsp
-		ktx+=kcolsp
-
-		image "images/img.png" kx ky kimw kimh
-		text "Images" ktx kty kts "sans" kcolor
-		kx+=kcolsp
-		ktx+=kcolsp
-
-		image "images/shapes.png" kx ky kimw kimh
-		text "Graphics" ktx kty kts "sans" kcolor
-
-		kx=rowleft
-		ky-=krowsp
-		ktx=kx+5
-		kty=ky-1.5
-		
-		// Row 3
-		image "images/chart.png" kx ky kimw kimh
-		text "Charts" ktx kty kts "sans" kcolor
-		kx+=kcolsp
-		ktx+=kcolsp
-
-		image "images/loop.png" kx ky kimw kimh
-		text "Loops" ktx kty kts "sans" kcolor
-		kx+=kcolsp
-		ktx+=kcolsp
-
-		image "images/data.png" kx ky kimw kimh
-		text "Data" ktx kty kts "sans" kcolor
-
-		kx=rowleft+kcolsp
-		ky-=krowsp
-		ktx=kx+5
-		kty=ky-1.5
-
-		image "images/utility.png" kx ky kimw kimh
-		text "Utility" ktx kty kts "sans" kcolor
-	eslide
+// 	slide bgcolor fgcolor
+// 		left=5
+// 		top=85
+// 		//titlesize=bannersize
+// 		rowleft=left+3
+// 		kx=rowleft
+// 		ky=top-15
+// 		ktx=kx+5
+// 		kty=ky-1.5
+// 		kcolsp=30
+// 		krowsp=20
+// 		kimw=120
+// 		kimh=120
+// 		kts=bannersize/2
+// 		kcolor="maroon"
+// 
+// 		ctext "decksh" 50 top 6
+// 
+// 		// Row 1
+// 		image "images/structure.png" kx ky kimw kimh
+// 		text "Structure" ktx kty kts "sans" kcolor
+// 		kx+=kcolsp
+// 		ktx+=kcolsp
+// 
+// 		image "images/text.png" kx ky kimw kimh
+// 		text "Text" ktx kty kts "sans" kcolor
+// 		kx+=kcolsp
+// 		ktx+=kcolsp
+// 
+// 		image "images/list.png" kx ky kimw kimh
+// 		text "Lists" ktx kty kts "sans" kcolor
+// 
+// 		kx=rowleft
+// 		ky-=krowsp
+// 		ktx=kx+5
+// 		kty=ky-1.5
+// 
+// 		// Row 2
+// 		image "images/arrow.png" kx ky kimw kimh
+// 		text "Arrows" ktx kty kts "sans" kcolor
+// 		kx+=kcolsp
+// 		ktx+=kcolsp
+// 
+// 		image "images/img.png" kx ky kimw kimh
+// 		text "Images" ktx kty kts "sans" kcolor
+// 		kx+=kcolsp
+// 		ktx+=kcolsp
+// 
+// 		image "images/shapes.png" kx ky kimw kimh
+// 		text "Graphics" ktx kty kts "sans" kcolor
+// 
+// 		kx=rowleft
+// 		ky-=krowsp
+// 		ktx=kx+5
+// 		kty=ky-1.5
+// 		
+// 		// Row 3
+// 		image "images/chart.png" kx ky kimw kimh
+// 		text "Charts" ktx kty kts "sans" kcolor
+// 		kx+=kcolsp
+// 		ktx+=kcolsp
+// 
+// 		image "images/loop.png" kx ky kimw kimh
+// 		text "Loops" ktx kty kts "sans" kcolor
+// 		kx+=kcolsp
+// 		ktx+=kcolsp
+// 
+// 		image "images/data.png" kx ky kimw kimh
+// 		text "Data" ktx kty kts "sans" kcolor
+// 
+// 		kx=rowleft+kcolsp
+// 		ky-=krowsp
+// 		ktx=kx+5
+// 		kty=ky-1.5
+// 
+// 		image "images/utility.png" kx ky kimw kimh
+// 		text "Utility" ktx kty kts "sans" kcolor
+// 	eslide
 
 	// Percent grid
 	//include "grid.dsh"
@@ -608,9 +608,9 @@ deck
 	// 1900 venue
 	slide bgcolor fgcolor
 		ctext "Paris 1900" tx ty ts
+		image "images/paris-expo.jpg"                    50 50 1447 998 60
 		image "images/expo-poster.jpg"           15 50 431 600
-		image "images/paris-expo.jpg"            50 50 7235 4942 12
-		image "images/expo0.png"                 85 50 1157 1525 38
+		image "images/expo0.png"                 86 50 1157 1525 40
 	eslide
 
 	// Modern venue
