@@ -543,7 +543,7 @@ deck
 
 	// Aristotle's Triangle
 	ari="Aristotle thought that a speaker's ability to persuade an audience is based on how well the speaker appeals to them through"
-	dbsoc="Du Bois developed a socialological framework to show Black Americans are capable of functioning as social equals, social Darwinism has no data to back its theory."
+	dbsoc="Du Bois developed a sociological framework to show Black Americans are capable of functioning as social equals, social Darwinism has no data to back its theory."
 	slide bgcolor fgcolor
 		ctext "Aristotle's Rhetorical Triangle" tx ty ts
 		textblock ari 5 75 30 2
