@@ -706,13 +706,19 @@ deck
 	eslide
 
 	slide bgcolor fgcolor
+		image "images/modern-plate27.png" 75 50  1596 2023 50
+		image "images/old-plate27.png"    25 50  1598 2029 50
+	eslide
+
+	slide bgcolor fgcolor
 		ctext "Start with the Question" tx ty ts
 		image "images/google.png" 50 45 2173 1756 50
 	eslide
 
 	slide bgcolor fgcolor
-		image "images/pop-web.png" 50 50 1715 1121 90
-		arrow 80 60 80 70 1 3 3 "maroon"
+		ctext "Find Your Data" tx ty ts
+		image "images/pop-web.png" 50 45 1715 1121 80
+		arrow 75 50 75 62 1 3 3 "maroon"
 	eslide
 
 	slide bgcolor fgcolor
@@ -725,11 +731,19 @@ deck
 		image "images/bpop1.png"   75 50 2112 2688 38
 	eslide
 
-	slide
-		image "images/cole.jpg" 50 50 4657 3105 50
-		textblock "Authorship, after all, is not only what is created but also what is selected." 60 80 30 3
-		text "Teju Cole" 10 10 2 "sans" "white"
+	slide  bgcolor fgcolor
+		ctext "Washington Post Shooting Database" 25 93 2.5
+		ctext "NOAA Climate Data"                 75 93 2.5
+		image "images/wapo-shooting.png" 25 50 1577 1960 45 "https://www.washingtonpost.com/graphics/investigations/police-shootings-database/"
+		image "images/climate.png"       75 50 1577 1960 45 "https://www.ncdc.noaa.gov/cag/"
+		ctext "https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" 25 5 1 "mono" "maroon"
+		ctext "https://www.ncdc.noaa.gov/cag/"                                                    75 5 1 "mono" "maroon"
 	eslide
+
+	slide bgcolor fgcolor
+		textblock "Authorship, after all, is not only what is created but also what is selected." 25 70 40 5 "serif"
+	    text "Teju Cole" 25 10 2 "sans"
+	 eslide
 
 
 edeck
