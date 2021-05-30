@@ -1,11 +1,14 @@
 // Dubois Style for the Baldwin School, June 2021
 deck
 	ts=4.5
+	ss=ts*1.2
 	ns=ts*0.75
 	ns2=ns*0.50
 	ns3=ns2*0.75
 	tx=50
 	ty=90
+	sx=50
+	sy=60
 	mx=50
 	my=50
 	imw=2116
@@ -16,7 +19,6 @@ deck
 	bgcolor="linen"
 	top=90
 	left=5
-	philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
 
 	// Title
 	slide bgcolor fgcolor
@@ -35,6 +37,7 @@ deck
 	// ascertain something of the geographical distribution of this race,
 	// their organizations, and above all their relation to their million white fellow-citizens
 	slide bgcolor fgcolor
+		philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
 		imid=55
 		ctext       "The Philadelphia Negro, 1897" tx ty ts
 		image       "images/philly09.png" 16 imid  880 909 65
@@ -45,10 +48,10 @@ deck
 
 	// Atlanta University
     slide bgcolor fgcolor
-        image "images/au-debating-team-1900.jpg"  25 my 700 563
-        ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
-        image "images/au-women.jpg"  70 50 916 594 94
-        ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3 "serif"
+		image "images/au-debating-team-1900.jpg"  25 my 700 563
+		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
+		image "images/au-women.jpg"  70 50 916 594 94
+		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3 "serif"
     eslide
 
 	// DuBois in Paris
@@ -59,8 +62,9 @@ deck
 		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
 
-	// Timeline
 	// Historical Context
+	// During the summer of 1895, in a Brooklyn park, there was a cotton plantation 
+	// complete with five hundred Black workers reenacting slavery. https://publicdomainreview.org/essay/black-america-1895
 	//
 	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
 	// During the 1880s and 1890s, instances of lethal mob violence increased steadily, 
@@ -74,9 +78,6 @@ deck
 	// the property and businesses of black citizens built up since the Civil War,  
 	// including the only black newspaper in the city, and killed an estimated 60 to 
 	// more than 300 people   https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898
-
-	// During the summer of 1895, in a Brooklyn park, there was a cotton plantation 
-	// complete with five hundred Black workers reenacting slavery. https://publicdomainreview.org/essay/black-america-1895
 	slide bgcolor fgcolor
 		
 		dy=30
@@ -384,7 +385,7 @@ deck
 
 	// Re-creation
 	slide bgcolor fgcolor
-		ctext "Re-Creating the Du Bois Data Portraits" 50 60 5
+		ctext "Re-Creating the Du Bois Data Portraits" sx sy ss
 		image "images/spiral.png" 50 40  1200 1200 30
 	eslide
 
@@ -528,17 +529,18 @@ deck
 
 	// Section: Storytelling
 	slide bgcolor fgcolor
-		ctext "Storytelling" 50 60 5
+		ctext "Storytelling" sx sy ss
 		image "images/story0.png" 50 40 1200 1200 30
 	eslide
 
 	// Storytelling balance
+	restory="W.E.B. Du Bois sought to combine science, data, and methodology into sociology. His research into Black American culture told a story of resilience"
 	slide bgcolor fgcolor
 		ctext "Storytelling is about balance" tx ty ts
 		image "images/balance.png" 50 55 1200 1200 60
 		ctext "Telling a Story" 35 35 3 
 		ctext "Presenting Data" 65 35 3
-		textblock "W.E.B. Du Bois sought to combine science, data, and methodology into sociology. His research into Black American culture told a story of resilience" 10 10 75 2 "serif"
+		textblock restory 10 10 75 2 "serif"
 	eslide
 
 	// Aristotle's Triangle
@@ -612,14 +614,14 @@ deck
 	
 	// Modern Megaphone
 	slide bgcolor fgcolor
-		ctext "The Modern Megaphone" 50 60 5
+		ctext "The Modern Megaphone" sx sy ss
 		image "images/megaphone01.png" 50 40 1200 1200 30
 	eslide
 
 	// 1900 venue
 	slide bgcolor fgcolor
 		ctext "Paris 1900" tx ty ts
-		image "images/paris-expo.jpg"                    50 50 1447 998 60
+		image "images/paris-expo.jpg"            50 50 1447 998 60
 		image "images/expo-poster.jpg"           15 50 431 600
 		image "images/expo0.png"                 86 50 1157 1525 40
 	eslide
@@ -707,7 +709,7 @@ deck
 	// Chart Chat on vaccine data: https://youtu.be/kXn3aqGIOXk
 	// Healthcare workers and vaccination https://context-cdn.washingtonpost.com/notes/prod/default/documents/4d8d1ddf-c192-40f9-9e3a-7a3fefa0d928/note/91e5f1ac-2cc5-41bb-b164-ecb4d77ed0b5.#page=1
 	slide bgcolor fgcolor
-		ctext "Contemporary Data" 50 60 5
+		ctext "Contemporary Data" sx sy ss
 		image "images/clock.png" 50 40 1200 1200 30
 	eslide
 
@@ -740,8 +742,8 @@ deck
 	slide  bgcolor fgcolor
 		ctext "Washington Post Shooting Database" 25 93 2.5
 		ctext "NOAA Climate Data"                 75 93 2.5
-		image "images/wapo-shooting.png" 25 50 1577 1960 45 "https://www.washingtonpost.com/graphics/investigations/police-shootings-database/"
-		image "images/climate.png"       75 50 1577 1960 45 "https://www.ncdc.noaa.gov/cag/"
+		image "images/wapo-shooting.png"          25 50 1577 1960 45 "https://www.washingtonpost.com/graphics/investigations/police-shootings-database/"
+		image "images/climate.png"                75 50 1577 1960 45 "https://www.ncdc.noaa.gov/cag/"
 		ctext "https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" 25 5 1 "mono" "maroon"
 		ctext "https://www.ncdc.noaa.gov/cag/"                                                    75 5 1 "mono" "maroon"
 	eslide
@@ -750,6 +752,5 @@ deck
 		textblock "Authorship, after all, is not only what is created but also what is selected." 25 70 40 5 "serif"
 	    text "Teju Cole" 25 10 2 "sans"
 	 eslide
-
 
 edeck
