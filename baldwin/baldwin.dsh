@@ -688,10 +688,16 @@ deck
 		image "images/duboisviz-insta.jpg" 50 45 828 1792 50
 	eslide
 
+	// slide bgcolor fgcolor
+	// 	ctext "Bringing DataViz and Social Science together" tx ty ts
+	// 	image "images/tweet-analytics01.jpg" 70 50 798 866 80
+	// 	image "images/tweet-analytics02.jpg" 30 45 800 1178 75
+	// eslide
+
+	// Twitter Dashboard
 	slide bgcolor fgcolor
-		ctext "Bringing DataViz and Social Science together" tx ty ts
-		image "images/tweet-analytics01.jpg" 70 50 798 866 80
-		image "images/tweet-analytics02.jpg" 30 45 800 1178 75
+		ctext "#DuboisChallenge Twitter Dashboard" tx ty ts
+		image "images/twitter-dashboard.png" 50 45 2705 1346 65 "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity"
 	eslide
 
 	// Contemporay Data
