@@ -699,8 +699,8 @@ deck
 	// Twitter Dashboard
 	slide bgcolor fgcolor
 		ctext "#DuboisChallenge Twitter Dashboard" tx ty ts
-//		image "images/twitter-dashboard.png" 50 45 2705 1346 65 "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity"
-		image "images/twitter-dashboard.png" 50 45 2385 1271 70 "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity"
+		image "images/td2.png" 50 45 2221 1239 65 "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity"
+//		image "images/twitter-dashboard.png" 50 45 2385 1271 70 "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity"
 	eslide
 
 	// Contemporay Data
