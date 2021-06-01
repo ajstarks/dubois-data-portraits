@@ -681,8 +681,8 @@ deck
 	eslide
 
 	slide bgcolor fgcolor
-		ctext "Modern Megaphone: YouTube" tx ty ts
-		image "images/mega06.jpg" 50 50 1710 996 80
+		ctext "Luke Stanke on YouTube" tx ty ts
+		image "images/mega06.jpg" 50 50 1710 996 80 "https://youtu.be/QljLkB1S3jo"
 	eslide
 
 	slide bgcolor fgcolor
