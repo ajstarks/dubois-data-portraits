@@ -48,6 +48,54 @@ deck
 	// the property and businesses of black citizens built up since the Civil War,  
 	// including the only black newspaper in the city, and killed an estimated 60 to 
 	// more than 300 people
+
+	slide bgcolor fgcolor
+		dy=30
+		ny=dy+3
+		dimy=dy+20
+		dly=dy-5
+		
+		dminx=10
+		dmaxx=100-dminx
+		datemin=1895
+		datemax=1900
+		p1=vmap 1895 datemin datemax dminx dmaxx
+		p2=vmap 1897 datemin datemax dminx dmaxx
+		p3=vmap 1898 datemin datemax dminx dmaxx
+		p4=vmap 1899 datemin datemax dminx dmaxx
+		p5=vmap 1900 datemin datemax dminx dmaxx
+
+		dls=2
+		ctext "Historical Context" tx ty ts
+		ctext "1895" p1 dly dls 
+		ctext "1897" p2 dly dls
+		ctext "1898" p3 dly dls
+		ctext "1899" p4 dly dls
+		ctext "1900" p5 dly dls "sans" "maroon"
+
+		dls=1.5
+		ctext "“Black America” Fair"             p1 ny dls "serif"
+		ctext "Phila. Negro begins"              p2 ny dls "serif"
+		ctext "Wilmington Overthrow"             p3 ny dls "serif"
+		ctext "Lynchings Peak"                   p4 ny dls "serif"
+		ctext "Paris Exposition"                 p5 ny dls "serif"
+
+		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30
+		image "images/philly12.png"              p2 dimy 1112 930 28
+		image "images/white-mans-day.jpg"        p3 dimy 654 658 40
+		image "images/mob.jpg"                   p4 dimy 640 512 45
+		image "images/expo.jpg"                  p5 dimy 739 1024 25
+
+		// timeline
+		line dminx dy dmaxx dy 0.5 "gray" 50
+		circle p1 dy 1 "maroon"
+		circle p2 dy 1 "maroon"
+		circle p3 dy 1 "maroon"
+		circle p4 dy 1 "maroon"
+		circle p5 dy 1 "maroon"
+	eslide
+
+
 	slide bgcolor fgcolor
 		image "images/plate38.png" 10 73 imw imh 5
 		image "images/plate27.png" 10 52 imw imh 5
