@@ -60,6 +60,7 @@ deck
 		datemin=1895
 		datemax=1900
 		p1=vmap 1895 datemin datemax dminx dmaxx
+		p1a=vmap 1896 datemin datemax dminx dmaxx
 		p2=vmap 1897 datemin datemax dminx dmaxx
 		p3=vmap 1898 datemin datemax dminx dmaxx
 		p4=vmap 1899 datemin datemax dminx dmaxx
@@ -68,6 +69,7 @@ deck
 		dls=2
 		ctext "Historical Context" tx ty ts
 		ctext "1895" p1 dly dls 
+		ctext "1896" p1a dly dls
 		ctext "1897" p2 dly dls
 		ctext "1898" p3 dly dls
 		ctext "1899" p4 dly dls
@@ -75,12 +77,14 @@ deck
 
 		dls=1.5
 		ctext "“Black America” Fair"             p1 ny dls "serif"
+		ctext "Plessy v. Ferguson"               p1a ny dls "serif"
 		ctext "Phila. Negro begins"              p2 ny dls "serif"
 		ctext "Wilmington Overthrow"             p3 ny dls "serif"
 		ctext "Lynchings Peak"                   p4 ny dls "serif"
 		ctext "Paris Exposition"                 p5 ny dls "serif"
 
 		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30
+		image "images/homer-plessy.jpg"          p1a dimy 295 350 75
 		image "images/philly12.png"              p2 dimy 1112 930 28
 		image "images/white-mans-day.jpg"        p3 dimy 654 658 40
 		image "images/mob.jpg"                   p4 dimy 640 512 45
@@ -89,6 +93,7 @@ deck
 		// timeline
 		line dminx dy dmaxx dy 0.5 "gray" 50
 		circle p1 dy 1 "maroon"
+		circle p1a dy 1 "maroon"
 		circle p2 dy 1 "maroon"
 		circle p3 dy 1 "maroon"
 		circle p4 dy 1 "maroon"
