@@ -416,7 +416,7 @@ deck
 		clist 50 60 8 "sans" "" 100 1.4
 			li "Public Sans"
 			li "Charter" "serif"
-			li "WILLIAM" "symbol"
+			li "DU BOIS" "symbol"
  		elist
  	eslide
 
