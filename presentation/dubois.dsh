@@ -295,7 +295,7 @@ deck
 		image "images/33889v.jpg"                       cleft my 811 1024 80
 
 		ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
-		ctext "2019"                                    cright cbottom cs
+		ctext "Today"                                    cright cbottom cs
 		image "images/plate27.png"                      cright my imw imh 30
 	eslide
 
