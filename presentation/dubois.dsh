@@ -516,12 +516,17 @@ deck
 		image "images/modern-plate-31.png"   75 40 2688 2112 35
 	eslide
 
+	
+
+	slide bgcolor fgcolor
+		image "images/original-plate-02.jpg" 25 50 836 1024
+		image "images/bpop1.png"   75 50 2112 2688 38
+	eslide
+
 	slide bgcolor fgcolor
 		textblock "Data from the Social Sciences" 5 50 25 ts
 		image "images/predator.png" 70 50 2112 2688 45
 	eslide
-
-
 
 	// Dubois challenge
 	slide bgcolor fgcolor
