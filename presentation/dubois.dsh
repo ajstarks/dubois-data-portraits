@@ -516,8 +516,6 @@ deck
 		image "images/modern-plate-31.png"   75 40 2688 2112 35
 	eslide
 
-	
-
 	slide bgcolor fgcolor
 		image "images/original-plate-02.jpg" 25 50 836 1024
 		image "images/bpop1.png"   75 50 2112 2688 38
@@ -594,7 +592,6 @@ deck
 			li "Black America, 1895"
 			li "Nightingale Article"
 			li "#DuboisChallenge"
-			
 		elist
 
 		list 30 80 1.6 "mono" "maroon" 100 1.6
