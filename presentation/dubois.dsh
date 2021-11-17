@@ -16,7 +16,7 @@ deck
 	// title slide
 	slide
 		image "images/full-catalog.png" 50 50 1920 1080
-		textblock "Recreating the DuBois Data Portraits" 72 12 20 2 "sans" "maroon"
+		textblock "Recreating the Du Bois Data Portraits" 72 12 20 2 "sans" "maroon"
 	eslide
 
 	// Atlanta University
@@ -30,7 +30,7 @@ deck
 	// DuBois in Paris
 	slide bgcolor fgcolor
 		image "images/dubois-1900.png" 			30 my 650 891
-		ctext "W.E.B. DuBois in Paris 1900"		30 4 ns3 "serif"
+		ctext "W.E.B. Du Bois in Paris 1900"		30 4 ns3 "serif"
 		image "images/expo0.png"				70 my 1157 1525 59
 		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
@@ -628,27 +628,9 @@ deck
 	imscale=8
 	ims2=imscale*10
 	ims3=ims2/4
-    slide bgcolor fgcolor // "white" "rgb(100,100,100)"
-        image "images/starx.png"        mx 75 512 512 60
-        ctext "Anthony J. Starks"       mx 35 ts "sans" "black"
-        ctext "Art + Code"              mx 22 ss "sans" "maroon"
-        line  lx 90 lx 10 0.3 "maroon"
 
-        //image "images/phone.png"        ix 80 1200 1200 imscale
-        image "images/email.png"        ix 80 1200 1200 imscale
-        image "images/twitter.png"      ix 65 1200 1200 imscale
-        image "images/github.png"       ix 50 120 120   ims2 
-        image "images/sd.png"           ix 35 512 512   ims3 
-		image "images/ig-black.png"     ix 20 1200 1200 imscale
-
-        //text "+1 908.548.3403"          tx 79 cs
-        text "ajstarks@gmail.com"       tx 79 cs
-        text "@ajstarks"                tx 64 cs
-        text "github.com/ajstarks"      tx 49 cs
-        text "speakerdeck.com/ajstarks" tx 34 cs
-		text "@duboisviz"               tx 19 cs
-    eslide
-
+	include "bizcard.dsh"
+    
 	slide bgcolor fgcolor
 		ctext "Catalog" 50 50 bannersize
 	eslide
