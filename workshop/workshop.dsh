@@ -1,0 +1,569 @@
+// Dubois Workshop, December 2021
+deck
+	ts=4.5
+	ss=ts*1.2
+	ns=ts*0.75
+	ns2=ns*0.50
+	ns3=ns2*0.75
+	tx=50
+	ty=87
+	listy=ty-20
+	tfont="sans"
+	sectcolor="crimson"
+	sx=50
+	sy=60
+	mx=50
+	my=50
+	imw=2116
+	imh=2688
+	bannersize=8
+	questwidth=70
+
+	fgcolor="black"
+	bgcolor="linen"
+	top=90
+	left=5
+
+	// Title
+	slide bgcolor fgcolor
+		subx=35
+		image "images/full-catalog.png" 50 50 1920 1080
+		hline 0 50 100 70 "black" 70
+		textblock "Bridging the Gap Between Data and Lived Experience" 10 75 50 6 "sans" "white"
+		textblock "What would W.E.B Du Bois say to an aspiring data journalist?" 10 subx 50 3 "sans" "white"
+		list 85 subx 1.2 "sans" "white"
+			li "Allen Hillery"
+			li "Anthony Starks"
+		elist
+	eslide
+
+	// Outline
+	slide bgcolor fgcolor
+		ctext "Workshop Outline" tx ty ts
+		blist 10 listy 3
+			li "Historical Context"
+			li "Sociological Approach: The Philadelphia Negro"
+			li "An overview of the Du Bois 1900 Visualization Collection"
+			li "Approaching Contemporary Data"
+		elist
+	eslide
+
+	// Section: Historical Context
+	slide bgcolor fgcolor
+		rect 75 50 50 100 sectcolor
+		ctext "1" 25 75 10 "sans" sectcolor
+		clist 25 55 5 "sans" sectcolor 100 1.2
+			li "Historical"
+			li "Context"
+		elist
+		textblock "What events led up to the 1900 Paris exhibition? The end of the 19th century zietgiest." 55 60 30 3 "sans" bgcolor
+	eslide
+
+	// Atlanta University
+    slide bgcolor fgcolor
+		image "images/au-debating-team-1900.jpg"  25 my 700 563
+		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
+		image "images/au-women.jpg"  70 50 916 594 94
+		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3 "serif"
+    eslide
+
+	// DuBois in Paris
+	slide bgcolor fgcolor
+		image "images/dubois-1900.png" 			30 my 650 891
+		ctext "W.E.B. DuBois in Paris 1900"		30 4 ns3 "serif"
+		image "images/expo0.png"				70 my 1157 1525 59
+		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
+	eslide
+
+	// Historical Context
+	// During the summer of 1895, in a Brooklyn park, there was a cotton plantation 
+	// complete with five hundred Black workers reenacting slavery. https://publicdomainreview.org/essay/black-america-1895
+	//
+	// in 1896 the Supreme Court handed down the Plessy vs. Ferguson ruling 
+	// that upheld the constitutionality of racial segregation under the 
+	// “separate but equal” doctrine.
+	//
+	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
+	// During the 1880s and 1890s, instances of lethal mob violence increased steadily, 
+	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. 
+	// Between 1890 and 1900 Georgia averaged more than one mob killing per month.
+
+	// In 1898 the duly elected people in Wilmington NC was violently overthrown by whites.
+	// The coup occurred after the state's white Southern Democrats conspired and led a mob of 
+	// 2,000 white men to overthrow the legitimately-elected local Fusionist government. 
+	// They expelled opposition black and white political leaders from the city, destroyed 
+	// the property and businesses of black citizens built up since the Civil War,  
+	// including the only black newspaper in the city, and killed an estimated 60 to 
+	// more than 300 people   https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898
+	slide bgcolor fgcolor
+		dy=30
+		ny=dy+3
+		dimy=dy+20
+		dly=dy-5
+		
+		dminx=10
+		dmaxx=100-dminx
+		datemin=1895
+		datemax=1900
+		p1=vmap 1895 datemin datemax dminx dmaxx
+		p1a=vmap 1896 datemin datemax dminx dmaxx
+		p2=vmap 1897 datemin datemax dminx dmaxx
+		p3=vmap 1898 datemin datemax dminx dmaxx
+		p4=vmap 1899 datemin datemax dminx dmaxx
+		p5=vmap 1900 datemin datemax dminx dmaxx
+
+		dls=2
+	
+		ctext "Historical Context" tx ty ts
+		ctext "1895" p1 dly dls
+		ctext "1896" p1a dly dls
+		ctext "1897" p2 dly dls
+		ctext "1898" p3 dly dls
+		ctext "1899" p4 dly dls
+		ctext "1900" p5 dly dls "sans" "maroon"
+
+		dls=1.5
+		ctext "“Black America” Fair"             p1 ny dls "serif"
+		ctext "Plessy v. Ferguson"               p1a ny dls "serif"
+		ctext "Phila. Negro begins"              p2 ny dls "serif"
+		ctext "Wilmington Overthrow"             p3 ny dls "serif"
+		ctext "Lynchings Peak"                   p4 ny dls "serif"
+		ctext "Paris Exposition"                 p5 ny dls "serif"
+
+		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30
+		image "images/homer-plessy.jpg"          p1a dimy 295 350 75
+		image "images/philly12.png"              p2 dimy 1112 930 28
+		image "images/white-mans-day.jpg"        p3 dimy 654 658 40
+		image "images/mob.jpg"                   p4 dimy 640 512 45
+		image "images/expo.jpg"                  p5 dimy 739 1024 25
+
+		// timeline
+		line dminx dy dmaxx dy 0.5 "gray" 50
+		circle p1 dy 1 "maroon"
+		circle p1a dy 1 "maroon"
+		circle p2 dy 1 "maroon"
+		circle p3 dy 1 "maroon"
+		circle p4 dy 1 "maroon"
+		circle p5 dy 1 "maroon"
+	eslide
+	
+	// Intent
+	slide bgcolor fgcolor
+		image "images/plate38.png" 10 73 imw imh 5
+		image "images/plate27.png" 10 52 imw imh 5
+		image "images/plate22.png" 10 30 imw imh 5
+		list 15 listy 6 "sans" "maroon"
+			li "We are here"
+			li "This is who we are"
+			li "This is how far we have come"
+		elist
+	eslide
+
+	// Breakout: history repeating
+	slide bgcolor fgcolor
+		image "images/chat.png" 10 ty 200 200
+		text "Is History Repeating Itself?" 20 ty ts
+		textblock "Looking at the historical events that led up to the 1900 Paris Exhibition, they look quite familiar to events happening today." 10 75 questwidth 3 "serif"
+		textblock "How are the Wilmington Overthrow and Rise of Lynchings reminiscent of current events?" 10 40 questwidth 4 "sans" "maroon"
+	eslide
+
+	// Section Soc. Approach
+	slide bgcolor fgcolor
+		rect 75 50 50 100 sectcolor
+		ctext "2" 25 75 10 "sans" sectcolor
+		clist 25 55 5 "sans" sectcolor 100 1.2
+			li "Sociological"
+			li "Approach"
+		elist
+		textblock "Exploring Du Bois' ground- breaking impact to sociology, and the precursor to the visual data stories." 55 60 30 3 "sans" bgcolor
+	eslide
+
+	// Philadelphia Negro
+	// This inquiry extended over a period of fifteen months, and sought to
+	// ascertain something of the geographical distribution of this race,
+	// their organizations, and above all their relation to their million white fellow-citizens
+	slide bgcolor fgcolor
+		philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
+		imid=55
+		ctext       "The Philadelphia Negro, 1897" tx ty ts
+		image       "images/philly09.png" 16 imid  880 909 65
+		image       "images/philly12.png" 51 imid 1112 930 65
+		image       "images/philly03.png" 85 imid 809 903  65
+		textblock   philly 12 17 70 2 "serif"
+	eslide
+
+	// Phila. Negro survey forms
+	slide bgcolor fgcolor
+		ctext "The Philadelphia Negro: Survey Methods" tx ty ts
+		nlist 10 listy 3 
+			li "Family survey - (marital status, income, employment)"
+			li "Individual survey - (same as above)"
+			li "Home survey - (home ownership vs renting)"
+			li "Street survey - (collecting local data)"
+			li "Survey for institutions and organizations"
+			li "Survey for home servants"
+		elist
+	eslide
+
+	// Breakout question: what would Du Bois say
+	slide bgcolor fgcolor
+		image "images/chat.png" 10 ty 200 200
+		text "What would Du Bois say?" 20 ty ts
+		textblock "Du Bois emerged from the Philadelphia Negro as the first number-crunching, surveying, interviewing, participant - observing and field working sociologist in America." 10 75 questwidth 3 "serif"
+		textblock "What do you think Du Bois would have to say to an aspiring data journalist? Would he have embraced social media?" 10 40 questwidth 4 "sans" "maroon"
+	eslide
+
+	// Section: Visualizations
+	slide bgcolor fgcolor
+		rect 75 50 50 100 sectcolor
+		ctext "3" 25 75 10 "sans" sectcolor
+		clist 25 55 5 "sans" sectcolor 100 1.2
+			li "The Du Bois"
+			li "Visualizations"
+		elist
+		textblock "Discussion of the visualization taxonomy, and a definition of the Du Bois style, its design elements and decisions." 55 65 30 3 "sans" bgcolor
+	eslide
+
+	// 1900 venue
+	slide bgcolor
+		image "images/expo0.png" 50 50 1157 1525 60
+	eslide
+
+	// Show viz IRL
+	slide bgcolor fgcolor
+		ims=4
+		image "images/expo0.png" 50 50 1157 1525 60
+		image "images/plate01.png" 46 40 imw imh ims
+		image "images/plate37.png" 59.5 40 imw imh ims
+		image "images/platexx.png" 61.5 65 imw imh ims
+		image "images/plate55.png" 39.5 65 imw imh ims
+	eslide
+
+	// Dimensions
+	slide bgcolor fgcolor
+		image "images/33899v.jpg" mx my 818 1024 80
+		ctext "22”" 50 90 3 "sans" "maroon"
+		ctext "28”" 30 50 3 "sans" "maroon"
+	eslide
+
+	// Taxonomy
+	slide bgcolor fgcolor
+		bary=40
+		barty=bary+5
+		barimy=bary+15		
+		pmts=2.0
+		x1=29.47
+		x2=60.95
+		x3=73.48
+		x4=84.44
+		x5=92.23
+		ctext "Taxonomy" tx ty ts
+		dchart -left=5 -right=95 -val=f -pmap -solidpmap -textsize 1.6 -top bary -datafmt=%.2f taxonomy.d
+		image "images/plate47.png" x1 barimy imw imh 5
+		image "images/plate06.png" x2 barimy imw imh 5
+		image "images/plate54.png" x3 barimy imw imh 5
+		image "images/plate27.png" x4 barimy imw imh 5
+		image "images/plate21.png" x5 barimy imw imh 5
+		ctext "Bars"    x1 barty pmts
+		ctext "Maps"    x2 barty pmts
+		ctext "Blocks"  x3 barty pmts
+		ctext "Circles" x4 barty pmts
+		ctext "Graphs"  x5 barty pmts
+	eslide
+
+	// Bars
+	slide bgcolor fgcolor
+		ctext "Bars" 50 90 ts
+		grid "bargrid.dsh" 7 79 12 22 95
+	eslide
+
+	// Maps
+	slide bgcolor fgcolor
+		ims=14
+		rs=40
+		imtop=65
+		imy=imtop
+		ctext "Maps" 50 90 ts
+		image "images/plate01.png" 10 imy imw imh ims
+		image "images/plate02.png" 30 imy imw imh ims
+		image "images/plate05.png" 50 imy imw imh ims
+		image "images/plate06.png" 70 imy imw imh ims
+		image "images/plate08.png" 90 imy imw imh ims
+		imy-=rs
+		image "images/plate20.png" 20 imy imw imh ims
+		image "images/plate38.png" 40 imy imw imh ims
+		image "images/plate41.png" 60 imy imw imh ims
+		image "images/plate42.png" 80 imy imw imh ims
+	eslide
+
+	// Circles
+	slide bgcolor fgcolor
+		imy=imtop
+		ctext "Circles" 50 90 ts
+		image "images/plate11.png" 20 imy imw imh ims
+		image "images/plate16.png" 40 imy imw imh ims
+		image "images/plate22.png" 60 imy imw imh ims
+		image "images/plate25.png" 80 imy imw imh ims
+		imy-=rs
+		image "images/plate27.png" 30 imy imw imh ims
+		image "images/plate37.png" 50 imy imw imh ims
+		image "images/plate44.png" 70 imy imw imh ims
+	eslide
+
+	// Blocks
+	slide bgcolor fgcolor
+		imy=imtop
+		ctext "Blocks" 50 90 ts
+		image "images/plate51.png" 20 imy imw imh ims
+		image "images/plate53.png" 40 imy imw imh ims
+		image "images/plate54.png" 60 imy imw imh ims
+		image "images/plate57.png" 80 imy imw imh ims
+		imy-=rs
+		image "images/plate61.png" 20 imy imw imh ims
+		image "images/platexx.png" 40 imy imw imh ims
+		image "images/plate55.png" 60 imy imw imh ims
+		image "images/plate58.png" 80 imy imw imh ims
+	eslide
+
+	// Graphs
+	slide bgcolor fgcolor
+		imy=45
+		ctext "Graphs" 50 90 ts
+		image "images/plate07.png" 20 imy imw imh 25 // ims
+		image "images/plate21.png" 50 imy imw imh 25 // ims
+		image "images/plate40.png" 80 imy imw imh 25 // ims
+	eslide
+
+	// Colors	
+	slide bgcolor fgcolor
+		laby=50
+		colorh=15
+		colorw=9.6
+		ch=colorh*0.6
+		ctext "Color Palette" tx ty ts
+		rect 15 laby colorw colorh "black"
+		rect 25 laby colorw colorh "rgb(101,67,33)"
+		rect 35 laby colorw colorh "tan"
+		rect 45 laby colorw colorh "gold"
+		rect 55 laby colorw colorh "pink"
+		rect 65 laby colorw colorh "crimson"
+		rect 75 laby colorw colorh "rgb(0,128,0)"
+		rect 85 laby colorw colorh "rgb(70,130,180)"
+		laby+=ch
+		labts=2.5
+		ctext "black" 	15 laby labts "sans" "black"
+		ctext "brown" 	25 laby labts "sans" "black"
+		ctext "tan" 	35 laby labts "sans" "black"
+		ctext "gold" 	45 laby labts "sans" "black"
+		ctext "pink" 	55 laby labts "sans" "black"
+		ctext "red" 	65 laby labts "sans" "black"
+		ctext "green" 	75 laby labts "sans" "black"
+		ctext "blue" 	85 laby labts "sans" "black"
+
+		laby-=20
+		labts*=0.75
+		ctext "#000000" 15 laby labts "mono" "black"
+		ctext "#654321" 25 laby labts "mono" "black"
+		ctext "#d2b48c" 35 laby labts "mono" "black"
+		ctext "#ffd700" 45 laby labts "mono" "black"
+		ctext "#ffc0cb" 55 laby labts "mono" "black"
+		ctext "#dc143c" 65 laby labts "mono" "black"
+		ctext "#00aa00" 75 laby labts "mono" "black"
+		ctext "#4682b4" 85 laby labts "mono" "black"
+	eslide
+
+	// Breakout question: Which viz do you find compelling	
+	slide bgcolor fgcolor
+		image "images/chat.png" 10 ty 200 200
+		text "What Visualization Catches Your Eye?" 20 ty ts
+		textblock "(1) If you were attending the 1900 Paris Expo, which visualization would grab your attention?" 10 70 questwidth 3 "sans" "maroon"
+		textblock "(2) In writing your next article on the state of Black America, which visualization(s) would you use to complement your story?" 10 50 questwidth 3 "sans" "maroon"
+		textblock "(3) Make a data sketch using a Du Bois visual as inspiration" 10 20 questwidth 3 "sans" "maroon"
+	eslide
+
+	// Section: Contemporary Data
+	// Black Population by state: https://worldpopulationreview.com/state-rankings/black-population-by-state
+	// Police Shootings: https://github.com/washingtonpost/data-police-shootings
+	// Climate data: 39.9526° N, 75.1652° W (Philadelphia) https://www.ncdc.noaa.gov/cag/
+	// Chart Chat on vaccine data: https://youtu.be/kXn3aqGIOXk
+	// Healthcare workers and vaccination https://context-cdn.washingtonpost.com/notes/prod/default/documents/4d8d1ddf-c192-40f9-9e3a-7a3fefa0d928/note/91e5f1ac-2cc5-41bb-b164-ecb4d77ed0b5.#page=1
+	slide bgcolor fgcolor
+		rect 75 50 50 100 sectcolor
+		ctext "4" 25 75 10 "sans" sectcolor
+		clist 25 55 5 "sans" sectcolor 100 1.2
+			li "Working with"
+			li "Contemporary Data"
+		elist
+		textblock "Applying the Du Bois style and principles to contempary data and issues." 55 65 30 3 "sans" bgcolor
+	eslide
+
+	// Old vs. New Occupations
+	slide bgcolor fgcolor
+		image "images/modern-plate27.png" 75 50  1596 2023 50
+		image "images/old-plate27.png"    25 50  1598 2029 50
+	eslide
+
+	// Old vs. New Population
+	slide bgcolor fgcolor
+		image "images/original-plate-02.jpg" 25 50 836 1024
+		image "images/bpop1.png"   75 50 2112 2688 38
+	eslide
+
+	// 1900 full expo venue
+	slide bgcolor fgcolor
+		ctext "Paris 1900" tx ty ts
+		image "images/paris-expo.jpg"            50 50 1447 998 60
+		image "images/expo-poster.jpg"           15 50 431 600
+		image "images/expo0.png"                 86 50 1157 1525 40
+	eslide
+
+	// Modern megaphone
+	slide bgcolor fgcolor
+		megax=75
+		ctext "Now: The Modern Megaphone" tx ty ts
+		etext "Your Message" 33 45 3
+		image "images/megaphone01.png"           45 45 1200 1200 50
+		image "images/twitter-logo.png"          megax 75 1294 1295 15
+		image "images/instagram-logo.jpg"        megax 55 889 890 20
+		image "images/youtube-logo.png"          megax 35 1200 504 20
+		image "images/zoom-logo.png"             megax 15 3840 2160 10
+		polygon "55 55 67 67" "35 60 85 10" "gray" 20
+	eslide
+
+	// #DuBois challenge curated images
+	slide bgcolor fgcolor
+		ctext "#DuboisChallenge" tx ty ts
+		image "images/challenge-catalog01.png" 50 45 3840 2160 45
+	eslide
+
+	// #DuboisChallenge re-creations
+	slide bgcolor fgcolor
+		ctext "#DuboisChallenge" tx ty ts
+		image "images/recreation-catalog01.png" 50 45 3840 2160 45
+	eslide
+
+	// #DuBoisChallenge results
+	slide bgcolor fgcolor
+		ctext "#DuboisChallenge" tx ty ts
+		image "images/challenge02.png" 18 50 750 753 75
+		image "images/challenge05.png" 82 50 788 728 75
+		image "images/challenge03.png" 50 50 759 767 75
+		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge" 50 10 2 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
+	eslide
+
+	// Humanize
+	slide bgcolor fgcolor
+		ctext "How do you humanize your visualization?" sx sy ts
+		image "images/humanize.png" 50 40 360 360
+	eslide
+
+	// Humanity in 1900
+	slide bgcolor fgcolor
+		ctext "Human elements in Plate 31" tx ty ts
+		image "images/original-plate-31.jpg" 25 45 1024 814
+		image "images/plate31-detail3.png"   70 45 1060 615
+	eslide
+
+	// Stolen Series (3)
+	slide bgcolor fgcolor
+		ctext "Stolen Series: 1 Year = 1 Minute Of Color" tx ty ts
+		image "images/stanley-jones.png" 20 45 1143 1449 50
+		image "images/mcdade.png"        50 45 1137 1450 50
+		image "images/jefferson.png"     80 45 1144 1450 50
+	eslide
+
+	// Stolen Series (4)
+	slide bgcolor fgcolor
+		sscale=41
+		ctext "Stolen Series: 1 Year = 1 Minute Of Color" tx ty ts
+		image "images/stanley-jones.png" 13 45 1143 1449 sscale
+		image "images/mcdade.png"        38 45 1137 1450 sscale
+		image "images/jefferson.png"     63 45 1144 1450 sscale
+		image "images/gunn.png"          88 45 1143 1449 sscale
+	eslide
+
+	// perisoopic
+	slide bgcolor fgcolor
+		ctext "guns.periscopic.com"  tx ty ts "sans" "" 100 "https://guns.periscopic.com/"
+		ctext "A Look at Voluntarily Reported Gun Homicide Data from U.S. Law Enforcement" tx 10 2
+		image "images/periscopic.png" 50 50 1911 681 80
+	eslide
+
+//	slide bgcolor fgcolor
+//		rect 75 50 50 100 sectcolor
+//		ctext "Police Scorecard" 25 50 4 "sans" sectcolor
+//		textblock "Samuel Sinyangwe developed and launched a comprehensive data resource on 13,147 police departments and 2,878 sheriffs departments that provides in-depth metrics on everything from police funding, to use of force, to racial bias in enforcement." 55 80 30 3 "sans" bgcolor
+//	eslide
+
+	// Sam Sinyangwe bio
+	slide bgcolor fgcolor
+		text "Sam Sinyangwe" 5 87 5
+		text "Data scientist, activist and co-founder of Campaign Zero" 5 80 2
+		image "images/sam2.jpeg" 17 48 500 500
+		textblock "“I learned early on in my journey that we don't need to wait for permission to take action.”" 5 20 18 1.5 "serif"
+		textblock "Sam is committed to fighting for policies and legislation that hold police departments accountable, and believes that using data is integral to ensuring that the proposed solutions are effective." 35 70 50 2.5
+		textblock "The deaths of Trayvon Martin and Mike Brown prompted him to gradually become conscious of the need to address police violence and violence in the criminal justice system." 35 40 52 2.5
+	eslide
+
+	// Police Scorecard
+	slide bgcolor fgcolor
+		pscale=33
+		psr1=65
+		psr2=22
+		plink="https://policescorecard.org/il/police-department/chicago"
+		ctext "Police Scorecard"            tx ty ts "sans" fgcolor 100 "https://policescorecard.org/"
+		image "images/policescorecard.png"  20 psr1 2182 1841 25 plink
+		image "images/ps00.png"             50 psr1 1650 1673 25 plink
+		image "images/ps01.png"             80 psr1 1647 1221 pscale plink
+		image "images/ps02.png"             20 psr2 1657 1267 pscale plink
+		image "images/ps03.png"             50 psr2 1659 680  pscale plink
+		image "images/ps04.png"             80 psr2 1663 1203 pscale plink
+	eslide
+
+	// How the Police Scorecard works
+	slide bgcolor fgcolor
+		ctext "How the Police Scorecard Works" tx ty ts
+		blist left listy 3
+			li "Prioritize addressing serious threats to public safety"
+			li "Avoid the use of force to the greatest extent possible"
+			li "Possess some form of accountability"
+			li "Remain thorough and trustworthy"
+			li "Implement strategies that are not biased or discriminatory"
+			li "Minimize the financial burden on communities"
+		elist
+	eslide
+
+	// Police Scorecard extremes
+	slide bgcolor fgcolor
+		ctext "A Tale of Two Cites (10.2 miles apart)" tx ty ts
+		ctext "70%" 25 50 15 "sans" "#00aa00"
+		ctext "24%" 75 50 15 "sans" "#dc143c"
+		ctext "Blain, MN" 25 40 3
+		ctext "Robbinsdale, MN" 75 40 3
+		blist 5 25 2
+			li "No reported police killings 2013-20"
+			li "12 complaints, 83% ruled in favor of civilians"
+			li "12,836 arrests, 51% low-level non-violent"
+		elist
+		blist 55 25 2
+			li "One reported police killing 2013-20"
+			li "6 complaints, 0% ruled in favor of civilians"
+			li "4,075 arrests, 79% low-level non-violent"
+		elist 
+	eslide
+
+	// Breakout question: humanize and modernize
+	slide bgcolor fgcolor
+		image "images/chat.png" 10 ty 200 200
+		text "Modern Data and the Human Element" 20 ty ts
+		textblock "(1) What patterns do you see in the Police Scorecard?"    10 70 questwidth 3 "sans" "maroon"
+		textblock "(2) What are some other modern data sets you would use?" 10 50 questwidth 3 "sans" "maroon"
+		textblock "(3) What are some other methods to humanize your visualizations?" 10 20 questwidth 3 "sans" "maroon"
+	eslide
+
+	// Epilog
+	slide bgcolor fgcolor
+		textblock "Authorship, after all, is not only what is created but also what is selected." 20 65 50 5 "serif"
+	    text "Teju Cole" 20 10 2 "sans"
+	 eslide
+edeck
