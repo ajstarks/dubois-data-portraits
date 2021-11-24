@@ -37,6 +37,12 @@ deck
 		elist
 	eslide
 
+	slide bgcolor fgcolor
+		ctext "Your Hosts" tx ty ts
+		cimage "images/allen.jpg" "Allen Hillery" 35 50 400 400
+		cimage "images/anthony3.jpg" "Anthony Starks" 66 50 877 1128 35
+	eslide
+
 	// Outline
 	slide bgcolor fgcolor
 		ctext "Workshop Outline" tx ty ts
@@ -45,6 +51,27 @@ deck
 			li "Sociological Approach: The Philadelphia Negro"
 			li "An overview of the Du Bois 1900 Visualization Collection"
 			li "Approaching Contemporary Data"
+		elist
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Getting to know you" tx ty ts
+		textblock "What time period or historical event has had the most profound effect :" 10 75 75 4 "sans" "maroon"
+		blist 10 50 3
+			li "On NYC"
+			li "On the United States"
+			li "Around the world"
+			li "On YOU"
+		elist
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Getting to know you" tx ty ts
+		textblock "What city or neighborhood:" 10 65 60 4 "sans" "maroon"
+		blist 10 50 3
+			li "Do you call home"
+			li "Inspires you"
+			li "Brings feeling of nostalgia"
 		elist
 	eslide
 
@@ -460,7 +487,7 @@ deck
 	// Humanity in 1900
 	slide bgcolor fgcolor
 		ctext "Human elements in Plate 31" tx ty ts
-		image "images/original-plate-31.jpg" 25 45 1024 814
+		image "images/original-plate-31.jpg" 30 45 1024 814
 		image "images/plate31-detail3.png"   70 45 1060 615
 	eslide
 
@@ -473,14 +500,14 @@ deck
 	eslide
 
 	// Stolen Series (4)
-	slide bgcolor fgcolor
-		sscale=41
-		ctext "Stolen Series: 1 Year = 1 Minute Of Color" tx ty ts
-		image "images/stanley-jones.png" 13 45 1143 1449 sscale
-		image "images/mcdade.png"        38 45 1137 1450 sscale
-		image "images/jefferson.png"     63 45 1144 1450 sscale
-		image "images/gunn.png"          88 45 1143 1449 sscale
-	eslide
+	//slide bgcolor fgcolor
+	//	sscale=41
+	//	ctext "Stolen Series: 1 Year = 1 Minute Of Color" tx ty ts
+	//	image "images/stanley-jones.png" 13 45 1143 1449 sscale
+	//	image "images/mcdade.png"        38 45 1137 1450 sscale
+	//	image "images/jefferson.png"     63 45 1144 1450 sscale
+	//	image "images/gunn.png"          88 45 1143 1449 sscale
+	//eslide
 
 	// perisoopic
 	slide bgcolor fgcolor
