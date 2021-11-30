@@ -30,7 +30,7 @@ deck
 		subx=35
 		image "images/full-catalog.png" 50 50 1920 1080
 		hline 0 50 100 70 "black" 70
-		textblock "Bridging the Gap Between Data and Lived Experience" 10 75 50 6 "sans" "white"
+		textblock "Bridging the Gap Between Data and Lived Experience"           10 75 50 6 "sans" "white"
 		textblock "What would W.E.B Du Bois say to an aspiring data journalist?" 10 subx 50 3 "sans" "white"
 		list 85 subx 1.2 "sans" "white"
 			li "Allen Hillery"
@@ -407,9 +407,9 @@ deck
 	slide bgcolor fgcolor
 		image "images/chat.png" 10 ity 512 330 30
 		text "What Visualization Catches Your Eye?" 15 ty ts
-		textblock "(1) If you were attending the 1900 Paris Expo, which visualization would grab your attention?" 10 70 questwidth 3 "sans" "maroon"
-		textblock "(2) In writing your next article on the state of Black America, which visualization(s) would you use to complement your story?" 10 50 questwidth 3 "sans" "maroon"
-		textblock "(3) Make a data sketch (using pen/paper, whatever) using a Du Bois visual as inspiration" 10 20 questwidth 3 "sans" "maroon"
+		textblock "If you were attending the 1900 Paris Expo, which visualization would grab your attention?" 10 70 questwidth 3 "sans" "maroon"
+		textblock "In writing your next article on the state of Black America, which visualization(s) would you use to complement your story?" 10 50 questwidth 3 "sans" "maroon"
+		textblock "Make a data sketch (using pen/paper, whatever) using a Du Bois visual as inspiration" 10 20 questwidth 3 "sans" "maroon"
 	eslide
 
 	// Section: Contemporary Data
@@ -470,12 +470,13 @@ deck
 	eslide
 
 	// #DuBoisChallenge results
+	challengeLink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
 	slide bgcolor fgcolor
 		ctext "#DuboisChallenge" tx ty ts
 		image "images/challenge02.png" 18 50 750 753 75
 		image "images/challenge05.png" 82 50 788 728 75
 		image "images/challenge03.png" 50 50 759 767 75
-		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge" 50 10 2 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
+		ctext challengeLink 50 10 2 "mono" "maroon" 100 challengeLink
 	eslide
 
 	// Humanize
@@ -497,10 +498,11 @@ deck
 	brandon1="Adrian was emotional and angry with the violence against Black people and wanted to make an impact. He sought to have a voice in the conversation and chose to bring more attention to this issue through his art."
 	brandon2="The Stolen Series is dedicated to the many Black people that were robbed of their lives at the hands of the police. Adrian uses time to define how long each portrait is colored in. 1 year of life = 1 minute of color."
 	brandon3="The viewer is confronted with the empty space left in these lives, stories that will never be told, space that can never be filled."
+	brandon4="Seattle Raised, Brooklyn Based Artist and Author of The Stolen Series"
 	brandonquote="“Art is a universal language that transcends all walks of life, so I felt like it would be a good way to express the pain that I was feeling inside”"
 	slide bgcolor fgcolor
-		text "Adrian Brandon" 5 90 5
-		textblock "Seattle Raised, Brooklyn Based Artist and Author of The Stolen Series" 5 85 80 2
+		text "Adrian Brandon" 5 ty 5
+		textblock brandon4 45 93 30 2
 		image "images/adrian.png" 15 53 403 575
 		textblock brandon1        30 77 60 biosize "serif"
 		textblock brandon2        30 50 60 biosize "serif"
@@ -556,10 +558,11 @@ deck
 	// Sam Sinyangwe bio
 	sam1="Sam is committed to fighting for policies and legislation that hold police departments accountable, and believes that using data is integral to ensuring that the proposed solutions are effective."
 	sam2="The deaths of Trayvon Martin and Mike Brown prompted him to gradually become conscious of the need to address police violence and violence in the criminal justice system."
+	sam3="Data scientist, activist and co-founder of Campaign Zero" 
 	samquote="“I learned early on in my journey that we don't need to wait for permission to take action.”"
 	slide bgcolor fgcolor
-		text "Sam Sinyangwe" 5 90 5
-		text "Data scientist, activist and co-founder of Campaign Zero" 5 85 2
+		text "Sam Sinyangwe" 5 ty 5
+		textblock sam3 45 93 25 2
 		image "images/sam2.jpeg" 17 50 500 500
 		textblock samquote  5 20 18 bqsize  "serif"
 		textblock sam1     35 70 50 biosize "serif"
@@ -617,9 +620,9 @@ deck
 	slide bgcolor fgcolor
 		image "images/chat.png" 10 ity 512 330 30
 		text "Modern Data and the Human Element" 20 ty ts
-		textblock "(1) What patterns do you see in the Police Scorecard?"    10 65 questwidth 3 "sans" "maroon"
-		textblock "(2) What are some other modern data sets you would use?"  10 50 questwidth 3 "sans" "maroon"
-		textblock "(3) What are some other methods to humanize your visualizations?" 10 30 questwidth 3 "sans" "maroon"
+		textblock "What patterns do you see in the Police Scorecard?"    10 65 questwidth 3 "sans" "maroon"
+		textblock "What are some other modern data sets you would use?"  10 50 questwidth 3 "sans" "maroon"
+		textblock "What are some other methods to humanize your visualizations?" 10 30 questwidth 3 "sans" "maroon"
 	eslide
 
 	// Epilog
