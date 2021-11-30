@@ -453,20 +453,20 @@ deck
 		image "images/twitter-logo.png"          megax 75 1294 1295 15
 		image "images/instagram-logo.jpg"        megax 55 889 890 20
 		image "images/youtube-logo.png"          megax 35 1200 504 20
-		image "images/zoom-logo.png"             megax 15 3840 2160 10
+		image "images/zoom.png"                  megax 15 960 540 40
 		polygon "55 55 67 67" "35 60 85 10" "gray" 20
 	eslide
 
 	// #DuBois challenge curated images
 	slide bgcolor fgcolor
 		ctext "#DuboisChallenge" tx ty ts
-		image "images/challenge-catalog01.png" 50 45 3840 2160 45
+		image "images/cat.png" 50 45 1920 1080
 	eslide
 
 	// #DuboisChallenge re-creations
 	slide bgcolor fgcolor
 		ctext "#DuboisChallenge" tx ty ts
-		image "images/recreation-catalog01.png" 50 45 3840 2160 45
+		image "images/recat.png" 50 45 1920 1080
 	eslide
 
 	// #DuBoisChallenge results
