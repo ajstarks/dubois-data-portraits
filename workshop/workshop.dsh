@@ -6,10 +6,11 @@ deck
 	ns2=ns*0.50
 	ns3=ns2*0.75
 	tx=50
-	ty=87
+	ty=89
+	ity=ty+3
 	listy=ty-20
 	tfont="sans"
-	sectcolor="crimson"
+	sectcolor="maroon"
 	sx=50
 	sy=60
 	mx=50
@@ -37,16 +38,17 @@ deck
 		elist
 	eslide
 
+	// Authors
 	slide bgcolor fgcolor
 		ctext "Your Hosts" tx ty ts
-		cimage "images/allen.jpg" "Allen Hillery" 35 50 400 400
-		cimage "images/anthony3.jpg" "Anthony Starks" 66 50 877 1128 35
+		cimage "images/allen.png" "Allen Hillery" 35 50 778 1056 55
+		cimage "images/anthony3.jpg" "Anthony Starks" 66 50 877 1128 50
 	eslide
 
 	// Outline
 	slide bgcolor fgcolor
 		ctext "Workshop Outline" tx ty ts
-		blist 10 listy 3
+		nlist 10 listy 3
 			li "Historical Context"
 			li "Sociological Approach: The Philadelphia Negro"
 			li "An overview of the Du Bois 1900 Visualization Collection"
@@ -54,24 +56,26 @@ deck
 		elist
 	eslide
 
+	// Getting to know you (1)
 	slide bgcolor fgcolor
 		ctext "Getting to know you" tx ty ts
-		textblock "What time period or historical event has had the most profound effect :" 10 75 75 4 "sans" "maroon"
-		blist 10 50 3
-			li "On NYC"
-			li "On the United States"
-			li "Around the world"
-			li "On YOU"
-		elist
-	eslide
-
-	slide bgcolor fgcolor
-		ctext "Getting to know you" tx ty ts
-		textblock "What city or neighborhood:" 10 65 60 4 "sans" "maroon"
+		textblock "What city or neighborhood:" 10 70 60 4 "serif" "maroon"
 		blist 10 50 3
 			li "Do you call home"
 			li "Inspires you"
 			li "Brings feeling of nostalgia"
+		elist
+	eslide
+
+	// Getting to know you (2)
+	slide bgcolor fgcolor
+		ctext "Getting to know you" tx ty ts
+		textblock "What time period or historical event has had a profound effect:" 10 75 75 4 "serif" "maroon"
+		blist 10 50 3
+			li "On NYC?"
+			li "On the United States?"
+			li "Around the world?"
+			li "On YOU?"
 		elist
 	eslide
 
@@ -83,7 +87,7 @@ deck
 			li "Historical"
 			li "Context"
 		elist
-		textblock "What events led up to the 1900 Paris exhibition? The end of the 19th century zietgiest." 55 60 30 3 "sans" bgcolor
+		textblock "The end of the 19th century zeitgeist — events leading to the 1900 Paris exhibition." 55 60 30 3 "sans" bgcolor
 	eslide
 
 	// Atlanta University
@@ -174,21 +178,9 @@ deck
 		circle p5 dy 1 "maroon"
 	eslide
 	
-	// Intent
-	slide bgcolor fgcolor
-		image "images/plate38.png" 10 73 imw imh 5
-		image "images/plate27.png" 10 52 imw imh 5
-		image "images/plate22.png" 10 30 imw imh 5
-		list 15 listy 6 "sans" "maroon"
-			li "We are here"
-			li "This is who we are"
-			li "This is how far we have come"
-		elist
-	eslide
-
 	// Breakout: history repeating
 	slide bgcolor fgcolor
-		image "images/chat.png" 10 ty 200 200
+		image "images/chat.png" 10 ity 512 330 30
 		text "Is History Repeating Itself?" 20 ty ts
 		textblock "Looking at the historical events that led up to the 1900 Paris Exhibition, they look quite familiar to events happening today." 10 75 questwidth 3 "serif"
 		textblock "How are the Wilmington Overthrow and Rise of Lynchings reminiscent of current events?" 10 40 questwidth 4 "sans" "maroon"
@@ -234,9 +226,9 @@ deck
 
 	// Breakout question: what would Du Bois say
 	slide bgcolor fgcolor
-		image "images/chat.png" 10 ty 200 200
+		image "images/chat.png" 10 ity 512 330 30
 		text "What would Du Bois say?" 20 ty ts
-		textblock "Du Bois emerged from the Philadelphia Negro as the first number-crunching, surveying, interviewing, participant - observing and field working sociologist in America." 10 75 questwidth 3 "serif"
+		textblock "Du Bois emerged from the Philadelphia Negro as the first number-crunching, surveying, interviewing, participant-observing and field-working sociologist in America." 10 75 questwidth 3 "serif"
 		textblock "What do you think Du Bois would have to say to an aspiring data journalist? Would he have embraced social media?" 10 40 questwidth 4 "sans" "maroon"
 	eslide
 
@@ -249,6 +241,18 @@ deck
 			li "Visualizations"
 		elist
 		textblock "Discussion of the visualization taxonomy, and a definition of the Du Bois style, its design elements and decisions." 55 65 30 3 "sans" bgcolor
+	eslide
+
+	// Intent
+	slide bgcolor fgcolor
+		image "images/plate38.png" 10 73 imw imh 5
+		image "images/plate27.png" 10 52 imw imh 5
+		image "images/plate22.png" 10 30 imw imh 5
+		list 15 listy 6 "sans" "maroon"
+			li "We are here"
+			li "This is who we are"
+			li "This is how far we have come"
+		elist
 	eslide
 
 	// 1900 venue
@@ -401,19 +405,15 @@ deck
 
 	// Breakout question: Which viz do you find compelling	
 	slide bgcolor fgcolor
-		image "images/chat.png" 10 ty 200 200
-		text "What Visualization Catches Your Eye?" 20 ty ts
+		image "images/chat.png" 10 ity 512 330 30
+		text "What Visualization Catches Your Eye?" 15 ty ts
 		textblock "(1) If you were attending the 1900 Paris Expo, which visualization would grab your attention?" 10 70 questwidth 3 "sans" "maroon"
 		textblock "(2) In writing your next article on the state of Black America, which visualization(s) would you use to complement your story?" 10 50 questwidth 3 "sans" "maroon"
-		textblock "(3) Make a data sketch using a Du Bois visual as inspiration" 10 20 questwidth 3 "sans" "maroon"
+		textblock "(3) Make a data sketch (using pen/paper, whatever) using a Du Bois visual as inspiration" 10 20 questwidth 3 "sans" "maroon"
 	eslide
 
 	// Section: Contemporary Data
 	// Black Population by state: https://worldpopulationreview.com/state-rankings/black-population-by-state
-	// Police Shootings: https://github.com/washingtonpost/data-police-shootings
-	// Climate data: 39.9526° N, 75.1652° W (Philadelphia) https://www.ncdc.noaa.gov/cag/
-	// Chart Chat on vaccine data: https://youtu.be/kXn3aqGIOXk
-	// Healthcare workers and vaccination https://context-cdn.washingtonpost.com/notes/prod/default/documents/4d8d1ddf-c192-40f9-9e3a-7a3fefa0d928/note/91e5f1ac-2cc5-41bb-b164-ecb4d77ed0b5.#page=1
 	slide bgcolor fgcolor
 		rect 75 50 50 100 sectcolor
 		ctext "4" 25 75 10 "sans" sectcolor
@@ -491,12 +491,43 @@ deck
 		image "images/plate31-detail3.png"   70 45 1060 615
 	eslide
 
+	// Adrian Brandon bio
+	biosize=2.2
+	bqsize=1.5
+	brandon1="Adrian was emotional and angry with the violence against Black people and wanted to make an impact. He sought to have a voice in the conversation and chose to bring more attention to this issue through his art."
+	brandon2="The Stolen Series is dedicated to the many Black people that were robbed of their lives at the hands of the police. Adrian uses time to define how long each portrait is colored in. 1 year of life = 1 minute of color."
+	brandon3="The viewer is confronted with the empty space left in these lives, stories that will never be told, space that can never be filled."
+	brandonquote="“Art is a universal language that transcends all walks of life, so I felt like it would be a good way to express the pain that I was feeling inside”"
+	slide bgcolor fgcolor
+		text "Adrian Brandon" 5 90 5
+		textblock "Seattle Raised, Brooklyn Based Artist and Author of The Stolen Series" 5 85 80 2
+		image "images/adrian.png" 15 53 403 575
+		textblock brandon1        30 77 60 biosize "serif"
+		textblock brandon2        30 50 60 biosize "serif"
+		textblock brandon3        30 22 60 biosize "serif"
+		textblock brandonquote     5 22 18 bqsize  "serif"
+	eslide
+
 	// Stolen Series (3)
 	slide bgcolor fgcolor
 		ctext "Stolen Series: 1 Year = 1 Minute Of Color" tx ty ts
 		image "images/stanley-jones.png" 20 45 1143 1449 50
 		image "images/mcdade.png"        50 45 1137 1450 50
 		image "images/jefferson.png"     80 45 1144 1450 50
+	eslide
+
+	// Stolen series grid
+	slide bgcolor fgcolor
+		nts=0.6
+		stscale=20
+		numsize=1
+		numfont="mono"
+		numcolor="maroon"
+		namefont="serif"
+		namecolor="black"
+		grid "st.dsh" 5 90 8.1 19 95
+		grid "nums.dsh" 8 97 8.1 19 98
+		grid "names.dsh" 5 81 8.1 19 95
 	eslide
 
 	// Stolen Series (4)
@@ -510,37 +541,40 @@ deck
 	//eslide
 
 	// perisoopic
-	slide bgcolor fgcolor
-		ctext "guns.periscopic.com"  tx ty ts "sans" "" 100 "https://guns.periscopic.com/"
-		ctext "A Look at Voluntarily Reported Gun Homicide Data from U.S. Law Enforcement" tx 10 2
-		image "images/periscopic.png" 50 50 1911 681 80
-	eslide
+	//	slide bgcolor fgcolor
+	//		ctext "guns.periscopic.com"  tx ty ts "sans" "" 100 "https://guns.periscopic.com/"
+	//		ctext "A Look at Voluntarily Reported Gun Homicide Data from U.S. Law Enforcement" tx 10 2
+	//		image "images/periscopic.png" 50 50 1911 681 80
+	//	eslide
 
-//	slide bgcolor fgcolor
-//		rect 75 50 50 100 sectcolor
-//		ctext "Police Scorecard" 25 50 4 "sans" sectcolor
-//		textblock "Samuel Sinyangwe developed and launched a comprehensive data resource on 13,147 police departments and 2,878 sheriffs departments that provides in-depth metrics on everything from police funding, to use of force, to racial bias in enforcement." 55 80 30 3 "sans" bgcolor
-//	eslide
+	//	slide bgcolor fgcolor
+	//		rect 75 50 50 100 sectcolor
+	//		ctext "Police Scorecard" 25 50 4 "sans" sectcolor
+	//		textblock "Samuel Sinyangwe developed and launched a comprehensive data resource on 13,147 police departments and 2,878 sheriffs departments that provides in-depth metrics on everything from police funding, to use of force, to racial bias in enforcement." 55 80 30 3 "sans" bgcolor
+	//	eslide
 
 	// Sam Sinyangwe bio
+	sam1="Sam is committed to fighting for policies and legislation that hold police departments accountable, and believes that using data is integral to ensuring that the proposed solutions are effective."
+	sam2="The deaths of Trayvon Martin and Mike Brown prompted him to gradually become conscious of the need to address police violence and violence in the criminal justice system."
+	samquote="“I learned early on in my journey that we don't need to wait for permission to take action.”"
 	slide bgcolor fgcolor
-		text "Sam Sinyangwe" 5 87 5
-		text "Data scientist, activist and co-founder of Campaign Zero" 5 80 2
-		image "images/sam2.jpeg" 17 48 500 500
-		textblock "“I learned early on in my journey that we don't need to wait for permission to take action.”" 5 20 18 1.5 "serif"
-		textblock "Sam is committed to fighting for policies and legislation that hold police departments accountable, and believes that using data is integral to ensuring that the proposed solutions are effective." 35 70 50 2.5
-		textblock "The deaths of Trayvon Martin and Mike Brown prompted him to gradually become conscious of the need to address police violence and violence in the criminal justice system." 35 40 52 2.5
+		text "Sam Sinyangwe" 5 90 5
+		text "Data scientist, activist and co-founder of Campaign Zero" 5 85 2
+		image "images/sam2.jpeg" 17 50 500 500
+		textblock samquote  5 20 18 bqsize  "serif"
+		textblock sam1     35 70 50 biosize "serif"
+		textblock sam2     35 40 52 biosize "serif"
 	eslide
 
 	// Police Scorecard
 	slide bgcolor fgcolor
 		pscale=33
-		psr1=65
-		psr2=22
+		psr1=62
+		psr2=20
 		plink="https://policescorecard.org/il/police-department/chicago"
 		ctext "Police Scorecard"            tx ty ts "sans" fgcolor 100 "https://policescorecard.org/"
 		image "images/policescorecard.png"  20 psr1 2182 1841 25 plink
-		image "images/ps00.png"             50 psr1 1650 1673 25 plink
+		image "images/ps00.png"             50 psr1 1650 1673 27 plink
 		image "images/ps01.png"             80 psr1 1647 1221 pscale plink
 		image "images/ps02.png"             20 psr2 1657 1267 pscale plink
 		image "images/ps03.png"             50 psr2 1659 680  pscale plink
@@ -549,14 +583,14 @@ deck
 
 	// How the Police Scorecard works
 	slide bgcolor fgcolor
-		ctext "How the Police Scorecard Works" tx ty ts
+		ctext "Police Scoring Critera" tx ty ts
 		blist left listy 3
-			li "Prioritize addressing serious threats to public safety"
-			li "Avoid the use of force to the greatest extent possible"
-			li "Possess some form of accountability"
-			li "Remain thorough and trustworthy"
-			li "Implement strategies that are not biased or discriminatory"
+			li "Avoiding the use of force to the greatest extent possible"
+			li "Implement non-biased and non-discriminatory strategies"
 			li "Minimize the financial burden on communities"
+			li "Prioritize addressing serious threats to public safety"
+			li "Provide some form of accountability"
+			li "Remain thorough and trustworthy"
 		elist
 	eslide
 
@@ -581,11 +615,11 @@ deck
 
 	// Breakout question: humanize and modernize
 	slide bgcolor fgcolor
-		image "images/chat.png" 10 ty 200 200
+		image "images/chat.png" 10 ity 512 330 30
 		text "Modern Data and the Human Element" 20 ty ts
-		textblock "(1) What patterns do you see in the Police Scorecard?"    10 70 questwidth 3 "sans" "maroon"
-		textblock "(2) What are some other modern data sets you would use?" 10 50 questwidth 3 "sans" "maroon"
-		textblock "(3) What are some other methods to humanize your visualizations?" 10 20 questwidth 3 "sans" "maroon"
+		textblock "(1) What patterns do you see in the Police Scorecard?"    10 65 questwidth 3 "sans" "maroon"
+		textblock "(2) What are some other modern data sets you would use?"  10 50 questwidth 3 "sans" "maroon"
+		textblock "(3) What are some other methods to humanize your visualizations?" 10 30 questwidth 3 "sans" "maroon"
 	eslide
 
 	// Epilog

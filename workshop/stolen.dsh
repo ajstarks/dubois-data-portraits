@@ -1,0 +1,55 @@
+deck
+	nts=0.6
+	numfont="mono"
+	numcolor="maroon"
+	slide "linen"
+		stscale=10
+		numsize=3
+		grid "nums.dsh" 5 60 5 10 95
+	eslide
+
+	slide "linen"
+		stscale=10
+		numsize=3
+		grid "st.dsh" 5 60 5 10 95
+	eslide
+
+	slide "linen"
+		stscale=10
+		numsize=3
+		grid "st.dsh" 5 60 5 10 95
+		grid "nums.dsh" 5 60 5 10 95
+	eslide
+
+//	slide "linen"
+//		stscale=25
+//		numsize=1
+//		grid "nums.dsh" 8 97 8.1 19 98
+//	eslide
+//
+//	slide "linen"
+//		stscale=25
+//		grid "nums.dsh" 8 97 8.1 19 98
+//		grid "names.dsh" 2 81 8.1 19 95
+//	eslide
+//
+	slide "linen"
+		stscale=20
+		numsize=1
+		namefont="serif"
+		namecolor="black"
+		grid "st.dsh" 5 90 8.1 19 95
+		grid "nums.dsh" 8 97 8.1 19 98
+		grid "names.dsh" 5 81 8.1 19 95
+	eslide
+
+	slide "linen"
+		ims=15
+		ctext "Their age when they died" 50 95 2
+		image "images/stolen01.png" 5 42 660 840 ims
+		image "images/stolen57.png" 95 95 660 840 ims
+		image "images/stolen29.png" 50 60 660 840 ims
+		image "images/stolen15.png" 27 57 660 840 ims
+		dchart -title=f -color=sienna  -textsize=1 -yaxis -grid -val=f -left=5 -right=95 -bottom=30 -top=90 -csv -csvcol=name,years -bar -note=f -xlabrot=270 stolen.csv
+	eslide
+edeck
