@@ -1,0 +1,26 @@
+#!/bin/sh
+# ./ocatalog2 ls plate*/original*.jpg |  decksh | pdf -pagesize 1920,1080
+ims $* | awk '
+BEGIN {
+	print "deck"
+	scale=90
+}
+{
+	pic[NR] = $1
+	width[NR]=$2
+	height[NR]=$3
+	plate[NR]=substr($1,1,index($1,"/")-1)
+}
+END {
+	for (i=1; i <=NR; i++) {
+		if (i%2 == 0) {
+			printf "slide \"rgb(230,230,230)\"\n"
+			printf "image \"%s\" 25 50 %d %d %g\n",         pic[i-1], width[i-1], height[i-1], scale
+			printf "ctext \"%s\" 25 3 1.5\n", plate[i-1]
+			printf "ctext \"%s\" 75 3 1.5\n", plate[i]
+			printf "image \"%s\" 75 50 %d %d %g\neslide\n", pic[i],   width[i],   height[i],   scale
+		}
+	}
+	print "edeck"
+}'
+
