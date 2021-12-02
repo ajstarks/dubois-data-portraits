@@ -153,20 +153,26 @@ deck
 		ctext "1899" p4 dly dls
 		ctext "1900" p5 dly dls "sans" "maroon"
 
+		balink="https://publicdomainreview.org/essay/black-america-1895"
+		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+		expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
 		dls=1.5
-		ctext "“Black America” Fair"             p1 ny dls "serif"
-		ctext "Plessy v. Ferguson"               p1a ny dls "serif"
-		ctext "Phila. Negro begins"              p2 ny dls "serif"
-		ctext "Wilmington Overthrow"             p3 ny dls "serif"
-		ctext "Lynchings Peak"                   p4 ny dls "serif"
-		ctext "Paris Exposition"                 p5 ny dls "serif"
+		ctext "“Black America” Fair"             p1 ny dls "serif"  fgcolor 100 balink
+		ctext "Plessy v. Ferguson"               p1a ny dls "serif" fgcolor 100 plessylink
+		ctext "Phila. Negro begins"              p2 ny dls "serif"  fgcolor 100 phillylink
+		ctext "Wilmington Overthrow"             p3 ny dls "serif"  fgcolor 100 wilmlink
+		ctext "Lynchings Peak"                   p4 ny dls "serif"  fgcolor 100 moblink
+		ctext "Paris Exposition"                 p5 ny dls "serif"  fgcolor 100 expolink
 
-		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30
-		image "images/homer-plessy.jpg"          p1a dimy 295 350 75
-		image "images/philly12.png"              p2 dimy 1112 930 28
-		image "images/white-mans-day.jpg"        p3 dimy 654 658 40
-		image "images/mob.jpg"                   p4 dimy 640 512 45
-		image "images/expo.jpg"                  p5 dimy 739 1024 25
+		image "images/BA-happy-days.jpg"         p1 dimy  1200 743 30 balink
+		image "images/homer-plessy.jpg"          p1a dimy  295 350 75 plessylink
+		image "images/philly12.png"              p2 dimy  1112 930 28 phillylink
+		image "images/white-mans-day.jpg"        p3 dimy   654 658 40 wilmlink
+		image "images/mob.jpg"                   p4 dimy   640 512 45  moblink
+		image "images/expo.jpg"                  p5 dimy   739 1024 25 expolink
 
 		// timeline
 		line dminx dy dmaxx dy 0.5 "gray" 50
@@ -204,7 +210,7 @@ deck
 	slide bgcolor fgcolor
 		philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
 		imid=55
-		ctext       "The Philadelphia Negro, 1897" tx ty ts
+		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" fgcolor 100 phillylink
 		image       "images/philly09.png" 16 imid  880 909 65
 		image       "images/philly12.png" 51 imid 1112 930 65
 		image       "images/philly03.png" 85 imid 809 903  65
@@ -438,7 +444,7 @@ deck
 
 	// 1900 full expo venue
 	slide bgcolor fgcolor
-		ctext "Paris 1900" tx ty ts
+		ctext "Paris 1900" tx ty ts "sans" fgcolor 100 "https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)"
 		image "images/paris-expo.jpg"            50 50 1447 998 60
 		image "images/expo-poster.jpg"           15 50 431 600
 		image "images/expo0.png"                 86 50 1157 1525 40
@@ -459,23 +465,23 @@ deck
 
 	// #DuBois challenge curated images
 	slide bgcolor fgcolor
-		ctext "#DuboisChallenge" tx ty ts
+		ctext "#DuboisChallenge" tx ty ts "sans" fgcolor 100 "https://twitter.com/search?q=%23duboischallenge"
 		image "images/cat.png" 50 45 1920 1080
 	eslide
 
 	// #DuboisChallenge re-creations
 	slide bgcolor fgcolor
-		ctext "#DuboisChallenge" tx ty ts
+		ctext "#DuboisChallenge" tx ty ts "sans" fgcolor 100 "https://twitter.com/search?q=%23duboischallenge"
 		image "images/recat.png" 50 45 1920 1080
 	eslide
 
 	// #DuBoisChallenge results
 	challengeLink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
 	slide bgcolor fgcolor
-		ctext "#DuboisChallenge" tx ty ts
-		image "images/challenge02.png" 18 50 750 753 75
-		image "images/challenge05.png" 82 50 788 728 75
-		image "images/challenge03.png" 50 50 759 767 75
+		ctext "#DuboisChallenge" tx ty ts "sans" fgcolor 100 "https://twitter.com/search?q=%23duboischallenge"
+		image "images/challenge02.png" 18 50 750 753 75 "https://twitter.com/ijeamaka_a/status/1361715338027560962"
+		image "images/challenge05.png" 82 50 788 728 75 "https://twitter.com/CharlieEatonPhD/status/1362882278230093824"
+		image "images/challenge03.png" 50 50 759 767 75 "https://twitter.com/marisalyn/status/1362147373045092352"
 		ctext challengeLink 50 10 2 "mono" "maroon" 100 challengeLink
 	eslide
 
@@ -495,15 +501,16 @@ deck
 	// Adrian Brandon bio
 	biosize=2.2
 	bqsize=1.5
+	stolenlink="https://www.adrianbrandon.com/stolen"
 	brandon1="Adrian was emotional and angry with the violence against Black people and wanted to make an impact. He sought to have a voice in the conversation and chose to bring more attention to this issue through his art."
 	brandon2="The Stolen Series is dedicated to the many Black people that were robbed of their lives at the hands of the police. Adrian uses time to define how long each portrait is colored in. 1 year of life = 1 minute of color."
 	brandon3="The viewer is confronted with the empty space left in these lives, stories that will never be told, space that can never be filled."
 	brandon4="Seattle Raised, Brooklyn Based Artist and Author of The Stolen Series"
 	brandonquote="“Art is a universal language that transcends all walks of life, so I felt like it would be a good way to express the pain that I was feeling inside”"
 	slide bgcolor fgcolor
-		text "Adrian Brandon" 5 ty 5
+		text "Adrian Brandon" 5 ty 5 "sans" "black" 100 stolenlink
 		textblock brandon4 45 93 30 2
-		image "images/adrian.png" 15 53 403 575
+		image "images/adrian.png" 15 53 403 575 100 stolenlink
 		textblock brandon1        30 77 60 biosize "serif"
 		textblock brandon2        30 50 60 biosize "serif"
 		textblock brandon3        30 22 60 biosize "serif"
@@ -512,10 +519,10 @@ deck
 
 	// Stolen Series (3)
 	slide bgcolor fgcolor
-		ctext "Stolen Series: 1 Year = 1 Minute Of Color" tx ty ts
-		image "images/stanley-jones.png" 20 45 1143 1449 50
-		image "images/mcdade.png"        50 45 1137 1450 50
-		image "images/jefferson.png"     80 45 1144 1450 50
+		ctext "Stolen Series: 1 Year = 1 Minute Of Color" tx ty ts "sans" "black" 100 stolenlink
+		image "images/stanley-jones.png" 20 45 1143 1449 50 "https://www.adrianbrandon.com/stolen?pgid=kah89p0o-a8cdf86f-9ba1-11ea-be76-063f49e9a7e4"
+		image "images/mcdade.png"        50 45 1137 1450 50 "https://www.adrianbrandon.com/stolen?pgid=kah89p0o-688e9db5-15c7-48bf-a95f-34ca951e5aa4"
+		image "images/jefferson.png"     80 45 1144 1450 50 "https://www.adrianbrandon.com/stolen?pgid=kah89p0o-66141065-0b1e-4832-941b-9949de98f00c"
 	eslide
 
 	// Stolen series grid
@@ -600,8 +607,8 @@ deck
 	// Police Scorecard extremes
 	slide bgcolor fgcolor
 		ctext "A Tale of Two Cites (10.2 miles apart)" tx ty ts
-		ctext "70%" 25 50 15 "sans" "#00aa00"
-		ctext "24%" 75 50 15 "sans" "#dc143c"
+		ctext "70%" 25 50 15 "sans" "#00aa00" 100 "https://policescorecard.org/mn/police-department/blaine"
+		ctext "24%" 75 50 15 "sans" "#dc143c" 100 "https://policescorecard.org/mn/police-department/robbinsdale"
 		ctext "Blain, MN" 25 40 3
 		ctext "Robbinsdale, MN" 75 40 3
 		blist 5 25 2
