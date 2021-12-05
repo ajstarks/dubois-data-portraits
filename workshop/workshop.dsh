@@ -143,7 +143,7 @@ deck
 		p4=vmap 1899 datemin datemax dminx dmaxx
 		p5=vmap 1900 datemin datemax dminx dmaxx
 
-		dls=2
+		dls=2.5
 	
 		ctext "Historical Context" tx ty ts
 		ctext "1895" p1 dly dls
