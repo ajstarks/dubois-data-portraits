@@ -1,5 +1,6 @@
 #!/bin/sh
-# ./ocatalog2 ls plate*/original*.jpg |  decksh | pdf -pagesize 1920,1080
+# makes a index to the original Du Bois Visualizations
+# ./ocatalog2 plate*/original*.jpg |  decksh | pdf -pagesize 1920,1080
 ims $* | awk '
 BEGIN {
 	print "deck"
@@ -12,6 +13,29 @@ BEGIN {
 	plate[NR]=substr($1,1,index($1,"/")-1)
 }
 END {
+
+	printf "slide\nctext \"Du Bois Visualizations\" 50 92 3\n"
+	left=5
+	x=left
+	y=80
+	colsize=90/13
+	rowsize=80/4
+	tocscale=14
+	for (i=1; i <=NR; i++) {
+
+		printf "image \"%s\" %g %g %d %d %g\n", pic[i], x, y, width[i], height[i], tocscale
+		printf "ctext \"%s\" %g %g 1\n", plate[i], x, y-(rowsize*0.45)
+
+		x += colsize
+		if (x > 95) {
+			x = left
+			y -= rowsize
+		}
+		
+	
+	}
+	printf "eslide\n"
+
 	for (i=1; i <=NR; i++) {
 		if (i%2 == 0) {
 			printf "slide \"rgb(230,230,230)\"\n"
