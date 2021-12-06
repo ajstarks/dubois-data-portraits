@@ -24,6 +24,9 @@ deck
 	bgcolor="linen"
 	top=90
 	left=5
+	pagenum=1
+	pgx=96
+	pgy=3
 
 	// Title
 	slide bgcolor fgcolor
@@ -40,6 +43,7 @@ deck
 
 	// Authors
 	slide bgcolor fgcolor
+		include "paginate.dsh"
 		ctext "Your Hosts" tx ty ts
 		cimage "images/allen.png" "Allen Hillery" 35 50 778 1056 55
 		cimage "images/anthony3.jpg" "Anthony Starks" 66 50 877 1128 50
@@ -47,6 +51,7 @@ deck
 
 	// Outline
 	slide bgcolor fgcolor
+		include "paginate.dsh"
 		ctext "Workshop Outline" tx ty ts
 		nlist 10 listy 3
 			li "Historical Context"
@@ -58,6 +63,7 @@ deck
 
 	// Getting to know you (1)
 	slide bgcolor fgcolor
+		include "paginate.dsh"
 		ctext "Getting to know you" tx ty ts
 		textblock "What city or neighborhood:" 10 70 60 4 "serif" "maroon"
 		blist 10 50 3
@@ -69,6 +75,7 @@ deck
 
 	// Getting to know you (2)
 	slide bgcolor fgcolor
+		include "paginate.dsh"
 		ctext "Getting to know you" tx ty ts
 		textblock "What time period or historical event has had a profound effect:" 10 75 75 4 "serif" "maroon"
 		blist 10 50 3
@@ -81,6 +88,7 @@ deck
 
 	// Section: Historical Context
 	slide bgcolor fgcolor
+		include "paginate.dsh"
 		rect 75 50 50 100 sectcolor
 		ctext "1" 25 75 10 "sans" sectcolor
 		clist 25 55 5 "sans" sectcolor 100 1.2
@@ -92,6 +100,8 @@ deck
 
 	// Atlanta University
     slide bgcolor fgcolor
+ 		include "paginate.dsh"
+
 		image "images/au-debating-team-1900.jpg"  25 my 700 563
 		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
 		image "images/au-women.jpg"  70 50 916 594 94
@@ -100,6 +110,8 @@ deck
 
 	// DuBois in Paris
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		image "images/dubois-1900.png" 			30 my 650 891
 		ctext "W.E.B. DuBois in Paris 1900"		30 4 ns3 "serif"
 		image "images/expo0.png"				70 my 1157 1525 59
@@ -127,6 +139,8 @@ deck
 	// including the only black newspaper in the city, and killed an estimated 60 to 
 	// more than 300 people   https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		dy=30
 		ny=dy+3
 		dimy=dy+20
@@ -186,6 +200,8 @@ deck
 	
 	// Breakout: history repeating
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		image "images/chat.png" 10 ity 512 330 30
 		text "Is History Repeating Itself?" 20 ty ts
 		textblock "Looking at the historical events that led up to the 1900 Paris Exhibition, they look quite familiar to events happening today." 10 75 questwidth 3 "serif"
@@ -194,6 +210,8 @@ deck
 
 	// Section Soc. Approach
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		rect 75 50 50 100 sectcolor
 		ctext "2" 25 75 10 "sans" sectcolor
 		clist 25 55 5 "sans" sectcolor 100 1.2
@@ -208,6 +226,8 @@ deck
 	// ascertain something of the geographical distribution of this race,
 	// their organizations, and above all their relation to their million white fellow-citizens
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
 		imid=55
 		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" fgcolor 100 phillylink
@@ -219,6 +239,8 @@ deck
 
 	// Phila. Negro survey forms
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "The Philadelphia Negro: Survey Methods" tx ty ts
 		nlist 10 listy 3 
 			li "Family survey - (marital status, income, employment)"
@@ -232,6 +254,8 @@ deck
 
 	// Breakout question: what would Du Bois say
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		image "images/chat.png" 10 ity 512 330 30
 		text "What would Du Bois say?" 20 ty ts
 		textblock "Du Bois emerged from the Philadelphia Negro as the first number-crunching, surveying, interviewing, participant-observing and field-working sociologist in America." 10 75 questwidth 3 "serif"
@@ -240,6 +264,8 @@ deck
 
 	// Section: Visualizations
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		rect 75 50 50 100 sectcolor
 		ctext "3" 25 75 10 "sans" sectcolor
 		clist 25 55 5 "sans" sectcolor 100 1.2
@@ -251,6 +277,8 @@ deck
 
 	// Intent
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		image "images/plate38.png" 10 73 imw imh 5
 		image "images/plate27.png" 10 52 imw imh 5
 		image "images/plate22.png" 10 30 imw imh 5
@@ -263,11 +291,15 @@ deck
 
 	// 1900 venue
 	slide bgcolor
+		include "paginate.dsh"
+
 		image "images/expo0.png" 50 50 1157 1525 60
 	eslide
 
 	// Show viz IRL
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ims=4
 		image "images/expo0.png" 50 50 1157 1525 60
 		image "images/plate01.png" 46 40 imw imh ims
@@ -278,6 +310,8 @@ deck
 
 	// Dimensions
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		image "images/33899v.jpg" mx my 818 1024 80
 		ctext "22”" 50 90 3 "sans" "maroon"
 		ctext "28”" 30 50 3 "sans" "maroon"
@@ -285,6 +319,8 @@ deck
 
 	// Taxonomy
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		bary=40
 		barty=bary+5
 		barimy=bary+15		
@@ -310,12 +346,16 @@ deck
 
 	// Bars
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "Bars" 50 90 ts
 		grid "bargrid.dsh" 7 79 12 22 95
 	eslide
 
 	// Maps
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ims=14
 		rs=40
 		imtop=65
@@ -335,6 +375,8 @@ deck
 
 	// Circles
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		imy=imtop
 		ctext "Circles" 50 90 ts
 		image "images/plate11.png" 20 imy imw imh ims
@@ -349,6 +391,8 @@ deck
 
 	// Blocks
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		imy=imtop
 		ctext "Blocks" 50 90 ts
 		image "images/plate51.png" 20 imy imw imh ims
@@ -364,6 +408,8 @@ deck
 
 	// Graphs
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		imy=45
 		ctext "Graphs" 50 90 ts
 		image "images/plate07.png" 20 imy imw imh 25 // ims
@@ -373,6 +419,8 @@ deck
 
 	// Colors	
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		laby=50
 		colorh=15
 		colorw=9.6
@@ -411,6 +459,8 @@ deck
 
 	// Breakout question: Which viz do you find compelling	
 	slide bgcolor fgcolor
+	include "paginate.dsh"
+
 		image "images/chat.png" 10 ity 512 330 30
 		text "What Visualization Catches Your Eye?" 15 ty ts
 		textblock "If you were attending the 1900 Paris Expo, which visualization would grab your attention?" 10 70 questwidth 3 "sans" "maroon"
@@ -421,6 +471,8 @@ deck
 	// Section: Contemporary Data
 	// Black Population by state: https://worldpopulationreview.com/state-rankings/black-population-by-state
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		rect 75 50 50 100 sectcolor
 		ctext "4" 25 75 10 "sans" sectcolor
 		clist 25 55 5 "sans" sectcolor 100 1.2
@@ -432,18 +484,24 @@ deck
 
 	// Old vs. New Occupations
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		image "images/modern-plate27.png" 75 50  1596 2023 50
 		image "images/old-plate27.png"    25 50  1598 2029 50
 	eslide
 
 	// Old vs. New Population
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		image "images/original-plate-02.jpg" 25 50 836 1024
 		image "images/bpop1.png"   75 50 2112 2688 38
 	eslide
 
 	// 1900 full expo venue
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "Paris 1900" tx ty ts "sans" fgcolor 100 "https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)"
 		image "images/paris-expo.jpg"            50 50 1447 998 60
 		image "images/expo-poster.jpg"           15 50 431 600
@@ -452,6 +510,8 @@ deck
 
 	// Modern megaphone
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		megax=75
 		ctext "Now: The Modern Megaphone" tx ty ts
 		etext "Your Message" 33 45 3
@@ -465,12 +525,16 @@ deck
 
 	// #DuBois challenge curated images
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "#DuboisChallenge" tx ty ts "sans" fgcolor 100 "https://twitter.com/search?q=%23duboischallenge"
 		image "images/cat.png" 50 45 1920 1080
 	eslide
 
 	// #DuboisChallenge re-creations
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "#DuboisChallenge" tx ty ts "sans" fgcolor 100 "https://twitter.com/search?q=%23duboischallenge"
 		image "images/recat.png" 50 45 1920 1080
 	eslide
@@ -478,6 +542,8 @@ deck
 	// #DuBoisChallenge results
 	challengeLink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "#DuboisChallenge" tx ty ts "sans" fgcolor 100 "https://twitter.com/search?q=%23duboischallenge"
 		image "images/challenge02.png" 18 50 750 753 75 "https://twitter.com/ijeamaka_a/status/1361715338027560962"
 		image "images/challenge05.png" 82 50 788 728 75 "https://twitter.com/CharlieEatonPhD/status/1362882278230093824"
@@ -487,12 +553,16 @@ deck
 
 	// Humanize
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "How do you humanize your visualization?" sx sy ts
 		image "images/humanize.png" 50 40 360 360
 	eslide
 
 	// Humanity in 1900
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "Human elements in Plate 31" tx ty ts
 		image "images/original-plate-31.jpg" 30 45 1024 814
 		image "images/plate31-detail3.png"   70 45 1060 615
@@ -508,6 +578,8 @@ deck
 	brandon4="Seattle Raised, Brooklyn Based Artist and Author of The Stolen Series"
 	brandonquote="“Art is a universal language that transcends all walks of life, so I felt like it would be a good way to express the pain that I was feeling inside”"
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		text "Adrian Brandon" 5 ty 5 "sans" "black" 100 stolenlink
 		textblock brandon4 45 93 30 2
 		image "images/adrian.png" 15 53 403 575 100 stolenlink
@@ -519,6 +591,8 @@ deck
 
 	// Stolen Series (3)
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "Stolen Series: 1 Year = 1 Minute Of Color" tx ty ts "sans" "black" 100 stolenlink
 		image "images/stanley-jones.png" 20 45 1143 1449 50 "https://www.adrianbrandon.com/stolen?pgid=kah89p0o-a8cdf86f-9ba1-11ea-be76-063f49e9a7e4"
 		image "images/mcdade.png"        50 45 1137 1450 50 "https://www.adrianbrandon.com/stolen?pgid=kah89p0o-688e9db5-15c7-48bf-a95f-34ca951e5aa4"
@@ -527,6 +601,8 @@ deck
 
 	// Stolen series grid
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		nts=0.6
 		stscale=20
 		numsize=1
@@ -568,6 +644,8 @@ deck
 	sam3="Data scientist, activist and co-founder of Campaign Zero" 
 	samquote="“I learned early on in my journey that we don't need to wait for permission to take action.”"
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		text "Sam Sinyangwe" 5 ty 5
 		textblock sam3 45 93 25 2
 		image "images/sam2.jpeg" 17 50 500 500
@@ -578,6 +656,8 @@ deck
 
 	// Police Scorecard
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		pscale=33
 		psr1=62
 		psr2=20
@@ -593,6 +673,8 @@ deck
 
 	// How the Police Scorecard works
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "Police Scoring Critera" tx ty ts
 		blist left listy 3
 			li "Avoiding the use of force to the greatest extent possible"
@@ -606,6 +688,8 @@ deck
 
 	// Police Scorecard extremes
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		ctext "A Tale of Two Cites (10.2 miles apart)" tx ty ts
 		ctext "70%" 25 50 15 "sans" "#00aa00" 100 "https://policescorecard.org/mn/police-department/blaine"
 		ctext "24%" 75 50 15 "sans" "#dc143c" 100 "https://policescorecard.org/mn/police-department/robbinsdale"
@@ -625,6 +709,8 @@ deck
 
 	// Breakout question: humanize and modernize
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		image "images/chat.png" 10 ity 512 330 30
 		text "Modern Data and the Human Element" 20 ty ts
 		textblock "What patterns do you see in the Police Scorecard?"    10 65 questwidth 3 "sans" "maroon"
@@ -634,6 +720,8 @@ deck
 
 	// Epilog
 	slide bgcolor fgcolor
+		include "paginate.dsh"
+
 		textblock "Authorship, after all, is not only what is created but also what is selected." 20 65 50 5 "serif"
 	    text "Teju Cole" 20 10 2 "sans"
 	 eslide

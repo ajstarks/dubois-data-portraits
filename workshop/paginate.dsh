@@ -1,0 +1,3 @@
+		pagenum+=1
+		page=format "[%02g]" pagenum
+		etext page pgx pgy 1.5 "mono" fgcolor
