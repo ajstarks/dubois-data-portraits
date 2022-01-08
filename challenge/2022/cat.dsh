@@ -1,0 +1,9 @@
+deck
+	slide "linen"
+		ims=40
+		ts=2
+		ctext "#DuBoisChallenge2022" 50 92 3
+		grid "chall2022.dsh" 10 65 20 45 90
+		grid "idx.dsh"       10 85 20 45 90
+	eslide
+edeck
