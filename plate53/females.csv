@@ -1,0 +1,10 @@
+Gender,Group,Widowed,Married,Single
+Female,"0-15",0,0,100
+Female,"15-20",0,16,84
+Female,"20-25",4,58,38
+Female,"25-30",8,74,18
+Female,"30-35",10,78,12
+Female,"35-45",16,76,8
+Female,"45-55",28,66,6
+Female,"55-65",44,52,4
+Female,"Over 65",66,30,4
