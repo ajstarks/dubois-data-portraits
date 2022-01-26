@@ -35,7 +35,7 @@ deck
 		text "         AND MINING."      cx1 52.5 legsize
 
 		text "MANUFACTURING AND"         cx1 44.5  legsize
-		text "MECHANICAL INSTRUSTRIES."  cx1 43    legsize
+		text "MECHANICAL INDUSTRIES."  cx1 43    legsize
 
 		circle cx2 59 cr "gold"
 		circle cx2 49 cr "rgb(101,67,33)" 80
