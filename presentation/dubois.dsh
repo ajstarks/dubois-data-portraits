@@ -13,11 +13,38 @@ deck
 	bgcolor="linen"
 	fgcolor="black"
 
+
+		balink="https://publicdomainreview.org/essay/black-america-1895"
+		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+		expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+
+
 	// title slide
 	slide
 		image "images/full-catalog.png" 50 50 1920 1080
 		textblock "Exploring the Du Bois Data Portraits" 72 12 20 2 "sans" "maroon"
 	eslide
+
+	slide bgcolor fgcolor
+		image "images/dubois-fisk.jpg" 30 50 615 773
+		textblock "“I can hardly realize they are all my people; that this great assembly of youth and intelligence are representatives of a race which twenty years ago was in bondage.”" 50 70 30 3 "serif"
+		ctext "W.E.B. Du Bois at Fisk, 1885"		30 4 ns3 "serif"
+	eslide
+
+	// the Philadelphia Negro
+//	slide bgcolor fgcolor
+//
+//		philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
+//		imid=55
+//		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" fgcolor 100 phillylink
+//		image       "images/philly09.png" 16 imid  880 909 65
+//		image       "images/philly12.png" 51 imid 1112 930 65
+//		image       "images/philly03.png" 85 imid 809 903  65
+//		textblock   philly 12 17 70 2 "serif"
+//	eslide
 
 	// Atlanta University
 	slide bgcolor fgcolor
@@ -34,26 +61,6 @@ deck
 		image "images/expo0.png"				70 my 1157 1525 59
 		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
-
-		balink="https://publicdomainreview.org/essay/black-america-1895"
-		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
-		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
-		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
-		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
-		expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
-
-
-	slide bgcolor fgcolor
-
-		philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
-		imid=55
-		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" fgcolor 100 phillylink
-		image       "images/philly09.png" 16 imid  880 909 65
-		image       "images/philly12.png" 51 imid 1112 930 65
-		image       "images/philly03.png" 85 imid 809 903  65
-		textblock   philly 12 17 70 2 "serif"
-	eslide
-
 
 	// Purpose and messages
 	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
