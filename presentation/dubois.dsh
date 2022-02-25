@@ -16,7 +16,7 @@ deck
 	// title slide
 	slide
 		image "images/full-catalog.png" 50 50 1920 1080
-		textblock "Recreating the Du Bois Data Portraits" 72 12 20 2 "sans" "maroon"
+		textblock "Exploring the Du Bois Data Portraits" 72 12 20 2 "sans" "maroon"
 	eslide
 
 	// Atlanta University
@@ -34,6 +34,26 @@ deck
 		image "images/expo0.png"				70 my 1157 1525 59
 		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
 	eslide
+
+		balink="https://publicdomainreview.org/essay/black-america-1895"
+		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+		expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+
+
+	slide bgcolor fgcolor
+
+		philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
+		imid=55
+		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" fgcolor 100 phillylink
+		image       "images/philly09.png" 16 imid  880 909 65
+		image       "images/philly12.png" 51 imid 1112 930 65
+		image       "images/philly03.png" 85 imid 809 903  65
+		textblock   philly 12 17 70 2 "serif"
+	eslide
+
 
 	// Purpose and messages
 	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
@@ -76,19 +96,19 @@ deck
 		ctext "1900" p5 dly dls "sans" "maroon"
 
 		dls=1.5
-		ctext "“Black America” Fair"             p1 ny dls "serif"
-		ctext "Plessy v. Ferguson"               p1a ny dls "serif"
-		ctext "Phila. Negro begins"              p2 ny dls "serif"
-		ctext "Wilmington Overthrow"             p3 ny dls "serif"
-		ctext "Lynchings Peak"                   p4 ny dls "serif"
-		ctext "Paris Exposition"                 p5 ny dls "serif"
+		ctext "“Black America” Fair"             p1 ny dls "serif" fgcolor 100 balink
+		ctext "Plessy v. Ferguson"               p1a ny dls "serif" fgcolor 100 plessylink
+		ctext "Phila. Negro begins"              p2 ny dls "serif" fgcolor 100 phillylink
+		ctext "Wilmington Overthrow"             p3 ny dls "serif" fgcolor 100 wilmlink
+		ctext "Lynchings Peak"                   p4 ny dls "serif" fgcolor 100 moblink
+		ctext "Paris Exposition"                 p5 ny dls "serif" fgcolor 100 expolink
 
-		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30
-		image "images/homer-plessy.jpg"          p1a dimy 295 350 75
-		image "images/philly12.png"              p2 dimy 1112 930 28
-		image "images/white-mans-day.jpg"        p3 dimy 654 658 40
-		image "images/mob.jpg"                   p4 dimy 640 512 45
-		image "images/expo.jpg"                  p5 dimy 739 1024 25
+		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30 balink
+		image "images/homer-plessy.jpg"          p1a dimy 295 350 75 plessylink
+		image "images/philly12.png"              p2 dimy 1112 930 28 phillylink
+		image "images/white-mans-day.jpg"        p3 dimy 654 658 40 wilmlink
+		image "images/mob.jpg"                   p4 dimy 640 512 45 moblink
+		image "images/expo.jpg"                  p5 dimy 739 1024 25 expolink
 
 		// timeline
 		line dminx dy dmaxx dy 0.5 "gray" 50
@@ -493,17 +513,17 @@ deck
 		ctext "Modern Data" 50 50 bannersize
 	eslide
 
-	// Related work
-	slide bgcolor fgcolor
-		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
-		ctext "VizE Lab at Princeton"               tx 81 ns2
-		image "images/pv01.jpg" 20 40 1760 2278 35
-		image "images/pv04.jpg" 50 40 1760 2278 35
-		image "images/pv07.jpg" 80 40 1760 2290 35
-	eslide
-
-	
-
+//	// Related work
+//	slide bgcolor fgcolor
+//		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
+//		ctext "VizE Lab at Princeton"               tx 81 ns2
+//		image "images/pv01.jpg" 20 40 1760 2278 35
+//		image "images/pv04.jpg" 50 40 1760 2278 35
+//		image "images/pv07.jpg" 80 40 1760 2290 35
+//	eslide
+//
+//	
+//
 	// Modern Dubois Style
 	slide bgcolor fgcolor
 		image "images/plate27.png" 25 50 2112 2688 40
@@ -528,8 +548,11 @@ deck
 
 	// Dubois challenge
 	slide bgcolor fgcolor
-		ctext "#DuboisChallenge" tx 92 ts
-		image "images/challenge-catalog01.png" 50 50 3840 2160 45
+//		ctext "#DuboisChallenge" tx 92 ts
+//		image "images/challenge-catalog01.png" 50 50 3840 2160 45
+		image "images/cat2022.png" 50 50 2560 1440 75
+		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022" 80 95 0.6 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
+
 		//ctext "01" 15 50 2
 		//ctext "02" 32 50 2
 		//ctext "03" 50 50 2
@@ -543,29 +566,29 @@ deck
 		//ctext "10" 87 7 2
 	eslide
 
-	slide bgcolor fgcolor
-		ctext "#DuboisChallenge" tx 92 ts
-		image "images/recreation-catalog01.png" 50 50 3840 2160 45
-		//ctext "01" 15 50 2
-		//ctext "02" 32 50 2
-		//ctext "03" 50 50 2
-		//ctext "04" 67 50 2
-		//ctext "05" 87 50 2
-
-		//ctext "06" 15 7 2
-		//ctext "07" 32 7 2
+//	slide bgcolor fgcolor
+//		ctext "#DuboisChallenge" tx 92 ts
+//		image "images/recreation-catalog01.png" 50 50 3840 2160 45
+//		//ctext "01" 15 50 2
+//		//ctext "02" 32 50 2
+//		//ctext "03" 50 50 2
+//		//ctext "04" 67 50 2
+//		//ctext "05" 87 50 2
+//
+//		//ctext "06" 15 7 2
+//		//ctext "07" 32 7 2
 		//ctext "08" 50 7 2
 		//ctext "09" 67 7 2
 		//ctext "10" 87 7 2
-	eslide
-
-	slide bgcolor fgcolor
-		ctext "#DuboisChallenge" tx ty ts
-		image "images/challenge02.png" 18 50 750 753 75
-		image "images/challenge05.png" 82 50 788 728 75
-		image "images/challenge03.png" 50 50 759 767 75
-		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge" 50 10 2 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
-	eslide
+//	eslide
+//
+//	slide bgcolor fgcolor
+//		ctext "#DuboisChallenge" tx ty ts
+//		image "images/challenge02.png" 18 50 750 753 75
+//		image "images/challenge05.png" 82 50 788 728 75
+//		image "images/challenge03.png" 50 50 759 767 75
+//		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022" 50 10 2 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
+//	eslide
 
 	slide bgcolor fgcolor
 		ctext "Repos" tx ty ts
@@ -615,8 +638,6 @@ deck
 		elist
 	eslide
 
-
-
 	// Business Card
     mx=25         // midpoint
     tx=62         // text left
@@ -632,7 +653,7 @@ deck
 	include "bizcard.dsh"
     
 	slide bgcolor fgcolor
-		ctext "Catalog" 50 50 bannersize
+    ctext "Catalog" 50 50 bannersize
 	eslide
 	include "cat.dsh"
 edeck
