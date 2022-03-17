@@ -150,15 +150,23 @@ deck
 		hline lbar ly 4 2 "steelblue" op
 
 		// braces
-		etext "OWNERS" 8 53.5 ns2
+		etext "OWNERS" 8 50 ns2
 		etext "1880" 15 79 ns2
 		etext "1890" 15 53.5 ns2
 		etext "1899" 15 28.5 ns2
-		include "lb1.dsh"
-		include "lb2.dsh"
-		include "lb3.dsh"
-		include "lb4.dsh"
-		include "db1.dsh"
+
+		lbrace 10 50 70 2 2
+		dbrace 50 10 70 2 2
+		lbrace 15.5 29 6 1 1
+		lbrace 15.5 54 6 1 1
+		lbrace 15.5 79 6 1 1
+
+
+		//include "lb1.dsh"
+		//include "lb2.dsh"
+		//include "lb3.dsh"
+		//include "lb4.dsh"
+		//include "db1.dsh"
 
 	eslide
 edeck
