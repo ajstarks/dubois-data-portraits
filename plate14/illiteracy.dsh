@@ -26,7 +26,7 @@ deck
 		line l2 y1top left y1top linewidth color2
 		circle left y1top linewidth color1
 		ctext "99%" left labely labelsize "sans" labelcolor
-		etext "1880" lx ly labelsize "sans" labelcolor
+		etext "1860" lx ly labelsize "sans" labelcolor
 
 		left+=spacing
 		y2top=top*y2p
