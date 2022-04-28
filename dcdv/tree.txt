@@ -1,0 +1,15 @@
+dubois-data-stories
+  data-portraits.pdf
+  mkdeck-all
+plate01
+   f.pdf
+   f1.png
+   original-plate01.jpg
+   georgia-negro.dsh
+   mkdeck
+   mkdeck-png
+...
+plate02
+   data.csv
+   ...
+plate63
