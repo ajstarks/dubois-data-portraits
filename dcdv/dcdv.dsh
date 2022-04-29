@@ -6,7 +6,7 @@ deck
 	tx=50
 	sx=50
 	sy=60
-	ty=92
+	ty=90
 	ts=4.5
 	ss=ts*1.2
 	mx=50
@@ -17,7 +17,7 @@ deck
 	// Title
 	slide bgcolor fgcolor
 		text "Curating The #DuboisChallenge2022" 3 3 2
-		etext "Anthony Starks" 97 3 2
+		etext "Anthony Starks" 97 3 1
 		yp=72
 		ims=30
 		image "images/ss01.png" 10 yp 956 1822 ims
@@ -74,7 +74,7 @@ deck
 		ims=40
 		ims2=5
 		ctext "#DuBoisChallenge2022 Entries" tx ty 4 "sans" fgcolor 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
-		ts=2
+		ts=1.5
 		grid "chall2022.dsh" 10 65 20 45 90
 		grid "idx.dsh"       10 85 20 45 90
 		grid "remakes2022.dsh" 3 55 20 45 90
@@ -114,7 +114,8 @@ deck
 		imh=1200
 		ims=33
 		yp=65
-		ctext "Recreations by @IcaroBSC" mid ty ts "sans" fgcolor 100 "https://github.com/IcaroBernardes/webdubois"
+		ctext "Ícaro Bernardes (@IcaroBSC)" mid ty ts "sans" fgcolor 100 "https://github.com/IcaroBernardes/webdubois"
+		image "images/icaro.jpg" 10 93 400 400 25
 		image "images/FQumtEqWYAIrUSs.jpeg" 10 yp imw imh ims "https://twitter.com/IcaroBSC/status/1516517164727119877"
 		image "images/FLrpZNgVEAgXMny.jpeg" 30 yp imw imh ims "https://twitter.com/IcaroBSC/status/1493768750755041285"
 		image "images/FMOs7yjX0AMPgJM.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1496229656902926336"
@@ -126,6 +127,34 @@ deck
 		image "images/FPDlUdVWUAUkx3z.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1506334651538972681"
 		image "images/FPhbSP1WYAUpJFs.jpeg" 70 yp imw imh ims "https://twitter.com/IcaroBSC/status/1511072124357775367"
 		image "images/FQPaQpJXEAE9TmT.jpeg" 90 yp imw imh ims "https://twitter.com/IcaroBSC/status/1514299766271721475"
+	eslide
+
+	// Chimdi Nwosu @menscuriosa
+	slide bgcolor fgcolor
+		imw=2118
+		imh=1717
+		ims=28
+		yp=50
+		chlink="https://public.tableau.com/app/profile/chimdi.nwosu/viz/W_E_B_DuboisPortraitGallery/MainGallery"
+		ctext "Chimdi Nwosu (@menscuriosa)" mid ty ts "sans" fgcolor 100 chlink
+		image "images/chimdi.jpg" 10 93 400 400 25
+		image "images/chimdi01.png" 18 yp imw imh ims chlink
+		image "images/chimdi02.png" 50 yp imw imh ims chlink
+		image "images/chimdi03.png" 82 yp imw imh ims chlink
+	eslide
+
+	// Baltimore OPI
+	slide bgcolor fgcolor
+		imw=1425
+		imh=1916
+		ims=42
+		yp=45
+		blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
+		ctext "Baltimore OPI (@baltopi)" mid ty ts "sans" fgcolor 100 blink
+		image "images/baltopi.png" 10 93 400 400 25
+		image "images/baltimore01.png" 18 yp imw imh ims blink
+		image "images/baltimore02.png" 50 yp imw imh ims blink
+		image "images/baltimore03.png" 82 yp imw imh ims blink
 	eslide
 
 	// Re-creation

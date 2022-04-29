@@ -11,7 +11,7 @@ slide bgcolor fgcolor // "white" "rgb(100,100,100)"
         image "images/linkedin.png"     ix 30 512 512   ims3
 	image "images/ig-black.png"     ix 15 1200 1200 imscale
 
-        text "ajstarks@ajstarks.org"     tx 89 cs "sans" "black" 100 "mailto:ajstarks@ajstarks.org"
+        text "info@ajstarks.org"     tx 89 cs "sans" "black" 100 "mailto:info@ajstarks.org"
         text "@ajstarks"                 tx 74 cs "sans" "black" 100 "https://twitter.com/ajstarks"
         text "github.com/ajstarks"       tx 59 cs "sans" "black" 100 "https://github.com/ajstarks"
         text "speakerdeck.com/ajstarks"  tx 44 cs "sans" "black" 100 "https://speakerdeck.com/ajstarks"
