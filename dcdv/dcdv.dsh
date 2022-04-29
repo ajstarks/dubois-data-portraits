@@ -71,9 +71,10 @@ deck
 
 	// The entries
 	slide bgcolor fgcolor
+		chlink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
 		ims=40
 		ims2=5
-		ctext "#DuBoisChallenge2022 Entries" tx ty 4 "sans" fgcolor 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
+		ctext "#DuBoisChallenge2022 Entries" tx ty 4 "sans" fgcolor 100 chlink
 		ts=1.5
 		grid "chall2022.dsh" 10 65 20 45 90
 		grid "idx.dsh"       10 85 20 45 90
@@ -97,6 +98,22 @@ deck
 		image "images/t08.png" 50 thy 936 1283 tscale
 		image "images/t09.png" 70 thy 926 1247 tscale
 		image "images/t10.png" 90 thy 899 1242 tscale
+	eslide
+
+	slide bgcolor fgcolor
+		yp=72
+		ims=30
+		image "images/ss01.png" 10 yp 956 1822 ims
+		image "images/ss08.png" 30 yp 937 1809 ims
+		image "images/ss03.png" 50 yp 932 1573 ims
+		image "images/ss04.png" 70 yp 954 1680 ims
+		image "images/ss07.png" 90 yp 945 1721 ims
+		yp-=45
+		image "images/ss05.png" 10 yp 947 1180 ims
+		image "images/ss06.png" 30 yp 965 1277 ims
+		image "images/ss02.png" 50 yp 951 1239 ims
+		image "images/ss09.png" 70 yp 951 1187 ims
+		image "images/ss10.png" 90 yp 946 1121 ims
 	eslide
 
 	// Notable examples
@@ -303,6 +320,42 @@ deck
 		vline 30 5 70
 		vline 63 5 70 
 	eslide
+
+	
+//	slide bgcolor fgcolor
+//		imw=1771
+//		imh=2168
+//		ims=33
+//		yp=45
+//		ctext "Publishing" tx ty ts
+//		image "images/speakerdeck-remix00.png" 18 yp imw imh ims
+//		image "images/speakerdeck-gallery.png" 50 yp imw imh ims
+//		image "images/twitter-pub.png"         82 yp 1058 1337 52
+//	eslide
+
+	// Publishing
+	slide bgcolor fgcolor
+		imw=1771
+		imh=2168
+		ims=40
+		yp=45
+		ctext "Publishing" tx ty ts
+		image "images/speakerdeck02.png"       30 yp imw imh ims
+		image "images/twitter-pub01.png"       70 yp 1075 1426 60
+	eslide
+
+
+	// Publishing
+	slide bgcolor fgcolor
+		imw=1771
+		imh=2168
+		ims=40
+		yp=45
+		ctext "Publishing" tx ty ts
+		image "images/speakerdeck-remix00.png" 30 yp imw imh ims
+		image "images/twitter-pub.png"         70 yp 1058 1337 65
+	eslide
+
 
 	// Business Card
     mx=25         // midpoint

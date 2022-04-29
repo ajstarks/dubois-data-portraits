@@ -1,0 +1,15 @@
+$ ./mkdeck
+$ git add dubois.pdf
+$ git commit -m 'update typo in plate14' && gpom
+[master 5b6e25d] update typo in plate14
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rewrite presentation/images/plate14.png (94%)
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 85.63 KiB | 116.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:ajstarks/dubois-data-portraits
+   65d785c..5b6e25d  master -> master
