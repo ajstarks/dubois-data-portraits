@@ -13,60 +13,33 @@ deck
 	my=50
 	ns=ts*0.75
 	bannersize=8
-
-//	slide bgcolor fgcolor
-//		yp=72
-//		ims=15
-//		wimage "images/ss01.png" 10 yp ims
-//		wimage "images/ss08.png" 30 yp ims
-//		wimage "images/ss03.png" 50 yp ims
-//		wimage "images/ss04.png" 70 yp ims
-//		wimage "images/ss07.png" 90 yp ims
-//		yp-=45
-//		wimage "images/ss05.png" 10 yp ims
-//		wimage "images/ss06.png" 30 yp ims
-//		wimage "images/ss02.png" 50 yp ims
-//		wimage "images/ss09.png" 70 yp ims
-//		wimage "images/ss10.png" 90 yp ims
-//		
-//	eslide
-//
-//
-//	slide bgcolor fgcolor
-//		ctext "In 2021, it began with them" mid ty ts
-//		wimage "images/allen.png"       35 50 20
-//		wimage "images/sekou0.png"      65 50 20
-//		ctext "Allen Hillery (@AlDataVizGuy)" 35 15 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
-//		ctext "Sekou Tyler (@sqlsekou)"       65 15 2 "serif" "" 100 "https://twitter.com/sqlsekou"
-//	eslide
-//
-//	
+	
 	// Title
 	slide bgcolor fgcolor
-		text "Curating The #DuboisChallenge2022" 3 3 2
-		etext "Anthony Starks" 97 3 1
+
+		hline 0 2 100 5 "black" 20
+		text "Curating The #DuboisChallenge2022" 3 2 2 "sans"
+		etext "Anthony Starks" 97 2 1 "sans"
 		yp=72
-		ims=32
-		image "images/ss01.png" 10 yp 956 1822 ims
-		image "images/ss08.png" 30 yp 937 1809 ims
-		image "images/ss03.png" 50 yp 932 1573 ims
-		image "images/ss04.png" 70 yp 954 1680 ims
-		image "images/ss07.png" 90 yp 945 1721 ims
+		ims=15
+		image "images/ss01.png" 10 yp ims 0
+		image "images/ss08.png" 30 yp ims 0
+		image "images/ss03.png" 50 yp ims 0
+		image "images/ss04.png" 70 yp ims 0
+		image "images/ss07.png" 90 yp ims 0
 		yp-=45
-		image "images/ss05.png" 10 yp 947 1180 ims
-		image "images/ss06.png" 30 yp 965 1277 ims
-		image "images/ss02.png" 50 yp 951 1239 ims
-		image "images/ss09.png" 70 yp 951 1187 ims
-		image "images/ss10.png" 90 yp 946 1121 ims
+		image "images/ss05.png" 10 yp ims 0
+		image "images/ss06.png" 30 yp ims 0
+		image "images/ss02.png" 50 yp ims 0
+		image "images/ss09.png" 70 yp ims 0
+		image "images/ss10.png" 90 yp ims 0
 	eslide
-
-
 
 	// Allen and Sekou
 	slide bgcolor fgcolor
 		ctext "In 2021, it began with them" mid ty ts
-		image "images/allen.png"       35 50  778 1056  50
-		image "images/sekou0.png"      65 50   710 826  60
+		image "images/allen.png"       35 50 20 0
+		image "images/sekou0.png"      65 50 20 0
 		ctext "Allen Hillery (@AlDataVizGuy)" 35 15 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
 		ctext "Sekou Tyler (@sqlsekou)"       65 15 2 "serif" "" 100 "https://twitter.com/sqlsekou"
 	eslide
@@ -113,45 +86,49 @@ deck
     ts=4.5
 	slide bgcolor fgcolor
 		ctext "Using github" tx ty ts 
-		wimage "images/gh1.png" 30 45 50
-		wimage "images/gh2.png" 70 45 50
+		image "images/gh1.png" 25 45 45 0
+		image "images/gh2.png" 75 45 50 0
+	eslide
 
+	slide bgcolor fgcolor
+		ctext "The Announcement" mx ty ts
+		image "images/announce01.png" 30 45 32 0
+		image "images/announce02.png" 70 45 40 0
 	eslide
 
 	// Intro Thread
-	
 	slide bgcolor fgcolor
 		ctext "The Introduction Thread" mx ty ts
-		tscale=35
+		tscale=17
 		thy=66
-		image "images/t01.png" 10 thy 910 1294 tscale
-		image "images/t02.png" 30 thy 941 1302 tscale
-		image "images/t03.png" 50 thy 917 1258 tscale
-		image "images/t04.png" 70 thy 922 1285 tscale
-		image "images/t05.png" 90 thy 907 1289 tscale
+		image "images/t01.png" 10 thy tscale 0
+		image "images/t02.png" 30 thy tscale 0
+		image "images/t03.png" 50 thy tscale 0
+		image "images/t04.png" 70 thy tscale 0
+		image "images/t05.png" 90 thy tscale 0
 		thy-=45
-		image "images/t06.png" 10 thy 920 1288 tscale
-		image "images/t07.png" 30 thy 905 1297 tscale
-		image "images/t08.png" 50 thy 936 1283 tscale
-		image "images/t09.png" 70 thy 926 1247 tscale
-		image "images/t10.png" 90 thy 899 1242 tscale
+		image "images/t06.png" 10 thy tscale 0
+		image "images/t07.png" 30 thy tscale 0
+		image "images/t08.png" 50 thy tscale 0
+		image "images/t09.png" 70 thy tscale 0
+		image "images/t10.png" 90 thy tscale 0
 	eslide
 
 	// Results
 	slide bgcolor fgcolor
 		yp=72
-		ims=32
-		image "images/ss01.png" 10 yp 956 1822 ims
-		image "images/ss08.png" 30 yp 937 1809 ims
-		image "images/ss03.png" 50 yp 932 1573 ims
-		image "images/ss04.png" 70 yp 954 1680 ims
-		image "images/ss07.png" 90 yp 945 1721 ims
+		ims=15
+		image "images/ss01.png" 10 yp ims 0
+		image "images/ss08.png" 30 yp ims 0
+		image "images/ss03.png" 50 yp ims 0
+		image "images/ss04.png" 70 yp ims 0
+		image "images/ss07.png" 90 yp ims 0
 		yp-=45
-		image "images/ss05.png" 10 yp 947 1180 ims
-		image "images/ss06.png" 30 yp 965 1277 ims
-		image "images/ss02.png" 50 yp 951 1239 ims
-		image "images/ss09.png" 70 yp 951 1187 ims
-		image "images/ss10.png" 90 yp 946 1121 ims
+		image "images/ss05.png" 10 yp ims 0
+		image "images/ss06.png" 30 yp ims 0
+		image "images/ss02.png" 50 yp ims 0
+		image "images/ss09.png" 70 yp ims 0
+		image "images/ss10.png" 90 yp ims 0
 	eslide
 
 	// Notable examples
@@ -165,9 +142,9 @@ deck
 
 	// Recreations by @IcaroBSC
 	slide bgcolor fgcolor
-		imw=943
-		imh=1200
-		ims=33
+		imw=16 // 943
+		imh=0 // 1200
+		ims=100 // 33
 		yp=65
 		ctext "Ícaro Bernardes (@IcaroBSC)" mid ty ts "sans" fgcolor 100 "https://github.com/IcaroBernardes/webdubois"
 		image "images/icaro.jpg" 10 93 400 400 25
@@ -215,24 +192,25 @@ deck
 	// Like
 	slide bgcolor fgcolor
 		ctext "Like, Like, Like" mid ty ts
-		wimage "images/like01.png" 10 45 20
-		wimage "images/like07.png" 50 45 50
-		wimage "images/like02.png" 90 45 20
+		image "images/like01.png" 10 40 15 0
+		image "images/like02.png" 30 40 15 0
+		image "images/like03.png" 50 40 15 0
+		image "images/like07.png" 80 40 40 0
 	eslide
 
 	// Promotion
 	slide bgcolor fgcolor
 		ctext "Promotion" mid ty ts
-		wimage "images/allen-tweet01.png" 20 45 25
-		wimage "images/baltopi-show.png"  50 45 30
-		wimage "images/allen-tweet03.png" 80 45 25
+		image "images/allen-tweet01.png" 20 45 25 0
+		image "images/baltopi-show.png"  50 45 30 0
+		image "images/allen-tweet03.png" 80 45 25 0
 	eslide
 
 	// Cross-promotion
 	slide bgcolor fgcolor
 		ctext "Promotion from the community" mid ty ts
-		wimage "images/cross01.png"  30 45 30
-		wimage "images/cross02.png"  70 45 32
+		image "images/cross01.png"  30 45 30 0
+		image "images/cross02.png"  70 45 32 0
 	eslide
 
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -382,18 +360,6 @@ deck
 		vline 30 5 70
 		vline 63 5 70 
 	eslide
-
-	
-//	slide bgcolor fgcolor
-//		imw=1771
-//		imh=2168
-//		ims=33
-//		yp=45
-//		ctext "Publishing" tx ty ts
-//		image "images/speakerdeck-remix00.png" 18 yp imw imh ims
-//		image "images/speakerdeck-gallery.png" 50 yp imw imh ims
-//		image "images/twitter-pub.png"         82 yp 1058 1337 52
-//	eslide
 
 	// Publishing
 	slide bgcolor fgcolor
