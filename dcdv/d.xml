@@ -1,0 +1,268 @@
+<deck>
+<slide bg="linen" fg="black">
+<text xp="3" yp="3" sp="2" >Curating The #DuboisChallenge2022</text>
+<text align="e" xp="97" yp="3" sp="1" >Anthony Starks</text>
+<image name="images/ss01.png" xp="10" yp="72" width="956" height="1822" scale="32"/>
+<image name="images/ss08.png" xp="30" yp="72" width="937" height="1809" scale="32"/>
+<image name="images/ss03.png" xp="50" yp="72" width="932" height="1573" scale="32"/>
+<image name="images/ss04.png" xp="70" yp="72" width="954" height="1680" scale="32"/>
+<image name="images/ss07.png" xp="90" yp="72" width="945" height="1721" scale="32"/>
+<image name="images/ss05.png" xp="10" yp="27" width="947" height="1180" scale="32"/>
+<image name="images/ss06.png" xp="30" yp="27" width="965" height="1277" scale="32"/>
+<image name="images/ss02.png" xp="50" yp="27" width="951" height="1239" scale="32"/>
+<image name="images/ss09.png" xp="70" yp="27" width="951" height="1187" scale="32"/>
+<image name="images/ss10.png" xp="90" yp="27" width="946" height="1121" scale="32"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >In 2021, it began with them</text>
+<image name="images/allen.png" xp="35" yp="50" width="778" height="1056" scale="50"/>
+<image name="images/sekou0.png" xp="65" yp="50" width="710" height="826" scale="60"/>
+<text align="c" xp="35" yp="15" sp="2" font="serif" color="" opacity="100" link="https://twitter.com/AlDatavizguy">Allen Hillery (@AlDataVizGuy)</text>
+<text align="c" xp="65" yp="15" sp="2" font="serif" color="" opacity="100" link="https://twitter.com/sqlsekou">Sekou Tyler (@sqlsekou)</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="60" sp="5.3999999999999995" >The Modern Megaphone</text>
+<image name="images/megaphone01.png" xp="50" yp="40" width="1200" height="1200" scale="30"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Paris 1900</text>
+<image name="images/paris-expo.jpg" xp="50" yp="50" width="1447" height="998" scale="60"/>
+<image name="images/expo-poster.jpg" xp="15" yp="50" width="431" height="600"/>
+<image name="images/expo0.png" xp="86" yp="50" width="1157" height="1525" scale="40"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Now</text>
+<text align="e" xp="33" yp="50" sp="3" >Your Message</text>
+<image name="images/megaphone01.png" xp="45" yp="50" width="1200" height="1200" scale="50"/>
+<image name="images/twitter-logo.png" xp="75" yp="85" width="1294" height="1295" scale="15"/>
+<image name="images/instagram-logo.jpg" xp="75" yp="60" width="889" height="890" scale="20"/>
+<image name="images/youtube-logo.png" xp="75" yp="40" width="1200" height="504" scale="20"/>
+<image name="images/zoom-logo.png" xp="75" yp="20" width="3840" height="2160" scale="10"/>
+<polygon xc="55 55 67 67" yc="40 65 90 15" color="gray" opacity="20"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4" font="sans" color="black" opacity="100" link="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022">#DuBoisChallenge2022 Entries</text>
+<image name="images/original-plate-01.jpg" xp="10" yp="65" width="820" height="1024" scale="40"/>
+<image name="images/original-plate-22.jpg" xp="30" yp="65" width="817" height="1024" scale="40"/>
+<image name="images/original-plate-02.jpg" xp="50" yp="65" width="836" height="1024" scale="40"/>
+<image name="images/original-plate-21.jpg" xp="70" yp="65" width="812" height="1024" scale="40"/>
+<image name="images/original-plate-12.jpg" xp="90" yp="65" width="820" height="1024" scale="40"/>
+<image name="images/original-plate-14.jpg" xp="10" yp="20" width="814" height="1024" scale="40"/>
+<image name="images/original-plate-53.jpg" xp="30" yp="20" width="811" height="1024" scale="40"/>
+<image name="images/original-plate-25.jpg" xp="50" yp="20" width="807" height="1024" scale="40"/>
+<image name="images/original-plate-17.jpg" xp="70" yp="20" width="818" height="1024" scale="40"/>
+<image name="images/original-plate-49.jpg" xp="90" yp="20" width="819" height="1024" scale="40"/>
+<text align="c" xp="10" yp="85" sp="1.5" >01</text>
+<text align="c" xp="30" yp="85" sp="1.5" >02</text>
+<text align="c" xp="50" yp="85" sp="1.5" >03</text>
+<text align="c" xp="70" yp="85" sp="1.5" >04</text>
+<text align="c" xp="90" yp="85" sp="1.5" >05</text>
+<text align="c" xp="10" yp="40" sp="1.5" >06</text>
+<text align="c" xp="30" yp="40" sp="1.5" >07</text>
+<text align="c" xp="50" yp="40" sp="1.5" >08</text>
+<text align="c" xp="70" yp="40" sp="1.5" >09</text>
+<text align="c" xp="90" yp="40" sp="1.5" >10</text>
+<image name="images/plate-01-f1.png" xp="3" yp="55" width="2112" height="2688" scale="5"/>
+<image name="images/plate-22-f1.png" xp="23" yp="55" width="2112" height="2688" scale="5"/>
+<image name="images/plate-02-f1.png" xp="43" yp="55" width="2112" height="2688" scale="5"/>
+<image name="images/plate-21-f1.png" xp="63" yp="55" width="2112" height="2688" scale="5"/>
+<image name="images/plate-12-f1.png" xp="83" yp="55" width="2112" height="2688" scale="5"/>
+<image name="images/plate-14-f1.png" xp="3" yp="10" width="2112" height="2688" scale="5"/>
+<image name="images/plate-53-f1.png" xp="23" yp="10" width="2112" height="2688" scale="5"/>
+<image name="images/plate-25-f1.png" xp="43" yp="10" width="2112" height="2688" scale="5"/>
+<image name="images/plate-17-f1.png" xp="63" yp="10" width="2112" height="2688" scale="5"/>
+<image name="images/plate-49-f1.png" xp="83" yp="10" width="2112" height="2688" scale="5"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >The Introduction Thread</text>
+<image name="images/t01.png" xp="10" yp="66" width="910" height="1294" scale="35"/>
+<image name="images/t02.png" xp="30" yp="66" width="941" height="1302" scale="35"/>
+<image name="images/t03.png" xp="50" yp="66" width="917" height="1258" scale="35"/>
+<image name="images/t04.png" xp="70" yp="66" width="922" height="1285" scale="35"/>
+<image name="images/t05.png" xp="90" yp="66" width="907" height="1289" scale="35"/>
+<image name="images/t06.png" xp="10" yp="21" width="920" height="1288" scale="35"/>
+<image name="images/t07.png" xp="30" yp="21" width="905" height="1297" scale="35"/>
+<image name="images/t08.png" xp="50" yp="21" width="936" height="1283" scale="35"/>
+<image name="images/t09.png" xp="70" yp="21" width="926" height="1247" scale="35"/>
+<image name="images/t10.png" xp="90" yp="21" width="899" height="1242" scale="35"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/ss01.png" xp="10" yp="72" width="956" height="1822" scale="32"/>
+<image name="images/ss08.png" xp="30" yp="72" width="937" height="1809" scale="32"/>
+<image name="images/ss03.png" xp="50" yp="72" width="932" height="1573" scale="32"/>
+<image name="images/ss04.png" xp="70" yp="72" width="954" height="1680" scale="32"/>
+<image name="images/ss07.png" xp="90" yp="72" width="945" height="1721" scale="32"/>
+<image name="images/ss05.png" xp="10" yp="27" width="947" height="1180" scale="32"/>
+<image name="images/ss06.png" xp="30" yp="27" width="965" height="1277" scale="32"/>
+<image name="images/ss02.png" xp="50" yp="27" width="951" height="1239" scale="32"/>
+<image name="images/ss09.png" xp="70" yp="27" width="951" height="1187" scale="32"/>
+<image name="images/ss10.png" xp="90" yp="27" width="946" height="1121" scale="32"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Notable Examples</text>
+<image name="images/ss01.png" xp="20" yp="40" width="959" height="1886" scale="50" link="https://twitter.com/IcaroBSC/status/1516517164727119877"/>
+<image name="images/ss05.png" xp="50" yp="50" width="950" height="1247" scale="60" link="https://twitter.com/menscuriosa/status/1495866145726992394"/>
+<image name="images/ss12.png" xp="82" yp="50" width="926" height="1197" scale="60" link="https://twitter.com/BaltOPI/status/1511042684709916673"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" font="sans" color="black" opacity="100" link="https://github.com/IcaroBernardes/webdubois">Ícaro Bernardes (@IcaroBSC)</text>
+<image name="images/icaro.jpg" xp="10" yp="93" width="400" height="400" scale="25"/>
+<image name="images/FQumtEqWYAIrUSs.jpeg" xp="10" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1516517164727119877"/>
+<image name="images/FLrpZNgVEAgXMny.jpeg" xp="30" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1493768750755041285"/>
+<image name="images/FMOs7yjX0AMPgJM.jpeg" xp="50" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1496229656902926336"/>
+<image name="images/FMuWCjRXoAM_-U9.jpeg" xp="70" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1498459321243475968"/>
+<image name="images/FNXBnaBVUAENdz9.jpeg" xp="90" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1501323176088780800"/>
+<image name="images/FN7XeAcWQAEEQJX.jpeg" xp="10" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1503890070029451270"/>
+<image name="images/FOeRkxSXIAI4pnq.jpeg" xp="30" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1503890070029451270"/>
+<image name="images/FPDlUdVWUAUkx3z.jpeg" xp="50" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1506334651538972681"/>
+<image name="images/FPhbSP1WYAUpJFs.jpeg" xp="70" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1511072124357775367"/>
+<image name="images/FQPaQpJXEAE9TmT.jpeg" xp="90" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1514299766271721475"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" font="sans" color="black" opacity="100" link="https://public.tableau.com/app/profile/chimdi.nwosu/viz/W_E_B_DuboisPortraitGallery/MainGallery">Chimdi Nwosu (@menscuriosa)</text>
+<image name="images/chimdi.jpg" xp="10" yp="93" width="400" height="400" scale="25"/>
+<image name="images/chimdi01.png" xp="18" yp="45" width="2118" height="1717" scale="40" link="https://public.tableau.com/app/profile/chimdi.nwosu/viz/W_E_B_DuboisPortraitGallery/MainGallery"/>
+<image name="images/chimdi02.png" xp="50" yp="45" width="2118" height="1717" scale="40" link="https://public.tableau.com/app/profile/chimdi.nwosu/viz/W_E_B_DuboisPortraitGallery/MainGallery"/>
+<image name="images/chimdi03.png" xp="82" yp="45" width="2118" height="1717" scale="40" link="https://public.tableau.com/app/profile/chimdi.nwosu/viz/W_E_B_DuboisPortraitGallery/MainGallery"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" font="sans" color="black" opacity="100" link="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a">Baltimore OPI (@baltopi)</text>
+<image name="images/baltopi.png" xp="10" yp="93" width="400" height="400" scale="25"/>
+<image name="images/baltimore01.png" xp="18" yp="45" width="1425" height="1916" scale="42" link="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"/>
+<image name="images/baltimore02.png" xp="50" yp="45" width="1425" height="1916" scale="42" link="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"/>
+<image name="images/baltimore03.png" xp="82" yp="45" width="1425" height="1916" scale="42" link="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="60" sp="5.3999999999999995" >Re-Creating the Du Bois Data Portraits</text>
+<image name="images/spiral.png" xp="50" yp="40" width="1200" height="1200" scale="30"/>
+</slide>
+<slide bg="black" fg="white">
+<image name="images/cover01.jpg" xp="50" yp="50" width="4032" height="3024" scale="33"/>
+</slide>
+<slide bg="black" fg="white">
+<image name="images/book-grid.jpg" xp="50" yp="50" width="4032" height="3024" scale="33"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="25" yp="90" sp="2.5" >Pen, Ink, Watercolor, Paper, Expos</text>
+<text align="c" xp="25" yp="5" sp="2.5" >1900</text>
+<image name="images/33889v.jpg" xp="25" yp="50" width="811" height="1024" scale="80"/>
+<text align="c" xp="75" yp="90" sp="2.5" >Scripting, Digital Fonts, PDF, Internet</text>
+<text align="c" xp="75" yp="5" sp="2.5" >2019</text>
+<image name="images/plate27.png" xp="75" yp="50" width="2116" height="2688" scale="30"/>
+</slide>
+<slide bg="black" fg="white">
+<image name="images/m01.jpg" xp="30" yp="50" width="3024" height="4032" scale="25"/>
+<image name="images/m02.jpg" xp="70" yp="50" width="3024" height="4032" scale="25"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="85" sp="6" >decksh</text>
+<image name="images/structure.png" xp="8" yp="70" width="120" height="120"/>
+<text xp="13" yp="68.5" sp="4" font="sans" color="maroon">Structure</text>
+<image name="images/text.png" xp="38" yp="70" width="120" height="120"/>
+<text xp="43" yp="68.5" sp="4" font="sans" color="maroon">Text</text>
+<image name="images/list.png" xp="68" yp="70" width="120" height="120"/>
+<text xp="73" yp="68.5" sp="4" font="sans" color="maroon">Lists</text>
+<image name="images/arrow.png" xp="8" yp="50" width="120" height="120"/>
+<text xp="13" yp="48.5" sp="4" font="sans" color="maroon">Arrows</text>
+<image name="images/img.png" xp="38" yp="50" width="120" height="120"/>
+<text xp="43" yp="48.5" sp="4" font="sans" color="maroon">Images</text>
+<image name="images/shapes.png" xp="68" yp="50" width="120" height="120"/>
+<text xp="73" yp="48.5" sp="4" font="sans" color="maroon">Graphics</text>
+<image name="images/chart.png" xp="8" yp="30" width="120" height="120"/>
+<text xp="13" yp="28.5" sp="4" font="sans" color="maroon">Charts</text>
+<image name="images/loop.png" xp="38" yp="30" width="120" height="120"/>
+<text xp="43" yp="28.5" sp="4" font="sans" color="maroon">Loops</text>
+<image name="images/data.png" xp="68" yp="30" width="120" height="120"/>
+<text xp="73" yp="28.5" sp="4" font="sans" color="maroon">Data</text>
+<image name="images/utility.png" xp="38" yp="10" width="120" height="120"/>
+<text xp="43" yp="8.5" sp="4" font="sans" color="maroon">Utility</text>
+</slide>
+<slide bg="linen">
+<line xp1="0" yp1="0" xp2="0" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="0" xp2="100" yp2="0" sp="0.1" color="red" opacity="40"/>
+<line xp1="10" yp1="0" xp2="10" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="10" xp2="100" yp2="10" sp="0.1" color="red" opacity="40"/>
+<line xp1="20" yp1="0" xp2="20" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="20" xp2="100" yp2="20" sp="0.1" color="red" opacity="40"/>
+<line xp1="30" yp1="0" xp2="30" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="30" xp2="100" yp2="30" sp="0.1" color="red" opacity="40"/>
+<line xp1="40" yp1="0" xp2="40" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="40" xp2="100" yp2="40" sp="0.1" color="red" opacity="40"/>
+<line xp1="50" yp1="0" xp2="50" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="50" xp2="100" yp2="50" sp="0.1" color="red" opacity="40"/>
+<line xp1="60" yp1="0" xp2="60" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="60" xp2="100" yp2="60" sp="0.1" color="red" opacity="40"/>
+<line xp1="70" yp1="0" xp2="70" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="70" xp2="100" yp2="70" sp="0.1" color="red" opacity="40"/>
+<line xp1="80" yp1="0" xp2="80" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="80" xp2="100" yp2="80" sp="0.1" color="red" opacity="40"/>
+<line xp1="90" yp1="0" xp2="90" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="90" xp2="100" yp2="90" sp="0.1" color="red" opacity="40"/>
+<line xp1="100" yp1="0" xp2="100" yp2="100" sp="0.1" color="blue" opacity="40"/>
+<line xp1="0" yp1="100" xp2="100" yp2="100" sp="0.1" color="red" opacity="40"/>
+<text align="c" xp="10" yp="5" sp="3" font="mono">10</text>
+<text align="c" xp="20" yp="5" sp="3" font="mono">20</text>
+<text align="c" xp="30" yp="5" sp="3" font="mono">30</text>
+<text align="c" xp="40" yp="5" sp="3" font="mono">40</text>
+<text align="c" xp="50" yp="5" sp="3" font="mono">50</text>
+<text align="c" xp="60" yp="5" sp="3" font="mono">60</text>
+<text align="c" xp="70" yp="5" sp="3" font="mono">70</text>
+<text align="c" xp="80" yp="5" sp="3" font="mono">80</text>
+<text align="c" xp="90" yp="5" sp="3" font="mono">90</text>
+<text align="c" xp="5" yp="10" sp="3" font="mono">10</text>
+<text align="c" xp="5" yp="20" sp="3" font="mono">20</text>
+<text align="c" xp="5" yp="30" sp="3" font="mono">30</text>
+<text align="c" xp="5" yp="40" sp="3" font="mono">40</text>
+<text align="c" xp="5" yp="50" sp="3" font="mono">50</text>
+<text align="c" xp="5" yp="60" sp="3" font="mono">60</text>
+<text align="c" xp="5" yp="70" sp="3" font="mono">70</text>
+<text align="c" xp="5" yp="80" sp="3" font="mono">80</text>
+<text align="c" xp="5" yp="90" sp="3" font="mono">90</text>
+<text align="c" xp="50" yp="50" sp="8" >Percent Grid</text>
+</slide>
+<slide bg="black" fg="white">
+<image name="images/workflow.png" xp="50" yp="50" width="3840" height="2160" scale="50"/>
+<text align="c" xp="15" yp="95" sp="3.375" >Code</text>
+<text align="c" xp="48" yp="95" sp="3.375" >Output</text>
+<text align="c" xp="82" yp="95" sp="3.375" >Reference</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Code Management and Automation</text>
+<text xp="5" yp="75" sp="3.375" font="sans" color="maroon">Directory</text>
+<text xp="35" yp="75" sp="3.375" font="sans" color="maroon">Scripting</text>
+<text xp="70" yp="75" sp="3.375" font="sans" color="maroon">Source Control</text>
+<text file="tree.txt" xp="5" yp="68" sp="1.7" font="mono"/>
+<text file="scripting.txt" xp="35" yp="68" sp="1.7" font="mono"/>
+<text file="git.txt" xp="70" yp="68" sp="1.7" font="mono"/>
+<line xp1="30" yp1="5" xp2="30" yp2="75"/>
+<line xp1="63" yp1="5" xp2="63" yp2="75"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Publishing</text>
+<image name="images/speakerdeck02.png" xp="30" yp="45" width="1771" height="2168" scale="40"/>
+<image name="images/twitter-pub01.png" xp="70" yp="45" width="1075" height="1426" scale="60"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Publishing</text>
+<image name="images/speakerdeck-remix00.png" xp="30" yp="45" width="1771" height="2168" scale="40"/>
+<image name="images/twitter-pub.png" xp="70" yp="45" width="1058" height="1337" scale="65"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/starx.png" xp="25" yp="75" width="512" height="512" scale="60"/>
+<text align="c" xp="25" yp="35" sp="5.5" font="sans" color="black">Anthony J. Starks</text>
+<text align="c" xp="25" yp="22" sp="4.675" font="sans" color="maroon">Art + Code</text>
+<line xp1="50" yp1="95" xp2="50" yp2="5" sp="0.3" color="maroon"/>
+<image name="images/email.png" xp="57" yp="90" width="1200" height="1200" scale="8"/>
+<image name="images/twitter.png" xp="57" yp="75" width="1200" height="1200" scale="8"/>
+<image name="images/github.png" xp="57" yp="60" width="120" height="120" scale="80"/>
+<image name="images/sd.png" xp="57" yp="45" width="512" height="512" scale="20"/>
+<image name="images/linkedin.png" xp="57" yp="30" width="512" height="512" scale="20"/>
+<image name="images/ig-black.png" xp="57" yp="15" width="1200" height="1200" scale="8"/>
+<text xp="62" yp="89" sp="2.75" font="sans" color="black" opacity="100" link="mailto:info@ajstarks.org">info@ajstarks.org</text>
+<text xp="62" yp="74" sp="2.75" font="sans" color="black" opacity="100" link="https://twitter.com/ajstarks">@ajstarks</text>
+<text xp="62" yp="59" sp="2.75" font="sans" color="black" opacity="100" link="https://github.com/ajstarks">github.com/ajstarks</text>
+<text xp="62" yp="44" sp="2.75" font="sans" color="black" opacity="100" link="https://speakerdeck.com/ajstarks">speakerdeck.com/ajstarks</text>
+<text xp="62" yp="29" sp="2.75" font="sans" color="black" opacity="100" link="https://linkedin.com/in/ajstarks">linkedin.com/in/ajstarks</text>
+<text xp="62" yp="14" sp="2.75" font="sans" color="black" opacity="100" link="https://www.instagram.com/duboisviz/">@duboisviz</text>
+</slide>
+</deck>
