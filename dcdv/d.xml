@@ -1,22 +1,23 @@
 <deck>
 <slide bg="linen" fg="black">
-<text xp="3" yp="3" sp="2" >Curating The #DuboisChallenge2022</text>
-<text align="e" xp="97" yp="3" sp="1" >Anthony Starks</text>
-<image name="images/ss01.png" xp="10" yp="72" width="956" height="1822" scale="32"/>
-<image name="images/ss08.png" xp="30" yp="72" width="937" height="1809" scale="32"/>
-<image name="images/ss03.png" xp="50" yp="72" width="932" height="1573" scale="32"/>
-<image name="images/ss04.png" xp="70" yp="72" width="954" height="1680" scale="32"/>
-<image name="images/ss07.png" xp="90" yp="72" width="945" height="1721" scale="32"/>
-<image name="images/ss05.png" xp="10" yp="27" width="947" height="1180" scale="32"/>
-<image name="images/ss06.png" xp="30" yp="27" width="965" height="1277" scale="32"/>
-<image name="images/ss02.png" xp="50" yp="27" width="951" height="1239" scale="32"/>
-<image name="images/ss09.png" xp="70" yp="27" width="951" height="1187" scale="32"/>
-<image name="images/ss10.png" xp="90" yp="27" width="946" height="1121" scale="32"/>
+<line xp1="0" yp1="2" xp2="100" yp2="2" sp="5" color="black" opacity="20"/>
+<text xp="3" yp="2" sp="2" font="sans">Curating The #DuboisChallenge2022</text>
+<text align="e" xp="97" yp="2" sp="1" font="sans">Anthony Starks</text>
+<image name="images/ss01.png" xp="10" yp="72" width="15" height="0"/>
+<image name="images/ss08.png" xp="30" yp="72" width="15" height="0"/>
+<image name="images/ss03.png" xp="50" yp="72" width="15" height="0"/>
+<image name="images/ss04.png" xp="70" yp="72" width="15" height="0"/>
+<image name="images/ss07.png" xp="90" yp="72" width="15" height="0"/>
+<image name="images/ss05.png" xp="10" yp="27" width="15" height="0"/>
+<image name="images/ss06.png" xp="30" yp="27" width="15" height="0"/>
+<image name="images/ss02.png" xp="50" yp="27" width="15" height="0"/>
+<image name="images/ss09.png" xp="70" yp="27" width="15" height="0"/>
+<image name="images/ss10.png" xp="90" yp="27" width="15" height="0"/>
 </slide>
 <slide bg="linen" fg="black">
 <text align="c" xp="50" yp="90" sp="4.5" >In 2021, it began with them</text>
-<image name="images/allen.png" xp="35" yp="50" width="778" height="1056" scale="50"/>
-<image name="images/sekou0.png" xp="65" yp="50" width="710" height="826" scale="60"/>
+<image name="images/allen.png" xp="35" yp="50" width="20" height="0"/>
+<image name="images/sekou0.png" xp="65" yp="50" width="20" height="0"/>
 <text align="c" xp="35" yp="15" sp="2" font="serif" color="" opacity="100" link="https://twitter.com/AlDatavizguy">Allen Hillery (@AlDataVizGuy)</text>
 <text align="c" xp="65" yp="15" sp="2" font="serif" color="" opacity="100" link="https://twitter.com/sqlsekou">Sekou Tyler (@sqlsekou)</text>
 </slide>
@@ -74,29 +75,39 @@
 <image name="images/plate-49-f1.png" xp="83" yp="10" width="2112" height="2688" scale="5"/>
 </slide>
 <slide bg="linen" fg="black">
-<text align="c" xp="50" yp="90" sp="4.5" >The Introduction Thread</text>
-<image name="images/t01.png" xp="10" yp="66" width="910" height="1294" scale="35"/>
-<image name="images/t02.png" xp="30" yp="66" width="941" height="1302" scale="35"/>
-<image name="images/t03.png" xp="50" yp="66" width="917" height="1258" scale="35"/>
-<image name="images/t04.png" xp="70" yp="66" width="922" height="1285" scale="35"/>
-<image name="images/t05.png" xp="90" yp="66" width="907" height="1289" scale="35"/>
-<image name="images/t06.png" xp="10" yp="21" width="920" height="1288" scale="35"/>
-<image name="images/t07.png" xp="30" yp="21" width="905" height="1297" scale="35"/>
-<image name="images/t08.png" xp="50" yp="21" width="936" height="1283" scale="35"/>
-<image name="images/t09.png" xp="70" yp="21" width="926" height="1247" scale="35"/>
-<image name="images/t10.png" xp="90" yp="21" width="899" height="1242" scale="35"/>
+<text align="c" xp="50" yp="90" sp="4.5" >Using github</text>
+<image name="images/gh1.png" xp="25" yp="45" width="45" height="0"/>
+<image name="images/gh2.png" xp="75" yp="45" width="50" height="0"/>
 </slide>
 <slide bg="linen" fg="black">
-<image name="images/ss01.png" xp="10" yp="72" width="956" height="1822" scale="32"/>
-<image name="images/ss08.png" xp="30" yp="72" width="937" height="1809" scale="32"/>
-<image name="images/ss03.png" xp="50" yp="72" width="932" height="1573" scale="32"/>
-<image name="images/ss04.png" xp="70" yp="72" width="954" height="1680" scale="32"/>
-<image name="images/ss07.png" xp="90" yp="72" width="945" height="1721" scale="32"/>
-<image name="images/ss05.png" xp="10" yp="27" width="947" height="1180" scale="32"/>
-<image name="images/ss06.png" xp="30" yp="27" width="965" height="1277" scale="32"/>
-<image name="images/ss02.png" xp="50" yp="27" width="951" height="1239" scale="32"/>
-<image name="images/ss09.png" xp="70" yp="27" width="951" height="1187" scale="32"/>
-<image name="images/ss10.png" xp="90" yp="27" width="946" height="1121" scale="32"/>
+<text align="c" xp="50" yp="90" sp="4.5" >The Announcement</text>
+<image name="images/announce01.png" xp="30" yp="45" width="32" height="0"/>
+<image name="images/announce02.png" xp="70" yp="45" width="40" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >The Introduction Thread</text>
+<image name="images/t01.png" xp="10" yp="66" width="17" height="0"/>
+<image name="images/t02.png" xp="30" yp="66" width="17" height="0"/>
+<image name="images/t03.png" xp="50" yp="66" width="17" height="0"/>
+<image name="images/t04.png" xp="70" yp="66" width="17" height="0"/>
+<image name="images/t05.png" xp="90" yp="66" width="17" height="0"/>
+<image name="images/t06.png" xp="10" yp="21" width="17" height="0"/>
+<image name="images/t07.png" xp="30" yp="21" width="17" height="0"/>
+<image name="images/t08.png" xp="50" yp="21" width="17" height="0"/>
+<image name="images/t09.png" xp="70" yp="21" width="17" height="0"/>
+<image name="images/t10.png" xp="90" yp="21" width="17" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/ss01.png" xp="10" yp="72" width="15" height="0"/>
+<image name="images/ss08.png" xp="30" yp="72" width="15" height="0"/>
+<image name="images/ss03.png" xp="50" yp="72" width="15" height="0"/>
+<image name="images/ss04.png" xp="70" yp="72" width="15" height="0"/>
+<image name="images/ss07.png" xp="90" yp="72" width="15" height="0"/>
+<image name="images/ss05.png" xp="10" yp="27" width="15" height="0"/>
+<image name="images/ss06.png" xp="30" yp="27" width="15" height="0"/>
+<image name="images/ss02.png" xp="50" yp="27" width="15" height="0"/>
+<image name="images/ss09.png" xp="70" yp="27" width="15" height="0"/>
+<image name="images/ss10.png" xp="90" yp="27" width="15" height="0"/>
 </slide>
 <slide bg="linen" fg="black">
 <text align="c" xp="50" yp="90" sp="4.5" >Notable Examples</text>
@@ -107,16 +118,16 @@
 <slide bg="linen" fg="black">
 <text align="c" xp="50" yp="90" sp="4.5" font="sans" color="black" opacity="100" link="https://github.com/IcaroBernardes/webdubois">Ícaro Bernardes (@IcaroBSC)</text>
 <image name="images/icaro.jpg" xp="10" yp="93" width="400" height="400" scale="25"/>
-<image name="images/FQumtEqWYAIrUSs.jpeg" xp="10" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1516517164727119877"/>
-<image name="images/FLrpZNgVEAgXMny.jpeg" xp="30" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1493768750755041285"/>
-<image name="images/FMOs7yjX0AMPgJM.jpeg" xp="50" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1496229656902926336"/>
-<image name="images/FMuWCjRXoAM_-U9.jpeg" xp="70" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1498459321243475968"/>
-<image name="images/FNXBnaBVUAENdz9.jpeg" xp="90" yp="65" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1501323176088780800"/>
-<image name="images/FN7XeAcWQAEEQJX.jpeg" xp="10" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1503890070029451270"/>
-<image name="images/FOeRkxSXIAI4pnq.jpeg" xp="30" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1503890070029451270"/>
-<image name="images/FPDlUdVWUAUkx3z.jpeg" xp="50" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1506334651538972681"/>
-<image name="images/FPhbSP1WYAUpJFs.jpeg" xp="70" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1511072124357775367"/>
-<image name="images/FQPaQpJXEAE9TmT.jpeg" xp="90" yp="25" width="943" height="1200" scale="33" link="https://twitter.com/IcaroBSC/status/1514299766271721475"/>
+<image name="images/FQumtEqWYAIrUSs.jpeg" xp="10" yp="65" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1516517164727119877"/>
+<image name="images/FLrpZNgVEAgXMny.jpeg" xp="30" yp="65" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1493768750755041285"/>
+<image name="images/FMOs7yjX0AMPgJM.jpeg" xp="50" yp="65" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1496229656902926336"/>
+<image name="images/FMuWCjRXoAM_-U9.jpeg" xp="70" yp="65" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1498459321243475968"/>
+<image name="images/FNXBnaBVUAENdz9.jpeg" xp="90" yp="65" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1501323176088780800"/>
+<image name="images/FN7XeAcWQAEEQJX.jpeg" xp="10" yp="25" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1503890070029451270"/>
+<image name="images/FOeRkxSXIAI4pnq.jpeg" xp="30" yp="25" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1503890070029451270"/>
+<image name="images/FPDlUdVWUAUkx3z.jpeg" xp="50" yp="25" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1506334651538972681"/>
+<image name="images/FPhbSP1WYAUpJFs.jpeg" xp="70" yp="25" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1511072124357775367"/>
+<image name="images/FQPaQpJXEAE9TmT.jpeg" xp="90" yp="25" width="16" height="0" scale="100" link="https://twitter.com/IcaroBSC/status/1514299766271721475"/>
 </slide>
 <slide bg="linen" fg="black">
 <text align="c" xp="50" yp="90" sp="4.5" font="sans" color="black" opacity="100" link="https://public.tableau.com/app/profile/chimdi.nwosu/viz/W_E_B_DuboisPortraitGallery/MainGallery">Chimdi Nwosu (@menscuriosa)</text>
@@ -131,6 +142,24 @@
 <image name="images/baltimore01.png" xp="18" yp="45" width="1425" height="1916" scale="42" link="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"/>
 <image name="images/baltimore02.png" xp="50" yp="45" width="1425" height="1916" scale="42" link="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"/>
 <image name="images/baltimore03.png" xp="82" yp="45" width="1425" height="1916" scale="42" link="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Like, Like, Like</text>
+<image name="images/like01.png" xp="10" yp="40" width="15" height="0"/>
+<image name="images/like02.png" xp="30" yp="40" width="15" height="0"/>
+<image name="images/like03.png" xp="50" yp="40" width="15" height="0"/>
+<image name="images/like07.png" xp="80" yp="40" width="40" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Promotion</text>
+<image name="images/allen-tweet01.png" xp="20" yp="45" width="25" height="0"/>
+<image name="images/baltopi-show.png" xp="50" yp="45" width="30" height="0"/>
+<image name="images/allen-tweet03.png" xp="80" yp="45" width="25" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Promotion from the community</text>
+<image name="images/cross01.png" xp="30" yp="45" width="30" height="0"/>
+<image name="images/cross02.png" xp="70" yp="45" width="32" height="0"/>
 </slide>
 <slide bg="linen" fg="black">
 <text align="c" xp="50" yp="60" sp="5.3999999999999995" >Re-Creating the Du Bois Data Portraits</text>

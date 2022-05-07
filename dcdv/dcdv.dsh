@@ -213,6 +213,11 @@ deck
 		image "images/cross02.png"  70 45 32 0
 	eslide
 
+	slide bgcolor fgcolor
+		ctext "The dashboard" mid ty ts
+		image "images/dash02.png" 50 45 80 0 100 "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity?publish=yes"
+	eslide 
+
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Re-creation
 	slide bgcolor fgcolor
