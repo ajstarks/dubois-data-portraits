@@ -39,7 +39,7 @@ deck
 	slide bgcolor fgcolor
 		ctext "In 2021, it began with them" mid ty ts
 		image "images/allen.png"       35 50 20 0
-		image "images/sekou0.png"      65 50 20 0
+		image "images/sekou0.png"      65 50 22 0
 		ctext "Allen Hillery (@AlDataVizGuy)" 35 15 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
 		ctext "Sekou Tyler (@sqlsekou)"       65 15 2 "serif" "" 100 "https://twitter.com/sqlsekou"
 	eslide
@@ -192,10 +192,10 @@ deck
 	// Like
 	slide bgcolor fgcolor
 		ctext "Like, Like, Like" mid ty ts
-		image "images/like01.png" 10 40 15 0
-		image "images/like02.png" 30 40 15 0
-		image "images/like03.png" 50 40 15 0
-		image "images/like07.png" 80 40 40 0
+		image "images/like01.png" 10 48 13 0
+		image "images/like02.png" 25 47 13 0
+		image "images/like03.png" 40 47 13 0
+		image "images/like07.png" 77 47 55 0
 	eslide
 
 	// Promotion
