@@ -144,8 +144,6 @@ deck
 		image "images/hand-drawn-opi.png" 80 50 20 0
 	eslide
 
-
-
 	// Notable examples
 	slide bgcolor fgcolor
 		ctext "Notable Examples" tx ty ts 
@@ -402,6 +400,25 @@ deck
 		ctext "Publishing" tx ty ts
 		image "images/speakerdeck-remix00.png" 30 yp imw imh ims
 		image "images/twitter-pub.png"         70 yp 1058 1337 65
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Links and Resources"  tx ty ts
+		list 5 70 2
+			li "Challenge Repo" 
+			li "Twitter Hashtag" 
+			li "Nightingale Article"
+			li "Du Bois Data Portraits Book"
+			li "LoC Collection"
+		elist
+
+		list 35 70 1.5 "mono" "black" 100 2.7
+			li "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022#readme"
+			li "https://twitter.com/search?q=%23DuBoisChallenge2022&src=typed_query&f=top"
+			li "https://nightingaledvs.com/the-dubois-challenge/"
+			li "https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066"
+			li "https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition"
+		elist
 	eslide
 
 
