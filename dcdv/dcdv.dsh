@@ -35,14 +35,7 @@ deck
 		image "images/ss10.png" 90 yp ims 0
 	eslide
 
-	// Allen and Sekou
-	slide bgcolor fgcolor
-		ctext "In 2021, it began with them" mid ty ts
-		image "images/allen.png"       35 50 20 0
-		image "images/sekou0.png"      65 50 22 0
-		ctext "Allen Hillery (@AlDataVizGuy)" 35 15 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
-		ctext "Sekou Tyler (@sqlsekou)"       65 15 2 "serif" "" 100 "https://twitter.com/sqlsekou"
-	eslide
+
 
 	// Modern Megaphone
 	slide bgcolor fgcolor
@@ -71,6 +64,25 @@ deck
 		polygon "55 55 67 67" "40 65 90 15" "gray" 20
 	eslide
 
+	// TJ Calloway and Du Bois
+	slide bgcolor fgcolor
+		ctext "In 1900 it began with them" mid ty ts
+		image "images/TJCalloway.jpg"  35 50 20 0
+		image "images/dubois-1900.png" 65 50 22 0
+		ctext "Thomas J. Calloway" 35 15 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
+		ctext "Du Bois in Paris"       65 15 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
+	eslide
+
+	// Allen and Sekou
+	slide bgcolor fgcolor
+		ctext "In 2021, it began with them" mid ty ts
+		image "images/allen.png"       35 50 20 0
+		image "images/sekou0.png"      65 50 22 0
+		ctext "Allen Hillery (@AlDataVizGuy)" 35 15 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
+		ctext "Sekou Tyler (@sqlsekou)"       65 15 2 "serif" "" 100 "https://twitter.com/sqlsekou"
+	eslide
+
+
 	// The entries
 	slide bgcolor fgcolor
 		chlink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
@@ -85,9 +97,9 @@ deck
 
     ts=4.5
 	slide bgcolor fgcolor
-		ctext "Using github" tx ty ts 
-		image "images/gh1.png" 25 45 45 0
-		image "images/gh2.png" 75 45 50 0
+		ctext "Using github" tx ty ts
+		image "images/gh1.png" 24 45 45 0
+		image "images/gh2.png" 74 45 50 0
 	eslide
 
 	slide bgcolor fgcolor
@@ -192,10 +204,10 @@ deck
 	// Like
 	slide bgcolor fgcolor
 		ctext "Like, Like, Like" mid ty ts
-		image "images/like01.png" 10 48 13 0
-		image "images/like02.png" 25 47 13 0
-		image "images/like03.png" 40 47 13 0
-		image "images/like07.png" 77 47 55 0
+		image "images/like01.png"  8 48 13 0
+		image "images/like02.png" 23 47 13 0
+		image "images/like03.png" 38 47 13 0
+		image "images/like07.png" 75 47 60 0
 	eslide
 
 	// Promotion
