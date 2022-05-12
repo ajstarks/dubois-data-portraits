@@ -15,11 +15,11 @@ deck
 	bannersize=8
 	
 	// Title
-	slide bgcolor fgcolor
+	slide bgcolor "white"
 
-		hline 0 2 100 5 "black" 20
-		text "Curating The #DuboisChallenge2022" 3 2 2 "sans"
-		etext "Anthony Starks" 97 2 1 "sans"
+		hline 0 2 100 6 "black" //20
+		text "Curating The #DuboisChallenge2022" 3 2 2.5 "sans"
+		etext "Anthony Starks" 97 2 1.5 "sans"
 		yp=72
 		ims=15
 		image "images/ss01.png" 10 yp ims 0
@@ -35,14 +35,6 @@ deck
 		image "images/ss10.png" 90 yp ims 0
 	eslide
 
-
-
-	// Modern Megaphone
-	slide bgcolor fgcolor
-		ctext "The Modern Megaphone" sx sy ss
-		image "images/megaphone01.png" 50 40 1200 1200 30
-	eslide
-
 	// 1900 venue
 	slide bgcolor fgcolor
 		ctext "Paris 1900" tx ty ts
@@ -54,7 +46,7 @@ deck
 	// Modern venue
 	slide bgcolor fgcolor
 		megax=75
-		ctext "Now" tx ty ts
+		text "Now: Modern Megaphone" 10 ty ts
 		etext "Your Message" 33 50 3
 		image "images/megaphone01.png"           45 50 1200 1200 50
 		image "images/twitter-logo.png"          megax 85 1294 1295 15
@@ -66,20 +58,20 @@ deck
 
 	// TJ Calloway and Du Bois
 	slide bgcolor fgcolor
-		ctext "In 1900 it began with them" mid ty ts
-		image "images/TJCalloway.jpg"  35 50 20 0
-		image "images/dubois-1900.png" 65 50 22 0
-		ctext "Thomas J. Calloway" 35 15 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
-		ctext "Du Bois in Paris"       65 15 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
+		ctext "In 1900, it began with them" mid ty ts
+		image "images/TJCalloway.jpg"  30 47 30 0
+		image "images/dubois-1900.png" 70 47 32 0
+		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
+		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
 	eslide
 
 	// Allen and Sekou
 	slide bgcolor fgcolor
 		ctext "In 2021, it began with them" mid ty ts
-		image "images/allen.png"       35 50 20 0
-		image "images/sekou0.png"      65 50 22 0
-		ctext "Allen Hillery (@AlDataVizGuy)" 35 15 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
-		ctext "Sekou Tyler (@sqlsekou)"       65 15 2 "serif" "" 100 "https://twitter.com/sqlsekou"
+		image "images/allen.png"              30 47 30 0
+		image "images/sekou0.png"             70 47 32 0
+		ctext "Allen Hillery (@AlDataVizGuy)" 30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
+		ctext "Sekou Tyler (@sqlsekou)"       70 3 2 "serif" "" 100 "https://twitter.com/sqlsekou"
 	eslide
 
 
