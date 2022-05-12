@@ -135,6 +135,17 @@ deck
 		image "images/ss10.png" 90 yp ims 0
 	eslide
 
+	slide bgcolor fgcolor
+		ctext "Tools Used" tx ty ts 
+		image "images/R-logo.png"       20 50 20 0
+		image "images/tidyverse.png"    10 65 15 0
+		image "images/ggplot-logo.png"  30 70 10 0
+		image "images/tableau-logo.png" 50 50 30 0
+		image "images/hand-drawn-opi.png" 80 50 20 0
+	eslide
+
+
+
 	// Notable examples
 	slide bgcolor fgcolor
 		ctext "Notable Examples" tx ty ts 
