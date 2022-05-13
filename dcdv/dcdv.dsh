@@ -403,22 +403,45 @@ deck
 	eslide
 
 	slide bgcolor fgcolor
+		lk1="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022#readme"
+		lk2="https://twitter.com/search?q=%23DuBoisChallenge2022&src=typed_query&f=top" 
+		lk3="https://nightingaledvs.com/the-dubois-challenge/"
+		lk4="https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066"
+		lk5="https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition"
+		lk6="https://speakerdeck.com/ajstarks/du-bois-visualizations-originals"
 		ctext "Links and Resources"  tx ty ts
-		list 5 70 2
-			li "Challenge Repo" 
-			li "Twitter Hashtag" 
-			li "Nightingale Article"
-			li "Du Bois Data Portraits Book"
-			li "LoC Collection"
-		elist
+		lt=75
+		ll=3
+		ly=lt
+		ls=3
+		vskip=10
+			text "Challenge Repo" ll ly ls
+			ly-=vskip
+			text "Twitter Hashtag" ll ly ls
+			ly-=vskip
+			text "Nightingale Article" ll ly ls 
+			ly-=vskip
+			text "Data Portraits Book" ll ly ls 
+			ly-=vskip
+			text "LoC Collection" ll ly ls
+			ly-=vskip
+			text "Catalog"        ll ly ls 
 
-		list 35 70 1.5 "mono" "black" 100 2.7
-			li "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022#readme"
-			li "https://twitter.com/search?q=%23DuBoisChallenge2022&src=typed_query&f=top"
-			li "https://nightingaledvs.com/the-dubois-challenge/"
-			li "https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066"
-			li "https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition"
-		elist
+		ly=lt
+		ll+=30
+		ls*=0.5
+		linkcolor="maroon"
+			text lk1 ll ly ls "mono" linkcolor 100 lk1 
+			ly-=vskip
+			text lk2 ll ly ls "mono" linkcolor 100 lk2
+			ly-=vskip
+			text lk3 ll ly ls "mono" linkcolor 100 lk3
+			ly-=vskip
+			text lk4 ll ly ls "mono" linkcolor 100 lk4
+			ly-=vskip
+			text lk5 ll ly ls "mono" linkcolor 100 lk5
+			ly-=vskip
+			text lk6 ll ly ls "mono" linkcolor 100 lk6
 	eslide
 
 
