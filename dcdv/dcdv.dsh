@@ -13,7 +13,20 @@ deck
 	my=50
 	ns=ts*0.75
 	bannersize=8
-	
+
+	slink01="https://twitter.com/IcaroBSC/status/1516517164727119877"
+	slink06="https://twitter.com/professorkao/status/1502664243006615556"
+	slink07="https://twitter.com/quite_grey/status/1493597410790195207"
+	slink08="https://twitter.com/katie_press/status/1493650683282788361"
+	slink09="https://twitter.com/Fi_Lees/status/1494689392920834053"
+	slink10="https://twitter.com/TannerFlorian/status/1493539966504542211"
+	slink04="https://twitter.com/sarahlovesdata/status/1494665661339086855"
+	slink03="https://twitter.com/mitsuoxv/status/1493458012152811522"
+	slink02="https://twitter.com/nrennie35/status/1493675553555161091"
+	slink05="https://twitter.com/menscuriosa/status/1495866145726992394"
+	blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
+
+
 	// Title
 	slide bgcolor "white"
 
@@ -22,17 +35,17 @@ deck
 		etext "Anthony Starks" 97 2 1.5 "sans"
 		yp=72
 		ims=15
-		image "images/ss01.png" 10 yp ims 0
-		image "images/ss08.png" 30 yp ims 0
-		image "images/ss03.png" 50 yp ims 0
-		image "images/ss04.png" 70 yp ims 0
-		image "images/ss07.png" 90 yp ims 0
+		image "images/ss01.png" 10 yp ims 0 100 slink01
+		image "images/ss08.png" 30 yp ims 0 100 slink08
+		image "images/ss03.png" 50 yp ims 0 100 slink03
+		image "images/ss04.png" 70 yp ims 0 100 slink04
+		image "images/ss07.png" 90 yp ims 0 100 slink07
 		yp-=45
-		image "images/ss05.png" 10 yp ims 0
-		image "images/ss06.png" 30 yp ims 0
-		image "images/ss02.png" 50 yp ims 0
-		image "images/ss09.png" 70 yp ims 0
-		image "images/ss10.png" 90 yp ims 0
+		image "images/ss05.png" 10 yp ims 0 100 slink05
+		image "images/ss06.png" 30 yp ims 0 100 slink06
+		image "images/ss02.png" 50 yp ims 0 100 slink02
+		image "images/ss09.png" 70 yp ims 0 100 slink09
+		image "images/ss10.png" 90 yp ims 0 100 slink10
 	eslide
 
 	// 1900 venue
@@ -122,26 +135,27 @@ deck
 	slide bgcolor fgcolor
 		yp=72
 		ims=15
-		image "images/ss01.png" 10 yp ims 0
-		image "images/ss08.png" 30 yp ims 0
-		image "images/ss03.png" 50 yp ims 0
-		image "images/ss04.png" 70 yp ims 0
-		image "images/ss07.png" 90 yp ims 0
+		image "images/ss01.png" 10 yp ims 0 100 slink01
+		image "images/ss08.png" 30 yp ims 0 100 slink08
+		image "images/ss03.png" 50 yp ims 0 100 slink03
+		image "images/ss04.png" 70 yp ims 0 100 slink04
+		image "images/ss07.png" 90 yp ims 0 100 slink07
 		yp-=45
-		image "images/ss05.png" 10 yp ims 0
-		image "images/ss06.png" 30 yp ims 0
-		image "images/ss02.png" 50 yp ims 0
-		image "images/ss09.png" 70 yp ims 0
-		image "images/ss10.png" 90 yp ims 0
+		image "images/ss05.png" 10 yp ims 0 100 slink05
+		image "images/ss06.png" 30 yp ims 0 100 slink06
+		image "images/ss02.png" 50 yp ims 0 100 slink02
+		image "images/ss09.png" 70 yp ims 0 100 slink09
+		image "images/ss10.png" 90 yp ims 0 100 slink10
 	eslide
 
+	// Tools
 	slide bgcolor fgcolor
 		ctext "Tools Used" tx ty ts 
-		image "images/R-logo.png"       20 50 20 0
-		image "images/tidyverse.png"    10 65 15 0
-		image "images/ggplot-logo.png"  30 70 10 0
-		image "images/tableau-logo.png" 50 50 30 0
-		image "images/hand-drawn-opi.png" 80 50 20 0
+		image "images/R-logo.png"       20 50 20 0 100 "https://www.r-project.org/"
+		image "images/tidyverse.png"    10 65 15 0 100 "https://www.tidyverse.org/"
+		image "images/ggplot-logo.png"  30 70 10 0 100 "https://ggplot2.tidyverse.org/"
+		image "images/tableau-logo.png" 50 50 30 0 100 "https://www.tableau.com/"
+		image "images/hand-drawn-opi.png" 80 50 20 0 100 blink
 	eslide
 
 	// Notable examples
@@ -194,7 +208,6 @@ deck
 		imh=1916
 		ims=42
 		yp=45
-		blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
 		ctext "Baltimore OPI (@baltopi)" mid ty ts "sans" fgcolor 100 blink
 		image "images/baltopi.png" 10 93 400 400 25
 		image "images/baltimore01.png" 18 yp imw imh ims blink
