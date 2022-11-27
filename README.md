@@ -1,9 +1,11 @@
 # Recreations of W.E.B Dubois's Data Portraits
 
 decksh recreations of visualizations in "W.E.B Dubois's Data Portraits, Visualizing Black America" 
-edited by Whitney Battle-Baptiste and Britt Rusert (ISBN 978-1-61689-706-2)
+edited by Whitney Battle-Baptiste and Britt Rusert (ISBN 978-1-61689-706-2).
 
-The original plates (also include in this repo), may be accessed at the [Library of Congress](https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?st=grid&sb=shelf-id_desc)
+The original plates (also included in this repo), may be accessed at the [Library of Congress].(https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?st=grid&sb=shelf-id_desc)
+
+## List of Plates
 
 * Plate  1: The Georgia Negro
 * Plate  2: Relative Negro Population of the States of the United States
@@ -62,3 +64,32 @@ The original plates (also include in this repo), may be accessed at the [Library
 * Plate 62: Religion of American Negroes
 * Plate 63: Statistics of Negro Church Organizations
 * Plate XX: Decrease of Illiteracy Among Black Freedmen of the United States (not in the book discovered by Jason Forrest)
+
+## Making the recreations
+
+You can use git to download the repo to your computer.
+
+```
+git clone https://github.com/ajstarks/dubois-data-portraits
+```
+
+Each plate has its own directory, for example ```plate27```, and in the the directory is the bash
+script ```mkdeck``` which will create both a PDF (```f.pdf```) and PNG ```(f1.png)``` version of the
+plate. 
+
+```
+cd plate27
+./mkdeck
+```
+
+Also, each directory contains the original image of the plate, for example ```original-plate-27.jpg```
+
+Note that the repo assumes these environment variables are set:
+
+```
+duboisans=PublicSans-Regular
+duboiserif=PublicSans-Bold
+duboismono=Inconsolata-Medium
+portrait=1584,2016
+landscape=2016,1584
+```
