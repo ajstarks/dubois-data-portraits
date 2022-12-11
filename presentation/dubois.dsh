@@ -14,24 +14,24 @@ deck
 	fgcolor="black"
 
 
-		balink="https://publicdomainreview.org/essay/black-america-1895"
-		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
-		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
-		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
-		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
-		expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+	balink="https://publicdomainreview.org/essay/black-america-1895"
+	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+	phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+	wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+	moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+	expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
 
 
 	// title slide
 	slide
 		image "images/full-catalog.png" 50 50 1920 1080
-		textblock "Exploring the Du Bois Data Portraits" 72 12 20 2 "sans" "maroon"
+		textblock "Recreating the Du Bois Data Portraits" 72 12 20 2 "sans" "maroon"
 	eslide
 
 	slide bgcolor fgcolor
 		image "images/dubois-fisk.jpg" 30 50 615 773
 		textblock "“I can hardly realize they are all my people; that this great assembly of youth and intelligence are representatives of a race which twenty years ago was in bondage.”" 50 70 30 3 "serif"
-		ctext "W.E.B. Du Bois at Fisk, 1885"		30 4 ns3 "serif"
+		ctext "W.E.B. Du Bois at Fisk, circa 1885"		30 4 ns3 "serif"
 	eslide
 
 	// the Philadelphia Negro
@@ -259,35 +259,38 @@ deck
 		colorw=9.6
 		ch=colorh*0.6
 		ctext "Color Palette" tx ty ts
-		rect 15 laby colorw colorh "black"
-		rect 25 laby colorw colorh "rgb(101,67,33)"
-		rect 35 laby colorw colorh "tan"
-		rect 45 laby colorw colorh "gold"
-		rect 55 laby colorw colorh "pink"
-		rect 65 laby colorw colorh "crimson"
-		rect 75 laby colorw colorh "rgb(0,128,0)"
-		rect 85 laby colorw colorh "rgb(70,130,180)"
+		rect 10 laby colorw colorh "black"
+		rect 20 laby colorw colorh "rgb(101,67,33)"
+		rect 30 laby colorw colorh "tan"
+		rect 40 laby colorw colorh "gold"
+		rect 50 laby colorw colorh "pink"
+		rect 60 laby colorw colorh "crimson"
+		rect 70 laby colorw colorh "rgb(0,128,0)"
+		rect 80 laby colorw colorh "rgb(70,130,180)"
+		rect 90 laby colorw colorh "rgb(126,101,131)"
 		laby+=ch
 		labts=2.5
-		ctext "black" 	15 laby labts "sans" "black"
-		ctext "brown" 	25 laby labts "sans" "black"
-		ctext "tan" 	35 laby labts "sans" "black"
-		ctext "gold" 	45 laby labts "sans" "black"
-		ctext "pink" 	55 laby labts "sans" "black"
-		ctext "red" 	65 laby labts "sans" "black"
-		ctext "green" 	75 laby labts "sans" "black"
-		ctext "blue" 	85 laby labts "sans" "black"
+		ctext "black" 	10 laby labts "sans" "black"
+		ctext "brown" 	20 laby labts "sans" "black"
+		ctext "tan" 	30 laby labts "sans" "black"
+		ctext "gold" 	40 laby labts "sans" "black"
+		ctext "pink" 	50 laby labts "sans" "black"
+		ctext "red" 	60 laby labts "sans" "black"
+		ctext "green" 	70 laby labts "sans" "black"
+		ctext "blue" 	80 laby labts "sans" "black"
+		ctext "purple" 	90 laby labts "sans" "black"
 
 		laby-=20
 		labts*=0.75
-		ctext "#000000" 15 laby labts "mono" "black"
-		ctext "#654321" 25 laby labts "mono" "black"
-		ctext "#d2b48c" 35 laby labts "mono" "black"
-		ctext "#ffd700" 45 laby labts "mono" "black"
-		ctext "#ffc0cb" 55 laby labts "mono" "black"
-		ctext "#dc143c" 65 laby labts "mono" "black"
-		ctext "#00aa00" 75 laby labts "mono" "black"
-		ctext "#4682b4" 85 laby labts "mono" "black"
+		ctext "#000000" 10 laby labts "mono" "black"
+		ctext "#654321" 20 laby labts "mono" "black"
+		ctext "#d2b48c" 30 laby labts "mono" "black"
+		ctext "#ffd700" 40 laby labts "mono" "black"
+		ctext "#ffc0cb" 50 laby labts "mono" "black"
+		ctext "#dc143c" 60 laby labts "mono" "black"
+		ctext "#00aa00" 70 laby labts "mono" "black"
+		ctext "#4682b4" 80 laby labts "mono" "black"
+		ctext "#7e6583" 90 laby labts "mono" "black"
 	eslide
 
 	// Typography
