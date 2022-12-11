@@ -114,6 +114,8 @@ The use of bold solid colors is a characteristic of the DuBois style. Here are t
 |crimson	|rgb(220,20,60)		|#dc143c|
 |green		|rgb(0,128,0)		|#00aa00|
 |blue		|rgb(70,130,180)	|#4682b4|
+|purple     |rgb(126,101,131)   |#7e6583|
+
 
 <image src="images/colors.png">
 
