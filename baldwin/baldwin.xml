@@ -1,0 +1,511 @@
+<deck>
+<slide bg="linen" fg="black">
+<image name="images/full-catalog.png" xp="50" yp="50" width="1920" height="1080"/>
+<line xp1="0" yp1="50" xp2="100" yp2="50" sp="20" color="black" opacity="80"/>
+<text type="block" xp="10" yp="55" wp="50" sp="5" font="sans" color="white">Building on the Legacy of the Du Bois Data Portraits</text>
+<list xp="85" yp="57" sp="1.5" font="sans" color="white">
+<li>Anthony Starks</li>
+<li>Allen Hillery</li>
+<li>Sekou Tyler</li>
+</list>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >The Philadelphia Negro, 1897</text>
+<image name="images/philly09.png" xp="16" yp="55" width="880" height="909" scale="65"/>
+<image name="images/philly12.png" xp="51" yp="55" width="1112" height="930" scale="65"/>
+<image name="images/philly03.png" xp="85" yp="55" width="809" height="903" scale="65"/>
+<text type="block" xp="12" yp="17" wp="70" sp="2" font="serif">“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”</text>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/au-debating-team-1900.jpg" xp="25" yp="50" width="700" height="563"/>
+<text align="c" xp="25" yp="20" sp="1.265625" font="serif">Atlanta University Debating Team, c. 1900</text>
+<image name="images/au-women.jpg" xp="70" yp="50" width="916" height="594" scale="94"/>
+<text align="c" xp="70" yp="20" sp="1.265625" font="serif">Women seated on steps of building at Atlanta University c. 1900</text>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/dubois-1900.png" xp="30" yp="50" width="650" height="891"/>
+<text align="c" xp="30" yp="4" sp="1.265625" font="serif">W.E.B. DuBois in Paris 1900</text>
+<image name="images/expo0.png" xp="70" yp="50" width="1157" height="1525" scale="59"/>
+<text align="c" xp="70" yp="4" sp="1.265625" font="serif">Exposition of the American Negro, Paris, 1900</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Historical Context</text>
+<text align="c" xp="10" yp="25" sp="2" >1895</text>
+<text align="c" xp="10" yp="33" sp="1.5" font="serif">“Black America” Fair</text>
+<image name="images/BA-happy-days.jpg" xp="10" yp="50" width="1200" height="743" scale="30"/>
+<line xp1="10" yp1="30" xp2="90" yp2="30" sp="0.5" color="gray" opacity="50"/>
+<ellipse xp="10" yp="30" wp="1" hr="100" color="maroon"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Historical Context</text>
+<text align="c" xp="10" yp="25" sp="2" >1895</text>
+<text align="c" xp="26" yp="25" sp="2" >1896</text>
+<text align="c" xp="10" yp="33" sp="1.5" font="serif">“Black America” Fair</text>
+<text align="c" xp="26" yp="33" sp="1.5" font="serif">Plessy v. Ferguson</text>
+<image name="images/BA-happy-days.jpg" xp="10" yp="50" width="1200" height="743" scale="30"/>
+<image name="images/homer-plessy.jpg" xp="26" yp="50" width="295" height="350" scale="75"/>
+<line xp1="10" yp1="30" xp2="90" yp2="30" sp="0.5" color="gray" opacity="50"/>
+<ellipse xp="10" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="26" yp="30" wp="1" hr="100" color="maroon"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Historical Context</text>
+<text align="c" xp="10" yp="25" sp="2" >1895</text>
+<text align="c" xp="26" yp="25" sp="2" >1896</text>
+<text align="c" xp="42" yp="25" sp="2" >1897</text>
+<text align="c" xp="10" yp="33" sp="1.5" font="serif">“Black America” Fair</text>
+<text align="c" xp="26" yp="33" sp="1.5" font="serif">Plessy v. Ferguson</text>
+<text align="c" xp="42" yp="33" sp="1.5" font="serif">Phila. Negro begins</text>
+<image name="images/BA-happy-days.jpg" xp="10" yp="50" width="1200" height="743" scale="30"/>
+<image name="images/homer-plessy.jpg" xp="26" yp="50" width="295" height="350" scale="75"/>
+<image name="images/philly12.png" xp="42" yp="50" width="1112" height="930" scale="28"/>
+<line xp1="10" yp1="30" xp2="90" yp2="30" sp="0.5" color="gray" opacity="50"/>
+<ellipse xp="10" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="26" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="42" yp="30" wp="1" hr="100" color="maroon"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Historical Context</text>
+<text align="c" xp="10" yp="25" sp="2" >1895</text>
+<text align="c" xp="26" yp="25" sp="2" >1896</text>
+<text align="c" xp="26" yp="25" sp="2" >1896</text>
+<text align="c" xp="42" yp="25" sp="2" >1897</text>
+<text align="c" xp="58" yp="25" sp="2" >1898</text>
+<text align="c" xp="10" yp="33" sp="1.5" font="serif">“Black America” Fair</text>
+<text align="c" xp="26" yp="33" sp="1.5" font="serif">Plessy v. Ferguson</text>
+<text align="c" xp="42" yp="33" sp="1.5" font="serif">Phila. Negro begins</text>
+<text align="c" xp="58" yp="33" sp="1.5" font="serif">Wilmington Overthrow</text>
+<image name="images/BA-happy-days.jpg" xp="10" yp="50" width="1200" height="743" scale="30"/>
+<image name="images/homer-plessy.jpg" xp="26" yp="50" width="295" height="350" scale="75"/>
+<image name="images/philly12.png" xp="42" yp="50" width="1112" height="930" scale="28"/>
+<image name="images/white-mans-day.jpg" xp="58" yp="50" width="654" height="658" scale="40"/>
+<line xp1="10" yp1="30" xp2="90" yp2="30" sp="0.5" color="gray" opacity="50"/>
+<ellipse xp="10" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="26" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="42" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="58" yp="30" wp="1" hr="100" color="maroon"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Historical Context</text>
+<text align="c" xp="10" yp="25" sp="2" >1895</text>
+<text align="c" xp="26" yp="25" sp="2" >1896</text>
+<text align="c" xp="42" yp="25" sp="2" >1897</text>
+<text align="c" xp="58" yp="25" sp="2" >1898</text>
+<text align="c" xp="74" yp="25" sp="2" >1899</text>
+<text align="c" xp="10" yp="33" sp="1.5" font="serif">“Black America” Fair</text>
+<text align="c" xp="26" yp="33" sp="1.5" font="serif">Plessy v. Ferguson</text>
+<text align="c" xp="42" yp="33" sp="1.5" font="serif">Phila. Negro begins</text>
+<text align="c" xp="58" yp="33" sp="1.5" font="serif">Wilmington Overthrow</text>
+<text align="c" xp="74" yp="33" sp="1.5" font="serif">Lynchings Peak</text>
+<image name="images/BA-happy-days.jpg" xp="10" yp="50" width="1200" height="743" scale="30"/>
+<image name="images/homer-plessy.jpg" xp="26" yp="50" width="295" height="350" scale="75"/>
+<image name="images/philly12.png" xp="42" yp="50" width="1112" height="930" scale="28"/>
+<image name="images/white-mans-day.jpg" xp="58" yp="50" width="654" height="658" scale="40"/>
+<image name="images/mob.jpg" xp="74" yp="50" width="640" height="512" scale="45"/>
+<line xp1="10" yp1="30" xp2="90" yp2="30" sp="0.5" color="gray" opacity="50"/>
+<ellipse xp="10" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="26" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="42" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="58" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="74" yp="30" wp="1" hr="100" color="maroon"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Historical Context</text>
+<text align="c" xp="10" yp="25" sp="2" >1895</text>
+<text align="c" xp="26" yp="25" sp="2" >1896</text>
+<text align="c" xp="42" yp="25" sp="2" >1897</text>
+<text align="c" xp="58" yp="25" sp="2" >1898</text>
+<text align="c" xp="74" yp="25" sp="2" >1899</text>
+<text align="c" xp="90" yp="25" sp="2" font="sans" color="maroon">1900</text>
+<text align="c" xp="10" yp="33" sp="1.5" font="serif">“Black America” Fair</text>
+<text align="c" xp="26" yp="33" sp="1.5" font="serif">Plessy v. Ferguson</text>
+<text align="c" xp="42" yp="33" sp="1.5" font="serif">Phila. Negro begins</text>
+<text align="c" xp="58" yp="33" sp="1.5" font="serif">Wilmington Overthrow</text>
+<text align="c" xp="74" yp="33" sp="1.5" font="serif">Lynchings Peak</text>
+<text align="c" xp="90" yp="33" sp="1.5" font="serif">Paris Exposition</text>
+<image name="images/BA-happy-days.jpg" xp="10" yp="50" width="1200" height="743" scale="30"/>
+<image name="images/homer-plessy.jpg" xp="26" yp="50" width="295" height="350" scale="75"/>
+<image name="images/philly12.png" xp="42" yp="50" width="1112" height="930" scale="28"/>
+<image name="images/white-mans-day.jpg" xp="58" yp="50" width="654" height="658" scale="40"/>
+<image name="images/mob.jpg" xp="74" yp="50" width="640" height="512" scale="45"/>
+<image name="images/expo.jpg" xp="90" yp="50" width="739" height="1024" scale="25"/>
+<line xp1="10" yp1="30" xp2="90" yp2="30" sp="0.5" color="gray" opacity="50"/>
+<ellipse xp="10" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="26" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="42" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="58" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="74" yp="30" wp="1" hr="100" color="maroon"/>
+<ellipse xp="90" yp="30" wp="1" hr="100" color="maroon"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/plate38.png" xp="10" yp="73" width="2116" height="2688" scale="5"/>
+<image name="images/plate27.png" xp="10" yp="52" width="2116" height="2688" scale="5"/>
+<image name="images/plate22.png" xp="10" yp="30" width="2116" height="2688" scale="5"/>
+<list xp="15" yp="70" sp="6" font="sans" color="maroon">
+<li>We are here</li>
+<li>This is who we are</li>
+<li>This is how far we have come</li>
+</list>
+</slide>
+<slide bg="linen">
+<image name="images/expo0.png" xp="50" yp="50" width="1157" height="1525" scale="60"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/expo0.png" xp="50" yp="50" width="1157" height="1525" scale="60"/>
+<image name="images/plate01.png" xp="46" yp="40" width="2116" height="2688" scale="4"/>
+<image name="images/plate37.png" xp="59.5" yp="40" width="2116" height="2688" scale="4"/>
+<image name="images/platexx.png" xp="61.5" yp="65" width="2116" height="2688" scale="4"/>
+<image name="images/plate55.png" xp="39.5" yp="65" width="2116" height="2688" scale="4"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/33899v.jpg" xp="50" yp="50" width="818" height="1024" scale="80"/>
+<text align="c" xp="50" yp="90" sp="3" font="sans" color="maroon">22”</text>
+<text align="c" xp="30" yp="50" sp="3" font="sans" color="maroon">28”</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Taxonomy</text>
+<line xp1="5.00" yp1="40.00" xp2="52.37" yp2="40.00" sp="4.50" opacity="100.00" color="crimson"/><text xp="28.68" yp="44.50" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">Bars</text><text xp="28.68" yp="39.20" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">52.63%</text><line xp1="52.27" yp1="40.00" xp2="66.48" yp2="40.00" sp="4.50" opacity="100.00" color="rgb(101,65,33)"/><text xp="59.37" yp="44.50" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">Maps</text><text xp="59.37" yp="39.20" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">15.79%</text><line xp1="66.38" yp1="40.00" xp2="79.01" yp2="40.00" sp="4.50" opacity="100.00" color="black"/><text xp="72.69" yp="44.50" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">Blocks</text><text xp="72.69" yp="39.20" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">14.04%</text><line xp1="78.91" yp1="40.00" xp2="89.96" yp2="40.00" sp="4.50" opacity="100.00" color="green"/><text xp="84.44" yp="44.50" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">Circles</text><text xp="84.44" yp="39.20" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">12.28%</text><line xp1="89.86" yp1="40.00" xp2="94.60" yp2="40.00" sp="4.50" opacity="100.00" color="darkblue"/><text xp="92.23" yp="44.50" sp="1.20" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">Graphs</text><text xp="92.23" yp="39.20" sp="1.60" align="center" wp="0.00" font="sans" opacity="100.00" color="white" type="">5.26%</text><image name="images/plate47.png" xp="29.47" yp="55" width="2116" height="2688" scale="5"/>
+<image name="images/plate06.png" xp="60.95" yp="55" width="2116" height="2688" scale="5"/>
+<image name="images/plate54.png" xp="73.48" yp="55" width="2116" height="2688" scale="5"/>
+<image name="images/plate27.png" xp="84.44" yp="55" width="2116" height="2688" scale="5"/>
+<image name="images/plate21.png" xp="92.23" yp="55" width="2116" height="2688" scale="5"/>
+<text align="c" xp="29.47" yp="45" sp="2.0" >Bars</text>
+<text align="c" xp="60.95" yp="45" sp="2.0" >Maps</text>
+<text align="c" xp="73.48" yp="45" sp="2.0" >Blocks</text>
+<text align="c" xp="84.44" yp="45" sp="2.0" >Circles</text>
+<text align="c" xp="92.23" yp="45" sp="2.0" >Graphs</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Bars</text>
+<image name="images/plate03.png" xp="7" yp="79" width="2116" height="2688" scale="7"/>
+<image name="images/plate04.png" xp="19" yp="79" width="2116" height="2688" scale="7"/>
+<image name="images/plate09.png" xp="31" yp="79" width="2116" height="2688" scale="7"/>
+<image name="images/plate10.png" xp="43" yp="79" width="2116" height="2688" scale="7"/>
+<image name="images/plate12.png" xp="55" yp="79" width="2116" height="2688" scale="7"/>
+<image name="images/plate13.png" xp="67" yp="79" width="2116" height="2688" scale="7"/>
+<image name="images/plate14.png" xp="79" yp="79" width="2116" height="2688" scale="7"/>
+<image name="images/plate15.png" xp="91" yp="79" width="2116" height="2688" scale="7"/>
+<image name="images/plate17.png" xp="7" yp="57" width="2116" height="2688" scale="7"/>
+<image name="images/plate18.png" xp="19" yp="57" width="2116" height="2688" scale="7"/>
+<image name="images/plate19.png" xp="31" yp="57" width="2116" height="2688" scale="7"/>
+<image name="images/plate23.png" xp="43" yp="57" width="2116" height="2688" scale="7"/>
+<image name="images/plate24.png" xp="55" yp="57" width="2116" height="2688" scale="7"/>
+<image name="images/plate26.png" xp="67" yp="57" width="2116" height="2688" scale="7"/>
+<image name="images/plate30.png" xp="79" yp="57" width="2116" height="2688" scale="7"/>
+<image name="images/plate31.png" xp="91" yp="57" width="2116" height="2688" scale="7"/>
+<image name="images/plate39.png" xp="7" yp="35" width="2116" height="2688" scale="7"/>
+<image name="images/plate43.png" xp="19" yp="35" width="2116" height="2688" scale="7"/>
+<image name="images/plate45.png" xp="31" yp="35" width="2116" height="2688" scale="7"/>
+<image name="images/plate46.png" xp="43" yp="35" width="2116" height="2688" scale="7"/>
+<image name="images/plate47.png" xp="55" yp="35" width="2116" height="2688" scale="7"/>
+<image name="images/plate48.png" xp="67" yp="35" width="2116" height="2688" scale="7"/>
+<image name="images/plate49.png" xp="79" yp="35" width="2116" height="2688" scale="7"/>
+<image name="images/plate50.png" xp="91" yp="35" width="2116" height="2688" scale="7"/>
+<image name="images/plate52.png" xp="7" yp="13" width="2116" height="2688" scale="7"/>
+<image name="images/plate56.png" xp="19" yp="13" width="2116" height="2688" scale="7"/>
+<image name="images/plate59.png" xp="31" yp="13" width="2116" height="2688" scale="7"/>
+<image name="images/plate60.png" xp="43" yp="13" width="2116" height="2688" scale="7"/>
+<image name="images/plate62.png" xp="55" yp="13" width="2116" height="2688" scale="7"/>
+<image name="images/plate63.png" xp="67" yp="13" width="2116" height="2688" scale="7"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Maps</text>
+<image name="images/plate01.png" xp="10" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate02.png" xp="30" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate05.png" xp="50" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate06.png" xp="70" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate08.png" xp="90" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate20.png" xp="20" yp="25" width="2116" height="2688" scale="14"/>
+<image name="images/plate38.png" xp="40" yp="25" width="2116" height="2688" scale="14"/>
+<image name="images/plate41.png" xp="60" yp="25" width="2116" height="2688" scale="14"/>
+<image name="images/plate42.png" xp="80" yp="25" width="2116" height="2688" scale="14"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Circles</text>
+<image name="images/plate11.png" xp="20" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate16.png" xp="40" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate22.png" xp="60" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate25.png" xp="80" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate27.png" xp="30" yp="25" width="2116" height="2688" scale="14"/>
+<image name="images/plate37.png" xp="50" yp="25" width="2116" height="2688" scale="14"/>
+<image name="images/plate44.png" xp="70" yp="25" width="2116" height="2688" scale="14"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Blocks</text>
+<image name="images/plate51.png" xp="20" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate53.png" xp="40" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate54.png" xp="60" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate57.png" xp="80" yp="65" width="2116" height="2688" scale="14"/>
+<image name="images/plate61.png" xp="20" yp="25" width="2116" height="2688" scale="14"/>
+<image name="images/platexx.png" xp="40" yp="25" width="2116" height="2688" scale="14"/>
+<image name="images/plate55.png" xp="60" yp="25" width="2116" height="2688" scale="14"/>
+<image name="images/plate58.png" xp="80" yp="25" width="2116" height="2688" scale="14"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Graphs</text>
+<image name="images/plate07.png" xp="20" yp="45" width="2116" height="2688" scale="25"/>
+<image name="images/plate21.png" xp="50" yp="45" width="2116" height="2688" scale="25"/>
+<image name="images/plate40.png" xp="80" yp="45" width="2116" height="2688" scale="25"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Color Palette</text>
+<rect xp="15" yp="50" wp="9.6" hp="15" color="black"/>
+<rect xp="25" yp="50" wp="9.6" hp="15" color="rgb(101,67,33)"/>
+<rect xp="35" yp="50" wp="9.6" hp="15" color="tan"/>
+<rect xp="45" yp="50" wp="9.6" hp="15" color="gold"/>
+<rect xp="55" yp="50" wp="9.6" hp="15" color="pink"/>
+<rect xp="65" yp="50" wp="9.6" hp="15" color="crimson"/>
+<rect xp="75" yp="50" wp="9.6" hp="15" color="rgb(0,128,0)"/>
+<rect xp="85" yp="50" wp="9.6" hp="15" color="rgb(70,130,180)"/>
+<text align="c" xp="15" yp="59" sp="2.5" font="sans" color="black">black</text>
+<text align="c" xp="25" yp="59" sp="2.5" font="sans" color="black">brown</text>
+<text align="c" xp="35" yp="59" sp="2.5" font="sans" color="black">tan</text>
+<text align="c" xp="45" yp="59" sp="2.5" font="sans" color="black">gold</text>
+<text align="c" xp="55" yp="59" sp="2.5" font="sans" color="black">pink</text>
+<text align="c" xp="65" yp="59" sp="2.5" font="sans" color="black">red</text>
+<text align="c" xp="75" yp="59" sp="2.5" font="sans" color="black">green</text>
+<text align="c" xp="85" yp="59" sp="2.5" font="sans" color="black">blue</text>
+<text align="c" xp="15" yp="39" sp="1.875" font="mono" color="black">#000000</text>
+<text align="c" xp="25" yp="39" sp="1.875" font="mono" color="black">#654321</text>
+<text align="c" xp="35" yp="39" sp="1.875" font="mono" color="black">#d2b48c</text>
+<text align="c" xp="45" yp="39" sp="1.875" font="mono" color="black">#ffd700</text>
+<text align="c" xp="55" yp="39" sp="1.875" font="mono" color="black">#ffc0cb</text>
+<text align="c" xp="65" yp="39" sp="1.875" font="mono" color="black">#dc143c</text>
+<text align="c" xp="75" yp="39" sp="1.875" font="mono" color="black">#00aa00</text>
+<text align="c" xp="85" yp="39" sp="1.875" font="mono" color="black">#4682b4</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Typography</text>
+<list align="center" xp="50" yp="60" sp="8" font="sans" color="" opacity="100" lp="1.4">
+<li>Public Sans</li>
+<li font="serif">Charter</li>
+<li font="symbol">DU BOIS</li>
+</list>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="60" sp="5.3999999999999995" >Re-Creating the Du Bois Data Portraits</text>
+<image name="images/spiral.png" xp="50" yp="40" width="1200" height="1200" scale="30"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/full-catalog.png" xp="50" yp="50" width="1920" height="1080"/>
+</slide>
+<slide bg="black" fg="white">
+<image name="images/cover01.jpg" xp="50" yp="50" width="4032" height="3024" scale="33"/>
+</slide>
+<slide bg="black" fg="white">
+<image name="images/book-grid.jpg" xp="50" yp="50" width="4032" height="3024" scale="33"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="25" yp="90" sp="2.5" >Pen, Ink, Watercolor, Paper, Expos</text>
+<text align="c" xp="25" yp="5" sp="2.5" >1900</text>
+<image name="images/33889v.jpg" xp="25" yp="50" width="811" height="1024" scale="80"/>
+<text align="c" xp="75" yp="90" sp="2.5" >Scripting, Digital Fonts, PDF, Internet</text>
+<text align="c" xp="75" yp="5" sp="2.5" >2019</text>
+<image name="images/plate27.png" xp="75" yp="50" width="2116" height="2688" scale="30"/>
+</slide>
+<slide bg="black" fg="white">
+<image name="images/m01.jpg" xp="30" yp="50" width="3024" height="4032" scale="25"/>
+<image name="images/m02.jpg" xp="70" yp="50" width="3024" height="4032" scale="25"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="85" sp="6" >decksh</text>
+<image name="images/structure.png" xp="8" yp="70" width="120" height="120"/>
+<text xp="13" yp="68.5" sp="4" font="sans" color="maroon">Structure</text>
+<image name="images/text.png" xp="38" yp="70" width="120" height="120"/>
+<text xp="43" yp="68.5" sp="4" font="sans" color="maroon">Text</text>
+<image name="images/list.png" xp="68" yp="70" width="120" height="120"/>
+<text xp="73" yp="68.5" sp="4" font="sans" color="maroon">Lists</text>
+<image name="images/arrow.png" xp="8" yp="50" width="120" height="120"/>
+<text xp="13" yp="48.5" sp="4" font="sans" color="maroon">Arrows</text>
+<image name="images/img.png" xp="38" yp="50" width="120" height="120"/>
+<text xp="43" yp="48.5" sp="4" font="sans" color="maroon">Images</text>
+<image name="images/shapes.png" xp="68" yp="50" width="120" height="120"/>
+<text xp="73" yp="48.5" sp="4" font="sans" color="maroon">Graphics</text>
+<image name="images/chart.png" xp="8" yp="30" width="120" height="120"/>
+<text xp="13" yp="28.5" sp="4" font="sans" color="maroon">Charts</text>
+<image name="images/loop.png" xp="38" yp="30" width="120" height="120"/>
+<text xp="43" yp="28.5" sp="4" font="sans" color="maroon">Loops</text>
+<image name="images/data.png" xp="68" yp="30" width="120" height="120"/>
+<text xp="73" yp="28.5" sp="4" font="sans" color="maroon">Data</text>
+<image name="images/utility.png" xp="38" yp="10" width="120" height="120"/>
+<text xp="43" yp="8.5" sp="4" font="sans" color="maroon">Utility</text>
+</slide>
+<slide bg="black" fg="white">
+<image name="images/workflow.png" xp="50" yp="50" width="3840" height="2160" scale="50"/>
+<text align="c" xp="15" yp="5" sp="3.375" >Code</text>
+<text align="c" xp="48" yp="5" sp="3.375" >Output</text>
+<text align="c" xp="82" yp="5" sp="3.375" >Reference</text>
+<line xp1="0" yp1="6.2" xp2="100" yp2="6.2" sp="7" color="black" opacity="80"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="60" sp="5.3999999999999995" >Storytelling</text>
+<image name="images/story0.png" xp="50" yp="40" width="1200" height="1200" scale="30"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Storytelling is about balance</text>
+<image name="images/balance.png" xp="50" yp="55" width="1200" height="1200" scale="60"/>
+<text align="c" xp="35" yp="35" sp="3" >Telling a Story</text>
+<text align="c" xp="65" yp="35" sp="3" >Presenting Data</text>
+<text type="block" xp="10" yp="10" wp="75" sp="2" font="serif">W.E.B. Du Bois sought to combine science, data, and methodology into sociology. His research into Black American culture told a story of resilience</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Aristotle's Rhetorical Triangle</text>
+<text type="block" xp="5" yp="75" wp="30" sp="2" >Aristotle thought that a speaker's ability to persuade an audience is based on how well the speaker appeals to them through</text>
+<polygon xc="45 65 85" yc="30 80 30" color="black" opacity="30"/>
+<text align="c" xp="65" yp="80" sp="2.5" font="sans" color="rgb(70,130,180)">ETHOS</text>
+<text align="e" xp="45" yp="30" sp="2.5" font="sans" color="#dc143c">LOGOS</text>
+<text xp="85" yp="30" sp="2.5" font="sans" color="#00aa00">PATHOS</text>
+<list type="bullet" xp="5" yp="50" sp="2" >
+<li font="sans" color="rgb(70,130,180)">ETHOS: Ethics (Credibility)</li>
+<li font="sans" color="#00aa00">PATHOS: Emotion (Feeling)</li>
+<li font="sans" color="#dc143c">LOGOS: Logic (Data)</li>
+</list>
+<text type="block" xp="5" yp="15" wp="80" sp="2" font="serif">Du Bois developed a sociological framework to show Black Americans are capable of functioning as social equals, social Darwinism has no data to back its theory.</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Tell Stories Like Pixar</text>
+<text xp="5" yp="75" sp="3" >Once upon a time there was</text>
+<text xp="5" yp="65" sp="3" >Every day</text>
+<text xp="5" yp="55" sp="3" >One day</text>
+<text xp="5" yp="45" sp="3" >Because of that</text>
+<text xp="5" yp="35" sp="3" >Because of that</text>
+<text xp="5" yp="25" sp="3" >Until finally</text>
+<line xp1="45" yp1="75" xp2="55" yp2="75" sp="0.3"/>
+<line xp1="20" yp1="65" xp2="30" yp2="65" sp="0.3"/>
+<line xp1="18" yp1="55" xp2="28" yp2="55" sp="0.3"/>
+<line xp1="28" yp1="45" xp2="38" yp2="45" sp="0.3"/>
+<line xp1="28" yp1="35" xp2="38" yp2="35" sp="0.3"/>
+<line xp1="22" yp1="25" xp2="32" yp2="25" sp="0.3"/>
+<image name="images/woody.jpg" xp="75" yp="50" width="804" height="1003" scale="75"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Themes from Great Stories</text>
+<list type="number" xp="15" yp="70" sp="2" font="sans" color="" opacity="100" lp="2.0">
+<li>Coming of Age</li>
+<li>Constant Evolution</li>
+<li>Overcoming Obstacles</li>
+<li>Rebirth</li>
+<li>The Quest</li>
+<li>True as it Ever Was</li>
+</list>
+<list xp="40" yp="70" sp="2" font="sans" color="rgb(100,100,100)" opacity="100" lp="2.0">
+<li>You have arrived</li>
+<li>You are always adapting</li>
+<li>You came out on top</li>
+<li>You have reinvented yourself</li>
+<li>It's been quite a Journey</li>
+<li>Remained true to yourself</li>
+</list>
+<list xp="70" yp="70" sp="2" font="serif" color="#0000aa" opacity="100" lp="2.0">
+<li>Experience, Strength</li>
+<li>Adapability</li>
+<li>Relisience</li>
+<li>New Hope and Direction</li>
+<li>Committment, Dedication</li>
+<li>Reinforce Trust</li>
+</list>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="60" sp="5.3999999999999995" >The Modern Megaphone</text>
+<image name="images/megaphone01.png" xp="50" yp="40" width="1200" height="1200" scale="30"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Paris 1900</text>
+<image name="images/paris-expo.jpg" xp="50" yp="50" width="1447" height="998" scale="60"/>
+<image name="images/expo-poster.jpg" xp="15" yp="50" width="431" height="600"/>
+<image name="images/expo0.png" xp="86" yp="50" width="1157" height="1525" scale="40"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Now</text>
+<text align="e" xp="33" yp="50" sp="3" >Your Message</text>
+<image name="images/megaphone01.png" xp="45" yp="50" width="1200" height="1200" scale="50"/>
+<image name="images/twitter-logo.png" xp="75" yp="85" width="1294" height="1295" scale="15"/>
+<image name="images/instagram-logo.jpg" xp="75" yp="60" width="889" height="890" scale="20"/>
+<image name="images/youtube-logo.png" xp="75" yp="40" width="1200" height="504" scale="20"/>
+<image name="images/zoom-logo.png" xp="75" yp="20" width="3840" height="2160" scale="10"/>
+<polygon xc="55 55 67 67" yc="40 65 90 15" color="gray" opacity="20"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="92" sp="4.5" >#DuboisChallenge</text>
+<image name="images/challenge-catalog01.png" xp="50" yp="50" width="3840" height="2160" scale="45"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="92" sp="4.5" >#DuboisChallenge</text>
+<image name="images/recreation-catalog01.png" xp="50" yp="50" width="3840" height="2160" scale="45"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >#DuboisChallenge</text>
+<image name="images/challenge02.png" xp="18" yp="50" width="750" height="753" scale="75"/>
+<image name="images/challenge05.png" xp="82" yp="50" width="788" height="728" scale="75"/>
+<image name="images/challenge03.png" xp="50" yp="50" width="759" height="767" scale="75"/>
+<text align="c" xp="50" yp="10" sp="2" font="mono" color="maroon" opacity="100" link="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge">https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge</text>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Modern Megaphone: Mona Chalabi</text>
+<image name="images/mega03.jpg" xp="20" yp="50" width="982" height="1238" scale="60"/>
+<image name="images/mona.jpg" xp="65" yp="50" width="1874" height="1202" scale="60"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Modern Megaphone: Ijeamaka A</text>
+<image name="images/mega02.jpg" xp="50" yp="50" width="1200" height="982" scale="80"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Modern Megaphone: Sekou Tyler</text>
+<image name="images/mega01.jpg" xp="50" yp="50" width="1820" height="1198" scale="60"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Smit Patel and Rebecca Stevick</text>
+<image name="images/mega05.jpg" xp="25" yp="50" width="1198" height="924" scale="75"/>
+<image name="images/mega04.jpg" xp="75" yp="50" width="1200" height="1052" scale="75"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Luke Stanke on YouTube</text>
+<image name="images/mega06.jpg" xp="50" yp="50" width="1710" height="996" scale="80" link="https://youtu.be/QljLkB1S3jo"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Modern Megaphone: @duboisviz</text>
+<image name="images/duboisviz-insta.jpg" xp="50" yp="45" width="828" height="1792" scale="50"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >#DuboisChallenge Twitter Dashboard</text>
+<image name="images/tdi.png" xp="50" yp="45" width="2249" height="1199" scale="75" link="https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="60" sp="5.3999999999999995" >Contemporary Data</text>
+<image name="images/clock.png" xp="50" yp="40" width="1200" height="1200" scale="30"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/modern-plate27.png" xp="75" yp="50" width="1596" height="2023" scale="50"/>
+<image name="images/old-plate27.png" xp="25" yp="50" width="1598" height="2029" scale="50"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Start with the Question</text>
+<image name="images/google.png" xp="50" yp="45" width="2173" height="1756" scale="50"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4.5" >Find Your Data</text>
+<image name="images/pop-web.png" xp="50" yp="45" width="1715" height="1121" scale="80"/>
+<line xp1="75" yp1="50" xp2="75" yp2="59.08823529411765" sp="1" color="maroon" opacity="100"/>
+<polygon xc="75 73.97851516098227 75 76.02148483901773" yc="62 58.00928942980681 59.08823529411765 58.00928942980681" color="maroon" opacity="100"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/csv.png" xp="30" yp="50" width="493" height="816"/>
+<image name="images/sheets.png" xp="70" yp="50" width="820" height="1008"/>
+</slide>
+<slide bg="linen" fg="black">
+<image name="images/original-plate-02.jpg" xp="25" yp="50" width="836" height="1024"/>
+<image name="images/bpop1.png" xp="75" yp="50" width="2112" height="2688" scale="38"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="25" yp="93" sp="2.5" >Washington Post Shooting Database</text>
+<text align="c" xp="75" yp="93" sp="2.5" >NOAA Climate Data</text>
+<image name="images/wapo-shooting.png" xp="25" yp="50" width="1577" height="1960" scale="45" link="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/"/>
+<image name="images/climate.png" xp="75" yp="50" width="1577" height="1960" scale="45" link="https://www.ncdc.noaa.gov/cag/"/>
+<text align="c" xp="25" yp="5" sp="1" font="mono" color="maroon">https://www.washingtonpost.com/graphics/investigations/police-shootings-database/</text>
+<text align="c" xp="75" yp="5" sp="1" font="mono" color="maroon">https://www.ncdc.noaa.gov/cag/</text>
+</slide>
+<slide bg="linen" fg="black">
+<text type="block" xp="25" yp="70" wp="40" sp="5" font="serif">Authorship, after all, is not only what is created but also what is selected.</text>
+<text xp="25" yp="10" sp="2" font="sans">Teju Cole</text>
+</slide>
+</deck>
