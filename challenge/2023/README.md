@@ -7,7 +7,9 @@ The goal of the challenge is to celebrate the data visualization legacy of W.E.B
 This directory contains the data and original plates from the exposition; your goal is to re-create
 the visualizations using modern tools of your choice (Tableau, R, ggplot, Stata, PowerBI, decksh, etc)
 
-There is a folder for each challenge, which includes the images of the 1900 original plates along with the corresponding data. You may submit your re-creations to twitter using the hash tag ```#DuBoisChallenge2023```
+There is a folder for each challenge, which includes the images of the 1900 original plates along with the corresponding data. You may submit your re-creations to twitter using the hash tag ```#DuBoisChallenge2023```. 
+
+Note that for 2023, we will expanding the challenge to the Data Visualization Society Slack, as well as Mastadon on vis.social
 
 ## The Challenges
 
