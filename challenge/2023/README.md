@@ -13,16 +13,16 @@ Note that for 2023, we will expanding the challenge to the Data Visualization So
 
 ## The Challenges
 
-* challenge01: Income and Expenditure (plate 31)
-* challenge02: Value of Land Owned by Georgia Negroes (plate 18)
-* challenge03: City and Rural Population 1890 (plate 11)
-* challenge04: Distribution of Negroes in the United States (plate 38)
-* challenge05: Negro business men in the United States (plate 57)
-* challenge06: Crime among American Negroes (plate 60)
-* challenge07: Occupations Of Negroes And Whites In Georgia (plate 27)
-* challenge08: Comparative rate of increase of the White and Negro elements population of the United States (plate 40)
-* challenge09: Occupations in which American Negroes are engaged (plate 43)
-* challenge10: Migration of Negroes 1890 (plate 8)
+* [challenge01](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge01): Income and Expenditure (plate 31)
+* [challenge02](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge02): Value of Land Owned by Georgia Negroes (plate 18)
+* [challenge03](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge03): City and Rural Population 1890 (plate 11)
+* [challenge04](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge04): Distribution of Negroes in the United States (plate 38)
+* [challenge05](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge05): Negro business men in the United States (plate 57)
+* [challenge06](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge06): Crime among American Negroes (plate 60)
+* [challenge07](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge07): Occupations Of Negroes And Whites In Georgia (plate 27)
+* [challenge08](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge08): Comparative rate of increase of the White and Negro elements population of the United States (plate 40)
+* [challenge09](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge09): Occupations in which American Negroes are engaged (plate 43)
+* [challenge10](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge10): Migration of Negroes 1890 (plate 8)
 
 ## References
 
