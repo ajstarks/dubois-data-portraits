@@ -13,7 +13,7 @@ Note that for 2023, we will expanding the challenge to the Data Visualization So
 
 ## The Challenges
 
-* [challenge01](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge01): Income and Expenditure (plate 31)
+* [challenge01](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge01): Income and Expenditure of 150 Negro Families in Atlanta, Ga, USA (plate 31)
 * [challenge02](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge02): Value of Land Owned by Georgia Negroes (plate 18)
 * [challenge03](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge03): City and Rural Population 1890 (plate 11)
 * [challenge04](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge04): Distribution of Negroes in the United States (plate 38)
