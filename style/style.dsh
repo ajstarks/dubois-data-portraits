@@ -337,5 +337,7 @@ deck
 		text "[7] Vasarely-Light Font"                                                  tx taby bs "serif" lxcolor 100 "https://en.maisfontes.com/vasarely-light.font"
 		taby-=3
 		text "[8] DU BOIS Font"                                                         tx taby bs "serif" lxcolor 100 "https://www.vocaltype.co/history-of/du-bois"
+		taby-=3
+		text "[9] Pan African Colors"                                                   tx taby bs "serif" lxcolor 100 "https://en.wikipedia.org/wiki/Pan-African_colours"
 	eslide
 edeck
