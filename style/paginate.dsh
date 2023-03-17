@@ -1,0 +1,4 @@
+def paginate N X Y Ts
+	pn=format "[%0.f]" N
+	etext pn X Y Ts
+edef

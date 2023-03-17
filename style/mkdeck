@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh style.dsh | pdfdeck -sans $duboisans -serif Charter-Regular -mono $duboismono -stdout -pagesize 612x792 - > dubois-style.pdf

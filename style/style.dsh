@@ -1,0 +1,319 @@
+deck
+	import "paginate.dsh"
+	// title
+	bgcolor="linen"
+	txcolor="black"
+	tx=10
+	ty=90
+	ts=5
+
+	// section
+	sx=tx
+	sy=ty
+	ss=ts*0.75
+
+	// body text
+	bs=tx*0.25
+	by=ty-5
+	bw=70
+	imw=28
+
+	// pagination
+	px=98
+	py=2
+	ps=ts*0.3
+
+	pageno=0
+
+	slide bgcolor txcolor
+		clist 50 85 7 "sans" txcolor 100 1.2
+			li "W.E.B Du Bois Visualization"
+			li "Style Guide"
+		elist
+		ctext "Anthony Starks" 50 5 2 "sans" "rgb(127,0,0)"
+		image "images/original-plate-27.jpg" 50 40 50 0
+		ctext "Typography" 50 65 2 "serif"
+		ctext "Colors"     35 55 2 "serif"
+		rbrace 80 40 50 2 2 0.1
+		text "Annotations/Legends" 15 40 2 "serif"
+		text "Scale/Dimensions" 82 40 2 "serif"
+	eslide
+
+	slide bgcolor txcolor
+		text "Table of Contents" tx ty ts
+		list tx 80 ss
+			li "Introduction"
+			li "Taxonomy"
+			li "Bars"
+			li "Maps"
+			li "Circles"
+			li "Blocks"
+			li "Maps"
+			li "Dimensions"
+			li "Typography"
+			li "Legends"
+			li "Annotations"
+			li "Colors"
+		elist
+		list 80 80 ss
+			li "1"
+			li "2"
+			li "3"
+			li "5"
+			li "6"
+			li "7"
+			li "8"
+			li "9"
+			li "10"
+			li "11"
+			li "12"
+			li "13"
+		elist
+	eslide
+
+
+	intro1="To help designers, artists, developers, and scholars seeking to implement or study the “Du Bois Style”, this document describes aspects of the visualizations created by  W. E. B Du Bois' team for the 1900 Paris exposition."
+	intro2="To learn more see “W.E.B Du Bois's Data Portraits Visualizing Black America” by Whitney Battle-Baptise and Britt Rusert (ISBN-978-1-61689-706-2) and the Library of Congress collection “African American Photographs Assembled for 1900 Paris Exposition”"
+	intro3="The sources above use plate numbers to indicate the visuals, this document users the same convention."
+
+	slide bgcolor txcolor
+		text "Introduction" tx ty ts
+		iy=by
+		textblock intro1 tx iy bw bs "serif"
+		iy-=14
+		textblock intro2 tx iy bw bs "serif"
+		iy-=14
+		textblock intro3 tx iy bw bs "serif"
+		pageno+=1
+		paginate pageno px py ps
+	eslide
+
+	tax1="The approximately 60 visuals produced for the 1900 Exposition fall into these categories: bar charts (30), maps (9), visuals with circular features (7), visuals using large blocks of color (8), and line graphs (3). The visuals also use bold primary colors and abstract forms prior to modernist movements developed later in the twentieth century." 
+	slide bgcolor txcolor
+		text "Taxonomy" tx ty ts
+		textblock tax1 tx by bw bs "serif"
+		cimage "images/original-plate-03.jpg" "Bars (53%)"        20 55 imw 0
+		cimage "images/original-plate-08.jpg" "Maps (16%)"        50 55 imw 0
+		cimage "images/original-plate-25.jpg" "Circles (14%)"     80 55 imw 0
+		cimage "images/original-plate-54.jpg" "Blocks (12%)"      33 20 imw 0
+		cimage "images/original-plate-40.jpg" "Line Graphs (5%)" 66 20 imw 0
+		pageno+=1
+		paginate pageno px py ps
+	eslide
+
+	bar1="The most prevalent type of visualization is bar charts. Some are conventional bar charts with labels on the left, using a single color, with the values sorted. Red tends to be the dominate color for this type, although other colors like gray, yellow and green are also used. In one case the bars echo the shape of its subject -- the state of Georgia (plate 19)"
+	bar2="There are three cases (plates 17, 26 and 62) where a bar is wrapped spanning 2-3 vertical lines."
+	bar3="An unconventional use of bar is a “woven” pattern of two contrasting colors (indicating two cities, plate 23.). The weave is used in plate 14 where the timeline is woven with the measure of literacy."
+	bar4="Another bar chart type uses 1-3 vertical bars to describe proportion indicated by 2-3 solid colors (plates 13 and 50). In one case, plate 60, the bar is tilted 45 degrees."
+	slide bgcolor txcolor
+		pageno+=1
+		paginate pageno px py ps
+		text "Bars" sx sy ss
+		textblock bar1 tx by bw bs "serif"
+		cimage "images/original-plate-03.jpg" "Plate 3" 20 55 imw 0
+		cimage "images/original-plate-39.jpg" "Plate 39" 50 55 imw 0
+		cimage "images/original-plate-19.jpg" "Plate 19" 80 55 imw 0
+		textblock bar2 tx 36 bw bs "serif"
+		cimage "images/original-plate-17.jpg" "Plate 17" 20 17 imw 0
+		cimage "images/original-plate-26.jpg" "Plate 26" 50 17 imw 0
+		cimage "images/original-plate-62.jpg" "Plate 62" 80 17 imw 0
+	eslide
+
+	slide bgcolor txcolor
+		pageno+=1
+		paginate pageno px py ps
+		textblock bar3 tx ty bw bs "serif"
+		cimage "images/original-plate-23.jpg" "Plate 23" 35 65 imw 0
+		cimage "images/original-plate-14.jpg" "Plate 14" 65 65 imw 0
+		textblock bar4 tx 45 bw bs "serif"
+		cimage "images/original-plate-13.jpg" "Plate 13" 20 20 imw 0
+		cimage "images/original-plate-50.jpg" "Plate 50" 50 20 imw 0
+		cimage "images/original-plate-60.jpg" "Plate 60" 80 20 imw 0
+	eslide
+
+	map1="The second most prevalent type of visual is the map; the majority of these use US state or Georgia county boundaries filled with color indicating some measure such as population distribution (plates 2, 5, 6, and 8). The maps include colored legends with circles of color to denote the categories. The political outlines may also be labeled with other indicia such as arrows and measures. (plates 8, 20) Two of the maps use filled and outline shapes to compare the US with other countries."
+	slide bgcolor txcolor
+		text "Maps" sx sy ss
+		pageno+=1
+		paginate pageno px py ps
+		textblock map1 tx by bw bs "serif"
+		cimage "images/original-plate-05.jpg" "Plate 5" 20 45 imw 0
+		cimage "images/original-plate-08.jpg" "Plate 8" 50 45 imw 0
+		cimage "images/original-plate-42.jpg" "Plate 42" 80 45 imw 0
+	eslide
+
+	circle1="Several charts use circular elements; notable are the spirals in plates 11 and 25 (often shown when showing the Du Bois visuals). The spirals are used to indicate large measures; instead of stretching out the lines as in a conventional bar chart, the measures are rolled up in a spiral."
+	circle2="Other uses of circles include conventional pie charts (plate 37), and the “fan” chart (plates 27). A novel “target chart”  uses concentric circles with wedge-shaped pointers to the center."
+	slide bgcolor txcolor
+		text "Circles" sx sy ss
+		pageno+=1
+		paginate pageno px py ps
+		textblock circle1 tx by bw bs "serif"
+		cimage "images/original-plate-11.jpg" "Plate 11" 35 48 imw 0
+		cimage "images/original-plate-25.jpg" "Plate 25" 65 48 imw 0
+		textblock circle2 tx 70 bw bs "serif"
+		cimage "images/original-plate-37.jpg" "Plate 37" 20 17 imw 0
+		cimage "images/original-plate-27.jpg" "Plate 27" 50 17 imw 0
+		cimage "images/original-plate-22.jpg" "Plate 22" 80 17 imw 0
+	eslide
+
+	block1="Bold blocks of color are used in several charts, for example, area graphs in plates 51, 53, 54:"
+	block2="Some visuals use geometric (rectangular, triangular, pyramidal) blocks (plates  57, 55, 61)"
+	slide bgcolor txcolor
+		text "Blocks" sx sy ss
+		pageno+=1
+		paginate pageno px py ps
+		textblock block1 tx by bw bs "serif"
+		cimage "images/original-plate-51.jpg" "Plate 51" 20 65 imw 0
+		cimage "images/original-plate-53.jpg" "Plate 53" 50 65 imw 0
+		cimage "images/original-plate-54.jpg" "Plate 54" 80 65 imw 0
+		textblock block2 tx 45 bw bs "serif"
+		cimage "images/original-plate-57.jpg" "Plate 57" 20 22 imw 0
+		cimage "images/original-plate-55.jpg" "Plate 55" 50 22 imw 0
+		cimage "images/original-plate-61.jpg" "Plate 61" 80 22 imw 0
+	eslide
+
+	graph1="Only three of the visuals use the traditional line chart. Two of the three use red grid lines (plates 7, 21). Plate 7 in unusual: the usual convention of time on x-axis with values on the y axis is reversed."
+	graph2="Grids are present, and the line graphs are often annotated, in some cases with rotated text."
+	slide bgcolor txcolor
+		text "Graphs" sx sy ss
+		pageno+=1
+		paginate pageno px py ps
+		textblock graph1 tx by bw bs "serif"
+		cimage "images/original-plate-07.jpg" "Plate 7" 20 60 imw 0
+		cimage "images/original-plate-21.jpg" "Plate 21" 50 60 imw 0
+		cimage "images/original-plate-40.jpg" "Plate 40" 80 60 imw 0
+		textblock graph2 tx 40 bw bs "serif"
+	eslide
+
+	dim1="As displayed in Paris exposition, the Du Bois visualizations were large format, 22x28 inch posters, mostly in portrait orientation. (exceptions are plates 30 and 31). To duplicate this layout, use a aspect ratio of approximately 0.78 (portrait) or 1.27 (landscape). For example setting your canvas to 1584x2016 pixels, at 72 pixels/inch, will duplicate the original canvas. Alternatively smaller sizes can be used preserving the aspect ratio."
+	slide bgcolor txcolor
+		text "Dimensions" tx ty ts
+		pageno+=1
+		paginate pageno px py ps
+		textblock dim1 tx by bw bs "serif" 
+		image "images/original-plate-37.jpg" 50 33 60 0
+		lbrace 15 32 57 2 2 0.1 "black"
+		ubrace 50 64 57 2 2 0.1 "black"
+		etext "28 in." 14 32 2
+		ctext "22 in." 50 66 2 
+	eslide
+
+	typo1="Each visual includes a title: typically hand-lettered, sans-serif bold, centered all-caps with a period at the end. The titles may span 2-3 lines and its size of typically 3%-4% if the overall width. In some cases a typeset title is used using a serif font."
+	typo2="To To duplicate using modern tools, Public Sans and Charter may be used for sans-serif and serif fonts, respectively. Other choices are B52-ULC W00 for titles and Vasarely-Light for running text. The font DU BOIS from Vocal Type was specifically designed to pay homage to the Du Bois visualizations"
+	slide bgcolor txcolor
+		text "Typography" tx ty ts
+		pageno+=1
+		paginate pageno px py ps
+		textblock typo1 tx by bw bs "serif"
+		textblock typo2 tx 48 bw bs "serif"
+		image "images/orig-title.png" 50 65 50 0
+		image "images/typo.png"       50 20 50 0
+	eslide
+
+	legend1="Several visuals use colored legends (plate 2, plates 5-6, 37,38, 60). The legends usually use a circle of color, (except for plate 2), and may be horizontal or vertically oriented."
+	slide bgcolor txcolor
+		text "Legends" tx ty ts
+		pageno+=1
+		paginate pageno px py ps
+		textblock legend1 tx by bw bs "serif"
+		cimage "images/legend03.png" "Plate 27 legend" 35 60 imw 0
+		cimage "images/legend04.png" "Plate 60 legend" 65 60 imw 0
+		cimage "images/legend08.png" "Plate 5 legend"  50 20 60 0
+	eslide
+
+	annote1="Many visualizations include commentary and annotations, which are typically done in a lighter weight and color. All text is in ALL-CAPS."
+	annote2="Annotations are also used to clarify the message of the visual display, (often using rotated text)"
+	slide bgcolor txcolor
+		text "Annotations" tx ty ts
+		pageno+=1
+		paginate pageno px py ps
+		textblock annote1 tx by bw bs "serif"
+		image "images/orig-note.png" 50 72 80 0
+		textblock annote2 tx 60 bw bs "serif"
+		cimage "images/annotate02.png" "Plate 21 annotation" 20 30 imw 0
+		cimage "images/annotate01.png" "Plate 31 annotation" 50 30 10 0
+		cimage "images/annotate03.png" "Plate 40 annotation" 80 30 15 0
+
+	eslide
+
+	slide bgcolor txcolor
+		text "Colors" tx ty ts
+		pageno+=1
+		paginate pageno px py ps
+
+		color1="Bold solid colors are characteristic of the Du Bois style. To maintain consistency in your designs, here is a Du Bois-style color palette."
+		color2="Note the use of the Pan-African colors (used 20 years before they were defined). Black, brown, and gold are used to indicate racial makeup in plates 1, 13, and 54. Plates 12, 50, and 51 use black to indicate slavery, and green for freedom."
+		
+		textblock color1 tx by bw bs "serif"
+		textblock color2 tx 20 bw bs "serif"
+		
+		c1=tx+7
+		c2=c1+5
+		c3=c2+15
+		c4=c3+30
+		ls=2.6
+
+		by-=10
+		text "Color" c2 by bs "serif"
+		text "RGB"   c3 by bs "serif"
+		text "Hex"   c4 by bs "serif"
+		by-=6
+
+		list c2 by bs "sans" txcolor 100 ls
+			li "black"
+			li "brown"
+			li "tan"
+			li "gold"
+			li "pink"
+			li "crimson"
+			li "green"
+			li "blue"
+			li "purple"
+		elist
+
+		list c3 by bs "mono" txcolor 100 ls
+			li "rgb(0,0,0)"
+			li "rgb(101,67,33)"
+			li "rgb(210,180,140)"
+			li "rgb(255,215,0"
+			li "rgb(255,192,203)"
+			li "rgb(220,20,60)"
+			li "rgb(0,128,0)"
+			li "rgb(70,130,180)"
+			li "rgb(126,101,131)"
+		elist
+		
+		list c4 by bs "mono" txcolor 100 ls
+			li "#000000"
+			li "#654321"
+			li "#d2b48c"
+			li "#ffd700"
+			li "#ffc0cb"
+			li "#dc143c"
+			li "#00aa00"
+			li "#4682b4"
+			li "#7e6583"
+		elist
+
+		cy=by+0.5
+		square c1 cy 5 "#000000"
+		cy-=5
+		square c1 cy 5 "#654321"
+		cy-=5
+		square c1 cy 5 "#d2b48c"
+		cy-=5
+		square c1 cy 5 "#ffd700"
+		cy-=5
+		square c1 cy 5 "#ffc0cb"
+		cy-=5
+		square c1 cy 5 "#dc143c"
+		cy-=5
+		square c1 cy 5 "#00aa00"
+		cy-=5
+		square c1 cy 5 "#4682b4"
+		cy-=5
+		square c1 cy 5 "#7e6583"
+		cy-=5	
+	eslide
+edeck
