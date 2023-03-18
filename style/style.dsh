@@ -27,11 +27,12 @@ deck
 
 	slide bgcolor txcolor
 		clist 50 85 7 "sans" txcolor 100 1.2
-			li "W.E.B Du Bois Visualization"
+			li "W.E.B. Du Bois Visualization"
 			li "Style Guide"
 		elist
-		ctext "Anthony Starks" 50 5 2 "sans" "rgb(127,0,0)" 100 "mailto:ajstarks@ajstarks.org"
-		image "images/original-plate-27.jpg" 50 40 50 0
+		text "Anthony Starks" 10 5 2 "sans" "rgb(127,0,0)" 100 "mailto:ajstarks@ajstarks.org"
+		etext "version 1.1 (2023-03-18)" 90 5 2 "sans"
+		image "images/original-plate-27.jpg" 50 45 60 0
 	eslide
 
 	slide bgcolor txcolor
@@ -100,9 +101,9 @@ deck
 		paginate pageno px py ps
 	eslide
 
-	bar1="The most prevalent type of visualization is bar charts. Some are conventional bar charts with labels on the left, using a single color, with the values sorted. Red tends to be the dominate color for this type, although other colors like gray, yellow and green are also used. In one case the bars echo the shape of its subject -- the state of Georgia (plate 19)"
+	bar1="The most prevalent type of visualization is bar charts. Some are conventional bar charts with labels on the left, using a single color, with the values sorted. Red tends to be the dominate color for this type, although other colors like gray, yellow and green are also used. In one case the bars echo the shape of its subject – the state of Georgia (plate 19)."
 	bar2="There are three cases (plates 17, 26 and 62) where a bar is wrapped spanning 2-3 vertical lines."
-	bar3="An unconventional use of bar is a “woven” pattern of two contrasting colors (indicating two cities, plate 23.). The weave is used in plate 14 where the timeline is woven with the measure of literacy."
+	bar3="An unconventional use of bars is a “woven” pattern of two contrasting colors (indicating two cities, plate 23.). The weave is used in plate 14 where the timeline is woven with the measure of literacy."
 	bar4="Another bar chart type uses 1-3 vertical bars to describe proportion indicated by 2-3 solid colors (plates 13 and 50). In one case, plate 60, the bar is tilted 45 degrees."
 	slide bgcolor txcolor
 		pageno+=1
@@ -130,7 +131,7 @@ deck
 		cimage "images/original-plate-60.jpg" "Plate 60" 80 20 imw 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate60/original-plate-60.jpg"
 	eslide
 
-	map1="The second most prevalent type of visual is the map; the majority of these use US state or Georgia county boundaries filled with color indicating some measure such as population distribution (plates 2, 5, 6, and 8). The maps include colored legends with circles of color to denote the categories. The political outlines may also be labeled with other indicia such as arrows and measures. (plates 8, 20) Two of the maps use filled and outline shapes to compare the US with other countries."
+	map1="The second most prevalent type of visual is the map; the majority of these use US state or Georgia county boundaries filled with color indicating some measure such as population distribution (plates 2, 5, 6, and 8). The maps include colored legends with circles of color to denote the categories. The political outlines may also be labeled with other indicia such as arrows and measures. (plates 8, 20) Two of the maps (plates 41, 42) use filled and outline shapes to compare the US with other countries."
 	slide bgcolor txcolor
 		text "Maps" sx sy ss
 		pageno+=1
@@ -141,7 +142,7 @@ deck
 		cimage "images/original-plate-42.jpg" "Plate 42" 80 45 imw 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate42/original-plate-42.jpg"
 	eslide
 
-	circle1="Several charts use circular elements; notable are the spirals in plates 11 and 25 (often shown when showing the Du Bois visuals). The spirals are used to indicate large measures; instead of stretching out the lines as in a conventional bar chart, the measures are rolled up in a spiral."
+	circle1="Several charts use circular elements; notable are the spirals in plates 11 and 25 (often highlighted when showing the Du Bois visuals). The spirals are used to indicate large measures; instead of stretching out the lines as in a conventional bar chart, the measures are rolled up in a spiral."
 	circle2="Other uses of circles include conventional pie charts (plate 37), and the “fan” chart (plates 27). A novel “target chart”  uses concentric circles with wedge-shaped pointers to the center."
 	slide bgcolor txcolor
 		text "Circles" sx sy ss
@@ -172,8 +173,7 @@ deck
 		cimage "images/original-plate-61.jpg" "Plate 61" 80 22 imw 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate61/original-plate-61.jpg"
 	eslide
 
-	graph1="Only three of the visuals use the traditional line chart. Two of the three use red grid lines (plates 7, 21). Plate 7 in unusual: the usual convention of time on x-axis with values on the y axis is reversed."
-	graph2="Grids are present, and the line graphs are often annotated, in some cases with rotated text."
+	graph1="Only three of the visuals use the traditional line chart. Two of the three use red grid lines (plates 7, 21). The line graphs have annotations, often with rotated text. Plate 7 in unusual: the usual convention of time on x-axis with values on the y axis is reversed."
 	slide bgcolor txcolor
 		text "Graphs" sx sy ss
 		pageno+=1
@@ -182,7 +182,6 @@ deck
 		cimage "images/original-plate-07.jpg" "Plate 7"  20 60 imw 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate07/original-plate-07.jpg"
 		cimage "images/original-plate-21.jpg" "Plate 21" 50 60 imw 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate21/original-plate-21.jpg"
 		cimage "images/original-plate-40.jpg" "Plate 40" 80 60 imw 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate40/original-plate-40.jpg"
-		textblock graph2 tx 40 bw bs "serif"
 	eslide
 
 	dim1="As displayed in Paris exposition, the Du Bois visualizations were large format, 22x28 inch posters, mostly in portrait orientation. (exceptions are plates 30 and 31). To duplicate this layout, use a aspect ratio of approximately 0.78 (portrait) or 1.27 (landscape). For example setting your canvas to 1584x2016 pixels, at 72 pixels/inch, will duplicate the original canvas. Alternatively smaller sizes can be used preserving the aspect ratio."
@@ -198,7 +197,7 @@ deck
 		ctext "22 in." 50 66 2 
 	eslide
 
-	typo1="Each visual includes a title: typically hand-lettered, sans-serif bold, centered all-caps with a period at the end. The titles may span 2-3 lines and its size of typically 3%-4% if the overall width. In some cases a typeset title is used using a serif font."
+	typo1="Each visual includes a title: typically hand-lettered, sans-serif bold, centered all-caps with a period at the end. The titles may span 2-3 lines and its size of typically 3%-4% if the overall width. In some a smaller serif font is used."
 	typo2="To duplicate using modern tools, Public Sans [4] and Charter [5]  may be used for sans-serif and serif fonts, respectively. Other choices are B52-ULC W00 [6] for titles and Vasarely-Light [7] for running text. The font DU BOIS [8] from Vocal Type was specifically designed to pay homage to the Du Bois visualizations"
 	slide bgcolor txcolor
 		text "Typography" tx ty ts
@@ -206,11 +205,12 @@ deck
 		paginate pageno px py ps
 		textblock typo1 tx by bw bs "serif"
 		textblock typo2 tx 48 bw bs "serif"
-		image "images/orig-title.png" 50 65 50 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate01/original-plate-01.jpg"
-		image "images/typo.png"       50 20 50 0
+		cimage "images/orig-title00.png" "Plate 1 title"  27 65 35 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate01/original-plate-01.jpg"
+		cimage "images/orig-title02.png" "Plate 60 title" 68 65 35 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate01/original-plate-60.jpg"
+		image "images/typo.png"       50 20 40 0
 	eslide
 
-	legend1="Several visuals use colored legends (plate 2, plates 5-6, 37,38, 60). The legends usually use a circle of color, (except for plate 2), and may be horizontal or vertically oriented."
+	legend1="Several visuals use colored legends (plate 2, plates 5-6, 37,38, 60). The legends usually use an outlined circle of color, (except for plate 2), and may be horizontal or vertically oriented."
 	slide bgcolor txcolor
 		text "Legends" tx ty ts
 		pageno+=1
@@ -228,9 +228,9 @@ deck
 		pageno+=1
 		paginate pageno px py ps
 		textblock annote1 tx by bw bs "serif"
-		image "images/orig-note.png" 50 72 80 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate01/original-plate-01.jpg"
-		textblock annote2 tx 60 bw bs "serif"
-		cimage "images/annotate02.png" "Plate 21 annotation" 20 30 imw 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate21/original-plate-21.jpg"
+		cimage "images/orig-note.png" "Plate 1 annotation" 50 72 80 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate01/original-plate-01.jpg"
+		textblock annote2 tx 58 bw bs "serif"
+		cimage "images/annotate02.png" "Plate 21 annotation" 20 30 30  0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate21/original-plate-21.jpg"
 		cimage "images/annotate01.png" "Plate 31 annotation" 50 30 10  0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate31/original-plate-31.jpg"
 		cimage "images/annotate03.png" "Plate 40 annotation" 80 30 15  0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate40/original-plate-40.jpg"
 
@@ -339,5 +339,7 @@ deck
 		text "[8] DU BOIS Font"                                                         tx taby bs "serif" lxcolor 100 "https://www.vocaltype.co/history-of/du-bois"
 		taby-=3
 		text "[9] Pan African Colors"                                                   tx taby bs "serif" lxcolor 100 "https://en.wikipedia.org/wiki/Pan-African_colours"
+		taby-=3
+		text "[10] Du Bois Original Plate Catalog"                                      tx taby bs "serif" lxcolor 100 "https://speakerdeck.com/ajstarks/du-bois-visualizations-originals"
 	eslide
 edeck
