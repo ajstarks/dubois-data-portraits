@@ -94,7 +94,7 @@ deck
 		ctext "In 1900, it began with them…" mid ty ts
 		image "images/TJCalloway.jpg"  30 47 30 0
 		image "images/dubois-1900.png" 70 47 32 0
-		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
+		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
 		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
 	eslide
 
@@ -207,7 +207,7 @@ deck
 		ctext "In 2021, it began with them" mid ty ts
 		image "images/allen.png"              30 47 30 0
 		image "images/sekou0.png"             70 47 32 0
-		ctext "Allen Hillery (@AlDataVizGuy)" 30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
+		ctext "Allen Hillery (@AlDataVizGuy)" 30 3 2 "serif" "" 100 "https://twitter.com/AlDatavizguy" 
 		ctext "Sekou Tyler (@sqlsekou)"       70 3 2 "serif" "" 100 "https://twitter.com/sqlsekou"
 	eslide
 
