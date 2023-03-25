@@ -12,10 +12,13 @@ deck
 	mx=50
 	my=50
 	ns=ts*0.75
+	ns2=ts*0.4
 	bannersize=8
 
 
 	blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
+
+	chlink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023"
 
 	slink01="https://twitter.com/gzanlorenssi/status/1625165642784509953"
 	slink02="https://twitter.com/725Hemeed/status/1624083128359743488"
@@ -52,6 +55,18 @@ deck
 	ilink10="https://twitter.com/ajstarks/status/1622591000572035074"
 	ilink11="https://twitter.com/ajstarks/status/1622591508904923136"
 
+	fisk01="https://twitter.com/only1_laila/status/1626071451550814211"
+	fisk02="https://twitter.com/TIfezie37321/status/1635798194692194305"
+	fisk03="https://twitter.com/Sandesh72719052/status/1628969512052699138"
+	fisk04="https://twitter.com/BipulAryal1/status/1628632577253703680"
+	fisk05="https://twitter.com/mr_diamondGC/status/1628632337855533056"
+	fisk06="https://twitter.com/justmahnuel/status/1628261864474828800"
+	fisk07="https://twitter.com/moore_of_trent/status/1628246132210925568"
+	fisk08="https://twitter.com/AGPanda_1/status/1628136056766795776"
+	fisk09="https://twitter.com/theteddydev/status/1627867091725430784"
+	fisk10="https://twitter.com/ayoohamzat/status/1627476096567414789"
+
+
 	// Title
 	slide bgcolor "white"
 		hline 0 2 100 6 "black" //20
@@ -76,13 +91,21 @@ deck
 
 	// TJ Calloway and Du Bois
 	slide bgcolor fgcolor
-		ctext "In 1900, it began with them" mid ty ts
+		ctext "In 1900, it began with them…" mid ty ts
 		image "images/TJCalloway.jpg"  30 47 30 0
 		image "images/dubois-1900.png" 70 47 32 0
 		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
 		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
 	eslide
 
+	// Atlanta University
+	slide bgcolor fgcolor
+		ctext "…and Atlanta Universty" mid ty ts
+		image "images/au-debating-team-1900.jpg"  25 50 700 563
+		ctext "Atlanta University Debating Team, c. 1900" 25 20 1.5 "serif"
+		image "images/au-women.jpg"  70 50 916 594 94
+		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 1.5 "serif"
+	eslide
 
 	// 1900 venue
 	slide bgcolor fgcolor
@@ -193,18 +216,24 @@ deck
 		megax=75
 		text "Now: Modern Megaphone" 10 ty ts
 		etext "Your Message" 33 50 3
-		image "images/megaphone01.png"           45 50 1200 1200 50
-		image "images/twitter-logo.png"          megax 85 1294 1295 15
-		image "images/instagram-logo.jpg"        megax 60 889 890 20
-		image "images/youtube-logo.png"          megax 40 1200 504 20
-		image "images/zoom-logo.png"             megax 20 3840 2160 10
-		polygon "55 55 67 67" "40 65 90 15" "gray" 20
+		image "images/megaphone01.png"           45 50 30 0
+		image "images/twitter-logo.png"          megax 85 10 0
+		image "images/instagram-logo.jpg"        megax 60 10 0
+		image "images/youtube-logo.png"          megax 40 10 0
+		image "images/zoom-logo.png"             megax 20 15 0
+		megax+=15
+		image "images/mastodon-logo.jpg"         megax 75 7 0
+		image "images/linkedin-logo.png"         megax 50 7 0
+		image "images/slack-logo.png"            megax 25 7 0
+		polygon "55 55 68 68" "40 65 95 5" "gray" 20
 	eslide
 
 	// The entries
 	slide bgcolor fgcolor
-		chlink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023"
-		image "images/cat2023.png" 50 50 100 0
+		ims=35
+		ctext "#DuboisChallenge 2023 Entries" tx ty ts "sans" fgcolor 100
+		grid "challgrid2023.dsh"  10 65 20 45 90
+		grid "pidx.dsh"           10 83 20 45 90
 	eslide
 
 	// github
@@ -253,6 +282,25 @@ deck
 		image "images/note07.png" 50 yp ims 0 100 slink07
 		image "images/note18.png" 70 yp ims 0 100 slink18
 		image "images/note19.png" 90 yp ims 0 100 slink19
+	eslide
+
+	// Fisk Students
+	slide bgcolor fgcolor
+		ctext "Fisk Students" tx ty ts
+		ims=10
+		yp=45
+		image "images/fisk02.png" 15 75 ims 0 100 fisk02
+		image "images/fisk03.png" 15 55 ims 0 100 fisk03
+		image "images/fisk06.png" 15 35 ims 0 100 fisk06
+		image "images/fisk05.png" 15 10 ims 0 100 fisk05
+
+		image "images/fisk01.png" 50 yp  50 0 100 fisk01
+
+		image "images/fisk09.png" 85 75 ims 0 100 fisk09
+		image "images/fisk03.png" 85 55 ims 0 100 fisk03
+		image "images/fisk09.png" 85 35 ims 0 100 fisk09
+		image "images/fisk07.png" 85 15 ims 0 100 fisk07
+		
 	eslide
 
 //	// Tools
