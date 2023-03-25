@@ -41,19 +41,24 @@ deck
 	slink19="https://twitter.com/stepminer2/status/1634065057838518272"
 	slink20="https://twitter.com/IcaroBSC/status/1636375321523154945"
 	slink21="https://twitter.com/UST_MSDS/status/1632445855100796929"
+	slink22="https://twitter.com/Arnold_Platon/status/1629147136829845505"
+	slink23="https://twitter.com/stepminer2/status/1634958192412340224"
+	slink24="https://twitter.com/stepminer2/status/1630178321471270914"
+	slink25="https://twitter.com/ItsElisaDavis/status/1631035439040851968"
+	slink26="https://twitter.com/725Hemeed/status/1627424410272407552"
 
 
-	ilink01="https://twitter.com/ajstarks/status/1622587992710737920"
-	ilink02="https://twitter.com/ajstarks/status/1622588393619087361"
-	ilink03="https://twitter.com/ajstarks/status/1622588653208850432"
-	ilink04="https://twitter.com/ajstarks/status/1622588962039635969"
-	ilink05="https://twitter.com/ajstarks/status/1622589224250748929"
-	ilink06="https://twitter.com/ajstarks/status/1622589467012759553"
-	ilink07="https://twitter.com/ajstarks/status/1622589708671803394"
-	ilink08="https://twitter.com/ajstarks/status/1622590232238473216"
-	ilink09="https://twitter.com/ajstarks/status/1622590664553758723"
-	ilink10="https://twitter.com/ajstarks/status/1622591000572035074"
-	ilink11="https://twitter.com/ajstarks/status/1622591508904923136"
+	ilink00="https://twitter.com/ajstarks/status/1622587992710737920"
+	ilink01="https://twitter.com/ajstarks/status/1622588393619087361"
+	ilink02="https://twitter.com/ajstarks/status/1622588653208850432"
+	ilink03="https://twitter.com/ajstarks/status/1622588962039635969"
+	ilink04="https://twitter.com/ajstarks/status/1622589224250748929"
+	ilink05="https://twitter.com/ajstarks/status/1622589467012759553"
+	ilink06="https://twitter.com/ajstarks/status/1622589708671803394"
+	ilink07="https://twitter.com/ajstarks/status/1622590232238473216"
+	ilink08="https://twitter.com/ajstarks/status/1622590664553758723"
+	ilink09="https://twitter.com/ajstarks/status/1622591000572035074"
+	ilink10="https://twitter.com/ajstarks/status/1622591508904923136"
 
 	fisk01="https://twitter.com/only1_laila/status/1626071451550814211"
 	fisk02="https://twitter.com/TIfezie37321/status/1635798194692194305"
@@ -246,7 +251,7 @@ deck
 
 	slide bgcolor fgcolor
 		ctext "The Announcement" mx ty ts
-		image "images/intro00.png" 50 45 50 0
+		image "images/intro00.png" 50 45 50 0 100 ilink00
 	eslide
 
 	// Intro Thread
@@ -254,17 +259,17 @@ deck
 		//ctext "The Introduction Thread" mx ty ts
 		tscale=17
 		thy=75
-		image "images/intro01.png" 10 thy tscale 0
-		image "images/intro02.png" 30 thy tscale 0
-		image "images/intro03.png" 50 thy tscale 0
-		image "images/intro04.png" 70 thy tscale 0
-		image "images/intro05.png" 90 thy tscale 0
+		image "images/intro01.png" 10 thy tscale 0 100 ilink01
+		image "images/intro02.png" 30 thy tscale 0 100 ilink02
+		image "images/intro03.png" 50 thy tscale 0 100 ilink03
+		image "images/intro04.png" 70 thy tscale 0 100 ilink04
+		image "images/intro05.png" 90 thy tscale 0 100 ilink05
 		thy-=48
-		image "images/intro06.png" 10 thy tscale 0
-		image "images/intro07.png" 30 thy tscale 0
-		image "images/intro08.png" 50 thy tscale 0
-		image "images/intro09.png" 70 thy tscale 0
-		image "images/intro10.png" 90 thy tscale 0
+		image "images/intro06.png" 10 thy tscale 0 100 ilink06
+		image "images/intro07.png" 30 thy tscale 0 100 ilink07
+		image "images/intro08.png" 50 thy tscale 0 100 ilink08
+		image "images/intro09.png" 70 thy tscale 0 100 ilink09
+		image "images/intro10.png" 90 thy tscale 0 100 ilink10
 	eslide
 
 	// Results
@@ -301,6 +306,46 @@ deck
 		image "images/fisk09.png" 85 35 ims 0 100 fisk09
 		image "images/fisk07.png" 85 15 ims 0 100 fisk07
 		
+	eslide
+
+	// Arnold Paton
+	slide bgcolor fgcolor
+		ctext "Arnold Platon (@Arnold_Platon)" tx ty ts
+		ims=25
+		image "images/note11.png"   20 45 ims 0 100 slink11 
+		image "images/note22.png"   50 45 ims 0 100 slink22
+		image "images/note13.png"   80 45 ims 0 100 slink13
+	eslide
+
+	// Ícaro Bernardes
+	slide  bgcolor fgcolor
+		ctext "Ícaro Bernardes (@IcaroBSC)" tx ty ts
+		ims=25
+		image "images/note10.png"   20 45 ims 0 100 slink10 
+		image "images/note14.png"   50 45 ims 0 100 slink14 
+		image "images/note15.png"   80 45 ims 0 100 slink15
+	eslide
+
+	// 725Nemeed
+	slide  bgcolor fgcolor
+		ctext "Hemeed (725Hemeed)" tx ty ts
+		ims=25
+		image "images/note04.png"   20 45 ims 0 100 slink04
+		image "images/note02.png"   50 45 ims 0 100 slink02 
+		image "images/note17.png"   80 45 ims 0 100 slink17
+	eslide
+
+	// Galleries
+	slide bgcolor fgcolor
+		ctext "Galleries" tx ty ts
+		ims=25
+		gly=82
+		ctext "Raisa Hannus"            20 gly ns2
+		image "images/note16.png"       20 45 ims 0 100 slink16
+		ctext "Patrick Stephenson"      50 gly ns2
+		image "images/note23a.png"      50 45 ims 0 100 slink23
+		ctext "Elisa Davis"             80 gly ns2
+		image "images/note25.png"       80 45 ims 0 100 slink25
 	eslide
 
 //	// Tools
