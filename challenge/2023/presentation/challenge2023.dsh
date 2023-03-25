@@ -1,0 +1,582 @@
+// Curating the #DuBoisChallenge2022
+deck
+	bgcolor="linen"
+	fgcolor="black"
+	mid=50
+	tx=50
+	sx=50
+	sy=60
+	ty=90
+	ts=4.5
+	ss=ts*1.2
+	mx=50
+	my=50
+	ns=ts*0.75
+	bannersize=8
+
+
+	blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
+
+	slink01="https://twitter.com/gzanlorenssi/status/1625165642784509953"
+	slink02="https://twitter.com/725Hemeed/status/1624083128359743488"
+	slink03="https://twitter.com/ProfDrKSchulte/status/1624365714030067713"
+	slink04="https://twitter.com/725Hemeed/status/1628882828535496706"
+	slink05="https://twitter.com/NYCapricorn/status/1630374908944416770"
+	slink06="https://twitter.com/IcaroBSC/status/1629131002743250945"
+	slink07="https://twitter.com/geeky_bb/status/1626411777574547457"
+	slink08="https://twitter.com/TIfezie37321/status/1635798194692194305"
+	slink09="https://twitter.com/UST_MSDS/status/1632445855100796929"
+	slink10="https://twitter.com/IcaroBSC/status/1638187571271331840"
+	slink11="https://twitter.com/Arnold_Platon/status/1628711993552080896"
+	slink12="https://twitter.com/Arnold_Platon/status/1628324545739227142"
+	slink13="https://twitter.com/Arnold_Platon/status/1628324545739227142"
+	slink14="https://twitter.com/IcaroBSC/status/1636375321523154945"
+	slink15="https://twitter.com/IcaroBSC/status/1633109934890991616"
+	slink16="https://twitter.com/Blu7ip/status/1635003265137135616"
+	slink17="https://twitter.com/725Hemeed/status/1627424410272407552"
+	slink18="https://twitter.com/stepminer2/status/1634695168573014018"
+	slink19="https://twitter.com/stepminer2/status/1634065057838518272"
+	slink20="https://twitter.com/IcaroBSC/status/1636375321523154945"
+	slink21="https://twitter.com/UST_MSDS/status/1632445855100796929"
+
+
+	ilink01="https://twitter.com/ajstarks/status/1622587992710737920"
+	ilink02="https://twitter.com/ajstarks/status/1622588393619087361"
+	ilink03="https://twitter.com/ajstarks/status/1622588653208850432"
+	ilink04="https://twitter.com/ajstarks/status/1622588962039635969"
+	ilink05="https://twitter.com/ajstarks/status/1622589224250748929"
+	ilink06="https://twitter.com/ajstarks/status/1622589467012759553"
+	ilink07="https://twitter.com/ajstarks/status/1622589708671803394"
+	ilink08="https://twitter.com/ajstarks/status/1622590232238473216"
+	ilink09="https://twitter.com/ajstarks/status/1622590664553758723"
+	ilink10="https://twitter.com/ajstarks/status/1622591000572035074"
+	ilink11="https://twitter.com/ajstarks/status/1622591508904923136"
+
+	// Title
+	slide bgcolor "white"
+		hline 0 2 100 6 "black" //20
+		text "Curating The #DuboisChallenge2023" 3 2 2.5 "sans"
+		etext "Anthony Starks" 97 2 1.5 "sans"
+		yp=75
+		ims=15
+		image "images/note08.png" 10 yp ims 0 100 slink08
+		image "images/note03.png" 30 yp ims 0 100 slink03
+		image "images/note06.png" 50 yp ims 0 100 slink06
+		image "images/note02.png" 70 yp ims 0 100 slink02
+		image "images/note09.png" 90 yp ims 0 100 slink09
+		yp-=47
+		image "images/note14.png" 10 yp ims 0 100 slink14
+		image "images/note11.png" 30 yp ims 0 100 slink11
+		image "images/note07.png" 50 yp ims 0 100 slink07
+		image "images/note18.png" 70 yp ims 0 100 slink18
+		image "images/note19.png" 90 yp ims 0 100 slink19
+	eslide
+
+
+
+	// TJ Calloway and Du Bois
+	slide bgcolor fgcolor
+		ctext "In 1900, it began with them" mid ty ts
+		image "images/TJCalloway.jpg"  30 47 30 0
+		image "images/dubois-1900.png" 70 47 32 0
+		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://twitter.com/AlDatavizguy"
+		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
+	eslide
+
+
+	// 1900 venue
+	slide bgcolor fgcolor
+		ctext "Paris 1900" tx ty ts
+		image "images/paris-expo.jpg"            50 50 1447 998 60
+		image "images/expo-poster.jpg"           15 50 431 600
+		image "images/expo0.png"                 86 50 1157 1525 40
+	eslide
+
+	// Purpose and messages
+	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
+	// During the 1880s and 1890s, instances of lethal mob violence increased steadily, 
+	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. 
+	// Between 1890 and 1900 Georgia averaged more than one mob killing per month.
+
+	// In 1898 the duly elected people in Wilmington NC was violently overthrown by whites.
+	// The coup occurred after the state's white Southern Democrats conspired and led a mob of 
+	// 2,000 white men to overthrow the legitimately-elected local Fusionist government. 
+	// They expelled opposition black and white political leaders from the city, destroyed 
+	// the property and businesses of black citizens built up since the Civil War,  
+	// including the only black newspaper in the city, and killed an estimated 60 to 
+	// more than 300 people
+
+	balink="https://publicdomainreview.org/essay/black-america-1895"
+	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+	phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+	wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+	moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+	expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+
+	slide bgcolor fgcolor
+		dy=30
+		ny=dy+3
+		dimy=dy+20
+		dly=dy-5
+		
+		dminx=10
+		dmaxx=100-dminx
+		datemin=1895
+		datemax=1900
+		p1=vmap 1895 datemin datemax dminx dmaxx
+		p1a=vmap 1896 datemin datemax dminx dmaxx
+		p2=vmap 1897 datemin datemax dminx dmaxx
+		p3=vmap 1898 datemin datemax dminx dmaxx
+		p4=vmap 1899 datemin datemax dminx dmaxx
+		p5=vmap 1900 datemin datemax dminx dmaxx
+
+		dls=2
+		ctext "Historical Context" tx ty ts
+		ctext "1895" p1 dly dls 
+		ctext "1896" p1a dly dls
+		ctext "1897" p2 dly dls
+		ctext "1898" p3 dly dls
+		ctext "1899" p4 dly dls
+		ctext "1900" p5 dly dls "sans" "maroon"
+
+		dls=1.5
+		ctext "“Black America” Fair"             p1 ny dls "serif" fgcolor 100 balink
+		ctext "Plessy v. Ferguson"               p1a ny dls "serif" fgcolor 100 plessylink
+		ctext "Phila. Negro begins"              p2 ny dls "serif" fgcolor 100 phillylink
+		ctext "Wilmington Overthrow"             p3 ny dls "serif" fgcolor 100 wilmlink
+		ctext "Lynchings Peak"                   p4 ny dls "serif" fgcolor 100 moblink
+		ctext "Paris Exposition"                 p5 ny dls "serif" fgcolor 100 expolink
+
+		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30 balink
+		image "images/homer-plessy.jpg"          p1a dimy 295 350 75 plessylink
+		image "images/philly12.png"              p2 dimy 1112 930 28 phillylink
+		image "images/white-mans-day.jpg"        p3 dimy 654 658 40 wilmlink
+		image "images/mob.jpg"                   p4 dimy 640 512 45 moblink
+		image "images/expo.jpg"                  p5 dimy 739 1024 25 expolink
+
+		// timeline
+		line dminx dy dmaxx dy 0.5 "gray" 50
+		circle p1 dy 1 "maroon"
+		circle p1a dy 1 "maroon"
+		circle p2 dy 1 "maroon"
+		circle p3 dy 1 "maroon"
+		circle p4 dy 1 "maroon"
+		circle p5 dy 1 "maroon"
+	eslide
+
+
+	// Messages
+	slide bgcolor fgcolor
+		imw=2116
+		imh=2688
+		image "images/plate38.png" 10 73 imw imh 5
+		image "images/plate27.png" 10 52 imw imh 5
+		image "images/plate22.png" 10 30 imw imh 5
+		list 15 70 6 "sans" "maroon"
+			li "We are here"
+			li "This is who we are"
+			li "This is how far we have come"
+		elist
+	eslide
+
+	// Allen and Sekou
+	slide bgcolor fgcolor
+		ctext "In 2021, it began with them" mid ty ts
+		image "images/allen.png"              30 47 30 0
+		image "images/sekou0.png"             70 47 32 0
+		ctext "Allen Hillery (@AlDataVizGuy)" 30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
+		ctext "Sekou Tyler (@sqlsekou)"       70 3 2 "serif" "" 100 "https://twitter.com/sqlsekou"
+	eslide
+
+	// Modern venue
+	slide bgcolor fgcolor
+		megax=75
+		text "Now: Modern Megaphone" 10 ty ts
+		etext "Your Message" 33 50 3
+		image "images/megaphone01.png"           45 50 1200 1200 50
+		image "images/twitter-logo.png"          megax 85 1294 1295 15
+		image "images/instagram-logo.jpg"        megax 60 889 890 20
+		image "images/youtube-logo.png"          megax 40 1200 504 20
+		image "images/zoom-logo.png"             megax 20 3840 2160 10
+		polygon "55 55 67 67" "40 65 90 15" "gray" 20
+	eslide
+
+	// The entries
+	slide bgcolor fgcolor
+		chlink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023"
+		image "images/cat2023.png" 50 50 100 0
+	eslide
+
+	// github
+    ts=4.5
+	slide bgcolor fgcolor
+		ctext "Using github" tx ty ts
+		image "images/gh01.png" 24 45 45 0
+		image "images/gh02.png" 74 45 50 0
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "The Announcement" mx ty ts
+		image "images/intro00.png" 50 45 50 0
+	eslide
+
+	// Intro Thread
+	slide bgcolor fgcolor
+		//ctext "The Introduction Thread" mx ty ts
+		tscale=17
+		thy=75
+		image "images/intro01.png" 10 thy tscale 0
+		image "images/intro02.png" 30 thy tscale 0
+		image "images/intro03.png" 50 thy tscale 0
+		image "images/intro04.png" 70 thy tscale 0
+		image "images/intro05.png" 90 thy tscale 0
+		thy-=48
+		image "images/intro06.png" 10 thy tscale 0
+		image "images/intro07.png" 30 thy tscale 0
+		image "images/intro08.png" 50 thy tscale 0
+		image "images/intro09.png" 70 thy tscale 0
+		image "images/intro10.png" 90 thy tscale 0
+	eslide
+
+	// Results
+	slide bgcolor fgcolor
+		yp=75
+		ims=15
+		image "images/note08.png" 10 yp ims 0 100 slink08
+		image "images/note03.png" 30 yp ims 0 100 slink03
+		image "images/note06.png" 50 yp ims 0 100 slink06
+		image "images/note02.png" 70 yp ims 0 100 slink02
+		image "images/note09.png" 90 yp ims 0 100 slink09
+		yp-=48
+		image "images/note14.png" 10 yp ims 0 100 slink14
+		image "images/note11.png" 30 yp ims 0 100 slink11
+		image "images/note07.png" 50 yp ims 0 100 slink07
+		image "images/note18.png" 70 yp ims 0 100 slink18
+		image "images/note19.png" 90 yp ims 0 100 slink19
+	eslide
+
+//	// Tools
+//	slide bgcolor fgcolor
+//		ctext "Tools Used" tx ty ts 
+//		image "images/R-logo.png"       20 50 20 0 100 "https://www.r-project.org/"
+//		image "images/tidyverse.png"    10 65 15 0 100 "https://www.tidyverse.org/"
+//		image "images/ggplot-logo.png"  30 70 10 0 100 "https://ggplot2.tidyverse.org/"
+//		image "images/tableau-logo.png" 50 50 30 0 100 "https://www.tableau.com/"
+//		image "images/hand-drawn-opi.png" 80 50 20 0 100 blink
+//	eslide
+//
+//	// Notable examples
+//	slide bgcolor fgcolor
+//		ctext "Notable Examples" tx ty ts 
+//		ims=60
+//		image "images/ss01.png" 20 40 959 1886 50 "https://twitter.com/IcaroBSC/status/1516517164727119877"
+//		image "images/ss05.png" 50 50 950 1247 ims "https://twitter.com/menscuriosa/status/1495866145726992394"
+//		image "images/ss12.png" 82 50 926 1197 ims "https://twitter.com/BaltOPI/status/1511042684709916673"
+//	eslide
+//
+//	// Recreations by @IcaroBSC
+//	slide bgcolor fgcolor
+//		imw=16 // 943
+//		imh=0 // 1200
+//		ims=100 // 33
+//		yp=65
+//		ctext "Ícaro Bernardes (@IcaroBSC)" mid ty ts "sans" fgcolor 100 "https://github.com/IcaroBernardes/webdubois"
+//		image "images/icaro.jpg" 10 93 400 400 25
+//		image "images/FQumtEqWYAIrUSs.jpeg" 10 yp imw imh ims "https://twitter.com/IcaroBSC/status/1516517164727119877"
+//		image "images/FLrpZNgVEAgXMny.jpeg" 30 yp imw imh ims "https://twitter.com/IcaroBSC/status/1493768750755041285"
+//		image "images/FMOs7yjX0AMPgJM.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1496229656902926336"
+//		image "images/FMuWCjRXoAM_-U9.jpeg" 70 yp imw imh ims "https://twitter.com/IcaroBSC/status/1498459321243475968"
+//		image "images/FNXBnaBVUAENdz9.jpeg" 90 yp imw imh ims "https://twitter.com/IcaroBSC/status/1501323176088780800"
+//		yp-=40
+//		image "images/FN7XeAcWQAEEQJX.jpeg" 10 yp imw imh ims "https://twitter.com/IcaroBSC/status/1503890070029451270"
+//		image "images/FOeRkxSXIAI4pnq.jpeg" 30 yp imw imh ims "https://twitter.com/IcaroBSC/status/1503890070029451270"
+//		image "images/FPDlUdVWUAUkx3z.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1506334651538972681"
+//		image "images/FPhbSP1WYAUpJFs.jpeg" 70 yp imw imh ims "https://twitter.com/IcaroBSC/status/1511072124357775367"
+//		image "images/FQPaQpJXEAE9TmT.jpeg" 90 yp imw imh ims "https://twitter.com/IcaroBSC/status/1514299766271721475"
+//	eslide
+//
+//	// Chimdi Nwosu @menscuriosa
+//	slide bgcolor fgcolor
+//		imw=2118
+//		imh=1717
+//		ims=40
+//		yp=45
+//		chlink="https://public.tableau.com/app/profile/chimdi.nwosu/viz/W_E_B_DuboisPortraitGallery/MainGallery"
+//		ctext "Chimdi Nwosu (@menscuriosa)" mid ty ts "sans" fgcolor 100 chlink
+//		image "images/chimdi.jpg" 10 93 400 400 25
+//		image "images/chimdi01.png" 18 yp imw imh ims chlink
+//		image "images/chimdi02.png" 50 yp imw imh ims chlink
+//		image "images/chimdi03.png" 82 yp imw imh ims chlink
+//	eslide
+//
+//	// Baltimore OPI
+//	slide bgcolor fgcolor
+//		imw=1425
+//		imh=1916
+//		ims=42
+//		yp=45
+//		ctext "Baltimore OPI (@baltopi)" mid ty ts "sans" fgcolor 100 blink
+//		image "images/baltopi.png" 10 93 400 400 25
+//		image "images/baltimore01.png" 18 yp imw imh ims blink
+//		image "images/baltimore02.png" 50 yp imw imh ims blink
+//		image "images/baltimore03.png" 82 yp imw imh ims blink
+//	eslide
+//
+//	// Like
+//	slide bgcolor fgcolor
+//		ctext "Like, Like, Like" mid ty ts
+//		image "images/like01.png"  8 48 13 0
+//		image "images/like02.png" 23 47 13 0
+//		image "images/like03.png" 38 47 13 0
+//		image "images/like07.png" 75 47 60 0
+//	eslide
+//
+//	// Promotion
+//	slide bgcolor fgcolor
+//		ctext "Promotion" mid ty ts
+//		image "images/allen-tweet01.png" 20 45 25 0
+//		image "images/baltopi-show.png"  50 45 30 0
+//		image "images/allen-tweet03.png" 80 45 25 0
+//	eslide
+//
+//	// Cross-promotion
+//	slide bgcolor fgcolor
+//		ctext "Promotion from the community" mid ty ts
+//		image "images/cross01.png"  30 45 30 0
+//		image "images/cross02.png"  70 45 32 0
+//	eslide
+//
+//	slide bgcolor fgcolor
+//		ctext "The dashboard" mid ty ts
+//		image "images/dash02.png" 50 45 80 0 100 "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity?publish=yes"
+//	eslide 
+//
+//	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	// Re-creation
+//	slide bgcolor fgcolor
+//		ctext "Re-Creating the Du Bois Data Portraits" sx sy ss
+//		image "images/spiral.png" 50 40  1200 1200 30
+//	eslide
+//
+//	// Book Cover
+//	slide "black" "white"
+//		image "images/cover01.jpg" mx my 4032 3024 33
+//	eslide
+//
+//	// Book Grid
+//	slide "black" "white"
+//		image "images/book-grid.jpg" mx my 4032 3024 33
+//	eslide
+//
+//	// Materials comparison
+//	slide bgcolor fgcolor
+//		cleft=25
+//		cright=cleft+50
+//		cbottom=5
+//		cs=2.5
+//		cy=90
+//		ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs
+//		ctext "1900"                                    cleft cbottom cs
+//		image "images/33889v.jpg"                       cleft my 811 1024 80
+//
+//		ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
+//		ctext "Today"                                    cright cbottom cs
+//		image "images/plate27.png"                      cright my 2116 2688 30
+//	eslide
+//
+//	// rules, protractor
+//	slide "black" "white"
+//		image "images/m01.jpg" 30 50 3024 4032 25
+//		image "images/m02.jpg" 70 50 3024 4032 25
+//	eslide
+//
+//	// decksh Elements
+//	slide bgcolor fgcolor
+//		left=5
+//		top=85
+//		//titlesize=bannersize
+//		rowleft=left+3
+//		kx=rowleft
+//		ky=top-15
+//		ktx=kx+5
+//		kty=ky-1.5
+//		kcolsp=30
+//		krowsp=20
+//		kimw=120
+//		kimh=120
+//		kts=bannersize/2
+//		kcolor="maroon"
+//
+//		ctext "decksh" 50 top 6
+//
+//		// Row 1
+//		image "images/structure.png" kx ky kimw kimh
+//		text "Structure" ktx kty kts "sans" kcolor
+//		kx+=kcolsp
+//		ktx+=kcolsp
+//
+//		image "images/text.png" kx ky kimw kimh
+//		text "Text" ktx kty kts "sans" kcolor
+//		kx+=kcolsp
+//		ktx+=kcolsp
+//
+//		image "images/list.png" kx ky kimw kimh
+//		text "Lists" ktx kty kts "sans" kcolor
+//
+//		kx=rowleft
+//		ky-=krowsp
+//		ktx=kx+5
+//		kty=ky-1.5
+//
+//		// Row 2
+//		image "images/arrow.png" kx ky kimw kimh
+//		text "Arrows" ktx kty kts "sans" kcolor
+//		kx+=kcolsp
+//		ktx+=kcolsp
+//
+//		image "images/img.png" kx ky kimw kimh
+//		text "Images" ktx kty kts "sans" kcolor
+//		kx+=kcolsp
+//		ktx+=kcolsp
+//
+//		image "images/shapes.png" kx ky kimw kimh
+//		text "Graphics" ktx kty kts "sans" kcolor
+//
+//		kx=rowleft
+//		ky-=krowsp
+//		ktx=kx+5
+//		kty=ky-1.5
+//		
+//		// Row 3
+//		image "images/chart.png" kx ky kimw kimh
+//		text "Charts" ktx kty kts "sans" kcolor
+//		kx+=kcolsp
+//		ktx+=kcolsp
+//
+//		image "images/loop.png" kx ky kimw kimh
+//		text "Loops" ktx kty kts "sans" kcolor
+//		kx+=kcolsp
+//		ktx+=kcolsp
+//
+//		image "images/data.png" kx ky kimw kimh
+//		text "Data" ktx kty kts "sans" kcolor
+//
+//		kx=rowleft+kcolsp
+//		ky-=krowsp
+//		ktx=kx+5
+//		kty=ky-1.5
+//
+//		image "images/utility.png" kx ky kimw kimh
+//		text "Utility" ktx kty kts "sans" kcolor
+//	eslide
+//
+//	// Percent grid
+//	include "grid.dsh"
+//
+//	// Development flow
+//	slide "black" "white"
+//		ny=95
+//		lh=ny+2
+//		ly=ny+1.2
+//		image "images/workflow.png" mx my 3840 2160 50
+//		ctext "Code"				15 ny ns
+//		ctext "Output"				48 ny ns
+//		ctext "Reference"			82 ny ns
+//	eslide
+//
+//	// Code management
+//	slide bgcolor fgcolor
+//		ctext "Code Management and Automation" tx ty ts
+//		y=ty-15
+//		text "Directory"       5 y ns "sans" "maroon"
+//		text "Scripting"      35 y ns "sans" "maroon"
+//		text "Source Control" 70 y ns "sans" "maroon"
+//		y-=7
+//		textfile "tree.txt"       5 y 1.7 "mono"
+//		textfile "scripting.txt" 35 y 1.7 "mono"
+//		textfile "git.txt"       70 y 1.7 "mono"
+//		vline 30 5 70
+//		vline 63 5 70 
+//	eslide
+//
+//	// Publishing
+//	slide bgcolor fgcolor
+//		imw=1771
+//		imh=2168
+//		ims=40
+//		yp=45
+//		ctext "Publishing" tx ty ts
+//		image "images/speakerdeck02.png"       30 yp imw imh ims
+//		image "images/twitter-pub01.png"       70 yp 1075 1426 60
+//	eslide
+//
+//
+//	// Publishing
+//	slide bgcolor fgcolor
+//		imw=1771
+//		imh=2168
+//		ims=40
+//		yp=45
+//		ctext "Publishing" tx ty ts
+//		image "images/speakerdeck-remix00.png" 30 yp imw imh ims
+//		image "images/twitter-pub.png"         70 yp 1058 1337 65
+//	eslide
+//
+//	// Links
+//	slide bgcolor fgcolor
+//		lk1="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022#readme"
+//		lk2="https://twitter.com/search?q=%23DuBoisChallenge2022&src=typed_query&f=top" 
+//		lk3="https://nightingaledvs.com/the-dubois-challenge/"
+//		lk4="https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066"
+//		lk5="https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition"
+//		lk6="https://speakerdeck.com/ajstarks/du-bois-visualizations-originals"
+//		ctext "Links and Resources"  tx ty ts
+//		lt=75
+//		ll=3
+//		ly=lt
+//		ls=3
+//		vskip=10
+//		text "Challenge Repo" ll ly ls
+//		ly-=vskip
+//		text "Twitter Hashtag" ll ly ls
+//		ly-=vskip
+//		text "Nightingale Article" ll ly ls 
+//		ly-=vskip
+//		text "Data Portraits Book" ll ly ls 
+//		ly-=vskip
+//		text "LoC Collection" ll ly ls
+//		ly-=vskip
+//		text "Catalog"        ll ly ls 
+//
+//		ly=lt
+//		ll+=30
+//		ls*=0.5
+//		linkcolor="maroon"
+//		text lk1 ll ly ls "mono" linkcolor 100 lk1 
+//		ly-=vskip
+//		text lk2 ll ly ls "mono" linkcolor 100 lk2
+//		ly-=vskip
+//		text lk3 ll ly ls "mono" linkcolor 100 lk3
+//		ly-=vskip
+//		text lk4 ll ly ls "mono" linkcolor 100 lk4
+//		ly-=vskip
+//		text lk5 ll ly ls "mono" linkcolor 100 lk5
+//		ly-=vskip
+//		text lk6 ll ly ls "mono" linkcolor 100 lk6
+//	eslide
+//
+//
+//	// Business Card
+//    mx=25         // midpoint
+//    tx=62         // text left
+//    ix=57         // image left
+//    ts=5.5        // base text size
+//    ss=ts*0.85    // sub-head text size
+//    cs=ts*0.50    // contact info text size
+//    lx=50         // line x
+//	imscale=8
+//	ims2=imscale*10
+//	ims3=ims2/4
+//
+//	include "bizcard.dsh"
+edeck

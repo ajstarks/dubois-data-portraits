@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh challenge2023.dsh | pdfdeck -stdout -pagesize 1920,1080 -sans PublicSans-Regular -serif Charter-Italic -mono Inconsolata-Bold $* - > challenge2023.pdf
