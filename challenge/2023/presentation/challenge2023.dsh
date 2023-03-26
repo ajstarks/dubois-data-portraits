@@ -46,7 +46,7 @@ deck
 	slink23="https://twitter.com/stepminer2/status/1634958192412340224"
 	slink24="https://twitter.com/stepminer2/status/1630178321471270914"
 	slink25="https://twitter.com/ItsElisaDavis/status/1631035439040851968"
-	slink26="https://twitter.com/725Hemeed/status/1627424410272407552"
+	slink26="https://twitter.com/NYCapricorn/status/1637666483072270337"
 
 
 	ilink00="https://twitter.com/ajstarks/status/1622587992710737920"
@@ -310,7 +310,7 @@ deck
 	// Arnold Paton
 	slide bgcolor fgcolor
 		ctext "Arnold Platon (@Arnold_Platon)" tx ty ts
-		ims=25
+		ims=27
 		image "images/arnold_platon.jpg" 10 py 5 0
 		image "images/note11.png"   20 45 ims 0 100 slink11 
 		image "images/note22.png"   50 45 ims 0 100 slink22
@@ -320,7 +320,7 @@ deck
 	// Ícaro Bernardes
 	slide  bgcolor fgcolor
 		ctext "Ícaro Bernardes (@IcaroBSC)" tx ty ts
-		ims=25
+		ims=27
 		image "images/icarobsc.jpg" 15 py 5 0
 		image "images/note10.png"   20 45 ims 0 100 slink10 
 		image "images/note14.png"   50 45 ims 0 100 slink14 
@@ -330,7 +330,7 @@ deck
 	// 725Nemeed
 	slide  bgcolor fgcolor
 		ctext "Hemeed (@725Hemeed)" tx ty ts
-		ims=25
+		ims=27
 		image "images/725hemeed.jpg" 20 py 5 0
 		image "images/note04.png"   20 45 ims 0 100 slink04
 		image "images/note02.png"   50 45 ims 0 100 slink02 
@@ -340,7 +340,7 @@ deck
 	// Patrick Stephenson
 	slide  bgcolor fgcolor
 		ctext "Patrick Stephenson (@stepminer2)" tx ty ts
-		ims=25
+		ims=27
 		image "images/stepminer2.jpg" 7 py 5 0
 		image "images/note21.png"   20 45 ims 0 100 slink21
 		image "images/note18.png"   50 45 ims 0 100 slink18 
@@ -350,338 +350,10 @@ deck
 	// Galleries
 	slide bgcolor fgcolor
 		ctext "Galleries" tx ty ts
-		ims=25
+		ims=27
 		gly=82
-		ctext "Raisa Hannus"            20 gly ns2
-		image "images/note16.png"       20 45 ims 0 100 slink16
-		ctext "Patrick Stephenson"      50 gly ns2
-		image "images/note23a.png"      50 45 ims 0 100 slink23
-		ctext "Elisa Davis"             80 gly ns2
-		image "images/note25.png"       80 45 ims 0 100 slink25
+		image "images/note16.png"               20 45 ims 0 100 slink16
+		image "images/note26.png"               50 45 ims 0 100 slink26
+		image "images/note25.png"               80 45 ims 0 100 slink25
 	eslide
-
-//	// Tools
-//	slide bgcolor fgcolor
-//		ctext "Tools Used" tx ty ts 
-//		image "images/R-logo.png"       20 50 20 0 100 "https://www.r-project.org/"
-//		image "images/tidyverse.png"    10 65 15 0 100 "https://www.tidyverse.org/"
-//		image "images/ggplot-logo.png"  30 70 10 0 100 "https://ggplot2.tidyverse.org/"
-//		image "images/tableau-logo.png" 50 50 30 0 100 "https://www.tableau.com/"
-//		image "images/hand-drawn-opi.png" 80 50 20 0 100 blink
-//	eslide
-//
-//	// Notable examples
-//	slide bgcolor fgcolor
-//		ctext "Notable Examples" tx ty ts 
-//		ims=60
-//		image "images/ss01.png" 20 40 959 1886 50 "https://twitter.com/IcaroBSC/status/1516517164727119877"
-//		image "images/ss05.png" 50 50 950 1247 ims "https://twitter.com/menscuriosa/status/1495866145726992394"
-//		image "images/ss12.png" 82 50 926 1197 ims "https://twitter.com/BaltOPI/status/1511042684709916673"
-//	eslide
-//
-//	// Recreations by @IcaroBSC
-//	slide bgcolor fgcolor
-//		imw=16 // 943
-//		imh=0 // 1200
-//		ims=100 // 33
-//		yp=65
-//		ctext "Ícaro Bernardes (@IcaroBSC)" mid ty ts "sans" fgcolor 100 "https://github.com/IcaroBernardes/webdubois"
-//		image "images/icaro.jpg" 10 93 400 400 25
-//		image "images/FQumtEqWYAIrUSs.jpeg" 10 yp imw imh ims "https://twitter.com/IcaroBSC/status/1516517164727119877"
-//		image "images/FLrpZNgVEAgXMny.jpeg" 30 yp imw imh ims "https://twitter.com/IcaroBSC/status/1493768750755041285"
-//		image "images/FMOs7yjX0AMPgJM.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1496229656902926336"
-//		image "images/FMuWCjRXoAM_-U9.jpeg" 70 yp imw imh ims "https://twitter.com/IcaroBSC/status/1498459321243475968"
-//		image "images/FNXBnaBVUAENdz9.jpeg" 90 yp imw imh ims "https://twitter.com/IcaroBSC/status/1501323176088780800"
-//		yp-=40
-//		image "images/FN7XeAcWQAEEQJX.jpeg" 10 yp imw imh ims "https://twitter.com/IcaroBSC/status/1503890070029451270"
-//		image "images/FOeRkxSXIAI4pnq.jpeg" 30 yp imw imh ims "https://twitter.com/IcaroBSC/status/1503890070029451270"
-//		image "images/FPDlUdVWUAUkx3z.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1506334651538972681"
-//		image "images/FPhbSP1WYAUpJFs.jpeg" 70 yp imw imh ims "https://twitter.com/IcaroBSC/status/1511072124357775367"
-//		image "images/FQPaQpJXEAE9TmT.jpeg" 90 yp imw imh ims "https://twitter.com/IcaroBSC/status/1514299766271721475"
-//	eslide
-//
-//	// Chimdi Nwosu @menscuriosa
-//	slide bgcolor fgcolor
-//		imw=2118
-//		imh=1717
-//		ims=40
-//		yp=45
-//		chlink="https://public.tableau.com/app/profile/chimdi.nwosu/viz/W_E_B_DuboisPortraitGallery/MainGallery"
-//		ctext "Chimdi Nwosu (@menscuriosa)" mid ty ts "sans" fgcolor 100 chlink
-//		image "images/chimdi.jpg" 10 93 400 400 25
-//		image "images/chimdi01.png" 18 yp imw imh ims chlink
-//		image "images/chimdi02.png" 50 yp imw imh ims chlink
-//		image "images/chimdi03.png" 82 yp imw imh ims chlink
-//	eslide
-//
-//	// Baltimore OPI
-//	slide bgcolor fgcolor
-//		imw=1425
-//		imh=1916
-//		ims=42
-//		yp=45
-//		ctext "Baltimore OPI (@baltopi)" mid ty ts "sans" fgcolor 100 blink
-//		image "images/baltopi.png" 10 93 400 400 25
-//		image "images/baltimore01.png" 18 yp imw imh ims blink
-//		image "images/baltimore02.png" 50 yp imw imh ims blink
-//		image "images/baltimore03.png" 82 yp imw imh ims blink
-//	eslide
-//
-//	// Like
-//	slide bgcolor fgcolor
-//		ctext "Like, Like, Like" mid ty ts
-//		image "images/like01.png"  8 48 13 0
-//		image "images/like02.png" 23 47 13 0
-//		image "images/like03.png" 38 47 13 0
-//		image "images/like07.png" 75 47 60 0
-//	eslide
-//
-//	// Promotion
-//	slide bgcolor fgcolor
-//		ctext "Promotion" mid ty ts
-//		image "images/allen-tweet01.png" 20 45 25 0
-//		image "images/baltopi-show.png"  50 45 30 0
-//		image "images/allen-tweet03.png" 80 45 25 0
-//	eslide
-//
-//	// Cross-promotion
-//	slide bgcolor fgcolor
-//		ctext "Promotion from the community" mid ty ts
-//		image "images/cross01.png"  30 45 30 0
-//		image "images/cross02.png"  70 45 32 0
-//	eslide
-//
-//	slide bgcolor fgcolor
-//		ctext "The dashboard" mid ty ts
-//		image "images/dash02.png" 50 45 80 0 100 "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity?publish=yes"
-//	eslide 
-//
-//	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//	// Re-creation
-//	slide bgcolor fgcolor
-//		ctext "Re-Creating the Du Bois Data Portraits" sx sy ss
-//		image "images/spiral.png" 50 40  1200 1200 30
-//	eslide
-//
-//	// Book Cover
-//	slide "black" "white"
-//		image "images/cover01.jpg" mx my 4032 3024 33
-//	eslide
-//
-//	// Book Grid
-//	slide "black" "white"
-//		image "images/book-grid.jpg" mx my 4032 3024 33
-//	eslide
-//
-//	// Materials comparison
-//	slide bgcolor fgcolor
-//		cleft=25
-//		cright=cleft+50
-//		cbottom=5
-//		cs=2.5
-//		cy=90
-//		ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs
-//		ctext "1900"                                    cleft cbottom cs
-//		image "images/33889v.jpg"                       cleft my 811 1024 80
-//
-//		ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
-//		ctext "Today"                                    cright cbottom cs
-//		image "images/plate27.png"                      cright my 2116 2688 30
-//	eslide
-//
-//	// rules, protractor
-//	slide "black" "white"
-//		image "images/m01.jpg" 30 50 3024 4032 25
-//		image "images/m02.jpg" 70 50 3024 4032 25
-//	eslide
-//
-//	// decksh Elements
-//	slide bgcolor fgcolor
-//		left=5
-//		top=85
-//		//titlesize=bannersize
-//		rowleft=left+3
-//		kx=rowleft
-//		ky=top-15
-//		ktx=kx+5
-//		kty=ky-1.5
-//		kcolsp=30
-//		krowsp=20
-//		kimw=120
-//		kimh=120
-//		kts=bannersize/2
-//		kcolor="maroon"
-//
-//		ctext "decksh" 50 top 6
-//
-//		// Row 1
-//		image "images/structure.png" kx ky kimw kimh
-//		text "Structure" ktx kty kts "sans" kcolor
-//		kx+=kcolsp
-//		ktx+=kcolsp
-//
-//		image "images/text.png" kx ky kimw kimh
-//		text "Text" ktx kty kts "sans" kcolor
-//		kx+=kcolsp
-//		ktx+=kcolsp
-//
-//		image "images/list.png" kx ky kimw kimh
-//		text "Lists" ktx kty kts "sans" kcolor
-//
-//		kx=rowleft
-//		ky-=krowsp
-//		ktx=kx+5
-//		kty=ky-1.5
-//
-//		// Row 2
-//		image "images/arrow.png" kx ky kimw kimh
-//		text "Arrows" ktx kty kts "sans" kcolor
-//		kx+=kcolsp
-//		ktx+=kcolsp
-//
-//		image "images/img.png" kx ky kimw kimh
-//		text "Images" ktx kty kts "sans" kcolor
-//		kx+=kcolsp
-//		ktx+=kcolsp
-//
-//		image "images/shapes.png" kx ky kimw kimh
-//		text "Graphics" ktx kty kts "sans" kcolor
-//
-//		kx=rowleft
-//		ky-=krowsp
-//		ktx=kx+5
-//		kty=ky-1.5
-//		
-//		// Row 3
-//		image "images/chart.png" kx ky kimw kimh
-//		text "Charts" ktx kty kts "sans" kcolor
-//		kx+=kcolsp
-//		ktx+=kcolsp
-//
-//		image "images/loop.png" kx ky kimw kimh
-//		text "Loops" ktx kty kts "sans" kcolor
-//		kx+=kcolsp
-//		ktx+=kcolsp
-//
-//		image "images/data.png" kx ky kimw kimh
-//		text "Data" ktx kty kts "sans" kcolor
-//
-//		kx=rowleft+kcolsp
-//		ky-=krowsp
-//		ktx=kx+5
-//		kty=ky-1.5
-//
-//		image "images/utility.png" kx ky kimw kimh
-//		text "Utility" ktx kty kts "sans" kcolor
-//	eslide
-//
-//	// Percent grid
-//	include "grid.dsh"
-//
-//	// Development flow
-//	slide "black" "white"
-//		ny=95
-//		lh=ny+2
-//		ly=ny+1.2
-//		image "images/workflow.png" mx my 3840 2160 50
-//		ctext "Code"				15 ny ns
-//		ctext "Output"				48 ny ns
-//		ctext "Reference"			82 ny ns
-//	eslide
-//
-//	// Code management
-//	slide bgcolor fgcolor
-//		ctext "Code Management and Automation" tx ty ts
-//		y=ty-15
-//		text "Directory"       5 y ns "sans" "maroon"
-//		text "Scripting"      35 y ns "sans" "maroon"
-//		text "Source Control" 70 y ns "sans" "maroon"
-//		y-=7
-//		textfile "tree.txt"       5 y 1.7 "mono"
-//		textfile "scripting.txt" 35 y 1.7 "mono"
-//		textfile "git.txt"       70 y 1.7 "mono"
-//		vline 30 5 70
-//		vline 63 5 70 
-//	eslide
-//
-//	// Publishing
-//	slide bgcolor fgcolor
-//		imw=1771
-//		imh=2168
-//		ims=40
-//		yp=45
-//		ctext "Publishing" tx ty ts
-//		image "images/speakerdeck02.png"       30 yp imw imh ims
-//		image "images/twitter-pub01.png"       70 yp 1075 1426 60
-//	eslide
-//
-//
-//	// Publishing
-//	slide bgcolor fgcolor
-//		imw=1771
-//		imh=2168
-//		ims=40
-//		yp=45
-//		ctext "Publishing" tx ty ts
-//		image "images/speakerdeck-remix00.png" 30 yp imw imh ims
-//		image "images/twitter-pub.png"         70 yp 1058 1337 65
-//	eslide
-//
-//	// Links
-//	slide bgcolor fgcolor
-//		lk1="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022#readme"
-//		lk2="https://twitter.com/search?q=%23DuBoisChallenge2022&src=typed_query&f=top" 
-//		lk3="https://nightingaledvs.com/the-dubois-challenge/"
-//		lk4="https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066"
-//		lk5="https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition"
-//		lk6="https://speakerdeck.com/ajstarks/du-bois-visualizations-originals"
-//		ctext "Links and Resources"  tx ty ts
-//		lt=75
-//		ll=3
-//		ly=lt
-//		ls=3
-//		vskip=10
-//		text "Challenge Repo" ll ly ls
-//		ly-=vskip
-//		text "Twitter Hashtag" ll ly ls
-//		ly-=vskip
-//		text "Nightingale Article" ll ly ls 
-//		ly-=vskip
-//		text "Data Portraits Book" ll ly ls 
-//		ly-=vskip
-//		text "LoC Collection" ll ly ls
-//		ly-=vskip
-//		text "Catalog"        ll ly ls 
-//
-//		ly=lt
-//		ll+=30
-//		ls*=0.5
-//		linkcolor="maroon"
-//		text lk1 ll ly ls "mono" linkcolor 100 lk1 
-//		ly-=vskip
-//		text lk2 ll ly ls "mono" linkcolor 100 lk2
-//		ly-=vskip
-//		text lk3 ll ly ls "mono" linkcolor 100 lk3
-//		ly-=vskip
-//		text lk4 ll ly ls "mono" linkcolor 100 lk4
-//		ly-=vskip
-//		text lk5 ll ly ls "mono" linkcolor 100 lk5
-//		ly-=vskip
-//		text lk6 ll ly ls "mono" linkcolor 100 lk6
-//	eslide
-//
-//
-//	// Business Card
-//    mx=25         // midpoint
-//    tx=62         // text left
-//    ix=57         // image left
-//    ts=5.5        // base text size
-//    ss=ts*0.85    // sub-head text size
-//    cs=ts*0.50    // contact info text size
-//    lx=50         // line x
-//	imscale=8
-//	ims2=imscale*10
-//	ims3=ims2/4
-//
-//	include "bizcard.dsh"
 edeck
