@@ -7,6 +7,7 @@ deck
 	sx=50
 	sy=60
 	ty=90
+	py=ty+2.5
 	ts=4.5
 	ss=ts*1.2
 	mx=50
@@ -192,7 +193,6 @@ deck
 		circle p5 dy 1 "maroon"
 	eslide
 
-
 	// Messages
 	slide bgcolor fgcolor
 		imw=2116
@@ -236,7 +236,7 @@ deck
 	// The entries
 	slide bgcolor fgcolor
 		ims=35
-		ctext "#DuboisChallenge 2023 Entries" tx ty ts "sans" fgcolor 100
+		ctext "#DuboisChallenge 2023 Entries" tx ty ts "sans" fgcolor 100 chlink
 		grid "challgrid2023.dsh"  10 65 20 45 90
 		grid "pidx.dsh"           10 83 20 45 90
 	eslide
@@ -245,8 +245,8 @@ deck
     ts=4.5
 	slide bgcolor fgcolor
 		ctext "Using github" tx ty ts
-		image "images/gh01.png" 24 45 45 0
-		image "images/gh02.png" 74 45 50 0
+		image "images/gh01.png" 24 45 45 0 100 chlink
+		image "images/gh02.png" 74 45 50 0 100 chlink
 	eslide
 
 	slide bgcolor fgcolor
@@ -305,13 +305,13 @@ deck
 		image "images/fisk03.png" 85 55 ims 0 100 fisk03
 		image "images/fisk09.png" 85 35 ims 0 100 fisk09
 		image "images/fisk07.png" 85 15 ims 0 100 fisk07
-		
 	eslide
 
 	// Arnold Paton
 	slide bgcolor fgcolor
 		ctext "Arnold Platon (@Arnold_Platon)" tx ty ts
 		ims=25
+		image "images/arnold_platon.jpg" 10 py 5 0
 		image "images/note11.png"   20 45 ims 0 100 slink11 
 		image "images/note22.png"   50 45 ims 0 100 slink22
 		image "images/note13.png"   80 45 ims 0 100 slink13
@@ -321,6 +321,7 @@ deck
 	slide  bgcolor fgcolor
 		ctext "Ícaro Bernardes (@IcaroBSC)" tx ty ts
 		ims=25
+		image "images/icarobsc.jpg" 15 py 5 0
 		image "images/note10.png"   20 45 ims 0 100 slink10 
 		image "images/note14.png"   50 45 ims 0 100 slink14 
 		image "images/note15.png"   80 45 ims 0 100 slink15
@@ -328,11 +329,22 @@ deck
 
 	// 725Nemeed
 	slide  bgcolor fgcolor
-		ctext "Hemeed (725Hemeed)" tx ty ts
+		ctext "Hemeed (@725Hemeed)" tx ty ts
 		ims=25
+		image "images/725hemeed.jpg" 20 py 5 0
 		image "images/note04.png"   20 45 ims 0 100 slink04
 		image "images/note02.png"   50 45 ims 0 100 slink02 
 		image "images/note17.png"   80 45 ims 0 100 slink17
+	eslide
+
+	// Patrick Stephenson
+	slide  bgcolor fgcolor
+		ctext "Patrick Stephenson (@stepminer2)" tx ty ts
+		ims=25
+		image "images/stepminer2.jpg" 7 py 5 0
+		image "images/note21.png"   20 45 ims 0 100 slink21
+		image "images/note18.png"   50 45 ims 0 100 slink18 
+		image "images/note24.png"   80 45 ims 0 100 slink24
 	eslide
 
 	// Galleries
