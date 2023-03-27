@@ -1,0 +1,159 @@
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Re-creation
+	slide bgcolor fgcolor
+		ctext "Re-Creating the Du Bois Data Portraits" sx sy ss
+		image "images/spiral.png" 50 40  1200 1200 30
+	eslide
+
+	// Book Cover
+	slide "black" "white"
+		image "images/cover01.jpg" mx my 4032 3024 33
+	eslide
+
+	// Book Grid
+	slide "black" "white"
+		image "images/book-grid.jpg" mx my 4032 3024 33
+	eslide
+
+	// Materials comparison
+	slide bgcolor fgcolor
+		cleft=25
+		cright=cleft+50
+		cbottom=5
+		cs=2.5
+		cy=90
+		ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs
+		ctext "1900"                                    cleft cbottom cs
+		image "images/33889v.jpg"                       cleft my 811 1024 80
+
+		ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
+		ctext "Today"                                    cright cbottom cs
+		image "images/plate27.png"                      cright my 2116 2688 30
+	eslide
+
+	// rules, protractor
+	slide "black" "white"
+		image "images/m01.jpg" 30 50 3024 4032 25
+		image "images/m02.jpg" 70 50 3024 4032 25
+	eslide
+
+	// decksh Elements
+	slide bgcolor fgcolor
+		left=5
+		top=85
+		//titlesize=bannersize
+		rowleft=left+3
+		kx=rowleft
+		ky=top-15
+		ktx=kx+5
+		kty=ky-1.5
+		kcolsp=30
+		krowsp=20
+		kimw=120
+		kimh=120
+		kts=bannersize/2
+		kcolor="maroon"
+
+		ctext "decksh" 50 top 6
+
+		// Row 1
+		image "images/structure.png" kx ky kimw kimh
+		text "Structure" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/text.png" kx ky kimw kimh
+		text "Text" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/list.png" kx ky kimw kimh
+		text "Lists" ktx kty kts "sans" kcolor
+
+		kx=rowleft
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+
+		// Row 2
+		image "images/arrow.png" kx ky kimw kimh
+		text "Arrows" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/img.png" kx ky kimw kimh
+		text "Images" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/shapes.png" kx ky kimw kimh
+		text "Graphics" ktx kty kts "sans" kcolor
+
+		kx=rowleft
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+		
+		// Row 3
+		image "images/chart.png" kx ky kimw kimh
+		text "Charts" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/loop.png" kx ky kimw kimh
+		text "Loops" ktx kty kts "sans" kcolor
+		kx+=kcolsp
+		ktx+=kcolsp
+
+		image "images/data.png" kx ky kimw kimh
+		text "Data" ktx kty kts "sans" kcolor
+
+		kx=rowleft+kcolsp
+		ky-=krowsp
+		ktx=kx+5
+		kty=ky-1.5
+
+		image "images/utility.png" kx ky kimw kimh
+		text "Utility" ktx kty kts "sans" kcolor
+	eslide
+
+	// Percent grid
+	include "grid.dsh"
+
+	// Development flow
+	slide "black" "white"
+		ny=95
+		lh=ny+2
+		ly=ny+1.2
+		image "images/workflow.png" mx my 3840 2160 50
+		ctext "Code"				15 ny ns
+		ctext "Output"				48 ny ns
+		ctext "Reference"			82 ny ns
+	eslide
+
+	// Code management
+	slide bgcolor fgcolor
+		ctext "Code Management and Automation" tx ty ts
+		y=ty-15
+		text "Directory"       5 y ns "sans" "maroon"
+		text "Scripting"      35 y ns "sans" "maroon"
+		text "Source Control" 70 y ns "sans" "maroon"
+		y-=7
+		textfile "tree.txt"       5 y 1.7 "mono"
+		textfile "scripting.txt" 35 y 1.7 "mono"
+		textfile "git.txt"       70 y 1.7 "mono"
+		vline 30 5 70
+		vline 63 5 70 
+	eslide
+
+	// Publishing
+	slide bgcolor fgcolor
+		imw=1771
+		imh=2168
+		ims=40
+		yp=45
+		ctext "Publishing" tx ty ts
+		image "images/speakerdeck02.png"       30 yp imw imh ims
+		image "images/twitter-pub01.png"       70 yp 1075 1426 60
+	eslide
+
