@@ -346,6 +346,17 @@ deck
 		image "images/note24.png"   80 45 ims 0 100 slink24
 	eslide
 
+	// Applied Data Science at UST
+	slide  bgcolor fgcolor
+		ctext "Applied Data Science at UST (@UST_NSDS)" tx ty ts
+		ims=33
+		image "images/note09.png"   30 45 ims 0 100 slink09
+		text "Digital “Brush” Strokes" 50 44 3.5
+		line 50 46 40 55 0.1 "black"
+		line 50 46 40 46 0.1 "black"
+		line 50 46 25 25 0.1 "black"
+	eslide
+
 	// Galleries
 	slide bgcolor fgcolor
 		ctext "Galleries" tx ty ts
