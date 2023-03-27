@@ -1,4 +1,4 @@
-// Curating the #DuBoisChallenge2022
+// Curating the #DuBoisChallenge2023
 deck
 	bgcolor="linen"
 	fgcolor="black"
@@ -15,9 +15,6 @@ deck
 	ns=ts*0.75
 	ns2=ts*0.4
 	bannersize=8
-
-
-	blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
 
 	chlink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023"
 
@@ -47,7 +44,6 @@ deck
 	slink24="https://twitter.com/stepminer2/status/1630178321471270914"
 	slink25="https://twitter.com/ItsElisaDavis/status/1631035439040851968"
 	slink26="https://twitter.com/NYCapricorn/status/1637666483072270337"
-
 
 	ilink00="https://twitter.com/ajstarks/status/1622587992710737920"
 	ilink01="https://twitter.com/ajstarks/status/1622588393619087361"
@@ -92,10 +88,13 @@ deck
 		image "images/note18.png" 70 yp ims 0 100 slink18
 		image "images/note19.png" 90 yp ims 0 100 slink19
 	eslide
-
-
-
 	// TJ Calloway and Du Bois
+	//	The letter insists that, "thousands upon thousands will go [to the
+	// fair], and a well selected and prepared exhibit, representing the
+	// Negro's development in his churches, his schools, his homes, his
+	// farms, his stores, his professions and pursuits in general will
+	// attract attention... and do a great and lasting good in convincing
+	// thinking people of the possibilities of the Negro." 
 	slide bgcolor fgcolor
 		ctext "In 1900, it began with them…" mid ty ts
 		image "images/TJCalloway.jpg"  30 47 30 0
@@ -110,7 +109,7 @@ deck
 		image "images/au-debating-team-1900.jpg"  25 50 700 563
 		ctext "Atlanta University Debating Team, c. 1900" 25 20 1.5 "serif"
 		image "images/au-women.jpg"  70 50 916 594 94
-		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 1.5 "serif"
+		ctext "Women seated on steps at Atlanta University c. 1900" 70 20 1.5 "serif"
 	eslide
 
 	// 1900 venue
@@ -357,6 +356,7 @@ deck
 		image "images/note25.png"               80 45 ims 0 100 slink25
 	eslide
 
+	include "recreate.dsh"
 
 	// Links
 	slide bgcolor fgcolor
@@ -406,8 +406,6 @@ deck
 		text lk7 ll ly ls "mono" linkcolor 100 lk7		
 	eslide
 
-
-
 	// Business Card
     mx=25         // midpoint
     tx=62         // text left
@@ -421,7 +419,5 @@ deck
 	ims3=ims2/4
 
 	include "bizcard.dsh"
-
-
 
 edeck
