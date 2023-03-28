@@ -248,6 +248,20 @@ deck
 		image "images/gh02.png" 74 45 50 0 100 chlink
 	eslide
 
+	// Venues
+	slide bgcolor fgcolor
+		ctext "The Venues" tx ty ts
+		ctext "Twitter"    12 80 2
+		ctext "LinkedIn"   31 80 2
+		ctext "DVS Slack"  56 80 2
+		ctext "Mastodon"   85 80 2
+		image "images/note14.png"          10 45 20 0
+		image "images/linkedin-post00.png" 31 45 22 0
+		image "images/dvs-slack.png"       56 45 26 0
+		image "images/mastodon-post05.png" 85 45 32 0
+	eslide
+
+
 	slide bgcolor fgcolor
 		ctext "The Announcement" mx ty ts
 		image "images/intro00.png" 50 45 50 0 100 ilink00
@@ -367,7 +381,17 @@ deck
 		image "images/note25.png"               80 45 ims 0 100 slink25
 	eslide
 
-	include "recreate.dsh"
+	slide bgcolor fgcolor
+		ctext "Tools Used" tx ty ts
+		image "images/R-logo.png"       30 50 20 0 100 "https://www.r-project.org/"
+		image "images/tidyverse.png"    30 65 15 0 100 "https://www.tidyverse.org/"
+		image "images/ggplot-logo.png"  50 70 10 0 100 "https://ggplot2.tidyverse.org/"
+		image "images/tableau-logo.png" 60 50 30 0 100 "https://www.tableau.com/"
+		image "images/d3.png"           70 70 10 0 100 "https://d3js.org"
+		image "images/power-bi.png"     70 30 10 0 100 "https://powerbi.microsoft.com/en-us/"
+	eslide
+
+	//include "recreate.dsh"
 
 	// Links
 	slide bgcolor fgcolor
