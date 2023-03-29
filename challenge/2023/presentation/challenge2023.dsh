@@ -251,17 +251,25 @@ deck
 	// Venues
 	slide bgcolor fgcolor
 		ctext "The Venues" tx ty ts
-		ctext "Twitter"    12 80 2
-		ctext "LinkedIn"   31 80 2
-		ctext "DVS Slack"  56 80 2
-		ctext "Mastodon"   85 80 2
-		image "images/note14.png"          10 45 20 0
-		image "images/linkedin-post00.png" 31 45 22 0
-		image "images/dvs-slack.png"       56 45 26 0
-		image "images/mastodon-post05.png" 85 45 32 0
+		vly=82
+		ctext "Twitter"    12    vly 2
+		ctext "LinkedIn"   31.5  vly 2
+		ctext "DVS Slack"  56    vly 2
+		ctext "Mastodon"   85    vly 2
+		vly-=6
+		image "images/twitter-logo.png"    12    vly 4 0
+		image "images/linkedin-logo.png"   31.5  vly 4 0
+		image "images/slack-logo.png"      56    vly 4 0
+		image "images/mastodon-logo.jpg"   85    vly 4 0
+
+		vly-=35
+		image "images/note14.png"          10     vly 20 0
+		image "images/linkedin-post00.png" 31.5   vly 22 0
+		image "images/dvs-slack.png"       56     vly 26 0
+		image "images/mastodon-post05.png" 85     vly 31 0
 	eslide
 
-
+	// Twitter Announcement
 	slide bgcolor fgcolor
 		ctext "The Announcement" mx ty ts
 		image "images/intro00.png" 50 45 50 0 100 ilink00
@@ -381,6 +389,7 @@ deck
 		image "images/note25.png"               80 45 ims 0 100 slink25
 	eslide
 
+	// Tools
 	slide bgcolor fgcolor
 		ctext "Tools Used" tx ty ts
 		image "images/R-logo.png"       30 50 20 0 100 "https://www.r-project.org/"
