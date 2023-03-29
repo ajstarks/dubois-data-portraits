@@ -108,7 +108,7 @@ deck
 		ctext "…and Atlanta Universty" mid ty ts
 		image "images/au-debating-team-1900.jpg"  25 50 700 563
 		ctext "Atlanta University Debating Team, c. 1900" 25 20 1.5 "serif"
-		image "images/au-women.jpg"  70 50 916 594 94
+		image "images/au-women01.jpg"  70 50 916 594 94
 		ctext "Women seated on steps at Atlanta University c. 1900" 70 20 1.5 "serif"
 	eslide
 
