@@ -44,6 +44,7 @@ deck
 	slink24="https://twitter.com/stepminer2/status/1630178321471270914"
 	slink25="https://twitter.com/ItsElisaDavis/status/1631035439040851968"
 	slink26="https://twitter.com/NYCapricorn/status/1637666483072270337"
+	slink27="https://twitter.com/gzanlorenssi/status/1625165642784509953"
 
 	ilink00="https://twitter.com/ajstarks/status/1622587992710737920"
 	ilink01="https://twitter.com/ajstarks/status/1622588393619087361"
@@ -392,12 +393,14 @@ deck
 	// Tools
 	slide bgcolor fgcolor
 		ctext "Tools Used" tx ty ts
-		image "images/R-logo.png"       30 50 20 0 100 "https://www.r-project.org/"
-		image "images/tidyverse.png"    30 65 15 0 100 "https://www.tidyverse.org/"
+		image "images/R-logo.png"       30 60 15 0 100 "https://www.r-project.org/"
+		//image "images/tidyverse.png"    30 65 15 0 100 "https://www.tidyverse.org/"
 		image "images/ggplot-logo.png"  50 70 10 0 100 "https://ggplot2.tidyverse.org/"
 		image "images/tableau-logo.png" 60 50 30 0 100 "https://www.tableau.com/"
 		image "images/d3.png"           70 70 10 0 100 "https://d3js.org"
 		image "images/power-bi.png"     70 30 10 0 100 "https://powerbi.microsoft.com/en-us/"
+		image "images/python-logo.png"  30 25 15 0 100 "https://python.org"
+		image "images/ai.png"           50 25 7 0 100 "https://www.adobe.com/products/illustrator.html"
 	eslide
 
 	//include "recreate.dsh"
