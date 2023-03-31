@@ -45,6 +45,7 @@ deck
 	slink25="https://twitter.com/ItsElisaDavis/status/1631035439040851968"
 	slink26="https://twitter.com/NYCapricorn/status/1637666483072270337"
 	slink27="https://twitter.com/gzanlorenssi/status/1625165642784509953"
+	slink28="https://twitter.com/UST_MSDS/status/1641879438160809991"
 
 	ilink00="https://twitter.com/ajstarks/status/1622587992710737920"
 	ilink01="https://twitter.com/ajstarks/status/1622588393619087361"
@@ -372,12 +373,11 @@ deck
 	// Applied Data Science at UST
 	slide  bgcolor fgcolor
 		ctext "Applied Data Science at UST (@UST_NSDS)" tx ty ts
-		ims=33
-		image "images/note09.png"   30 45 ims 0 100 slink09
-		text "Digital “Brush” Strokes" 50 44 3.5
-		line 50 46 40 55 0.1 "black"
-		line 50 46 40 46 0.1 "black"
-		line 50 46 25 25 0.1 "black"
+		ims=30
+		image "images/note09.png"   70 45 ims 0 100 slink09
+		image "images/note28.png"   30 40 45 0 100 slink28
+		text "Digital “Brush” Strokes" 30 5 2
+		
 	eslide
 
 	// Galleries
