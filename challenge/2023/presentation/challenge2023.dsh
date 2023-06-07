@@ -38,7 +38,7 @@ deck
 	slink18="https://twitter.com/stepminer2/status/1634695168573014018"
 	slink19="https://twitter.com/stepminer2/status/1634065057838518272"
 	slink20="https://twitter.com/IcaroBSC/status/1636375321523154945"
-	slink21="https://twitter.com/UST_MSDS/status/1632445855100796929"
+	slink21="https://twitter.com/stepminer2/status/1634552121272967175"
 	slink22="https://twitter.com/Arnold_Platon/status/1629147136829845505"
 	slink23="https://twitter.com/stepminer2/status/1634958192412340224"
 	slink24="https://twitter.com/stepminer2/status/1630178321471270914"
@@ -70,28 +70,29 @@ deck
 	fisk07="https://twitter.com/moore_of_trent/status/1628246132210925568"
 	fisk08="https://twitter.com/AGPanda_1/status/1628136056766795776"
 	fisk09="https://twitter.com/theteddydev/status/1627867091725430784"
-	fisk10="https://twitter.com/ayoohamzat/status/1627476096567414789"
-
 
 	// Title
 	slide bgcolor "white"
-		hline 0 2 100 6 "black" //20
+		hline 0 2 100 6 "black"
 		text "The #DuboisChallenge2023" 3 2 2.5 "sans"
 		etext "Anthony Starks" 97 2 1.5 "sans"
 		yp=75
-		ims=15
-		image "images/note08.png" 10 yp ims 0 100 slink08
-		image "images/note03.png" 30 yp ims 0 100 slink03
-		image "images/note06.png" 50 yp ims 0 100 slink06
-		image "images/note02.png" 70 yp ims 0 100 slink02
-		image "images/note09.png" 90 yp ims 0 100 slink09
+		ims=10
+		ims2=15
+		image "images/inote08.png" 10 yp ims2 0 100 slink08
+		image "images/inote03.jpg" 30 yp ims2 0 100 slink03
+		image "images/inote06.jpg" 50 yp ims2 0 100 slink06
+		image "images/inote02.jpg" 70 yp ims2 0 100 slink02
+		image "images/inote09.jpg" 90 yp ims2 0 100 slink09
 		yp-=47
-		image "images/note14.png" 10 yp ims 0 100 slink14
-		image "images/note11.png" 30 yp ims 0 100 slink11
-		image "images/note07.png" 50 yp ims 0 100 slink07
-		image "images/note18.png" 70 yp ims 0 100 slink18
-		image "images/note19.png" 90 yp ims 0 100 slink19
+		image "images/inote14.jpg" 10 yp ims2 0 100 slink14
+		image "images/inote11.jpg" 30 yp ims2 0 100 slink11
+		image "images/inote07.jpg" 50 yp ims2 0 100 slink07
+		image "images/inote18.jpg" 70 yp ims2 0 100 slink18
+		image "images/inote19.jpg" 90 yp ims2 0 100 slink19
+		grid "challgrid2023.dsh"  5 90 20 45 90
 	eslide
+
 	// TJ Calloway and Du Bois
 	//	The letter insists that, "thousands upon thousands will go [to the
 	// fair], and a well selected and prepared exhibit, representing the
@@ -137,7 +138,6 @@ deck
 	// the property and businesses of black citizens built up since the Civil War,  
 	// including the only black newspaper in the city, and killed an estimated 60 to 
 	// more than 300 people
-
 	balink="https://publicdomainreview.org/essay/black-america-1895"
 	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
 	phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
@@ -317,29 +317,22 @@ deck
 	// Fisk Students
 	slide bgcolor fgcolor
 		ctext "Fisk Students" tx ty ts
-		ims=10
+		ims=20
 		yp=45
-		image "images/fisk02.png" 15 75 ims 0 100 fisk02
-		image "images/fisk03.png" 15 55 ims 0 100 fisk03
-		image "images/fisk06.png" 15 35 ims 0 100 fisk06
-		image "images/fisk05.png" 15 10 ims 0 100 fisk05
-
-		image "images/fisk01.png" 50 yp  50 0 100 fisk01
-
-		image "images/fisk09.png" 85 75 ims 0 100 fisk09
-		image "images/fisk03.png" 85 55 ims 0 100 fisk03
-		image "images/fisk09.png" 85 35 ims 0 100 fisk09
-		image "images/fisk07.png" 85 15 ims 0 100 fisk07
+		image "images/fisk01.png"  27 yp  50 0 100 fisk01
+		image "images/ifisk06.jpg" 70 75 ims 0 100 fisk06
+		image "images/ifisk07.png" 85 55 ims 0 100 fisk07
+		image "images/ifisk04.png" 70 35 ims 0 100 fisk04
 	eslide
 
-	// Arnold Paton
+	// Arnold Platon
 	slide bgcolor fgcolor
 		ctext "Arnold Platon (@Arnold_Platon)" tx ty ts
 		ims=27
 		image "images/arnold_platon.jpg" 10 py 5 0
-		image "images/note11.png"   20 45 ims 0 100 slink11 
-		image "images/note22.png"   50 45 ims 0 100 slink22
-		image "images/note13.png"   80 45 ims 0 100 slink13
+		image "images/inote11.jpg"   20 45 ims 0 100 slink11 
+		image "images/inote22.jpg"   50 45 ims 0 100 slink22
+		image "images/inote13a.jpg"   80 45 ims 0 100 slink13
 	eslide
 
 	// Ícaro Bernardes
@@ -347,9 +340,9 @@ deck
 		ctext "Ícaro Bernardes (@IcaroBSC)" tx ty ts
 		ims=27
 		image "images/icarobsc.jpg" 15 py 5 0
-		image "images/note10.png"   20 45 ims 0 100 slink10 
-		image "images/note14.png"   50 45 ims 0 100 slink14 
-		image "images/note15.png"   80 45 ims 0 100 slink15
+		image "images/inote10.jpg"   20 45 ims 0 100 slink10 
+		image "images/inote14.jpg"   50 45 ims 0 100 slink14 
+		image "images/inote15.jpg"   80 45 ims 0 100 slink15
 	eslide
 
 	// 725Nemeed
@@ -357,9 +350,9 @@ deck
 		ctext "Hemeed (@725Hemeed)" tx ty ts
 		ims=27
 		image "images/725hemeed.jpg" 20 py 5 0
-		image "images/note04.png"   20 45 ims 0 100 slink04
-		image "images/note02.png"   50 45 ims 0 100 slink02 
-		image "images/note17.png"   80 45 ims 0 100 slink17
+		image "images/inote04.jpg"   20 45 ims 0 100 slink04
+		image "images/inote02.jpg"   50 45 ims 0 100 slink02 
+		image "images/inote17.jpg"   80 45 ims 0 100 slink17
 	eslide
 
 	// Patrick Stephenson
@@ -367,18 +360,19 @@ deck
 		ctext "Patrick Stephenson (@stepminer2)" tx ty ts
 		ims=27
 		image "images/stepminer2.jpg" 7 py 5 0
-		image "images/note21.png"   20 45 ims 0 100 slink21
-		image "images/note18.png"   50 45 ims 0 100 slink18 
-		image "images/note24.png"   80 45 ims 0 100 slink24
+		image "images/inote21.jpg"   20 45 ims 0 100 slink21
+		image "images/inote18.jpg"   50 45 ims 0 100 slink18 
+		image "images/inote24.jpg"   80 45 ims 0 100 slink24
 	eslide
 
 	// Applied Data Science at UST
 	slide  bgcolor fgcolor
 		ctext "Applied Data Science at UST (@UST_NSDS)" tx ty ts
-		ims=30
-		image "images/note09.png"   70 45 ims 0 100 slink09
-		image "images/note28.png"   30 40 45 0 100 slink28
-		text "Digital “Brush” Strokes" 30 5 2
+		ims=25
+		image "images/inote09.png"   20 45 ims 0 100 slink09
+		image "images/inote09a.jpg"  50 45 ims 0 100 slink09
+		image "images/inote28.jpg"   80 45 30 0 100 slink28
+		ctext "Digital “Brush” Strokes" 50 5 2
 		
 	eslide
 
@@ -387,9 +381,12 @@ deck
 		ctext "Galleries" tx ty ts
 		ims=27
 		gly=82
-		image "images/note16.png"               20 45 ims 0 100 slink16
-		image "images/note26.png"               50 45 ims 0 100 slink26
-		image "images/note25.png"               80 45 ims 0 100 slink25
+		cimage "images/blu7ip.jpg" "@blu7ip"              20 80 5 0
+		cimage "images/nycapricorn.jpg" "@NYCapricorn"    50 80 5 0
+		cimage "images/itselisadavis.jpg" "@ItsElisaDavis" 80 80 5 0
+		image "images/inote16.jpg"               20 40 ims 0 100 slink16
+		image "images/inote26.png"               50 40 ims 0 100 slink26
+		image "images/inote25.jpg"               80 40 ims 0 100 slink25
 	eslide
 
 	// Icaro gallery
@@ -401,7 +398,6 @@ deck
 		image "images/igallery06.png"           50 50 ims 0 100 iglink
 		image "images/igallery07.png"           83 50 ims 0 100 iglink
 	eslide
-
 
 	// Tools
 	slide bgcolor fgcolor
@@ -415,6 +411,7 @@ deck
 		image "images/ai.png"           50 25 7 0 100 "https://www.adobe.com/products/illustrator.html"
 	eslide
 
+	// Dashboard
 	slide bgcolor fgcolor
 		ctext "Dashboard" tx ty ts
 		image "images/dashboard.png"    50 45 75 0 100 "https://public.tableau.com/app/profile/chimdi.nwosu/viz/DuBoisChalllenge2023TwitterMetrics/DuBoisChallenge2023#1"
