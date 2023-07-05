@@ -138,14 +138,12 @@
 <ellipse xp="90" yp="30" wp="1" hr="100" color="maroon"/>
 </slide>
 <slide bg="linen" fg="black">
-<image name="images/plate38.png" xp="10" yp="73" width="2116" height="2688" scale="5"/>
-<image name="images/plate27.png" xp="10" yp="52" width="2116" height="2688" scale="5"/>
+<image name="images/plate38.png" xp="10" yp="70" width="2116" height="2688" scale="5"/>
+<image name="images/plate27.png" xp="10" yp="50" width="2116" height="2688" scale="5"/>
 <image name="images/plate22.png" xp="10" yp="30" width="2116" height="2688" scale="5"/>
-<list xp="15" yp="70" sp="6" font="sans" color="maroon">
-<li>We are here</li>
-<li>This is who we are</li>
-<li>This is how far we have come</li>
-</list>
+<text xp="15" yp="66" sp="6" font="sans" color="maroon">We are here</text>
+<text xp="15" yp="46" sp="6" font="sans" color="maroon">This is who we are</text>
+<text xp="15" yp="26" sp="6" font="sans" color="maroon">This is how far we have come</text>
 </slide>
 <slide bg="linen">
 <image name="images/expo0.png" xp="50" yp="50" width="1157" height="1525" scale="60"/>
