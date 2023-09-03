@@ -1,4 +1,4 @@
-# Ten Du Bois Visualizations for Consideration in STEM Education
+# Du Bois Visualizations for Consideration in STEM Education
 
 (Note that the plate numbers referenced below are from [W. E. B. Du Bois's Data Portraits: Visualizing Black America](https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america)
 
@@ -17,7 +17,7 @@ other expenses and giving. This visual is distinct in that it includes photograp
 
 This fanciful chart uses literal bags of cash to depict the amount of land owned by Black Georgians. Starting in 1875, the value increase over 3 times by the end of century to $4,220,120
 
-## Visual03 (plate 11)
+## Visual03 (plate 03)
 
 ![plate03](original-plate-03.jpg)
 
@@ -66,3 +66,21 @@ A trio of stacked bar charts in the vibrant Du Bois colors, shows the occupation
 
 Prior to the "Great Migration" that would begin in 1910, this map shows the places Georgia-born Black people migrated to, along with the migration of them to other parts of the country.
 
+
+## Visual11 (plate 2)
+
+![plate02](original-plate-02.jpg)
+
+A choropleth outlining the population of Black Americans, by state. Note the concentration in the South, with Georgia leading (750,000 or more).
+
+## Visual12 (plate 5)
+
+Another choropleth focusing on the Black population within the State of Georgia/
+
+![plate05](original-plate-05.jpg)
+
+## Visual13 (plate 7)
+
+Continuing the theme of using Georgia as a exemplar, this line graph shows the comparative increase of the Black and White population in Georgia.  This chart is notable in that it reverses the modern convention, using time for the Y-axis and the data for the X
+
+![plate07](original-plate-07.jpg)
