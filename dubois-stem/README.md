@@ -6,14 +6,13 @@
 
 ![plate31](original-plate-31.jpg)
 
-The horizontal stacked bar charts shows how various social-economic groups
+The horizontal stacked bar charts show how various economic groups
 spend their income among these categories: Rent, Food, Clothes, Taxes, and 
 other expenses and giving. This visual is distinct in that it includes photographs along with the chart.
 
 ## Visual02 (plate 18)
 
 ![plate18](original-plate-18.jpg)
-
 
 This fanciful chart uses literal bags of cash to depict the amount of land owned by Black Georgians. Starting in 1875, the value increase over 3 times by the end of century to $4,220,120
 
@@ -84,3 +83,9 @@ Another choropleth focusing on the Black population within the State of Georgia/
 Continuing the theme of using Georgia as a exemplar, this line graph shows the comparative increase of the Black and White population in Georgia.  This chart is notable in that it reverses the modern convention, using time for the Y-axis and the data for the X
 
 ![plate07](original-plate-07.jpg)
+
+## Visual14 (plate 10)
+
+The "Conjugal Condition" visual compares three groups (single, married, widowed and divorced), divided by age: (15-40, 40-80, and over 80) within two populations: Black Americans and the country of Germany.  The data is shown clearly using six proportional bar graphs in the red, yellow and green color scheme.
+
+![plate10](original-plate-10.jpg) 
