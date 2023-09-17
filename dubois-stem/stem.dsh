@@ -1,0 +1,109 @@
+deck
+	x=30
+	y=50
+	ims=55
+	tx=60
+	ty=70
+	tw=25
+	ts=2.0
+	ss=ts*3
+
+	slide
+		ctext "Du Bois Visuals for Consideration in STEM Education" 50 92 4
+
+		iy=75
+		ctext "Conventional Forms"	50 62 3
+		image "original-plate-03.jpg" 10 iy 10 0
+		image "original-plate-10.jpg" 30 iy 10 0
+		image "original-plate-43.jpg" 50 iy 10 0
+		image "original-plate-40.jpg" 70 iy 10 0
+		image "original-plate-07.jpg" 90 iy 10 0
+		iy-=25
+
+		ctext "Maps" 				50 37 3
+		image "original-plate-02.jpg" 10 iy 10 0
+		image "original-plate-05.jpg" 30 iy 10 0
+		image "original-plate-08.jpg" 50 iy 10 0
+		image "original-plate-38.jpg" 70 iy 10 0
+
+		iy-=25
+		ctext "Unique Visuals"       50 10 3
+		image "original-plate-18.jpg" 10 iy 10 0
+		image "original-plate-57.jpg" 30 iy 10 0
+		image "original-plate-27.jpg" 50 iy 10 0
+		image "original-plate-60.jpg" 70 iy 10 0
+		image "original-plate-31.jpg" 90 iy 10 0
+	eslide
+
+	// Conventionals
+	slide
+		ctext "Conventionals" 50 50 ss
+	eslide
+	slide
+		textblockfile "blurb-03.txt" tx ty tw ts
+		cimage "original-plate-03.jpg" "Plate 03" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-10.txt" tx ty tw ts
+		cimage "original-plate-10.jpg" "Plate 10" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-43.txt" tx ty tw ts
+		cimage "original-plate-43.jpg" "Plate 43" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-40.txt" tx ty tw ts
+		cimage "original-plate-40.jpg" "Plate 40" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-07.txt" tx ty tw ts
+		cimage "original-plate-07.jpg" "Plate 07" x y ims 0
+	eslide
+
+	// Maps
+	slide
+		ctext "Maps" 50 50 ss
+	eslide
+	slide
+		textblockfile "blurb-02.txt" tx ty tw ts
+		cimage "original-plate-02.jpg" "Plate 02" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-05.txt" tx ty tw ts
+		cimage "original-plate-05.jpg" "Plate 05" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-08.txt" tx ty tw ts
+		cimage "original-plate-08.jpg" "Plate 08" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-38.txt" tx ty tw ts
+		cimage "original-plate-38.jpg" "Plate 38" x y ims 0
+	eslide
+
+	// Uniques
+	slide
+		ctext "Uniques" 50 50 ss
+	eslide
+
+	slide
+		textblockfile "blurb-18.txt" tx ty tw ts
+		cimage "original-plate-18.jpg" "Plate 18" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-57.txt" tx ty tw ts
+		cimage "original-plate-57.jpg" "Plate 57" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-27.txt" tx ty tw ts
+		cimage "original-plate-27.jpg" "Plate 27" x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-60.txt" tx ty tw ts
+		cimage "original-plate-60.jpg" "Plate 60 " x y ims 0
+	eslide
+	slide
+		textblockfile "blurb-31.txt" tx ty tw ts
+		cimage "original-plate-31.jpg" "Plate 31" x y ims 0
+	eslide
+edeck
