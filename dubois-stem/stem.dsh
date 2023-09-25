@@ -21,10 +21,10 @@ deck
 		iy-=25
 
 		ctext "Maps" 				50 37 3
-		image "original-plate-02.jpg" 10 iy 10 0
-		image "original-plate-05.jpg" 30 iy 10 0
-		image "original-plate-08.jpg" 50 iy 10 0
-		image "original-plate-38.jpg" 70 iy 10 0
+		image "original-plate-02.jpg" 20 iy 10 0
+		image "original-plate-05.jpg" 40 iy 10 0
+		image "original-plate-08.jpg" 60 iy 10 0
+		image "original-plate-38.jpg" 80 iy 10 0
 
 		iy-=25
 		ctext "Unique Visuals"       50 10 3
