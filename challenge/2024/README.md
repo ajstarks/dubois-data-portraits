@@ -1,4 +1,4 @@
-# Du Bois Visualization Challenge: 2023
+# Du Bois Visualization Challenge: 2024
 
 ![challenge2024](challenge2024.png)
 
@@ -28,7 +28,7 @@ This year the theme for the challenge will be organized around the colors of the
 ### Green
 * [challenge07](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge07):  Illiteracy of the American Negro compared with other nations (plate 47)
 * [challenge08](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge08): The Rise of Negroes from Slavery to Freedom in One Generation (plate 50)
-* [challenge09](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2023/challenge09): Proportion of Freemen and Slaves  (plate 51)
+* [challenge09](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge09): Proportion of Freemen and Slaves  (plate 51)
 
 ### Combination
 * [challenge10](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge10): A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37)
