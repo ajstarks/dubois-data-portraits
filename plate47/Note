@@ -1,0 +1,20 @@
+This chart has no units, so extrapilating the illiteracy rate of Black
+Americans in the 1890 Census (56.8%, source "Excerpts are taken from
+Chapter 1 of 120 Years of American Education: A Statistical Portrait
+(Edited by Tom Snyder, National Center for Education Statistics,
+1993).", https://nces.ed.gov/naal/lit_history.asp).
+
+56.8% -- 8.8cm on the chart yields 6.45454 illitercy points/cm. by
+measuring the length of each bar (recorded in ill.d), you can compute
+the illteracy points:
+
+Romaine,72.9363
+Servie,72.2908
+Russie,72.2908
+"Negroes, U.S.A.",56.8
+Hongrie,55.509
+Italie,43.8909
+Autriche,34.8545
+Ireland,25.1727
+France,12.9091
+Suede,0.645454
