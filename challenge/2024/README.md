@@ -11,9 +11,26 @@ There is a folder for each challenge, which includes the images of the 1900 orig
 
 Note that for 2024, the challenge will occur on X (formally Twitter), Data Visualization Society Slack, Instagram, as well as Mastadon on vis.social.
 
-This year the theme for the challenge will be organized around the colors of the Pan African flag: Challenges 1-3: red, Challenges 4-6: black, Challenges 7-9: green, Challenge 10: a combination.
+## Prizes you could win
+
+As a bonus, share your work in the DVS Slack for a chance to win either a one-year DVS Membership (valued at $99) or a Nightingale Magazine (valued at $40).
+
+There are two awards you could win:
+
+1. Challenge Contributor: Submit your work in the #challenge-dubois channel to be entered into a raffle to win the prize
+
+2. Top Contributor: Awarded to whoever submits work in the #challenge-dubois channel for the most weeks (up to all 10) within the challenge period 
+
+
+
+Winners are announced at the end of the challenge.
+
+Note: you need to be a DVS Member to log into the DVS Slack. If you need assistance logging into Slack, contact assistant@datavisualizationsociety.org for support.
 
 ## The Challenges
+
+This year the theme for the challenge will be organized around the colors of the Pan African flag: Challenges 1-3: red, Challenges 4-6: black, Challenges 7-9: green, Challenge 10: a combination.
+
 
 ### Red
 * [challenge01](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge01): Negro Population of Georgia by Counties, 1870, 1880  (plate 06), February 5
