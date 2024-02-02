@@ -13,14 +13,13 @@ Note that for 2024, the challenge will occur on X (formally Twitter), Data Visua
 
 ## Prizes you could win
 
-As a bonus, share your work in the DVS Slack for a chance to win either a one-year DVS Membership (valued at $99) or a Nightingale Magazine (valued at $40).
+As a bonus, share your work in the [DVS Slack](https://www.datavisualizationsociety.org/slack-community?utm_source=github&utm_medium=website&utm_campaign=dubois-challenge-2024) for a chance to win either a one-year [DVS Membership](https://www.datavisualizationsociety.org/membership?utm_source=github&utm_medium=website&utm_campaign=dubois-challenge-2024) (valued at $99) or a [Nightingale Magazine](https://shop.datavisualizationsociety.org/) (valued at $40).
 
 There are two awards you could win:
 
-1. Challenge Contributor: Submit your work in the #challenge-dubois channel to be entered into a raffle to win the prize
+1. Challenge Contributor: Submit your work in the [#challenge-dubois channel](https://datavizsociety.slack.com/?redir=%2Farchives%2FC04N7FZ1S82%3Fname%3DC04N7FZ1S82) to be entered into a raffle to win the prize
 
-2. Top Contributor: Awarded to whoever submits work in the #challenge-dubois channel for the most weeks (up to all 10) within the challenge period 
-
+2. Top Contributor: Awarded to whoever submits work in the [#challenge-dubois channel](https://datavizsociety.slack.com/?redir=%2Farchives%2FC04N7FZ1S82%3Fname%3DC04N7FZ1S82) for the most weeks (up to all 10) within the challenge period 
 
 
 Winners are announced at the end of the challenge.
