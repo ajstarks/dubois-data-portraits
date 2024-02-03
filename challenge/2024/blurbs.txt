@@ -1,0 +1,42 @@
+challenge01 (plate 06)
+
+"Negro Population of Georgia by County", is a choropleth map with a alternating left-right pattern, comparing the population of Black Georgians in the years 1870 and 1890. Note the decrease of lightly populated areas, with the heavily populated areas in red shifting west.
+
+challenge02 (plate 12)
+
+"Slave and Free Negroes" is a vertical bar/area chart with a strong red/black color scheme that
+compares the population of free and enslaved Black people from 1790 to 1890. The chart depicts the rise of slavery, peaking in 1850, and a sudden burst of freedom at emancipation 1865.
+
+
+challenge03 (plate 19)
+
+"Acres of Land Owned by Negroes in Georgia" is a conventional bar chart with a twist. The chart shows the increase of land owned between 1874 (338,769 acres) and 1899 (1,023,741), with the red shape of the data echoing  the map of Georgia.
+
+challenge04 (plate 01)
+
+"The Georgia Negro, A Social Study" shows the transatlantic slave trade, with routes from Europe, Africa, the Americas and the Caribbean, highlighting Georgia. This visual contains Du Bois' famous assertion: "The problem of the 20th century is the problem of the color line"
+
+challenge05 (plate 13)
+
+"Race Amalgamation in Georgia" is a single bold monolith of a stacked bar chart, showing the ethnic make-up of people of color in Georgia, using literal colors to describe them (Black, Brown, and Yellow).
+
+challenge06 (plate 34)
+
+Continuing the theme from last week, "The Amalgamation of the White and Black Elements of population in the United States", the mountain-like area chart shows how the gradient of racial identities changed between 1800 and 1890.
+
+challenge07 (plate 47)
+
+Comparing the state of Black Americans with the larger world, "Illiteracy of American Negroes compared with that of other nations" shows Black American's illiteracy in red, in the middle of a sea of green, higher than countries like France, but better than others like Russia.
+
+challenge08 (plate 50)
+
+"The Rise of Negroes from Slavery to Freedom in One Generation", uses two stacked bars to show how a group of people, largely enslaved in 1860, transformed into a group where nearly one-fifth owned their own farms and homes in the face of discrimination, and without state aid.
+
+challenge09 (plate 51)
+
+With the green waters of Freedom plunging down a waterfall set on the dark base of slavery, "Proportion of Freeman and Slaves Among American Negroes" shows number of enslaved and free from 1790 to 1870.
+
+challenge10 (plate 37)
+
+Serving as the introductory display, this chart shows the full Du Bois color palette. The chart includes bi-lingual text, a map of the Black population in the US, and a familiar pie chart showing professions in the population.
+
