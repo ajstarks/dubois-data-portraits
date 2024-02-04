@@ -1,0 +1,3 @@
+The coordinate csv files (in the form of <county-name>-nn.csv) are long/lat (x,y) pairs of the polygons for each county.  Each county may have more than one file.
+
+The data1870.csv and data1880.csv are the population ranges for each county in their respective years.
