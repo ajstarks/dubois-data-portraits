@@ -1,0 +1,13 @@
+routes.csv outlines
+voyage_id,
+ship_name,
+port_origin,
+place_of_purchase,
+port_arrival,
+year_arrival,
+n_slaves_arrived,
+captains_name
+
+for the transatlantic slave trade.
+
+route-pairs.csv is a frequency count of source and destination.
