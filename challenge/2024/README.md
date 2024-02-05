@@ -9,7 +9,7 @@ the visualizations using modern tools of your choice (Tableau, R, ggplot, Stata,
 
 There is a folder for each challenge, which includes the images of the 1900 original plates along with the corresponding data. You may submit your re-creations to social media using the hash tag ```#DuBoisChallenge2024```. 
 
-Note that for 2024, the challenge will occur on X (formally Twitter), Data Visualization Society Slack, Instagram, as well as Mastadon on vis.social.
+Note that for 2024, the challenge will occur on X (formally Twitter), LinkedIn, Data Visualization Society Slack, Instagram, as well as Mastadon on vis.social.
 
 ## Prizes you could win
 
