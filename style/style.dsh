@@ -31,7 +31,7 @@ deck
 			li "Style Guide"
 		elist
 		text "Anthony Starks" 10 5 2 "sans" "rgb(127,0,0)" 100 "mailto:ajstarks@ajstarks.org"
-		etext "version 1.1 (2023-03-18)" 90 5 2 "sans"
+		etext "version 1.2 (2024-02-16)" 90 5 2 "sans"
 		image "images/original-plate-27.jpg" 50 45 60 0
 	eslide
 
@@ -275,7 +275,7 @@ deck
 			li "rgb(0,0,0)"
 			li "rgb(101,67,33)"
 			li "rgb(210,180,140)"
-			li "rgb(255,215,0"
+			li "rgb(255,215,0)"
 			li "rgb(255,192,203)"
 			li "rgb(220,20,60)"
 			li "rgb(0,128,0)"
