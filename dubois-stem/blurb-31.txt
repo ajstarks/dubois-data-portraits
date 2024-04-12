@@ -1,3 +1,0 @@
-The horizontal stacked bar charts shows how various economic groups
-spend their income among these categories: Rent, Food, Clothes, Taxes, and 
-other expenses and giving. This visual is distinct in that it includes photographs along with the chart.
