@@ -54,3 +54,27 @@ other expenses and giving. This visual is distinct in that it includes photograp
 
 The "Conjugal Condition" visual compares three groups (single, married, widowed and divorced), divided by age: (15-40, 40-80, and over 80) within two populations: Black Americans and the country of Germany.  The data is shown clearly using six proportional bar graphs in the red, yellow and green color scheme.
 
+## Figure 9: Bar/Spiral chart
+Uses color and contrasting lengths to highlight quantitative demographic differences.
+![plate11](original-plate-11.jpg)
+
+## Figure 10: Bar Chart
+"Acres of Land Owned by Negroes in Georgia" is a conventional bar chart with a twist. The chart shows the increase of land owned between 1874 (338,769 acres) and 1899 (1,023,741), with the red shape of the data echoing the map of Georgia.  
+
+![plate19](original-plate-19.jpg)
+
+## Figure 11: County-level Choropleth
+Echoing the previous chart, this map shows land owned by the formally enslaved over three decades post-emancipation.
+
+![plate20](original-plate-20.jpg)
+
+## Figure 12: Spiral Chart
+"Assessed Value of Household and Kitchen Furniture Owned by Georgia Negroes" uses the spiral form to emphasize the gains in material goods over a quarter century.
+
+![plate25](original-plate-25.jpg)
+
+## References
+
+[Du Bois Visualization Style Guide](https://github.com/ajstarks/dubois-data-portraits/blob/master/style/dubois-style.pdf)
+
+
