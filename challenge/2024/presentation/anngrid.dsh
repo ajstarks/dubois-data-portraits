@@ -1,0 +1,10 @@
+image "images/announce01.png" x y ims 0 100 announce01URL
+image "images/announce02.png" x y ims 0 100 announce02URL
+image "images/announce03.png" x y ims 0 100 announce03URL
+image "images/announce04.png" x y ims 0 100 announce04URL
+image "images/announce05.png" x y ims 0 100 announce05URL
+image "images/announce06.png" x y ims 0 100 announce06URL
+image "images/announce07.png" x y ims 0 100 announce07URL
+image "images/announce08.png" x y ims 0 100 announce08URL
+image "images/announce09.png" x y ims 0 100 announce09URL
+image "images/announce10.png" x y ims 0 100 announce10URL

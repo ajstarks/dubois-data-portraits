@@ -1,0 +1,221 @@
+deck
+	bgcolor="linen"
+	fgcolor="black"
+	mid=50
+	tx=50
+	sx=50
+	sy=60
+	ty=92
+	ts=4
+	ss=ts*1.2
+
+	// Sample entries per week
+	week01URL="https://twitter.com/genetis/status/1765129190456889832"
+	week01aURL="https://twitter.com/munozdataviz/status/1766848327776084297"
+	week02URL="https://twitter.com/paulisDataViz/status/1759545192946729354"
+	week03URL="https://twitter.com/im_akeelah/status/1759635060108456241"
+	week04URL="https://twitter.com/TomFevrier/status/1768652333540376621"
+	week05URL="https://twitter.com/doullaGado/status/1766048107999973623"
+	week06URL="https://twitter.com/UST_MSDS/status/1768349972913598896"
+	week07URL="https://twitter.com/Cyd_yzc/status/1770774057203503366"
+	week08URL="https://twitter.com/IsinKosemen/status/1774654919401738513"
+	week09URL="https://twitter.com/EleonoreMayola/status/1775512396460622217"
+	week10URL="https://twitter.com/EleonoreMayola/status/1778431026311655571"
+
+	recapURL="https://twitter.com/ajstarks/status/1774740831145963921"
+
+	// red,green,black
+	redURL="https://twitter.com/EleonoreMayola/status/1762056426426454292"
+	greenURL="https://twitter.com/EleonoreMayola/status/1777297733864333428"
+	blackURL="https://twitter.com/EleonoreMayola/status/1770745691381391394"
+	greenURL="https://twitter.com/EleonoreMayola/status/1777297733864333428"
+	blog01URL="https://nightingaledvs.com/recreating-historical-dataviz-three-tricks-i-learned-in-the-du-bois-data-visualization-challenge/"
+	blog03URL="https://www.edriessen.com/2024/02/07/developing-du-boiss-data-portraits-with-python-and-matplotlib/"
+	linkedinURL="https://www.linkedin.com/feed/hashtag/?keywords=duboischallenge2024"
+
+	// Collections
+	collectionURL="https://twitter.com/fredffery/status/1777960232892899681"
+	collection01URL="https://public.tableau.com/app/profile/faith5698/viz/W_E_B_DuBoisPortraitGalleryDuboisChallenge2024/GalleryWall"
+	collection02URL="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2024Gallery/W_E_BDuBoisChallenge2024Gallery"
+	collection03URL="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoisChallenge2024-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2024"
+	camaalPromise="https://camaalmoten.com/tomorrows-promise/"
+
+	annthread="https://twitter.com/ajstarks/status/1754494660150468670"
+
+	// Starks announcements
+	announce10URL="https://twitter.com/ajstarks/status/1777303572113248607"
+	announce09URL="https://twitter.com/ajstarks/status/1774740831145963921"
+	announce08URL="https://twitter.com/ajstarks/status/1772244446622491087"
+	announce07URL="https://twitter.com/ajstarks/status/1769686167857906022"
+	announce06URL="https://twitter.com/ajstarks/status/1767165205094552018"
+	announce05URL="https://twitter.com/ajstarks/status/1764620052035260419"
+	announce04URL="https://twitter.com/ajstarks/status/1762093717014356317"
+	announce03URL="https://twitter.com/ajstarks/status/1759576757978493217"
+	announce02URL="https://twitter.com/ajstarks/status/1757028341352128623"
+	announce01URL="https://twitter.com/ajstarks/status/1754498472210821165"
+
+	// dvs announcements
+	dvsann08URL="https://twitter.com/DataVizSociety/status/1772367901003075754"
+	dvsann09URL="https://twitter.com/DataVizSociety/status/1774874451638690059"
+	dvsann10URL="https://twitter.com/DataVizSociety/status/1777305538595856888"
+	dvsann07URL="https://twitter.com/DataVizSociety/status/1769740590403526785"
+	dvsann06URL="https://twitter.com/DataVizSociety/status/1767068226570072150"
+	dvsann05URL="https://twitter.com/DataVizSociety/status/1764743192052666726"
+	dvsann04URL="https://twitter.com/DataVizSociety/status/1762070053229314556"
+	dvsann03URL="https://twitter.com/DataVizSociety/status/1759654356071207068"
+	dvsann02URL="https://twitter.com/DataVizSociety/status/1757042359622046151"
+	dvsann01URL="https://twitter.com/DataVizSociety/status/1754641168019693935"
+
+
+	slide bgcolor fgcolor
+		vline 2 0 100 10 "black"
+		rtext "Du Bois Challenge 2024" 5 15 90  4 "sans" "white"
+		vline 33.3 0 100 2 "crimson"
+		ims=13
+		c1=20
+		c2=100-c1
+		image "images/original-plate-06.jpg"	c1 83 ims 0
+		image "images/original-plate-12.jpg"	c1 50 ims 0
+		image "images/original-plate-19.jpg"	c1 17 ims 0
+
+		vline 66.6 0 100 2 "black"
+		image "images/original-plate-01.jpg"	50 83 ims 0
+		image "images/original-plate-13.jpg"	50 50 ims 0
+		image "images/original-plate-54.jpg"	50 17 ims 0
+		
+		vline 99 0 100 2 "green"
+		image "images/original-plate-47.jpg"	c2 83 ims 0
+		image "images/original-plate-50.jpg"	c2 50 ims 0
+		image "images/original-plate-51.jpg"	c2 17 ims 0
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Du Bois Challenge 2024" tx ty ts
+		ims=15
+		grid "chgrid.dsh" 10 68 20 45 90
+		ims=5
+		grid "orig-grid.dsh" 3 82 20 45 90
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Originals" tx ty ts
+		ims=15
+		grid "orig-grid.dsh" 10 67 20 42 90
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Announcement Thread" tx ty ts
+		ims=10
+		image "images/thread00.png" 50 57 30 0
+		grid  "threadgrid.dsh" 		5 15 10 10 98
+		
+		for thx=5 95 10
+			circle thx 2.5 1
+		efor
+
+		for thx=5 95 2
+			circle thx 2.5 0.3
+		efor
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Announcements" tx ty ts
+		ims=15
+		grid "anngrid.dsh" 10 67 20 42 90
+	eslide
+
+
+	slide bgcolor fgcolor
+		ctext "DVS Announcements" tx ty ts
+		ims=15
+		grid "dvsanngrid.dsh" 10 67 20 42 90
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Sample Entries" tx ty ts
+		ims=15
+		grid "chgrid.dsh" 10 67 20 45 90
+	eslide
+
+	slide bgcolor fgcolor
+		ims=30
+		ctext "Red, Black, and Green" tx ty ts
+		image "images/red.png"		18 46 ims 0 100 redURL
+		image "images/black.png"	50 45 ims 0 100 blackURL
+		image "images/green.png"	82 48 ims 0 100 greenURL
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Linkedin" tx ty ts
+		ims=17
+		imy=mid-5
+		image "images/linkedin01.png" 10 imy ims 0 100 linkedinURL
+		image "images/linkedin02.png" 30 imy ims 0 100 linkedinURL
+		image "images/linkedin03.png" 50 imy ims 0 100 linkedinURL
+		image "images/linkedin04.png" 70 imy ims 0 100 linkedinURL
+		image "images/linkedin06.png" 90 imy ims 0 100 linkedinURL
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "DVS Slack" tx ty ts
+		ims=35
+		imy=mid-5
+		image "images/dvs-slack01.png" 25 imy ims 0
+		image "images/dvs-slack02.png" 45 imy ims 0
+		image "images/dvs-slack03.png" 65 imy ims 0
+		image "images/dvs-slack04.png" 85 imy ims 0
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Camaal Moten on DVS Slack" tx ty ts
+		ims=65
+		imy=mid-5
+		image "images/dvs-slack10.png" 50 imy ims 0 100 linkedinURL
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Collections" tx ty ts
+		ims=70
+		image "images/collection01.png"	50 45 ims 0 100 collection01URL
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Follow up Blogs" tx ty ts
+		ims=42
+		image "images/blog01.png" 25 imy ims 0 100 blog01URL
+		image "images/blog03.png" 75 imy 36  0 100 blog03URL
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Tomorrow's Promise" tx ty ts
+		ims=20
+		image "images/camaal01.png" 30 45 55  0 100 camaalPromise
+		image "images/camaal08.png" 68 60 ims 0 100 camaalPromise
+		image "images/camaal02.png" 87 60 ims 0 100 camaalPromise
+		image "images/camaal03.png" 68 30 ims 0 100 camaalPromise
+		image "images/camaal05.png" 87 30 ims 0 100 camaalPromise
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Variations" tx ty ts
+		ims=12
+		imy=75
+		image "images/week01-04.jpg" 30 imy ims 0
+		image "images/week01-02.jpg" 40 imy ims 0
+		image "images/week01-03.jpg" 50 imy ims 0
+		image "images/week01-07.png" 60 imy ims 0
+
+		imy-=30
+		image "images/week02-01.jpg" 30 imy ims 0
+		image "images/week02-02.jpg" 40 imy ims 0
+		image "images/week02-03.png" 50 imy ims 0
+		image "images/week02-04.jpg" 60 imy ims 0
+
+		imy-=30
+		image "images/week04-01.jpg" 30 imy ims 0
+		image "images/week04-03.png" 40 imy ims 0
+		image "images/week04-05.png" 50 imy ims 0
+		image "images/week04-06.png" 60 imy ims 0
+
+	eslide
+edeck

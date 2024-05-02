@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh dc2024.dsh|pdfdeck -stdout -pagesize 1920x1080 - > dc2024.pdf
