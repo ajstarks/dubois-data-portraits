@@ -240,6 +240,23 @@ deck
 		polygon "55 55 68 68" "40 65 95 5" "gray" 20
 	eslide
 
+
+	// entries
+	slide bgcolor fgcolor
+		ctext "Du Bois Challenge 2024" tx ty ts
+		ims=15
+		grid "chgrid.dsh" 10 68 20 45 90
+		ims=5
+		grid "orig-grid.dsh" 3 82 20 45 90
+	eslide
+
+	// originals
+	slide bgcolor fgcolor
+		ctext "Originals" tx ty ts
+		ims=15
+		grid "orig-grid.dsh" 10 67 20 42 90
+	eslide
+
 	// github
     ts=4.5
 	slide bgcolor fgcolor
@@ -267,22 +284,6 @@ deck
 		image "images/linkedin02.png"      31.5   vly 12 0
 		image "images/dvs-slack08.png"     56     vly 26 0
 		image "images/mastodon01.png"      85     vly 20 0
-	eslide
-
-	// entries
-	slide bgcolor fgcolor
-		ctext "Du Bois Challenge 2024" tx ty ts
-		ims=15
-		grid "chgrid.dsh" 10 68 20 45 90
-		ims=5
-		grid "orig-grid.dsh" 3 82 20 45 90
-	eslide
-
-	// originals
-	slide bgcolor fgcolor
-		ctext "Originals" tx ty ts
-		ims=15
-		grid "orig-grid.dsh" 10 67 20 42 90
 	eslide
 
 	// Announcement thread
@@ -345,12 +346,7 @@ deck
 		grid "dvsanngrid.dsh" 10 67 20 42 90
 	eslide
 
-	// Sample entries
-	slide bgcolor fgcolor
-		ctext "Sample Entries" tx ty ts
-		ims=15
-		grid "chgrid.dsh" 10 67 20 45 90
-	eslide
+
 
 	// red, black, and green
 	slide bgcolor fgcolor
@@ -359,6 +355,13 @@ deck
 		image "images/red.png"		18 46 ims 0 100 redURL
 		image "images/black.png"	50 45 ims 0 100 blackURL
 		image "images/green.png"	82 48 ims 0 100 greenURL
+	eslide
+
+	// Twitter Sample entries
+	slide bgcolor fgcolor
+		ctext "Twitter (X) Sample Entries" tx ty ts
+		ims=15
+		grid "chgrid.dsh" 10 67 20 45 90
 	eslide
 
 	// linkedin
@@ -454,7 +457,6 @@ deck
 		ims=7
 		grid "toolgrid.dsh" 15 75 15 20 90
 	eslide
-
 
 	// Business Card
     mx=25         // midpoint
