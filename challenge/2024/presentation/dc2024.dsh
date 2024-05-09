@@ -66,10 +66,13 @@ deck
 	dvsann02URL="https://twitter.com/DataVizSociety/status/1757042359622046151"
 	dvsann01URL="https://twitter.com/DataVizSociety/status/1754641168019693935"
 
+	ghlink01="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md"
+	ghlink02="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge02"
+
 
 	slide bgcolor fgcolor
 		vline 2 0 100 10 "black"
-		rtext "Du Bois Challenge 2024" 5 15 90  4 "sans" "white"
+		rtext "Du Bois Challenge 2024" 5 12 90  4 "sans" "white"
 		vline 33.3 0 100 2 "crimson"
 		ims=13
 		c1=20
@@ -89,6 +92,184 @@ deck
 		image "images/original-plate-51.jpg"	c2 17 ims 0
 	eslide
 
+
+	// TJ Calloway and Du Bois
+	//	The letter insists that, "thousands upon thousands will go [to the
+	// fair], and a well selected and prepared exhibit, representing the
+	// Negro's development in his churches, his schools, his homes, his
+	// farms, his stores, his professions and pursuits in general will
+	// attract attention... and do a great and lasting good in convincing
+	// thinking people of the possibilities of the Negro." 
+	slide bgcolor fgcolor
+		ctext "In 1900, it began with them…" mid ty ts
+		image "images/TJCalloway.jpg"  30 47 30 0
+		image "images/dubois-1900.png" 70 47 32 0
+		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
+		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
+	eslide
+
+	// Atlanta University
+	slide bgcolor fgcolor
+		ctext "…and Atlanta Universty" mid ty ts
+		image "images/au-debating-team-1900.jpg"  25 50 700 563
+		ctext "Atlanta University Debating Team, c. 1900" 25 20 1.5 "serif"
+		image "images/au-women01.jpg"  70 50 916 594 94
+		ctext "Women seated on steps at Atlanta University c. 1900" 70 20 1.5 "serif"
+	eslide
+
+	// 1900 venue
+	slide bgcolor fgcolor
+		ctext "Paris 1900" tx ty ts
+		image "images/paris-expo.jpg"            50 50 1447 998 60
+		image "images/expo-poster.jpg"           15 50 431 600
+		image "images/expo0.png"                 86 50 1157 1525 40
+	eslide
+
+	// Purpose and messages
+	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
+	// During the 1880s and 1890s, instances of lethal mob violence increased steadily, 
+	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. 
+	// Between 1890 and 1900 Georgia averaged more than one mob killing per month.
+
+	// In 1898 the duly elected people in Wilmington NC was violently overthrown by whites.
+	// The coup occurred after the state's white Southern Democrats conspired and led a mob of 
+	// 2,000 white men to overthrow the legitimately-elected local Fusionist government. 
+	// They expelled opposition black and white political leaders from the city, destroyed 
+	// the property and businesses of black citizens built up since the Civil War,  
+	// including the only black newspaper in the city, and killed an estimated 60 to 
+	// more than 300 people
+	balink="https://publicdomainreview.org/essay/black-america-1895"
+	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+	phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+	wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+	moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+	expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+
+	slide bgcolor fgcolor
+		dy=30
+		ny=dy+3
+		dimy=dy+20
+		dly=dy-5
+		
+		dminx=10
+		dmaxx=100-dminx
+		datemin=1895
+		datemax=1900
+		p1=vmap 1895 datemin datemax dminx dmaxx
+		p1a=vmap 1896 datemin datemax dminx dmaxx
+		p2=vmap 1897 datemin datemax dminx dmaxx
+		p3=vmap 1898 datemin datemax dminx dmaxx
+		p4=vmap 1899 datemin datemax dminx dmaxx
+		p5=vmap 1900 datemin datemax dminx dmaxx
+
+		dls=2
+		ctext "Historical Context" tx ty ts
+		ctext "1895" p1 dly dls 
+		ctext "1896" p1a dly dls
+		ctext "1897" p2 dly dls
+		ctext "1898" p3 dly dls
+		ctext "1899" p4 dly dls
+		ctext "1900" p5 dly dls "sans" "maroon"
+
+		dls=1.5
+		ctext "“Black America” Fair"             p1 ny dls "serif" fgcolor 100 balink
+		ctext "Plessy v. Ferguson"               p1a ny dls "serif" fgcolor 100 plessylink
+		ctext "Phila. Negro begins"              p2 ny dls "serif" fgcolor 100 phillylink
+		ctext "Wilmington Overthrow"             p3 ny dls "serif" fgcolor 100 wilmlink
+		ctext "Lynchings Peak"                   p4 ny dls "serif" fgcolor 100 moblink
+		ctext "Paris Exposition"                 p5 ny dls "serif" fgcolor 100 expolink
+
+		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30 balink
+		image "images/homer-plessy.jpg"          p1a dimy 295 350 75 plessylink
+		image "images/philly12.png"              p2 dimy 1112 930 28 phillylink
+		image "images/white-mans-day.jpg"        p3 dimy 654 658 40 wilmlink
+		image "images/mob.jpg"                   p4 dimy 640 512 45 moblink
+		image "images/expo.jpg"                  p5 dimy 739 1024 25 expolink
+
+		// timeline
+		line dminx dy dmaxx dy 0.5 "gray" 50
+		circle p1 dy 1 "maroon"
+		circle p1a dy 1 "maroon"
+		circle p2 dy 1 "maroon"
+		circle p3 dy 1 "maroon"
+		circle p4 dy 1 "maroon"
+		circle p5 dy 1 "maroon"
+	eslide
+
+	// Messages
+	slide bgcolor fgcolor
+		imw=2116
+		imh=2688
+		image "images/plate38.png" 10 70 imw imh 5
+		image "images/plate27.png" 10 50 imw imh 5
+		image "images/plate22.png" 10 30 imw imh 5
+		text  "We are here"        15 66 6 "sans" "maroon"
+		text  "This is who we are" 15 46 6 "sans" "maroon"
+		text  "This is how far we have come" 15 26 6 "sans" "maroon"
+	eslide
+
+	// Starks, 2019
+	slide bgcolor "#aa0000"
+		image "images/full-catalog.png" 50 50 100 0
+		ctext "2019: Starks re-creations" 85 10 2
+	eslide
+
+	// Allen and Sekou
+	slide bgcolor fgcolor
+		ctext "In 2021, it began with them" mid ty ts
+		image "images/allen.png"              30 47 30 0
+		image "images/sekou0.png"             70 47 32 0
+		ctext "Allen Hillery (@AlDataVizGuy)" 30 3 2 "serif" "" 100 "https://twitter.com/AlDatavizguy" 
+		ctext "Sekou Tyler (@sqlsekou)"       70 3 2 "serif" "" 100 "https://twitter.com/sqlsekou"
+	eslide
+
+	// Modern venue
+	slide bgcolor fgcolor
+		megax=75
+		text "Now: Modern Megaphone" 10 ty ts
+		etext "Your Message" 33 50 3
+		image "images/megaphone01.png"           45 50 30 0
+		image "images/twitter-logo.png"          megax 85 10 0
+		image "images/instagram-logo.jpg"        megax 60 10 0
+		image "images/youtube-logo.png"          megax 40 10 0
+		image "images/zoom-logo.png"             megax 20 15 0
+		megax+=15
+		image "images/mastodon-logo.jpg"         megax 75 7 0
+		image "images/linkedin-logo.png"         megax 50 7 0
+		image "images/slack-logo.png"            megax 25 7 0
+		polygon "55 55 68 68" "40 65 95 5" "gray" 20
+	eslide
+
+	// github
+    ts=4.5
+	slide bgcolor fgcolor
+		ctext "Using github" tx ty ts
+		image "images/gh01.png" 24 45 45 0 100 ghlink01
+		image "images/gh02.png" 74 45 50 0 100 ghlink02
+	eslide
+
+	// Venues
+	slide bgcolor fgcolor
+		ctext "The Venues" tx ty ts
+		vly=82
+		ctext "Twitter"    12    vly 2
+		ctext "LinkedIn"   31.5  vly 2
+		ctext "DVS Slack"  56    vly 2
+		ctext "Mastodon"   85    vly 2
+		vly-=6
+		image "images/twitter-logo.png"    12    vly 4 0
+		image "images/linkedin-logo.png"   31.5  vly 4 0
+		image "images/slack-logo.png"      56    vly 4 0
+		image "images/mastodon-logo.jpg"   85    vly 4 0
+
+		vly-=35
+		image "images/week1b.png"          12     vly 20 0
+		image "images/linkedin02.png"      31.5   vly 12 0
+		image "images/dvs-slack08.png"     56     vly 26 0
+		image "images/mastodon01.png"      85     vly 20 0
+	eslide
+
+	// entries
 	slide bgcolor fgcolor
 		ctext "Du Bois Challenge 2024" tx ty ts
 		ims=15
@@ -97,26 +278,59 @@ deck
 		grid "orig-grid.dsh" 3 82 20 45 90
 	eslide
 
+	// originals
 	slide bgcolor fgcolor
 		ctext "Originals" tx ty ts
 		ims=15
 		grid "orig-grid.dsh" 10 67 20 42 90
 	eslide
 
+	// Announcement thread
 	slide bgcolor fgcolor
-		ctext "Announcement Thread" tx ty ts
-		ims=10
-		image "images/thread00.png" 50 57 30 0
-		grid  "threadgrid.dsh" 		5 15 10 10 98
-		
-		for thx=5 95 10
-			circle thx 2.5 1
-		efor
+		ctext "Announcement Thread" 25 ty ts
+		image "images/thread00.png" 25 47 45 0
 
-		for thx=5 95 2
-			circle thx 2.5 0.3
-		efor
+		ims=5
+		imrad=45
+		imcx=52
+		imcy=70
+
+		p=polar imcx imcy imrad 270
+		image "images/announce01.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 280
+		image "images/announce02.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 290
+		image "images/announce03.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 300
+		image "images/announce04.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 310
+		image "images/announce05.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 320
+		image "images/announce06.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 330
+		image "images/announce07.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 340
+		image "images/announce08.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 350
+		image "images/announce09.png" p_x p_y ims 0
+		p=polar imcx imcy imrad 360
+		image "images/announce10.png" p_x p_y ims 0
 	eslide
+
+//	slide bgcolor fgcolor
+//		ctext "Announcement Thread" tx ty ts
+//		ims=10
+//		image "images/thread00.png" 50 57 30 0
+//		grid  "threadgrid.dsh" 		5 15 10 10 98
+//		
+//		for thx=5 95 10
+//			circle thx 2.5 1
+//		efor
+//
+//		for thx=5 95 2
+//			circle thx 2.5 0.3
+//		efor
+//	eslide
 
 	slide bgcolor fgcolor
 		ctext "Announcements" tx ty ts
@@ -124,19 +338,21 @@ deck
 		grid "anngrid.dsh" 10 67 20 42 90
 	eslide
 
-
+	// DVS announcements
 	slide bgcolor fgcolor
 		ctext "DVS Announcements" tx ty ts
 		ims=15
 		grid "dvsanngrid.dsh" 10 67 20 42 90
 	eslide
 
+	// Sample entries
 	slide bgcolor fgcolor
 		ctext "Sample Entries" tx ty ts
 		ims=15
 		grid "chgrid.dsh" 10 67 20 45 90
 	eslide
 
+	// red, black, and green
 	slide bgcolor fgcolor
 		ims=30
 		ctext "Red, Black, and Green" tx ty ts
@@ -145,6 +361,7 @@ deck
 		image "images/green.png"	82 48 ims 0 100 greenURL
 	eslide
 
+	// linkedin
 	slide bgcolor fgcolor
 		ctext "Linkedin" tx ty ts
 		ims=17
@@ -156,6 +373,7 @@ deck
 		image "images/linkedin06.png" 90 imy ims 0 100 linkedinURL
 	eslide
 
+	// dvs slack
 	slide bgcolor fgcolor
 		ctext "DVS Slack" tx ty ts
 		ims=35
@@ -173,12 +391,14 @@ deck
 		image "images/dvs-slack10.png" 50 imy ims 0 100 linkedinURL
 	eslide
 
+	// Collections
 	slide bgcolor fgcolor
 		ctext "Collections" tx ty ts
 		ims=70
 		image "images/collection01.png"	50 45 ims 0 100 collection01URL
 	eslide
 
+	// Blogs
 	slide bgcolor fgcolor
 		ctext "Follow up Blogs" tx ty ts
 		ims=42
@@ -186,6 +406,7 @@ deck
 		image "images/blog03.png" 75 imy 36  0 100 blog03URL
 	eslide
 
+	// Tomorrow's Promise
 	slide bgcolor fgcolor
 		ctext "Tomorrow's Promise" tx ty ts
 		ims=20
@@ -196,26 +417,58 @@ deck
 		image "images/camaal05.png" 87 30 ims 0 100 camaalPromise
 	eslide
 
+	// Variations
 	slide bgcolor fgcolor
 		ctext "Variations" tx ty ts
 		ims=12
 		imy=75
-		image "images/week01-04.jpg" 30 imy ims 0
-		image "images/week01-02.jpg" 40 imy ims 0
-		image "images/week01-03.jpg" 50 imy ims 0
-		image "images/week01-07.png" 60 imy ims 0
+		image "images/week01-04.jpg" 35 imy ims 0
+		image "images/week01-02.jpg" 45 imy ims 0
+		image "images/week01-03.jpg" 55 imy ims 0
+		image "images/week01-07.png" 65 imy ims 0
 
 		imy-=30
-		image "images/week02-01.jpg" 30 imy ims 0
-		image "images/week02-02.jpg" 40 imy ims 0
-		image "images/week02-03.png" 50 imy ims 0
-		image "images/week02-04.jpg" 60 imy ims 0
+		image "images/week02-01.jpg" 35 imy ims 0
+		image "images/week02-02.jpg" 45 imy ims 0
+		image "images/week02-03.png" 55 imy ims 0
+		image "images/week02-04.jpg" 65 imy ims 0
 
 		imy-=30
-		image "images/week04-01.jpg" 30 imy ims 0
-		image "images/week04-03.png" 40 imy ims 0
-		image "images/week04-05.png" 50 imy ims 0
-		image "images/week04-06.png" 60 imy ims 0
-
+		image "images/week04-01.jpg" 35 imy ims 0
+		image "images/week04-03.png" 45 imy ims 0
+		image "images/week04-05.png" 55 imy ims 0
+		image "images/week04-06.png" 65 imy ims 0
 	eslide
+
+	// Meetings
+	slide bgcolor fgcolor
+		ctext "Meetings" tx ty ts
+		ims=40
+		image "images/meeting01.png" 25 50 ims 0
+		image "images/meeting02.png" 75 50 ims 0
+	eslide
+
+	// Tools
+	slide bgcolor fgcolor
+		ctext "Tools Used" tx ty ts
+		ims=7
+		grid "toolgrid.dsh" 15 75 15 20 90
+	eslide
+
+
+	// Business Card
+    mx=25         // midpoint
+    tx=62         // text left
+    ix=57         // image left
+    ts=5.5        // base text size
+    ss=ts*0.85    // sub-head text size
+    cs=ts*0.50    // contact info text size
+    lx=50         // line x
+	imscale=8
+	ims2=imscale*10
+	ims3=ims2/4
+
+	include "bizcard.dsh"
+
+
 edeck

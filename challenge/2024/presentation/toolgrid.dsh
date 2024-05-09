@@ -1,0 +1,25 @@
+image "images/tableau.png"		x y 12 0
+image "images/R-logo.png"		x y ims 0
+image "images/ggplot-logo.png"	x y ims 0
+image "images/plotly.png"		x y 10 0
+image "images/leaflet-logo.png"	x y ims 0
+image "images/d3.png"			x y ims 0
+image "images/observable.png"	x y 12 0
+image "images/svelte.png"		x y 5 0
+image "images/vega-lite.png"	x y 5  0
+image "images/vega.png"			x y 5 0
+image "images/figma.png"		x y 5 0
+image "images/canva.png"		x y 5 0
+image "images/qgis.png"			x y 5  0
+image "images/mapbox.png"		x y 10 0
+image "images/python-logo.png"	x y 10 0
+image "images/matplotlib.png"	x y 10 0
+image "images/pandas.png"		x y 10 0
+image "images/datawrapper.png"	x y 10 0
+image "images/powerbi.png"		x y ims 0
+image "images/rawgraphs.png"	x y 10 0
+image "images/bokeh.png"		x y 7 0
+image "images/holoviews.png"	x y 10 0
+image "images/hvplot.png"		x y 10 0
+image "images/is.png"			x y 5 0
+
