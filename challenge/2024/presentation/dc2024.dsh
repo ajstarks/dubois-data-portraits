@@ -69,6 +69,9 @@ deck
 	ghlink01="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md"
 	ghlink02="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge02"
 
+	meeting00="https://usergroups.tableau.com/events/details/tableau-data-diversity-presents-data-diversity-celebrating-web-dubois-through-data-visualization/"
+	meeting01="https://www.youtube.com/watch?v=g0g5eCTvutw"
+
 
 	slide bgcolor fgcolor
 		vline 2 0 100 10 "black"
@@ -446,9 +449,10 @@ deck
 	// Meetings
 	slide bgcolor fgcolor
 		ctext "Meetings" tx ty ts
-		ims=40
-		image "images/meeting01.png" 25 50 ims 0
-		image "images/meeting02.png" 75 50 ims 0
+		ims=32
+		image "images/meeting00.png" 18 50 ims 0 100 meeting00
+		image "images/meeting01.png" 50 50 ims 0 100 meeting01
+		image "images/meeting02.png" 82 50 ims 0
 	eslide
 
 	// Tools
