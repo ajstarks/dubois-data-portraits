@@ -72,7 +72,9 @@ deck
 	meeting00="https://usergroups.tableau.com/events/details/tableau-data-diversity-presents-data-diversity-celebrating-web-dubois-through-data-visualization/"
 	meeting01="https://www.youtube.com/watch?v=g0g5eCTvutw"
 
+	twittermedia="https://twitter.com/search?q=%23duboischallenge2024&amp;f=media"
 
+	// Title Page
 	slide bgcolor fgcolor
 		vline 2 0 100 10 "black"
 		rtext "Du Bois Challenge 2024" 5 12 90  4 "sans" "white"
@@ -214,7 +216,7 @@ deck
 	// Starks, 2019
 	slide bgcolor "#aa0000"
 		image "images/full-catalog.png" 50 50 100 0
-		ctext "2019: Starks re-creations" 85 10 2
+		ctext "2019: Starks re-creations" 85 10 2.5
 	eslide
 
 	// Allen and Sekou
@@ -242,7 +244,6 @@ deck
 		image "images/slack-logo.png"            megax 25 7 0
 		polygon "55 55 68 68" "40 65 95 5" "gray" 20
 	eslide
-
 
 	// entries
 	slide bgcolor fgcolor
@@ -349,8 +350,6 @@ deck
 		grid "dvsanngrid.dsh" 10 67 20 42 90
 	eslide
 
-
-
 	// red, black, and green
 	slide bgcolor fgcolor
 		ims=30
@@ -365,6 +364,15 @@ deck
 		ctext "Twitter (X) Sample Entries" tx ty ts
 		ims=15
 		grid "chgrid.dsh" 10 67 20 45 90
+	eslide
+
+	// Twitter Media
+	slide bgcolor fgcolor
+		ctext "Twitter #DuboisChallenge Media" tx ty ts
+		ims=25
+		image "images/twitter-media01.png" 20 45 ims 0 100 twittermedia
+		image "images/twitter-media02.png" 50 45 ims 0 100 twittermedia
+		image "images/twitter-media03.png" 80 45 ims 0 100 twittermedia
 	eslide
 
 	// linkedin
@@ -428,28 +436,28 @@ deck
 		ctext "Variations" tx ty ts
 		ims=12
 		imy=75
-		image "images/week01-04.jpg" 35 imy ims 0
-		image "images/week01-02.jpg" 45 imy ims 0
-		image "images/week01-03.jpg" 55 imy ims 0
-		image "images/week01-07.png" 65 imy ims 0
+		image "images/week01-04.jpg" 20 imy ims 0
+		image "images/week01-02.jpg" 40 imy ims 0
+		image "images/week01-03.jpg" 60 imy ims 0
+		image "images/week01-07.png" 80 imy ims 0
 
 		imy-=30
-		image "images/week02-01.jpg" 35 imy ims 0
-		image "images/week02-02.jpg" 45 imy ims 0
-		image "images/week02-03.png" 55 imy ims 0
-		image "images/week02-04.jpg" 65 imy ims 0
+		image "images/week02-01.jpg" 20 imy ims 0
+		image "images/week02-02.jpg" 40 imy ims 0
+		image "images/week02-03.png" 60 imy ims 0
+		image "images/week02-04.jpg" 80 imy ims 0
 
 		imy-=30
-		image "images/week04-01.jpg" 35 imy ims 0
-		image "images/week04-03.png" 45 imy ims 0
-		image "images/week04-05.png" 55 imy ims 0
-		image "images/week04-06.png" 65 imy ims 0
+		image "images/week04-01.jpg" 20 imy ims 0
+		image "images/week04-03.png" 40 imy ims 0
+		image "images/week04-05.png" 60 imy ims 0
+		image "images/week04-06.png" 80 imy ims 0
 	eslide
 
 	// Meetings
 	slide bgcolor fgcolor
 		ctext "Meetings" tx ty ts
-		ims=32
+		ims=30
 		image "images/meeting00.png" 18 50 ims 0 100 meeting00
 		image "images/meeting01.png" 50 50 ims 0 100 meeting01
 		image "images/meeting02.png" 82 50 ims 0
@@ -460,6 +468,31 @@ deck
 		ctext "Tools Used" tx ty ts
 		ims=7
 		grid "toolgrid.dsh" 15 75 15 20 90
+	eslide
+
+	// DVS slack metrics
+	slide bgcolor fgcolor
+		ctext "DVS Slack Metrics" tx ty ts
+		image "images/dvs-slack01.png" 20 45 30 0
+		list 40 70 4.5
+			li "295"
+			li "169"
+			li "48"
+			li "8"
+		elist
+		list 50 70 4.5 "sans" "#555555"
+			li "Members"
+			li "Postings"
+			li "Participants"
+			li "Completists"
+		elist
+	eslide
+
+	// Linkedin Metrics
+	slide bgcolor fgcolor
+		opts="-xlabel=7 -val=f -bar=f -line -yaxis -grid -left=20 -right=80 -color=#aa0000"
+		dchart -top=85 -bottom=55  -yrange=0,1500,250 opts l.d
+		dchart -top=30 -bottom=10  opts l-eng.d
 	eslide
 
 	// Business Card
