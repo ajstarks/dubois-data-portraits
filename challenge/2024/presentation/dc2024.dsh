@@ -71,6 +71,7 @@ deck
 
 	meeting00="https://usergroups.tableau.com/events/details/tableau-data-diversity-presents-data-diversity-celebrating-web-dubois-through-data-visualization/"
 	meeting01="https://www.youtube.com/watch?v=g0g5eCTvutw"
+	meeting03="https://www.meetup.com/rladies-gaborone/events/301033741/"
 
 	twittermedia="https://twitter.com/search?q=%23duboischallenge2024&amp;f=media"
 
@@ -458,15 +459,16 @@ deck
 	slide bgcolor fgcolor
 		ctext "Meetings" tx ty ts
 		ims=30
-		image "images/meeting00.png" 18 50 ims 0 100 meeting00
-		image "images/meeting01.png" 50 50 ims 0 100 meeting01
-		image "images/meeting02.png" 82 50 ims 0
+		image "images/meeting00.png" 50 70 ims 0 100 meeting00
+		image "images/meeting01.png" 18 30 ims 0 100 meeting01
+		image "images/meeting02.png" 50 30 ims 0
+		image "images/meeting03.png" 82 30 ims 0 100 meeting03
 	eslide
 
 	// Tools
 	slide bgcolor fgcolor
 		ctext "Tools Used" tx ty ts
-		ims=7
+		ims=10
 		grid "toolgrid.dsh" 15 75 15 20 90
 	eslide
 
