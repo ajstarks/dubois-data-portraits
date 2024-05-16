@@ -5,7 +5,7 @@ deck
 	tx=50
 	sx=50
 	sy=60
-	ty=92
+	ty=90
 	ts=4
 	ss=ts*1.2
 
@@ -21,8 +21,9 @@ deck
 	week08URL="https://twitter.com/IsinKosemen/status/1774654919401738513"
 	week09URL="https://twitter.com/EleonoreMayola/status/1775512396460622217"
 	week10URL="https://twitter.com/EleonoreMayola/status/1778431026311655571"
-
+	twittermedia="https://twitter.com/search?q=%23duboischallenge2024&amp;f=media"
 	recapURL="https://twitter.com/ajstarks/status/1774740831145963921"
+	annthread="https://twitter.com/ajstarks/status/1754494660150468670"
 
 	// red,green,black
 	redURL="https://twitter.com/EleonoreMayola/status/1762056426426454292"
@@ -39,8 +40,6 @@ deck
 	collection02URL="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2024Gallery/W_E_BDuBoisChallenge2024Gallery"
 	collection03URL="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoisChallenge2024-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2024"
 	camaalPromise="https://camaalmoten.com/tomorrows-promise/"
-
-	annthread="https://twitter.com/ajstarks/status/1754494660150468670"
 
 	// Starks announcements
 	announce10URL="https://twitter.com/ajstarks/status/1777303572113248607"
@@ -66,14 +65,40 @@ deck
 	dvsann02URL="https://twitter.com/DataVizSociety/status/1757042359622046151"
 	dvsann01URL="https://twitter.com/DataVizSociety/status/1754641168019693935"
 
+	// github links
 	ghlink01="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md"
 	ghlink02="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge02"
 
+	// meeting links
 	meeting00="https://usergroups.tableau.com/events/details/tableau-data-diversity-presents-data-diversity-celebrating-web-dubois-through-data-visualization/"
 	meeting01="https://www.youtube.com/watch?v=g0g5eCTvutw"
 	meeting03="https://www.meetup.com/rladies-gaborone/events/301033741/"
 
-	twittermedia="https://twitter.com/search?q=%23duboischallenge2024&amp;f=media"
+	// tool links
+	tableau="https://www.tableau.com/"
+	Rlink="https://www.r-project.org/"
+	ggplot="https://ggplot2.tidyverse.org/"
+	plotly="https://plotly.com/ggplot2/"
+	leaflet="https://leafletjs.com/"
+	d3="https://d3js.org/"
+	obs="https://observablehq.com/@observablehq"
+	svelte="https://svelte.dev/"
+	vegalite="https://vega.github.io/vega-lite/"
+	vega="https://vega.github.io/vega/"
+	figma="https://www.figma.com/"
+	canva="https://www.canva.com/"
+	qgis="https://www.qgis.org/en/site/"
+	mapbox="https://www.mapbox.com/"
+	python="https://www.python.org/"
+	matplotlib="https://matplotlib.org/"
+	pandas="https://pandas.pydata.org/"
+	datawrapper="https://www.datawrapper.de/"
+	powerbi="https://www.microsoft.com/en-us/power-platform/products/power-bi"
+	rawgraphs="https://www.rawgraphs.io/"
+	bokeh="https://bokeh.org/"
+	holoviews="https://holoviews.org/getting_started/Introduction.html"
+	hvplot="https://hvplot.holoviz.org/user_guide/Introduction.html"
+	inkscape="https://inkscape.org/"
 
 	// Title Page
 	slide bgcolor fgcolor
@@ -97,7 +122,6 @@ deck
 		image "images/original-plate-50.jpg"	c2 50 ims 0
 		image "images/original-plate-51.jpg"	c2 17 ims 0
 	eslide
-
 
 	// TJ Calloway and Du Bois
 	//	The letter insists that, "thousands upon thousands will go [to the
@@ -293,14 +317,12 @@ deck
 
 	// Announcement thread
 	slide bgcolor fgcolor
-		ctext "Announcement Thread" 25 ty ts
-		image "images/thread00.png" 25 47 45 0
-
+		ctext "Announcement Thread" tx ty ts
+		image "images/thread00.png" 25 45 45 0
 		ims=5
 		imrad=45
 		imcx=52
 		imcy=70
-
 		p=polar imcx imcy imrad 270
 		image "images/announce01.png" p_x p_y ims 0
 		p=polar imcx imcy imrad 280
@@ -323,25 +345,11 @@ deck
 		image "images/announce10.png" p_x p_y ims 0
 	eslide
 
-//	slide bgcolor fgcolor
-//		ctext "Announcement Thread" tx ty ts
-//		ims=10
-//		image "images/thread00.png" 50 57 30 0
-//		grid  "threadgrid.dsh" 		5 15 10 10 98
-//		
-//		for thx=5 95 10
-//			circle thx 2.5 1
-//		efor
-//
-//		for thx=5 95 2
-//			circle thx 2.5 0.3
-//		efor
-//	eslide
-
+	// Announcements
 	slide bgcolor fgcolor
 		ctext "Announcements" tx ty ts
 		ims=15
-		grid "anngrid.dsh" 10 67 20 42 90
+		grid "anngrid.dsh" 10 66 20 42 90
 	eslide
 
 	// DVS announcements
@@ -399,6 +407,7 @@ deck
 		image "images/dvs-slack04.png" 85 imy ims 0
 	eslide
 
+	// Camaal Moten
 	slide bgcolor fgcolor
 		ctext "Camaal Moten on DVS Slack" tx ty ts
 		ims=65
@@ -417,8 +426,8 @@ deck
 	slide bgcolor fgcolor
 		ctext "Follow up Blogs" tx ty ts
 		ims=42
-		image "images/blog01.png" 25 imy ims 0 100 blog01URL
-		image "images/blog03.png" 75 imy 36  0 100 blog03URL
+		image "images/blog03.png" 25 imy 36  0 100 blog03URL
+		image "images/blog01.png" 75 imy ims 0 100 blog01URL
 	eslide
 
 	// Tomorrow's Promise
@@ -435,31 +444,34 @@ deck
 	// Variations
 	slide bgcolor fgcolor
 		ctext "Variations" tx ty ts
-		ims=12
-		imy=75
-		image "images/week01-04.jpg" 20 imy ims 0
-		image "images/week01-02.jpg" 40 imy ims 0
-		image "images/week01-03.jpg" 60 imy ims 0
-		image "images/week01-07.png" 80 imy ims 0
+		ims=11
+		imy=72
+		image "images/week01-06.jpg" 10 imy ims 0
+		image "images/week01-04.jpg" 30 imy ims 0
+		image "images/week01-02.jpg" 50 imy ims 0
+		image "images/week01-03.jpg" 70 imy ims 0
+		image "images/week01-07.png" 90 imy ims 0
 
-		imy-=30
-		image "images/week02-01.jpg" 20 imy ims 0
-		image "images/week02-02.jpg" 40 imy ims 0
-		image "images/week02-03.png" 60 imy ims 0
-		image "images/week02-04.jpg" 80 imy ims 0
+		imy-=27
+		image "images/week03-01.png" 10 imy ims 0
+		image "images/week03-02.jpg" 30 imy ims 0
+		image "images/week03-03.png" 50 imy ims 0
+		image "images/week03-04.png" 70 imy ims 0
+		image "images/week03-06.jpg" 90 imy ims 0
 
-		imy-=30
-		image "images/week04-01.jpg" 20 imy ims 0
-		image "images/week04-03.png" 40 imy ims 0
-		image "images/week04-05.png" 60 imy ims 0
-		image "images/week04-06.png" 80 imy ims 0
+		imy-=27
+		image "images/week04-01.jpg" 10 imy ims 0
+		image "images/week04-03.png" 30 imy ims 0
+		image "images/week04-05.png" 50 imy ims 0
+		image "images/week04-06.png" 70 imy ims 0
+		image "images/week04-08.png" 90 imy ims 0
 	eslide
 
 	// Meetings
 	slide bgcolor fgcolor
 		ctext "Meetings" tx ty ts
 		ims=30
-		image "images/meeting00.png" 50 70 ims 0 100 meeting00
+		image "images/meeting00.png" 50 65 ims 0 100 meeting00
 		image "images/meeting01.png" 18 30 ims 0 100 meeting01
 		image "images/meeting02.png" 50 30 ims 0
 		image "images/meeting03.png" 82 30 ims 0 100 meeting03
@@ -476,13 +488,13 @@ deck
 	slide bgcolor fgcolor
 		ctext "DVS Slack Metrics" tx ty ts
 		image "images/dvs-slack01.png" 20 45 30 0
-		list 40 70 4.5
+		list 40 70 5
 			li "295"
 			li "169"
 			li "48"
 			li "8"
 		elist
-		list 50 70 4.5 "sans" "#555555"
+		list 50 70 5 "sans" "#555555"
 			li "Members"
 			li "Postings"
 			li "Participants"
@@ -494,7 +506,7 @@ deck
 	slide bgcolor fgcolor
 		opts="-xlabel=7 -val=f -bar=f -line -yaxis -grid -left=20 -right=80 -color=#aa0000"
 		dchart -top=85 -bottom=55  -yrange=0,1500,250 opts l.d
-		dchart -top=30 -bottom=10  opts l-eng.d
+		dchart -top=30 -bottom=10  -yrange=0,50,10    opts l-eng.d
 	eslide
 
 	// Business Card
