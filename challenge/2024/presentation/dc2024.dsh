@@ -10,60 +10,60 @@ deck
 	ss=ts*1.2
 
 	// Sample entries per week
-	week01URL="https://twitter.com/genetis/status/1765129190456889832"
-	week01aURL="https://twitter.com/munozdataviz/status/1766848327776084297"
-	week02URL="https://twitter.com/paulisDataViz/status/1759545192946729354"
-	week03URL="https://twitter.com/im_akeelah/status/1759635060108456241"
-	week04URL="https://twitter.com/TomFevrier/status/1768652333540376621"
-	week05URL="https://twitter.com/doullaGado/status/1766048107999973623"
-	week06URL="https://twitter.com/UST_MSDS/status/1768349972913598896"
-	week07URL="https://twitter.com/Cyd_yzc/status/1770774057203503366"
-	week08URL="https://twitter.com/IsinKosemen/status/1774654919401738513"
-	week09URL="https://twitter.com/EleonoreMayola/status/1775512396460622217"
-	week10URL="https://twitter.com/EleonoreMayola/status/1778431026311655571"
-	twittermedia="https://twitter.com/search?q=%23duboischallenge2024&amp;f=media"
-	recapURL="https://twitter.com/ajstarks/status/1774740831145963921"
-	annthread="https://twitter.com/ajstarks/status/1754494660150468670"
+	week01URL="https://x.com/genetis/status/1765129190456889832"
+	week01aURL="https://x.com/munozdataviz/status/1766848327776084297"
+	week02URL="https://x.com/paulisDataViz/status/1759545192946729354"
+	week03URL="https://x.com/im_akeelah/status/1759635060108456241"
+	week04URL="https://x.com/TomFevrier/status/1768652333540376621"
+	week05URL="https://x.com/doullaGado/status/1766048107999973623"
+	week06URL="https://x.com/UST_MSDS/status/1768349972913598896"
+	week07URL="https://x.com/Cyd_yzc/status/1770774057203503366"
+	week08URL="https://x.com/IsinKosemen/status/1774654919401738513"
+	week09URL="https://x.com/EleonoreMayola/status/1775512396460622217"
+	week10URL="https://x.com/EleonoreMayola/status/1778431026311655571"
+	twittermedia="https://x.com/search?q=%23duboischallenge2024&amp;f=media"
+	recapURL="https://x.com/ajstarks/status/1774740831145963921"
+	annthread="https://x.com/ajstarks/status/1754494660150468670"
 
 	// red,green,black
-	redURL="https://twitter.com/EleonoreMayola/status/1762056426426454292"
-	greenURL="https://twitter.com/EleonoreMayola/status/1777297733864333428"
-	blackURL="https://twitter.com/EleonoreMayola/status/1770745691381391394"
-	greenURL="https://twitter.com/EleonoreMayola/status/1777297733864333428"
+	redURL="https://x.com/EleonoreMayola/status/1762056426426454292"
+	greenURL="https://x.com/EleonoreMayola/status/1777297733864333428"
+	blackURL="https://x.com/EleonoreMayola/status/1770745691381391394"
+	greenURL="https://x.com/EleonoreMayola/status/1777297733864333428"
 	blog01URL="https://nightingaledvs.com/recreating-historical-dataviz-three-tricks-i-learned-in-the-du-bois-data-visualization-challenge/"
 	blog03URL="https://www.edriessen.com/2024/02/07/developing-du-boiss-data-portraits-with-python-and-matplotlib/"
 	linkedinURL="https://www.linkedin.com/feed/hashtag/?keywords=duboischallenge2024"
 
 	// Collections
-	collectionURL="https://twitter.com/fredffery/status/1777960232892899681"
+	collectionURL="https://x.com/fredffery/status/1777960232892899681"
 	collection01URL="https://public.tableau.com/app/profile/faith5698/viz/W_E_B_DuBoisPortraitGalleryDuboisChallenge2024/GalleryWall"
 	collection02URL="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2024Gallery/W_E_BDuBoisChallenge2024Gallery"
 	collection03URL="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoisChallenge2024-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2024"
 	camaalPromise="https://camaalmoten.com/tomorrows-promise/"
 
 	// Starks announcements
-	announce10URL="https://twitter.com/ajstarks/status/1777303572113248607"
-	announce09URL="https://twitter.com/ajstarks/status/1774740831145963921"
-	announce08URL="https://twitter.com/ajstarks/status/1772244446622491087"
-	announce07URL="https://twitter.com/ajstarks/status/1769686167857906022"
-	announce06URL="https://twitter.com/ajstarks/status/1767165205094552018"
-	announce05URL="https://twitter.com/ajstarks/status/1764620052035260419"
-	announce04URL="https://twitter.com/ajstarks/status/1762093717014356317"
-	announce03URL="https://twitter.com/ajstarks/status/1759576757978493217"
-	announce02URL="https://twitter.com/ajstarks/status/1757028341352128623"
-	announce01URL="https://twitter.com/ajstarks/status/1754498472210821165"
+	announce10URL="https://x.com/ajstarks/status/1777303572113248607"
+	announce09URL="https://x.com/ajstarks/status/1774740831145963921"
+	announce08URL="https://x.com/ajstarks/status/1772244446622491087"
+	announce07URL="https://x.com/ajstarks/status/1769686167857906022"
+	announce06URL="https://x.com/ajstarks/status/1767165205094552018"
+	announce05URL="https://x.com/ajstarks/status/1764620052035260419"
+	announce04URL="https://x.com/ajstarks/status/1762093717014356317"
+	announce03URL="https://x.com/ajstarks/status/1759576757978493217"
+	announce02URL="https://x.com/ajstarks/status/1757028341352128623"
+	announce01URL="https://x.com/ajstarks/status/1754498472210821165"
 
 	// dvs announcements
-	dvsann08URL="https://twitter.com/DataVizSociety/status/1772367901003075754"
-	dvsann09URL="https://twitter.com/DataVizSociety/status/1774874451638690059"
-	dvsann10URL="https://twitter.com/DataVizSociety/status/1777305538595856888"
-	dvsann07URL="https://twitter.com/DataVizSociety/status/1769740590403526785"
-	dvsann06URL="https://twitter.com/DataVizSociety/status/1767068226570072150"
-	dvsann05URL="https://twitter.com/DataVizSociety/status/1764743192052666726"
-	dvsann04URL="https://twitter.com/DataVizSociety/status/1762070053229314556"
-	dvsann03URL="https://twitter.com/DataVizSociety/status/1759654356071207068"
-	dvsann02URL="https://twitter.com/DataVizSociety/status/1757042359622046151"
-	dvsann01URL="https://twitter.com/DataVizSociety/status/1754641168019693935"
+	dvsann08URL="https://x.com/DataVizSociety/status/1772367901003075754"
+	dvsann09URL="https://x.com/DataVizSociety/status/1774874451638690059"
+	dvsann10URL="https://x.com/DataVizSociety/status/1777305538595856888"
+	dvsann07URL="https://x.com/DataVizSociety/status/1769740590403526785"
+	dvsann06URL="https://x.com/DataVizSociety/status/1767068226570072150"
+	dvsann05URL="https://x.com/DataVizSociety/status/1764743192052666726"
+	dvsann04URL="https://x.com/DataVizSociety/status/1762070053229314556"
+	dvsann03URL="https://x.com/DataVizSociety/status/1759654356071207068"
+	dvsann02URL="https://x.com/DataVizSociety/status/1757042359622046151"
+	dvsann01URL="https://x.com/DataVizSociety/status/1754641168019693935"
 
 	// github links
 	ghlink01="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md"
@@ -133,7 +133,7 @@ deck
 	slide bgcolor fgcolor
 		ctext "In 1900, it began with them…" mid ty ts
 		image "images/TJCalloway.jpg"  30 47 30 0
-		image "images/dubois-1900.png" 70 47 32 0
+		image "images/dubois-1900.jpg" 70 47 32 0
 		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
 		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
 	eslide
@@ -152,7 +152,7 @@ deck
 		ctext "Paris 1900" tx ty ts
 		image "images/paris-expo.jpg"            50 50 1447 998 60
 		image "images/expo-poster.jpg"           15 50 431 600
-		image "images/expo0.png"                 86 50 1157 1525 40
+		image "images/expo0.jpg"                 86 50 1157 1525 40
 	eslide
 
 	// Purpose and messages
@@ -211,7 +211,7 @@ deck
 
 		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30 balink
 		image "images/homer-plessy.jpg"          p1a dimy 295 350 75 plessylink
-		image "images/philly12.png"              p2 dimy 1112 930 28 phillylink
+		image "images/philly12.jpg"              p2 dimy 1112 930 28 phillylink
 		image "images/white-mans-day.jpg"        p3 dimy 654 658 40 wilmlink
 		image "images/mob.jpg"                   p4 dimy 640 512 45 moblink
 		image "images/expo.jpg"                  p5 dimy 739 1024 25 expolink
@@ -230,9 +230,9 @@ deck
 	slide bgcolor fgcolor
 		imw=2116
 		imh=2688
-		image "images/plate38.png" 10 70 imw imh 5
-		image "images/plate27.png" 10 50 imw imh 5
-		image "images/plate22.png" 10 30 imw imh 5
+		image "images/plate38.jpg" 10 70 imw imh 5
+		image "images/plate27.jpg" 10 50 imw imh 5
+		image "images/plate22.jpg" 10 30 imw imh 5
 		text  "We are here"        15 66 6 "sans" "maroon"
 		text  "This is who we are" 15 46 6 "sans" "maroon"
 		text  "This is how far we have come" 15 26 6 "sans" "maroon"
@@ -240,17 +240,17 @@ deck
 
 	// Starks, 2019
 	slide bgcolor "#aa0000"
-		image "images/full-catalog.png" 50 50 100 0
+		image "images/full-catalog.jpg" 50 50 100 0
 		ctext "2019: Starks re-creations" 85 10 2.5
 	eslide
 
 	// Allen and Sekou
 	slide bgcolor fgcolor
 		ctext "In 2021, it began with them" mid ty ts
-		image "images/allen.png"              30 47 30 0
-		image "images/sekou0.png"             70 47 32 0
-		ctext "Allen Hillery (@AlDataVizGuy)" 30 3 2 "serif" "" 100 "https://twitter.com/AlDatavizguy" 
-		ctext "Sekou Tyler (@sqlsekou)"       70 3 2 "serif" "" 100 "https://twitter.com/sqlsekou"
+		image "images/allen.jpg"              30 47 30 0
+		image "images/sekou0.jpg"             70 47 32 0
+		ctext "Allen Hillery (@AlDataVizGuy)" 30 3 2 "serif" "" 100 "https://x.com/AlDatavizguy" 
+		ctext "Sekou Tyler (@sqlsekou)"       70 3 2 "serif" "" 100 "https://x.com/sqlsekou"
 	eslide
 
 	// Modern venue
@@ -259,14 +259,14 @@ deck
 		text "Now: Modern Megaphone" 10 ty ts
 		etext "Your Message" 33 50 3
 		image "images/megaphone01.png"           45 50 30 0
-		image "images/twitter-logo.png"          megax 85 10 0
-		image "images/instagram-logo.jpg"        megax 60 10 0
+		image "images/twitter-logo.png"          megax 85 7 0
+		image "images/instagram-logo.png"        megax 60 10 0
 		image "images/youtube-logo.png"          megax 40 10 0
 		image "images/zoom-logo.png"             megax 20 15 0
 		megax+=15
 		image "images/mastodon-logo.jpg"         megax 75 7 0
-		image "images/linkedin-logo.png"         megax 50 7 0
-		image "images/slack-logo.png"            megax 25 7 0
+		image "images/linkedin-logo.jpg"         megax 50 7 0
+		image "images/slack-logo.jpg"            megax 25 7 0
 		polygon "55 55 68 68" "40 65 95 5" "gray" 20
 	eslide
 
@@ -290,8 +290,8 @@ deck
     ts=4.5
 	slide bgcolor fgcolor
 		ctext "Using github" tx ty ts
-		image "images/gh01.png" 24 45 45 0 100 ghlink01
-		image "images/gh02.png" 74 45 50 0 100 ghlink02
+		image "images/gh01.jpg" 24 45 45 0 100 ghlink01
+		image "images/gh02.jpg" 74 45 50 0 100 ghlink02
 	eslide
 
 	// Venues
@@ -303,46 +303,46 @@ deck
 		ctext "DVS Slack"  56    vly 2
 		ctext "Mastodon"   85    vly 2
 		vly-=6
-		image "images/twitter-logo.png"    12    vly 4 0
-		image "images/linkedin-logo.png"   31.5  vly 4 0
-		image "images/slack-logo.png"      56    vly 4 0
+		image "images/twitter-logo.jpg"    12    vly 4 0
+		image "images/linkedin-logo.jpg"   31.5  vly 4 0
+		image "images/slack-logo.jpg"      56    vly 4 0
 		image "images/mastodon-logo.jpg"   85    vly 4 0
 
 		vly-=35
-		image "images/week1b.png"          12     vly 20 0
-		image "images/linkedin02.png"      31.5   vly 12 0
-		image "images/dvs-slack08.png"     56     vly 26 0
-		image "images/mastodon01.png"      85     vly 20 0
+		image "images/week1b.jpg"          12     vly 20 0
+		image "images/linkedin02.jpg"      31.5   vly 12 0
+		image "images/dvs-slack08.jpg"     56     vly 26 0
+		image "images/mastodon01.jpg"      85     vly 20 0
 	eslide
 
 	// Announcement thread
 	slide bgcolor fgcolor
 		ctext "Announcement Thread" tx ty ts
-		image "images/thread00.png" 25 45 45 0
+		image "images/thread00.jpg" 25 45 45 0
 		ims=5
 		imrad=45
 		imcx=52
 		imcy=70
 		p=polar imcx imcy imrad 270
-		image "images/announce01.png" p_x p_y ims 0
+		image "images/announce01.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 280
-		image "images/announce02.png" p_x p_y ims 0
+		image "images/announce02.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 290
-		image "images/announce03.png" p_x p_y ims 0
+		image "images/announce03.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 300
-		image "images/announce04.png" p_x p_y ims 0
+		image "images/announce04.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 310
-		image "images/announce05.png" p_x p_y ims 0
+		image "images/announce05.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 320
-		image "images/announce06.png" p_x p_y ims 0
+		image "images/announce06.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 330
-		image "images/announce07.png" p_x p_y ims 0
+		image "images/announce07.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 340
-		image "images/announce08.png" p_x p_y ims 0
+		image "images/announce08.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 350
-		image "images/announce09.png" p_x p_y ims 0
+		image "images/announce09.jpg" p_x p_y ims 0
 		p=polar imcx imcy imrad 360
-		image "images/announce10.png" p_x p_y ims 0
+		image "images/announce10.jpg" p_x p_y ims 0
 	eslide
 
 	// Announcements
@@ -363,9 +363,9 @@ deck
 	slide bgcolor fgcolor
 		ims=30
 		ctext "Red, Black, and Green" tx ty ts
-		image "images/red.png"		18 46 ims 0 100 redURL
-		image "images/black.png"	50 45 ims 0 100 blackURL
-		image "images/green.png"	82 48 ims 0 100 greenURL
+		image "images/red.jpg"		18 46 ims 0 100 redURL
+		image "images/black.jpg"	50 45 ims 0 100 blackURL
+		image "images/green.jpg"	82 48 ims 0 100 greenURL
 	eslide
 
 	// Twitter Sample entries
@@ -379,9 +379,9 @@ deck
 	slide bgcolor fgcolor
 		ctext "Twitter #DuboisChallenge Media" tx ty ts
 		ims=25
-		image "images/twitter-media01.png" 20 45 ims 0 100 twittermedia
-		image "images/twitter-media02.png" 50 45 ims 0 100 twittermedia
-		image "images/twitter-media03.png" 80 45 ims 0 100 twittermedia
+		image "images/twitter-media01.jpg" 20 45 ims 0 100 twittermedia
+		image "images/twitter-media02.jpg" 50 45 ims 0 100 twittermedia
+		image "images/twitter-media03.jpg" 80 45 ims 0 100 twittermedia
 	eslide
 
 	// linkedin
@@ -389,11 +389,11 @@ deck
 		ctext "Linkedin" tx ty ts
 		ims=17
 		imy=mid-5
-		image "images/linkedin01.png" 10 imy ims 0 100 linkedinURL
-		image "images/linkedin02.png" 30 imy ims 0 100 linkedinURL
-		image "images/linkedin03.png" 50 imy ims 0 100 linkedinURL
-		image "images/linkedin04.png" 70 imy ims 0 100 linkedinURL
-		image "images/linkedin06.png" 90 imy ims 0 100 linkedinURL
+		image "images/linkedin01.jpg" 10 imy ims 0 100 linkedinURL
+		image "images/linkedin02.jpg" 30 imy ims 0 100 linkedinURL
+		image "images/linkedin03.jpg" 50 imy ims 0 100 linkedinURL
+		image "images/linkedin04.jpg" 70 imy ims 0 100 linkedinURL
+		image "images/linkedin06.jpg" 90 imy ims 0 100 linkedinURL
 	eslide
 
 	// dvs slack
@@ -401,10 +401,10 @@ deck
 		ctext "DVS Slack" tx ty ts
 		ims=35
 		imy=mid-5
-		image "images/dvs-slack01.png" 25 imy ims 0
-		image "images/dvs-slack02.png" 45 imy ims 0
-		image "images/dvs-slack03.png" 65 imy ims 0
-		image "images/dvs-slack04.png" 85 imy ims 0
+		image "images/dvs-slack01.jpg" 25 imy ims 0
+		image "images/dvs-slack02.jpg" 45 imy ims 0
+		image "images/dvs-slack03.jpg" 65 imy ims 0
+		image "images/dvs-slack04.jpg" 85 imy ims 0
 	eslide
 
 	// Camaal Moten
@@ -412,33 +412,33 @@ deck
 		ctext "Camaal Moten on DVS Slack" tx ty ts
 		ims=65
 		imy=mid-5
-		image "images/dvs-slack10.png" 50 imy ims 0 100 linkedinURL
+		image "images/dvs-slack10.jpg" 50 imy ims 0 100 linkedinURL
 	eslide
 
 	// Collections
 	slide bgcolor fgcolor
 		ctext "Collections" tx ty ts
 		ims=70
-		image "images/collection01.png"	50 45 ims 0 100 collection01URL
+		image "images/collection01.jpg"	50 45 ims 0 100 collection01URL
 	eslide
 
 	// Blogs
 	slide bgcolor fgcolor
 		ctext "Follow up Blogs" tx ty ts
 		ims=42
-		image "images/blog03.png" 25 imy 36  0 100 blog03URL
-		image "images/blog01.png" 75 imy ims 0 100 blog01URL
+		image "images/blog03.jpg" 25 imy 36  0 100 blog03URL
+		image "images/blog01.jpg" 75 imy ims 0 100 blog01URL
 	eslide
 
 	// Tomorrow's Promise
 	slide bgcolor fgcolor
 		ctext "Tomorrow's Promise" tx ty ts
 		ims=20
-		image "images/camaal01.png" 30 45 55  0 100 camaalPromise
-		image "images/camaal08.png" 68 60 ims 0 100 camaalPromise
-		image "images/camaal02.png" 87 60 ims 0 100 camaalPromise
-		image "images/camaal03.png" 68 30 ims 0 100 camaalPromise
-		image "images/camaal05.png" 87 30 ims 0 100 camaalPromise
+		image "images/camaal01.jpg" 30 45 55  0 100 camaalPromise
+		image "images/camaal08.jpg" 68 60 ims 0 100 camaalPromise
+		image "images/camaal02.jpg" 87 60 ims 0 100 camaalPromise
+		image "images/camaal03.jpg" 68 30 ims 0 100 camaalPromise
+		image "images/camaal05.jpg" 87 30 ims 0 100 camaalPromise
 	eslide
 
 	// Variations
@@ -450,31 +450,31 @@ deck
 		image "images/week01-04.jpg" 30 imy ims 0
 		image "images/week01-02.jpg" 50 imy ims 0
 		image "images/week01-03.jpg" 70 imy ims 0
-		image "images/week01-07.png" 90 imy ims 0
+		image "images/week01-07.jpg" 90 imy ims 0
 
 		imy-=27
-		image "images/week03-01.png" 10 imy ims 0
+		image "images/week03-01.jpg" 10 imy ims 0
 		image "images/week03-02.jpg" 30 imy ims 0
-		image "images/week03-03.png" 50 imy ims 0
-		image "images/week03-04.png" 70 imy ims 0
+		image "images/week03-03.jpg" 50 imy ims 0
+		image "images/week03-04.jpg" 70 imy ims 0
 		image "images/week03-06.jpg" 90 imy ims 0
 
 		imy-=27
 		image "images/week04-01.jpg" 10 imy ims 0
-		image "images/week04-03.png" 30 imy ims 0
-		image "images/week04-05.png" 50 imy ims 0
-		image "images/week04-06.png" 70 imy ims 0
-		image "images/week04-08.png" 90 imy ims 0
+		image "images/week04-03.jpg" 30 imy ims 0
+		image "images/week04-05.jpg" 50 imy ims 0
+		image "images/week04-06.jpg" 70 imy ims 0
+		image "images/week04-08.jpg" 90 imy ims 0
 	eslide
 
 	// Meetings
 	slide bgcolor fgcolor
 		ctext "Meetings" tx ty ts
 		ims=30
-		image "images/meeting00.png" 50 65 ims 0 100 meeting00
-		image "images/meeting01.png" 18 30 ims 0 100 meeting01
-		image "images/meeting02.png" 50 30 ims 0
-		image "images/meeting03.png" 82 30 ims 0 100 meeting03
+		image "images/meeting00.jpg" 50 65 ims 0 100 meeting00
+		image "images/meeting01.jpg" 18 30 ims 0 100 meeting01
+		image "images/meeting02.jpg" 50 30 ims 0
+		image "images/meeting03.jpg" 82 30 ims 0 100 meeting03
 	eslide
 
 	// Tools
@@ -487,7 +487,7 @@ deck
 	// DVS slack metrics
 	slide bgcolor fgcolor
 		ctext "DVS Slack Metrics" tx ty ts
-		image "images/dvs-slack01.png" 20 45 30 0
+		image "images/dvs-slack01.jpg" 20 45 30 0
 		list 40 70 5
 			li "295"
 			li "169"
