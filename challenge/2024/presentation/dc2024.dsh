@@ -33,6 +33,8 @@ deck
 	blog01URL="https://nightingaledvs.com/recreating-historical-dataviz-three-tricks-i-learned-in-the-du-bois-data-visualization-challenge/"
 	blog03URL="https://www.edriessen.com/2024/02/07/developing-du-boiss-data-portraits-with-python-and-matplotlib/"
 	linkedinURL="https://www.linkedin.com/feed/hashtag/?keywords=duboischallenge2024"
+	blog04URL="https://medium.com/illumination/2024-du-bois-challenge-using-r-programming-02af8afa5626"
+
 
 	// Collections
 	collectionURL="https://x.com/fredffery/status/1777960232892899681"
@@ -40,6 +42,7 @@ deck
 	collection02URL="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2024Gallery/W_E_BDuBoisChallenge2024Gallery"
 	collection03URL="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoisChallenge2024-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2024"
 	camaalPromise="https://camaalmoten.com/tomorrows-promise/"
+	blog04URL="https://medium.com/illumination/2024-du-bois-challenge-using-r-programming-02af8afa5626"
 
 	// Starks announcements
 	announce10URL="https://x.com/ajstarks/status/1777303572113248607"
@@ -73,6 +76,7 @@ deck
 	meeting00="https://usergroups.tableau.com/events/details/tableau-data-diversity-presents-data-diversity-celebrating-web-dubois-through-data-visualization/"
 	meeting01="https://www.youtube.com/watch?v=g0g5eCTvutw"
 	meeting03="https://www.meetup.com/rladies-gaborone/events/301033741/"
+	meeting03a="https://simi.quarto.pub/2024-du-bois-challenge/#/other-data-viz-challenges"
 
 	// tool links
 	tableau="https://www.tableau.com/"
@@ -133,7 +137,7 @@ deck
 	slide bgcolor fgcolor
 		ctext "In 1900, it began with them…" mid ty ts
 		image "images/TJCalloway.jpg"  30 47 30 0
-		image "images/dubois-1900.jpg" 70 47 32 0
+		image "images/dubois-1900.png" 70 47 32 0
 		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
 		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
 	eslide
@@ -303,9 +307,9 @@ deck
 		ctext "DVS Slack"  56    vly 2
 		ctext "Mastodon"   85    vly 2
 		vly-=6
-		image "images/twitter-logo.jpg"    12    vly 4 0
+		image "images/twitter-logo.png"    12    vly 4 0
 		image "images/linkedin-logo.jpg"   31.5  vly 4 0
-		image "images/slack-logo.jpg"      56    vly 4 0
+		image "images/slack-logo.png"      56    vly 4 0
 		image "images/mastodon-logo.jpg"   85    vly 4 0
 
 		vly-=35
@@ -425,9 +429,10 @@ deck
 	// Blogs
 	slide bgcolor fgcolor
 		ctext "Follow up Blogs" tx ty ts
-		ims=42
-		image "images/blog03.jpg" 25 imy 36  0 100 blog03URL
-		image "images/blog01.jpg" 75 imy ims 0 100 blog01URL
+		ims=33
+		image "images/blog01.jpg" 18 imy ims  0 100 blog04URL
+		image "images/blog03.jpg" 50 imy 28  0 100 blog03URL
+		image "images/blog04.jpg" 82 imy ims  0 100 blog01URL
 	eslide
 
 	// Tomorrow's Promise
@@ -475,6 +480,12 @@ deck
 		image "images/meeting01.jpg" 18 30 ims 0 100 meeting01
 		image "images/meeting02.jpg" 50 30 ims 0
 		image "images/meeting03.jpg" 82 30 ims 0 100 meeting03
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "R Code Walk-through" tx ty ts
+		ims=70
+		image "images/meeting-walkthrough.jpg" 50 45 ims 0 100 meeting03
 	eslide
 
 	// Tools
