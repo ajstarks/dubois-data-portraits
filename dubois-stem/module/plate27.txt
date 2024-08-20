@@ -1,0 +1,8 @@
+The visual uses proportionally sized wedges to encode the numbers.
+The populations are arraged, in sections, top (Black), and bottom (white)
+such that the wedges may be easily compared.
+\n \n
+Also note the legends arranged on the left and right, arranged in the gaps
+between the wedges.
+\n \n
+The visual uses the typical Du Bois color palette

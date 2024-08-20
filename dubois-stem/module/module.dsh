@@ -1,0 +1,170 @@
+deck
+	top=93
+	tx=50
+	ty=92
+	ts=4
+	ss=top-4
+	color="#fae2cb" // "linen"
+
+	slide "black" "white"
+		textblock "Using Du Bois Visualizations for STEM Education" 50 85 25 5
+		image "dubois-stem-logo.png" 50 50 80 0
+	eslide
+
+	slide
+		ctext "Outline" tx ty ts
+		ctext "The Du Bois STEM module has three sections:" 50 80 3
+		hline 2 63 22 10 color
+		hline 2 48 22 10 color 50
+		hline 2 33 22 10 color 20
+		text "[1] Context" 3 65 3
+		text "[2] Explore" 3 50 3
+		text "[3] Implement" 3 35 3
+		textblock "explaining the motivation of the Du Bois visuals in a historical context." 				25 65 60 3  "serif"
+		textblock "an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods." 	25 50 60 3  "serif"
+		textblock "Re-create Du Bois style visuals using digital tools." 									25 35 60 3  "serif"
+	eslide
+
+	slide
+		c1=17
+		ctext "Context" 16 top 4
+		ctext "Explore" 50 top 4
+		ctext "Apply"   83 top 4
+		ctext "(Why)"   16  ss 2
+		ctext "(What)"  50  ss 2
+		ctext "(Implement)" 83 ss 2 
+		rect 17 50 33 100 color 20
+		rect 50 50 33 100 color 50
+		rect 83 50 34 100 color
+
+		blist 5 80 2 "" "" 100 1.4
+			li "Context/History"
+			li "Motivation"
+			li "Message"
+			li "Overview of the 1900 Expo"
+		elist
+		c2=40
+		text "Deconstruct" c2 80 3
+		blist c2 75 2 "" "" 100 1.4
+			li "Select sample plate(s)"
+			li "Message and Audience"
+			li "Aesthetics/design"
+			li "Analytical methods"
+			li "Chart Types"
+		elist
+		text "Recreate" c2 50 3
+		blist c2 45 2 "" "" 100 1.4
+			li "Hand drawn"
+			li "Rapid iteration"
+			li "Peer review"
+		elist
+		text "Modernize" c2 30 3
+		blist c2 25 2 "" "" 100 1.4
+			li "Apply with modern data"
+		elist		
+		text "Evaluate" c2 15 3
+		blist c2 10 2 "" "" 100 1.4
+			li "Clarity of Message"
+			li "Updates"
+		elist
+		textblock "Implement the charts with the digital tool of your choice" 70 80 25 2
+		blist 75 70 2 "" "" 100 1.4
+			li "R"
+			li "Stata"
+			li "python/matlab"
+			li "..."
+		elist
+	eslide
+
+	slide
+		ctext "Exploration" tx ty ts
+		textblockfile "exp1.txt" 10 75 70 3 "serif"
+		text "Materials: Pens/Paper" 10 10 2
+		etext "Time: 45-60 minutes"  90 10 2
+	eslide
+
+	slide
+		ctext "Exploration: Deconstruction" tx ty ts
+		image "original-plate-27.jpg" 25 50 40 0
+		blist 50 65 2.5
+			li "Message and Audience"
+			li "Aesthetics/design"
+			li "Analytical methods"
+			li "Chart Types"
+		elist
+	eslide
+
+	slide
+		ctext "Exploration: Deconstruction (Message)" tx ty ts
+		image "original-plate-27.jpg" 25 50 40 0
+		textblock "Activity: Discuss the message that the visual is attempimg to convey" 5 10 40 2 "serif"
+		textblockfile "plate27-message.txt" 50 80 30 2 "serif"
+	eslide
+
+
+	slide
+		ctext "Exploration: Deconstruction (Aesthetics and Design)" tx ty ts
+		image "original-plate-27.jpg" 25 50 40 0
+		textblockfile "plate27.txt" 50 80 30 2 "serif"
+	eslide
+
+	slide
+		ctext "Exploration: Recreate" tx ty ts
+	eslide
+
+	slide
+		ctext "Exploration: Modernize" tx ty ts
+	eslide
+
+	slide
+		ctext "Exploration: Evaluation" tx ty ts
+	eslide
+
+	slide
+		cl1=5
+		cl2=cl1+40
+		listy=85
+		listsp=3.5
+		ctext "Exploration: References" tx ty ts
+		nlist cl1 listy 2.5 "sans" "" 100 listsp
+			li "Du Bois Visualizations for Consideration in STEM Education"
+			li "Du Bois Visualization Style Guide"
+			li "Recreating the Du Bois Data Portraits"
+			li "Du Bois Visualizations Catalog (originals)"
+			li "African American Photographs Assembled for 1900 Paris Exposition" // Library of Congress"
+			li "W.E.B. Du Bois Data Portraits, Visualizing Black America" //  Battle-Baptiste and Russert, 2018, ISBN 978-1-61689-706-1"
+			li "Black Lives 1900, W.E.B. Du Bois at the Paris Exposition"// , Julian Rothenstein ISBN 978-1-942884-53-8"
+		elist
+
+		link0="https://github.com/ajstarks/dubois-data-portraits/tree/master/dubois-stem"
+		link1="https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits"
+		link2="https://speakerdeck.com/ajstarks/du-bois-visualizations-originals"
+		link3="https://tinyurl.com/smamzvtv" // https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?st=grid&sb=date_desc"
+		link4="https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america"
+		link5="https://www.theredstoneshop.com/products/black-lives-1900"
+		link6="https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
+		incr=listsp*3.25
+		urly=listy-listsp
+		text link0 cl1 urly 2 "mono" "blue" 100 link0
+		urly-=incr
+		text link6 cl1 urly 2 "mono" "blue" 100 link6
+		urly-=incr
+		text link1 cl1 urly 2 "mono" "blue" 100 link1
+		urly-=incr
+		text link2 cl1 urly 2 "mono" "blue" 100 link2
+		urly-=incr
+		text link3 cl1 urly 2 "mono"  "blue" 100 link3
+		urly-=incr
+		text link4 cl1 urly 2 "mono" "blue" 100 link4
+		urly-=incr
+		text link5 cl1 urly 2 "mono" "blue" 100 link5
+	eslide
+
+	slide
+		ctext "Implementation" tx ty ts
+	eslide
+
+
+
+
+edeck
