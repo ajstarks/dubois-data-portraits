@@ -110,6 +110,7 @@ deck
 
 	slide
 		ctext "Exploration: Recreate" tx ty ts
+		image "plate27-outline.png" 25 50 40 0
 	eslide
 
 	slide
