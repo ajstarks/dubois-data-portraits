@@ -6,4 +6,4 @@ The exercise aims to recreate the sample visual using hand-drawn methods
 creation, while thinking about the context and messaging.  Rapid iteration
 and peer review may be used to gauge effectiveness of the visual.  
 \n
-Next, drawing with modem data may be introduced.
+Next, drawing with modern data may be introduced.

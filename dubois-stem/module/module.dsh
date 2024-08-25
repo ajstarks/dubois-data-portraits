@@ -12,6 +12,7 @@ deck
 	implColor="rgb(10,10,10)" // "hsv(240,100,100)"
 	bgcolor="linen"
 	txcolor="black"
+	linkcolor="blue"
 	pagenumber=0
 
 	import "paginate.dsh"
@@ -107,9 +108,11 @@ deck
 		cl1=5
 		cl2=cl1+40
 		listy=85
-		listsp=3.5
+		listsp=2.7
+		listsize=2.5
+		linksize=listsize*0.6
 		ctext "Context: References" tx ty ts "sans" contextColor
-		nlist cl1 listy 2.5 "sans" "" 100 listsp
+		nlist cl1 listy listsize "sans" "" 100 listsp
 			li "Paris Exposition of 1900 (Exposition Universelle)"
 			li "Black America, 1895"
 			li "Plessy v. Ferguson"
@@ -119,17 +122,17 @@ deck
 		elist
 		incr=listsp*3.25
 		urly=listy-listsp
-		text parislink cl1 urly 2 "mono" "blue" 100 parislink
+		text parislink cl1 urly linksize "mono" linkcolor 100 parislink
 		urly-=incr
-		text balink cl1 urly 2 "mono" "blue" 100 balink
+		text balink cl1 urly linksize "mono" linkcolor 100 balink
 		urly-=incr
-		text plessylink cl1 urly 2 "mono" "blue" 100 plessylink
+		text plessylink cl1 urly linksize "mono" linkcolor 100 plessylink
 		urly-=incr
-		text phillylink cl1 urly 2 "mono" "blue" 100 phillylink
+		text phillylink cl1 urly linksize "mono" linkcolor 100 phillylink
 		urly-=incr
-		text wilmlink cl1 urly 2 "mono"  "blue" 100 wilmlink
+		text wilmlink cl1 urly linksize "mono"  linkcolor 100 wilmlink
 		urly-=incr
-		text moblink cl1 urly 2 "mono" "blue" 100 moblink
+		text moblink cl1 urly linksize "mono" linkcolor 100 moblink
 	eslide
 
 	slide bgcolor txcolor
@@ -244,9 +247,11 @@ deck
 		cl1=5
 		cl2=cl1+40
 		listy=85
-		listsp=3.5
+		listsp=2.7
+		listsize=2.5
+		linksize=listsize*0.6
 		ctext "Explore: References" tx ty ts "sans" exploreColor
-		nlist cl1 listy 2.5 "sans" "" 100 listsp
+		nlist cl1 listy listsize "sans" "" 100 listsp
 			li "Du Bois Visualizations for Consideration in STEM Education"
 			li "Du Bois Visualization Style Guide"
 			li "Recreating the Du Bois Data Portraits"
@@ -254,8 +259,10 @@ deck
 			li "African American Photographs Assembled for 1900 Paris Exposition" // Library of Congress"
 			li "W.E.B. Du Bois Data Portraits, Visualizing Black America" //  Battle-Baptiste and Russert, 2018, ISBN 978-1-61689-706-1"
 			li "Black Lives 1900, W.E.B. Du Bois at the Paris Exposition"// , Julian Rothenstein ISBN 978-1-942884-53-8"
+			
 		elist
 
+		recaplink="https://speakerdeck.com/ajstarks/du-bois-challenge-2024-recap"
 		link0="https://github.com/ajstarks/dubois-data-portraits/tree/master/dubois-stem"
 		link1="https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits"
 		link2="https://speakerdeck.com/ajstarks/du-bois-visualizations-originals"
@@ -265,24 +272,109 @@ deck
 		link6="https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
 		incr=listsp*3.25
 		urly=listy-listsp
-		text link0 cl1 urly 2 "mono" "blue" 100 link0
+		text link0 cl1 urly linksize "mono" linkcolor 100 link0
 		urly-=incr
-		text link6 cl1 urly 2 "mono" "blue" 100 link6
+		text link6 cl1 urly linksize "mono" linkcolor 100 link6
 		urly-=incr
-		text link1 cl1 urly 2 "mono" "blue" 100 link1
+		text link1 cl1 urly linksize "mono" linkcolor 100 link1
 		urly-=incr
-		text link2 cl1 urly 2 "mono" "blue" 100 link2
+		text link2 cl1 urly linksize "mono" linkcolor 100 link2
 		urly-=incr
-		text link3 cl1 urly 2 "mono"  "blue" 100 link3
+		text link3 cl1 urly linksize "mono"  linkcolor 100 link3
 		urly-=incr
-		text link4 cl1 urly 2 "mono" "blue" 100 link4
+		text link4 cl1 urly linksize "mono" linkcolor 100 link4
 		urly-=incr
-		text link5 cl1 urly 2 "mono" "blue" 100 link5
+		text link5 cl1 urly linksize "mono" linkcolor 100 link5
+		
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-
 		ctext "Implementation" tx ty ts "sans" implColor
+		textblockfile "implement.txt" 10 75 70 3 "serif"
+		text "Format: Lecture/Independent Study" 10 10 2
+		etext "Time: 45-60 minutes"  90 10 2
 	eslide
+
+	ims=70
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Implementation: Introduction" tx ty ts "sans" implColor
+		image "images/impl0.png" 50 50 ims 0
+	eslide
+
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Implementation: Basic Chart" tx ty ts "sans" implColor
+		image "images/impl1.png" 50 50 ims 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Implementation: Hinting" tx ty ts "sans" implColor
+		image "images/impl3.png" 50 50 ims 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Implementation: Applying style" tx ty ts "sans" implColor
+		image "images/impl4.png" 50 50 ims 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctect "References"
+
+		cl1=5
+		cl2=cl1+40
+		listy=85
+		listsize=2.5
+		linksize=listsize*0.6
+		listsp=2.7
+		ctext "Implement: References" tx ty ts "sans" exploreColor
+		nlist cl1 listy listsize "sans" "" 100 listsp
+			li "Github Repository for the #DuboisChallenge2024"
+			li "Du Bois Challenge 2024 Recap"
+			li "2024 Du Bois Challenge using R Programming."
+			li "Developing Du Bois’s Data Portraits with Python and Matplotlib"
+			li "Three Tricks I Learned In The Du Bois Data Visualization Challenge"
+			li "Molly Kuhs Du Bois Challenge repo"
+			li "#DuBoisChallenge2024 using Python and Matplotlib"
+			li "#DuboisChallenge2024 using R"
+			li "#DuboisChallenge2024 using Tableau" // Library of Congress"
+		elist
+
+
+		challenge2024="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md"
+		simisana="https://medium.com/illumination/2024-du-bois-challenge-using-r-programming-02af8afa5626"
+		edblog="https://www.edriessen.com/2024/02/07/developing-du-boiss-data-portraits-with-python-and-matplotlib/"
+		bauman="https://nightingaledvs.com/recreating-historical-dataviz-three-tricks-i-learned-in-the-du-bois-data-visualization-challenge/"
+		makush="https://github.com/makuhs/DuboisChallenge"
+		edriessen="https://github.com/edriessen/dubois24-python-matplotlib"
+		sndaba="https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main"
+		moten="https://public.tableau.com/app/profile/camaal.moten7357/vizzes"
+
+		incr=listsp*3.25
+		urly=listy-listsp
+		text challenge2024 cl1 urly linksize "mono" linkcolor 100 challenge2024
+		urly-=incr
+		text recaplink cl1 urly linksize "mono" linkcolor 100 recaplink
+		urly-=incr
+		text simisana cl1 urly linksize "mono" linkcolor 100 simisana
+		urly-=incr
+		text edblog cl1 urly linksize "mono" linkcolor 100 edblog
+		urly-=incr
+		text bauman cl1 urly linksize "mono" linkcolor 100 bauman
+		urly-=incr
+		text makush cl1 urly linksize "mono" linkcolor 100 makush
+		urly-=incr
+		text edriessen cl1 urly linksize "mono" linkcolor 100 edriessen
+		urly-=incr
+		text sndaba cl1 urly linksize "mono" linkcolor 100 sndaba
+		urly-=incr
+		text moten cl1 urly linksize "mono"  linkcolor 100 moten
+	eslide
+
+
 edeck
