@@ -14,6 +14,7 @@ deck
 	txcolor="black"
 	linkcolor="blue"
 	pagenumber=0
+	footery=3
 
 	import "paginate.dsh"
 
@@ -47,8 +48,8 @@ deck
 
 		ctext "Context" tx ty ts "sans" contextColor
 		textblockfile "context.txt" 10 75 70 3 "serif"
-		text "Format: Lecture/Independent Study" 10 10 2
-		etext "Time: 30-45 minutes"  90 10 2
+		text "Format: Lecture/Independent Study" 10 footery 2
+		etext "Time: 30-45 minutes"  90 footery 2
 	eslide
 
 	slide bgcolor txcolor
@@ -84,12 +85,16 @@ deck
 		ctext "Context: Five years before Paris" tx ty ts "sans" contextColor
 		imx=10
 		ims=13
+
+
 		parislink="https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)"
 		balink="https://publicdomainreview.org/essay/black-america-1895"
 		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
-		phillylink="https://tinyurl.com/44y8bshp" // https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ" // ?hl=en&gbpv=1&pg=PR1&dq=editions:qKWdGndN6W4C" // https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
 		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
 		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+
+
 		image "images/BA-happy-days.jpg"  imx 79 ims 0 0 balink
 		image "images/plessy.jpg"   	  imx 65 ims 0 0 plessylink
 		image "images/philly12.jpg"       imx 49 ims 0 0 phillylink
@@ -111,8 +116,11 @@ deck
 		listsp=2.7
 		listsize=2.5
 		linksize=listsize*0.6
+
+
+
 		ctext "Context: References" tx ty ts "sans" contextColor
-		nlist cl1 listy listsize "sans" "" 100 listsp
+		list cl1 listy listsize "sans" "" 100 listsp
 			li "Paris Exposition of 1900 (Exposition Universelle)"
 			li "Black America, 1895"
 			li "Plessy v. Ferguson"
@@ -140,8 +148,8 @@ deck
 
 		ctext "Explore" tx ty ts "sans" exploreColor
 		textblockfile "exp1.txt" 10 75 70 3 "serif"
-		text "Materials: Pens/Paper" 10 10 2
-		etext "Time: 45-60 minutes"  90 10 2
+		text "Materials: Pens/Paper" 10 footery 2
+		etext "Time: 45-60 minutes"  90 footery 2
 	eslide
 
 	slide bgcolor txcolor
@@ -231,7 +239,7 @@ deck
 	slide bgcolor txcolor
 		paginate pagenumber
 
-		imy=20
+		imy=30
 		ims=15
 		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
 		textblockfile "chart-types.txt" 15 80 70 ss "serif"
@@ -251,7 +259,7 @@ deck
 		listsize=2.5
 		linksize=listsize*0.6
 		ctext "Explore: References" tx ty ts "sans" exploreColor
-		nlist cl1 listy listsize "sans" "" 100 listsp
+		list cl1 listy listsize "sans" "" 100 listsp
 			li "Du Bois Visualizations for Consideration in STEM Education"
 			li "Du Bois Visualization Style Guide"
 			li "Recreating the Du Bois Data Portraits"
@@ -266,7 +274,7 @@ deck
 		link0="https://github.com/ajstarks/dubois-data-portraits/tree/master/dubois-stem"
 		link1="https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits"
 		link2="https://speakerdeck.com/ajstarks/du-bois-visualizations-originals"
-		link3="https://tinyurl.com/smamzvtv" // https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?st=grid&sb=date_desc"
+		link3="https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?st=grid&sb=date_desc" // https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/?st=grid&sb=date_desc"
 		link4="https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america"
 		link5="https://www.theredstoneshop.com/products/black-lives-1900"
 		link6="https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
@@ -292,8 +300,8 @@ deck
 		paginate pagenumber
 		ctext "Implementation" tx ty ts "sans" implColor
 		textblockfile "implement.txt" 10 75 70 3 "serif"
-		text "Format: Lecture/Independent Study" 10 10 2
-		etext "Time: 45-60 minutes"  90 10 2
+		text "Format: Lecture/Independent Study" 10 footery 2
+		etext "Time: 45-60 minutes"  90 footery 2
 	eslide
 
 	ims=70
@@ -333,7 +341,7 @@ deck
 		linksize=listsize*0.6
 		listsp=2.7
 		ctext "Implement: References" tx ty ts "sans" exploreColor
-		nlist cl1 listy listsize "sans" "" 100 listsp
+		list cl1 listy listsize "sans" "" 100 listsp
 			li "Github Repository for the #DuboisChallenge2024"
 			li "Du Bois Challenge 2024 Recap"
 			li "2024 Du Bois Challenge using R Programming."
@@ -344,7 +352,6 @@ deck
 			li "#DuboisChallenge2024 using R"
 			li "#DuboisChallenge2024 using Tableau" // Library of Congress"
 		elist
-
 
 		challenge2024="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md"
 		simisana="https://medium.com/illumination/2024-du-bois-challenge-using-r-programming-02af8afa5626"
@@ -375,6 +382,4 @@ deck
 		urly-=incr
 		text moten cl1 urly linksize "mono"  linkcolor 100 moten
 	eslide
-
-
 edeck

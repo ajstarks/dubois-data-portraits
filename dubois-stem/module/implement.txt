@@ -1,4 +1,5 @@
-The Implementation section builds on the previous Context and Explore sections and guides the students through building a Du Bois-style visualization using digital tools.
+The Implementation section builds on the Context and Explore sections and guides the students through building a Du Bois-style visualization using digital tools.
+\n
 The example shown here uses R and Jupyter notebook, which provides an interactive environment to explore the visual, starting from a basic graph, to applying the Du Bois style.
 \n
-Note that participants of the Du Bois Challenge, an annual online exercise where the community re-creates a curated set of Du Bois visuals, provide examples of digital re-creations using tools such as R, python/matplotlib, and Tableau.
+Note that participants of the Du Bois Challenge, an annual online exercise that re-creates a curated set of Du Bois visuals, provides examples of digital re-creations using tools such as R, python/matplotlib, and Tableau.
