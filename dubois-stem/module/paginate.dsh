@@ -1,0 +1,5 @@
+def paginate pagenumber
+	pagenumber+=1
+	pstring=format "[%.0f]" pagenumber
+	ctext pstring 50 4 2
+edef

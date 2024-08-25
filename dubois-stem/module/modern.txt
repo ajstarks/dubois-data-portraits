@@ -1,0 +1,5 @@
+In this section, students may apply modern data to the Du Bois Style. This involves
+data gathering, selection of appropriate chart type, and defining the elements
+to apply the Du Bois style to (for example color palette, labeling methods)
+\n
+This example shows modern data on the occupations of African-Americans and Whites in the city of Baltimore.

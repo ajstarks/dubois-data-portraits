@@ -1,3 +1,3 @@
 The Du Bois Stem module will consist of three sections: (1) Context, explaining the motivation of the Du Bois visuals in a historical context (2) Exploration: an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods (3) Implement: Re-create Du Bois style visuals using digital tools.
-
+\n
 The sections are meant to be additive, used in the order stated above, but they may be used individually according to prior knowledge or background.

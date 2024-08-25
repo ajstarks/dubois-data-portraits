@@ -1,8 +1,9 @@
 This section is a hands-on session that will take a sample Du Bois
-visualization, and reconstructs and analyzes various aspects of the visual.
-\n \n
+visualization, (Plate 27 in this example) and reconstructs and analyzes various aspects of the visual.
+\n
 The exercise aims to recreate the sample visual using hand-drawn methods
 (pens, paper, markers, etc.), to immerse the students in the act of
 creation, while thinking about the context and messaging.  Rapid iteration
-and peer review may be used to gauge effectiveness of the visual.  Next,
-drawing with modem data may be introduced.
+and peer review may be used to gauge effectiveness of the visual.  
+\n
+Next, drawing with modem data may be introduced.

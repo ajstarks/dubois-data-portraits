@@ -3,90 +3,150 @@ deck
 	tx=50
 	ty=92
 	ts=4
-	ss=top-4
-	color="#fae2cb" // "linen"
+	ss=2.5
+	ps=3
+	notex=50
+	notey=ty-15
+	contextColor="rgb(100,100,100)" //hsv(240,50,100)"
+	exploreColor="rgb(50,50,50)" //hsv(240,75,100)"
+	implColor="rgb(10,10,10)" // "hsv(240,100,100)"
+	bgcolor="linen"
+	txcolor="black"
+	pagenumber=0
+
+	import "paginate.dsh"
 
 	slide "black" "white"
-		textblock "Using Du Bois Visualizations for STEM Education" 50 85 25 5
-		image "dubois-stem-logo.png" 50 50 80 0
+		textblock "Using Du Bois Visualizations in STEM Education" 47 80 20 4
+		image "images/dubois-stem-logo.png" 50 50 82 0
 	eslide
 
-	slide
-		ctext "Outline" tx ty ts
-		ctext "The Du Bois STEM module has three sections:" 50 80 3
-		hline 2 63 22 10 color
-		hline 2 48 22 10 color 50
-		hline 2 33 22 10 color 20
-		text "[1] Context" 3 65 3
-		text "[2] Explore" 3 50 3
-		text "[3] Implement" 3 35 3
-		textblock "explaining the motivation of the Du Bois visuals in a historical context." 				25 65 60 3  "serif"
-		textblock "an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods." 	25 50 60 3  "serif"
-		textblock "Re-create Du Bois style visuals using digital tools." 									25 35 60 3  "serif"
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		r1=40
+		r2=r1-15
+		r3=r2-15
+		
+		left=7
+		c1=left+18
+		ctext "Module Outline" tx ty ts
+		textblockfile "intro.txt" left 82 72 ps "serif"
+	
+		text "Context"		left r1 ps "sans" contextColor
+		text "Explore"		left r2 ps "sans" exploreColor
+		text "Implement"	left r3 ps "sans" implColor
+		textblock "explaining the motivation of the Du Bois visuals in a historical context." 				c1 r1 60 ps  "serif"
+		textblock "an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods." 	c1 r2 60 ps  "serif"
+		textblock "Re-create Du Bois style visuals using digital tools." 									c1 r3 60 ps  "serif"
 	eslide
 
-	slide
-		c1=17
-		ctext "Context" 16 top 4
-		ctext "Explore" 50 top 4
-		ctext "Apply"   83 top 4
-		ctext "(Why)"   16  ss 2
-		ctext "(What)"  50  ss 2
-		ctext "(Implement)" 83 ss 2 
-		rect 17 50 33 100 color 20
-		rect 50 50 33 100 color 50
-		rect 83 50 34 100 color
+	slide bgcolor txcolor
+		paginate pagenumber
 
-		blist 5 80 2 "" "" 100 1.4
-			li "Context/History"
-			li "Motivation"
-			li "Message"
-			li "Overview of the 1900 Expo"
-		elist
-		c2=40
-		text "Deconstruct" c2 80 3
-		blist c2 75 2 "" "" 100 1.4
-			li "Select sample plate(s)"
-			li "Message and Audience"
-			li "Aesthetics/design"
-			li "Analytical methods"
-			li "Chart Types"
-		elist
-		text "Recreate" c2 50 3
-		blist c2 45 2 "" "" 100 1.4
-			li "Hand drawn"
-			li "Rapid iteration"
-			li "Peer review"
-		elist
-		text "Modernize" c2 30 3
-		blist c2 25 2 "" "" 100 1.4
-			li "Apply with modern data"
-		elist		
-		text "Evaluate" c2 15 3
-		blist c2 10 2 "" "" 100 1.4
-			li "Clarity of Message"
-			li "Updates"
-		elist
-		textblock "Implement the charts with the digital tool of your choice" 70 80 25 2
-		blist 75 70 2 "" "" 100 1.4
-			li "R"
-			li "Stata"
-			li "python/matlab"
-			li "..."
-		elist
+		ctext "Context" tx ty ts "sans" contextColor
+		textblockfile "context.txt" 10 75 70 3 "serif"
+		text "Format: Lecture/Independent Study" 10 10 2
+		etext "Time: 30-45 minutes"  90 10 2
 	eslide
 
-	slide
-		ctext "Exploration" tx ty ts
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Context: Background" tx ty ts "sans" contextColor
+		textblockfile "context-bg.txt" 22 80 62 ps "serif"
+		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			10 72 12 0
+		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		10 42 12 0
+		cimage 	"images/au-debating-team-1900.jpg"	"Atlanta U. Students"	10 14 12 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ims=15
+		imy=25
+		ctext "Context: The 1900 Paris Exposition" tx ty ts "sans" contextColor
+		textblockfile "paris.txt" 10 82 72 2.5 "serif"
+		cimage "images/expo-poster.jpg" 	"Exhibition Poster" 			15 imy ims 0
+		cimage "images/paris-expo.jpg"  	"1900 Paris"  					50 imy 30 0
+		cimage "images/expo0.jpg"	    	"Exhibition of American Negroes"	85 imy ims 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ev1895="During the summer of 1895, in a Brooklyn park, there was a cotton plantation complete with five hundred Black workers reenacting slavery."
+		ev1896="In 1896 the landmark Plessy v. Ferguson Supreme Count decision was handed down, racial segregation, leading to generations of Jim Crow laws."
+		ev1897="Du Bois created the Philadelphia Negro in 1897 which sought to ascertain something of the geographical distribution of his race, their organizations, and their relation to their million white fellow-citizens."
+		ev1898="In 1898 the duly elected people in Wilmington, NC was violently overthrown. The coup occurred after the state's Southern Democrats conspired and led a mob of 2,000 white men to overthrow the legitimately elected local Fusionist government."
+		ev1899="During the 1880s and 1890s, instances of lethal mob violence increased steadily, peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. Included in this number was the horrific lynching of Sam Hose." // Between 1890-1900 Georgia averaged more than one mob killing per month."
+		ctext "Context: Five years before Paris" tx ty ts "sans" contextColor
+		imx=10
+		ims=13
+		parislink="https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)"
+		balink="https://publicdomainreview.org/essay/black-america-1895"
+		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+		phillylink="https://tinyurl.com/44y8bshp" // https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+		image "images/BA-happy-days.jpg"  imx 79 ims 0 0 balink
+		image "images/plessy.jpg"   	  imx 65 ims 0 0 plessylink
+		image "images/philly12.jpg"       imx 49 ims 0 0 phillylink
+		image "images/white-mans-day.jpg" imx 32 ims 0 0 wilmlink
+		image "images/mob.jpg"            imx 12 ims 0 0 moblink
+		textblock ev1895 22 81 63 2.2 "serif" "" 100 balink
+		textblock ev1896 22 68 65 2.2 "serif" "" 100 plessylink
+		textblock ev1897 22 53 70 2.2 "serif" "" 100 phillylink
+		textblock ev1898 22 37 60 2.2 "serif" "" 100 wilmlink
+		textblock ev1899 22 17 65 2.2 "serif" "" 100 moblink
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		cl1=5
+		cl2=cl1+40
+		listy=85
+		listsp=3.5
+		ctext "Context: References" tx ty ts "sans" contextColor
+		nlist cl1 listy 2.5 "sans" "" 100 listsp
+			li "Paris Exposition of 1900 (Exposition Universelle)"
+			li "Black America, 1895"
+			li "Plessy v. Ferguson"
+			li "The Philadelphia Negro"
+			li "Wilmington Insurrection of 1898"
+			li "The Lynching of Sam Hose"
+		elist
+		incr=listsp*3.25
+		urly=listy-listsp
+		text parislink cl1 urly 2 "mono" "blue" 100 parislink
+		urly-=incr
+		text balink cl1 urly 2 "mono" "blue" 100 balink
+		urly-=incr
+		text plessylink cl1 urly 2 "mono" "blue" 100 plessylink
+		urly-=incr
+		text phillylink cl1 urly 2 "mono" "blue" 100 phillylink
+		urly-=incr
+		text wilmlink cl1 urly 2 "mono"  "blue" 100 wilmlink
+		urly-=incr
+		text moblink cl1 urly 2 "mono" "blue" 100 moblink
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Explore" tx ty ts "sans" exploreColor
 		textblockfile "exp1.txt" 10 75 70 3 "serif"
 		text "Materials: Pens/Paper" 10 10 2
 		etext "Time: 45-60 minutes"  90 10 2
 	eslide
 
-	slide
-		ctext "Exploration: Deconstruction" tx ty ts
-		image "original-plate-27.jpg" 25 50 40 0
-		blist 50 65 2.5
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Explore: Outline" tx ty ts "sans" exploreColor
+		image "images/original-plate-27.jpg" 25 50 40 0
+		blist 50 65 ps "serif"
 			li "Message and Audience"
 			li "Aesthetics/design"
 			li "Analytical methods"
@@ -94,39 +154,98 @@ deck
 		elist
 	eslide
 
-	slide
-		ctext "Exploration: Deconstruction (Message)" tx ty ts
-		image "original-plate-27.jpg" 25 50 40 0
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Explore: Message" tx ty ts "sans" exploreColor
+		image "images/original-plate-27.jpg" 25 50 40 0
 		textblock "Activity: Discuss the message that the visual is attempimg to convey" 5 10 40 2 "serif"
-		textblockfile "plate27-message.txt" 50 80 30 2 "serif"
+		textblockfile "plate27-message.txt" notex notey 40 ss "serif"
 	eslide
 
 
-	slide
-		ctext "Exploration: Deconstruction (Aesthetics and Design)" tx ty ts
-		image "original-plate-27.jpg" 25 50 40 0
-		textblockfile "plate27.txt" 50 80 30 2 "serif"
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-27.jpg" 25 50 40 0
+		textblockfile "plate27.txt" notex notey 40 ss "serif"
 	eslide
 
-	slide
-		ctext "Exploration: Recreate" tx ty ts
-		image "plate27-outline.png" 25 50 40 0
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ll=48
+		as=ps
+		alw=0.2
+		afont="serif"
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		text "Black Georgians"  ll 65 as afont
+		text "White Georgians" 	ll 30 as afont
+		text "Title"			ll 78 as afont
+		text "Labels"           ll 73 as afont
+		
+		text "Legend"                   ll 50  as afont
+		ctext "22x28 inch portrait mode" 25 85 2 afont
+		ctext "data wedges"	20 65 2 "serif" "white"
+		hline 41 79 7 alw
+		hline 30 74 17 alw
+		hline 40 66 7 alw
+		hline 40 31 7 alw
+		rbracket 48 50 3 15 alw 
+		image "images/original-plate-27.jpg" 25 50 40 0
 	eslide
 
-	slide
-		ctext "Exploration: Modernize" tx ty ts
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Explore: Recreate" tx ty ts "sans" exploreColor
+		image "images/plate27-outline.png" 25 50 40 0
+		textblockfile "recreate.txt" notex notey 40 ss "serif"
 	eslide
 
-	slide
-		ctext "Exploration: Evaluation" tx ty ts
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
+		textblockfile "modern.txt" notex notey 40 ss "serif"
+		image "images/hand-drawn-opi.png"   25 50 40 0
 	eslide
 
-	slide
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
+		textblock "This section address the effectiveness and analytical methods used in the visual." 15 80 60 ps "serif"
+		blist 15 60 ss "serif"
+			li "Is the “fan chart” an effective method of envoking the message?"
+			li "Can the viewer make appropriate comparisons?"
+			li "What conclusions are drawn from the visual?"
+			li "What additional questions are raised?"
+		elist
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		imy=20
+		ims=15
+		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		textblockfile "chart-types.txt" 15 80 70 ss "serif"
+		image "images/original-plate-11.jpg" 20 imy ims  0
+		image "images/original-plate-31.jpg" 40 imy 20 0
+		image "images/original-plate-10.jpg" 60 imy ims 0
+		image "images/original-plate-40.jpg" 80 imy ims 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+
 		cl1=5
 		cl2=cl1+40
 		listy=85
 		listsp=3.5
-		ctext "Exploration: References" tx ty ts
+		ctext "Explore: References" tx ty ts "sans" exploreColor
 		nlist cl1 listy 2.5 "sans" "" 100 listsp
 			li "Du Bois Visualizations for Consideration in STEM Education"
 			li "Du Bois Visualization Style Guide"
@@ -161,11 +280,9 @@ deck
 		text link5 cl1 urly 2 "mono" "blue" 100 link5
 	eslide
 
-	slide
-		ctext "Implementation" tx ty ts
+	slide bgcolor txcolor
+		paginate pagenumber
+
+		ctext "Implementation" tx ty ts "sans" implColor
 	eslide
-
-
-
-
 edeck
