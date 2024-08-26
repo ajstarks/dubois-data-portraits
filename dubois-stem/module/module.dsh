@@ -12,14 +12,14 @@ deck
 	implColor="rgb(10,10,10)" // "hsv(240,100,100)"
 	bgcolor="linen"
 	txcolor="black"
-	linkcolor="blue"
+	linkcolor="#3366CC"
 	pagenumber=0
 	footery=3
 
 	import "paginate.dsh"
 
 	slide "black" "white"
-		textblock "Using Du Bois Visualizations in STEM Education" 47 80 20 4
+		textblock "Using Du Bois Visualizations in STEM Education" 47 80 20 4 "serif"
 		image "images/dubois-stem-logo.png" 50 50 82 0
 	eslide
 
@@ -78,7 +78,7 @@ deck
 		paginate pagenumber
 
 		ev1895="During the summer of 1895, in a Brooklyn park, there was a cotton plantation complete with five hundred Black workers reenacting slavery."
-		ev1896="In 1896 the landmark Plessy v. Ferguson Supreme Count decision was handed down, racial segregation, leading to generations of Jim Crow laws."
+		ev1896="In 1896 the landmark Plessy v. Ferguson Supreme Court decision was handed down, legitimizing racial segregation, leading to generations of Jim Crow laws."
 		ev1897="Du Bois created the Philadelphia Negro in 1897 which sought to ascertain something of the geographical distribution of his race, their organizations, and their relation to their million white fellow-citizens."
 		ev1898="In 1898 the duly elected people in Wilmington, NC was violently overthrown. The coup occurred after the state's Southern Democrats conspired and led a mob of 2,000 white men to overthrow the legitimately elected local Fusionist government."
 		ev1899="During the 1880s and 1890s, instances of lethal mob violence increased steadily, peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. Included in this number was the horrific lynching of Sam Hose." // Between 1890-1900 Georgia averaged more than one mob killing per month."
