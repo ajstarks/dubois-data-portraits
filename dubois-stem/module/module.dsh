@@ -15,12 +15,14 @@ deck
 	linkcolor="#3366CC"
 	pagenumber=0
 	footery=3
+	version="2024-08-27"
 
 	import "paginate.dsh"
 
 	slide "black" "white"
 		textblock "Using Du Bois Visualizations in STEM Education" 47 80 20 4 "serif"
 		image "images/dubois-stem-logo.png" 50 50 82 0
+		etext version 98 2 1.5
 	eslide
 
 
@@ -56,7 +58,7 @@ deck
 		paginate pagenumber
 
 		ctext "Context: Background" tx ty ts "sans" contextColor
-		textblockfile "context-bg.txt" 22 80 62 ps "serif"
+		textblockfile "context-bg.txt" 22 80 63 ps "serif"
 		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			10 72 12 0
 		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		10 42 12 0
 		cimage 	"images/au-debating-team-1900.jpg"	"Atlanta U. Students"	10 14 12 0
@@ -86,14 +88,12 @@ deck
 		imx=10
 		ims=13
 
-
 		parislink="https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)"
 		balink="https://publicdomainreview.org/essay/black-america-1895"
 		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
 		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ" // ?hl=en&gbpv=1&pg=PR1&dq=editions:qKWdGndN6W4C" // https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
 		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
 		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
-
 
 		image "images/BA-happy-days.jpg"  imx 79 ims 0 0 balink
 		image "images/plessy.jpg"   	  imx 65 ims 0 0 plessylink
@@ -116,8 +116,6 @@ deck
 		listsp=2.7
 		listsize=2.5
 		linksize=listsize*0.6
-
-
 
 		ctext "Context: References" tx ty ts "sans" contextColor
 		list cl1 listy listsize "sans" "" 100 listsp
@@ -293,7 +291,6 @@ deck
 		text link4 cl1 urly linksize "mono" linkcolor 100 link4
 		urly-=incr
 		text link5 cl1 urly linksize "mono" linkcolor 100 link5
-		
 	eslide
 
 	slide bgcolor txcolor
@@ -310,7 +307,6 @@ deck
 		ctext "Implementation: Introduction" tx ty ts "sans" implColor
 		image "images/impl0.png" 50 50 ims 0
 	eslide
-
 
 	slide bgcolor txcolor
 		paginate pagenumber
