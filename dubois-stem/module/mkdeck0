@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh module.dsh|pdfdeck -title "Using Du Bois Visualizations in STEM Education" -author "Anthony Starks" -sans PublicSans-Regular -serif Charter-Regular -mono Inconsolata-Bold -stdout - > dubois-module.pdf

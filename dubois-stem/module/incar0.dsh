@@ -1,0 +1,17 @@
+deck
+	slide
+		legy=15
+		eurx=30
+		afx=eurx+20
+		ts=2.5
+		legts=ts*0.6
+		opts="-left=25 -right=75 -vol -yrange=0,20,4 -volop=15 -min=0 -max=20 -grid -bar=f -datafmt=%.1f%%  -vcolor=black -dot -title=f"
+		ctext "Incarceration Rate: Euro and African American Males, 1974-2001" 50 85 ts
+		dchart opts -xlabel=0     -color=#dc143c     incar-white.d
+		dchart opts -yaxis -grid  -color=#4682b4     incar-black.d
+		ctext "African-Americans" 50 45 legts
+		ctext "Euro-Americans"    50 31 legts
+		//legend "Euro-American Males"    eurx legy legts "sans" "crimson" 60
+		//legend "African-American Males" afx  legy legts  "sans" "blue" 60
+	eslide
+edeck

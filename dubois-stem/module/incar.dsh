@@ -1,0 +1,101 @@
+deck
+	slide "rgb(195,195,195)"
+		rect 55 55 50 50 "green"
+		opts="-textsize=2.5 -title=f -top=80 -bottom=30 -left=30 -right=80 -datafmt=%.1f%% -lcolor=black -yrange=0,20,5 -vol -volop=100 -bar=f -min=0 -max=20"
+		dchart opts            -color=black -vcolor=black incar-aa.d
+		dchart opts -xlabel=0  -color=white -vcolor=white incar-ea.d
+		textbox "American Incarceration Rates, 1974-2001" 30 90 30 2.5
+		text "African Americans" 50 50  1.8 "sans" "white"
+		text "European Americans" 50 32 1.8 "sans" "black"
+	eslide
+
+	// layers rect::poly:line:ellipse:text
+	bgcolor="darkgreen"
+	fgcolor="white"
+	slide bgcolor fgcolor
+		sx=50
+		sy=50
+
+		w=70
+		wh=w/2
+		incr=w/5
+		left=sx-wh
+		right=sx+wh
+		top=sy+wh
+		bottom=sy-wh
+
+		ts=3
+		tsh=ts/2
+		tts=ts*1.5
+		lop=60
+		lw=0.1
+		//square sx sy 80 "rgb(150,150,150)"
+		square sx sy w "forestgreen"
+
+		x1=left
+		ctext "1974" x1 top ts
+		x2=x1+incr
+		ctext "1979" x2 top ts
+		x3=x2+incr
+		ctext "1986" x3 top ts
+		x4=x3+incr
+		ctext "1991" x4 top ts
+		x5=x4+incr
+		ctext "1997" x5 top ts
+		x6=x5+incr
+		ctext "2001" x6 top ts
+
+		d1=8.7
+		d2=8.9
+		d3=9.9
+		d4=12.0
+		d5=15.0
+		d6=16.6
+
+		sd1=format "%.1f%%" d1 
+		sd2=format "%.1f%%" d2 
+		sd3=format "%.1f%%" d3 
+		sd4=format "%.1f%%" d4 
+		sd5=format "%.1f%%" d5 
+		sd6=format "%.1f%%" d6 
+
+		dmin=0
+		dmax=20
+		y1=vmap d1 dmin dmax top bottom
+		circle x1 y1 2 "red"
+		y2=vmap d2 dmin dmax top bottom
+		circle x2 y2 2 "red"
+		y3=vmap d3 dmin dmax top bottom
+		circle x3 y3 2 "red"
+		y4=vmap d4 dmin dmax top bottom
+		circle x4 y4 2 "red"
+		y5=vmap d5 dmin dmax top bottom
+		circle x5 y5 2 "red"
+		y6=vmap d6 dmin dmax top bottom
+		circle x6 y6 2 "red"
+
+		line x2 top x2 y2 lw fgcolor lop
+		line x3 top x3 y3 lw fgcolor lop
+		line x4 top x4 y4 lw fgcolor lop
+		line x5 top x5 y5 lw fgcolor lop
+		line x6 top x6 y6 lw fgcolor lop
+
+		//polygon "left x1 x2 x3 x4 x5 x6 right" "bottom y1 y2 y3 y4 y5 y6 bottom" "black"
+		polygon "left x1 x2 x3 x4 x5 x6 right" "top y1 y2 y3 y4 y5 y6 top" "black"
+		textblock "Imprisoned Black Men" 25 75 20 tts "sans" fgcolor
+
+		y1+=tsh
+		y2+=tsh
+		y3+=tsh
+		y4+=tsh
+		y5+=tsh
+		y6+=tsh
+
+		ctext sd1 x1 y1 ts "sans" fgcolor
+		ctext sd2 x2 y2 ts "sans" fgcolor
+		ctext sd3 x3 y3 ts "sans" fgcolor
+		ctext sd4 x4 y4 ts "sans" fgcolor
+		ctext sd5 x5 y5 ts "sans" fgcolor
+		ctext sd6 x6 y6 ts "sans" fgcolor
+	eslide
+edeck
