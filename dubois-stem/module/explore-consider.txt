@@ -1,0 +1,10 @@
+What analytic methods would you use to
+make this chart?
+\n
+What chart type is best?
+Aesthetics: consider dimensions, color
+selection, titles, data labels, legend, notes
+etc.
+\n
+What tools do think are needed to make
+this chart?

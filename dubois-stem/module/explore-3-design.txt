@@ -1,0 +1,13 @@
+This visual, a conventional bar graph,
+uses spot color to highlight the data for
+Black Americans compared to other
+countries, showing the illiteracy rate to
+be at the midpoint compared to other
+nations.
+\n
+The chart portion is a large percentage
+of the canvas, simply showing the
+message.
+\n
+Note the bilingual labels and titles (a
+nod to the venue)

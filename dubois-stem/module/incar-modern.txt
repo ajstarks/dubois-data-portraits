@@ -1,0 +1,4 @@
+In this section, apply modern data to the Du Bois Style. This involves data
+gathering, selection of appropriate chart type, and defining the elements to
+apply the Du Bois style (for example color palette, labeling methods)
+This example shows incarceration rates between 1974-2001.

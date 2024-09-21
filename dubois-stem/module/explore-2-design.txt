@@ -1,0 +1,16 @@
+This visual makes uses a bold color
+contrast (black for slavery, green for
+freedom) to show the proportion of
+enslaved and free people.
+\n
+The area is dominated by black, with
+contrasting large text, yet the eye is
+drawn to the sudden jolt of green
+freedom in 1865. Note that increasing
+data goes down instead of up.
+\n
+The titles are bilingual (a nod to the
+venue), and the X-axis is labeled at the
+top, contrary to today’s convention.
+Instead of a labeled Y-axis, each
+individual data point is labeled.

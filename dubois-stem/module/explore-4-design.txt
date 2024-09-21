@@ -1,0 +1,17 @@
+This visual has three sections: title,
+choropleth map, and legend, uses a
+combination of color (black, brown, tan,
+red, pink, gold) and cross-hatching to
+encode ten categories of population
+data.
+\n
+The solid and cross-hatched black is
+used to represent the higher
+populations based in the South, red and
+pink encode the mid-level populations,
+gold used for lower populations. A
+neutral color is used to states with a
+very small Black population.
+\n
+Note the use of ample white space to
+allow the eye to focus on the map.
