@@ -1,0 +1,7 @@
+This example updates the hand-drawn version to a digital
+format, using a color scheme similar to the original,
+and adding red as a highlight color
+(note the Pan-African black-red-green theme)
+\n
+Also note the vertical lines are reminiscent of 
+the bars of a prison cell.

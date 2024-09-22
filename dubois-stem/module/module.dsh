@@ -7,7 +7,7 @@ deck
 	subsize=ts*1.5
 	ps=3
 	notex=50
-	notey=ty-10
+	notey=ty-12
 	contextColor="rgb(100,100,100)" //hsv(240,50,100)"
 	exploreColor="rgb(50,50,50)" //hsv(240,75,100)"
 	implColor="rgb(10,10,10)" // "hsv(240,100,100)"
@@ -16,7 +16,7 @@ deck
 	linkcolor="#3366CC"
 	pagenumber=0
 	footery=3
-	version="2024-08-27"
+	version="2024-09-21"
 
 	import "paginate.dsh"
 
@@ -45,6 +45,14 @@ deck
 		textblock "an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods." 	c1 r2 60 ps  "serif"
 		textblock "Re-create Du Bois style visuals using digital tools." 									c1 r3 60 ps  "serif"
 	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Context" tx ty subsize
+		image "images/dubois-1900.png" 30 50 35 0
+		image "images/expo0.jpg"       70 50 35 0
+	eslide
+
 
 	slide bgcolor txcolor
 		paginate pagenumber
@@ -91,17 +99,6 @@ deck
 		image "images/dubois-venue-color.png" 25 50 40 0
 		textblockfile "contextq.txt" 50 75 30 2.5 "serif"
 	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore" tx ty subsize
-		image "images/hand-drawn-opi.png"         25 50 40 0
-		image "images/hand-draw-bars01.jpg"       75 50 35 0
-	eslide
-
-
-
-
 
 	slide bgcolor txcolor
 		paginate pagenumber
@@ -180,6 +177,15 @@ deck
 		text moblink cl1 urly linksize "mono" linkcolor 100 moblink
 	eslide
 
+	// Explore section
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore" tx ty subsize
+		image "images/original-plate-47.jpg" 25 50 35 0
+		image "images/hand-draw-bars01.jpg" 75 50 35 0
+	eslide
+
 	slide bgcolor txcolor
 		paginate pagenumber
 
@@ -189,6 +195,7 @@ deck
 		etext "Time: 45-60 minutes"  90 footery 2
 	eslide
 
+	// Explore 1
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore Example 1" tx ty ts "sans" exploreColor
@@ -214,7 +221,7 @@ deck
 
 		ctext "Explore: Message" tx ty ts "sans" exploreColor
 		image "images/original-plate-27.jpg" 25 50 40 0
-		textblock "Activity: Discuss the message that the visual is attempimg to convey" 5 10 40 2 "serif"
+		textblock "Activity: Discuss the message that the visual is attempting to convey" 5 10 40 2 "serif"
 		textblockfile "plate27-message.txt" notex notey 40 ss "serif"
 	eslide
 
@@ -294,8 +301,14 @@ deck
 		image "images/original-plate-40.jpg" 80 imy ims 0
 	eslide
 
-	// Explore 2:
+	slide bgcolor txcolor
+		
+		image "images/chart-types.png" 50 50 100 0
+		paginate pagenumber
+	eslide
 
+
+	// Explore 2:
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore Example 2" tx ty ts "sans" exploreColor
@@ -308,6 +321,13 @@ deck
 		ctext "Explore: Message" tx ty ts "sans" exploreColor
 		image "images/original-plate-51.jpg" 25 50 40 0
 		textblockfile "explore-2-message.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Considerations" tx ty ts "sans" exploreColor
+		image "images/original-plate-51.jpg" 25 50 40 0
+		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -334,17 +354,70 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore:" tx ty ts "sans" exploreColor
-		image "images/original-plate-51.jpg" 25 50 40 0
+		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
+		image "images/incar-rev.png" 50 60 40 0
+		textblockfile "explore-2-modern.txt"    10 30 75 2.5 "serif" "" 100 "https://bjs.ojp.gov/content/pub/pdf/piusp01.pdf"
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore Example 2" tx ty ts "sans" exploreColor
+		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
+		image "images/original-plate-51.jpg" 25 50 40 0
+		image "images/incar-rev.png"         75 50 40 0
+		ctext "Original and Modern versions compared" 50 10 2 "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
+		image "images/incar-chart.png"         50 60 60 0
+		textblockfile "explore-2-modern2.txt"    10 30 75 2.5 "serif" "" 100 "https://bjs.ojp.gov/content/pub/pdf/piusp01.pdf"
+	eslide
+
+	// Explore 3
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore Example 3" tx ty ts "sans" exploreColor
 		image "images/original-plate-47.jpg" 50 50 40 0
 		ctext "Illiteracy of American Negroes compared with that of other nations" 50 10 2
 	eslide
 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Message" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-3-message.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-3-design.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Considerations" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Re-Create" tx ty ts "sans" exploreColor
+		image "images/hand-draw-bars01.jpg" 25 50 40 0
+		textblockfile "recreate.txt" notex notey 35 ss "serif"
+	eslide
+
+	// Explore 4
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore Example 4" tx ty ts "sans" exploreColor
@@ -352,10 +425,57 @@ deck
 		ctext "Relative Negro Population of the States of the United States" 50 10 2
 	eslide
 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Message" tx ty ts "sans" exploreColor
+		image "images/original-plate-02.jpg" 25 50 40 0
+		textblockfile "explore-4-message.txt" notex notey 35 ss "serif"
+	eslide
 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-02.jpg" 25 50 40 0
+		textblockfile "explore-4-design.txt" notex notey 35 ss "serif"
+	eslide
 
+	slide bgcolor txcolor
+		ll=50
+		as=ps
+		alw=0.2
+		afont="serif"
+		paginate pagenumber
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-02.jpg" 25 50 40 0
+		text "Title" ll 77 as afont
+		text "Choropleth Map" ll 50 as afont
+		text "Legend" ll 28 as afont
+		hline 45 78 5 alw
+		rbracket 48 51 3 20 alw 
+		rbracket 48 29 3 18 alw
+	eslide
 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Re-Create" tx ty ts "sans" exploreColor
+		image "images/plate02-outline.png" 25 50 40 0
+		textblockfile "recreate.txt" notex notey 35 ss "serif"
+	eslide
 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
+		image "images/modern-plate02.png" 25 50 40 0
+		textblockfile "explore-4-modern.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
+		image "images/original-plate-02.jpg" 25 50 40 0
+		image "images/modern-plate02.png"    75 50 40 0
+		ctext "Original and Modern Data Versions Compared" 50 10 2 "serif"
+	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber

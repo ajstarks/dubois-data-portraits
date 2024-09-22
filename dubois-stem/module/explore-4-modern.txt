@@ -1,0 +1,6 @@
+This example uses modern data to update the
+population of Black Americans to 2021.
+\n
+It mimics the layout and color scheme of the
+original, but uses uses percentages instead
+of numbers, retaining the ten categories.

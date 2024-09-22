@@ -1,0 +1,6 @@
+This examples compares incarceration rates between European and African
+American males, using overlapping area charts with common scales and
+contrasting colors.
+\n
+This example returns to the usual conventions: (x-axis labeled
+on the bottom, data increasing moves up and to the right)
