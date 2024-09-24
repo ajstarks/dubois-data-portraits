@@ -1,3 +1,3 @@
 The overall aim of the module is to introduce the visuals created by W.E.B. Du Bois for the 1900 Paris Exposition, and explore the role of visual communication in STEM education. The visuals are studied, by deconstruction and re-creation, while placing them in their historical context.
 \n
-The sections, which may be used collectively or independently:
+The sections, which may be used collectively or independently are: Context, Explore, and Implement.

@@ -16,34 +16,54 @@ deck
 	linkcolor="#3366CC"
 	pagenumber=0
 	footery=3
-	version="2024-09-21"
+	version="2024-09-22"
 
 	import "paginate.dsh"
 
 	slide "black" "white"
-		textblock "Using Du Bois Visualizations in STEM Education" 47 80 20 4 "serif"
+		list 47 80 4 "serif" "" 100 1.1
+			li "Using Du Bois"
+			li "Visualizations"
+			li "in STEM Education"
+		elist
 		image "images/dubois-stem-logo.png" 50 50 82 0
 		etext version 98 2 1.5
 	eslide
 
+	slide bgcolor txcolor
+		paginate pagenumber
+		left=10
+		ctext "Introduction" tx ty ts
+		textblockfile "intro.txt" left 82 72 ps "serif"
+	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		r1=40
-		r2=r1-15
-		r3=r2-15
+		tly=80
+		tls=3
+		mid=50
+		third=100/3
+		third2=third*2
+		thirdhalf=third/2
+		ctw=third*0.6
+		x1=thirdhalf
+		x2=mid
+		x3=100-x1
 		
-		left=7
-		c1=left+18
-		ctext "Module Outline" tx ty ts
-		textblockfile "intro.txt" left 82 72 ps "serif"
-	
-		text "Context"		left r1 ps "sans" contextColor
-		text "Explore"		left r2 ps "sans" exploreColor
-		text "Implement"	left r3 ps "sans" implColor
-		textblock "explaining the motivation of the Du Bois visuals in a historical context." 				c1 r1 60 ps  "serif"
-		textblock "an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods." 	c1 r2 60 ps  "serif"
-		textblock "Re-create Du Bois style visuals using digital tools." 									c1 r3 60 ps  "serif"
+		ctext "Context"           x1  tly ts
+		ctext "Explore"           mid tly ts
+		ctext "Implement"         x3  tly ts
+		image "images/expo0.jpg"  x1 mid 30 0
+		image "images/hand-drawn-bar21.jpg" x2 mid 30 0
+		image "images/implss.png" x3 mid 30 0
+
+		tx1=5
+		tx2=tx1+third
+		tx3=tx2+third
+		tly=20
+		textblock "Du Bois Visualizations in a Historical Context" tx1 tly ctw 2 "serif"
+		textblock "an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods." tx2 tly ctw 2 "serif"
+		textblock "Implement the Du Bois visual style with digital tools" tx3 tly ctw 2 "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -53,10 +73,8 @@ deck
 		image "images/expo0.jpg"       70 50 35 0
 	eslide
 
-
 	slide bgcolor txcolor
 		paginate pagenumber
-
 		ctext "Context" tx ty ts "sans" contextColor
 		textblockfile "context.txt" 10 75 70 3 "serif"
 		text "Format: Lecture/Independent Study" 10 footery 2
@@ -65,14 +83,6 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Context" tx ty subsize
-		image "images/dubois-1900.png" 25 50 35 0
-		image "images/expo0.jpg"       75 50 35 0
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-
 		ctext "Context: Background" tx ty ts "sans" contextColor
 		textblockfile "context-bg.txt" 22 80 63 ps "serif"
 		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			10 72 12 0
@@ -83,14 +93,13 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-
 		ctext "Context: The Visuals" tx ty ts "sans" contextColor
 		image "images/original-plate-01.jpg"  25 50 35 0
 		image "images/expo0.jpg"              75 50 35 0
 		textblock "The visuals were hand-drawn using pen, ink and paint on 22x28 in. poster board" 10 15 20 2 "serif"
 		textblock "The venue shows the visuals as posters to be viewed and other materials may be “flipped through”." 60 15 25 2 "serif"
 		arrow 40 40 70 40 0.3 2 2 "crimson"
-		arrow 40 50 75 50 0.3 2 2 "crimson"
+		rect 82 52 15 10 "crimson" 30
 	eslide
 
 	slide bgcolor txcolor
@@ -261,7 +270,6 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-
 		ctext "Explore: Recreate" tx ty ts "sans" exploreColor
 		image "images/plate27-outline.png" 25 50 40 0
 		textblockfile "recreate.txt" notex notey 40 ss "serif"
@@ -269,7 +277,6 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-
 		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
 		textblockfile "modern.txt" notex notey 40 ss "serif"
 		image "images/hand-drawn-opi.png"   25 50 40 0
@@ -277,13 +284,13 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-
 		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
-		textblock "This section address the effectiveness and analytical methods used in the visual." 15 80 60 ps "serif"
-		blist 15 60 ss "serif"
-			li "Is the “fan chart” an effective method of envoking the message?"
-			li "Can the viewer make appropriate comparisons?"
-			li "What conclusions are drawn from the visual?"
+		image "images/original-plate-27.jpg" 25 50 40 0
+		textblock "This section address the effectiveness and analytical methods used in the visual." notex notey 40 ps "serif"
+		blist notex 60 ss "serif"
+			li "Is the “fan chart” an effective?"
+			li "Can the viewer make comparisons?"
+			li "What conclusions are drawn?"
 			li "What additional questions are raised?"
 		elist
 	eslide
@@ -440,6 +447,7 @@ deck
 	eslide
 
 	slide bgcolor txcolor
+		paginate pagenumber
 		ll=50
 		as=ps
 		alw=0.2
@@ -479,7 +487,6 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-
 		cl1=5
 		cl2=cl1+40
 		listy=85
@@ -521,6 +528,13 @@ deck
 		text link4 cl1 urly linksize "mono" linkcolor 100 link4
 		urly-=incr
 		text link5 cl1 urly linksize "mono" linkcolor 100 link5
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Implement" tx ty subsize
+		image "images/original-plate-40.jpg" 30 50 35 0
+		image "images/implss.png" 70 50 35 0
 	eslide
 
 	slide bgcolor txcolor
