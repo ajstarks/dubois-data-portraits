@@ -20,7 +20,21 @@ deck
 	wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
 	moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
 	expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
-
+	quote="“I can hardly realize they are all my people; that this great assembly of youth and intelligence are representatives of a race which twenty years ago was in bondage.”"
+	chllink="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
+	ref01="https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits"
+	ref02="https://speakerdeck.com/ajstarks/recreations-of-w-dot-e-b-du-bois-data-portraits"
+	ref03="https://github.com/ajstarks/dubois-data-portraits"
+	ref04="https://github.com/ajstarks/modern-dubois-viz"
+	ref05="https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066"
+	ref06="https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/"
+	ref07="https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
+	ref08="https://github.com/ajstarks/decksh"
+	ref09="https://speakerdeck.com/ajstarks/decksh-a-little-language-for-decks"
+	ref10="https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
+	ref11="https://publicdomainreview.org/essay/black-america-1895"
+	ref12="https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34"
+	ref13="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md"
 
 	// title slide
 	slide
@@ -30,36 +44,28 @@ deck
 
 	slide bgcolor fgcolor
 		image "images/dubois-fisk.jpg" 30 50 615 773
-		textblock "“I can hardly realize they are all my people; that this great assembly of youth and intelligence are representatives of a race which twenty years ago was in bondage.”" 50 70 30 3 "serif"
+		textblock quote 50 70 30 3 "serif"
 		ctext "W.E.B. Du Bois at Fisk, circa 1885"		30 4 ns3 "serif"
 	eslide
 
-	// the Philadelphia Negro
-//	slide bgcolor fgcolor
-//
-//		philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
-//		imid=55
-//		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" fgcolor 100 phillylink
-//		image       "images/philly09.png" 16 imid  880 909 65
-//		image       "images/philly12.png" 51 imid 1112 930 65
-//		image       "images/philly03.png" 85 imid 809 903  65
-//		textblock   philly 12 17 70 2 "serif"
-//	eslide
-
 	// Atlanta University
 	slide bgcolor fgcolor
+		aucap1="Atlanta University Debating Team, c. 1900"
+		aucap2="Women seated on steps of building at Atlanta University c. 1900"
 		image "images/au-debating-team-1900.jpg"  25 my 700 563
-		ctext "Atlanta University Debating Team, c. 1900" 25 20 ns3 "serif"
+		ctext aucap1 25 20 ns3 "serif"
 		image "images/au-women.jpg"  70 50 916 594 94
-		ctext "Women seated on steps of building at Atlanta University c. 1900" 70 20 ns3 "serif"
+		ctext aucap2 70 20 ns3 "serif"
 	eslide
 
 	// DuBois in Paris
 	slide bgcolor fgcolor
+		expocap1="W.E.B. Du Bois in Paris 1900"
+		expocap2="Exposition of the American Negro, Paris, 1900"
 		image "images/dubois-1900.png" 			30 my 650 891
-		ctext "W.E.B. Du Bois in Paris 1900"		30 4 ns3 "serif"
+		ctext expocap1  30 4 ns3 "serif"
 		image "images/expo0.png"				70 my 1157 1525 59
-		ctext "Exposition of the American Negro, Paris, 1900"   70 4 ns3 "serif"
+		ctext expocap2   70 4 ns3 "serif"
 	eslide
 
 	// Purpose and messages
@@ -129,7 +135,6 @@ deck
 
 
 	slide bgcolor fgcolor
-
 		image "images/plate38.png" 10 70 imw imh 5
 		image "images/plate27.png" 10 50 imw imh 5
 		image "images/plate22.png" 10 30 imw imh 5
@@ -159,10 +164,7 @@ deck
 		ctext "28”" 30 50 3 "sans" "maroon"
 	eslide
 
-	
-
 	// Taxonomy
-
 	slide bgcolor fgcolor
 		bary=40
 		barty=bary+5
@@ -239,7 +241,6 @@ deck
 		image "images/platexx.png" 40 imy imw imh ims
 		image "images/plate55.png" 60 imy imw imh ims
 		image "images/plate58.png" 80 imy imw imh ims
-
 	eslide
 
 	// Graphs
@@ -340,8 +341,6 @@ deck
 		image "images/m05.jpg" 70 50 3024 4032 25
 	eslide
 
-
-
 	// decksh Elements
 	slide bgcolor fgcolor
 		left=5
@@ -437,8 +436,6 @@ deck
 		hline 0 ly 100 lh "black" 80
 	eslide
 
-	
-
 	// Layout example
 	slide bgcolor fgcolor
 		image "images/p31.png" 50 50 2016 1584 65
@@ -522,17 +519,6 @@ deck
 		ctext "Modern Data" 50 50 bannersize
 	eslide
 
-//	// Related work
-//	slide bgcolor fgcolor
-//		ctext "Student Debt and Racial Disparities" tx ty ts "sans" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
-//		ctext "VizE Lab at Princeton"               tx 81 ns2
-//		image "images/pv01.jpg" 20 40 1760 2278 35
-//		image "images/pv04.jpg" 50 40 1760 2278 35
-//		image "images/pv07.jpg" 80 40 1760 2290 35
-//	eslide
-//
-//	
-//
 	// Modern Dubois Style
 	slide bgcolor fgcolor
 		image "images/plate27.png" 25 50 2112 2688 40
@@ -557,47 +543,9 @@ deck
 
 	// Dubois challenge
 	slide bgcolor fgcolor
-//		ctext "#DuboisChallenge" tx 92 ts
-//		image "images/challenge-catalog01.png" 50 50 3840 2160 45
 		image "images/cat2022.png" 50 50 2560 1440 75
-		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022" 80 95 0.6 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
-
-		//ctext "01" 15 50 2
-		//ctext "02" 32 50 2
-		//ctext "03" 50 50 2
-		//ctext "04" 67 50 2
-		//ctext "05" 87 50 2
-
-		//ctext "06" 15 7 2
-		//ctext "07" 32 7 2
-		//ctext "08" 50 7 2
-		//ctext "09" 67 7 2
-		//ctext "10" 87 7 2
+		ctext chllink 80 95 0.6 "mono" "maroon" 100 chllink
 	eslide
-
-//	slide bgcolor fgcolor
-//		ctext "#DuboisChallenge" tx 92 ts
-//		image "images/recreation-catalog01.png" 50 50 3840 2160 45
-//		//ctext "01" 15 50 2
-//		//ctext "02" 32 50 2
-//		//ctext "03" 50 50 2
-//		//ctext "04" 67 50 2
-//		//ctext "05" 87 50 2
-//
-//		//ctext "06" 15 7 2
-//		//ctext "07" 32 7 2
-		//ctext "08" 50 7 2
-		//ctext "09" 67 7 2
-		//ctext "10" 87 7 2
-//	eslide
-//
-//	slide bgcolor fgcolor
-//		ctext "#DuboisChallenge" tx ty ts
-//		image "images/challenge02.png" 18 50 750 753 75
-//		image "images/challenge05.png" 82 50 788 728 75
-//		image "images/challenge03.png" 50 50 759 767 75
-//		ctext "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022" 50 10 2 "mono" "maroon" 100 "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2022"
-//	eslide
 
 	slide bgcolor fgcolor
 		ctext "Repos" tx ty ts
@@ -626,24 +574,25 @@ deck
 			li "#DuboisChallenge"
 		elist
 
-		list 30 80 1.6 "mono" "maroon" 100 1.6
-			li "https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits" "" "" 100 "https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits"
-			li "https://speakerdeck.com/ajstarks/recreations-of-w-dot-e-b-du-bois-data-portraits" "" "" 100 "https://speakerdeck.com/ajstarks/recreations-of-w-dot-e-b-du-bois-data-portraits"
-			li "https://github.com/ajstarks/dubois-data-portraits" "" "" 100 "https://github.com/ajstarks/dubois-data-portraits"
-			li "https://github.com/ajstarks/modern-dubois-viz" "" "" 100 "https://github.com/ajstarks/modern-dubois-viz"
-			li ""
-			li "https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066" "" "" 100 "https://www.amazon.com/W-Boiss-Data-Portraits-Visualizing/dp/1616897066"
-			li "https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/" "" "" 100 "https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/"
-			li "https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf" "" "" 100 "https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
-			li ""
-			li "https://github.com/ajstarks/decksh" "" "" 100 "https://github.com/ajstarks/decksh"
-			li "https://speakerdeck.com/ajstarks/decksh-a-little-language-for-decks" "" "" 100 "https://speakerdeck.com/ajstarks/decksh-a-little-language-for-decks"
-			li ""
-			li "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/" "" "" 100 "https://www.dignityanddebt.org/projects/student-debt-racial-disparities/"
-			li "https://publicdomainreview.org/essay/black-america-1895" "" "" 100 "https://publicdomainreview.org/essay/black-america-1895"
-			li "https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34" "" "" 100 "https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34"
-			li "https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md" "" "" 100 "https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/README.md"
 
+
+		list 30 80 1.6 "mono" "maroon" 100 1.6
+			li ref01  "" "" 100 ref01
+			li ref02  "" "" 100 ref02
+			li ref03  "" "" 100 ref03
+			li ref04  "" "" 100 ref04
+			li ""
+			li ref05  "" "" 100 ref05
+			li ref06  "" "" 100 ref06
+			li ref07  "" "" 100 ref07
+			li ""
+			li ref08  "" "" 100 ref08
+			li ref09  "" "" 100 ref09
+			li ""
+			li ref10  "" "" 100 ref10
+			li ref11  "" "" 100 ref11
+			li ref12  "" "" 100 ref12
+			li ref13  "" "" 100 ref13
 		elist
 	eslide
 
@@ -662,7 +611,7 @@ deck
 	include "bizcard.dsh"
     
 	slide bgcolor fgcolor
-    ctext "Catalog" 50 50 bannersize
+    	ctext "Catalog" 50 50 bannersize
 	eslide
 	include "cat.dsh"
 edeck
