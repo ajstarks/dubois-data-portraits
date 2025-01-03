@@ -16,7 +16,7 @@ deck
 	linkcolor="#3366CC"
 	pagenumber=0
 	footery=3
-	version="2024-09-22"
+	version="2025-01-03"
 
 	import "paginate.dsh"
 
