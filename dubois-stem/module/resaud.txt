@@ -1,0 +1,5 @@
+Data visualization begins with you defining your research question and the audience for your research.
+\n
+Visualization can help you answer research questions for yourself, but scientific research is social. 
+\n
+We can often gain a better understanding of our findings for ourselves by using visualization to explain our findings to other scientists or non-scientists.

@@ -1,3 +1,5 @@
-The overall aim of the module is to introduce the visuals created by W.E.B. Du Bois for the 1900 Paris Exposition, and explore the role of visual communication in STEM education. The visuals are studied, by deconstruction and re-creation, while placing them in their historical context.
+The goal of this module is for students to learn how to understand and create scientific data visualizations.
 \n
-The sections, which may be used collectively or independently are: Context, Explore, and Implement.
+The module explores visualizations created by W.E.B. Du Bois in 1900 and the research methods they employed.
+\n
+Through deconstruction and re-creation—we will see how Du Bois used visualization to answer research questions regarding racial equality that disproved biased race theories.

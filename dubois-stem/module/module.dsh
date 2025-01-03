@@ -14,9 +14,11 @@ deck
 	bgcolor="linen"
 	txcolor="black"
 	linkcolor="#3366CC"
+	headcolor="#aa0000"
 	pagenumber=0
 	footery=3
 	version="2025-01-03"
+	collegelink="https://uma.pop.umn.edu/usa/authentication/login?return_url=https%3A%2F%2Fuma.pop.umn.edu%2Fsda_usa%2Fsso_login%3Fsso%3Dbm9uY2U9ODQ4ZTE1MGE4NTI5YWZmZDBhN2ZiYTQ4YjIxZWE1NDZhMGJiZTYwMSZyZXR1cm5fc3NvX3VybD1odHRwcyUzQSUyRiUyRnNkYS51c2EuaXB1bXMub3JnJTJGc3NvX3JlZGlyZWN0%26sig%3D93be0a7ba3c3b405147b14971bd7e1e7c5a5d851c1d2e2dfa54b1dcf0adc8829"
 
 	import "paginate.dsh"
 
@@ -83,11 +85,36 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
+		ctext "Context: Why Visualize Data" tx ty ts "sans" contextColor
+		ctext "A picture is worth a thousand words" 50 80 3 "sans" headcolor
+		textblockfile "whyviz.txt" 15 70 63 ps "serif"
+	eslide
+
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Context: Why Visualize Data" tx ty ts "sans" contextColor
+		textblockfile "whyviz2.txt" 15 70 63 ps "serif"
+	eslide
+
+
+	slide bgcolor txcolor
+		paginate pagenumber
 		ctext "Context: Background" tx ty ts "sans" contextColor
 		textblockfile "context-bg.txt" 22 80 63 ps "serif"
 		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			10 72 12 0
 		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		10 42 12 0
-		cimage 	"images/au-debating-team-1900.jpg"	"Atlanta U. Students"	10 14 12 0
+		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	10 14 12 0
+	eslide
+
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Context: Background" tx ty ts "sans" contextColor
+		textblockfile "context-bg2.txt" 10 80 70 ps "serif"
+		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			20 25 20 0
+		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		50 25 20 0
+		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	80 25 30 0
 	eslide
 
 
@@ -197,123 +224,219 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-
 		ctext "Explore" tx ty ts "sans" exploreColor
 		textblockfile "exp1.txt" 10 75 70 3 "serif"
 		text "Materials: Pens/Paper" 10 footery 2
 		etext "Time: 45-60 minutes"  90 footery 2
 	eslide
 
-	// Explore 1
+
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore Example 1" tx ty ts "sans" exploreColor
-		image "images/original-plate-27.jpg" 50 50 40 0
-		ctext "Occupations of Negroes and Whites in Georgia" 50 10 2
+		ctext "Explore" tx ty ts "sans" exploreColor
+		textblockfile "exp1a.txt" 10 75 72 3 "serif"
+	eslide
+
+	
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Outline" tx ty ts "sans" exploreColor
+		textblock "Research Questions and Audience" 7 70 20 ps "serif"
+		textblock "Analytic methods: Type of graphs and data" 40 70 20 ps "serif"
+		textblock "Aesthetics, Design and Re-creation" 70 70 20 ps "serif"
+		image "images/expo0.jpg"              20 30 25 0
+		image "images/original-plate-31.jpg"  50 45 20 0
+		image "images/original-plate-10.jpg"  55 33 15 0
+		image "images/original-plate-11.jpg"  47 20 15 0
+		image "images/original-plate-27.jpg"  80 30 25 0
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
+		ctext "Explore: Research Question and Audience" tx ty ts "sans" exploreColor
+		textblockfile "resaud.txt" 10 75 72 3 "serif"
+	eslide
 
-		ctext "Explore: Outline" tx ty ts "sans" exploreColor
-		image "images/original-plate-27.jpg" 25 50 40 0
-		blist 50 65 ps "serif"
-			li "Message and Audience"
-			li "Aesthetics/design"
-			li "Analytical methods"
-			li "Chart Types"
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Research Question and Audience" tx ty ts "sans" exploreColor
+		text      "Research Question" 10 70 3.5 "serif" headcolor
+		text      "Audience"          50 70 3.5 "serif" headcolor
+		textblock "What is the relationship between Black education levels and emancipation from slavery" 10 60 30 3 "serif"
+		textblock "International attendees of the Paris Expo, social scientists, and others influenced by Social Darwinism." 50 60 30 3 "serif"
+		textblock "Du Bois chose data and visualizations that could answer these questions in a way that these audiences could understand." 10 20 75 3 "serif"
+	eslide
+
+	slide bgcolor txcolor
+		ctext "Explore: Analytic Methods" tx ty ts "sans" exploreColor
+		textblock "We choose data based on our research question: The type of data we choose can vary by:" 10 80 72 3 "serif"
+		text "(1) Unit of observation (for example)" 10 65 3 "serif" headcolor
+		blist 10 57 3 "serif" "" 100 1.5
+			li "People in social science"
+			li "Biological organisms in natural science"
+			li "Materials in engineering"
+		elist
+
+		text "(2) Level of observation (may be)" 10 30 3 "serif" headcolor
+		blist 10 23 3 "serif" "" 100 1.5
+			li "Categorical/nominal"
+			li "Ordinal"
+			li "Continuous interval/ratio"
 		elist
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
+		ctext "A Note on Accessibility (a11y)" tx ty ts "sans" exploreColor
+		textblock "Accessibility involves implementing various design principles and technologies when creating information, to accommodate people with visual, cognitive, auditory, or motor impairments." 10 80 72 ps "serif"
+		text "Considerations include:" 25 60 ps "serif"
+		blist 25 50 ps "serif" "" 100 1.6
+			li "Proper use of Color/Contrast"
+			li "Use of Alternative Text"
+			li "Using Keyboard Navigation"
+			li "Descriptive Titles and Labels"
+			li "Avoiding over-reliance on Color"
+			li "Offering both visual and non-visual formats"
+			li "Including Executive Summaries"
+		elist
+	eslide
 
-		ctext "Explore: Message" tx ty ts "sans" exploreColor
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		textblock "We use different types of graphs based on the types of data and relationships we are analyzing. Du Bois used variants of most of the major graph types that are still used today:" 10 80 72 ps "serif"
+		tly=55
+		imy=tly-20
+		ims=20
+		ctext "Pie Charts"            12 tly ps "serif"
+		ctext "Bar Charts"            37 tly ps "serif"
+		ctext "Line Charts"           62 tly ps "serif"
+		ctext "Statistical Maps"      87 tly ps "serif"
+		image "images/original-plate-27.jpg" 12 imy ims 0
+		image "images/original-plate-47.jpg" 37 imy ims 0
+		image "images/original-plate-40.jpg" 62 imy ims 0
+		image "images/original-plate-02.jpg" 87 imy ims 0
+	eslide
+
+	slide bgcolor txcolor
+		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
 		image "images/original-plate-27.jpg" 25 50 40 0
-		textblock "Activity: Discuss the message that the visual is attempting to convey" 5 10 40 2 "serif"
-		textblockfile "plate27-message.txt" notex notey 40 ss "serif"
-	eslide
-
-
-	slide bgcolor txcolor
-		paginate pagenumber
-
-		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
-		image "images/original-plate-27.jpg" 25 50 40 0
-		textblockfile "plate27.txt" notex notey 40 ss "serif"
-		image "images/dubois-palette.png" 72 15 50 0
+		textblockfile "chart-type-pie.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
-		paginate pagenumber
+		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "chart-type-bar.txt" notex notey 35 ss "serif"
 
-		ll=48
-		as=ps
-		alw=0.2
-		afont="serif"
-		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
-		text "Black Georgians"  ll 65 as afont
-		text "White Georgians" 	ll 30 as afont
-		text "Title"			ll 78 as afont
-		text "Labels"           ll 73 as afont
-		
-		text "Legend"                   ll 50  as afont
-		ctext "22x28 inch portrait mode" 25 85 2 afont
-		ctext "data wedges"	20 65 2 "serif" "white"
-		hline 41 79 7 alw
-		hline 30 74 17 alw
-		hline 40 66 7 alw
-		hline 40 31 7 alw
-		rbracket 48 50 3 15 alw 
-		image "images/original-plate-27.jpg" 25 50 40 0
+	eslide
+
+	slide bgcolor txcolor
+		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		image "images/original-plate-40.jpg" 25 50 40 0
+		textblockfile "chart-type-line.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		image "images/original-plate-02.jpg" 25 50 40 0
+		textblockfile "chart-type-statmap.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore: Recreate" tx ty ts "sans" exploreColor
-		image "images/plate27-outline.png" 25 50 40 0
-		textblockfile "recreate.txt" notex notey 40 ss "serif"
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
-		textblockfile "modern.txt" notex notey 40 ss "serif"
-		image "images/hand-drawn-opi.png"   25 50 40 0
+		imy=25
+		ims=20
+		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		textblockfile "chart-types2.txt" 15 80 70 ss "serif"
+		image "images/original-plate-11.jpg" 20 imy ims  0
+		image "images/original-plate-31.jpg" 50 imy 30 0
+		image "images/original-plate-10.jpg" 80 imy ims 0
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
-		image "images/original-plate-27.jpg" 25 50 40 0
-		textblock "This section address the effectiveness and analytical methods used in the visual." notex notey 40 ps "serif"
-		blist notex 60 ss "serif"
-			li "Is the “fan chart” an effective?"
-			li "Can the viewer make comparisons?"
-			li "What conclusions are drawn?"
-			li "What additional questions are raised?"
-		elist
+		textblockfile "analytical-methods.txt" 15 80 70 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-
-		imy=30
-		ims=15
-		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
-		textblockfile "chart-types.txt" 15 80 70 ss "serif"
-		image "images/original-plate-11.jpg" 20 imy ims  0
-		image "images/original-plate-31.jpg" 40 imy 20 0
-		image "images/original-plate-10.jpg" 60 imy ims 0
-		image "images/original-plate-40.jpg" 80 imy ims 0
+		ctext "Explore: Analytical Methods (2)" tx ty ts "sans" exploreColor
+		textblockfile "analytical-methods2.txt" 15 80 70 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
-		
+		paginate pagenumber
+		imy=35
+		ims=22
+		tly=imy+20
+		tls=1.8
+		ctext "Explore: Examples" tx ty ts "sans" exploreColor
+		textblockfile "explore-examples.txt" 10 80 75 ps "serif"
+		ctext "Example 1" 13 tly tls
+		ctext "Example 2" 38 tly tls
+		ctext "Example 3" 63 tly tls
+		ctext "Example 4" 88 tly tls
+		image "images/original-plate-47.jpg" 13 imy ims 0
+		image "images/original-plate-51.jpg" 38 imy ims 0
+		image "images/original-plate-02.jpg" 63 imy ims 0
+		image "images/original-plate-27.jpg" 88 imy ims 0
+		tly=imy-22
+		textblock "Illiteracy of American Negroes compared with that of other nations" 3 tly 18 tls
+		textblock "Proportion of Freemen and Slaves Among American Negroes" 28 tly 15 tls
+		textblock "Relative Negro Population of the United States" 53 tly 18 tls
+		textblock "Occupations of Negroes and Whites in Georgia" 78 tly 18 tls
+	eslide
+
+	slide bgcolor txcolor
 		image "images/chart-types.png" 50 50 100 0
 		paginate pagenumber
 	eslide
 
+	// Explore 1
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore Example 1" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 50 50 40 0
+		ctext "Illiteracy of American Negroes compared with that of other nations" 50 10 2
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Message" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-3-message.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-3-design.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Considerations" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Re-Create" tx ty ts "sans" exploreColor
+		image "images/hand-draw-bars01.jpg" 25 50 40 0
+		textblockfile "recreate.txt" notex notey 35 ss "serif"
+	eslide
 
 	// Explore 2:
 	slide bgcolor txcolor
@@ -354,80 +477,33 @@ deck
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
-		image "images/incar-hand-drawn.jpg" 25 60 30 0
-		image "images/incar-table.png"      70 60 50 0
-		textblockfile "incar-modern.txt"    10 30 70 2.5 "serif" "" 100 "https://bjs.ojp.gov/content/pub/pdf/piusp01.pdf"
+		image "images/college-data.png"       25 60 40 0
+		image "images/hand-drawn-college.png" 70 60 40 0
+		textblockfile "college-modern.txt"    10 30 70 2.5 "serif" "" 100 collegelink
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
-		image "images/incar-rev.png" 50 60 40 0
-		textblockfile "explore-2-modern.txt"    10 30 75 2.5 "serif" "" 100 "https://bjs.ojp.gov/content/pub/pdf/piusp01.pdf"
+		image "images/hand-drawn-college.png" 30 60 20 0
+		image "images/college-attendance.png" 70 60 40 0
+		textblockfile "college-2-modern.txt"    10 25 75 2.5 "serif" "" 100 collegelink
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
 		image "images/original-plate-51.jpg" 25 50 40 0
-		image "images/incar-rev.png"         75 50 40 0
+		image "images/college-attendance.png"         72 50 50 0
 		ctext "Original and Modern versions compared" 50 10 2 "serif"
 	eslide
 
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
-		image "images/incar-chart.png"         50 60 60 0
-		textblockfile "explore-2-modern2.txt"    10 30 75 2.5 "serif" "" 100 "https://bjs.ojp.gov/content/pub/pdf/piusp01.pdf"
-	eslide
+	
 
 	// Explore 3
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore Example 3" tx ty ts "sans" exploreColor
-		image "images/original-plate-47.jpg" 50 50 40 0
-		ctext "Illiteracy of American Negroes compared with that of other nations" 50 10 2
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Message" tx ty ts "sans" exploreColor
-		image "images/original-plate-47.jpg" 25 50 40 0
-		textblockfile "explore-3-message.txt" notex notey 35 ss "serif"
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
-		image "images/original-plate-47.jpg" 25 50 40 0
-		textblockfile "explore-3-design.txt" notex notey 35 ss "serif"
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Considerations" tx ty ts "sans" exploreColor
-		image "images/original-plate-47.jpg" 25 50 40 0
-		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
-		image "images/original-plate-47.jpg" 25 50 40 0
-		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Re-Create" tx ty ts "sans" exploreColor
-		image "images/hand-draw-bars01.jpg" 25 50 40 0
-		textblockfile "recreate.txt" notex notey 35 ss "serif"
-	eslide
-
-	// Explore 4
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore Example 4" tx ty ts "sans" exploreColor
 		image "images/original-plate-02.jpg" 50 50 40 0
 		ctext "Relative Negro Population of the States of the United States" 50 10 2
 	eslide
@@ -483,6 +559,81 @@ deck
 		image "images/original-plate-02.jpg" 25 50 40 0
 		image "images/modern-plate02.png"    75 50 40 0
 		ctext "Original and Modern Data Versions Compared" 50 10 2 "serif"
+	eslide
+
+
+	// Explore 4
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore Example 4" tx ty ts "sans" exploreColor
+		image "images/original-plate-27.jpg" 50 50 40 0
+		ctext "Occupations of Negroes and Whites in Georgia" 50 10 2
+	eslide
+
+		slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Message" tx ty ts "sans" exploreColor
+		image "images/original-plate-27.jpg" 25 50 40 0
+		textblock "Activity: Discuss the message that the visual is attempting to convey" 5 10 40 2 "serif"
+		textblockfile "plate27-message.txt" notex notey 40 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-27.jpg" 25 50 40 0
+		textblockfile "plate27.txt" notex notey 40 ss "serif"
+		image "images/dubois-palette.png" 72 15 50 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ll=48
+		as=ps
+		alw=0.2
+		afont="serif"
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		text "Black Georgians"  ll 65 as afont
+		text "White Georgians" 	ll 30 as afont
+		text "Title"			ll 78 as afont
+		text "Labels"           ll 73 as afont
+		
+		text "Legend"                   ll 50  as afont
+		ctext "22x28 inch portrait mode" 25 85 2 afont
+		ctext "data wedges"	20 65 2 "serif" "white"
+		hline 41 79 7 alw
+		hline 30 74 17 alw
+		hline 40 66 7 alw
+		hline 40 31 7 alw
+		rbracket 48 50 3 15 alw 
+		image "images/original-plate-27.jpg" 25 50 40 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Recreate" tx ty ts "sans" exploreColor
+		image "images/plate27-outline.png" 25 50 40 0
+		textblockfile "recreate.txt" notex notey 40 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
+		textblockfile "modern.txt" notex notey 40 ss "serif"
+		image "images/hand-drawn-opi.png"   25 50 40 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
+		image "images/original-plate-27.jpg" 25 50 40 0
+		textblock "This section address the effectiveness and analytical methods used in the visual." notex notey 40 ps "serif"
+		blist notex 60 ss "serif"
+			li "Is the “fan chart” an effective?"
+			li "Can the viewer make comparisons?"
+			li "What conclusions are drawn?"
+			li "What additional questions are raised?"
+		elist
 	eslide
 
 	slide bgcolor txcolor

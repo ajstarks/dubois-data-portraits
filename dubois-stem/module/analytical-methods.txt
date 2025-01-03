@@ -1,0 +1,5 @@
+Each of these core types of graphs can be adapted or combined to analyze additional dimensions, scales, or components of data and research questions.
+\n
+Du Bois’ use of multiple charts together is sometimes referred to as progressive disclosure.
+\n
+Progressive disclosure reveals additional, but related information as an audience moves between graphs. This is analogous to zooming in with a telescope to see the qualities of leaves on a tree; and then zooming out to see a whole forest comprised of many trees.

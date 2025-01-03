@@ -1,0 +1,5 @@
+Line graphs plot frequencies or percentages of a continuous interval-ratio variable (like total population) on a y-axis among categories represented by different lines (like racial groups) over a third category of another ordinal or interval ratio variable on an x-axis (like year). 
+\n
+This analyzes three dimensional relationships between three different variables, including interval ratio variables.
+\n
+Time series line graphs, with time on the x-axis, are the most common type of line graph

@@ -1,0 +1,4 @@
+Statistical maps  graph geo-spatial distributions of continuous interval-ratio variables (like the Black population of the U.S.).
+\n
+
+This allows us to graph a multi-dimensional relationship including two-dimensional spatial locations.

@@ -1,0 +1,3 @@
+Bar graphs compare frequencies or percentages of one category (like literacy) among other categories (like race or nation).
+\n
+This helps us analyze two-dimensional relationships, typically between two categorical variables.

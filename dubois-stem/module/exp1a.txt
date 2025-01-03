@@ -1,0 +1,7 @@
+This section is a hands-on session that takes sample Du Bois visualizations, and reconstructs and analyzes various aspects of the visual.
+\n
+In this exercise you will recreate sample visuals using hand-drawn methods similar to those used by Du Bois and his collaborators
+(pens, paper, markers, etc.), to immerse yourself in the act of creation, while thinking about the the research question and audiences Du Bois engaged.
+\n
+Rapid iteration and peer review may be used to gauge the effectiveness of the visual.
+In the final part of the exercise, you will draw your own visualization with modern data.

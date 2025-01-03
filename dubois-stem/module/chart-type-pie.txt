@@ -1,0 +1,3 @@
+Pie graphs illustrate the percentages of categories (like occupations) within a larger unit (like a population) where all the percentages add up to 100%.
+\n
+This analyzes a one-dimensional distribution across one categorical variable. 
