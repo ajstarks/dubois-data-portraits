@@ -1,0 +1,5 @@
+Scalability: working with increasing amounts of data, 
+\n
+Reproducibility and Adaptability: you can reproduce and adapt graphs with less work than when we draw by hand,
+\n
+Reach: works are available to millions on the Internet; others are free to adapt, share and remix without having to reinvent the wheel.

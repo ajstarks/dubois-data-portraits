@@ -1,10 +1,10 @@
 deck
 	slide "black" "white"
-		textblock "College attendance for African-Americans under 25 years old, 1940-2020" 25 92 30 2.5
-		textblock "Mean percentage of the general population attending college" 76 35 10 1.2 "serif"
-		opts="-left=25 -right=75 -bottom=15 -top=80 -vcolor=white -lcolor=white -bar=f"
-		// note for proper rendering use -layers poly:ellipse:text:line
-		dchart opts -dot -color=red                                      college.d
-		dchart opts -vol -volop=100 -color=darkgreen -hline=10.96,10.96% college.d
+		textblock "College attendance for African-Americans under 25 years old, 1940-2020" 25 80 25 2.5
+		textblock "Mean percentage of the general population attending college, 10.96%" 25 33 10 1.1
+		opts="-textsize=1.8 -left=25 -right=75 -bottom=15 -top=80 -bar=f -vcolor=white -lcolor=white"
+		// note for proper rendering use -layers rect:poly:ellipse:text:line
+		dchart opts -dot  -color=red                                                 college.d
+		dchart opts -xlabel=0 -val=f -volop=100 -vol -color=darkgreen -hline=10.96%  college.d
 	eslide
 edeck

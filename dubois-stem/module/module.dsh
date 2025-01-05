@@ -17,7 +17,8 @@ deck
 	headcolor="#aa0000"
 	pagenumber=0
 	footery=3
-	version="2025-01-03"
+	version="2025-01-04"
+	reflink="https://github.com/HigherEdData/Du-Bois-STEM/blob/main/readings-images/DuBois-and-Why-We-Visualize-Data.md"
 	collegelink="https://uma.pop.umn.edu/usa/authentication/login?return_url=https%3A%2F%2Fuma.pop.umn.edu%2Fsda_usa%2Fsso_login%3Fsso%3Dbm9uY2U9ODQ4ZTE1MGE4NTI5YWZmZDBhN2ZiYTQ4YjIxZWE1NDZhMGJiZTYwMSZyZXR1cm5fc3NvX3VybD1odHRwcyUzQSUyRiUyRnNkYS51c2EuaXB1bXMub3JnJTJGc3NvX3JlZGlyZWN0%26sig%3D93be0a7ba3c3b405147b14971bd7e1e7c5a5d851c1d2e2dfa54b1dcf0adc8829"
 
 	import "paginate.dsh"
@@ -57,7 +58,7 @@ deck
 		ctext "Implement"         x3  tly ts
 		image "images/expo0.jpg"  x1 mid 30 0
 		image "images/hand-drawn-bar21.jpg" x2 mid 30 0
-		image "images/implss.png" x3 mid 30 0
+		image "images/implement0.png" x3 mid 30 0
 
 		tx1=5
 		tx2=tx1+third
@@ -90,32 +91,29 @@ deck
 		textblockfile "whyviz.txt" 15 70 63 ps "serif"
 	eslide
 
-
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Context: Why Visualize Data" tx ty ts "sans" contextColor
 		textblockfile "whyviz2.txt" 15 70 63 ps "serif"
 	eslide
 
-
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Context: Background" tx ty ts "sans" contextColor
 		textblockfile "context-bg.txt" 22 80 63 ps "serif"
-		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			10 72 12 0
-		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		10 42 12 0
-		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	10 14 12 0
+		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			10 72 13 0
+		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		10 42 13 0
+		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	10 14 13 0
 	eslide
 
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Context: Background" tx ty ts "sans" contextColor
-		textblockfile "context-bg2.txt" 10 80 70 ps "serif"
-		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			20 25 20 0
-		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		50 25 20 0
-		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	80 25 30 0
-	eslide
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Context: Background" tx ty ts "sans" contextColor
+//		textblockfile "context-bg2.txt" 10 80 70 ps "serif"
+//		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			20 25 20 0
+//		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		50 25 20 0
+//		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	80 25 30 0
+//	eslide
 
 
 	slide bgcolor txcolor
@@ -133,7 +131,7 @@ deck
 		paginate pagenumber
 		ctext "Context: The Questions for Discussion" tx ty ts "sans" contextColor
 		image "images/dubois-venue-color.png" 25 50 40 0
-		textblockfile "contextq.txt" 50 75 30 2.5 "serif"
+		textblockfile "contextq.txt" 50 80 30 ps "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -230,14 +228,11 @@ deck
 		etext "Time: 45-60 minutes"  90 footery 2
 	eslide
 
-
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore" tx ty ts "sans" exploreColor
 		textblockfile "exp1a.txt" 10 75 72 3 "serif"
 	eslide
-
-	
 
 	slide bgcolor txcolor
 		paginate pagenumber
@@ -261,11 +256,11 @@ deck
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Research Question and Audience" tx ty ts "sans" exploreColor
-		text      "Research Question" 10 70 3.5 "serif" headcolor
-		text      "Audience"          50 70 3.5 "serif" headcolor
-		textblock "What is the relationship between Black education levels and emancipation from slavery" 10 60 30 3 "serif"
-		textblock "International attendees of the Paris Expo, social scientists, and others influenced by Social Darwinism." 50 60 30 3 "serif"
-		textblock "Du Bois chose data and visualizations that could answer these questions in a way that these audiences could understand." 10 20 75 3 "serif"
+		text      "Research Question" 10 80 3.5 "serif" headcolor
+		text      "Audience"          50 80 3.5 "serif" headcolor
+		textblock "What is the relationship between Black education levels and emancipation from slavery" 10 70 30 ps "serif"
+		textblock "International attendees of the Paris Expo, social scientists, and others influenced by Social Darwinism." 50 70 30 ps "serif"
+		textblock "Du Bois chose data and visualizations that could answer these questions in a way that these audiences could understand." 10 40 75 ps "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -349,7 +344,8 @@ deck
 		imy=25
 		ims=20
 		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
-		textblockfile "chart-types2.txt" 15 80 70 ss "serif"
+		textblockfile "chart-types2.txt" 10 80 75 ps "serif" "" 100 reflink
+		text reflink 10 2 1.2 "sans" "" 100 reflink
 		image "images/original-plate-11.jpg" 20 imy ims  0
 		image "images/original-plate-31.jpg" 50 imy 30 0
 		image "images/original-plate-10.jpg" 80 imy ims 0
@@ -485,8 +481,8 @@ deck
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
-		image "images/hand-drawn-college.png" 30 60 20 0
-		image "images/college-attendance.png" 70 60 40 0
+		image "images/hand-drawn-college.png"   30 60 40 0
+		image "images/college.png"              70 60 35 0
 		textblockfile "college-2-modern.txt"    10 25 75 2.5 "serif" "" 100 collegelink
 	eslide
 
@@ -494,11 +490,9 @@ deck
 		paginate pagenumber
 		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
 		image "images/original-plate-51.jpg" 25 50 40 0
-		image "images/college-attendance.png"         72 50 50 0
+		image "images/college.png"           72 50 42 0
 		ctext "Original and Modern versions compared" 50 10 2 "serif"
 	eslide
-
-	
 
 	// Explore 3
 	slide bgcolor txcolor
@@ -561,7 +555,6 @@ deck
 		ctext "Original and Modern Data Versions Compared" 50 10 2 "serif"
 	eslide
 
-
 	// Explore 4
 	slide bgcolor txcolor
 		paginate pagenumber
@@ -570,7 +563,7 @@ deck
 		ctext "Occupations of Negroes and Whites in Georgia" 50 10 2
 	eslide
 
-		slide bgcolor txcolor
+	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Message" tx ty ts "sans" exploreColor
 		image "images/original-plate-27.jpg" 25 50 40 0
@@ -691,35 +684,58 @@ deck
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Implementation" tx ty ts "sans" implColor
-		textblockfile "implement.txt" 10 75 70 3 "serif"
-		text "Format: Lecture/Independent Study" 10 footery 2
-		etext "Time: 45-60 minutes"  90 footery 2
+		textblockfile "implement1.txt" 10 75 70 3 "serif"
 	eslide
 
-	ims=70
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Implementation: Advantages of Digital" tx ty ts "sans" implColor
+		textblockfile "implement2.txt" 10 75 70 3 "serif"
+	eslide
+
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Implementation: Introduction" tx ty ts "sans" implColor
-		image "images/impl0.png" 50 50 ims 0
+		image "images/implement2.png" 50 50 80 0
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Implementation: Basic Chart" tx ty ts "sans" implColor
-		image "images/impl1.png" 50 50 ims 0
+		ctext "Implementation: Building the Chart" tx ty ts "sans" implColor
+		image "images/implement1.png" 50 50 80 0
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Implementation: Hinting" tx ty ts "sans" implColor
-		image "images/impl3.png" 50 50 ims 0
+		ctext "Implementation: Code + Chart" tx ty ts "sans" implColor
+		image "images/implement3.png" 50 50 80 0
 	eslide
 
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Implementation: Applying style" tx ty ts "sans" implColor
-		image "images/impl4.png" 50 50 ims 0
-	eslide
+
+//	ims=70
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation: Introduction" tx ty ts "sans" implColor
+//		image "images/impl0.png" 50 50 ims 0
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation: Basic Chart" tx ty ts "sans" implColor
+//		image "images/impl1.png" 50 50 ims 0
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation: Hinting" tx ty ts "sans" implColor
+//		image "images/impl3.png" 50 50 ims 0
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation: Applying style" tx ty ts "sans" implColor
+//		image "images/impl4.png" 50 50 ims 0
+//	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
