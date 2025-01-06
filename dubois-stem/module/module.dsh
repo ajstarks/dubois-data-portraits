@@ -64,8 +64,9 @@ deck
 		tx2=tx1+third
 		tx3=tx2+third
 		tly=20
+		analog="an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods."
 		textblock "Du Bois Visualizations in a Historical Context" tx1 tly ctw 2 "serif"
-		textblock "an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods." tx2 tly ctw 2 "serif"
+		textblock analog tx2 tly ctw 2 "serif"
 		textblock "Implement the Du Bois visual style with digital tools" tx3 tly ctw 2 "serif"
 	eslide
 
@@ -116,13 +117,15 @@ deck
 //	eslide
 
 
+	venue0="The visuals were hand-drawn using pen, ink and paint on 22x28 in. poster board"
+	venue1="The venue shows the visuals as posters to be viewed and other materials may be “flipped through”."
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Context: The Visuals" tx ty ts "sans" contextColor
 		image "images/original-plate-01.jpg"  25 50 35 0
 		image "images/expo0.jpg"              75 50 35 0
-		textblock "The visuals were hand-drawn using pen, ink and paint on 22x28 in. poster board" 10 15 20 2 "serif"
-		textblock "The venue shows the visuals as posters to be viewed and other materials may be “flipped through”." 60 15 25 2 "serif"
+		textblock venue0 10 15 20 2 "serif"
+		textblock venue1 60 15 25 2 "serif"
 		arrow 40 40 70 40 0.3 2 2 "crimson"
 		rect 82 52 15 10 "crimson" 30
 	eslide
@@ -253,19 +256,23 @@ deck
 		textblockfile "resaud.txt" 10 75 72 3 "serif"
 	eslide
 
+	resq="What is the relationship between Black education levels and emancipation from slavery"
+	aud="International attendees of the Paris Expo, social scientists, and others influenced by Social Darwinism."
+	dubviz="Du Bois chose data and visualizations that could answer these questions in a way that these audiences could understand."
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Research Question and Audience" tx ty ts "sans" exploreColor
 		text      "Research Question" 10 80 3.5 "serif" headcolor
 		text      "Audience"          50 80 3.5 "serif" headcolor
-		textblock "What is the relationship between Black education levels and emancipation from slavery" 10 70 30 ps "serif"
-		textblock "International attendees of the Paris Expo, social scientists, and others influenced by Social Darwinism." 50 70 30 ps "serif"
-		textblock "Du Bois chose data and visualizations that could answer these questions in a way that these audiences could understand." 10 40 75 ps "serif"
+		textblock resq    10 70 30 ps "serif"
+		textblock aud     50 70 30 ps "serif"
+		textblock dubviz  10 40 75 ps "serif"
 	eslide
 
+	amd="We choose data based on our research question: The type of data we choose can vary by:"
 	slide bgcolor txcolor
 		ctext "Explore: Analytic Methods" tx ty ts "sans" exploreColor
-		textblock "We choose data based on our research question: The type of data we choose can vary by:" 10 80 72 3 "serif"
+		textblock amd 10 80 72 3 "serif"
 		text "(1) Unit of observation (for example)" 10 65 3 "serif" headcolor
 		blist 10 57 3 "serif" "" 100 1.5
 			li "People in social science"
@@ -281,10 +288,11 @@ deck
 		elist
 	eslide
 
+	a11y="Accessibility involves implementing various design principles and technologies when creating information, to accommodate people with visual, cognitive, auditory, or motor impairments." 
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "A Note on Accessibility (a11y)" tx ty ts "sans" exploreColor
-		textblock "Accessibility involves implementing various design principles and technologies when creating information, to accommodate people with visual, cognitive, auditory, or motor impairments." 10 80 72 ps "serif"
+		textblock a11y 10 80 72 ps "serif"
 		text "Considerations include:" 25 60 ps "serif"
 		blist 25 50 ps "serif" "" 100 1.6
 			li "Proper use of Color/Contrast"
@@ -297,10 +305,11 @@ deck
 		elist
 	eslide
 
+	chtypes="We use different types of graphs based on the types of data and relationships we are analyzing. Du Bois used variants of most of the major graph types that are still used today:"
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
-		textblock "We use different types of graphs based on the types of data and relationships we are analyzing. Du Bois used variants of most of the major graph types that are still used today:" 10 80 72 ps "serif"
+		textblock chtypes  10 80 72 ps "serif"
 		tly=55
 		imy=tly-20
 		ims=20
@@ -324,7 +333,6 @@ deck
 		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
 		image "images/original-plate-47.jpg" 25 50 40 0
 		textblockfile "chart-type-bar.txt" notex notey 35 ss "serif"
-
 	eslide
 
 	slide bgcolor txcolor
@@ -490,7 +498,7 @@ deck
 		paginate pagenumber
 		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
 		image "images/original-plate-51.jpg" 25 50 40 0
-		image "images/college.png"           72 50 42 0
+		image "images/college.png"           72 50 50 0
 		ctext "Original and Modern versions compared" 50 10 2 "serif"
 	eslide
 
@@ -616,11 +624,12 @@ deck
 		image "images/hand-drawn-opi.png"   25 50 40 0
 	eslide
 
+	effann="This section address the effectiveness and analytical methods used in the visual." 
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
 		image "images/original-plate-27.jpg" 25 50 40 0
-		textblock "This section address the effectiveness and analytical methods used in the visual." notex notey 40 ps "serif"
+		textblock effan notex notey 40 ps "serif"
 		blist notex 60 ss "serif"
 			li "Is the “fan chart” an effective?"
 			li "Can the viewer make comparisons?"
