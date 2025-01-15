@@ -1,0 +1,21 @@
+deck
+	slide "linen" "black"
+		ims=16
+		imy=72
+
+		ctext "The Du Bois Challenge 2025: Ecomonics" 50 94 3
+		// row 1
+		cimage "challenge01/original-plate-18.jpg" "1: Feb 3"  10 imy ims 0
+		cimage "challenge02/original-plate-19.jpg" "2: Feb 10" 30 imy ims 0
+		cimage "challenge03/original-plate-20.jpg" "3: Feb 17" 50 imy ims 0
+		cimage "challenge04/original-plate-21.jpg" "4: Feb 24" 70 imy ims 0
+		cimage "challenge05/original-plate-22.jpg" "5: Mar 3"  90 imy ims 0
+		imy-=45
+		// row 2
+		cimage "challenge06/original-plate-23.jpg" "6: Mar 10" 10 imy ims 0
+		cimage "challenge07/original-plate-25.jpg" "7: Mar 17" 30 imy ims 0
+		cimage "challenge08/original-plate-26.jpg" "8: Mar 24" 50 imy ims 0
+		cimage "challenge09/original-plate-27.jpg" "9: Mar 31" 70 imy ims 0
+		cimage "challenge10/original-plate-31.jpg" "10: Apr 7" 90 imy ims 0
+	eslide
+edeck
