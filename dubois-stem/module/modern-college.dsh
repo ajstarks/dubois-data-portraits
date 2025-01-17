@@ -1,0 +1,100 @@
+deck
+	slide "linen" "black"
+		title="College attainment by Black U.S. residents compared with that of other nations."
+		ctext title 50 92 3 "serif"
+		opts="-hbar -color green -datacond 30,35,crimson -vcolor=black -left=30 -textsize=2.5 -datafmt=%0.f%% -barwidth=5 -ls=2.5 "
+		dchart opts world-college.d
+	eslide
+
+
+	slide "linen" "black"
+		ctext title 50 92 3 "serif"
+
+		// data
+		russia=60
+		ireland=54
+		sweden=49
+		france=42
+		austria=36
+		usblacks=34
+		hungary=29
+		serbia=28
+		italy=20
+		romania=17
+
+		// labels
+		rulabel=format "Russia (%0.f%%)"	russia
+		irlabel=format "Ireland (%0.f%%)"	ireland
+		swlabel=format "Sweden (%0.f%%)"	sweden
+		frlabel=format "France (%0.f%%)"	france
+		aulabel=format "Austria (%0.f%%)"	austria
+		uslabel=format "Black US Residents (%0.f%%)" usblacks
+		hulabel=format "Hungary (%0.f%%)"	hungary
+		selabel=format "Serbia (%0.f%%)"	serbia
+		itlabel=format "Italy (%0.f%%)"		italy
+		rolabel=format "Romania (%0.f%%)"	romania
+
+		// chart measures
+		dmin=10
+		dmax=70
+		smin=2
+		smax=80
+		
+		top=80
+		left=30
+		lx=left-1
+		lw=5
+		ls=lw*1.4
+		labelsize=2.5
+		lf="serif"
+		ccolor="rgb(0,128,0)"
+		uscolor="crimson"
+
+		// chart mapping data to canvas
+		rubar=vmap russia	dmin dmax smin smax
+		irbar=vmap ireland	dmin dmax smin smax
+		swbar=vmap sweden	dmin dmax smin smax
+		frbar=vmap france	dmin dmax smin smax
+		aubar=vmap austria	dmin dmax smin smax
+		usbar=vmap usblacks	dmin dmax smin smax
+		hubar=vmap hungary	dmin dmax smin smax
+		sebar=vmap serbia	dmin dmax smin smax
+		itbar=vmap italy	dmin dmax smin smax
+		robar=vmap romania	dmin dmax smin smax
+
+		// chart: label and proportional bar, with specified line spacing
+		y=top
+		etext rulabel lx y labelsize lf
+		hline left y rubar lw ccolor
+		y-=ls
+		etext irlabel lx y labelsize lf
+		hline left y irbar lw ccolor
+		y-=ls
+		etext swlabel lx y labelsize lf
+		hline left y swbar lw ccolor
+		y-=ls
+		etext frlabel lx y labelsize lf
+		hline left y frbar lw ccolor
+		y-=ls
+		etext aulabel lx y labelsize lf
+		hline left y aubar lw ccolor
+		y-=ls
+		etext uslabel lx y labelsize lf
+		hline left y usbar lw uscolor
+		y-=ls
+		etext hulabel lx y labelsize lf
+		hline left y hubar lw ccolor
+		y-=ls
+		etext selabel lx y labelsize lf
+		hline left y sebar lw ccolor
+		y-=ls
+		etext itlabel lx y labelsize lf
+		hline left y itbar lw ccolor
+		y-=ls
+		etext rolabel lx y labelsize lf
+		hline left y robar lw ccolor
+
+	eslide
+
+
+edeck

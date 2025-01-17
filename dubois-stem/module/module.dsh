@@ -720,32 +720,6 @@ deck
 		image "images/implement3.png" 50 50 80 0
 	eslide
 
-
-//	ims=70
-//	slide bgcolor txcolor
-//		paginate pagenumber
-//		ctext "Implementation: Introduction" tx ty ts "sans" implColor
-//		image "images/impl0.png" 50 50 ims 0
-//	eslide
-//
-//	slide bgcolor txcolor
-//		paginate pagenumber
-//		ctext "Implementation: Basic Chart" tx ty ts "sans" implColor
-//		image "images/impl1.png" 50 50 ims 0
-//	eslide
-//
-//	slide bgcolor txcolor
-//		paginate pagenumber
-//		ctext "Implementation: Hinting" tx ty ts "sans" implColor
-//		image "images/impl3.png" 50 50 ims 0
-//	eslide
-//
-//	slide bgcolor txcolor
-//		paginate pagenumber
-//		ctext "Implementation: Applying style" tx ty ts "sans" implColor
-//		image "images/impl4.png" 50 50 ims 0
-//	eslide
-
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctect "References"
