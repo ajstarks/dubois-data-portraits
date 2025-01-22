@@ -10,11 +10,23 @@ There is a folder for each challenge, which includes the images of the 1900 orig
 
 Note that for 2025, the challenge will occur on BlueSky, X, LinkedIn, Data Visualization Society Slack, as well as Mastadon on vis.social.
 
+## Collaboration with the Data Visualization Society
+
+As a bonus, share your work in the [DVS Slack](https://datavizsociety.slack.com/archives/C04N7FZ1S82) for a chance to win either a one-year [DVS Membership](https://www.datavisualizationsociety.org/membership?utm_source=github&utm_medium=website&utm_campaign=dubois-challenge-2025) (valued at $99) or a [Nightingale Magazine](https://nightingaledvs.com/) (valued at $40).
+
+There are two awards you could win:
+
+1. Challenge Contributor: Submit your work in the [#challenge-dubois channel](https://datavizsociety.slack.com/archives/C04N7FZ1S82) to be entered into a raffle to win the prize
+
+2. Top Contributor: Awarded to whoever submits work in the [#challenge-dubois channel](https://datavizsociety.slack.com/archives/C04N7FZ1S82) for the most weeks (up to all 10) within the challenge period 
+
+Winners are announced at the end of the challenge.
+
+Note: you need to be a DVS Member to log into the DVS Slack. If you need assistance logging into Slack, contact assistant@datavisualizationsociety.org for support.
 
 ## The Challenges
 
 A goal of Du Bois's exhibition in 1900 was to demonstrate the economic development Black people since emancipation in 1865. One hundred and sixty years later, in 2025, this year's challenge will focus on visuals dealing with *Ecomomics*.
-
 
 * [challenge01](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2025/challenge01): Value of Land Owned by Georgia Negroes (plate 18), February 3
 
