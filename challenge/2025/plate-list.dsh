@@ -3,7 +3,7 @@ deck
 		ims=16
 		imy=72
 
-		ctext "The Du Bois Challenge 2025: Ecomonics" 50 94 3
+		ctext "The Du Bois Challenge 2025: Economics" 50 94 3
 		// row 1
 		cimage "challenge01/original-plate-18.jpg" "1: Feb 3"  10 imy ims 0
 		cimage "challenge02/original-plate-19.jpg" "2: Feb 10" 30 imy ims 0
