@@ -12,7 +12,7 @@ Note that for 2025, the challenge will occur on BlueSky, X, LinkedIn, Data Visua
 
 ## Collaboration with the Data Visualization Society
 
-As a bonus, share your work in the [DVS Slack](https://datavizsociety.slack.com/archives/C04N7FZ1S82) for a chance to win either a one-year [DVS Membership](https://www.datavisualizationsociety.org/membership?utm_source=github&utm_medium=website&utm_campaign=dubois-challenge-2025) (valued at $99) or a [Nightingale Magazine](https://nightingaledvs.com/) (valued at $40).
+As a bonus, share your work in the [DVS Slack]( https://www.datavisualizationsociety.org/slack-community) for a chance to win either a one-year [DVS Membership](https://www.datavisualizationsociety.org/membership) (valued at $99) or a [Nightingale Magazine](https://shop.datavisualizationsociety.org/) (valued at $40).
 
 There are two awards you could win:
 
