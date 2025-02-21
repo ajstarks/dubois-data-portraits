@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh bit.dsh|pdfdeck -stdout -pagesize 1920x1080 - > bit.pdf

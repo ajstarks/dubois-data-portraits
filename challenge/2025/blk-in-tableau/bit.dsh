@@ -1,0 +1,72 @@
+deck
+  	bgcolor="linen"
+    fgcolor="black"
+    mid=50
+	tx=50
+	sx=50
+	sy=60
+	ty=90
+	ts=4
+	ss=ts*0.6
+	chlink="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md" // "bit.ly/41qGbrJ" 
+	slide bgcolor fgcolor
+		ims=16
+		imy=72
+
+		ctext "The Du Bois Challenge 2025: Economics" 50 94 3
+		// row 1
+		cimage "images/original-plate-18.jpg" "1: Feb  3" 10 imy ims 0
+		cimage "images/original-plate-19.jpg" "2: Feb 10" 30 imy ims 0
+		cimage "images/original-plate-20.jpg" "3: Feb 17" 50 imy ims 0
+		cimage "images/original-plate-21.jpg" "4: Feb 24" 70 imy ims 0
+		cimage "images/original-plate-22.jpg" "5: Mar  3" 90 imy ims 0
+		imy-=45
+		// row 2
+		cimage "images/original-plate-23.jpg" "6: Mar 10" 10 imy ims 0
+		cimage "images/original-plate-25.jpg" "7: Mar 17" 30 imy ims 0
+		cimage "images/original-plate-26.jpg" "8: Mar 24" 50 imy ims 0
+		cimage "images/original-plate-27.jpg" "9: Mar 31" 70 imy ims 0
+		cimage "images/original-plate-31.jpg" "10: Apr 7" 90 imy ims 0
+	eslide
+
+	iml=20
+	ox=12.5
+	slide bgcolor fgcolor
+		ctext "Week 1" ox ty ts
+		image "images/original-plate-18.jpg" ox 50 iml 0
+		image "images/wk01-02.jpg" 60 50 70 0
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-19.jpg" ox 50 iml 0
+		image "images/wk02-01.jpg" 50 50 45 0
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-20.jpg" ox 50 iml 0
+		image "images/wk03-01.jpg" 50 50 45 0
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "#DuboisChallenge2025 Weeks 1-3" tx ty ts
+		image "images/wk01-03.jpg" 15 45 30 0
+		image "images/wk02-01.jpg" 50 45 30 0
+		image "images/wk03-01.jpg" 85 45 30 0
+		image "images/original-plate-18.jpg" 2 80 5 0
+		image "images/original-plate-19.jpg" 35 80 5 0
+		image "images/original-plate-20.jpg" 70 80 5 0
+	eslide
+
+	slide bgcolor fgcolor
+		imy=35
+		ctext "To Participate, See:" tx ty ts
+		ctext chlink tx 80 2 "sans" "rgb(0,0,128)" 100 chlink
+		hline 10 81 80 3 "black" 10
+		ctext "Post to:"             tx 60 ts
+		cimage "images/bluesky-logo.png" "BlueSky"     10 imy 10 0
+		cimage "images/twitter-logo.png"  "X"          30 imy 10 0
+		cimage "images/slack-logo.png"    "DVS Slack"  50 imy 10 0
+		cimage "images/linkedin-logo.jpg" "Linkedin"   70 imy 10 0
+		cimage "images/mastodon-logo.jpg" "Mastodon"   90 imy 10 0
+	eslide
+edeck
