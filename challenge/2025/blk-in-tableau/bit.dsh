@@ -8,7 +8,11 @@ deck
 	ty=90
 	ts=4
 	ss=ts*0.6
-	chlink="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md" // "bit.ly/41qGbrJ" 
+	chlink="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md"
+	tablink01="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoischallenge2025-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2025"
+	tablink02="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2025Gallery/W_E_BDuBoisChallenge2025Gallery"
+	wk02link01="https://codepen.io/idsintehittapa/pen/jEOPRwO"
+	wk09link01="https://playground.graphane.dev/editor/gq93nfzq/"
 	slide bgcolor fgcolor
 		ims=16
 		imy=72
@@ -38,24 +42,26 @@ deck
 	eslide
 
 	slide bgcolor fgcolor
+		ctext "Week 2" ox ty ts
 		image "images/original-plate-19.jpg" ox 50 iml 0
-		image "images/wk02-01.jpg" 50 50 45 0
+		image "images/wk02-03.png" 55 50 60 0
 	eslide
 
 	slide bgcolor fgcolor
+		ctext "Week 3" ox ty ts
 		image "images/original-plate-20.jpg" ox 50 iml 0
 		image "images/wk03-01.jpg" 50 50 45 0
 	eslide
 
-	slide bgcolor fgcolor
-		ctext "#DuboisChallenge2025 Weeks 1-3" tx ty ts
-		image "images/wk01-03.jpg" 15 45 30 0
-		image "images/wk02-01.jpg" 50 45 30 0
-		image "images/wk03-01.jpg" 85 45 30 0
-		image "images/original-plate-18.jpg" 2 80 5 0
-		image "images/original-plate-19.jpg" 35 80 5 0
-		image "images/original-plate-20.jpg" 70 80 5 0
-	eslide
+//	slide bgcolor fgcolor
+//		ctext "#DuboisChallenge2025 Weeks 1-3" tx ty ts
+//		image "images/wk01-03.jpg" 15 45 30 0
+//		image "images/wk02-03.png" 50 45 40 0
+//		image "images/wk03-01.jpg" 85 45 30 0
+//		image "images/original-plate-18.jpg" 2 80 5 0
+//		image "images/original-plate-19.jpg" 35 80 5 0
+//		image "images/original-plate-20.jpg" 70 80 5 0
+//	eslide
 
 	slide bgcolor fgcolor
 		imy=35
@@ -68,5 +74,12 @@ deck
 		cimage "images/slack-logo.png"    "DVS Slack"  50 imy 10 0
 		cimage "images/linkedin-logo.jpg" "Linkedin"   70 imy 10 0
 		cimage "images/mastodon-logo.jpg" "Mastodon"   90 imy 10 0
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Du Bois Tableau Sets" tx ty ts
+		cimage "images/tab01.png" "Raisa Hannus" 30 45 50 0 100 tablink01
+		cimage "images/tab02a.png" "Frederick Fery" 75 45 32 0 100 tablink02
+
 	eslide
 edeck
