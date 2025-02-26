@@ -1,0 +1,61 @@
+<deck>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="94" sp="3" >The Du Bois Challenge 2025: Economics</text>
+<image name="images/original-plate-18.jpg" caption="1: Feb  3" xp="10" yp="72" width="16" height="0"/>
+<image name="images/original-plate-19.jpg" caption="2: Feb 10" xp="30" yp="72" width="16" height="0"/>
+<image name="images/original-plate-20.jpg" caption="3: Feb 17" xp="50" yp="72" width="16" height="0"/>
+<image name="images/original-plate-21.jpg" caption="4: Feb 24" xp="70" yp="72" width="16" height="0"/>
+<image name="images/original-plate-22.jpg" caption="5: Mar  3" xp="90" yp="72" width="16" height="0"/>
+<image name="images/original-plate-23.jpg" caption="6: Mar 10" xp="10" yp="27" width="16" height="0"/>
+<image name="images/original-plate-25.jpg" caption="7: Mar 17" xp="30" yp="27" width="16" height="0"/>
+<image name="images/original-plate-26.jpg" caption="8: Mar 24" xp="50" yp="27" width="16" height="0"/>
+<image name="images/original-plate-27.jpg" caption="9: Mar 31" xp="70" yp="27" width="16" height="0"/>
+<image name="images/original-plate-31.jpg" caption="10: Apr 7" xp="90" yp="27" width="16" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="12.5" yp="90" sp="4" >Week 1</text>
+<text align="c" xp="12.5" yp="20" sp="2.4" >Or Misgav</text>
+<image name="images/original-plate-18.jpg" xp="12.5" yp="50" width="20" height="0"/>
+<image name="images/wk01-02.jpg" xp="60" yp="50" width="70" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="12.5" yp="90" sp="4" >Week 2</text>
+<text align="c" xp="12.5" yp="20" sp="2.4" >Johanna Blom</text>
+<image name="images/original-plate-19.jpg" xp="12.5" yp="50" width="20" height="0"/>
+<image name="images/wk02-03.png" xp="60" yp="50" width="65" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="12.5" yp="90" sp="4" >Week 3</text>
+<text align="c" xp="12.5" yp="20" sp="2.4" >Mizinov Anton</text>
+<image name="images/original-plate-20.jpg" xp="12.5" yp="50" width="20" height="0"/>
+<image name="images/wk03-01.png" xp="50" yp="50" width="45" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="12.5" yp="90" sp="4" >Week 4</text>
+<text align="c" xp="12.5" yp="20" sp="2.4" >Mizinov Anton</text>
+<image name="images/original-plate-21.jpg" xp="12.5" yp="50" width="20" height="0"/>
+<image name="images/wk04-01.png" xp="50" yp="50" width="45" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="12.5" yp="90" sp="4" >Week 4</text>
+<text align="c" xp="12.5" yp="20" sp="2.4" >Kate Miller</text>
+<image name="images/original-plate-21.jpg" xp="12.5" yp="50" width="20" height="0"/>
+<image name="images/wk04-02.png" xp="60" yp="50" width="70" height="0"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4" >Du Bois Tableau Sets</text>
+<image name="images/tab01.png" caption="Raisa Hannus" xp="30" yp="45" width="50" height="0" scale="100" link="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoischallenge2025-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2025"/>
+<image name="images/tab02a.png" caption="Frederick Fery" xp="75" yp="45" width="32" height="0" scale="100" link="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2025Gallery/W_E_BDuBoisChallenge2025Gallery"/>
+</slide>
+<slide bg="linen" fg="black">
+<text align="c" xp="50" yp="90" sp="4" >To Participate, See:</text>
+<text align="c" xp="50" yp="80" sp="2.4" font="sans" color="rgb(0,0,128)" opacity="100" link="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md">https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md</text>
+<line xp1="2" yp1="81" xp2="99" yp2="81" sp="3" color="blue" opacity="5"/>
+<text align="c" xp="50" yp="60" sp="4" >Post to:</text>
+<image name="images/bluesky-logo.png" caption="BlueSky" xp="10" yp="35" width="10" height="0"/>
+<image name="images/twitter-logo.png" caption="X" xp="30" yp="35" width="10" height="0"/>
+<image name="images/slack-logo.png" caption="DVS Slack" xp="50" yp="35" width="10" height="0"/>
+<image name="images/linkedin-logo.jpg" caption="Linkedin" xp="70" yp="35" width="10" height="0"/>
+<image name="images/mastodon-logo.jpg" caption="Mastodon" xp="90" yp="35" width="10" height="0"/>
+</slide>
+</deck>

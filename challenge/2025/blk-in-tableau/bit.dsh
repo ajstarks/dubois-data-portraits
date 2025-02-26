@@ -1,3 +1,4 @@
+// BLK in Tableau, Feb 2025, 2024 DC recap with 2025 progress
 deck
   	bgcolor="linen"
     fgcolor="black"
@@ -13,6 +14,8 @@ deck
 	tablink02="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2025Gallery/W_E_BDuBoisChallenge2025Gallery"
 	wk02link01="https://codepen.io/idsintehittapa/pen/jEOPRwO"
 	wk09link01="https://playground.graphane.dev/editor/gq93nfzq/"
+
+
 	slide bgcolor fgcolor
 		ims=16
 		imy=72
@@ -37,37 +40,51 @@ deck
 	ox=12.5
 	slide bgcolor fgcolor
 		ctext "Week 1" ox ty ts
+		ctext "Or Misgav"  ox 20 ss
 		image "images/original-plate-18.jpg" ox 50 iml 0
 		image "images/wk01-02.jpg" 60 50 70 0
 	eslide
 
 	slide bgcolor fgcolor
 		ctext "Week 2" ox ty ts
+		ctext "Johanna Blom"  ox 20 ss
 		image "images/original-plate-19.jpg" ox 50 iml 0
-		image "images/wk02-03.png" 55 50 60 0
+		image "images/wk02-03.png" 60 50 65 0
 	eslide
 
 	slide bgcolor fgcolor
 		ctext "Week 3" ox ty ts
+		ctext "Mizinov Anton"  ox 20 ss
 		image "images/original-plate-20.jpg" ox 50 iml 0
-		image "images/wk03-01.jpg" 50 50 45 0
+		image "images/wk03-01.png" 50 50 45 0
 	eslide
 
-//	slide bgcolor fgcolor
-//		ctext "#DuboisChallenge2025 Weeks 1-3" tx ty ts
-//		image "images/wk01-03.jpg" 15 45 30 0
-//		image "images/wk02-03.png" 50 45 40 0
-//		image "images/wk03-01.jpg" 85 45 30 0
-//		image "images/original-plate-18.jpg" 2 80 5 0
-//		image "images/original-plate-19.jpg" 35 80 5 0
-//		image "images/original-plate-20.jpg" 70 80 5 0
-//	eslide
+	slide bgcolor fgcolor
+		ctext "Week 4" ox ty ts
+		ctext "Mizinov Anton"  ox 20 ss
+		image "images/original-plate-21.jpg" ox 50 iml 0
+		image "images/wk04-01.png" 50 50 45 0
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Week 4" ox ty ts
+		ctext "Kate Miller"  ox 20 ss
+		image "images/original-plate-21.jpg" ox 50 iml 0
+		image "images/wk04-02.png" 60 50 70 0
+	eslide
+
+
+	slide bgcolor fgcolor
+		ctext "Du Bois Tableau Sets" tx ty ts
+		cimage "images/tab01.png" "Raisa Hannus" 30 45 50 0 100 tablink01
+		cimage "images/tab02a.png" "Frederick Fery" 75 45 32 0 100 tablink02
+	eslide
 
 	slide bgcolor fgcolor
 		imy=35
 		ctext "To Participate, See:" tx ty ts
-		ctext chlink tx 80 2 "sans" "rgb(0,0,128)" 100 chlink
-		hline 10 81 80 3 "black" 10
+		ctext chlink tx 80 2.4 "sans" "rgb(0,0,128)" 100 chlink
+		hline 2 81 97 3 "blue" 5
 		ctext "Post to:"             tx 60 ts
 		cimage "images/bluesky-logo.png" "BlueSky"     10 imy 10 0
 		cimage "images/twitter-logo.png"  "X"          30 imy 10 0
@@ -76,10 +93,5 @@ deck
 		cimage "images/mastodon-logo.jpg" "Mastodon"   90 imy 10 0
 	eslide
 
-	slide bgcolor fgcolor
-		ctext "Du Bois Tableau Sets" tx ty ts
-		cimage "images/tab01.png" "Raisa Hannus" 30 45 50 0 100 tablink01
-		cimage "images/tab02a.png" "Frederick Fery" 75 45 32 0 100 tablink02
 
-	eslide
 edeck

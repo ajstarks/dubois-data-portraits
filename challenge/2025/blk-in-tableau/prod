@@ -1,0 +1,4 @@
+#!/bin/sh
+decksh title.dsh|pdfdeck -stdout -pagesize 1920x1080 - > title.pdf
+decksh bit.dsh  |pdfdeck -stdout -pagesize 1920x1080 - > bit.pdf
+pdfcpu merge -m create blk.pdf  title.pdf ../../2024/presentation/dc2024.pdf bit.pdf 
