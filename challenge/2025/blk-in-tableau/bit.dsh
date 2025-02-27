@@ -12,8 +12,12 @@ deck
 	chlink="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md"
 	tablink01="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoischallenge2025-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2025"
 	tablink02="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2025Gallery/W_E_BDuBoisChallenge2025Gallery"
+	tablink03="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoischallenge2025-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2025" // Raisa Hannus
+	tablink04="https://public.tableau.com/app/profile/jessica.bosch/viz/DuBoisChallenge2025-Challenge1/PropertyValuation" // Jessica Bosch
+	tablink05="https://public.tableau.com/app/profile/ray.n1744/viz/Dubois_Challenge_04/Dashboard1" // Ray N
 	wk02link01="https://codepen.io/idsintehittapa/pen/jEOPRwO"
 	wk09link01="https://playground.graphane.dev/editor/gq93nfzq/"
+	
 
 
 	slide bgcolor fgcolor
@@ -73,6 +77,15 @@ deck
 		image "images/wk04-02.png" 60 50 70 0
 	eslide
 
+	slide bgcolor fgcolor
+		ctext "Tableau Users, Week 4" tx ty ts
+		image "images/wk04-03.png" 	15 50 30 0 100 tablink03
+		image "images/wk04-05.png"  50 50 35 0 100 tablink05
+		image "images/wk04-04.png"  85 50 30 0 100 tablink04
+		ctext "Raisa Hannus"  15 5 ss
+		ctext "Ray N"         50 5 ss
+		ctext "Jessica Bosch" 85 5 ss
+	eslide
 
 	slide bgcolor fgcolor
 		ctext "Du Bois Tableau Sets" tx ty ts
@@ -82,7 +95,7 @@ deck
 
 	slide bgcolor fgcolor
 		imy=35
-		ctext "To Participate, See:" tx ty ts
+		ctext "To Participate, Go to:" tx ty ts
 		ctext chlink tx 80 2.4 "sans" "rgb(0,0,128)" 100 chlink
 		hline 2 81 97 3 "blue" 5
 		ctext "Post to:"             tx 60 ts
