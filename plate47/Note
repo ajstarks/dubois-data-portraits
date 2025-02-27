@@ -1,10 +1,10 @@
-This chart has no units, so extrapilating the illiteracy rate of Black
+This chart has no units, so extrapolating the illiteracy rate of Black
 Americans in the 1890 Census (56.8%, source "Excerpts are taken from
 Chapter 1 of 120 Years of American Education: A Statistical Portrait
 (Edited by Tom Snyder, National Center for Education Statistics,
 1993).", https://nces.ed.gov/naal/lit_history.asp).
 
-56.8% -- 8.8cm on the chart yields 6.45454 illitercy points/cm. by
+56.8% -- 8.8cm on the chart yields 6.45454 illiteracy points/cm. by
 measuring the length of each bar (recorded in ill.d), you can compute
 the illteracy points:
 
