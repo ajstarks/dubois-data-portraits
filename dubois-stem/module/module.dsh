@@ -1,4 +1,5 @@
 deck
+	// measures
 	top=93
 	tx=50
 	ty=92
@@ -6,28 +7,37 @@ deck
 	ss=2.5
 	subsize=ts*1.5
 	ps=3
+	ps2=2.2
 	notex=50
 	notey=ty-12
+	pagenumber=0
+	footerx=95
+	footery=2
+	version="2025-01-29"
+
+	// colors
 	contextColor="rgb(100,100,100)" //hsv(240,50,100)"
 	exploreColor="rgb(50,50,50)" //hsv(240,75,100)"
 	implColor="rgb(10,10,10)" // "hsv(240,100,100)"
 	bgcolor="linen"
 	txcolor="black"
 	linkcolor="#3366CC"
-	headcolor="#aa0000"
-	pagenumber=0
-	footery=3
-	version="2025-01-04"
+	headcolor="#980000"
+
+	// links
 	reflink="https://github.com/HigherEdData/Du-Bois-STEM/blob/main/readings-images/DuBois-and-Why-We-Visualize-Data.md"
 	collegelink="https://uma.pop.umn.edu/usa/authentication/login?return_url=https%3A%2F%2Fuma.pop.umn.edu%2Fsda_usa%2Fsso_login%3Fsso%3Dbm9uY2U9ODQ4ZTE1MGE4NTI5YWZmZDBhN2ZiYTQ4YjIxZWE1NDZhMGJiZTYwMSZyZXR1cm5fc3NvX3VybD1odHRwcyUzQSUyRiUyRnNkYS51c2EuaXB1bXMub3JnJTJGc3NvX3JlZGlyZWN0%26sig%3D93be0a7ba3c3b405147b14971bd7e1e7c5a5d851c1d2e2dfa54b1dcf0adc8829"
+	reslink="https://github.com/HigherEdData/Du-Bois-STEM"
+	censuslink="https://www.luminafoundation.org/stronger-nation/report/#/progress/racial_equity"
+	OECDlink="https://www.oecd.org/en/topics/sub-issues/education-attainment.html"
 
 	import "paginate.dsh"
 
 	slide "black" "white"
 		list 47 80 4 "serif" "" 100 1.1
-			li "Using Du Bois"
-			li "Visualizations"
-			li "in STEM Education"
+			li "Learning from"
+			li "Du Bois to Visualize"
+			li "Data in STEM"
 		elist
 		image "images/dubois-stem-logo.png" 50 50 82 0
 		etext version 98 2 1.5
@@ -53,23 +63,29 @@ deck
 		x2=mid
 		x3=100-x1
 		
-		ctext "Context"           x1  tly ts
-		ctext "Explore"           mid tly ts
-		ctext "Implement"         x3  tly ts
-		image "images/expo0.jpg"  x1 mid 30 0
-		image "images/hand-drawn-bar21.jpg" x2 mid 30 0
-		image "images/implement0.png" x3 mid 30 0
+		ctext "Module Outline" tx ty ts
+		ctext "Context"           x1  tly ss
+		ctext "Explore"           mid tly ss
+		ctext "Implement"         x3  tly ss
 
-		tx1=5
+		image "images/expo0.jpg"            x1 mid 30 0
+		image "images/hand-drawn-bar21.jpg" x2 mid 30 0
+		image "images/impl-ggplot09.png"    x3 mid 30 0
+
+		tx1=3
 		tx2=tx1+third
 		tx3=tx2+third
 		tly=20
-		analog="an analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods."
-		textblock "Du Bois Visualizations in a Historical Context" tx1 tly ctw 2 "serif"
-		textblock analog tx2 tly ctw 2 "serif"
-		textblock "Implement the Du Bois visual style with digital tools" tx3 tly ctw 2 "serif"
+		ctxblurb="Explain the research questions behind the Du Bois visuals in a historical context."
+		expblurb="An analog exercise to analyze and re-create Du Bois visuals using hand-drawn methods."
+		impblurb="Re-create Du Bois style visuals using digital tools."
+		textblock ctxblurb tx1 tly ctw 2 "serif"
+		textblock expblurb tx2 tly ctw 2 "serif"
+		textblock impblurb tx3 tly ctw 2 "serif"
 	eslide
-
+	//
+	// Context section
+	//
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Context" tx ty subsize
@@ -82,20 +98,7 @@ deck
 		ctext "Context" tx ty ts "sans" contextColor
 		textblockfile "context.txt" 10 75 70 3 "serif"
 		text "Format: Lecture/Independent Study" 10 footery 2
-		etext "Time: 30-45 minutes"  90 footery 2
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Context: Why Visualize Data" tx ty ts "sans" contextColor
-		ctext "A picture is worth a thousand words" 50 80 3 "sans" headcolor
-		textblockfile "whyviz.txt" 15 70 63 ps "serif"
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Context: Why Visualize Data" tx ty ts "sans" contextColor
-		textblockfile "whyviz2.txt" 15 70 63 ps "serif"
+		etext "Time: 30-45 minutes" 90 footery 2
 	eslide
 
 	slide bgcolor txcolor
@@ -116,6 +119,63 @@ deck
 //		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	80 25 30 0
 //	eslide
 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ev1895="During the summer of 1895, in a Brooklyn park, there was a cotton plantation complete with five hundred Black workers reenacting slavery."
+		ev1896="In 1896 the landmark Plessy v. Ferguson Supreme Court decision was handed down, legitimizing racial segregation, leading to generations of Jim Crow laws."
+		ev1897="Du Bois created the Philadelphia Negro in 1897 which sought to ascertain something of the geographical distribution of his race, their organizations, and their relation to their million white fellow-citizens."
+		ev1898="In 1898 the duly elected people in Wilmington, NC was violently overthrown. The coup occurred after the state's Southern Democrats conspired and led a mob of 2,000 white men to overthrow the legitimately elected local Fusionist government."
+		ev1899="During the 1880s and 1890s, instances of lethal mob violence increased steadily, peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. Included in this number was the horrific lynching of Sam Hose." // Between 1890-1900 Georgia averaged more than one mob killing per month."
+		ctext "Context: Five years before Paris" tx ty ts "sans" contextColor
+		imx=10
+		ims=13
+
+		parislink="https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)"
+		balink="https://publicdomainreview.org/essay/black-america-1895"
+		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ" // ?hl=en&gbpv=1&pg=PR1&dq=editions:qKWdGndN6W4C" // https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+
+		image "images/BA-happy-days.jpg"  imx 79 ims 0 0 balink
+		image "images/plessy.jpg"   	  imx 65 ims 0 0 plessylink
+		image "images/philly12.jpg"       imx 49 ims 0 0 phillylink
+		image "images/white-mans-day.jpg" imx 32 ims 0 0 wilmlink
+		image "images/mob.jpg"            imx 12 ims 0 0 moblink
+		textblock ev1895 22 81 63 ps2"serif" "" 100 balink
+		textblock ev1896 22 68 65 ps2 "serif" "" 100 plessylink
+		textblock ev1897 22 53 70 ps2 "serif" "" 100 phillylink
+		textblock ev1898 22 37 60 ps2 "serif" "" 100 wilmlink
+		textblock ev1899 22 17 65 ps2 "serif" "" 100 moblink
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ims=18
+		imy=25
+		ctext "Context: The 1900 Paris Exposition" tx ty ts "sans" contextColor
+		textblockfile "paris.txt" 10 82 72 2.5 "serif"
+		cimage "images/expo-poster.jpg" 	"Exhibition Poster" 15 imy ims 0
+		cimage "images/paris-expo.jpg"  	"1900 Paris"  		50 imy 35  0
+		cimage "images/expo0.jpg"	    	"Exhibition Venue"  85 imy ims 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Context: Why Visualize Data?" tx ty ts "sans" contextColor
+		ctext "“A picture is worth a thousand words”" 50 82 3 "serif" headcolor
+		textblockfile "why.txt" 10 70 72 ps "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Context: Why Visualize Data?" tx ty ts "sans" contextColor
+		image "images/philly04.png" 20 67 35 0
+		image "images/original-plate-27.jpg" 12 25 22 0
+		image "images/original-plate-10.jpg" 20 25 22 0
+		image "images/original-plate-11.jpg" 30 25 22 0
+		textblockfile "why2.txt" 50 80 30 ps "serif"
+	eslide
 
 	venue0="The visuals were hand-drawn using pen, ink and paint on 22x28 in. poster board"
 	venue1="The venue shows the visuals as posters to be viewed and other materials may be “flipped through”."
@@ -140,58 +200,15 @@ deck
 	slide bgcolor txcolor
 		paginate pagenumber
 
-		ims=15
-		imy=25
-		ctext "Context: The 1900 Paris Exposition" tx ty ts "sans" contextColor
-		textblockfile "paris.txt" 10 82 72 2.5 "serif"
-		cimage "images/expo-poster.jpg" 	"Exhibition Poster" 			15 imy ims 0
-		cimage "images/paris-expo.jpg"  	"1900 Paris"  					50 imy 30 0
-		cimage "images/expo0.jpg"	    	"Exhibition of American Negroes"	85 imy ims 0
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-
-		ev1895="During the summer of 1895, in a Brooklyn park, there was a cotton plantation complete with five hundred Black workers reenacting slavery."
-		ev1896="In 1896 the landmark Plessy v. Ferguson Supreme Court decision was handed down, legitimizing racial segregation, leading to generations of Jim Crow laws."
-		ev1897="Du Bois created the Philadelphia Negro in 1897 which sought to ascertain something of the geographical distribution of his race, their organizations, and their relation to their million white fellow-citizens."
-		ev1898="In 1898 the duly elected people in Wilmington, NC was violently overthrown. The coup occurred after the state's Southern Democrats conspired and led a mob of 2,000 white men to overthrow the legitimately elected local Fusionist government."
-		ev1899="During the 1880s and 1890s, instances of lethal mob violence increased steadily, peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. Included in this number was the horrific lynching of Sam Hose." // Between 1890-1900 Georgia averaged more than one mob killing per month."
-		ctext "Context: Five years before Paris" tx ty ts "sans" contextColor
-		imx=10
-		ims=13
-
-		parislink="https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)"
-		balink="https://publicdomainreview.org/essay/black-america-1895"
-		plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
-		phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ" // ?hl=en&gbpv=1&pg=PR1&dq=editions:qKWdGndN6W4C" // https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
-		wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
-		moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
-
-		image "images/BA-happy-days.jpg"  imx 79 ims 0 0 balink
-		image "images/plessy.jpg"   	  imx 65 ims 0 0 plessylink
-		image "images/philly12.jpg"       imx 49 ims 0 0 phillylink
-		image "images/white-mans-day.jpg" imx 32 ims 0 0 wilmlink
-		image "images/mob.jpg"            imx 12 ims 0 0 moblink
-		textblock ev1895 22 81 63 2.2 "serif" "" 100 balink
-		textblock ev1896 22 68 65 2.2 "serif" "" 100 plessylink
-		textblock ev1897 22 53 70 2.2 "serif" "" 100 phillylink
-		textblock ev1898 22 37 60 2.2 "serif" "" 100 wilmlink
-		textblock ev1899 22 17 65 2.2 "serif" "" 100 moblink
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-
 		cl1=5
 		cl2=cl1+40
 		listy=85
-		listsp=2.7
-		listsize=2.5
+		listsp=2.8
+		listsize=2.8
 		linksize=listsize*0.6
 
 		ctext "Context: References" tx ty ts "sans" contextColor
-		list cl1 listy listsize "sans" "" 100 listsp
+		list cl1 listy listsize "serif" "" 100 listsp
 			li "Paris Exposition of 1900 (Exposition Universelle)"
 			li "Black America, 1895"
 			li "Plessy v. Ferguson"
@@ -199,7 +216,7 @@ deck
 			li "Wilmington Insurrection of 1898"
 			li "The Lynching of Sam Hose"
 		elist
-		incr=listsp*3.25
+		incr=listsp*3.6
 		urly=listy-listsp
 		text parislink cl1 urly linksize "mono" linkcolor 100 parislink
 		urly-=incr
@@ -213,22 +230,14 @@ deck
 		urly-=incr
 		text moblink cl1 urly linksize "mono" linkcolor 100 moblink
 	eslide
-
+	//
 	// Explore section
-
+	//
 	slide bgcolor txcolor
 		paginate pagenumber
 		ctext "Explore" tx ty subsize
 		image "images/original-plate-47.jpg" 25 50 35 0
 		image "images/hand-draw-bars01.jpg" 75 50 35 0
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore" tx ty ts "sans" exploreColor
-		textblockfile "exp1.txt" 10 75 70 3 "serif"
-		text "Materials: Pens/Paper" 10 footery 2
-		etext "Time: 45-60 minutes"  90 footery 2
 	eslide
 
 	slide bgcolor txcolor
@@ -271,37 +280,24 @@ deck
 
 	amd="We choose data based on our research question: The type of data we choose can vary by:"
 	slide bgcolor txcolor
+		paginate pagenumber
 		ctext "Explore: Analytic Methods" tx ty ts "sans" exploreColor
 		textblock amd 10 80 72 3 "serif"
-		text "(1) Unit of observation (for example)" 10 65 3 "serif" headcolor
-		blist 10 57 3 "serif" "" 100 1.5
+		lx=5
+		ly=55
+		ly1=ly-12
+		textblock "Unit of observation for example:" lx ly 10 3 "serif" headcolor
+		blist lx ly1 2.5 "serif" "" 100 1.8
 			li "People in social science"
 			li "Biological organisms in natural science"
 			li "Materials in engineering"
 		elist
-
-		text "(2) Level of observation (may be)" 10 30 3 "serif" headcolor
-		blist 10 23 3 "serif" "" 100 1.5
+		lx+=52
+		textblock "Level of observation may be:" lx ly 15 3 "serif" headcolor
+		blist lx ly1 2.5 "serif" "" 100 1.8
 			li "Categorical/nominal"
 			li "Ordinal"
 			li "Continuous interval/ratio"
-		elist
-	eslide
-
-	a11y="Accessibility involves implementing various design principles and technologies when creating information, to accommodate people with visual, cognitive, auditory, or motor impairments." 
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "A Note on Accessibility (a11y)" tx ty ts "sans" exploreColor
-		textblock a11y 10 80 72 ps "serif"
-		text "Considerations include:" 25 60 ps "serif"
-		blist 25 50 ps "serif" "" 100 1.6
-			li "Proper use of Color/Contrast"
-			li "Use of Alternative Text"
-			li "Using Keyboard Navigation"
-			li "Descriptive Titles and Labels"
-			li "Avoiding over-reliance on Color"
-			li "Offering both visual and non-visual formats"
-			li "Including Executive Summaries"
 		elist
 	eslide
 
@@ -313,63 +309,131 @@ deck
 		tly=55
 		imy=tly-20
 		ims=20
-		ctext "Pie Charts"            12 tly ps "serif"
-		ctext "Bar Charts"            37 tly ps "serif"
-		ctext "Line Charts"           62 tly ps "serif"
-		ctext "Statistical Maps"      87 tly ps "serif"
+		ctext "Pie Charts"            12 tly ps
+		ctext "Bar Charts"            37 tly ps
+		ctext "Line Charts"           62 tly ps
+		ctext "Statistical Maps"      87 tly ps
 		image "images/original-plate-27.jpg" 12 imy ims 0
 		image "images/original-plate-47.jpg" 37 imy ims 0
 		image "images/original-plate-40.jpg" 62 imy ims 0
 		image "images/original-plate-02.jpg" 87 imy ims 0
 	eslide
 
+    slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		textblockfile "chtype0.txt" 10 80 72 ps "serif" "" 100 reflink
+		image "images/original-plate-11.jpg" 15 25 20 0
+		image "images/original-plate-31.jpg" 50 25 35 0
+		image "images/original-plate-10.jpg" 85 25 20 0
+		text "*" 9 footery 1.2
+		text reflink 10 footery 1.2 "sans" "" 100 reflink
+	eslide
+
+	chres="The Resources page also provides this diagram about many variations of chart types for different types of data and analyses"
 	slide bgcolor txcolor
 		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		image "images/chart-types.png" 50 50 70 0
+		paginate pagenumber
+		textblock chres 15 7 72 ps2 "serif" "" 100 reslink
+	eslide
+
+	a11y="Accessibility involves implementing various design principles and technologies when creating information, to accommodate people with visual, cognitive, auditory, or motor impairments." 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "A Note on Accessibility (a11y)" tx ty ts "sans" exploreColor
+		textblock a11y 10 80 72 ps "serif"
+		text "Considerations include:" 10 60 ps "serif"
+		blist 10 50 ps "serif" "" 100 1.6
+			li "Proper use of color and contrast"
+			li "Use of alternative text"
+			li "Using keyboard navigation"
+			li "Use descriptive titles and labels"
+			li "Avoiding over-reliance on color"
+			li "Offering both visual and non-visual formats"
+			li "Including executive summaries"
+		elist
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Chart Types: Pie Charts" tx ty ts "sans" exploreColor
 		image "images/original-plate-27.jpg" 25 50 40 0
 		textblockfile "chart-type-pie.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
-		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		paginate pagenumber
+		ctext "Explore: Chart Types: Bar Charts" tx ty ts "sans" exploreColor
 		image "images/original-plate-47.jpg" 25 50 40 0
 		textblockfile "chart-type-bar.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
-		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		paginate pagenumber
+		ctext "Explore: Chart Types: Line Graphs" tx ty ts "sans" exploreColor
 		image "images/original-plate-40.jpg" 25 50 40 0
 		textblockfile "chart-type-line.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
-		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+		paginate pagenumber
+		ctext "Explore: Chart Types: Statistical Maps" tx ty ts "sans" exploreColor
 		image "images/original-plate-02.jpg" 25 50 40 0
 		textblockfile "chart-type-statmap.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		imy=25
-		ims=20
-		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
-		textblockfile "chart-types2.txt" 10 80 75 ps "serif" "" 100 reflink
-		text reflink 10 2 1.2 "sans" "" 100 reflink
-		image "images/original-plate-11.jpg" 20 imy ims  0
-		image "images/original-plate-31.jpg" 50 imy 30 0
-		image "images/original-plate-10.jpg" 80 imy ims 0
+		ctext "Chart Types: Multivariate Stacked Bar" tx ty ts "sans" exploreColor
+		textblock "Multivariate Stacked Bar Graph by Continuous Covariate Brackets with Photographic and Other Data Element Details" 6 notey 32 2
+		image "images/original-plate-31.jpg" 25 45 40 0
+		textblockfile "chart-type-multi.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
-		textblockfile "analytical-methods.txt" 15 80 70 ss "serif"
+		ctext "Chart Types: Partial Table Bar Graph" tx ty ts "sans" exploreColor
+		textblock "Bivariate Categorical Relationship (Marriage Status by Racial / National Group) Broken Out by Control Variable (Age)" 6 notey 30 2
+		image "images/original-plate-10.jpg" 25 35 40 0
+		textblockfile "chart-type-ptable.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore: Analytical Methods (2)" tx ty ts "sans" exploreColor
-		textblockfile "analytical-methods2.txt" 15 80 70 ss "serif"
+		ctext "Analytic Methods: Progressive Disclosure" tx ty ts "sans" exploreColor
+		textblockfile "progressive-disclosure.txt" 10 80 72 ps "serif"
 	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Analytic Methods: Data Stories" tx ty ts "sans" exploreColor
+		textblockfile "data-stories.txt" 10 80 72 ps "serif"
+	eslide
+
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		imy=25
+//		ims=20
+//		ctext "Explore: Chart Types" tx ty ts "sans" exploreColor
+//		textblockfile "chart-types2.txt" 10 80 75 ps "serif" "" 100 reflink
+//		text reflink 10 5 1.2 "sans" "" 100 reflink
+//		image "images/original-plate-11.jpg" 20 imy ims  0
+//		image "images/original-plate-31.jpg" 50 imy 30 0
+//		image "images/original-plate-10.jpg" 80 imy ims 0
+//	eslide
+
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
+//		textblockfile "analytical-methods.txt" 15 80 70 ps "serif"
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Explore: Analytical Methods (2)" tx ty ts "sans" exploreColor
+//		textblockfile "analytical-methods2.txt" 15 80 70 ps "serif"
+//	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
@@ -394,11 +458,6 @@ deck
 		textblock "Occupations of Negroes and Whites in Georgia" 78 tly 18 tls
 	eslide
 
-	slide bgcolor txcolor
-		image "images/chart-types.png" 50 50 100 0
-		paginate pagenumber
-	eslide
-
 	// Explore 1
 	slide bgcolor txcolor
 		paginate pagenumber
@@ -409,10 +468,26 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore: Message" tx ty ts "sans" exploreColor
+		ctext "Explore Example 1: Context" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		image "images/original-plate-14.jpg" 75 50 40 0
+		textblockfile "explore-1-context.txt" 10 13 75 2 "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Question and Audience" tx ty ts "sans" exploreColor
 		image "images/original-plate-47.jpg" 25 50 40 0
 		textblockfile "explore-3-message.txt" notex notey 35 ss "serif"
 	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Analytic Methods" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg" 25 50 40 0
+		textblockfile "explore-3-am.txt" notex notey 35 ss "serif"
+	eslide
+
 
 	slide bgcolor txcolor
 		paginate pagenumber
@@ -423,16 +498,9 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore: Considerations" tx ty ts "sans" exploreColor
+		ctext "Explore: Reflection" tx ty ts "sans" exploreColor
 		image "images/original-plate-47.jpg" 25 50 40 0
-		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
-	eslide
-
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
-		image "images/original-plate-47.jpg" 25 50 40 0
-		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
+		textblockfile "explore-3-ref.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -440,6 +508,39 @@ deck
 		ctext "Explore: Re-Create" tx ty ts "sans" exploreColor
 		image "images/hand-draw-bars01.jpg" 25 50 40 0
 		textblockfile "recreate.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		exmod="Using modern data on college attainment, comparing other countries with US Black students.*"
+		
+		ctext "Explore: Re-Create with Modern Data" tx ty ts "sans" exploreColor
+		image "images/impl-ggplot10.png" 25 50 40 0
+		list 50 80 ps "mono" "" 100 1.2
+			li "Country,Percent attainment"
+			li "Romania,20"
+			li "Serbia,28"
+			li "Russia,60"
+			li "Black U.S. Residents,36"
+			li "Hungary,29"
+			li "Italy,20"
+			li "Austria,36"
+			li "Ireland,54"
+			li "France,42"
+			li "Sweden,49"
+		elist
+		textblock exmod notex 25 30 ss "serif"
+		text "*US Census" 5  7 1.5 "serif" "" 100 censuslink
+		text "OECD"       5  4 1.5 "serif" "" 100 OECDlink
+		text censuslink  15  7 1.5 "serif" linkcolor 100 censuslink
+		text OECDlink    15  4 1.5 "serif" linkcolor 100 OECDlink
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Re-Create with Modern Data" tx ty ts "sans" exploreColor
+		image "images/original-plate-47.jpg"    25 50 40 0
+		image "images/impl-ggplot10.png"        75 50 40 0
+		ctext "Original and modern-data versions compared" 50 10 ps2 "serif"
 	eslide
 
 	// Explore 2:
@@ -459,9 +560,9 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore: Considerations" tx ty ts "sans" exploreColor
+		ctext "Explore: Analytic Methods" tx ty ts "sans" exploreColor
 		image "images/original-plate-51.jpg" 25 50 40 0
-		textblockfile "explore-consider.txt" notex notey 35 ss "serif"
+		textblockfile "explore-2-am.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -469,6 +570,13 @@ deck
 		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
 		image "images/original-plate-51.jpg" 25 50 40 0
 		textblockfile "explore-2-design.txt" notex notey 35 ss "serif"
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Reflection" tx ty ts "sans" exploreColor
+		image "images/original-plate-51.jpg" 25 50 40 0
+		textblockfile "explore-2-ref.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -519,9 +627,9 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		ctext "Explore: Analytic Methods" tx ty ts "sans" exploreColor
 		image "images/original-plate-02.jpg" 25 50 40 0
-		textblockfile "explore-4-design.txt" notex notey 35 ss "serif"
+		textblockfile "explore-4-am.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -530,7 +638,6 @@ deck
 		as=ps
 		alw=0.2
 		afont="serif"
-		paginate pagenumber
 		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
 		image "images/original-plate-02.jpg" 25 50 40 0
 		text "Title" ll 77 as afont
@@ -539,6 +646,13 @@ deck
 		hline 45 78 5 alw
 		rbracket 48 51 3 20 alw 
 		rbracket 48 29 3 18 alw
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Aesthetics and Design" tx ty ts "sans" exploreColor
+		image "images/original-plate-02.jpg" 25 50 40 0
+		textblockfile "explore-4-design.txt" notex notey 35 ss "serif"
 	eslide
 
 	slide bgcolor txcolor
@@ -578,6 +692,21 @@ deck
 		textblock "Activity: Discuss the message that the visual is attempting to convey" 5 10 40 2 "serif"
 		textblockfile "plate27-message.txt" notex notey 40 ss "serif"
 	eslide
+
+	effan="This section address the effectiveness and analytical methods used in the visual." 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
+		image "images/original-plate-27.jpg" 25 50 40 0
+		textblock effan notex notey 40 ps "serif"
+		blist notex 60 ss "serif"
+			li "Is the “fan chart” an effective?"
+			li "Can the viewer make comparisons?"
+			li "What conclusions are drawn?"
+			li "What additional questions are raised?"
+		elist
+	eslide
+	
 
 	slide bgcolor txcolor
 		paginate pagenumber
@@ -624,38 +753,25 @@ deck
 		image "images/hand-drawn-opi.png"   25 50 40 0
 	eslide
 
-	effann="This section address the effectiveness and analytical methods used in the visual." 
-	slide bgcolor txcolor
-		paginate pagenumber
-		ctext "Explore: Analytical Methods" tx ty ts "sans" exploreColor
-		image "images/original-plate-27.jpg" 25 50 40 0
-		textblock effan notex notey 40 ps "serif"
-		blist notex 60 ss "serif"
-			li "Is the “fan chart” an effective?"
-			li "Can the viewer make comparisons?"
-			li "What conclusions are drawn?"
-			li "What additional questions are raised?"
-		elist
-	eslide
+	
 
 	slide bgcolor txcolor
 		paginate pagenumber
 		cl1=5
 		cl2=cl1+40
 		listy=85
-		listsp=2.7
-		listsize=2.5
+		listsp=2.8
+		listsize=2.8
 		linksize=listsize*0.6
 		ctext "Explore: References" tx ty ts "sans" exploreColor
-		list cl1 listy listsize "sans" "" 100 listsp
+		list cl1 listy listsize "serif" "" 100 listsp
 			li "Du Bois Visualizations for Consideration in STEM Education"
 			li "Du Bois Visualization Style Guide"
 			li "Recreating the Du Bois Data Portraits"
 			li "Du Bois Visualizations Catalog (originals)"
 			li "African American Photographs Assembled for 1900 Paris Exposition" // Library of Congress"
-			li "W.E.B. Du Bois Data Portraits, Visualizing Black America" //  Battle-Baptiste and Russert, 2018, ISBN 978-1-61689-706-1"
-			li "Black Lives 1900, W.E.B. Du Bois at the Paris Exposition"// , Julian Rothenstein ISBN 978-1-942884-53-8"
-			
+			li "W.E.B. Du Bois Data Portraits, Visualizing Black America"         // Battle-Baptiste and Russert, 2018, ISBN 978-1-61689-706-1"
+			li "Black Lives 1900, W.E.B. Du Bois at the Paris Exposition"         // Julian Rothenstein ISBN 978-1-942884-53-8"
 		elist
 
 		recaplink="https://speakerdeck.com/ajstarks/du-bois-challenge-2024-recap"
@@ -666,7 +782,7 @@ deck
 		link4="https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america"
 		link5="https://www.theredstoneshop.com/products/black-lives-1900"
 		link6="https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
-		incr=listsp*3.25
+		incr=listsp*3.6
 		urly=listy-listsp
 		text link0 cl1 urly linksize "mono" linkcolor 100 link0
 		urly-=incr
@@ -685,45 +801,75 @@ deck
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Implement" tx ty subsize
-		image "images/original-plate-40.jpg" 30 50 35 0
-		image "images/implss.png" 70 50 35 0
+		ctext "Implement" tx ty ts
+		image "images/ggplot-code09.png" 30 50 55 0
+		image "images/impl-ggplot09.png" 80 50 35 0
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Implementation" tx ty ts "sans" implColor
+		ctext "Implement" tx ty ts "sans" implColor
 		textblockfile "implement1.txt" 10 75 70 3 "serif"
 	eslide
 
+	scale="The ability to work with increasing amounts of data,"
+	repro="you can reproduce and adapt graphs with less work than when we draw by hand,"
+	reach="works are available to millions on the Internet; others are free to adapt, share and remix without having to reinvent the wheel."
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Implementation: Advantages of Digital" tx ty ts "sans" implColor
-		textblockfile "implement2.txt" 10 75 70 3 "serif"
+		ctext     "Implement: Advantages of Digital" tx ty ts "sans" implColor
+		text      "Scalability:" 10 80 4 "serif" headcolor
+		textblock scale 50 80 35 3 "serif"
+		textblock "Reproducibility and Adaptability:" 10 60 10 4 "serif" headcolor
+		textblock repro 50 60 35 3 "serif"
+		text      "Reach:" 10 33 4 "serif" headcolor
+		textblock reach  50 33 40 3 "serif"
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Implementation: Introduction" tx ty ts "sans" implColor
-		image "images/implement2.png" 50 50 80 0
+		ctext "Implement: creating a bar chart" tx ty ts "sans" implColor
+		image "images/ggplot-code01.png" 50 60 90 0
+		image "images/impl-ggplot01.png" 80 30 30 0
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Implementation: Building the Chart" tx ty ts "sans" implColor
-		image "images/implement1.png" 50 50 80 0
+		ctext "Implement: ordering bars, use spot color" tx ty ts "sans" implColor
+		image "images/ggplot-code02.png" 50 60 90 0
+		image "images/impl-ggplot02.png" 80 30 30 0
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctext "Implementation: Code + Chart" tx ty ts "sans" implColor
-		image "images/implement3.png" 50 50 80 0
+		ctext "Implement: use the Du Bois theme" tx ty ts "sans" implColor
+		image "images/ggplot-code03.png" 50 60 90 0
+		image "images/impl-ggplot03.png" 80 30 30 0
 	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
-		ctect "References"
+		ctext "Implement: change text font and color bar" tx ty ts "sans" implColor
+		image "images/ggplot-code04.png" 50 60 90 0
+		image "images/impl-ggplot04.png" 80 30 30 0
+	eslide
 
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Implement: titles and subtitles, your name" tx ty ts "sans" implColor
+		image "images/ggplot-code05.png" 50 55 90 0
+		image "images/impl-ggplot05.png" 80 30 30 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Implement: use modern data, update legend" tx ty ts "sans" implColor
+		image "images/ggplot-code08.png" 50 50 80 0
+		image "images/impl-ggplot07.png" 80 30 30 0
+	eslide
+
+	slide bgcolor txcolor
+		paginate pagenumber
 		cl1=5
 		cl2=cl1+40
 		listy=85
@@ -731,7 +877,7 @@ deck
 		linksize=listsize*0.6
 		listsp=2.7
 		ctext "Implement: References" tx ty ts "sans" exploreColor
-		list cl1 listy listsize "sans" "" 100 listsp
+		list cl1 listy listsize "serif" "" 100 listsp
 			li "Github Repository for the #DuboisChallenge2024"
 			li "Du Bois Challenge 2024 Recap"
 			li "2024 Du Bois Challenge using R Programming."

@@ -1,6 +1,6 @@
 def paginate pagenumber
 	pagenumber+=1
-	pstring=format "[%.0f]" pagenumber
-	ctext pstring 95 footery 2
+	pstring=format "%.0f" pagenumber
+	ctext pstring footerx footery 1.5 "serif"
 	image "images/dubois-stem-logo.png" 95 95 6 0
 edef

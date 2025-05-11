@@ -1,0 +1,37 @@
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implement" tx ty subsize
+//		image "images/original-plate-40.jpg" 30 50 35 0
+//		image "images/implss.png" 70 50 35 0
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation" tx ty ts "sans" implColor
+//		textblockfile "implement1.txt" 10 75 70 3 "serif"
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation: Advantages of Digital" tx ty ts "sans" implColor
+//		textblockfile "implement2.txt" 10 75 70 3 "serif"
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation: Introduction" tx ty ts "sans" implColor
+//		image "images/implement2.png" 50 50 80 0
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation: Building the Chart" tx ty ts "sans" implColor
+//		image "images/implement1.png" 50 50 80 0
+//	eslide
+//
+//	slide bgcolor txcolor
+//		paginate pagenumber
+//		ctext "Implementation: Code + Chart" tx ty ts "sans" implColor
+//		image "images/implement3.png" 50 50 80 0
+//	eslide
+//

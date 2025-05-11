@@ -6,7 +6,6 @@ deck
 		dchart opts world-college.d
 	eslide
 
-
 	slide "linen" "black"
 		ctext title 50 92 3 "serif"
 

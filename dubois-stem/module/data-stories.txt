@@ -1,0 +1,11 @@
+Data stories provide a narrative that help us think about 
+the complex relationships that we visualize with multiple 
+graphs.
+\n
+While the human brain can process images faster than 
+words, we often comprehend and remember more 
+complex ideas through narrative and stories.
+\n
+Du Bois’s Paris exhibition connected multiple graphs with 
+a scientifically rigorous data story of Black achievement 
+after emancipation, contradicting social darwinism.

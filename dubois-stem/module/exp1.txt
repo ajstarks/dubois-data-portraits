@@ -1,10 +1,14 @@
-This section is a hands-on session that will take a sample Du Bois
-visualization, (Plate 27 in this example) and reconstructs and
-analyzes various aspects of the visual.
+This section is a hands-on session that takes sample Du Bois 
+visualizations, and reconstructs and analyzes various aspects of 
+the visual.
 \n
-The exercise aims to recreate the sample visual using hand-drawn methods
-(pens, paper, markers, etc.), to immerse the students in the act of
-creation, while thinking about the context and messaging.  Rapid iteration
-and peer review may be used to gauge effectiveness of the visual.  
+In this exercise you will recreate sample visuals using 
+hand-drawn methods similar to those used by Du Bois and his 
+collaborators (pens, paper, markers, etc.), to immerse yourself 
+in the act of creation, while thinking about the the research 
+question and audiences Du Bois engaged. You will use rapid 
+iteration and peer review to gauge effectiveness of the visual.
 \n
-Next, drawing with modern data may be introduced.
+In the final part of the exercise, you will draw your own 
+visualization with modern data.
+

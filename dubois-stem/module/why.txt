@@ -1,0 +1,11 @@
+It is difficult for people analyze data involving many 
+complex relationships and hundreds (or billions!) of data 
+points.
+\n
+Visualizing data with graphs can help a scientist answer 
+research questions involving such complex relationships 
+and large amounts of data. 
+\n
+Graphs can also help scientists explain their research 
+findings to other scientists and non-scientists.
+
