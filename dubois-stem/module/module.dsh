@@ -512,22 +512,9 @@ deck
 
 	slide bgcolor txcolor
 		exmod="Using modern data on college attainment, comparing other countries with US Black students.*"
-		
 		ctext "Explore: Re-Create with Modern Data" tx ty ts "sans" exploreColor
 		image "images/impl-ggplot10.png" 25 50 40 0
-		list 50 80 ps "mono" "" 100 1.2
-			li "Country,Percent attainment"
-			li "Romania,20"
-			li "Serbia,28"
-			li "Russia,60"
-			li "Black U.S. Residents,36"
-			li "Hungary,29"
-			li "Italy,20"
-			li "Austria,36"
-			li "Ireland,54"
-			li "France,42"
-			li "Sweden,49"
-		elist
+		textcode "ca.csv" 50 80 40 ss
 		textblock exmod notex 25 30 ss "serif"
 		text "*US Census" 5  7 1.5 "serif" "" 100 censuslink
 		text "OECD"       5  4 1.5 "serif" "" 100 OECDlink
