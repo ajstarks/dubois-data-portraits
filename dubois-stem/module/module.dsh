@@ -13,7 +13,7 @@ deck
 	pagenumber=0
 	footerx=95
 	footery=2
-	version="2025-01-29"
+	version="2025-05-11"
 
 	// colors
 	contextColor="rgb(100,100,100)" //hsv(240,50,100)"
@@ -511,6 +511,7 @@ deck
 	eslide
 
 	slide bgcolor txcolor
+		paginate pagenumber
 		exmod="Using modern data on college attainment, comparing other countries with US Black students.*"
 		ctext "Explore: Re-Create with Modern Data" tx ty ts "sans" exploreColor
 		image "images/impl-ggplot10.png" 25 50 40 0
