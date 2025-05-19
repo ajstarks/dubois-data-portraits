@@ -110,14 +110,13 @@ deck
 		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	10 14 13 0
 	eslide
 
-//	slide bgcolor txcolor
-//		paginate pagenumber
-//		ctext "Context: Background" tx ty ts "sans" contextColor
-//		textblockfile "context-bg2.txt" 10 80 70 ps "serif"
-//		cimage 	"images/TJCalloway.jpg"				"TJ Calloway" 			20 25 20 0
-//		cimage  "images/dubois-1900.png"			"Du Bois in Paris"		50 25 20 0
-//		cimage 	"images/au-women.jpg"	            "Atlanta U. Students"	80 25 30 0
-//	eslide
+	slide bgcolor txcolor
+		paginate pagenumber
+		ctext "Context: Background" tx ty ts "sans" contextColor
+		textblockfile "calloway-letter.txt" 20 70 63 ps "serif"
+		text "Letter from Calloway Black leaders" 20 30 ss "serif"
+		cimage 	"images/TJCalloway.jpg"	"TJ Calloway" 10 58 15 0
+	eslide
 
 	slide bgcolor txcolor
 		paginate pagenumber
