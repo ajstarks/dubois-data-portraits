@@ -1,0 +1,37 @@
+deck
+  	bgcolor="linen"
+    fgcolor="black"
+    mid=50
+	tx=50
+	sx=50
+	sy=60
+	ty=90
+	ts=4
+	ls=ts*0.4
+
+	slide "black" "white"
+		etext "Anthony Starks/@ajstarks" 98 5 1
+		ctext "#DuboisChallenge 2021-2025" tx ty ts
+		imy=70
+		ly=imy-20
+		ys=10
+		image "images/cat2021.png" 15 imy 25 0
+		ctext "2021" 10 ly ls 
+		imy-=ys
+		ly-=ys
+		image "images/cat2022.png" 30 imy 30 0
+		ctext "2022" 25  ly ls
+		imy-=ys
+		ly-=ys
+		image "images/cat2023.png" 45 imy 30 0
+		ctext "2023" 40  ly ls
+		imy-=ys
+		ly-=ys
+		image "images/cat2024.png" 60 imy 30 0
+		ctext "2024" 55 ly ls 
+		imy-=ys
+		ly-=ys
+		image "images/cat2025.png" 75 imy 30 0
+		ctext "2025" 70 ly ls 
+	eslide
+edeck

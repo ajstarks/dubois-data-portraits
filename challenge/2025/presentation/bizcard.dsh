@@ -1,0 +1,21 @@
+slide bgcolor fgcolor // "white" "rgb(100,100,100)"
+        ims=5
+        image "images/duboisian-logo.png" mx 75 20 0
+        ctext "Anthony J. Starks"       mx 35 ts "sans" "black"
+        ctext "Art + Code"              mx 22 ss "sans" "maroon"
+        line  lx 95 lx 5 0.3 "maroon"
+
+        image "images/email.png"        ix 90 ims 0
+        image "images/twitter.png"      ix 75 ims 0  
+        image "images/github.png"       ix 60 ims 0
+        image "images/sd.png"           ix 45 ims 0
+        image "images/linkedin.png"     ix 30 ims 0
+	image "images/ig-black.png"     ix 15 ims 0
+
+        text "info@ajstarks.org"     tx 89 cs "sans" "black" 100 "mailto:info@ajstarks.org"
+        text "@ajstarks"                 tx 74 cs "sans" "black" 100 "https://twitter.com/ajstarks"
+        text "github.com/ajstarks"       tx 59 cs "sans" "black" 100 "https://github.com/ajstarks"
+        text "speakerdeck.com/ajstarks"  tx 44 cs "sans" "black" 100 "https://speakerdeck.com/ajstarks"
+        text "linkedin.com/in/ajstarks"  tx 29 cs "sans" "black" 100 "https://linkedin.com/in/ajstarks"
+	text "@duboisviz"                tx 14 cs "sans" "black" 100 "https://www.instagram.com/duboisviz/"
+    eslide

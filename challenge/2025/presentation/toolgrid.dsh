@@ -1,0 +1,20 @@
+image "images/tableau.png"		  x y 15 0 100	tableau
+image "images/R-logo.png"		  x y 7  0 100	Rlink
+image "images/ggplot-logo.png"	  x y 5  0 100	ggplot
+image "images/powerbi.png"		  x y 5  0 100  powerbi
+
+image "images/d3.png"			  x y 7	0 100	d3
+image "images/figma.png"		  x y 5 0 100	figma
+image "images/gsap.jpg"           x y 5 0 100   gsap
+image "images/flourish-logo.png"  x y 10 0 100  flourish
+
+image "images/observable.png"	   x y 12 0 100	obs
+image "images/python-logo.png"	   x y 12 0 100	python
+image "images/matplotlib.png"	   x y 12 0 100	matplotlib
+image "images/unity-logo.png"      x y 7 0 100  unity
+
+image "images/pillowpy.png"          x y 5 0 100  pillowpy
+image "images/affinity-designer.png" x y 5 0 100  affinity
+image "images/blender-logo.png"      x y 5 0 100  blender
+image "images/excel.png"             x y 5 0 100  excel
+
