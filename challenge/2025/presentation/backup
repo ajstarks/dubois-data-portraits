@@ -1,0 +1,2 @@
+#!/bin/sh
+tar cvf /tmp/dc2025.tar . && scp /tmp/dc2025.tar ajstarks.org: && rm -rf /tmp/dc2025.tar

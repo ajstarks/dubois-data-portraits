@@ -2,6 +2,7 @@
 deck
   	bgcolor="linen"
     fgcolor="black"
+    bgcolor2="#c8b094"
     mid=50
 	tx=50
 	sx=50
@@ -9,22 +10,65 @@ deck
 	ty=90
 	ts=4
 	ss=ts*0.6
+
+	ns=ts*0.75
+    ns2=ns*0.50
+    ns3=ns2*0.75
+
+	quote="“Some mornings as I look about upon the two or three hundred of my companions assembled for morning prayers I can hardly realize they are all my people; that this great assembly of youth and intelligence are representatives of a race which twenty years ago was in bondage.”"
+
+	// blurbs
+	blurb01="This fanciful chart uses literal bags of cash to depict the amount of land owned by Black Georgians. Starting in 1875, the value increased over 3 times by the end of century to $4.2 million (equivalent to $162.6 million in 2025)"
+	blurb02="“Acres of Land Owned by Negroes in Georgia” is a conventional bar chart with a twist. The chart shows the increase of land owned between 1874 (338,769 acres) and 1899 (1,023,741), with the red shape of the data echoing the map of Georgia"
+	blurb03="This choropleth map tracks the acres of land owned by Black people in Georgia, over thirty years, by county. The acreage ranges from 44,601 in Liberty County, to 130 acres in Fannin county."
+	blurb04="“Valuation of Town and City Property Owned by Georgia Negroes” (one of the few line charts in the collection) shows a large growth of property owned from 1880-1895 (“Rise of the New Industrialism”). Note the other annotations of contemporary issues (“Financial Panic”, “Lynching”)"
+	blurb05="“Amassed valuation of all taxable property owned by Georgia Negroes”, shows growing economic strength from 1875 (5.3 million) to 1890 $13.4 million ($470.4 Million in 2025). Note the bold color palette and circular form, with the monetary values boldly piercing the circle pointing at its center."
+	blurb06="This unconventional chart uses a “woven” pattern of horizontal and vertical bars to compare the property ownership of Black people from 1880-1899 in two cities in Georgia: Savannah and Atlanta. The value of property owned in Atlanta in 1898 was the highest at $1,308,955 (over $49 Million today)"
+	blurb07="One of the most famous Du Bois visualizations, the spiral “Assessed Value of Household and Kitchen Furniture Owned by Georgia Negroes” illustrates the power of ownership: the value of household goods began at $2,186 in 1875, blossoming to $1.4 million by the turn of the century. (over 640x increase)"
+	blurb08="“Occupation of Georgia Negroes” at first glance looks like a conventional bar chart, but it includes a line curved upon itself to denote a large data point — Agricultural workers, 98,400 (42.6% of the total). Also note the smaller categories, ranging from “Saw and Planing Mill Employees” to “Gardener and Florists” are summarized into a collective line."
+	blurb09="“Occupations of Negroes and Whites in Georgia” is not quite an pie chart, but a “fan chart”, comparing the occupations of two groups. The chart is a good example of the typical Du Bois color palette."
+	blurb10="The horizontal stacked bar charts shows how various social-economic groups spend their income among these categories: Rent, Food, Clothes, Taxes, and other expenses and giving. This visual is distinct in that it includes photographs along with the chart."
+
+	// Links
+	calloway="“… thousands upon thousands will go [to the fair], and a well selected and prepared exhibit, representing the Negro's development in his churches, his schools, his homes, his farms, his stores, his professions and pursuits in general will attract attention and do a great and lasting good in convincing thinking people of the possibilities of the Negro.”"
+	fisklink="https://credo.library.umass.edu/view/full/mums312-b005-i080" // https://www.theatlantic.com/education/archive/2016/02/web-du-bois-at-fisk-university/624867/"
 	chlink="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md"
-	tablink01="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoischallenge2025-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2025"
+	tablink01="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoischallenge2025-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2025" // Raisa Hannus
 	tablink02="https://public.tableau.com/app/profile/fredfery/viz/W_E_BDuBoisChallenge2025Gallery/W_E_BDuBoisChallenge2025Gallery"
-	tablink03="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoischallenge2025-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2025" // Raisa Hannus
 	tablink04="https://public.tableau.com/app/profile/jessica.bosch/viz/DuBoisChallenge2025-Challenge1/PropertyValuation" // Jessica Bosch
 	tablink05="https://public.tableau.com/app/profile/ray.n1744/viz/Dubois_Challenge_04/Dashboard1" // Ray N
+
+	wk01link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489"
 	wk02link01="https://codepen.io/idsintehittapa/pen/jEOPRwO"
+	wk05link01="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741449614417569"
+	wk05link02="https://youtu.be/5xeJIcBv-nk"
+	wk06link01="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741697352245829"
+	wk06link02="https://www.linkedin.com/posts/hishammohd07_duboischallenge-week6-activity-7305961147239735296-ub5r?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAc-jgBREnroffvJEubgczjMaVv6Ddjjq8"
+	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
+	wk07link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742199237810899"
+	wk07link01="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742191202255269"
+	wk08link01="https://community.fabric.microsoft.com/t5/Data-Stories-Gallery/Occupations-of-Georgia-Blacks-WEB-DuBois-Challenge-2025-Week-8/m-p/4632137#Index"
 	wk09link01="https://playground.graphane.dev/editor/gq93nfzq/"
+	wk10link01="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1743955815122689" // Kate Miller
+	wk10link02="https://community.fabric.microsoft.com/t5/Data-Stories-Gallery/W-E-B-Du-Bois-Data-Challenge-2025-Week-10/m-p/4640199" // 
+
+	// github links
 	ghlink01="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md"
 	ghlink02="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2025/challenge01"
-	
+
+	// recreation links
 	userlink01="https://www.bmdata.co.uk/duboisChallenge/"
 	userlink02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1743955815122689"  // Kate Miller
 	userlink03="https://adeline-hub.github.io/duboischallenge2005/"
 	userlink04="https://youtu.be/ti-4aoEliA0"
 	userlink05="https://datavisual.blog/2025/04/23/lessons-from-the-2025-du-bois-visualization-challenge/"
+	jalink="https://github.com/juanchiparra/du-bois-challenge/tree/main/2025" // Juanchi Perra
+	rhlink="https://public.tableau.com/app/profile/raisa.hannus/viz/DuBoischallenge2025-Re-VisualizingtheBlackAmericaofW_E_B_DuBois/DuBoisChallenge2025" // Rai Hannus
+	cylink="https://github.com/yaziciceyda/DuBois-Challenge/tree/main/2025" // Ceyda YAZICI
+	amlink="https://observablehq.com/@mizinov/dubois-challenge-2025-10?collection=@mizinov/dubois-challenge-2025" // Anton Mizinov
+	bmlink="https://www.bmdata.co.uk/duboisChallenge/" // Bryony Miles
+	artlink="https://bsky.app/profile/namboline.bsky.social/post/3lk6vc7nb222u" // 
+	bloglink="https://datavisual.blog/2025/04/23/lessons-from-the-2025-du-bois-visualization-challenge/"
 
 	// tool links
 	affinity="https://affinity.serif.com/en-us/designer/"
@@ -44,28 +88,72 @@ deck
 	Rlink="https://www.r-project.org/"
 	tableau="https://www.tableau.com/"
 	unity="https://unity.com/solutions/xr/ar"
+	app="https://www.adobe.com/products/premiere.html"
+	aae="https://www.adobe.com/products/aftereffects.html"
+	aps="https://www.adobe.com/products/photoshop.html"
+	manim="https://www.manim.community/"
+	processing="https://processing.org"
+	qgis="https://www.qgis.org/en/site/"
+	vuforia="https://developer.vuforia.com/home"
 
+	// title
 	slide bgcolor fgcolor
-		ims=16
-		imy=72
+		ctext "The Data Visualization Legacy of Du Bois" tx ty ts // "sans" "white"
+		ctext "#DuboisChallege2025"                      tx 83 2.5
+		image "images/dubois-fisk.jpg" 25 55 23 0
+		image "images/dubois-1900.png" 50 55 20 0 
+		image "images/expo0.jpg"       75 55 20 0
+		ims=7
+		grid "2025grid.dsh" 15 15 8 15 90
+		etext "Anthony Starks/@ajstarks" 98 5 1
 
-		rect 50 100 100 15 "black-america-1895"
-		ctext "The Du Bois Challenge 2025: Economics" 50 94 3 "sans" "white"
-		// row 1
-		cimage "images/original-plate-18.jpg" "1: Feb  3" 10 imy ims 0
-		cimage "images/original-plate-19.jpg" "2: Feb 10" 30 imy ims 0
-		cimage "images/original-plate-20.jpg" "3: Feb 17" 50 imy ims 0
-		cimage "images/original-plate-21.jpg" "4: Feb 24" 70 imy ims 0
-		cimage "images/original-plate-22.jpg" "5: Mar  3" 90 imy ims 0
-		imy-=45
-		// row 2
-		cimage "images/original-plate-23.jpg" "6: Mar 10" 10 imy ims 0
-		cimage "images/original-plate-25.jpg" "7: Mar 17" 30 imy ims 0
-		cimage "images/original-plate-26.jpg" "8: Mar 24" 50 imy ims 0
-		cimage "images/original-plate-27.jpg" "9: Mar 31" 70 imy ims 0
-		cimage "images/original-plate-31.jpg" "10: Apr 7" 90 imy ims 0
 	eslide
 
+	// title
+//	slide bgcolor fgcolor
+//		ls=ts*0.4
+//		etext "Anthony Starks/@ajstarks" 98 5 1
+//		ctext "Celebrating the Data Visualization Legacy of Du Bois" tx ty ts // "sans" "white"
+//		imy=70
+//		ly=imy-20
+//		ys=10
+//		image "images/cat2021.jpg" 15 imy 25 0
+//		ctext "2021" 10 ly ls
+//		imy-=ys
+//		ly-=ys
+//		image "images/cat2022.jpg" 30 imy 30 0
+//		ctext "2022" 25  ly ls
+//		imy-=ys
+//		ly-=ys
+//		image "images/cat2023.jpg" 45 imy 30 0
+//		ctext "2023" 40  ly ls
+//		imy-=ys
+//		ly-=ys
+//		image "images/cat2024.jpg" 60 imy 30 0
+//		ctext "2024" 55 ly ls
+//		imy-=ys
+//		ly-=ys
+//		image "images/cat2025.jpg" 75 imy 30 0
+//		ctext "2025" 70 ly ls
+//	eslide
+
+	// Du Bois at Fisk
+	slide bgcolor fgcolor
+		image "images/dubois-fisk.jpg"                            20 50 33 0 100 fisklink
+        textblock quote                                           40 80 55 3 "serif" fgcolor 100 fisklink
+        text "Letter from Du Bois to Pastor Scudder, Feb 3, 1886" 40 10 1.5 "serif" fgcolor 100 fisklink
+        ctext "W.E.B. Du Bois at Fisk, circa 1885"                20 10 1.5 "serif"
+    eslide
+
+
+    slide bgcolor fgcolor
+		image "images/dubois-fisk.jpg"                             20 50 33 0 100 fisklink
+		ctext "W.E.B. Du Bois at Fisk, circa 1885"                 20 10 1.5 "serif"
+        image "images/scudder-letter.png"                          65 50 50 0 100 fisklink
+        ctext "Letter from Du Bois to Rev. Scudder, Feb 3, 1886"   65 10 1.5 "serif" fgcolor 100 fisklink
+    eslide
+
+	// Context
 
 	// TJ Calloway and Du Bois
 	// The letter insists that, "thousands upon thousands will go [to the
@@ -73,7 +161,7 @@ deck
 	// Negro's development in his churches, his schools, his homes, his
 	// farms, his stores, his professions and pursuits in general will
 	// attract attention... and do a great and lasting good in convincing
-	// thinking people of the possibilities of the Negro." 
+	// thinking people of the possibilities of the Negro."
 	slide bgcolor fgcolor
 		ctext "In 1900, it began with them…" mid ty ts
 		image "images/TJCalloway.jpg"  30 47 30 0
@@ -91,6 +179,13 @@ deck
 		ctext "Women seated on steps at Atlanta University c. 1900" 70 20 1.5 "serif"
 	eslide
 
+	calloway="“… thousands upon thousands will go [to the fair], and a well selected and prepared exhibit, representing the Negro's development in his churches, his schools, his homes, his farms, his stores, his professions and pursuits in general will attract attention and do a great and lasting good in convincing thinking people of the possibilities of the Negro.”"
+	slide bgcolor fgcolor
+		ctext "Calloway's Letter to Black Leaders" tx ty ts
+		image "images/TJCalloway.jpg" 20 45 30 0
+		textblock calloway 40 80 50 3 "serif"
+	eslide
+
 	// 1900 venue
 	slide bgcolor fgcolor
 		ctext "Paris 1900" tx ty ts
@@ -100,17 +195,17 @@ deck
 	eslide
 
 	// Purpose and messages
-	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538. 
-	// During the 1880s and 1890s, instances of lethal mob violence increased steadily, 
-	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs. 
+	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538.
+	// During the 1880s and 1890s, instances of lethal mob violence increased steadily,
+	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs.
 	// Between 1890 and 1900 Georgia averaged more than one mob killing per month.
 
 	// In 1898 the duly elected people in Wilmington NC was violently overthrown by whites.
-	// The coup occurred after the state's white Southern Democrats conspired and led a mob of 
-	// 2,000 white men to overthrow the legitimately-elected local Fusionist government. 
-	// They expelled opposition black and white political leaders from the city, destroyed 
-	// the property and businesses of black citizens built up since the Civil War,  
-	// including the only black newspaper in the city, and killed an estimated 60 to 
+	// The coup occurred after the state's white Southern Democrats conspired and led a mob of
+	// 2,000 white men to overthrow the legitimately-elected local Fusionist government.
+	// They expelled opposition black and white political leaders from the city, destroyed
+	// the property and businesses of black citizens built up since the Civil War,
+	// including the only black newspaper in the city, and killed an estimated 60 to
 	// more than 300 people
 	balink="https://publicdomainreview.org/essay/black-america-1895"
 	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
@@ -124,7 +219,7 @@ deck
 		ny=dy+3
 		dimy=dy+20
 		dly=dy-5
-		
+
 		dminx=10
 		dmaxx=100-dminx
 		datemin=1895
@@ -138,7 +233,7 @@ deck
 
 		dls=2
 		ctext "Historical Context" tx ty ts
-		ctext "1895" p1 dly dls 
+		ctext "1895" p1 dly dls
 		ctext "1896" p1a dly dls
 		ctext "1897" p2 dly dls
 		ctext "1898" p3 dly dls
@@ -162,12 +257,12 @@ deck
 
 		// timeline
 		line dminx dy dmaxx dy 0.5 "gray" 50
-		circle p1 dy 1 "maroon"
+		circle p1  dy 1 "maroon"
 		circle p1a dy 1 "maroon"
-		circle p2 dy 1 "maroon"
-		circle p3 dy 1 "maroon"
-		circle p4 dy 1 "maroon"
-		circle p5 dy 1 "maroon"
+		circle p2  dy 1 "maroon"
+		circle p3  dy 1 "maroon"
+		circle p4  dy 1 "maroon"
+		circle p5  dy 1 "maroon"
 	eslide
 
 	// Messages
@@ -182,19 +277,77 @@ deck
 		text  "This is how far we have come" 15 26 6 "sans" "maroon"
 	eslide
 
-	// Starks, 2019
+	slide bgcolor
+		image "images/expo0.png" 50 50 1157 1525 60
+	eslide
+
+	// Show viz IRL
+	slide bgcolor fgcolor
+		ims=4
+		image "images/expo0.png" 50 50 1157 1525 60
+		image "images/plate01.png" 46 40 imw imh ims
+		image "images/plate37.png" 59.5 40 imw imh ims
+		image "images/platexx.png" 61.5 65 imw imh ims
+		image "images/plate55.png" 39.5 65 imw imh ims
+	eslide
+
+	// Dimensions
+	slide bgcolor fgcolor
+		image "images/33899v.jpg" 50 50 818 1024 80
+		ctext "22”" 50 90 3 "sans" "maroon"
+		ctext "28”" 30 50 3 "sans" "maroon"
+	eslide
+
+	// original catalog
 	slide bgcolor "#aa0000"
+		ims=6
+		grid "ocatalog.dsh" 5 90 10 16 95
+		ctext "1900: Du Bois Originals" 85 10 2.5
+	eslide
+
+	// Starks, 2019
+	slide bgcolor
 		image "images/full-catalog.jpg" 50 50 100 0
 		ctext "2019: Starks re-creations" 85 10 2.5
+	eslide
+
+
+	 
+
+	// Du Bois Challenge
+	slide bgcolor fgcolor // "black" "white"
+		ls=ts*0.4
+		ctext "#DuboisChallenge 2021-2025" tx ty ts
+		imy=70
+		ly=imy-20
+		ys=10
+		image "images/cat2021.jpg" 15 imy 25 0
+		ctext "2021" 10 ly ls
+		imy-=ys
+		ly-=ys
+		image "images/cat2022.jpg" 30 imy 30 0
+		ctext "2022" 25  ly ls
+		imy-=ys
+		ly-=ys
+		image "images/cat2023.jpg" 45 imy 30 0
+		ctext "2023" 40  ly ls
+		imy-=ys
+		ly-=ys
+		image "images/cat2024.jpg" 60 imy 30 0
+		ctext "2024" 55 ly ls
+		imy-=ys
+		ly-=ys
+		image "images/cat2025.jpg" 75 imy 30 0
+		ctext "2025" 70 ly ls
 	eslide
 
 	// Allen and Sekou
 	slide bgcolor fgcolor
 		ctext "In 2021, it began with them" mid ty ts
-		image "images/allen.jpg"              30 47 30 0
-		image "images/sekou0.jpg"             70 47 32 0
-		ctext "Allen Hillery (@AlDataVizGuy)" 30 3 2 "serif" "" 100 "https://x.com/AlDatavizguy" 
-		ctext "Sekou Tyler (@sqlsekou)"       70 3 2 "serif" "" 100 "https://x.com/sqlsekou"
+		image "images/allen02.png"             30 47 30 0
+		image "images/sekou02.png"             70 47 32 0
+		ctext "Allen Hillery (@AlDataVizGuy)"  30 10 2 "serif" "" 100 "https://x.com/AlDatavizguy"
+		ctext "Sekou Tyler (@sqlsekou)"        70 10 2 "serif" "" 100 "https://x.com/sqlsekou"
 	eslide
 
 	// Modern venue
@@ -204,20 +357,39 @@ deck
 		etext "Your Message" 33 50 3
 		image "images/megaphone01.png"           45 50 30 0
 		image "images/twitter-logo.png"          megax 85 7 0
-		image "images/instagram-logo.png"        megax 60 10 0
+		image "images/bluesky-logo.png"          megax 60 10 0
 		image "images/youtube-logo.png"          megax 40 10 0
 		image "images/zoom-logo.png"             megax 20 15 0
 		megax+=15
 		image "images/mastodon-logo.jpg"         megax 75 7 0
 		image "images/linkedin-logo.jpg"         megax 50 7 0
-		image "images/slack-logo.jpg"            megax 25 7 0
+		image "images/slack-logo.png"            megax 25 7 0
 		polygon "55 55 68 68" "40 65 95 5" "gray" 20
 	eslide
 
+	// Materials comparison
+        slide bgcolor fgcolor
+                cleft=25
+                cright=cleft+50
+                cbottom=5
+                cs=2.5
+                cy=90
+                ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs
+                ctext "1900"                                    cleft cbottom cs
+                image "images/33889v.jpg"                       cleft mid 811 1024 80
+
+                ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
+                ctext "Today"                                   cright cbottom cs
+                image "images/modern-plate27.png"               cright mid imw imh 30
+        eslide
+
+	// Du Bois Challenge 2025
 	slide bgcolor fgcolor
 		ims=16
 		imy=72
-		ctext "The Du Bois Challenge 2025: Economics" 50 94 3
+
+		rect 50 100 100 15 "black"
+		ctext "The Du Bois Challenge 2025: Economics" 50 94 3 "sans" "white"
 		// row 1
 		cimage "images/original-plate-18.jpg" "1: Feb  3" 10 imy ims 0
 		cimage "images/original-plate-19.jpg" "2: Feb 10" 30 imy ims 0
@@ -232,15 +404,8 @@ deck
 		cimage "images/original-plate-27.jpg" "9: Mar 31" 70 imy ims 0
 		cimage "images/original-plate-31.jpg" "10: Apr 7" 90 imy ims 0
 	eslide
-
-	slide bgcolor fgcolor
-		ctext "Originals" tx ty ts
-		ims=15
-		grid "orig-grid.dsh" 10 67 20 42 90
-	eslide
-
-	ghlink01="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2025/README.md"
-	ghlink02="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2025/challenge01"
+	
+	// Using github
 	slide bgcolor fgcolor
 		ctext "Using github" tx ty ts
 		image "images/github-readme.png" 24 45 45 0 100 ghlink01
@@ -249,34 +414,96 @@ deck
 
 	// Announcement thread
 	slide bgcolor fgcolor
+		ax=55
+		ay=70
+		axincr=12
+		ayincr=25
 		ctext "Announcement Thread" tx ty ts
-		image "images/bluesky-thread00.png" 25 45 40 0
-		ims=5
-		imrad=45
-		imcx=52
-		imcy=70
-		p=polar imcx imcy imrad 270
-		image "images/bs01.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 280
-		image "images/bs02.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 290
-		image "images/bs03.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 300
-		image "images/bs04.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 310
-		image "images/bs05.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 320
-		image "images/bs06.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 330
-		image "images/bs07.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 340
-		image "images/bs08.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 350
-		image "images/bs09.png" p_x p_y ims 0
-		p=polar imcx imcy imrad 360
-		image "images/bs10.png" p_x p_y ims 0
+		image "images/bluesky-thread00.jpg" 25 45 35 0
+		rbrace 48 45 80 4 4 0.4
+		grid "threads.dsh"  55 70 11 22 90
+		grid "threadot.dsh" 61 70 11 22 85
 	eslide
 
+	// plates+blurbs
+	blurbx=50
+	blurby=85
+	blurbw=40
+	blurbs=2.5
+	blurbfont="serif"
+
+	// Week 1
+	slide bgcolor fgcolor
+		image "images/original-plate-18.jpg" 25 50 40 0
+		ctext "Week 1" 25 96 1.5
+		textblock blurb01 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 2
+	slide bgcolor fgcolor
+		image "images/original-plate-19.jpg" 25 50 40 0
+		ctext "Week 2" 25 96 1.5
+		textblock blurb02 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 3
+	slide bgcolor fgcolor
+		image "images/original-plate-20.jpg" 25 50 40 0
+		ctext "Week 3" 25 96 1.5
+		textblock blurb03 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 4
+	slide bgcolor fgcolor
+		image "images/original-plate-21.jpg" 25 50 40 0
+		ctext "Week 4" 25 96 1.5
+		textblock blurb04 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 5
+	slide bgcolor fgcolor
+		image "images/original-plate-22.jpg" 25 50 40 0
+		ctext "Week 5" 25 96 1.5
+		textblock blurb05 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 6
+	slide bgcolor fgcolor
+		image "images/original-plate-23.jpg" 25 50 40 0
+		ctext "Week 6" 25 96 1.5
+		textblock blurb06 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 7
+	slide bgcolor fgcolor
+		image "images/original-plate-25.jpg" 25 50 40 0
+		ctext "Week 7" 25 96 1.5
+		textblock blurb07 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 8
+	slide bgcolor fgcolor
+		image "images/original-plate-26.jpg" 25 50 40 0
+		ctext "Week 8" 25 96 1.5
+		textblock blurb08 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 9
+	slide bgcolor fgcolor
+		image "images/original-plate-27.jpg" 25 50 40 0
+		ctext "Week 9" 25 96 1.5
+		textblock blurb09 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Week 10
+	blurby-=10
+	slide bgcolor fgcolor
+		image "images/original-plate-31.jpg" 25 50 40 0
+		ctext "Week 10" 25 96 1.5
+		textblock blurb10 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// Venues
 	slide bgcolor fgcolor
 		imy=75
 		ims=5
@@ -295,8 +522,11 @@ deck
 		image  "images/mast-venue.png"       90 imy 15 0
 	eslide
 
+	// Notables
 	iml=20
 	ox=12.5
+
+	// Week 1
 	slide bgcolor fgcolor
 		ctext "Week 1" ox ty ts
 		ctext "Or Misgav"  ox 20 ss
@@ -304,72 +534,273 @@ deck
 		image "images/wk01-02.jpg" 60 50 70 0
 	eslide
 
+	// Week 1
+	slide bgcolor fgcolor
+		ctext "Week 1" ox ty ts
+		ctext "Daniele Gibney"  ox 20 ss
+		image "images/original-plate-18.jpg" ox 50 iml 0
+		image "images/wk01-04.jpg" 60 50 40 0 100 wk01link02
+	eslide
+
+	// Week 2
 	slide bgcolor fgcolor
 		ctext "Week 2" ox ty ts
 		ctext "Johanna Blom"  ox 20 ss
 		image "images/original-plate-19.jpg" ox 50 iml 0
-		image "images/wk02-03.png" 60 50 65 0
+		image "images/wk02-03.jpg" 60 50 65 0 100 wk02link01
 	eslide
 
+	// Week 3
 	slide bgcolor fgcolor
 		ctext "Week 3" ox ty ts
 		ctext "Mizinov Anton"  ox 20 ss
 		image "images/original-plate-20.jpg" ox 50 iml 0
-		image "images/wk03-01.png" 50 50 45 0
+		image "images/wk03-01.jpg" 55 50 45 0
 	eslide
 
+	// Week 4
 	slide bgcolor fgcolor
 		ctext "Week 4" ox ty ts
 		ctext "Mizinov Anton"  ox 20 ss
 		image "images/original-plate-21.jpg" ox 50 iml 0
-		image "images/wk04-01.png" 50 50 45 0
+		image "images/wk04-01.jpg" 55 50 45 0
 	eslide
 
+	// Week 4
 	slide bgcolor fgcolor
 		ctext "Week 4" ox ty ts
 		ctext "Kate Miller"  ox 20 ss
 		image "images/original-plate-21.jpg" ox 50 iml 0
-		image "images/wk04-02.png" 60 50 70 0
+		image "images/wk04-02.jpg" 60 50 70 0 100
 	eslide
 
+	// Week 5
 	slide bgcolor fgcolor
-		ctext "Tableau Users, Week 4" tx ty ts
-		image "images/wk04-03.png" 	15 50 30 0 100 tablink03
-		image "images/wk04-05.png"  50 50 35 0 100 tablink05
-		image "images/wk04-04.png"  85 50 30 0 100 tablink04
-		ctext "Raisa Hannus"  15 5 ss
-		ctext "Ray N"         50 5 ss
-		ctext "Jessica Bosch" 85 5 ss
+		ctext "Week 5" ox ty ts
+		ctext "Kate Miller"  ox 20 ss
+		image "images/original-plate-22.jpg" ox 50 iml 0
+		image "images/wk05-04.jpg" 45 70 30 0 100 wk05link02
+		image "images/wk05-03.jpg" 80 70 30 0 100 wk05link02
+		image "images/wk05-02.jpg" 45 30 30 0 100 wk05link02
+		image "images/wk05-01.jpg" 80 30 30 0 100 wk05link02
 	eslide
 
+	// Week 6
+	slide bgcolor fgcolor
+		ctext "Week 6" ox ty ts
+		ctext "Ceyda YAZICI"  ox 20 ss
+		image "images/original-plate-23.jpg" ox 50 iml 0
+		image "images/wk06-01.jpg" 42 50 35 0 100 wk06link01
+		image "images/wk06-02.jpg" 80 50 35 0 100 wk06link01
+	eslide
+
+	// Week 6 (modern data)
+	slide bgcolor fgcolor
+		ctext "Week 6" ox ty ts
+		ctext "Hisham Mohammed"  ox 20 ss
+		image "images/original-plate-23.jpg" ox 50 iml 0
+		image "images/wk06-03.jpg" 42 50 35 0 100 wk06link01
+		image "images/wk06-04.jpg" 80 50 35 0 100 wk06link01
+	eslide
+
+	// Week 7
+//	slide bgcolor fgcolor
+//		ctext "Week 7" ox ty ts
+//		ctext "Mizinov Anton"  ox 20 ss
+//		image "images/original-plate-25.jpg" ox 50 iml 0
+//		image "images/wk07-01.jpg" 60 50 45 0 100 wk07link01
+//	eslide
+
+	// Week 7
+	slide bgcolor fgcolor
+		ctext "Week 7" ox ty ts
+		ctext "Frederick Fery"  ox 20 ss
+		image "images/original-plate-25.jpg" ox 50 iml 0
+		image "images/wk07-02.jpg" 60 50 45 0 100  wk07link02
+	eslide
+
+	// Week 7
+	slide bgcolor fgcolor
+		ctext "Week 7" ox ty ts
+		ctext "Sai"  ox 20 ss
+		image "images/original-plate-25.jpg" ox 50 iml 0
+		image "images/wk07-03.jpg" 40 50 30 0 100 wk07link03
+		image "images/wk07-04.jpg" 80 50 30 0 100 wk07link03
+	eslide
+
+	// Week 8
+	slide bgcolor fgcolor
+		ctext "Week 8" ox ty ts
+		ctext "Regis O'Connor"  ox 20 ss
+		image "images/original-plate-26.jpg" ox 50 iml 0
+		image "images/wk08-01.jpg" 60 50 70 0 100 wk08link01
+	eslide
+
+	// Week 9
+	slide bgcolor fgcolor
+		ctext "Week 9" ox ty ts
+		ctext "graphane"  ox 20 ss
+		image "images/original-plate-27.jpg" ox 50 iml 0
+		image "images/wk09-03.jpg" 60 50 70 0 100 wk09link01
+	eslide
+
+	// Week 10
+	slide bgcolor fgcolor
+		ctext "Week 10" ox ty ts
+		ctext "Kate Miller"  ox 20 ss
+		image "images/original-plate-31.jpg" ox 50 iml 0
+		image "images/wk10-01.jpg" 60 50 70 0 100 wk10link01
+	eslide
+
+	// Modern Data, Week 10
+	slide bgcolor fgcolor
+		ctext "Week 10" ox ty ts
+		textblock "Using Modern Data" 5 80 20 ss
+		ctext "Jeremy Moss"  ox 20 ss
+		image "images/original-plate-31.jpg" ox 50 iml 0
+		image "images/wk10-09.jpg" 60 45 60 0 100 wk10link02
+	eslide
+
+	// Tableau Sets
 	slide bgcolor fgcolor
 		ctext "Du Bois Tableau Sets" tx ty ts
-		cimage "images/tab01.png" "Raisa Hannus" 30 45 50 0 100 tablink01
-		cimage "images/tab02a.png" "Frederick Fery" 75 45 32 0 100 tablink02
+		cimage "images/tab01.jpg" "Raisa Hannus" 30 45 50 0 100 tablink01
+		cimage "images/tab02a.jpg" "Frederick Fery" 75 45 32 0 100 tablink02
+	eslide
+
+	// X Media
+	slide bgcolor fgcolor
+		ctext "X Media (#DuboisChallenge2025)" tx ty ts
+		image "images/x-media08.jpg" 15 45 23 0
+		image "images/x-media05.jpg" 39 45 23 0
+		image "images/x-media06.jpg" 63 45 23 0
+		image "images/x-media07.jpg" 87 45 23 0
+	eslide
+
+	// Blog
+	slide bgcolor fgcolor
+		ctext "Blog: Lessons Learned (Frederic Fery)" tx ty ts "" "" 100 bloglink
+		image "images/blog01.jpg" 22 42 35 0 100 bloglink
+		image "images/blog02.jpg" 52 42 30 0 100 bloglink
+		image "images/blog03.jpg" 83 42 30 0 100 bloglink
+		ctext "..." 67 42 5
+	eslide
+
+	// Youtube
+	slide bgcolor fgcolor
+		ctext "YouTube: Kate Miller and Equitable Equations" tx ty ts
+		image "images/kateyt.png" 25 50 45 0 100 wk05link02
+		image "images/eeyt02.png"   75 50 45 0 100 userlink04
+	eslide
+
+	// Art reference
+	slide bgcolor fgcolor
+		nam1="nambona yanguere (@namboline.bsky.social)"
+		nam="#DuBoisChallenge2025 week 5 still with Matplotlib made me reconnect with a great artist, Sonia Delaunay about 15 years younger than W.E.B. Du Bois and from Ukraine"
+		textblock nam 15 92 75 2 "sans" "" 100 artlink
+		image "images/art01.jpg" 30 45 35 0 100 artlink
+		image "images/art02.jpg" 70 45 33 0 100 artlink
+		ctext nam1 50 5 2
+	eslide
+
+	// Completions
+	slide bgcolor fgcolor
+		ctext "Complete Sets"  tx ty ts
+		ims=7
+		textblock "Raisa Hannus"  5 80 10 2 "sans" "" 100 rhlink
+		textblock "Bryony Miles"  5 60 10 2 "sans" "" 100 bmlink
+		textblock "Juanchi Perra" 5 40 10 2 "sans" "" 100 jalink
+		textblock "Cedeya Yazici" 5 20 10 2 "sans" "" 100 cylink
+		grid "compgrid.dsh"       20 75 8 20 95
+	eslide
+
+	// DVS Stats
+	slide bgcolor fgcolor
+		imx=80
+		ctext "DVS Slack Measures" tx ty ts
+		list 30 70 5 "sans" "maroon"
+			li "440"
+			li "150"
+			li "34"
+			li "10"
+		elist
+		list 40 70 5 "sans" "#555555"
+			li "Members"
+			li "Re-creations"
+			li "Participants"
+			li "Completists"
+		elist
+	eslide
+
+	// Linkedin Impressions
+	slide bgcolor fgcolor
+		ctext "LinkedIn Impressions, Feb 3 - May 7 2025" tx ty ts
+		dchart -title=f -left=15 -vcolor=maroon -textsize=2.25 -color=#0a66c2 -datafmt=%, -csv -csvcol=post,impressions -bar=f -hbar ls.csv
 	eslide
 
 	// Tools
 	slide bgcolor fgcolor
 		ctext "Tools Used" tx ty ts
 		ims=10
-		grid "toolgrid.dsh" 30 75 15 20 75
+		grid "toolgrid.dsh" 15 75 15 20 90
 	eslide
+
+	// refs
+	ref01="https://github.com/ajstarks/dubois-data-portraits"
+	ref02="https://github.com/ajstarks/modern-dubois-viz"
+	ref03="https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america"
+	ref04="https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/"
+	ref05="https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
+	ref06="https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34"
+	ref07="https://www.artbook.com/9781942884538.html"
+	ref08="https://credo.library.umass.edu/"
 
 	slide bgcolor fgcolor
-		imy=35
-		ctext "To Participate, Go to:" tx ty ts
-		ctext chlink tx 80 2.4 "sans" "rgb(0,0,128)" 100 chlink
-		hline 2 81 97 3 "blue" 5
-		ctext "Post to:"             tx 60 ts
-		cimage "images/bluesky-logo.png" "BlueSky"     10 imy 10 0
-		cimage "images/twitter-logo.png"  "X"          30 imy 10 0
-		cimage "images/slack-logo.png"    "DVS Slack"  50 imy 10 0
-		cimage "images/linkedin-logo.jpg" "Linkedin"   70 imy 10 0
-		cimage "images/mastodon-logo.jpg" "Mastodon"   90 imy 10 0
+		ctext "References" tx ty ts
+		refx=5
+		reftop=82
+		refy=reftop
+		refs=2.5
+		refspacing=refs*4.2
+		reffont="sans"
+		refcolor=fgcolor
+		text  "African American Photographs Assembled for 1900 Paris Exposition" refx refy refs reffont refcolor 100 ref04
+		refy-=refspacing
+		text  "W. E. B. Du Bois's Data Portraits" refx refy refs reffont refcolor 100 ref03
+		refy-=refspacing
+		text  "Black Lives 1900" refx refy refs reffont refcolor 100 ref07
+		refy-=refspacing
+		text  "Du Bois Visualization Style Guide" refx refy refs reffont refcolor 100 ref05
+		refy-=refspacing
+		text  "Du Bois Challenge 2025" refx refy refs reffont refcolor 100 chlink
+		refy-=refspacing
+		text  "Re-creation repo" refx refy refs reffont refcolor 100 ref01
+		refy-=refspacing
+		text  "Du Bois and Modern Data repo"  refx refy refs reffont refcolor 100 ref02
+		refy-=refspacing
+		text  "Credo Digital Library" refx refy refs reffont refcolor 100 ref08
+
+		refs*=0.7
+		refy=reftop-4
+		refcolor="maroon"
+		text ref04 refx refy refs reffont refcolor 100 ref04
+		refy-=refspacing
+		text ref03 refx refy refs reffont refcolor 100 ref03
+		refy-=refspacing
+		text ref07 refx refy refs reffont refcolor 100 ref07
+		refy-=refspacing
+		text ref05 refx refy refs reffont refcolor 100 ref05
+		refy-=refspacing
+		text chlink refx refy refs reffont refcolor 100 chlink
+		refy-=refspacing
+		text ref01 refx refy refs reffont refcolor 100 ref01
+		refy-=refspacing
+		text ref02 refx refy refs reffont refcolor 100 ref02
+		refy-=refspacing
+		text ref02 refx refy refs reffont refcolor 100 ref08
 	eslide
 
-
-// Business Card
+	// Business Card
     mx=25         // midpoint
     tx=62         // text left
     ix=57         // image left

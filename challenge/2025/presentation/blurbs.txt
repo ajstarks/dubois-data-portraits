@@ -1,0 +1,39 @@
+Cha[challenge01] Value of Land Owned by Georgia Negroes (plate 18), February 3
+
+	This fanciful chart uses literal bags of cash to depict the amount of land owned by Black Georgians. Starting in 1875, the value increased over 3 times by the end of century to $4,220,120
+
+[challenge02] Acres of Land Owned by Negroes in Georgia (plate 19), February 10
+
+	"Acres of Land Owned by Negroes in Georgia" is a conventional bar chart with a twist. The chart shows the increase of land owned between 1874 (338,769 acres) and 1899 (1,023,741), with the red shape of the data echoing  the map of Georgia.
+
+[challenge03] Land Owned by Negroes in Georgia, USA, 1870-1900  (plate 20), February 17
+
+	This choropleth map tracks the acres of land owned by Black people  in Georgia, over thirty years, by county. The acreage ranges from 44,601 in Liberty County, to 130 acres in Fannin county.
+
+[challenge04] Valuation of Town and City Property Owned by Georgia Negroes (plate 21), February 24
+
+	"Valuation of Town and City Property Owned by Georgia Negroes" (one of the few line charts in the collection) shows a large growth of property owned from 1880-1895 ("Rise of the New Industrialism"). Note the other annotations of contemporary issues ("Financial Panic", "Lynching")
+
+[challenge05] Assessed Valuation of all Taxable Property Owned by Georgia Negroes (plate 22), March 3
+
+	"Amassed valuation of all taxable property owned by Georgia Negroes", shows growing economic strength from 1875 ($5.3 million) to 1890 ($13.4 million). Note the bold color palette and circular form, with the monetary values boldly piercing the circle pointing at its center.
+
+[challenge06] Negro Property in Two Cities of Georgia (plate 23), March 10
+
+	This unconventional chart uses a "woven" pattern of horizontal and vertical bars to compare the property ownership of Black people from 1880-1899 in two cities in Georgia: Savannah and Atlanta. The value of property owned in Atlanta in 1898 was the highest at $1,308,955 (over $49 Million today)
+
+[challenge07] Assessed Value of Household and Kitchen Furniture Owned by Georgia Negroes (plate 25), March 17
+
+	One of the most famous Du Bois visualizations, the spiral "Assessed Value of Household and Kitchen Furniture Owned by Georgia Negroes" illustrates the power of ownership: the value of household goods began at $2,186 in 1875, blossoming to $1.4 million by the turn of the century.
+
+[challenge08] Occupations Of Georgia Negroes (plate 26), March 24
+
+	"Occupation of Georgia Negroes" at first glance looks like a conventional bar chart, but it includes a line curved upon itself to denote a large data point -- Agricultural workers, 98,400 (42.6% of the total). Also note the smaller categories, ranging from "Saw and Planing Mill Employees" to "Gardener and Florists" are summarized into a collective line.
+
+[challenge09] Occupations Of Negroes And Whites In Georgia  (plate 27), March 31
+
+	"Occupations of Negroes and Whites in Georgia" is not quite an pie chart, but a "fan chart", comparing the occupations of two groups. The chart is a good example of the typical Du Bois color palette.
+
+[challenge10] Income and Expenditure (plate 31), April 7
+
+	The horizontal stacked bar charts shows how various social-economic groups spend their income among these categories: Rent, Food, Clothes, Taxes, and other expenses and giving. This visual is distinct in that it includes photographs along with the chart.

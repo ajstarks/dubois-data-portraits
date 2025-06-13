@@ -1,0 +1,27 @@
+Notables: 
+
+wk01: https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489 Daniele Gibney
+
+
+wk01-04 https://bsky.app/profile/r-datasaber.bsky.social/post/3lhg6ihztjc2v r.t
+wk05-01 https://bsky.app/profile/namboline.bsky.social/post/3lk6vc7nb222u mambo yang
+wk05-02 https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741449614417569 Kate Miller
+
+wk06-01: https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741697352245829 Ceyda YAZICI
+wk06-02: https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741697352245829 Ceyda YAZICI
+
+wk06-03: https://www.linkedin.com/posts/hishammohd07_duboischallenge-week6-activity-7305961147239735296-ub5r?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAc-jgBREnroffvJEubgczjMaVv6Ddjjq8 Hisham Mohammed
+wk06-04: https://www.linkedin.com/posts/hishammohd07_duboischallenge-week6-activity-7305961147239735296-ub5r?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAc-jgBREnroffvJEubgczjMaVv6Ddjjq8 Hisham Mohammed
+
+wk08-01 https://bsky.app/profile/drjohnrussell.com/post/3llok364d2c2l john russel
+wk08-02 https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1743453569326009 Regis O'Connor
+wk08-03 https://community.fabric.microsoft.com/t5/Data-Stories-Gallery/Occupations-of-Georgia-Blacks-WEB-DuBois-Challenge-2025-Week-8/m-p/4632137#Index Regis O'Connor
+wk08-04 https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1743093125212459 Juanchi Parra
+
+wk09-01 https://playground.graphane.dev/editor/gq93nfzq/
+wk09-02 https://bsky.app/profile/namboline.bsky.social/post/3lmbxhxhqy22t
+wk10-01 https://bsky.app/profile/drjohnrussell.com/post/3lm7puowy6k2n John Russel
+wk10-02 https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1743955815122689 Kate Miller
+
+# Blog
+Lessons from the 2025 Du Bois Visualization Challenge: https://datavisual.blog/2025/04/23/lessons-from-the-2025-du-bois-visualization-challenge/

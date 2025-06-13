@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh dc2025.dsh|pdfdeck -grid 0 -sans $decksans -serif $deckserif -mono $deckmono -sw=t -stdout -pagesize 1920x1080 - > dc2025.pdf
