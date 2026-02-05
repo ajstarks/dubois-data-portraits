@@ -65,8 +65,9 @@ There are two awards you could win:
 
 1. *Challenge Contributor:* Submit your work in the [#challenge-dubois channel](https://datavizsociety.slack.com/archives/C04N7FZ1S82) to be entered into a raffle to win a printed copy of Nightingale, valued at $40. 1 raffle entry per participant, regardless of count of entries submitted.
 
-
 2. *Top Contributor:* Awarded to participants who submit an entry for all 10 weeks of the challenge. If no one completes all 10 weeks, this recognition will go to the participant(s) who submitted the most entries. Those who meet this criteria will be given a Certificate, and have a raffle entry to win one year of DVS Plus Membership, valued at $99.
+
+Here is a [form to register](https://docs.google.com/forms/d/1LW70K3p-nDUynOrj6i6rhrqs1PlwNAu_tTJbsIfEox4/edit?ts=6984a828) for the prizes.
 
 Winners are announced at the end of the challenge.
 
