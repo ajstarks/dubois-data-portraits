@@ -17,6 +17,8 @@ A goal of Du Bois's exhibition in 1900 was to demonstrate the development Black 
 
 Each challenge has its own directory in this repository, including the original visual and associated data.
 
+Note that each challenge directory contains data in CSV files, and geographic data as both [geojson](https://geojson.org/) and [shapefiles](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf).
+
 * [challenge01](https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2026/challenge01): _The Georgia Negro_ (plate 01), February 9
 
 	"The Georgia Negro, A Social Study" shows the transatlantic slave trade, with routes from Europe, Africa, the Americas and the Caribbean, highlighting Georgia. This visual contains Du Bois' famous assertion: "The problem of the 20th century is the problem of the color line"
