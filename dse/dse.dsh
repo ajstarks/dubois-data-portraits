@@ -12,6 +12,7 @@ deck
 	fisklink="https://credo.library.umass.edu/view/full/mums312-b005-i080" // https://www.theatlantic.com/education/archive/2016/02/web-du-bois-at-fisk-university/624867/"
 	philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
 	calloway="“… thousands upon thousands will go [to the fair], and a well selected and prepared exhibit, representing the Negro's development in his churches, his schools, his homes, his farms, his stores, his professions and pursuits in general will attract attention and do a great and lasting good in convincing thinking people of the possibilities of the Negro.”"
+	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
 
 	slide bgcolor fgcolor
 		//ruler 5 "crimson"
@@ -176,6 +177,27 @@ deck
 		grid "points-cap.dsh" 3  62 20 52 95
 	eslide
 
+	
+	imx=10
+	annts=1.5
+	annw=25
+	slide bgcolor fgcolor
+		//ruler
+		grid "pc1.dsh" 15 95  50 20 40
+		grid "pc2.dsh" 65 115 50 20 40
+		image "images/original-plate-01.jpg" imx 90 8 0
+		image "images/original-plate-15.jpg" imx 70 8 0
+		image "images/original-plate-14.jpg" imx 50 8 0
+		image "images/original-plate-27.jpg" imx 30 8 0
+		image "images/original-plate-21.jpg" imx 10 8 0
+		imx+=45
+		image "images/original-plate-61.jpg" imx 90 8 0
+		image "images/machine-shop.jpg" imx 70 8 0
+		image "images/original-plate-57.jpg" imx 50 8 0
+		image "images/church-service.jpg" imx 30 8 0
+		image "images/original-plate-37.jpg" imx 10 8 0
+	eslide
+
 	imx=25
 	imy=50
 	imw=35
@@ -184,7 +206,8 @@ deck
 	annx=48
 	anny=65
 	imw2=imw+7
-	
+
+
 	slide bgcolor fgcolor
 		image "images/original-plate-01.jpg" imx imy imw 0
 		textblock "(1) Something of the Negro’s history" annx anny annw annts annfont
@@ -231,7 +254,7 @@ deck
 	eslide
 
 	slide bgcolor fgcolor
-		image "images/original-plate-31.jpg" imx imy imw2 0
+		image "images/original-plate-37.jpg" imx imy imw2 0
 		textblock "(10) A general sociological study of the racial conditions in the United States." annx anny annw annts annfont
 	eslide
 
@@ -264,7 +287,7 @@ deck
 
 	// Dimensions
 	slide bgcolor fgcolor
-		image "images/33899v.jpg" 50 50 818 1024 80
+		image "images/original-plate-37.jpg" 50 50 33 0
 		ctext "22”" 50 90 3 "sans" "maroon"
 		ctext "28”" 30 50 3 "sans" "maroon"
 	eslide
@@ -277,13 +300,58 @@ deck
 	eslide
 
 	// aftermath
-	deed="I did the deed but I did not advertise it … \n in the long run advertising without the deed was the only lasting value."
-	deed2="“Where had I failed? There were many answers, but one was typically American, as the event proved; \n I did the deed but I did not advertise it... \n in the long run Advertising without the Deed was the only lasting value. Perhaps Americans do not realize how completely they have adopted this philosophy. But Madison Avenue does.”"
+	deed="“Where had I failed? There were many answers, but one was typically American, as the event proved; \n I did the deed but I did not advertise it... \n in the long run Advertising without the Deed was the only lasting value. Perhaps Americans do not realize how completely they have adopted this philosophy. But Madison Avenue does.”"
 	
 	slide bgcolor fgcolor
 		//ruler
 		image "images/dubois-1900.png" 25 50 35 0
-		textblock deed2 50 85 40 2.5 "serif"
+		textblock deed 50 85 40 2.5 "serif"
 		hline 50 62 40 7 "yellow" 50
 	eslide
+
+	slide bgcolor fgcolor
+		ctext "The Du Bois Challenge" mid mid ss "sans" spotcolor
+	eslide
+
+	slide bgcolor fgcolor
+		imw=16 // 943
+		imh=0 // 1200
+		ims=100 // 33
+		yp=65
+		ctext "Ícaro Bernardes (@IcaroBSC)" mid ty ts "sans" spotcolor 100 "https://github.com/IcaroBernardes/webdubois"
+		image "images/icaro.jpg" 7 93 5 0
+		image "images/FQumtEqWYAIrUSs.jpeg" 10 yp imw imh ims "https://twitter.com/IcaroBSC/status/1516517164727119877"
+		image "images/FLrpZNgVEAgXMny.jpeg" 30 yp imw imh ims "https://twitter.com/IcaroBSC/status/1493768750755041285"
+		image "images/FMOs7yjX0AMPgJM.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1496229656902926336"
+		image "images/FMuWCjRXoAM_-U9.jpeg" 70 yp imw imh ims "https://twitter.com/IcaroBSC/status/1498459321243475968"
+		image "images/FNXBnaBVUAENdz9.jpeg" 90 yp imw imh ims "https://twitter.com/IcaroBSC/status/1501323176088780800"
+		yp-=40
+		image "images/FN7XeAcWQAEEQJX.jpeg" 10 yp imw imh ims "https://twitter.com/IcaroBSC/status/1503890070029451270"
+		image "images/FOeRkxSXIAI4pnq.jpeg" 30 yp imw imh ims "https://twitter.com/IcaroBSC/status/1503890070029451270"
+		image "images/FPDlUdVWUAUkx3z.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1506334651538972681"
+		image "images/FPhbSP1WYAUpJFs.jpeg" 70 yp imw imh ims "https://twitter.com/IcaroBSC/status/1511072124357775367"
+		image "images/FQPaQpJXEAE9TmT.jpeg" 90 yp imw imh ims "https://twitter.com/IcaroBSC/status/1514299766271721475"
+	eslide
+
+	// Baltimore OPI
+	blink=""
+	slide bgcolor fgcolor
+		ims=30
+		yp=45
+		ctext "Baltimore OPI (@baltopi)" mid ty ts "sans" spotcolor 100 blink
+		image "images/baltopi.png" 7 93 5 0
+		image "images/baltimore01.png" 18 yp ims 0 100 blink
+		image "images/baltimore02.png" 50 yp ims 0 100 blink
+		image "images/baltimore03.png" 82 yp ims 0 100 blink
+	eslide
+
+	// Sai Ram Ved Vijapurapu
+	slide bgcolor fgcolor
+		ctext "Sai Ram Ved Vijapurapu (@sairamved)" tx ty ts "sans" spotcolor
+		image "images/sai.jpg" 7 93 5 0
+		image "images/original-plate-25.jpg" 18 50 25 0
+		image "images/wk07-03.jpg" 50 50 ims 0 100 wk07link03
+		image "images/wk07-04.jpg" 82 50 ims 0 100 wk07link03
+	eslide
+
 edeck
