@@ -1,0 +1,289 @@
+deck
+	spotcolor="maroon"
+	bgcolor="linen"
+	fgcolor="black"
+	mid=50
+	ts=4
+	ss=ts*1.5
+	ty=90
+	tx=mid
+
+	quote="“Some mornings as I look about upon the two or three hundred of my companions assembled for morning prayers I can hardly realize they are all my people; that this great assembly of youth and intelligence are representatives of a race which twenty years ago was in bondage.”"
+	fisklink="https://credo.library.umass.edu/view/full/mums312-b005-i080" // https://www.theatlantic.com/education/archive/2016/02/web-du-bois-at-fisk-university/624867/"
+	philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
+	calloway="“… thousands upon thousands will go [to the fair], and a well selected and prepared exhibit, representing the Negro's development in his churches, his schools, his homes, his farms, his stores, his professions and pursuits in general will attract attention and do a great and lasting good in convincing thinking people of the possibilities of the Negro.”"
+
+	slide bgcolor fgcolor
+		//ruler 5 "crimson"
+		imy=50
+		ims=25
+		ctext "Du Bois and the Power of Data Storytelling" tx ty ts "sans" spotcolor
+		image "images/dubois-1900.png"          15 imy ims 0
+		image "images/expo0.png"                40 imy 26 0
+		image "images/original-plate-01.jpg"    55 imy 27 0
+		image "images/original-plate-06.jpg"    70 imy 27 0
+		image "images/original-plate-27.jpg"    85 imy 27 0
+		text "What W.E.B. Du Bois Knew That AI Still Doesn’t: A Masterclass in Data Strategy and Ethics" 3 7 1
+		etext "Allen Hillery"  97 7 1 "sans" spotcolor
+		etext "Anthony Starks" 97 4 1 "sans" spotcolor
+	eslide
+
+	// Du Bois at Fisk
+	slide bgcolor fgcolor
+		image "images/dubois-fisk.jpg"                            20 50 33 0 100 fisklink
+        textblock quote                                           40 80 50 3 "serif" fgcolor 100 fisklink
+        text "Letter from Du Bois to Pastor Scudder, Feb 3, 1886" 40 10 1.5 "serif" fgcolor 100 fisklink
+        ctext "W.E.B. Du Bois at Fisk, circa 1885"                20 10 1.5 "serif"
+    eslide
+
+	// Philadelphia Negro
+	// This inquiry extended over a period of fifteen months, and sought to
+	// ascertain something of the geographical distribution of this race,
+	// their organizations, and above all their relation to their million white fellow-citizens
+	slide bgcolor fgcolor
+		imid=55
+		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" spotcolor
+		image       "images/philly09.png" 16 imid  880 909 65
+		image       "images/philly12.png" 51 imid 1112 930 65
+		image       "images/philly03.png" 85 imid 809 903  65
+		textblock   philly 12 17 70 2 "serif"
+	eslide
+
+	// Context
+
+	// TJ Calloway and Du Bois
+	// The letter insists that, "thousands upon thousands will go [to the
+	// fair], and a well selected and prepared exhibit, representing the
+	// Negro's development in his churches, his schools, his homes, his
+	// farms, his stores, his professions and pursuits in general will
+	// attract attention... and do a great and lasting good in convincing
+	// thinking people of the possibilities of the Negro."
+	slide bgcolor fgcolor
+		ctext "In 1900, it began with them…" tx ty ts "sans" spotcolor
+		image "images/TJCalloway.jpg"  30 47 30 0
+		image "images/dubois-1900.png" 70 47 32 0
+		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
+		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
+	eslide
+
+	// Atlanta University
+	slide bgcolor fgcolor
+		ctext "…and Atlanta Universty" tx ty ts "sans" spotcolor
+		image "images/au-debating-team-1900.jpg"  25 50 700 563
+		ctext "Atlanta University Debating Team, c. 1900" 25 20 1.5 "serif"
+		image "images/au-women01.jpg"  70 50 916 594 94
+		ctext "Women seated on steps at Atlanta University c. 1900" 70 20 1.5 "serif"
+	eslide
+
+	slide bgcolor fgcolor
+		ctext "Calloway's Letter to Black Leaders" tx ty ts "sans" spotcolor
+		image "images/TJCalloway.jpg" 20 45 30 0
+		textblock calloway 40 80 50 3 "serif"
+	eslide
+
+	// 1900 venue
+	slide bgcolor fgcolor
+		ctext "Paris 1900" tx ty ts "sans" spotcolor
+		image "images/paris-expo.jpg"            50 50 1447 998 60
+		image "images/expo-poster.jpg"           15 50 431 600
+		image "images/expo0.jpg"                 86 50 1157 1525 40
+	eslide
+
+	// Purpose and messages
+	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538.
+	// During the 1880s and 1890s, instances of lethal mob violence increased steadily,
+	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs.
+	// Between 1890 and 1900 Georgia averaged more than one mob killing per month.
+
+	// In 1898 the duly elected people in Wilmington NC was violently overthrown by whites.
+	// The coup occurred after the state's white Southern Democrats conspired and led a mob of
+	// 2,000 white men to overthrow the legitimately-elected local Fusionist government.
+	// They expelled opposition black and white political leaders from the city, destroyed
+	// the property and businesses of black citizens built up since the Civil War,
+	// including the only black newspaper in the city, and killed an estimated 60 to
+	// more than 300 people
+	balink="https://publicdomainreview.org/essay/black-america-1895"
+	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+	phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+	wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+	moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+	expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+
+	slide bgcolor fgcolor
+		dy=30
+		ny=dy+3
+		dimy=dy+20
+		dly=dy-5
+
+		dminx=10
+		dmaxx=100-dminx
+		datemin=1895
+		datemax=1900
+		p1=vmap 1895 datemin datemax dminx dmaxx
+		p1a=vmap 1896 datemin datemax dminx dmaxx
+		p2=vmap 1897 datemin datemax dminx dmaxx
+		p3=vmap 1898 datemin datemax dminx dmaxx
+		p4=vmap 1899 datemin datemax dminx dmaxx
+		p5=vmap 1900 datemin datemax dminx dmaxx
+
+		dls=2
+		ctext "Historical Context" tx ty ts "sans" spotcolor
+		ctext "1895" p1 dly dls
+		ctext "1896" p1a dly dls
+		ctext "1897" p2 dly dls
+		ctext "1898" p3 dly dls
+		ctext "1899" p4 dly dls
+		ctext "1900" p5 dly dls "sans" "maroon"
+
+		dls=1.5
+		ctext "“Black America” Fair"             p1 ny dls "serif" fgcolor 100 balink
+		ctext "Plessy v. Ferguson"               p1a ny dls "serif" fgcolor 100 plessylink
+		ctext "Phila. Negro begins"              p2 ny dls "serif" fgcolor 100 phillylink
+		ctext "Wilmington Overthrow"             p3 ny dls "serif" fgcolor 100 wilmlink
+		ctext "Lynchings Peak"                   p4 ny dls "serif" fgcolor 100 moblink
+		ctext "Paris Exposition"                 p5 ny dls "serif" fgcolor 100 expolink
+
+		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30 balink
+		image "images/homer-plessy.jpg"          p1a dimy 295 350 75 plessylink
+		image "images/philly12.jpg"              p2 dimy 1112 930 28 phillylink
+		image "images/white-mans-day.jpg"        p3 dimy 654 658 40 wilmlink
+		image "images/mob.jpg"                   p4 dimy 640 512 45 moblink
+		image "images/expo.jpg"                  p5 dimy 739 1024 25 expolink
+
+		// timeline
+		line dminx dy dmaxx dy 0.5 "gray" 50
+		circle p1  dy 1 "maroon"
+		circle p1a dy 1 "maroon"
+		circle p2  dy 1 "maroon"
+		circle p3  dy 1 "maroon"
+		circle p4  dy 1 "maroon"
+		circle p5  dy 1 "maroon"
+	eslide
+
+	
+
+	slide bgcolor fgcolor
+		ctext "Ten Goals" mid mid ss "sans" spotcolor
+	eslide
+
+	annts=1
+	annw=12
+	ptims=15
+	annfont="serif"
+	slide bgcolor fgcolor
+		//ruler
+		grid "points-img.dsh" 10 82 20 48 95
+		grid "points-cap.dsh" 3  62 20 52 95
+	eslide
+
+	imx=25
+	imy=50
+	imw=35
+	annw=35
+	annts=3
+	annx=48
+	anny=65
+	imw2=imw+7
+	
+	slide bgcolor fgcolor
+		image "images/original-plate-01.jpg" imx imy imw 0
+		textblock "(1) Something of the Negro’s history" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-15.jpg" imx imy imw 0
+		textblock "(2) Education of the race" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-14.jpg" imx imy imw 0
+		textblock "(3) Effects of education upon illiteracy" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-27.jpg" imx imy imw 0
+		textblock "(4) Effects of education upon occupation" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-21.jpg" imx imy imw 0
+		textblock "(5) Effects of education upon property" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-61.jpg" imx imy imw 0
+		textblock "(6) The Negro’s mental development as shown by the books, high class pamphlets, newspapers, and other periodicals written or edited by members of the race" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/machine-shop.jpg" imx imy imw2 0
+		textblock "(7) His mechanical genius as shown by patents granted to American negroes" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-57.jpg" imx imy imw 0
+		textblock "(8) Business and industrial development in general" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/church-service.jpg" imx imy imw2 0
+		textblock "(9) What the Negro is doing for himself though his own separate church organizations, particularly in the work of education" annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-31.jpg" imx imy imw2 0
+		textblock "(10) A general sociological study of the racial conditions in the United States." annx anny annw annts annfont
+	eslide
+
+	// Messages
+	slide bgcolor fgcolor
+		imw=5
+		imh=0
+		image "images/original-plate-38.jpg" 10 70 imw imh
+		image "images/original-plate-27.jpg" 10 50 imw imh
+		image "images/original-plate-22.jpg" 10 30 imw imh
+		text  "We are here"        15 66 6 "sans" "maroon"
+		text  "This is who we are" 15 46 6 "sans" "maroon"
+		text  "This is how far we have come" 15 26 6 "sans" "maroon"
+	eslide
+
+	slide bgcolor
+		image "images/expo0.png" 50 50 1157 1525 60
+	eslide
+
+	// Show viz IRL
+	slide bgcolor fgcolor
+		imw=4
+		imh=0
+		image "images/expo0.png" 50 50 1157 1525 60
+		image "images/plate01.png" 46 40 imw imh 
+		image "images/plate37.png" 59.5 40 imw imh 
+		image "images/platexx.png" 61.5 65 imw imh 
+		image "images/plate55.png" 39.5 65 imw imh
+	eslide
+
+	// Dimensions
+	slide bgcolor fgcolor
+		image "images/33899v.jpg" 50 50 818 1024 80
+		ctext "22”" 50 90 3 "sans" "maroon"
+		ctext "28”" 30 50 3 "sans" "maroon"
+	eslide
+
+	// original catalog
+	slide bgcolor spotcolor
+		ims=6
+		grid "ocatalog.dsh" 5 90 10 16 95
+		ctext "1900: Du Bois Originals" 85 10 2.5
+	eslide
+
+	// aftermath
+	deed="I did the deed but I did not advertise it … \n in the long run advertising without the deed was the only lasting value."
+	deed2="“Where had I failed? There were many answers, but one was typically American, as the event proved; \n I did the deed but I did not advertise it... \n in the long run Advertising without the Deed was the only lasting value. Perhaps Americans do not realize how completely they have adopted this philosophy. But Madison Avenue does.”"
+	
+	slide bgcolor fgcolor
+		//ruler
+		image "images/dubois-1900.png" 25 50 35 0
+		textblock deed2 50 85 40 2.5 "serif"
+		hline 50 62 40 7 "yellow" 50
+	eslide
+edeck

@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh dse.dsh|pdfdeck -pagesize 1920x1080  -sans $decksans -serif $deckserif -mono $deckmono -stdout - > dse.pdf
