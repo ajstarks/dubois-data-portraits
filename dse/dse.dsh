@@ -13,6 +13,8 @@ deck
 	philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
 	calloway="“… thousands upon thousands will go [to the fair], and a well selected and prepared exhibit, representing the Negro's development in his churches, his schools, his homes, his farms, his stores, his professions and pursuits in general will attract attention and do a great and lasting good in convincing thinking people of the possibilities of the Negro.”"
 	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
+	wk01link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489"
+	wk05link02="https://youtu.be/5xeJIcBv-nk"
 
 	slide bgcolor fgcolor
 		//ruler 5 "crimson"
@@ -24,7 +26,7 @@ deck
 		image "images/original-plate-01.jpg"    55 imy 27 0
 		image "images/original-plate-06.jpg"    70 imy 27 0
 		image "images/original-plate-27.jpg"    85 imy 27 0
-		text "What W.E.B. Du Bois Knew That AI Still Doesn’t: A Masterclass in Data Strategy and Ethics" 3 7 1
+		text "What W.E.B. Du Bois Knew That AI Still Doesn’t: A Masterclass in Data Strategy and Ethics" 3 7 1.5
 		etext "Allen Hillery"  97 7 1 "sans" spotcolor
 		etext "Anthony Starks" 97 4 1 "sans" spotcolor
 	eslide
@@ -161,30 +163,29 @@ deck
 		circle p5  dy 1 "maroon"
 	eslide
 
-	
 
 	slide bgcolor fgcolor
-		ctext "Ten Goals" mid mid ss "sans" spotcolor
+		ctext "Ten Goals" mid mid 5 "sans" spotcolor
 	eslide
 
 	annts=1
 	annw=12
 	ptims=15
 	annfont="serif"
-	slide bgcolor fgcolor
+	//slide bgcolor fgcolor
 		//ruler
-		grid "points-img.dsh" 10 82 20 48 95
-		grid "points-cap.dsh" 3  62 20 52 95
-	eslide
+	//	grid "points-img.dsh" 10 82 20 48 95
+	//	grid "points-cap.dsh" 3  62 20 52 95
+	//eslide
 
 	
 	imx=10
-	annts=1.5
-	annw=25
+	annts=1.8
+	annw=27
 	slide bgcolor fgcolor
 		//ruler
 		grid "pc1.dsh" 15 95  50 20 40
-		grid "pc2.dsh" 65 115 50 20 40
+		grid "pc2.dsh" 65 117 50 21 40
 		image "images/original-plate-01.jpg" imx 90 8 0
 		image "images/original-plate-15.jpg" imx 70 8 0
 		image "images/original-plate-14.jpg" imx 50 8 0
@@ -309,17 +310,22 @@ deck
 		hline 50 62 40 7 "yellow" 50
 	eslide
 
+
+	// Notables from the Du Bois Challenge
+
 	slide bgcolor fgcolor
 		ctext "The Du Bois Challenge" mid mid ss "sans" spotcolor
 	eslide
 
+
+	ox=12.5
 	slide bgcolor fgcolor
 		imw=16 // 943
 		imh=0 // 1200
 		ims=100 // 33
 		yp=65
-		ctext "Ícaro Bernardes (@IcaroBSC)" mid ty ts "sans" spotcolor 100 "https://github.com/IcaroBernardes/webdubois"
-		image "images/icaro.jpg" 7 93 5 0
+		ctext "Ícaro Bernardes" mid ty ts "sans" spotcolor 100 "https://github.com/IcaroBernardes/webdubois"
+		image "images/icaro.jpg" ox 93 5 0
 		image "images/FQumtEqWYAIrUSs.jpeg" 10 yp imw imh ims "https://twitter.com/IcaroBSC/status/1516517164727119877"
 		image "images/FLrpZNgVEAgXMny.jpeg" 30 yp imw imh ims "https://twitter.com/IcaroBSC/status/1493768750755041285"
 		image "images/FMOs7yjX0AMPgJM.jpeg" 50 yp imw imh ims "https://twitter.com/IcaroBSC/status/1496229656902926336"
@@ -338,8 +344,8 @@ deck
 	slide bgcolor fgcolor
 		ims=30
 		yp=45
-		ctext "Baltimore OPI (@baltopi)" mid ty ts "sans" spotcolor 100 blink
-		image "images/baltopi.png" 7 93 5 0
+		ctext "Baltimore OPI" mid ty ts "sans" spotcolor 100 blink
+		image "images/baltopi.png" ox 93 5 0
 		image "images/baltimore01.png" 18 yp ims 0 100 blink
 		image "images/baltimore02.png" 50 yp ims 0 100 blink
 		image "images/baltimore03.png" 82 yp ims 0 100 blink
@@ -347,11 +353,51 @@ deck
 
 	// Sai Ram Ved Vijapurapu
 	slide bgcolor fgcolor
-		ctext "Sai Ram Ved Vijapurapu (@sairamved)" tx ty ts "sans" spotcolor
-		image "images/sai.jpg" 7 93 5 0
+		ctext "Sai Ram Ved Vijapurapu" tx ty ts "sans" spotcolor
+		image "images/sai.jpg" ox 93 5 0
 		image "images/original-plate-25.jpg" 18 50 25 0
 		image "images/wk07-03.jpg" 50 50 ims 0 100 wk07link03
 		image "images/wk07-04.jpg" 82 50 ims 0 100 wk07link03
+	eslide
+
+	
+
+	// Notables
+	iml=20
+	
+
+	// Week 1
+	slide bgcolor fgcolor
+		ctext "Or Misgav"  tx ty ts "sans" spotcolor
+		image "images/org-misgov.jpg" ox 93 5 0
+		image "images/original-plate-18.jpg" ox 50 iml 0
+		image "images/wk01-02.jpg" 60 45 60 0
+	eslide
+
+	// Week 1
+	slide bgcolor fgcolor
+		ctext "Daniele Gibney" tx ty ts "sans" spotcolor
+		image "images/daniele-gibney.jpg" ox 93 5 0
+		image "images/original-plate-18.jpg" ox 50 iml 0
+		image "images/wk01-04.jpg" 60 50 30 0 100 wk01link02
+	eslide
+
+	// Week 5
+	slide bgcolor fgcolor
+		ctext "Kate Miller" ox 10 ts "sans" spotcolor
+		image "images/kate-miller.jpg" ox 93 5 0
+		image "images/original-plate-22.jpg" ox 50 iml 0
+		image "images/wk05-04.jpg" 45 70 30 0 100 wk05link02
+		image "images/wk05-03.jpg" 80 70 30 0 100 wk05link02
+		image "images/wk05-02.jpg" 45 30 30 0 100 wk05link02
+		image "images/wk05-01.jpg" 80 30 30 0 100 wk05link02
+	eslide
+
+
+	// Quilt
+	slide bgcolor fgcolor
+		image "images/2026DuBoisChallenge_ReneV.jpeg" 20 50 38 0
+		textblock "Rene Villa's Du Bois themed quilt" 50 85 25 3 "serif"
 	eslide
 
 edeck
