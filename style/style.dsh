@@ -31,7 +31,7 @@ deck
 			li "Style Guide"
 		elist
 		text "Anthony Starks" 10 5 2 "sans" "rgb(127,0,0)" 100 "mailto:ajstarks@ajstarks.org"
-		etext "version 1.2 (2024-02-16)" 90 5 2 "sans"
+		etext "version 1.2.1 (2026-04-26)" 90 5 2 "sans"
 		image "images/original-plate-27.jpg" 50 45 60 0
 	eslide
 
@@ -184,7 +184,7 @@ deck
 		cimage "images/original-plate-40.jpg" "Plate 40" 80 60 imw 0 100 "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/plate40/original-plate-40.jpg"
 	eslide
 
-	dim1="As displayed in Paris exposition, the Du Bois visualizations were large format, 22x28 inch posters, mostly in portrait orientation. (exceptions are plates 30 and 31). To duplicate this layout, use a aspect ratio of approximately 0.78 (portrait) or 1.27 (landscape). For example setting your canvas to 1584x2016 pixels, at 72 pixels/inch, will duplicate the original canvas. Alternatively smaller sizes can be used preserving the aspect ratio."
+	dim1="As displayed in Paris exposition, the Du Bois visualizations were large format, 22x28 inch posters, mostly in portrait orientation. (exceptions are plates 30 and 31). To duplicate this layout, use an aspect ratio of approximately 0.78 (portrait) or 1.27 (landscape). For example setting your canvas to 1584x2016 pixels, at 72 pixels/inch, will duplicate the original canvas. Alternatively smaller sizes can be used preserving the aspect ratio."
 	slide bgcolor txcolor
 		text "Dimensions" tx ty ts
 		pageno+=1

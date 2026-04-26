@@ -585,7 +585,7 @@ deck
 		paginate pagenumber
 		ctext "Explore: Modernize" tx ty ts "sans" exploreColor
 		image "images/hand-drawn-college.png"   30 60 40 0
-		image "images/college.png"              70 60 35 0
+		image "images/college.png"              70 60 40 0
 		textblockfile "college-2-modern.txt"    10 25 75 2.5 "serif" "" 100 collegelink
 	eslide
 

@@ -79,7 +79,7 @@ deck
 	slide bgcolor fgcolor
 		ctext "Calloway's Letter to Black Leaders" tx ty ts "sans" spotcolor
 		image "images/TJCalloway.jpg" 20 45 30 0
-		textblock calloway 40 80 50 3 "serif"
+		textblock calloway 40 80 45 3 "serif"
 	eslide
 
 	// 1900 venue
