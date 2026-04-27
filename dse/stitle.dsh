@@ -1,0 +1,3 @@
+def stitle Text Color
+	ctext Text tx ty ts "sans" Color
+edef

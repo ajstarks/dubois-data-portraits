@@ -1,4 +1,5 @@
 deck
+	import "stitle.dsh"
 	spotcolor="maroon"
 	bgcolor="linen"
 	fgcolor="black"
@@ -12,9 +13,15 @@ deck
 	fisklink="https://credo.library.umass.edu/view/full/mums312-b005-i080" // https://www.theatlantic.com/education/archive/2016/02/web-du-bois-at-fisk-university/624867/"
 	philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
 	calloway="“… thousands upon thousands will go [to the fair], and a well selected and prepared exhibit, representing the Negro's development in his churches, his schools, his homes, his farms, his stores, his professions and pursuits in general will attract attention and do a great and lasting good in convincing thinking people of the possibilities of the Negro.”"
+	deed="“Where had I failed? There were many answers, but one was typically American, as the event proved; \n I did the deed but I did not advertise it... \n in the long run Advertising without the Deed was the only lasting value. Perhaps Americans do not realize how completely they have adopted this philosophy. But Madison Avenue does.”"
+	villa="Artist Rene Villa was impressed by the Du Bois spiral and created a 34” x 38” collage. \n The background is inspired by the quilts of Gees' Bend with the graphs superimposed on with suede cord and paper."
+	hope="Can amassing so much knowledge diminish hope? Despite his work not affecting the change he anticipated, Du Bois did the best that he could and more. His work keeps the dialogue going. It's when conversations stop that we have cause for concern."
+	geeslink="https://www.soulsgrowndeep.org/gees-bend-quiltmakers"
+
 	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
 	wk01link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489"
 	wk05link02="https://youtu.be/5xeJIcBv-nk"
+	quiltlink="https://alglobehopper.medium.com/how-quilts-and-data-visualizations-can-serve-as-beacons-of-hope-5971df3919d2"
 
 	slide bgcolor fgcolor
 		//ruler 5 "crimson"
@@ -164,6 +171,7 @@ deck
 	eslide
 
 
+	// Ten Goals
 	slide bgcolor fgcolor
 		ctext "Ten Goals" mid mid 5 "sans" spotcolor
 	eslide
@@ -209,6 +217,7 @@ deck
 	imw2=imw+7
 
 
+	// Ten Goals, detail
 	slide bgcolor fgcolor
 		image "images/original-plate-01.jpg" imx imy imw 0
 		textblock "(1) Something of the Negro’s history" annx anny annw annts annfont
@@ -271,11 +280,11 @@ deck
 		text  "This is how far we have come" 15 26 6 "sans" "maroon"
 	eslide
 
+	// Show viz IRL
 	slide bgcolor
 		image "images/expo0.png" 50 50 1157 1525 60
 	eslide
 
-	// Show viz IRL
 	slide bgcolor fgcolor
 		imw=4
 		imh=0
@@ -301,7 +310,6 @@ deck
 	eslide
 
 	// aftermath
-	deed="“Where had I failed? There were many answers, but one was typically American, as the event proved; \n I did the deed but I did not advertise it... \n in the long run Advertising without the Deed was the only lasting value. Perhaps Americans do not realize how completely they have adopted this philosophy. But Madison Avenue does.”"
 	
 	slide bgcolor fgcolor
 		//ruler
@@ -310,13 +318,17 @@ deck
 		hline 50 62 40 7 "yellow" 50
 	eslide
 
+	slide bgcolor fgcolor
+		stitle "Did Du Bois Do Enough?" spotcolor
+		textblock hope 15 65 65 3 "serif"
+	eslide
+
 
 	// Notables from the Du Bois Challenge
 
 	slide bgcolor fgcolor
 		ctext "The Du Bois Challenge" mid mid ss "sans" spotcolor
 	eslide
-
 
 	ox=12.5
 	slide bgcolor fgcolor
@@ -360,13 +372,8 @@ deck
 		image "images/wk07-04.jpg" 82 50 ims 0 100 wk07link03
 	eslide
 
-	
-
-	// Notables
 	iml=20
-	
-
-	// Week 1
+	// Or Misgav
 	slide bgcolor fgcolor
 		ctext "Or Misgav"  tx ty ts "sans" spotcolor
 		image "images/org-misgov.jpg" ox 93 5 0
@@ -374,7 +381,7 @@ deck
 		image "images/wk01-02.jpg" 60 45 60 0
 	eslide
 
-	// Week 1
+	// Daniele Gibney
 	slide bgcolor fgcolor
 		ctext "Daniele Gibney" tx ty ts "sans" spotcolor
 		image "images/daniele-gibney.jpg" ox 93 5 0
@@ -382,9 +389,9 @@ deck
 		image "images/wk01-04.jpg" 60 50 30 0 100 wk01link02
 	eslide
 
-	// Week 5
+	// Kate Miller
 	slide bgcolor fgcolor
-		ctext "Kate Miller" ox 10 ts "sans" spotcolor
+		ctext "Kate Miller" tx ty ts "sans" spotcolor
 		image "images/kate-miller.jpg" ox 93 5 0
 		image "images/original-plate-22.jpg" ox 50 iml 0
 		image "images/wk05-04.jpg" 45 70 30 0 100 wk05link02
@@ -393,11 +400,11 @@ deck
 		image "images/wk05-01.jpg" 80 30 30 0 100 wk05link02
 	eslide
 
-
 	// Quilt
 	slide bgcolor fgcolor
-		image "images/2026DuBoisChallenge_ReneV.jpeg" 20 50 38 0
-		textblock "Rene Villa's Du Bois themed quilt" 50 85 25 3 "serif"
+		ctext "Du Bois Themed Collage" tx ty ts "sans" spotcolor
+		image "images/2026DuBoisChallenge_ReneV.jpeg" 20 45 33 0 100 quiltlink
+		textblock villa 40 65 50 2.5 "serif" "" 100 geeslink
 	eslide
 
 edeck
