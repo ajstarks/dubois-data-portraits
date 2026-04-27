@@ -15,8 +15,10 @@ deck
 	calloway="“… thousands upon thousands will go [to the fair], and a well selected and prepared exhibit, representing the Negro's development in his churches, his schools, his homes, his farms, his stores, his professions and pursuits in general will attract attention and do a great and lasting good in convincing thinking people of the possibilities of the Negro.”"
 	deed="“Where had I failed? There were many answers, but one was typically American, as the event proved; \n I did the deed but I did not advertise it... \n in the long run Advertising without the Deed was the only lasting value. Perhaps Americans do not realize how completely they have adopted this philosophy. But Madison Avenue does.”"
 	villa="Artist Rene Villa was impressed by the Du Bois spiral and created a 34” x 38” collage. \n The background is inspired by the quilts of Gees' Bend with the graphs superimposed on with suede cord and paper."
-	hope="Can amassing so much knowledge diminish hope? Despite his work not affecting the change he anticipated, Du Bois did the best that he could and more. His work keeps the dialogue going. It's when conversations stop that we have cause for concern."
+	hope="Can amassing so much knowledge diminish hope? \n Despite his work not affecting the change he anticipated, Du Bois did the best that he could and more. His work keeps the dialogue going. \n It's when conversations stop that we have cause for concern."
 	geeslink="https://www.soulsgrowndeep.org/gees-bend-quiltmakers"
+	goallink0="https://hyperallergic.com/w-e-b-du-boiss-modernist-data-visualizations-of-black-life/"
+	goallink="https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t8nd2kw7v&seq=545"
 
 	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
 	wk01link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489"
@@ -172,9 +174,13 @@ deck
 
 
 	// Ten Goals
+
 	slide bgcolor fgcolor
-		ctext "Ten Goals" mid mid 5 "sans" spotcolor
+		ctext "Calloway's Ten Goals" tx ty ts "sans" spotcolor 100 goallink
+		image "images/goal.png" 50 50 80 0
+		ctext "Report of The Commissioner-General for the United States to the International Universal Exposition, Paris 1900, Vol. II, pg 463" 50 5 1.5 "sans" "" 100 goallink
 	eslide
+
 
 	annts=1
 	annw=12
