@@ -326,7 +326,8 @@ deck
 
 	slide bgcolor fgcolor
 		stitle "Did Du Bois Do Enough?" spotcolor
-		textblock hope 15 65 65 3 "serif"
+		image "images/pba-occupations.jpg" 20 50 33 0
+		textblock hope 40 80 40 2.5 "serif"
 	eslide
 
 
