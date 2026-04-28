@@ -19,6 +19,8 @@ deck
 	geeslink="https://www.soulsgrowndeep.org/gees-bend-quiltmakers"
 	goallink0="https://hyperallergic.com/w-e-b-du-boiss-modernist-data-visualizations-of-black-life/"
 	goallink="https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t8nd2kw7v&seq=545"
+	blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
+
 
 	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
 	wk01link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489"
@@ -178,14 +180,14 @@ deck
 	slide bgcolor fgcolor
 		ctext "Calloway's Ten Goals" tx ty ts "sans" spotcolor 100 goallink
 		image "images/goal.png" 50 50 80 0
-		ctext "Report of The Commissioner-General for the United States to the International Universal Exposition, Paris 1900, Vol. II, pg 463" 50 5 1.5 "sans" "" 100 goallink
+		ctext "Report of The Commissioner-General for the United States to the International Universal Exposition, Paris 1900, Vol. II, pg 463" 50 5 1.6 "sans" "" 100 goallink
 	eslide
 
 
-	annts=1
-	annw=12
-	ptims=15
-	annfont="serif"
+	//annts=1
+	//annw=10
+	//ptims=15
+	//
 	//slide bgcolor fgcolor
 		//ruler
 	//	grid "points-img.dsh" 10 82 20 48 95
@@ -196,10 +198,11 @@ deck
 	imx=10
 	annts=1.8
 	annw=27
+	annfont="serif"
 	slide bgcolor fgcolor
 		//ruler
-		grid "pc1.dsh" 15 95  50 20 40
-		grid "pc2.dsh" 65 117 50 21 40
+		grid "pc1.dsh" 15 95  48 20 40
+		grid "pc2.dsh" 61 117 80 21 40
 		image "images/original-plate-01.jpg" imx 90 8 0
 		image "images/original-plate-15.jpg" imx 70 8 0
 		image "images/original-plate-14.jpg" imx 50 8 0
@@ -330,7 +333,6 @@ deck
 		textblock hope 40 80 40 2.5 "serif"
 	eslide
 
-
 	// Notables from the Du Bois Challenge
 
 	slide bgcolor fgcolor
@@ -359,7 +361,6 @@ deck
 	eslide
 
 	// Baltimore OPI
-	blink=""
 	slide bgcolor fgcolor
 		ims=30
 		yp=45
