@@ -123,8 +123,8 @@ deck
 
 	// Purpose and messages
 
-	// During the summer of 1895, in a Brooklyn Park, there was a cotton plantation complete with 500 Black
-	// workers re-enacting slavery. The show was called "Black America, 1895"
+	// During the summer of 1895, in a Brooklyn Park, there was a cotton plantation complete 
+	// with 500 Black workers re-enacting slavery. The show was called "Black America, 1895"
 
 	// In 1896 the Supreme Court handed down the Plessy vs. Ferguson ruling that upheld
 	// the constitutionality of racial segregation under the separate but equal doctrine
@@ -134,7 +134,7 @@ deck
 	// of the geographical distribution of this race, their organizations, and above all their
 	// relation to their million white fellow-citizens”
 
-	// In 1898 the duly elected people in Wilmington NC was violently overthrown by whites.
+	// In 1898 the duly elected people in Wilmington NC was violently overthrown.
 	// The coup occurred after the state's white Southern Democrats conspired and led a mob of
 	// 2,000 white men to overthrow the legitimately-elected local Fusionist government.
 	// They expelled opposition black and white political leaders from the city, destroyed
@@ -339,8 +339,8 @@ deck
 	slide bgcolor fgcolor
 		//ruler
 		image "images/dubois-1900.png" 25 50 35 0
-		textblock deed 50 85 40 2.5 "serif"
-		hline 50 62 40 7 "yellow" 50
+		textblock deed 45 85 45 2.5 "serif"
+		hline 45 65 45 5 "yellow" 50
 	eslide
 
 	slide bgcolor fgcolor
