@@ -1,0 +1,644 @@
+deck
+	import "stitle.dsh"
+	spotcolor="maroon"
+	bgcolor="linen"
+	fgcolor="black"
+	mid=50
+	ts=4
+	ss=ts*1.5
+	ty=90
+	tx=mid
+
+	title="Du Bois and the Power of Data Storytelling"
+	subtitle="Ten Goals: The Importance of Intent"
+	quote="“Some mornings as I look about upon the two or three hundred of my companions assembled for morning prayers I can hardly realize they are all my people; that this great assembly of youth and intelligence are representatives of a race which twenty years ago was in bondage.”"
+	duboisfisk="W.E.B. Du Bois at Fisk, circa 1885"
+	scudder="Letter from Du Bois to Pastor Scudder, Feb 3, 1886"
+	atldedate="Atlanta University Debating Team, c. 1900"
+	atlwomen="Women seated on steps at Atlanta University c. 1900"
+	fisklink="https://credo.library.umass.edu/view/full/mums312-b005-i080" // https://www.theatlantic.com/education/archive/2016/02/web-du-bois-at-fisk-university/624867/"
+	philly="“This inquiry extended over a period of fifteen months, and sought to ascertain something of the geographical distribution of this race, their organizations, and above all their relation to their million white fellow-citizens”"
+	calloway="“… thousands upon thousands will go [to the fair], and a well selected and prepared exhibit, representing the Negro's development in his churches, his schools, his homes, his farms, his stores, his professions and pursuits in general will attract attention and do a great and lasting good in convincing thinking people of the possibilities of the Negro.”"
+	deed="“Where had I failed? There were many answers, but one was typically American, as the event proved; \n I did the deed but I did not advertise it... \n in the long run Advertising without the Deed was the only lasting value. Perhaps Americans do not realize how completely they have adopted this philosophy. But Madison Avenue does.”"
+	villa="Artist Rene Villa was impressed by the Du Bois spiral and created a 34” x 38” collage. \n The background is inspired by the quilts of Gees' Bend with the graphs superimposed on with suede cord and paper."
+	hope="Can amassing so much knowledge diminish hope? \n Despite his work not affecting the change he anticipated, Du Bois did the best that he could and more. His work keeps the dialogue going. \n It's when conversations stop that we have cause for concern."
+	geeslink="https://www.soulsgrowndeep.org/gees-bend-quiltmakers"
+	goallink0="https://hyperallergic.com/w-e-b-du-boiss-modernist-data-visualizations-of-black-life/"
+	goallink="https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t8nd2kw7v&seq=545"
+	blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
+	goal01="Something of the negro's history"
+	goal02="Education of the race"
+	goal03="Effects of education upon illiteracy"
+	goal04="Effects of education upon occupation"
+	goal05="Effects of education upon property"
+	goal06="The negro's mental development as shown by the books, high-class pamphlets, newspapers, and other periodicals written or edited by members of the race"
+	goal07="His mechanical genius as shown by patents granted to American negroes"
+	goal08="Business and industrial development in general"
+	goal09="What the negro is doing for himself through his own separate church organizations, particularly in the work of education"
+	goal10="A general sociological study of the racial conditions in the United States"
+	comreport="Report of The Commissioner-General for the United States to the International Universal Exposition, Paris 1900, Vol. II, pg. 463"
+
+
+	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
+	wk01link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489"
+	wk05link02="https://youtu.be/5xeJIcBv-nk"
+	quiltlink="https://alglobehopper.medium.com/how-quilts-and-data-visualizations-can-serve-as-beacons-of-hope-5971df3919d2"
+
+	bslink="https://bsky.app/profile/ajstarks.bsky.social/post/3megki4wizc2r"
+	chlink="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2026/README.md"
+
+	// github links
+	ghlink01="https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2026/README.md"
+	ghlink02="https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2026/challenge01"
+
+	// blurbs
+	blurb01="“The Georgia Negro, A Social Study” shows the transatlantic slave trade, with routes from Europe, Africa, the Americas and the Caribbean, highlighting Georgia. This visual contains Du Bois' famous assertion: \n  “The problem of the 20th century is the problem of the color line”"
+	blurb02="This map of the US shows the distribution of Black people at the turn of the twentieth century. Ranging from 75,000 and over in Georgia to less than 10,000 in the western states."
+	blurb03="This chart shows the Black population in the Georgia counties ranges from over 30,000 in the south east to under 1000 in the north and southern portions of the state.  The most prevalent category is in the 5-10,000 Black people distributed throughout the state."
+	blurb04="“Negro Population of Georgia by County”, is a choropleth map with a alternating left-right pattern, comparing the population of Black Georgians in the years 1870 and 1890. Note the decrease of lightly populated areas, with the heavily populated areas in red shifting west."
+	blurb05="The migration to and from Georgia to other the states of the US is shown in this visual.  The map shows how the state with a large Black population originated, and where they were dispersed to."
+	blurb06="Land ownership was an indicator of economic and social development, as depicted in this choropleth of the state of Georgia shows."
+	blurb07="Serving as the introductory display, this chart shows the full Du Bois color palette. The chart includes bi-lingual text, a map of the Black population in the US, and a familiar pie chart showing professions in the population."
+	blurb08="Yet another way to the distribution of Black people in America, this chart uses number of people per square mile, ranging from 15-15 in southern states like Georgia and Mississippi, to less than 1 person/square mile in the west and upper mid-west."
+	blurb09="This chart of small multiples, compares the population of Blacks in America with various countries (Spain, Australia, Norway/Sweden, Belgium, the Netherlands, Switzerland, Hungary, Bavaria, and England)."
+	blurb10="This chart shows the proportion of Blacks in total population of the US is compared from 1800 (one-fifth, 20%) to 1890 (one-eighth, 12.5%) The sizes are shown as superimposed maps: a land within another land."
+
+
+	// TOC: Title
+	slide bgcolor fgcolor
+		//ruler 5 "crimson"
+		imy=50
+		ims=25
+		ctext title tx ty ts "sans" spotcolor
+		image "images/dubois-1900.png"          15 imy ims 0
+		image "images/expo0.png"                40 imy 26 0
+		image "images/original-plate-01.jpg"    55 imy 27 0
+		image "images/original-plate-06.jpg"    70 imy 27 0
+		image "images/original-plate-27.jpg"    85 imy 27 0
+		text subtitle 3 7 1.5
+		//etext "Allen Hillery"  97 7 1 "sans" spotcolor
+		etext "Anthony Starks" 97 4 1 "sans" spotcolor
+	eslide
+
+	// TOC: Du Bois at Fisk
+	slide bgcolor fgcolor
+		image "images/dubois-fisk.jpg"                            20 50 33 0 100 fisklink
+        textblock quote                                           40 80 50 3 "serif" fgcolor 100 fisklink
+        text scudder  40 10 1.5 "serif" fgcolor 100 fisklink
+        ctext duboisfisk                20 10 1.5 "serif"
+    eslide
+
+	// TOC: Philadelphia Negro
+	// This inquiry extended over a period of fifteen months, and sought to
+	// ascertain something of the geographical distribution of this race,
+	// their organizations, and above all their relation to their million white fellow-citizens
+	slide bgcolor fgcolor
+		imid=55
+		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" spotcolor
+		image       "images/philly09.png" 16 imid  880 909 65
+		image       "images/philly12.png" 51 imid 1112 930 65
+		image       "images/philly03.png" 85 imid 809 903  65
+		textblock   philly 12 17 70 2 "serif"
+	eslide
+
+	// TOC: Context
+
+	// TJ Calloway and Du Bois
+	// The letter insists that, "thousands upon thousands will go [to the
+	// fair], and a well selected and prepared exhibit, representing the
+	// Negro's development in his churches, his schools, his homes, his
+	// farms, his stores, his professions and pursuits in general will
+	// attract attention... and do a great and lasting good in convincing
+	// thinking people of the possibilities of the Negro."
+	slide bgcolor fgcolor
+		ctext "In 1900, it began with them…" tx ty ts "sans" spotcolor
+		image "images/TJCalloway.jpg"  30 47 30 0
+		image "images/dubois-1900.png" 70 47 32 0
+
+		ctext "Thomas J. Calloway"     30 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/Thomas_J._Calloway"
+		ctext "Du Bois in Paris"       70 3 2 "serif" "" 100 "https://en.wikipedia.org/wiki/W._E._B._Du_Bois"
+	eslide
+
+	// TOC: Atlanta University
+	slide bgcolor fgcolor
+		ctext "…and Atlanta Universty" tx ty ts "sans" spotcolor
+		image "images/au-debating-team-1900.jpg"  25 50 700 563
+		ctext atldedate 25 20 1.5 "serif"
+		image "images/au-women01.jpg"  70 50 916 594 94
+		ctext atlwomen 70 20 1.5 "serif"
+	eslide
+
+	// TOC: Calloway's Letter to Black Leaders
+	slide bgcolor fgcolor
+		ctext "Calloway's Letter to Black Leaders" tx ty ts "sans" spotcolor
+		image "images/TJCalloway.jpg" 20 45 30 0
+		textblock calloway 40 78 45 3 "serif"
+	eslide
+
+	// TOC: 1900 venue
+	slide bgcolor fgcolor
+		ctext "Paris 1900" tx ty ts "sans" spotcolor
+		image "images/paris-expo.jpg"            50 50 1447 998 60
+		image "images/expo-poster.jpg"           15 50 431 600
+		image "images/expo0.jpg"                 86 50 1157 1525 40
+	eslide
+
+	// TOC: Purpose and messages
+
+	// During the summer of 1895, in a Brooklyn Park, there was a cotton plantation complete 
+	// with 500 Black workers re-enacting slavery. The show was called "Black America, 1895"
+
+	// In 1896 the Supreme Court handed down the Plessy vs. Ferguson ruling that upheld
+	// the constitutionality of racial segregation under the separate but equal doctrine
+
+	// In 1897 Du Bois embarked upon a study called the "Philadelphia Negro": 
+	// “This inquiry extended over a period of fifteen months, and sought to ascertain something
+	// of the geographical distribution of this race, their organizations, and above all their
+	// relation to their million white fellow-citizens”
+
+	// In 1898 the duly elected people in Wilmington NC was violently overthrown.
+	// The coup occurred after the state's white Southern Democrats conspired and led a mob of
+	// 2,000 white men to overthrow the legitimately-elected local Fusionist government.
+	// They expelled opposition black and white political leaders from the city, destroyed
+	// the property and businesses of black citizens built up since the Civil War,
+	// including the only black newspaper in the city, and killed an estimated 60 to
+	// more than 300 people
+
+	// Georgia's toll of 458 lynch victims was exceeded only by Mississippi's toll of 538.
+	// During the 1880s and 1890s, instances of lethal mob violence increased steadily,
+	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs.
+	// Between 1890 and 1900 Georgia averaged more than one mob killing per month.
+
+	balink="https://publicdomainreview.org/essay/black-america-1895"
+	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+	phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+	wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+	moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+	expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+
+	slide bgcolor fgcolor
+		dy=30
+		ny=dy+3
+		dimy=dy+20
+		dly=dy-5
+
+		dminx=10
+		dmaxx=100-dminx
+		datemin=1895
+		datemax=1900
+		p1=vmap 1895 datemin datemax dminx dmaxx
+		p1a=vmap 1896 datemin datemax dminx dmaxx
+		p2=vmap 1897 datemin datemax dminx dmaxx
+		p3=vmap 1898 datemin datemax dminx dmaxx
+		p4=vmap 1899 datemin datemax dminx dmaxx
+		p5=vmap 1900 datemin datemax dminx dmaxx
+
+		dls=2
+		ctext "Historical Context" tx ty ts "sans" spotcolor
+		ctext "1895" p1 dly dls
+		ctext "1896" p1a dly dls
+		ctext "1897" p2 dly dls
+		ctext "1898" p3 dly dls
+		ctext "1899" p4 dly dls
+		ctext "1900" p5 dly dls "sans" "maroon"
+
+		dls=1.5
+		ctext "“Black America” Fair"             p1 ny dls "serif" fgcolor 100 balink
+		ctext "Plessy v. Ferguson"               p1a ny dls "serif" fgcolor 100 plessylink
+		ctext "Phila. Negro begins"              p2 ny dls "serif" fgcolor 100 phillylink
+		ctext "Wilmington Overthrow"             p3 ny dls "serif" fgcolor 100 wilmlink
+		ctext "Lynchings Peak"                   p4 ny dls "serif" fgcolor 100 moblink
+		ctext "Paris Exposition"                 p5 ny dls "serif" fgcolor 100 expolink
+
+		image "images/BA-happy-days.jpg"         p1 dimy 1200 743 30 balink
+		image "images/homer-plessy.jpg"          p1a dimy 295 350 75 plessylink
+		image "images/philly12.jpg"              p2 dimy 1112 930 28 phillylink
+		image "images/white-mans-day.jpg"        p3 dimy 654 658 40 wilmlink
+		image "images/mob.jpg"                   p4 dimy 640 512 45 moblink
+		image "images/expo.jpg"                  p5 dimy 739 1024 25 expolink
+
+		// timeline
+		line dminx dy dmaxx dy 0.5 "gray" 50
+		circle p1  dy 1 "maroon"
+		circle p1a dy 1 "maroon"
+		circle p2  dy 1 "maroon"
+		circle p3  dy 1 "maroon"
+		circle p4  dy 1 "maroon"
+		circle p5  dy 1 "maroon"
+	eslide
+
+	// TOC: Ten Goals
+	slide bgcolor fgcolor
+		ctext "Calloway's Ten Goals" tx ty ts "sans" spotcolor 100 goallink
+		image "images/goal.png" 50 50 80 0
+		ctext comreport 50 5 1.6 "sans" "" 100 goallink
+	eslide
+
+	imx=10
+	annts=1.8
+	annw=27
+	annfont="serif"
+	slide bgcolor fgcolor
+		grid "pc1.dsh" 15 95  48 20 40
+		grid "pc2.dsh" 61 117 80 21 40
+		image "images/original-plate-01.jpg" imx 90 8 0
+		image "images/original-plate-15.jpg" imx 70 8 0
+		image "images/original-plate-14.jpg" imx 50 8 0
+		image "images/original-plate-27.jpg" imx 30 8 0
+		image "images/original-plate-21.jpg" imx 10 8 0
+		imx+=45
+		image "images/original-plate-61.jpg" imx 90 8 0
+		image "images/machine-shop.jpg" imx 70 8 0
+		image "images/original-plate-57.jpg" imx 50 8 0
+		image "images/church-service.jpg" imx 30 8 0
+		image "images/original-plate-37.jpg" imx 10 8 0
+	eslide
+
+	imx=25
+	imy=50
+	imw=35
+	annw=35
+	annts=3
+	annx=48
+	anny=65
+	imw2=imw+7
+
+	// TOC: Ten Goals, detail
+	slide bgcolor fgcolor
+		image "images/original-plate-01.jpg" imx imy imw 0
+		textblock goal01 annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-15.jpg" imx imy imw 0
+		textblock goal02 annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-14.jpg" imx imy imw 0
+		textblock goal03 annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-27.jpg" imx imy imw 0
+		textblock goal04 annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-21.jpg" imx imy imw 0
+		textblock goal05 annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-61.jpg" imx imy imw 0
+		textblock goal06 annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/machine-shop.jpg" imx imy imw2 0
+		textblock goal07 annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-57.jpg" imx imy imw 0
+		textblock goal08  annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/church-service.jpg" imx imy imw2 0
+		textblock goal09 annx anny annw annts annfont
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/original-plate-37.jpg" imx imy imw2 0
+		textblock goal10 annx anny annw annts annfont
+	eslide
+
+	// TOC: Messages
+	slide bgcolor fgcolor
+		imw=5
+		imh=0
+		image "images/original-plate-38.jpg" 10 70 imw imh
+		image "images/original-plate-27.jpg" 10 50 imw imh
+		image "images/original-plate-22.jpg" 10 30 imw imh
+		text  "We are here"        15 66 6 "sans" "maroon"
+		text  "This is who we are" 15 46 6 "sans" "maroon"
+		text  "This is how far we have come" 15 26 6 "sans" "maroon"
+	eslide
+
+	// TOC: 1900 Expo Venue IRL
+	slide bgcolor
+		image "images/expo0.png" 50 50 1157 1525 60
+	eslide
+
+	slide bgcolor fgcolor
+		imw=4
+		imh=0
+		image "images/expo0.png" 50 50 1157 1525 60
+		image "images/plate01.png" 46 40 imw imh 
+		image "images/plate37.png" 59.5 40 imw imh 
+		image "images/platexx.png" 61.5 65 imw imh 
+		image "images/plate55.png" 39.5 65 imw imh
+	eslide
+
+	// TOC: Dimensions
+	slide bgcolor fgcolor
+		image "images/original-plate-37.jpg" 50 50 33 0
+		ctext "22”" 50 90 3 "sans" "maroon"
+		ctext "28”" 30 50 3 "sans" "maroon"
+	eslide
+
+	// TOC: original catalog
+	slide bgcolor spotcolor
+		ims=6
+		grid "ocatalog.dsh" 5 90 10 16 95
+		ctext "1900: Du Bois Originals" 85 10 2.5
+	eslide
+
+	// TOC: Starks, 2019
+	slide bgcolor
+		image "images/full-catalog.jpg" 50 50 100 0
+		ctext "2019: Starks re-creations" 85 10 2.5
+	eslide
+
+	// TOC: Du Bois Challenge
+	slide bgcolor
+		imy=70
+		ims=30
+		ctext "#DuboisChallege2026 2021-2026" tx ty ts
+		cimage  "images/cat2021.jpg" "2021" 15 imy 25 0
+		cimage  "images/cat2022.jpg" "2022" 50 imy ims 0
+		cimage  "images/cat2023.jpg" "2023" 85 imy ims 0
+		imy-=45
+		cimage "images/cat2024.jpg" "2024" 15 imy ims 0
+		cimage "images/cat2025.jpg"  "2025" 50 imy ims 0
+		cimage  "images/cat2026.jpg" "2026" 85 imy ims 0
+	eslide
+
+	// TOC: Allen and Sekou
+	slide bgcolor fgcolor
+		ctext "In 2021, it began with them" mid ty ts
+		image "images/allen02.png"             30 47 30 0
+		image "images/sekou02.png"             70 47 32 0
+		ctext "Allen Hillery (@AlDataVizGuy)"  30 10 2 "serif" "" 100 "https://x.com/AlDatavizguy"
+		ctext "Sekou Tyler (@sqlsekou)"        70 10 2 "serif" "" 100 "https://x.com/sqlsekou"
+	eslide
+
+	// TOC: Modern venue
+	slide bgcolor fgcolor
+		megax=75
+		text "Now: Modern Megaphone" 10 ty ts
+		etext "Your Message" 33 50 3
+		image "images/megaphone01.png"           45 50 30 0
+		image "images/twitter-logo.png"          megax 85 7 0
+		image "images/bluesky-logo.png"          megax 60 10 0
+		image "images/youtube-logo.png"          megax 40 10 0
+		image "images/zoom-logo.png"             megax 20 15 0
+		megax+=15
+		image "images/mastodon-logo.jpg"         megax 75 7 0
+		image "images/linkedin-logo.jpg"         megax 50 7 0
+		image "images/slack-logo.png"            megax 25 7 0
+		polygon "55 55 68 68" "40 65 95 5" "gray" 20
+	eslide
+
+	// TOC: Materials comparison
+    slide bgcolor fgcolor
+        cleft=25
+        cright=cleft+50
+        cbottom=5
+        cs=2.5
+        cy=90
+        ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs
+        ctext "1900"                                    cleft cbottom cs
+        image "images/33889v.jpg"                       cleft mid 33 0
+
+        ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
+        ctext "Today"                                   cright cbottom cs
+        image "images/modern-plate27.png"               cright mid 31 0
+    eslide
+
+	// TOC: Du Bois Challenge 2026
+	slide bgcolor fgcolor
+		ims=16
+		imy=72
+
+		rect 50 100 100 15 "black"
+		ctext "The Du Bois Challenge 2026: Maps" 50 94 3 "sans" "white"
+		cimage "images/original-plate-01.jpg" "1: Feb 9"  10 imy ims 0
+        cimage "images/original-plate-02.jpg" "2: Feb 16" 30 imy ims 0
+        cimage "images/original-plate-05.jpg" "3: Feb 23" 50 imy ims 0
+        cimage "images/original-plate-06.jpg" "4: Mar 2" 70 imy ims 0
+        cimage "images/original-plate-08.jpg" "5: Mar 9"  90 imy ims 0
+        imy-=45
+        // row 2
+        cimage "images/original-plate-20.jpg" "6: Mar 16" 10 imy ims 0
+        cimage "images/original-plate-37.jpg" "7: Mar 23" 30 imy ims 0
+        cimage "images/original-plate-38.jpg" "8: Mar 30" 50 imy ims 0
+        cimage "images/original-plate-41.jpg" "9: Apr 6" 70 imy ims 0
+        cimage "images/original-plate-42.jpg" "10: Apr 13" 90 imy ims 0
+	eslide
+
+	// TOC: Venues
+	slide bgcolor fgcolor
+		imy=75
+		ims=5
+		ctext "Venues:" tx ty ts
+		cimage "images/bluesky-logo.png" "BlueSky"     10 imy ims 0
+		cimage "images/twitter-logo.png"  "X"          30 imy ims 0
+		cimage "images/slack-logo.png"    "DVS Slack"  50 imy ims 0
+		cimage "images/linkedin-logo.jpg" "Linkedin"   70 imy ims 0
+		cimage "images/mastodon-logo.jpg" "Mastodon"   90 imy ims 0
+		imy=35
+		ims=18
+		image  "images/bs-venue.png"         10 imy ims 0
+		image  "images/x-venue.png"          30 imy ims 0
+		image  "images/slack-venue.png"      50 imy ims 0
+		image  "images/linkedin-venue01.png" 70 imy ims 0
+		image  "images/mast-venue.png"       90 imy 15 0
+	eslide
+
+	// TOC: Using github
+	slide bgcolor fgcolor
+		ctext "Using github" tx ty ts
+		image "images/github-readme.png" 24 45 45 0 100 ghlink01
+		image "images/github-data.png"   74 45 50 0 100 ghlink02
+	eslide
+
+	// TOC: Announcement thread
+	slide bgcolor fgcolor
+		ax=55
+		ay=70
+		axincr=12
+		ayincr=25
+		ctext "Announcement Thread" tx ty ts
+		image "images/bluesky-thread00.jpg" 25 45 35 0 100 bslink
+		rbrace 48 45 80 4 4 0.4
+		grid "threads.dsh"  55 70 11 22 90
+		grid "threadot.dsh" 61 70 11 22 85
+	eslide
+
+
+	// TOC: plates+blurbs
+	blurbx=50
+	blurby=85
+	blurbw=40
+	blurbs=2.5
+	blurbfont="serif"
+
+	// TOC: Week 1
+	slide bgcolor fgcolor
+		image "images/original-plate-01.jpg" 25 50 40 0
+		ctext "Week 1" 25 96 1.5
+		textblock blurb01 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 2
+	slide bgcolor fgcolor
+		image "images/original-plate-02.jpg" 25 50 40 0
+		ctext "Week 2" 25 96 1.5
+		textblock blurb02 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 3
+	slide bgcolor fgcolor
+		image "images/original-plate-05.jpg" 25 50 40 0
+		ctext "Week 3" 25 96 1.5
+		textblock blurb03 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 4
+	slide bgcolor fgcolor
+		image "images/original-plate-06.jpg" 25 50 40 0
+		ctext "Week 4" 25 96 1.5
+		textblock blurb04 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 5
+	slide bgcolor fgcolor
+		image "images/original-plate-08.jpg" 25 50 40 0
+		ctext "Week 5" 25 96 1.5
+		textblock blurb05 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 6
+	slide bgcolor fgcolor
+		image "images/original-plate-09.jpg" 25 50 40 0
+		ctext "Week 6" 25 96 1.5
+		textblock blurb06 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 7
+	slide bgcolor fgcolor
+		image "images/original-plate-37.jpg" 25 50 40 0
+		ctext "Week 7" 25 96 1.5
+		textblock blurb07 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 8
+	slide bgcolor fgcolor
+		image "images/original-plate-38.jpg" 25 50 40 0
+		ctext "Week 8" 25 96 1.5
+		textblock blurb08 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 9
+	slide bgcolor fgcolor
+		image "images/original-plate-41.jpg" 25 50 40 0
+		ctext "Week 9" 25 96 1.5
+		textblock blurb09 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	// TOC: Week 10
+	blurby-=10
+	slide bgcolor fgcolor
+		image "images/original-plate-42.jpg" 25 50 40 0
+		ctext "Week 10" 25 96 1.5
+		textblock blurb10 blurbx blurby blurbw blurbs blurbfont
+	eslide
+
+	
+	// TOC: Completions
+	slide bgcolor fgcolor
+		helink="https://github.com/Heed725/Dubois_Challenge_2026"
+		xblink="https://observablehq.com/collection/@x-b-workspace/duboischallenge2026"
+		jrlink="https://github.com/drjohnrussell/DuboisChallenge/tree/main/2026"
+		ctext "Complete Sets"  tx ty ts
+		ims=7
+		textblock "Hemed Lungo"   2 75 3 2 "sans" "" 100 helink
+		textblock "Xiong- Biao"   2 50 3 2 "sans" "" 100 xblink
+		textblock "John Russell"  2 25 3 2 "sans" "" 100 jrlink
+		grid      "compgrid.dsh"  20 75 8 25 95
+	eslide
+
+	// TOC: References
+	ref01="https://github.com/ajstarks/dubois-data-portraits"
+	ref02="https://github.com/ajstarks/modern-dubois-viz"
+	ref03="https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america"
+	ref04="https://www.loc.gov/collections/african-american-photographs-1900-paris-exposition/"
+	ref05="https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf"
+	ref06="https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34"
+	ref07="https://www.artbook.com/9781942884538.html"
+	ref08="https://credo.library.umass.edu/"
+
+	slide bgcolor fgcolor
+		ctext "References" tx ty ts
+		refx=5
+		reftop=82
+		refy=reftop
+		refs=2.5
+		refspacing=refs*4.2
+		reffont="sans"
+		refcolor=fgcolor
+		text  "African American Photographs Assembled for 1900 Paris Exposition" refx refy refs reffont refcolor 100 ref04
+		refy-=refspacing
+		text  "W. E. B. Du Bois's Data Portraits" refx refy refs reffont refcolor 100 ref03
+		refy-=refspacing
+		text  "Black Lives 1900" refx refy refs reffont refcolor 100 ref07
+		refy-=refspacing
+		text  "Du Bois Visualization Style Guide" refx refy refs reffont refcolor 100 ref05
+		refy-=refspacing
+		text  "Du Bois Challenge 2026" refx refy refs reffont refcolor 100 chlink
+		refy-=refspacing
+		text  "Re-creation repo" refx refy refs reffont refcolor 100 ref01
+		refy-=refspacing
+		text  "Du Bois and Modern Data repo"  refx refy refs reffont refcolor 100 ref02
+		refy-=refspacing
+		text  "Credo Digital Library" refx refy refs reffont refcolor 100 ref08
+
+		refs*=0.7
+		refy=reftop-4
+		refcolor="maroon"
+		text ref04 refx refy refs reffont refcolor 100 ref04
+		refy-=refspacing
+		text ref03 refx refy refs reffont refcolor 100 ref03
+		refy-=refspacing
+		text ref07 refx refy refs reffont refcolor 100 ref07
+		refy-=refspacing
+		text ref05 refx refy refs reffont refcolor 100 ref05
+		refy-=refspacing
+		text chlink refx refy refs reffont refcolor 100 chlink
+		refy-=refspacing
+		text ref01 refx refy refs reffont refcolor 100 ref01
+		refy-=refspacing
+		text ref02 refx refy refs reffont refcolor 100 ref02
+		refy-=refspacing
+		text ref02 refx refy refs reffont refcolor 100 ref08
+	eslide
+
+	// TOC: Business Card
+    mx=25         // midpoint
+    tx=62         // text left
+    ix=57         // image left
+    ts=5.5        // base text size
+    ss=ts*0.85    // sub-head text size
+    cs=ts*0.50    // contact info text size
+    lx=50         // line x
+	imscale=8
+	ims2=imscale*10
+	ims3=ims2/4
+
+	include "bizcard.dsh"
+
+	
+
+edeck
