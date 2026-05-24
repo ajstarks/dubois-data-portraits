@@ -24,7 +24,7 @@ deck
 	hope="Can amassing so much knowledge diminish hope? \n Despite his work not affecting the change he anticipated, Du Bois did the best that he could and more. His work keeps the dialogue going. \n It's when conversations stop that we have cause for concern."
 	geeslink="https://www.soulsgrowndeep.org/gees-bend-quiltmakers"
 	goallink0="https://hyperallergic.com/w-e-b-du-boiss-modernist-data-visualizations-of-black-life/"
-	goallink="https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t8nd2kw7v&seq=545"
+	goallink="https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t8nd2kw7v&amp;seq=545"
 	blink="https://storymaps.arcgis.com/stories/6a3d50cf2db44fc6b6e0810a0040412a"
 	goal01="Something of the negro's history"
 	goal02="Education of the race"
@@ -69,6 +69,7 @@ deck
 	blurb09="This chart of small multiples, compares the population of Blacks in America with various countries (Spain, Australia, Norway/Sweden, Belgium, the Netherlands, Switzerland, Hungary, Bavaria, and England)."
 	blurb10="This chart shows the proportion of Blacks in total population of the US is compared from 1800 (one-fifth, 20%) to 1890 (one-eighth, 12.5%) The sizes are shown as superimposed maps: a land within another land."
 
+	sdblurb="Sundown Towns \n Dr. Leia Belt and Anthony Starks"
 
 	// TOC: Title
 	slide bgcolor fgcolor
@@ -237,43 +238,36 @@ deck
 	// TOC: Counter-narrative
 
 	slide bgcolor fgcolor
-		ctext "The Counter-Narrative" 50 50 5 "sans" spotcolor
+		ctext "The Counter-Narrative" 50 50 ss "sans" spotcolor
 	eslide
 
 
 	slide bgcolor fgcolor
-		image "images/aman02.jpg"                          30 55 33 0 100 amanlink
-		image "images/woman-feather-1900.jpg"              70 55 35 0
-		ctext "Saloon Ad, Philadelphia (1886)"             30 5  2 "serif"
-		ctext "Young Woman ca. 1900"                       70 5  2 "serif"
+		image "images/aman02.jpg"                          30 55 30 0 100 amanlink
+		image "images/woman-feather-1900.jpg"              70 55 33 0
+		ctext "Saloon Ad, Philadelphia, 1886"             30 5  2 "serif"
+		ctext "Young Woman, ca. 1900"                       70 5  2 "serif"
 
 	eslide
 
 	slide bgcolor fgcolor
 		image "images/birfday.jpg"                        30 55 40 0 100 brifdaylink
 		image "images/young-girl-1900.jpg"                70 55 33 0
-		ctext "Foh yo' birfday! (1890)"                   30 5  2 "serif"
-		ctext "Young Girl ca. 1900"                       70 5  2 "serif"
-	eslide
-
-	slide bgcolor fgcolor
-		image "images/aman02.jpg"                         30 55 33 0 100 amanlink
-		image "images/woman-feather-1900.jpg"             70 55 35 0
-		ctext "Saloon Ad, Philadelphia, 1886"             30 5  2 "serif"
-		ctext "Young Woman ca. 1900"                      70 5  2 "serif"
+		ctext "Foh yo' birfday, 1890"                     30 5  2 "serif"
+		ctext "Young Girl, ca. 1900"                       70 5  2 "serif"
 	eslide
 
 	slide bgcolor fgcolor
 		image "images/uncle-tom.jpg"                      30 55 45 0 100 uncletomlink
-		image "images/family-group.jpg"                   75 55 40 0
+		image "images/family-group-bw.jpg"                   75 55 40 0
 		ctext "Uncle Tom's Cabin. On the Levee, 1899"     30 5  2 "serif"
-		ctext "Family Group ca. 1900"                     75 5  2 "serif"
+		ctext "Family Group, ca. 1900"                    75 5  2 "serif"
 	eslide
 
 	// TOC: Ten Goals
 	slide bgcolor fgcolor
 		ctext "Calloway's Ten Goals" tx ty ts "sans" spotcolor 100 goallink
-		image "images/goal.png" 50 50 80 0
+		image "images/g.png" 50 50 70 0 100 goallink // gift -threshold 70  goal.png > g.png
 		ctext comreport 50 5 1.6 "sans" "" 100 goallink
 	eslide
 
@@ -398,7 +392,7 @@ deck
 		ctext "1900: Du Bois Originals" 85 10 2.5
 	eslide
 
-	// TOC: Starks, 2019
+	// TOC: Starks re-creations, 2019
 	slide bgcolor
 		image "images/full-catalog.jpg" 50 50 100 0
 		ctext "2019: Starks re-creations" 85 10 2.5
@@ -408,7 +402,7 @@ deck
 	slide bgcolor
 		imy=70
 		ims=30
-		ctext "#DuboisChallege2026 2021-2026" tx ty ts
+		ctext "#DuboisChallege2026 2021-2026" tx ty ts "sans" spotcolor
 		cimage  "images/cat2021.jpg" "2021" 15 imy 25 0
 		cimage  "images/cat2022.jpg" "2022" 50 imy ims 0
 		cimage  "images/cat2023.jpg" "2023" 85 imy ims 0
@@ -420,7 +414,7 @@ deck
 
 	// TOC: Allen and Sekou
 	slide bgcolor fgcolor
-		ctext "In 2021, it began with them" mid ty ts
+		ctext "In 2021, it began with them" mid ty ts "sans" spotcolor
 		image "images/allen02.png"             30 47 30 0
 		image "images/sekou02.png"             70 47 32 0
 		ctext "Allen Hillery (@AlDataVizGuy)"  30 10 2 "serif" "" 100 "https://x.com/AlDatavizguy"
@@ -430,7 +424,7 @@ deck
 	// TOC: Modern venue
 	slide bgcolor fgcolor
 		megax=75
-		text "Now: Modern Megaphone" 10 ty ts
+		text "Now: Modern Megaphone" 10 ty ts "sans" spotcolor
 		etext "Your Message" 33 50 3
 		image "images/megaphone01.png"           45 50 30 0
 		image "images/twitter-logo.png"          megax 85 7 0
@@ -451,22 +445,24 @@ deck
         cbottom=5
         cs=2.5
         cy=90
-        ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs
+        ctext "Pen, Ink, Watercolor, Paper, Expos"      cleft cy cs "sans" spotcolor
         ctext "1900"                                    cleft cbottom cs
         image "images/33889v.jpg"                       cleft mid 33 0
 
-        ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs
+        ctext "Scripting, Digital Fonts, PDF, Internet" cright cy cs "sans" spotcolor
         ctext "Today"                                   cright cbottom cs
         image "images/modern-plate27.png"               cright mid 31 0
     eslide
 
-	// TOC: Du Bois Challenge 2026
+    // TOC: Du Bois Challenge 2026
+    slide bgcolor fgcolor
+    	ctext "The #DuboisChallege2026" 50 50 ss "sans" spotcolor
+    eslide
+
 	slide bgcolor fgcolor
 		ims=16
 		imy=72
-
-		rect 50 100 100 15 "black"
-		ctext "The Du Bois Challenge 2026: Maps" 50 94 3 "sans" "white"
+		ctext "The Du Bois Challenge 2026: Maps" 50 94 3 "sans" spotcolor
 		cimage "images/original-plate-01.jpg" "1: Feb 9"  10 imy ims 0
         cimage "images/original-plate-02.jpg" "2: Feb 16" 30 imy ims 0
         cimage "images/original-plate-05.jpg" "3: Feb 23" 50 imy ims 0
@@ -485,7 +481,7 @@ deck
 	slide bgcolor fgcolor
 		imy=75
 		ims=5
-		ctext "Venues:" tx ty ts
+		ctext "Venues:" tx ty ts "sans" spotcolor
 		cimage "images/bluesky-logo.png" "BlueSky"     10 imy ims 0
 		cimage "images/twitter-logo.png"  "X"          30 imy ims 0
 		cimage "images/slack-logo.png"    "DVS Slack"  50 imy ims 0
@@ -502,7 +498,7 @@ deck
 
 	// TOC: Using github
 	slide bgcolor fgcolor
-		ctext "Using github" tx ty ts
+		ctext "Using github" tx ty ts "sans" spotcolor
 		image "images/github-readme.png" 24 45 45 0 100 ghlink01
 		image "images/github-data.png"   74 45 50 0 100 ghlink02
 	eslide
@@ -513,7 +509,7 @@ deck
 		ay=70
 		axincr=12
 		ayincr=25
-		ctext "Announcement Thread" tx ty ts
+		ctext "Announcement Thread" tx ty ts "sans" spotcolor
 		image "images/bluesky-thread00.jpg" 25 45 35 0 100 bslink
 		rbrace 48 45 80 4 4 0.4
 		grid "threads.dsh"  55 70 11 22 90
@@ -521,7 +517,7 @@ deck
 	eslide
 
 
-	// TOC: plates+blurbs
+	// TOC: Challenge Plates
 	blurbx=50
 	blurby=85
 	blurbw=40
@@ -599,13 +595,18 @@ deck
 		textblock blurb10 blurbx blurby blurbw blurbs blurbfont
 	eslide
 
-	
+	// TOC: Sundown Towns
+	slide bgcolor fgcolor
+		image "images/sundown01.jpg" 20 50 40 0
+		textblock sdblurb blurbx blurby blurbw blurbs blurbfont
+	eslide
+
 	// TOC: Completions
 	slide bgcolor fgcolor
 		helink="https://github.com/Heed725/Dubois_Challenge_2026"
 		xblink="https://observablehq.com/collection/@x-b-workspace/duboischallenge2026"
 		jrlink="https://github.com/drjohnrussell/DuboisChallenge/tree/main/2026"
-		ctext "Complete Sets"  tx ty ts
+		ctext "Complete Sets"  tx ty ts "sans" spotcolor
 		ims=7
 		textblock "Hemed Lungo"   2 75 3 2 "sans" "" 100 helink
 		textblock "Xiong- Biao"   2 50 3 2 "sans" "" 100 xblink
@@ -613,7 +614,7 @@ deck
 		grid      "compgrid.dsh"  20 75 8 25 95
 	eslide
 
-	// TOC: References
+	
 	ref01="https://github.com/ajstarks/dubois-data-portraits"
 	ref02="https://github.com/ajstarks/modern-dubois-viz"
 	ref03="https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america"
@@ -623,8 +624,9 @@ deck
 	ref07="https://www.artbook.com/9781942884538.html"
 	ref08="https://credo.library.umass.edu/"
 
+	// TOC: References
 	slide bgcolor fgcolor
-		ctext "References" tx ty ts
+		ctext "References" tx ty ts "sans" spotcolor
 		refx=5
 		reftop=82
 		refy=reftop
@@ -681,7 +683,4 @@ deck
 	ims3=ims2/4
 
 	include "bizcard.dsh"
-
-	
-
 edeck
