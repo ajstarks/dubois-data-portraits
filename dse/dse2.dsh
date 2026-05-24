@@ -38,6 +38,12 @@ deck
 	goal10="A general sociological study of the racial conditions in the United States"
 	comreport="Report of The Commissioner-General for the United States to the International Universal Exposition, Paris 1900, Vol. II, pg. 463"
 
+	brifdaylink="https://digital.librarycompany.org/islandora/object/Islandora%3A68396?solr_nav%5Bid%5D=6218d370996048bd22e0"
+	uncletomlink="https://digital.librarycompany.org/islandora/object/digitool%3A127860?solr_nav%5Bid%5D=68e772e1ed72463f1271"
+	amanlink="https://digital.librarycompany.org/islandora/object/digitool%3A130973"
+	masherlink="https://digital.librarycompany.org/islandora/object/digitool%3A127847"
+	cornercottonlink="https://digital.librarycompany.org/islandora/object/Islandora%3A20366?solr_nav%5Bid%5D=b4bf7ec290095d540d54"
+
 
 	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
 	wk01link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489"
@@ -76,9 +82,10 @@ deck
 		image "images/original-plate-06.jpg"    70 imy 27 0
 		image "images/original-plate-27.jpg"    85 imy 27 0
 		text subtitle 3 7 1.5
-		//etext "Allen Hillery"  97 7 1 "sans" spotcolor
 		etext "Anthony Starks" 97 4 1 "sans" spotcolor
 	eslide
+
+	include "toc.dsh"
 
 	// TOC: Du Bois at Fisk
 	slide bgcolor fgcolor
@@ -227,6 +234,42 @@ deck
 		circle p5  dy 1 "maroon"
 	eslide
 
+	// TOC: Counter-narrative
+
+	slide bgcolor fgcolor
+		ctext "The Counter-Narrative" 50 50 5 "sans" spotcolor
+	eslide
+
+
+	slide bgcolor fgcolor
+		image "images/aman02.jpg"                          30 55 33 0 100 amanlink
+		image "images/woman-feather-1900.jpg"              70 55 35 0
+		ctext "Saloon Ad, Philadelphia (1886)"             30 5  2 "serif"
+		ctext "Young Woman ca. 1900"                       70 5  2 "serif"
+
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/birfday.jpg"                        30 55 40 0 100 brifdaylink
+		image "images/young-girl-1900.jpg"                70 55 33 0
+		ctext "Foh yo' birfday! (1890)"                   30 5  2 "serif"
+		ctext "Young Girl ca. 1900"                       70 5  2 "serif"
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/aman02.jpg"                         30 55 33 0 100 amanlink
+		image "images/woman-feather-1900.jpg"             70 55 35 0
+		ctext "Saloon Ad, Philadelphia, 1886"             30 5  2 "serif"
+		ctext "Young Woman ca. 1900"                      70 5  2 "serif"
+	eslide
+
+	slide bgcolor fgcolor
+		image "images/uncle-tom.jpg"                      30 55 45 0 100 uncletomlink
+		image "images/family-group.jpg"                   75 55 40 0
+		ctext "Uncle Tom's Cabin. On the Levee, 1899"     30 5  2 "serif"
+		ctext "Family Group ca. 1900"                     75 5  2 "serif"
+	eslide
+
 	// TOC: Ten Goals
 	slide bgcolor fgcolor
 		ctext "Calloway's Ten Goals" tx ty ts "sans" spotcolor 100 goallink
@@ -348,7 +391,7 @@ deck
 		ctext "28”" 30 50 3 "sans" "maroon"
 	eslide
 
-	// TOC: original catalog
+	// TOC: Original catalog
 	slide bgcolor spotcolor
 		ims=6
 		grid "ocatalog.dsh" 5 90 10 16 95

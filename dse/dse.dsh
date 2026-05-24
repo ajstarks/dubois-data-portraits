@@ -44,6 +44,14 @@ deck
 	wk05link02="https://youtu.be/5xeJIcBv-nk"
 	quiltlink="https://alglobehopper.medium.com/how-quilts-and-data-visualizations-can-serve-as-beacons-of-hope-5971df3919d2"
 
+	balink="https://publicdomainreview.org/essay/black-america-1895"
+	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
+	phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
+	wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
+	moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
+	expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+
+
 	slide bgcolor fgcolor
 		//ruler 5 "crimson"
 		imy=50
@@ -74,10 +82,10 @@ deck
 	slide bgcolor fgcolor
 		imid=55
 		ctext       "The Philadelphia Negro, 1897" tx ty ts "sans" spotcolor
-		image       "images/philly09.png" 16 imid  880 909 65
-		image       "images/philly12.png" 51 imid 1112 930 65
-		image       "images/philly03.png" 85 imid 809 903  65
-		textblock   philly 12 17 70 2 "serif"
+		image       "images/philly09.png" 16 imid  880 909 65  phillylink
+		image       "images/philly12.png" 51 imid 1112 930 65 phillylink
+		image       "images/philly03.png" 85 imid 809 903  65 phillylink
+		textblock   philly 12 17 70 2 "serif" "" 100 phillylink
 	eslide
 
 	// Context
@@ -147,12 +155,7 @@ deck
 	// peaking in 1899 when twenty-seven Georgians fell victim to lynch mobs.
 	// Between 1890 and 1900 Georgia averaged more than one mob killing per month.
 
-	balink="https://publicdomainreview.org/essay/black-america-1895"
-	plessylink="https://www.britannica.com/event/Plessy-v-Ferguson-1896"
-	phillylink="https://www.google.com/books/edition/_/sqwJAAAAIAAJ?hl=en&amp;gbpv=1&amp;pg=PR1&amp;dq=editions:qKWdGndN6W4C"
-	wilmlink="https://en.wikipedia.org/wiki/Wilmington_insurrection_of_1898"
-	moblink="https://en.wikipedia.org/wiki/Lynching_of_Sam_Hose"
-	expolink="https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes"
+	
 
 	slide bgcolor fgcolor
 		dy=30
