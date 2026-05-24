@@ -1,3 +1,3 @@
 #!/bin/sh
-dshtoc -pgcolor maroon -bgcolor linen -ls 1.5 -cw 40 -title "Contents" dse2.dsh  > toc.dsh
+#dshtoc -pgcolor maroon -bgcolor linen -ls 1.5 -cw 40 -title "Contents" dse2.dsh  > toc.dsh
 decksh dse2.dsh|pdfdeck -pagesize 1920x1080  -sans $decksans -serif $deckserif -mono $deckmono -stdout - > dse2.pdf
