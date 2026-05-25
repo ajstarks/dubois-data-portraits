@@ -43,7 +43,6 @@ deck
 	masherlink="https://digital.librarycompany.org/islandora/object/digitool%3A127847"
 	cornercottonlink="https://digital.librarycompany.org/islandora/object/Islandora%3A20366"
 
-
 	wk07link03="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1742522997986399"
 	wk01link02="https://datavizsociety.slack.com/archives/C04N7FZ1S82/p1741536272911489"
 	wk05link02="https://youtu.be/5xeJIcBv-nk"
@@ -398,15 +397,15 @@ deck
 	// TOC: Du Bois Challenge
 	slide bgcolor
 		imy=70
-		ims=30
+		ims=25
 		ctext "Dubois Challege 2021-2026" tx ty ts "sans" spotcolor
-		cimage  "images/cat2021.jpg" "2021" 15 imy 25 0
-		cimage  "images/cat2022.jpg" "2022" 50 imy ims 0
-		cimage  "images/cat2023.jpg" "2023" 85 imy ims 0
-		imy-=45
-		cimage "images/cat2024.jpg" "2024" 15 imy ims 0
-		cimage "images/cat2025.jpg"  "2025" 50 imy ims 0
-		cimage  "images/cat2026.jpg" "2026" 85 imy ims 0
+		cimage  "images/cat2021.jpg"  "2021" 20 imy 22 0
+		cimage  "images/cat2022.jpg"  "2022" 50 imy ims 0
+		cimage  "images/cat2023.jpg"  "2023" 80 imy ims 0
+		imy-=42
+		cimage "images/cat2024.jpg"   "2024" 20 imy ims 0
+		cimage "images/cat2025.jpg"   "2025" 50 imy ims 0
+		cimage "images/cat2026.jpg"   "2026" 80 imy ims 0
 	eslide
 
 	// TOC: Allen and Sekou
