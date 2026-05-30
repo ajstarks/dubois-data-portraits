@@ -8,8 +8,12 @@ deck
 	ty=90
 	tx=mid
 
-	title="Du Bois and the Power of Data Storytelling"
+	title="Du Bois and the Power of Storytelling"
+	title="Du Bois's Pioneering Data Visualizations"
+	title1a="Du Bois's Pioneering Data Visualizations"
+	title1b="Intent, Data and Counter-Narrative"
 	subtitle="Ten Goals: The Importance of Intent"
+	subtitle="Intent, Data, and Counter-Narrative"
 	quote="“Some mornings as I look about upon the two or three hundred of my companions assembled for morning prayers I can hardly realize they are all my people; that this great assembly of youth and intelligence are representatives of a race which twenty years ago was in bondage.”"
 	duboisfisk="W.E.B. Du Bois at Fisk, circa 1885"
 	scudder="Letter from Du Bois to Pastor Scudder, Feb 3, 1886"
@@ -72,15 +76,17 @@ deck
 	// TOC: Title
 	slide bgcolor fgcolor
 		//ruler 5 "crimson"
-		imy=50
+		imy=45
 		ims=25
 		ctext title tx ty ts "sans" spotcolor
+		//text title1a 5 ty  ts "sans" spotcolor
+		//text title1b 5 82  ts "sans" spotcolor
 		image "images/dubois-1900.png"          15 imy ims 0
 		image "images/expo0.png"                40 imy 26 0
 		image "images/original-plate-01.jpg"    55 imy 27 0
 		image "images/original-plate-06.jpg"    70 imy 27 0
 		image "images/original-plate-27.jpg"    85 imy 27 0
-		text subtitle 3 7 1.5
+		ctext subtitle 50 5 3
 		etext "Anthony Starks" 97 4 1 "sans" spotcolor
 	eslide
 
@@ -252,6 +258,7 @@ deck
 		ctext "Foh yo' birfday, 1890"                     30 5  2 "serif"
 		ctext "Young Girl, ca. 1900"                      70 5  2 "serif"
 	eslide
+
 
 	slide bgcolor fgcolor
 		image "images/uncle-tom.jpg"                      30 55 45 0 100 uncletomlink
@@ -515,7 +522,7 @@ deck
 	// TOC: Challenge Plates
 	blurbx=50
 	blurby=85
-	blurbw=40
+	blurbw=35
 	blurbs=2.5
 	blurbfont="serif"
 
@@ -556,7 +563,7 @@ deck
 
 	// TOC: Week 6
 	slide bgcolor fgcolor
-		image "images/original-plate-09.jpg" 25 50 40 0
+		image "images/original-plate-20.jpg" 25 50 40 0
 		ctext "Week 6" 25 96 1.5
 		textblock blurb06 blurbx blurby blurbw blurbs blurbfont
 	eslide
@@ -592,7 +599,7 @@ deck
 
 	// TOC: Sundown Towns
 	slide bgcolor fgcolor
-		image "images/sundown01.jpg" 20 50 40 0
+		image "images/sundown01.jpg" 25 50 40 0
 		textblock sdblurb blurbx blurby blurbw blurbs blurbfont
 	eslide
 
@@ -662,7 +669,7 @@ deck
 		refy-=refspacing
 		text ref02 refx refy refs reffont refcolor 100 ref02
 		refy-=refspacing
-		text ref02 refx refy refs reffont refcolor 100 ref08
+		text ref08 refx refy refs reffont refcolor 100 ref08
 	eslide
 
 	// TOC: Business Card
